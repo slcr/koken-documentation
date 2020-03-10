@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Custom themes and plugins</title>
+    <link>http://help.koken.me/customer/portal/topics/696974-custom-themes-and-plugins</link>
+    <description>Custom themes and plugins articles</description>
+    <item>
+      <title>Help importing postings</title>
+      <description>Hi, I found the following script:
+
+insert into koken.koken_text select 
+ID,
+post_title,
+post_content,
+post_excerpt,
+0,
+0,
+unix_timestamp(post_date),
+unix_timestamp(post_date),
+unix_timestamp(post_modified),
+'',
+md5(concat(post_title,post_date))
+from
+wordpress.wp_posts
+where
+post_status = 'publish'
+and post_content != ''
+and post_type = 'post';
+
+this doesn't seem to work anymore. Looks like stuff changed since 2013.
+I want to import my Wordpress-Postings into Koken, though I don't see 
+any. I assume the database-entries changed?
+
+Is there another way to import Wordpress-message bulk-wise?</description>
+      <pubDate>Sun, 06 Sep 2015 03:47:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14305874</link>
+    </item>
+    <item>
+      <title>Plugin Tutorial</title>
+      <description>I followed this step by step:
+http://help.koken.me/customer/portal/articles/835102-building-your-first-plugin
+
+The plugin appears in the backend (after clearing cache) and indicates that it's been "enabled" but does not insert the alert into the head (of the front end or backend) leading me to believe that the plugin tutorial is out of date or non-functional.
+
+Please revise.
+</description>
+      <pubDate>Fri, 04 Sep 2015 17:51:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14303006</link>
+    </item>
+    <item>
+      <title>skip like feature to scroll over thumbnail photo</title>
+      <description>Hello, 
+
+I really want to make it so the user can scroll the mouse over a thumbnail pic and it creates an iskip (or this is the closest term i have found to describe this feature). In other words as you scroll the mouse over a thumbnail the image changes to other images in the album. It is the same feature in iPhoto when you fun the mouse over a photo album. Here i found an example but for wordpress:
+
+https://wordpress.org/plugins/dsidxpress-iskip/
+
+I am using the elementary theme. Any one have any idea how i can do this? I've been looking forever and can't seem to find a solution....
+
+Thank you so much anyone for any suggestions, 
+
+Lilly
+
+
+</description>
+      <pubDate>Wed, 26 Aug 2015 20:20:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14263478</link>
+    </item>
+    <item>
+      <title>Finally, Facebook comments plugin for Koken</title>
+      <description>Finally it's here: Facebook comments for your Koken site.
+Thanks to Martin Herbst and Koken Community Support, we can now enjoy not only the "like button" but we are also able to connect via comments to Facebook. :)
+
+Get it here: http://kokensupport.varoystrand.se/viewtopic.php?f=17&amp;t=156
+
+Best regards, Bjarne 
+Koken Community Support - http://kokensupport.varoystrand.se/ </description>
+      <pubDate>Sun, 23 Aug 2015 16:59:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14251793</link>
+    </item>
+    <item>
+      <title>Scrolling in Madison theme</title>
+      <description>Hello, I was wondering whether it is possible to have a horizontal scrolling in Madison theme instead of vertical?
+</description>
+      <pubDate>Sat, 22 Aug 2015 14:10:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14247914</link>
+    </item>
+    <item>
+      <title>Overriding Core Functions</title>
+      <description>Hi everybody,
+
+currently I'm developing a custom plugin. To make it work correctly I need to extend/override two core functions located in /app/site/site.php and /app/tag/TagTitle.php.
+
+Koken's API is not documented, so I wonder if anyone knows how to extend kokens core without touching files in the "app" folder. 
+
+Thanks in advance and cheers
+Chris</description>
+      <pubDate>Sat, 15 Aug 2015 22:48:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13276113</link>
+    </item>
+    <item>
+      <title>Multulanguage suppoprt</title>
+      <description>Good day.
+
+Could you please let me know if there is a multi language support implemented in the KOKEN? I really need it, but i was not able to find it in the AXIS. Probably anu other theme supports it? Or should i setup another site with another language? Appreciate your help. 
+
+Regards, 
+Sergey Semikov  </description>
+      <pubDate>Wed, 19 Aug 2015 16:58:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13203913</link>
+    </item>
+    <item>
+      <title>different album template in same theme</title>
+      <description>Can make two diffent album template in the same theme.
+
+Maybe by showing it diffrent if comming from a set, og just the album list.
+
+Saw that you can make your own templates, but that's only for one page? 
+And i saw that you make the link go to another tamplate, like the set link
+
+
+But can you make that if you comes from a set viewing and clicking on a album it goes to another template that the default album template?</description>
+      <pubDate>Wed, 12 Aug 2015 09:14:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13085642</link>
+    </item>
+    <item>
+      <title>Adding Google + Address to my site</title>
+      <description>http://edbeckphotography.com
+
+Theme: Madison 2
+
+I have the social media icons on the navigation bar, but my Google + address is incorrect.  Where do I set the address?  (https://plus.google.com/u/0/+EdBeckPhotographyPuyallup/about)
+
+</description>
+      <pubDate>Tue, 11 Aug 2015 00:15:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13083225</link>
+    </item>
+    <item>
+      <title>Slidshow Editor does not work</title>
+      <description>Hello Koken Team,
+
+I try to build a coustom theme and until now everything is fine.  Thank you for the great tutorial. I insert a Sildeshow to the HOME-Site with  and it works. Now I want to edit the slideshow setting with the Site console in the CMS but it does not work. Any changes I have made do not work. The changes are not accepted and the "No changes"-button is still inactiv. Is there a way to edit the Slideshow-setting in an other way to get something like this http://ironsummitmedia.github.io/startbootstrap-full-slider/?
+
+Thanks for help.
+Tim</description>
+      <pubDate>Mon, 10 Aug 2015 15:28:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13079147</link>
+    </item>
+    <item>
+      <title>Theme boulevard - albums masonry gallery</title>
+      <description>Hello!
+
+Hi just discovered Koken yesterday, and I want to make my portfolio with this CMS.
+I'm customising the boulevard theme, and as I'm not really skilled in code, I don't know how I can display my albums in a "masonry" style.
+
+I use the theme "boulevard" who perfectly fit my needs, but when I click on an set of album, it shows some thumbnails like that: 
+http://oi60.tinypic.com/1pdzl0.jpg
+As you can see, the thumbs are… "line by line", and doesn't fill the gapes between each others… 
+
+But I want theses thumbnails to show like that: 
+http://i62.tinypic.com/2s8im11.png 
+(from the "Ensemble" theme)
+
+I tried some jquery scripts but I don't know a lot about JS and nothing worked…
+I read "Using Pillar" tutorial, but doesn't seems to work, actually it doesn't change anything :/
+
+Is there any simple ways I could do that, without many coding skills?
+
+By the way, thanks for Koken, it's very easy to use, and totally functional :)) I really like it!
+
+Cheers,
+Xavier
+
+(sorry if my english is bad)</description>
+      <pubDate>Thu, 06 Aug 2015 11:58:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13064152</link>
+    </item>
+    <item>
+      <title>Can you get auditing essay help from custom essay writing service?</title>
+      <description>Essay Writing Service is one of the important topic.Custom essay writing service is providing to Accounting ,Auditing ,Chemistry ,Physics and Biology ,Botany etc.all types of essay writing .Auditing essay writing is following to all types of Small and large scale companies .It is maintain yearly once and auditing is one of the important one.
+http://www.essayscouncil.com</description>
+      <pubDate>Tue, 04 Aug 2015 09:39:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13055700</link>
+    </item>
+    <item>
+      <title>Can you get auditing essay help from custom essay writing service?</title>
+      <description>Essay Writing Service is one of the important topic.Custom essay writing service is providing to Accounting ,Auditing ,Chemistry ,Physics and Biology ,Botany etc.all types of essay writing .Auditing essay writing is following to all types of Small and large scale companies .It is maintain yearly once and auditing is one of the important one.
+</description>
+      <pubDate>Tue, 04 Aug 2015 09:38:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13055698</link>
+    </item>
+    <item>
+      <title>How to show Album content grouped by categories?</title>
+      <description>I want to show an album page grouping the content by categories.
+I tried in several ways unsuccessfully.
+How I can manage it to work?
+
+Thank you</description>
+      <pubDate>Tue, 04 Aug 2015 14:09:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13045466</link>
+    </item>
+    <item>
+      <title>Aspect ratio change on breakpoint (responsive aspect ratio)</title>
+      <description>Hi guys,
+
+I'm working on a custom theme and would like to be able to change the image aspect ratio based on screen width. For instance I want the images to load as a square on mobile (ie 1:1) but on bigger screens would like an aspect ratio of 16:9. Is there a way to change the aspect ratio value based on a user defined breakpoint in Koken? 
+
+Thanks for the help. 
+
+Lex</description>
+      <pubDate>Sat, 25 Jul 2015 16:15:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12997652</link>
+    </item>
+    <item>
+      <title>Slideshow sizing</title>
+      <description>I'm having some issues with the Pulse slideshow on the site I'm working up here... 
+
+http://www.lharepresents.com.php53-21.ord1-1.websitetestlink.com/
+
+It's a modification of the Madison 2 theme. No matter what I do I can't get it to show all the image at all the widths. It either crops top and bottom or left and right and I'm pretty sure I've tried all the different options for the sizing. I've currently got it set to height="100%". The slideshow div that contains the Pulse code is definitely filling the space in the browser window and I just want the slideshow to show all the content in the frame. Is that possible?
+
+-------
+
+Just in case anyone from Koken is listening – I've sent two support requests (requesting a personal response) in relation to this over the last few weeks and neither have received any response. Not even an automated response. Is the contact system working?</description>
+      <pubDate>Sat, 25 Jul 2015 16:16:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12992224</link>
+    </item>
+    <item>
+      <title>OxyGen 1.9.3 available for download!</title>
+      <description>
+My custom theme that I use for my personal Koken site is now ready for download!
+
+This theme has up to now been "exclusive" for visitors to Koken Community Support: but now we want to share the "love" with everybody! ;) :)
+
+
+Documentation can be found here: http://varoystrand.se/sidor/oxygen/
+Downloads can be found here: http://kokensupport.varoystrand.se/viewtopic.php?f=16&amp;t=32
+Source code: https://github.com/BlackSkorpio/OxyGen
+
+Hope some of you find it useful, if you do: don't hesitate to tell us by adding your site to our "Showcase your site" listing
+
+Best regards, Bjarne 
+Koken Community Support - http://kokensupport.varoystrand.se/ </description>
+      <pubDate>Fri, 24 Jul 2015 03:14:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12948458</link>
+    </item>
+    <item>
+      <title>Question about customizing default theme</title>
+      <description>From where I can access the data like site tagline from files included in the theme. I want to change navigation from from HTML or any other lens file. Actually I want to change each and every text appearing on the page. Can I do this?</description>
+      <pubDate>Fri, 24 Jul 2015 03:16:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12945053</link>
+    </item>
+    <item>
+      <title>share plugin?</title>
+      <description>How can i deactivate the share plugin? for my pictures?
+I want to remove the share button for twitter, Facebook, pinterest and google+, I don´t know if it is a plugin or anything else. I only want to remove it.
+Best regards
+Johannes Backes</description>
+      <pubDate>Fri, 24 Jul 2015 03:17:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12909802</link>
+    </item>
+    <item>
+      <title>Image Protector works on Index only (?)</title>
+      <description>Greetings there,
+
+I have a small problem with the Image Protector plugin.
+I don't know how, I don't know why ; but it works only on my index.lens, and in album.lens.
+
+When I'm in essay, essay, or my list of albums, the plugin doesn't work...
+You got any idea?
+
+You can check it there : http://www.michaelkuszla.com/demo (my theme is not finished and debugged)
+
+Thanks a lot,
+Michael</description>
+      <pubDate>Sat, 25 Jul 2015 16:16:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12897809</link>
+    </item>
+    <item>
+      <title>High priority!!!! Lightbox custom on Regale 2</title>
+      <description>Hello there!
+
+It's the fift mail without response, I'm worry because I launch my new website in a few days but I've some problem with the lihgtbox.
+Please, how can I customise the lightbox?  
+
+- I don't wan't to see the title of the website and title of the album writen down of the image in lightbox. I would like the caption appearing like an option, cliking on the "caption" word. Is it possible? How to do it? 
+- I want to change the arrows in lightbox, impossible to do it for now.
+- I would like to keep the hehader menu in the lightbox. During a bug, I saw it apperaing like that, there was the lightbox mode with header menu on the top, how can I customise it?
+- last question, I've activated the google fonts plugin but no fonts available on the typography settings. Is it normal? Do I need to use CSM custom to change fonts?
+
+Thanks for your help.
+</description>
+      <pubDate>Mon, 17 Aug 2015 07:54:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12861543</link>
+    </item>
+    <item>
+      <title>Clicky Analytics for Koken</title>
+      <description>As the subject tells: Clicky Web Analytics is now for Koken.
+Clicky is a powerful alternative to both Piwik and Google Analytics: with some really nice extra features!
+
+Documentation: http://varoystrand.se/sidor/clicky-web-analytics-for-koken-cms/
+Download and support: http://kokensupport.varoystrand.se/viewtopic.php?f=17&amp;t=48
+
+----------------------
+Regards, Bjarne
+Koken Community Support - http://kokensupport.varoystrand.se/</description>
+      <pubDate>Fri, 24 Jul 2015 03:22:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12861512</link>
+    </item>
+    <item>
+      <title>Madison 2 - Sidebar Overlay on image</title>
+      <description>Hello, 
+
+I have only couple of menu items in my sidebar and would like to utilize sidebar area for my image.  I want to know if its possible to have sidebar menu items overlay on images. 
+
+Here is the example, I am trying to make something like this. http://www.fashionphotographer.it/
+
+Please help with the approach, be it custom CSS or Koken settings. 
+
+Thanks,
+Kunal</description>
+      <pubDate>Sat, 25 Jul 2015 16:15:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12848088</link>
+    </item>
+    <item>
+      <title>koken:img tag has no src attribute</title>
+      <description>I'm trying to create a page that will display thumbnails of all the images with whatever tag is passed to the page. I'm adapting the elementary theme for this purpose. Here's my tag.lens template:
+
+
+
+
+	
+		
+		
+		
+		
+		
+	
+	
+		
+			
+		
+	
+
+	
+		
+			
+			
+			
+			
+		
+	
+
+	
+		
+			
+				
+					
+						
+							
+								{{ labels.tag.plural }}
+							
+						
+						
+							
+								
+									
+										{{ tag.counts.total }}
+										{{ tag.title }}
+									
+								
+							
+						
+					
+				
+			
+			
+		
+	
+
+
+
+I think event_content.html is the template I want for images so I've been working with that template. Here's my code for it:
+
+
+	
+		
+			
+				
+					
+						
+					
+				
+			
+
+			
+				
+					
+						
+					
+				
+			
+
+			
+				{{ labels.content.singular }}
+			
+			Published 
+
+			
+				
+					
+						
+							{{ discussion_count }}
+						
+					
+				
+			
+		
+
+		
+			
+				
+					
+						
+					
+				
+
+				
+					
+				
+
+				
+					
+						
+							{{ content.title | content.filename }}
+						
+					
+
+					{{ content.caption paragraphs="true" }}
+
+					
+						
+							
+								{{ tag.title }}
+							
+						
+					
+
+					
+						
+							See more in
+							
+								
+									{{ category.title }}
+								
+							
+						
+					
+				
+			
+		
+	
+
+
+
+Here's the output: http://ravenflight.net/index.php?/tags/light/
+
+Why do the image tags not have a src attribute? Am I supposed to specify that in the koken:img tag and if so, how can I get the path to the image?
+
+Thanks!</description>
+      <pubDate>Fri, 24 Jul 2015 03:26:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12839407</link>
+    </item>
+    <item>
+      <title>Original theme code loaded before custom CSS code</title>
+      <description>Hi,
+
+I have added custom CSS just to move up image on the page.
+What I see now is that when the page loads it loads as if my CSS code was not applied immediately and then it 'snapps' as if it was delayed.
+What can I do to make koken load the page straight away with my CSS code?
+
+Cheers,
+Marcin</description>
+      <pubDate>Fri, 24 Jul 2015 03:30:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12821234</link>
+    </item>
+    <item>
+      <title>compaire string vars in lens</title>
+      <description>HI ,
+
+how can I construct koken:if for compair is the album = set ? 
+
+
+aaaaaa
+
+
+
+aaaaaa
+
+
+doesn't work
+
+but {{ album.album_type }} prints "Set"</description>
+      <pubDate>Sat, 25 Jul 2015 16:14:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12786518</link>
+    </item>
+    <item>
+      <title>Cookie Consent plugin ready</title>
+      <description>Since there has been some questions about a "cookie consent plugin" for Kokens users in the EU, i gave it a try...
+
+The plugin is ready for download here: http://kokensupport.varoystrand.se/demo/pages/cookie-consent-plugin-for-koken-cms/
+
+A running demo can be found here: http://kokensupport.varoystrand.se/demo/pages/cookie-consent-plugin-for-koken-cms/
+
+Best Regards
+Bjarne
+Koken Community Support - http://kokensupport.varoystrand.se</description>
+      <pubDate>Fri, 24 Jul 2015 03:32:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12783149</link>
+    </item>
+    <item>
+      <title>insert HTML into ONE page only?</title>
+      <description>Using the HTML injector plugin, is there a way to have it on ONLY ONE of my pages in my Koken site? I want to set up a Shopify store, and it would need custom HTML, but I only see a way to add it to ALL of my pages, and I would only need it on one.  Choppily provides HTML code for each item I'd be selling, and I just want to have one page with a grid of items. As of now I can only add HTML to my entire site, which doesn't work for what I'm trying to do..  Using Repertoire theme. thanks in advance!</description>
+      <pubDate>Sat, 25 Jul 2015 16:14:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12749765</link>
+    </item>
+    <item>
+      <title>Koken:link to="custom" directs to homepage not custom lens</title>
+      <description>Hi guys,
+
+I've followed the information I can find about creating a custom content lens (cbox_content.lens) and adding it to info.json with:
+
+"cbox_content": {
+			"name": "Colorbox Content",
+			"description": "Displays a colorbox overlay of images/content",
+			"source": "content"
+		},
+
+However, when I click an image wrapped in  it directs me to the homepage!
+
+How can I fix this?
+
+Cheers,
+
+Rupert</description>
+      <pubDate>Wed, 03 Jun 2015 15:15:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12742766</link>
+    </item>
+    <item>
+      <title>koken theme </title>
+      <description>Hi, i installed koken. used it and made an error with the files. some of them were deleted. 
+I don't want to redo all the categories, themes i've made with my pictures.
+ So i reinstalled rename the the prefix of the table and deleted the new ones but the site doesent work anymore and put the message :
+The theme is not able to make contact with your Koken installation
+
+What can i do ?
+
+Thanks
+.
+</description>
+      <pubDate>Sat, 25 Jul 2015 16:14:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12729072</link>
+    </item>
+    <item>
+      <title>Navigation html</title>
+      <description>Hi Guys from Koken,
+
+I'm really into your CMS. I installed it already for a friend. You did a great job!
+Right now I'm learning more about developing my own theme. I was wondering how I'm able to change the HTML in which the navigation is rendered. It isn't rendered through a template right?
+
+Thanks in advance,
+
+Wieger</description>
+      <pubDate>Fri, 24 Jul 2015 03:40:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12612032</link>
+    </item>
+    <item>
+      <title>slideshow</title>
+      <description>Good evening.
+Very interested in how to get a slide show on these websites www.apoleshchuk.com and www.kumarov.com
+
+In the settings not found</description>
+      <pubDate>Fri, 24 Jul 2015 03:42:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12399445</link>
+    </item>
+    <item>
+      <title>video uplaod problem</title>
+      <description>Hello. 
+
+i have uploaded my mp4 video to my koken  library and in the selected album. On my website when i click on the album, i can press play, and the music starts but not the images. 
+why can i not see the images? 
+
+would be super happy for some help
+thanks in advance
+hannah </description>
+      <pubDate>Fri, 24 Jul 2015 03:43:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12296694</link>
+    </item>
+    <item>
+      <title>Original Asset URL</title>
+      <description>Hi
+
+I'm pretty sure I don't have access to the original asset URL of an uploaded gif in koken lens templates. But I would like it.
+
+Is it possible to get the url to the original upload of an asset using lens tags or variables?
+
+Thank you.
+
+Regards
+Mike
+</description>
+      <pubDate>Fri, 24 Jul 2015 03:44:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12240324</link>
+    </item>
+    <item>
+      <title>Second  language, bio page and blog &amp; shop pages.</title>
+      <description>Hello!
+1. i need to make my site both in my naitive language and in english. How it is possible to do this?
+2. Also i need to add primary links to make the special page for Bio and Contacts. I don't know how to do this.
+3.  Is it possible somehow to add blog and shop? This is what i really lack for the perfect site! Is it possible to make this?...</description>
+      <pubDate>Mon, 11 May 2015 16:49:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12149267</link>
+    </item>
+    <item>
+      <title>Setting dependencies: what is wrong?!?!?</title>
+      <description>Hi all!
+
+I'm trying to use a dependency in info.json to show/hide a whole group depending on what kind of footer is chosen;
+
+		"Footer Info": {
+			"icon": "info",
+			"dependencies": {
+				"evaluate": "any",
+				"conditions": [
+				{ "option": "footer_setting", "equals": "show_footer" },
+				{ "option": "footer_setting", "equals": "tiny_footer" }
+				]
+			},
+			"settings": {
+				"Personal info": {
+					"collapse": true,
+					"address_name_prefix": {
+						"label": "Name prefix",
+						"type": "string",
+						"value": "",
+						"note": "Prefix before your name, i.e: Photographer",
+						"note_align": "right"
+					},
+					"address_name": {
+						"label": "Your name",
+						"type": "string",
+						"value": "",
+						"note": "Your full name",
+						"note_align": "right"
+					},
+					"address_avatar_img": {
+						"label": "Image URL",
+						"type": "string",
+						"value": "",
+						"note": "The image to use as avatar (max 400x400px)",
+						"note_align": "right",
+						"dependencies": {
+							"evaluate": "all",
+							"conditions": [
+								{ "option": "footer_setting",  "equals": "show_footer" }
+							]
+						}
+					}
+				},
+				"Address Info": {
+					"collapse": true,
+					"address_street_info": {
+						"label": "Street",
+						"type": "string",
+						"value": "",
+						"note": "Your street adress",
+						"note_align": "right"
+					},
+					"address_postal_code": {
+						"label": "Postal code",
+						"type": "string",
+						"value": "",
+						"note": "Your postal code",
+						"note_align": "right"
+					},
+					"address_city_info": {
+						"label": "City name",
+						"type": "string",
+						"value": "",
+						"note": "City name",
+						"note_align": "right"
+					},
+					"address_country_info": {
+						"label": "Your country",
+						"type": "string",
+						"value": "",
+						"note": "Your country",
+						"note_align": "right"
+					}
+				},
+				"Footer links": {
+					"collapse": true,
+					"address_contact_page_id": {
+						"label": "Page id",
+						"type": "string",
+						"value": "",
+						"note": "Page id for your contactform",
+						"note_align": "right"
+					},
+					"address_copyright_page_id": {
+						"label": "Page id",
+						"type": "string",
+						"value": "",
+						"note": "Page id for your copyright info",
+						"note_align": "right"
+					}
+				},
+				"Social Footer links": {
+					"collapse": true,
+					"social_facebook_link": {
+						"label": "Facebook",
+						"type": "boolean",
+						"value": true,
+						"note": "Facebook account set in the Settings pane",
+						"note_align": "left"
+					},
+					"social_googleplus_link": {
+						"label": "Google+",
+						"type": "boolean",
+						"value": true,
+						"note": "Google+ account set in the Settings pane",
+						"note_align": "left"
+					},
+					"social_twitter_link": {
+						"label": "Twitter",
+						"type": "boolean",
+						"value": true,
+						"note": "Twitter account set in the Settings pane",
+						"note_align": "left"
+					},
+					"social_instagram_link": {
+						"label": "Instagram",
+						"type": "string",
+						"value": "",
+						"note": "Your Instagram handle",
+						"note_align": "right"
+					},
+					"social_fivepx_link": {
+						"label": "500px",
+						"type": "string",
+						"value": "",
+						"note": "Your 500px handle",
+						"note_align": "right"
+					},
+					"social_pinterest_link": {
+						"label": "Pinterest",
+						"type": "string",
+						"value": "",
+						"note": "Your Pinterest handle",
+						"note_align": "right"
+					},
+					"social_rss_essays_link": {
+						"label": "RSS Essays",
+						"type": "boolean",
+						"value": true,
+						"note": "Show link to your Essays feed",
+						"note_align": "left"
+					},
+					"social_rss_contents_link": {
+						"label": "RSS Contents",
+						"type": "boolean",
+						"value": true,
+						"note": "Shows link to your Contents feed",
+						"note_align": "left"
+					}
+				}
+			}
+		}
+
+This:
+"dependencies": {
+				"evaluate": "any",
+				"conditions": [
+				{ "option": "footer_setting", "equals": "show_footer" },
+				{ "option": "footer_setting", "equals": "tiny_footer" }
+				]
+			},
+Should work according to the theme tutorial!</description>
+      <pubDate>Mon, 11 May 2015 13:10:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12144355</link>
+    </item>
+    <item>
+      <title>"REGALE 2" – Count of collumns in different Albums</title>
+      <description>Hey!
+
+I wonder if there is a possibility to actually have a different count of columns in albums. or generally a different display option. 
+i.e. a grid for one album and a horizontal scroll gallery for another. 
+Would be great to have some more options on that as some projects have to be displayed differently.
+
+Thank you :-)</description>
+      <pubDate>Sat, 09 May 2015 15:19:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11965263</link>
+    </item>
+    <item>
+      <title>Pulse settings not saving on custom theme.</title>
+      <description>I've got a custom theme that I'm trying to add a Pulse slideshow to the index.lens.
+
+I can add the slideshow in fine and point it to the exact album I want with no problem, but when I try to change any of it's settings in the Koken admin dash, none of the settings will stay.  
+
+I click on the gear to make changes, but there is no save button so I figure I just click the "X" to close the "Edit slideshow" popup. But if I click the gear again, none of my settings stay; they all revert back to the default 3:2 size, no cropping, etc . 
+
+I've tried clearing the api cache, but my settings still will not stick. Any help would be appreciated. 
+
+-Nick</description>
+      <pubDate>Fri, 08 May 2015 17:28:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11877817</link>
+    </item>
+    <item>
+      <title>Direct link to the latest uploaded photo in specified album gallery</title>
+      <description>Hello,
+
+I could not solve this problem by my own. How to code link which will allways redirect user to latest uploaded image in specified album?
+
+For exampe I got 2 albums: characters &amp; episodes. I want to make little navi in template which will have a button to go to the latest episode in episodes album and it will change automaticly when I upload next photos.
+
+</description>
+      <pubDate>Wed, 20 May 2015 18:48:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11855760</link>
+    </item>
+    <item>
+      <title>Lightbox / Fancybox for a link</title>
+      <description>Hi Hope you can help?
+
+I am new to koken, and although know my way around a little html and php I cant see how to implement jqery plugins such as fancybox to make it useable. Ideally I would like to click on a link for a page and have the text  or content overlayed in a fancybox 2 window - preferably without the header and footer of the main template.
+
+Fancybox, I know is a 3rd party  code, however it should allow for the  tags to have the class applied to call it </description>
+      <pubDate>Thu, 07 May 2015 22:42:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11800213</link>
+    </item>
+    <item>
+      <title>Need help to show fullscreen slideshow </title>
+      <description>Hello there,
+
+I am trying to upgrade my photography website to KOKEN. www.pradeepsaini.in/koken . TO show a slideshow I had created a new page and added a slideshow to it. But it is showing too small in size. Plz guide me how can I make the slideshow to display on fullscreen. I tried the help but I can't understand where to add the code.  </description>
+      <pubDate>Fri, 07 Aug 2015 01:15:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11695524</link>
+    </item>
+    <item>
+      <title>support</title>
+      <description>I see an amazing professional work from your developers and try one free theme Elementary, what I did'nt like, because it is too simple for. I would like to try Regale2, but saw you worst support page, where you can not answer on the quastion for 2 month.</description>
+      <pubDate>Sat, 02 May 2015 16:45:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11686622</link>
+    </item>
+    <item>
+      <title>breadcrumbs</title>
+      <description>Hi guys,
+
+Is it possible to make a custom breadcrumb by using one's own layout?
+So one can for instance use the following setup:
+Album name &gt; image (remove the .jpg) &gt; 1/17
+Or even choose how one wants to display the breadcrumbs? There don't seem a lot if options to choose from.</description>
+      <pubDate>Thu, 30 Apr 2015 10:42:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11678603</link>
+    </item>
+    <item>
+      <title>Sell custom themes / plugins through the koken store?</title>
+      <description>I'm just wondering, if it is right now possible, to sell custom themes or plugins through the koken store?</description>
+      <pubDate>Fri, 07 Aug 2015 01:12:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11672754</link>
+    </item>
+    <item>
+      <title>Second instalation of Koken</title>
+      <description>I am going to use Koken for a new site. So, I have installed it a second time in a different server.
+How can I have access to the plugins I have already bought? I have to buy them a second time?</description>
+      <pubDate>Mon, 27 Apr 2015 19:10:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11666237</link>
+    </item>
+    <item>
+      <title>Publish to live while designing custom theme</title>
+      <description>I'm currently working on my own theme (started from Blueprint theme). I use an external editor to modify lens and css files on the server, which are picked up fine by Koken while in draft view. However, I run into the following issues.
+
+* Whenever I change the info.json I need to re-apply the theme for Koken to pick up on the changes. Although not a major issue it does remove any changes I made to the primary navigation. It would be nice to retain (in the info.json navigation settings) the primary navigation.
+
+* After changing css or lens files, how can I publish to live as Koken does not detect changes to the draft and does not enable the Publish button. I currently circumvent this by making changes in the settings panel within Koken, but I really would like a 'forced publish' button to be available.
+
+In summary, a Theme Developer mode would be nice to resolve these issues. Most pressing is the second issue as I need this quite a lot when checking across browsers.
+</description>
+      <pubDate>Wed, 22 Apr 2015 09:39:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11652222</link>
+    </item>
+    <item>
+      <title>Canonical URL don't work (Tag--Content-Page)</title>
+      <description>Hi
+
+my Theme based on 99% on Axis. I've added Tag/Categorie-Features from Blueprint and make an Tagcloud for Navigation. 
+
+My Online-Version from Koken is: 0.19.4, my Theme based on Axis 1.5.2
+=&gt; everything works fine.
+
+Now i want update to Koken 0.21.2 and my Theme should based on Axis 1.5.3 and new Blueprint-Version.
+
+=&gt; Canonical-Tag don't work correctly on
+URL: http://domain.tld/tags/[TAG 1234]/content/[NAME OF PIC]/
+
+Old-Version: 
+
+
+
+canonical is CORREKT
+og:url - no problem with this!
+
+Updated Version:
+
+
+	
+canonical is the same as og:url ... wrong.
+"/tags/[TAG 1234]/" is wrong ... how can i move this? I can't find any hints in theme-sources ...
+
+Same problem mit categories. Other canonicals works fine.
+
+You can view the old version: www.fotobastler.de -&gt; Tagcloud -&gt; Click a Tag -&gt; Click a picture - view Source
+Categories: click on Kategorien ...
+
+The new version isn't public. I've modified tags.lens, tag.lens, events.html, categories.lens, category.lens from blueprint (on last update - online ... no update from new blueprint).
+
+Any Ideas?
+TIA
+Patrick
+
+
+</description>
+      <pubDate>Sun, 23 Aug 2015 00:43:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11637446</link>
+    </item>
+    <item>
+      <title>Full Screen Slideshow Link</title>
+      <description>How can I link a full screen slideshow to a set or page by clicking the image. It's not implemented.</description>
+      <pubDate>Tue, 14 Apr 2015 21:00:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11632046</link>
+    </item>
+    <item>
+      <title>Custom navigation</title>
+      <description>Hello,
+I am trying to do navigation manually with following menu:
+- Homepage
+- Album1 (submenu with 3 links *all, *first, *latest)
+- Contact Page
+- About author
+- Album2 (submenu with each link to each photo).
+
+To be honest I can do almost all submenus manually with just static link to each page, but Album1 needs dynamic link to *latest which will change every done update at that album. 
+
+I will just edit NAV in index because I cannot set submenus at admin panel (or did not notice that possibility). I would be very grateful for any ideas /help how to create custom navi like that.
+
+</description>
+      <pubDate>Sat, 11 Apr 2015 11:08:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11621639</link>
+    </item>
+    <item>
+      <title>Link back to all albums an image is contained in?</title>
+      <description>Hi Everyone,
+
+I've got a collection of Featured Images that display on my home page. You click an  image and get the details page. Is there a way to include a link or links to the parents albums that image is contained in? 
+
+For example, if I have an outtake from a story in the Featured Images set and someone clicks that image from my home page, can I then have a link on the details page that would take the user to the album with the rest of the story?
+
+I've tried various iterations of  with  but it seems those variables are empty inside the Featured set.
+
+Thanks!
+-Brett</description>
+      <pubDate>Tue, 14 Apr 2015 16:28:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11613413</link>
+    </item>
+    <item>
+      <title>Madison Home Picture to small</title>
+      <description>Hello,
+
+I see other sides where the Picture on the Home side is very big example http://eloidelamonneraye.com/   But  i can set on side--home-- settings- Template  onlay the max page width on 1600px.... How can i make it bigger   www.brassart.de
+
+Thanks</description>
+      <pubDate>Fri, 03 Apr 2015 16:59:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11584775</link>
+    </item>
+    <item>
+      <title>Feature Request: Embedded Theme Editor</title>
+      <description>Hi,
+
+I've had a little test site set up for a while. I think Koken is great, I can upload media, edit pages and tinker from any old browser, even my phone, it makes my normal editing process look awkward. 
+
+I've never been too enthusiastic on the themes though. Which got me thinking... 
+
+Could you present the files controlling the theme through the Koken interface? So I can duplicate/edit themes inside the browser. It could promote more creative content.
+
+Cheers,
+Dave.
+</description>
+      <pubDate>Thu, 26 Mar 2015 16:22:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11561499</link>
+    </item>
+    <item>
+      <title>Change background-size of koken:background</title>
+      <description>Hi guys,
+
+First I have to say that I am a big fan of koken ! Great job !
+
+But I need some help. I made a custom template and I try to implement a full screen slideshow. I need to use koken:background and to change the attribute "background-size" (which  seems to be  by default at "cover").
+
+Is that possible ?
+
+Thanks</description>
+      <pubDate>Sun, 22 Mar 2015 21:36:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11545108</link>
+    </item>
+    <item>
+      <title>Koken responsive images placed client side?</title>
+      <description>Hi
+
+I am exploring placing images on page client side, in response to user interaction. If possible, I would like to take advantage of Koken's ability to serve responsive images. In lens, I do that by using:
+
+
+
+is there a way to place an image on page client side using javascript that is then loaded by Koken responsively rather than loading a specific image. The page output from:
+
+
+
+appears to be something like:
+
+
+
+
+
+
+I could mimic this in javascript, but I don't think I know what:
+
+http://localhost:8888/koken/storage/cache/images/000/003/image3,
+
+or:
+
+1348672193.jpg
+
+are from the data sets.
+
+Any pointers or advice greatly appreciated.
+
+Regards
+Mike
+
+</description>
+      <pubDate>Tue, 02 Jun 2015 00:43:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11544338</link>
+    </item>
+    <item>
+      <title>Custom PHP for redirect</title>
+      <description>Hi.
+
+I've created a custom .lens template called "mobile.lens".
+It's a one page design, which I'm looking to use for all mobile devices.
+
+But, here's the catch. Since I can't put any PHP in a .lens file, I'm kinda stuck on how to redirect from index.lens to mobile.lens (Or 'website.com/mobile').
+Found this nice little tool: http://mobiledetect.net
+But I'm kinda worried I will not be able to get it to work.
+
+If, at all, possible, I'd prefer to make it work with PHP instead of Javascript.
+
+Anyone any advise on this matter? Would be very helpful.
+
+Thanks in advance!
+
+Cheers.</description>
+      <pubDate>Tue, 02 Jun 2015 00:45:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11519641</link>
+    </item>
+    <item>
+      <title>Link from set directly to first album in set</title>
+      <description>So in my custom theme,  I have a list of sets (sets.lens) which link to each set (set.lens) which lists the albums in the set as links to each album (album.lens).
+I would prefer to have the link in the list of sets (sets.lens) link directly to the first album (album.lens) in the set.  Is this possible at the moment? Plans in the future?
+
+Thanks, Dominic.</description>
+      <pubDate>Fri, 13 Mar 2015 04:02:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11515717</link>
+    </item>
+    <item>
+      <title>{{ content.url }} and lightbox</title>
+      <description>Hi there,
+
+I cant figure out why 
+{{ content.url }} and  are both returning the url with a /lightbox/ at the end. I'm using this code on an album.lens template. 
+
+
+		
+			
+					
+						{{ content.url }}
+					
+				
+				{{ content.url }}
+				
+					
+		
+
+Any help would be really appreciated.
+
+Philip</description>
+      <pubDate>Tue, 02 Jun 2015 00:45:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11508116</link>
+    </item>
+    <item>
+      <title>AXIS 2 theme too large pictures</title>
+      <description>hello
+
+I'm using the theme axis and I would like to decrease the display size pictures.  In the Timeline photos are too big.
+
+How to proceed?
+
+For information when I go to the custom css option, nothing appears, no coding !!!!
+
+Thank you
+
+fdw</description>
+      <pubDate>Mon, 09 Mar 2015 17:23:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11505810</link>
+    </item>
+    <item>
+      <title>Is there a "development mode" for themes?</title>
+      <description>Hi
+These days i "discovered" koken. I really like what i've seen so far and started to develop my own theme. 
+"My" theme i work on is installed on my local koken installation. When i want to check changes after editing a file, i can see it "immediately" on the "draft" view of the "Site" within the admin interface. Fine. But if i want to see it on the "public" version of my koken instance, i have to do another few clicks  to publish the changes of my theme.
+Is there a way to modify my "koken development environment" which would allow me to see the changes on my theme immediately without "publisihng" the theme every time (just by reloading one browser window)?
+
+By the way. I also like your documentation, but to be honest, i haven't read all the tutorials, yet. (I hope  i haven't oversight the answer for my question in the docs.)
+
+kind regards,
+ Christoph</description>
+      <pubDate>Sun, 08 Mar 2015 21:32:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11503533</link>
+    </item>
+    <item>
+      <title>Changes in elementary won´t take effect</title>
+      <description>Hallo and Tag, 
+
+yesterday I started changing the language in the koken installation to german, which worked well so far on the backend (admin). I was able to get nearly everything in the library to be german. Now I started today in changing the frontend to german. But also after several times of system and browser cache clearing the changes do not take place. Front end like: share / previous / next / pagination still shows up in english. I am a little confused.
+
+I was also thinking about to use the Searchengine that is already integrated into the Library and working to use for the frontend. What do you think will that work ? By edding the Code from the lirary.tmpl.html to for example underneath the Navigation.
+
+
+				
+					
+					
+					
+
+					
+						
+					
+
+				 
+			 
+
+I am still not sure how to direct the Output to a Frontend site. But maybe someone elese has any idea on that. 
+
+Best regards 
+Ali </description>
+      <pubDate>Thu, 05 Mar 2015 09:36:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11492360</link>
+    </item>
+    <item>
+      <title>Header do not display in a custom .lens page</title>
+      <description>Hello,
+
+I created a new .lens template to add a google map page with pictures location on it.
+Here is the structure of the .lens file I created :
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+		
+			#map-canvas { margin: 0; padding: 0; height: 100%; }
+		
+		
+	
+
+
+
+
+	
+             ....
+             ....
+             ....
+	
+
+
+
+The footer display correctly, but the header, which is based in an image, does not display. Moreover, once I have visited the "map" page, all other pages experience the same behaviour, ie, header does not display.
+
+I also tried to adopt the structure defined in the help section (http://help.koken.me/customer/portal/articles/1140390-create-a-custom-page), with this structure instead :
+
+&lt;!DOCTYPE html&gt;
+
+
+  
+  
+  
+
+
+  
+    ....
+    ....
+  
+
+
+
+But I experience the same behaviour...
+
+You can see an example of the issue here :
+http://www.romdicos.photography/koken/
+
+You'll see the correct behaviour on the home page. Click on "map" in the footer section, and you'll see the issue I experience.
+
+Many thanks in advance for your help,
+
+Regards,
+</description>
+      <pubDate>Sun, 01 Mar 2015 12:47:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11471965</link>
+    </item>
+    <item>
+      <title>Change the navigation in elementary theme</title>
+      <description>The behavior of the navigation is by default the following :
+1- Click on an album displays all its images
+2- Click on an image of the album displays the image in view primary and all others in thumbnail
+
+I need to change what lines of code to avoid the click of the second step ?
+In fact, I want that by clicking on an album directly displays the first image in main view with the other images in thumbnail.
+
+I did a lot of tests in many files but I can't. 
+Thank you for help me.</description>
+      <pubDate>Fri, 27 Feb 2015 14:46:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11464619</link>
+    </item>
+    <item>
+      <title>Password Protect plugin and premium themes</title>
+      <description>Hello,
+According to this : http://blog.koken.me/essays/2015/02/password-protect-plugin-now-available/
+At the end of the post, there is this sentence : "Our premium themes – Axis 2, Madison 2, and Regale 2 – have been updated with custom login templates to match their unique style."
+
+I undestand that, buying a premium theme, the plugin Password Protect is already provided and installed (by default), so I don't have to purchase the premium theme + the password plugin ?
+
+Thank you in advance
+
+Teddy
+Toulouse, France</description>
+      <pubDate>Wed, 25 Feb 2015 14:34:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11455244</link>
+    </item>
+    <item>
+      <title>Aspect Ratio of pictures</title>
+      <description>Hello, can someone help please? The picture aspect ratio at www.floriansonntag.com -&gt; Portfolio -&gt; select an album is not 100% correct and I don't know how to change it. I'm trying since a couple of days without success. 
+Thanks!!</description>
+      <pubDate>Wed, 25 Feb 2015 07:22:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11454520</link>
+    </item>
+    <item>
+      <title>Plugins not showing</title>
+      <description>I am trying to install third party plugins manually copied to the storage/plugins folder and cleared cache/api but still the console is not showing the plugins. I think somethings wrong with the latest update.</description>
+      <pubDate>Sun, 22 Feb 2015 16:33:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11441040</link>
+    </item>
+    <item>
+      <title>Selective use of tags</title>
+      <description>I would like to have some drop-downs that each use a subset of tags to define their content.
+
+This structure gives me all of them:
+
+    
+      
+	{{ tag.title }}
+      
+    
+
+
+Is there a way I can use koken if, or another construct, to restrict the content to only tags which contain specific text?</description>
+      <pubDate>Thu, 26 Feb 2015 11:21:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11434465</link>
+    </item>
+    <item>
+      <title>Plugin system changes in 0.20.0</title>
+      <description>Hi there,
+
+I would love to have some insight on the changes to the plugin system and what the new functionality that is available consists of.
+
+I know 0.20.0 was just released so I understand that documentation can take some time, just wanted to show that there is interest :)
+
+Cheers
+</description>
+      <pubDate>Tue, 24 Feb 2015 10:23:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11413100</link>
+    </item>
+    <item>
+      <title>Add custom logo support to custom theme</title>
+      <description>I've set up my own theme and want to add support for everyone to upload their own logo to a certain div. Is this doable so users can access this upload through the Site-page in the admin panel, or do I have to hack something together with custom css?</description>
+      <pubDate>Tue, 17 Feb 2015 11:59:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11411454</link>
+    </item>
+    <item>
+      <title>Selector * in custom css</title>
+      <description>The css selector ' * ' is not recognized in the CSS customization. How to make a custom font to take effect in the whole of the site?</description>
+      <pubDate>Mon, 16 Feb 2015 13:27:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11407182</link>
+    </item>
+    <item>
+      <title>Change in custom theme only appears in preview.php</title>
+      <description>Hi!
+
+I'm testing Koken on a local server and I'm trying to do a custom version of Elementary theme. So I've duplicated Elementary folder, renamed it Elementary_custom, selected it in admin and started editing .lens files with Sublime Text 2.
+
+My issue is that changes made to the theme seems to appear only in preview, for example changes made on index.lens are visibles at localhost:8888/koken/preview.php and not at localhost:8888/koken/
+
+I must be missing something but haven't found answer anywhere, please can someone help me.
+
+Thanks in advance,
+Lowee</description>
+      <pubDate>Fri, 13 Feb 2015 16:24:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11395783</link>
+    </item>
+    <item>
+      <title>Fully custom theme</title>
+      <description>Hi,
+
+I'm having a difficulty to understand what can I actually do with Koken in terms of a custom theme. The case is simple: I have my own design and want to have my own functionality. That means tweaking with CSS of existing themes won't help me out. How does this go together with what Koken provides? Can I use Koken only as a CMS for my own site?
+
+Thanks for the info!</description>
+      <pubDate>Tue, 17 Feb 2015 11:56:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11381711</link>
+    </item>
+    <item>
+      <title>Boulevard - Video Album - Trying to define the height of my videos</title>
+      <description>Hi,
+
+I have a slightly custom Boulevard Theme.
+I'm using the Vimeo import plugin to create video albums.
+I don't find a way to define the height of videos : with my pictures albums, the pictures height is equal to the wrap (album intro) height and everything's working great, but with videos, the wrap is taller than my videos and so it looks bad.
+I tried to define height by adding  more or less around  but it's not working.
+I tried to look for some video attributes in settings.css.lens but I didn't find anything.
+
+For the moment the only way I could fix the video height was by using this jQuery script : 
+
+
+// Trouver les videos Vimeo
+var $allVideos = $("iframe[src^='//player.vimeo.com']"),
+    // L element contenant les videos: ici body
+    $fluidEl = $("body");
+ 
+// Trouver et sauvegarder le ration des dimensions de la video
+$allVideos.each(function() {
+  $(this)
+    .data('aspectRatio', this.height / this.width)
+ 
+    // Supprimer les tailles en dur de la video
+    .removeAttr('height')
+    .removeAttr('width');
+ 
+});
+ 
+// Evenement : Quand la fenetre est redimensionnée
+$(window).resize(function() {
+ 
+  var newWidth = $fluidEl.width() - 262;
+ 
+  // Redimensionner toutes les videos en fonction de leur ration
+  $allVideos.each(function() {
+ 
+    var $el = $(this);
+    $el
+      .width(newWidth)
+      .height(newWidth * $el.data('aspectRatio'));
+ 
+  });
+ 
+}).resize();
+
+This script gave me exactly what I wanted, the video height is the same than the warp height, but 2 problems appear : 
+- If I have another video in the album after the first one, the second one frame is going over the first video (right side of the first video under left side of the second)
+- I loose the dynamic resizing of contents if I reduce my window size : the video width is reducing the good way but height is getting stuck at original size so big black areas appear around the video frame and it's quite a mess.
+This script was doing great on a static page with the exactly same video embedded with  stuff, but appears to be unable to help me for a dynamic video album.
+
+So my questions are : is it possible to fix this video height problem in a video album ? How ? CSS, original page code, script ?
+Or maybe it's possible to define somewhere the exact size (width x height) I need for every video ?
+Actually I don't understand why everything's going well with pictures and not with videos, as they look to be treated the same way as an album by Boulevard...
+
+Thanks</description>
+      <pubDate>Mon, 09 Feb 2015 15:45:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11374218</link>
+    </item>
+    <item>
+      <title>essay link open in modal</title>
+      <description>Hi guys,
+
+I'm creating my own theme with bootstrap, I'm trying to make link in essays.lens and have it open in modal but it returns empty. How can I have the essay in question appear in modal on same page "essays.lens"?</description>
+      <pubDate>Sun, 08 Feb 2015 17:10:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11368352</link>
+    </item>
+    <item>
+      <title>photo titel</title>
+      <description>Hi,
+
+I am just setting my page with Axis theme and I am having a problem:
+
+Photo titel are displayed, even though everything is right in the settings. What am I missing? Please help me as soon as possible.
+
+Many thanks
+Dubravka</description>
+      <pubDate>Fri, 06 Feb 2015 23:39:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11359389</link>
+    </item>
+    <item>
+      <title>Load all Contents (photos) from within a Set</title>
+      <description>Hi,
+
+Any tips on how to load all photos from within a particular set (including all photos inside sub-sets and albums - basically all photos that are children of the chosen outer set)?
+
+Any advice greatly appreciated.
+
+What I've tried:
+
+1
+
+&gt;&gt;I'm guessing this doesn't work because the category would have to be applied to the individual images
+
+2
+
+&gt;&gt;I'm guessing this doesn't work because filter ids do not work with 'Contents' data-types (http://help.koken.me/customer/portal/articles/828690-lens-tags#filtertypes)
+
+3
+Also tried using conditionals  with lens variables , but this approach doesn't seem to work because there are no Data Variables for 'Contents', and the Global Variables don't seem to apply.
+(http://help.koken.me/customer/portal/articles/982033-lens-variables)
+
+Thanks! 
+
+ </description>
+      <pubDate>Thu, 05 Feb 2015 00:13:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11350531</link>
+    </item>
+    <item>
+      <title>Background</title>
+      <description>I am looking to add a responsive background to a custom template however I cannnot get .container to maintain 100% height on the browser (it only uses about half of the browser)
+
+Could anyone share an example of a background image?
+
+I am using filter.id to specify the image.
+
+Thanks,</description>
+      <pubDate>Tue, 17 Feb 2015 12:09:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11339363</link>
+    </item>
+    <item>
+      <title>Variable (path to original image)</title>
+      <description>Hi,
+is there a variable available for the path and file to the original image which is displayed in he lightbox.
+"{{ content.presets.extra_large.url }}" does not work for me.
+
+Thanks
+Dieter</description>
+      <pubDate>Fri, 12 Jun 2015 12:36:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11328568</link>
+    </item>
+    <item>
+      <title>Adding a responsive menu to a koken theme</title>
+      <description>Hello folks,
+
+Loving koken so far. I've been trying to figure out how to add something like http://responsive-nav.com/
+
+to the Boulevard theme. I'll just need to add a class to the nav and include a few css and js files. 
+
+Anyone care to point me in the right direction? 
+
+Where can I find how  is generated?
+
+Kind regards,
+
+Barry
+
+
+
+
+
+
+</description>
+      <pubDate>Thu, 29 Jan 2015 18:44:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11320551</link>
+    </item>
+    <item>
+      <title>Opacity Settings for Images on Albums page</title>
+      <description>So...what I am trying to do is sort of fine-grained, perhaps more than Koken can currently handle. I'm looking to see if anyone has an ideas on this, probably using .css customization that I haven't figured out how to do. My .css skills are Intermediate, and I am using the Regale theme. What I would like is this: 
+
+On my site, I have an Albums page, on which I have defined the images that link to the galleries to Show Titles Underneath. On the pages for the individual albums, I have defined the images that link to the individual images in the Albums to show titles on mouseover, with a opacity defined for the hover background. Like so:
+
+http://rickalfaro.com/koken/albums/
+
+and
+
+http://rickalfaro.com/koken/albums/landscapes/
+
+This is okay, but what I would really like is, on the Albums page, to have the titles underneath along with an opacity (similar to the one on the individual album pages) upon hover. Aesthetically this keeps things a little more consistent, and it makes it more obvious that it is a link.
+
+I have tried tweaking the .cc for the a.img-hover:hover span.overlay, i.e,:
+
+a.img-hover:hover span.overlay {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 0;
+}
+ 
+but to no avail, except when I set "Opacity:" to "1", it affects all of the pages on the site, and makes the hover a solid grey.
+
+Anyone have any experience or ideas on this?
+
+</description>
+      <pubDate>Wed, 28 Jan 2015 16:42:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11314539</link>
+    </item>
+    <item>
+      <title>html 5 video tag</title>
+      <description>I like to have a video in a loop in the background on my page. I suggest to use the video tag for that. In wich file would you intergrate that tag and on wich position?
+And how to make the video responive? I also tried it with css but I didn't succeed.
+
+</description>
+      <pubDate>Wed, 28 Jan 2015 09:08:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11313143</link>
+    </item>
+    <item>
+      <title>[Help Needed] Lightbox with Download + Social Media Stream</title>
+      <description>Hello, we are considering Koken for a customer site and there are two things that we have not yet figured out if they could be supported.
+
+Specifically the client is looking for a way to build a lightbox of images and then download those (ideally as a PDK). The second is a social media feed that pulls data from Facebook, Instagram, etc - for this latter request it seems like it would be something in the Timeline, but it seems not there yet.
+
+This raises two questions:
+1) Would these features be feasible
+2) Are there developers on the Forum that would be willing to quote for there implementation.
+
+Regards
+Neil
+</description>
+      <pubDate>Fri, 16 Jan 2015 01:58:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/10514273</link>
+    </item>
+    <item>
+      <title>Canvas in header</title>
+      <description>Hi there,
+As there has been no response to my last question I'll try a difference approach:
+
+Does anyone know how I might include a container for a canvas in my ensemble theme, or can help me with a customisation of the Ensemble theme to allow this please?
+
+Many thanks
+Paul</description>
+      <pubDate>Tue, 13 Jan 2015 02:39:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/10025697</link>
+    </item>
+    <item>
+      <title>About reisen theme</title>
+      <description>ı have a theme named REISEN. i ıntsall koken unproblem.but  when ı wıl ınstall reısen thme with ftp to /storage/themes. i see a warning like that.
+
+"Unable to transfer.
+This is most likely due to insufficient permissions. Verify both the destination path and permissions, then try again. If the problem persists, contact your system administrator or hosting provider."
+
+But my  permısssion koken 777. No problem there. in fıles like stroge or themes files permission is 755 and ı dıdnt change that. if ı try ı see other warning like that:
+
+"Request denied.
+Please verify that the file or folder exists and that you have the necessary permissions on the server to perform the requested operation."</description>
+      <pubDate>Mon, 12 Jan 2015 11:43:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9958310</link>
+    </item>
+    <item>
+      <title>contact form</title>
+      <description>Hello
+
+For safety, the e-mail address, I would appreciate a contact form. I think this is of interest to many Koken users.
+
+Can you to program a plugin please?</description>
+      <pubDate>Thu, 08 Jan 2015 19:51:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9927162</link>
+    </item>
+    <item>
+      <title>Pulse fullscreen issue</title>
+      <description>Can anyone help me. 
+
+This works fine:
+
+ 
+
+      
+        
+      
+		
+	
+		
+		
+		An image has not been set in the featured content section of the admin library.
+		
+
+
+
+
+However this does not:
+
+
+ 
+
+      
+            
+      
+		
+	
+		
+		
+		An image has not been set in the featured content section of the admin library.
+		
+
+
+
+
+I have seen the fullscreen pulse documentation but it doesn't not seem to help. 
+
+Any help appreciated. 
+
+Archie
+
+</description>
+      <pubDate>Wed, 07 Jan 2015 23:08:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9922363</link>
+    </item>
+    <item>
+      <title>Custom CSS deleted by fault</title>
+      <description>Hey, 
+
+I deleted my custom CSS by fault. I did not press publish, so my Website still looks like it should, but how can i get back my custom CSS code? I does not appear anymore when i sign out/sign in. 
+
+Please help!
+
+Best,
+Marius</description>
+      <pubDate>Mon, 02 Feb 2015 19:04:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9920520</link>
+    </item>
+    <item>
+      <title>Navigation HTML output</title>
+      <description>Hi Guys,
+
+is it possible that Koken produces a standard navigation like this:
+
+---------------------------------------
+Home
+Albums
+Interesting
+About Me
+---------------------------------------
+
+I need this because my theme is build with Bootstrap and it don´t work with the code which Koken creates.
+
+---------------------------------------
+ HomeAlbumsContentEssaysAllgemein                
+---------------------------------------
+
+I hope you understand what I mean because I am not very good in English. 
+
+Greetz,
+Jannis</description>
+      <pubDate>Mon, 10 Aug 2015 14:54:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9910179</link>
+    </item>
+    <item>
+      <title>Pillar not balancing images properly on page load</title>
+      <description>I'm running into a weird glitch with Pillar. For some reason when the page loads the images aren't being balanced right. The first 3 pillars are fine, but part of pillar 4 is pushed to the bottom of pillar one. When I resize the window it fixes itself.
+
+I do have the balanceColumns attribute set to true in the pillar function settings.
+
+I'm also having an issue where if I set lazy loading as true, the images won't load when I scroll down to them. They will load when I resize the window though, but I'd have to do that every page down to see all the content.
+
+Both these problems are fixed by resizing the window so I assume they're related. All other features of pillar are working fine.
+
+An idea as to what the problem is?</description>
+      <pubDate>Fri, 16 Jan 2015 04:48:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9906883</link>
+    </item>
+    <item>
+      <title>Customizing Axis 2</title>
+      <description>I have some questions about customizing my Axis 2:
+
+- How can i get the same the same title-divider line-content on my created pages like on my content pages? I would be nice if every page looks the same. I can add a  tag to my own pages so i get the divider line but the margins are not the same. On Koken content pages the distance between title - line - content is perfect but on my own pages the distance between title and line is bigger and between line and content its smaller... how can i get the same look?
+
+- How can i change that the "read more" and images are not always centered. Sometimes i use smaller images that i want to be on the left side and not centered. 
+
+Any help is very appreciated.
+
+Cheers,
+Daniel</description>
+      <pubDate>Sat, 03 Jan 2015 14:00:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9893338</link>
+    </item>
+    <item>
+      <title>Load content from this month/day</title>
+      <description>Is it possible to load content from the current month/day (any year) to be able to do a "On this date" type feature? In other words, load all content where the capture date's month and day are the same as today's.
+</description>
+      <pubDate>Sat, 03 Jan 2015 14:13:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9878140</link>
+    </item>
+    <item>
+      <title>primary cover image / changing scroll arrow position &amp; size  INDEPENDENTLY</title>
+      <description>Regale 2 &gt; primary cover image: 
+
+- What is the best way to change the size and position of the â€œscroll arrowâ€ INDEPENDENTLY from the theme â€œsocial media share links iconsâ€ and its â€œalbum descriptionâ€?
+
+- Within the console settings panel it is possible to define in the â€œTemplate Setup-Panelâ€ the position, the vertical &amp; horizontal padding, spacing of the cover-image-title, description, etc. 
+
+Well, the â€œscroll arrowâ€ is always positioned accordingly to the:
+- title 
+- album description 
+- share links icons
+
+I would like to change the:
+- postion 
+- size 
+the â€œscroll arrowâ€ which are are layered on-top of the primary cover image INDEPENDENTLY. I mean having the the title, description, social icon positioned on the left but the â€œscroll arrowâ€ in the CENTER of on the the  primary cover image.
+
+Is this only possible by CSS-programming? 
+What is the best way to do that? 
+I would also like to change the â€Title line-hightâ€ on top of the primary cover image. 
+
+Suggestion for future issues for Regale 2:
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”
+It would be nice to have also the possibility to change within the â€œTemplate Setup-Panelâ€ the â€œTitle line-hightâ€ which is layered on-top of the cover image. 
+
+Keep going, you guys are doing a great job :-)</description>
+      <pubDate>Mon, 05 Jan 2015 18:05:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9870389</link>
+    </item>
+    <item>
+      <title>How to make photo full screen on Medison 2</title>
+      <description>Hi. 
+
+First sorry about my English. 
+
+I bought Medison 2 theme. I used "Favorites slideshow" for first page. There is only one problem. I wanna size pics fullscreen. I looked other example websites. They did it. Their pics' size on slideshow can change but always fullscreen. 
+
+Could you help me? 
+
+Thanks. </description>
+      <pubDate>Thu, 08 Jan 2015 19:55:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9859232</link>
+    </item>
+    <item>
+      <title>Deactivate/ delete top navigation on Boulevard theme</title>
+      <description>Hi Koken,
+
+my website is http://lianggono.com/
+
+Is there any way to deactivate/ hide/ delete top navigation ( &lt; previous next &gt; )
+above the slides, on a Boulevard theme?
+
+Could you provide me a step-by-step guide for it?
+Thank you!</description>
+      <pubDate>Sat, 20 Dec 2014 21:07:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9849104</link>
+    </item>
+    <item>
+      <title>Unable to sort photos</title>
+      <description>Unable to sort with order_by="uploaded_on" with source="tag".
+
+
+	
+
+
+Load returns data with default order.</description>
+      <pubDate>Fri, 19 Dec 2014 00:28:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9847058</link>
+    </item>
+    <item>
+      <title>Strange behavior of koken:time Lens-Tag</title>
+      <description>Hello,
+
+I've been using koken for a while now and it is great! I use the regale 2 theme but have a weird problem with the content-page…
+
+First of all, I made some small adjustments, so that the alignment of the elements fits my needs. But that included just removing some divs and rearranging some of the lens-tags.
+
+Unfortunately I don't know if the following error occured before that, but I think it did… It's pretty strange.
+
+When I open a URL to a specific picture (e.g. http://oliverdohle.de/content/090919-0167/), the date is shown relative. The same if I reload the page.
+But if I now go back and forth, the date is shown the right way - as an absolute date. In the source-code the tag is just written in the default way:
+
+
+I also tried adding the options to it, but nothing helped:
+
+
+The strange part is, that if a page was already loaded and the content-page is loaded dynamically, the date is shown correctly. Only if I directly open the deep-link to the picture, the date is shown relative.
+
+I also tried going deeper into the code and looked at the time() function in /app/site/Koken.php… At the end of this function the code is echoed, so I modified the output before $text, to look if I am in the right function (kind of like a debug output to check whether I am on the right way in your code).
+And now I am even more confused! Again, everytime I open the page directly it simply shows the relative date and if I paginate, or open the picture from the grid it shows the absolute date including my "mark" that I put in the code.
+It seems if the -Tag is modified afterwards by JS or something, otherwise it would have to show the output that I hardcoded into the Koken-Core, wouldn't it?!  So I don't think it has to do with the realtive-option of the time Lens-Tag, but something else…
+
+
+Do you have any Idea how I can fix this? Or can you reproduce this on your side?
+
+Thank you and best regards,
+Tim D.</description>
+      <pubDate>Wed, 17 Dec 2014 01:06:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9837646</link>
+    </item>
+    <item>
+      <title>Borders around images</title>
+      <description>First of all I would like to take the opportunity to thank the Koken team for this great application. I switched from Zenphoto a while back and have not looked back since (well, except for some minor features).
+
+Now I'm currently trying to adopt my custom theme into Koken which involves adding a border around the displayed images. Now I found a strange behaviour which I have been able to reproduce with the Blueprint theme. I simply entered the following Custom CSS:
+
+img {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+	border: solid #ffffff 5px;
+}
+
+Once I publish those changes, the images magically disappear in the content template. Only the borders are shown. If I change the border width to 4px everything looks as expected.
+
+Any idea what might cause this behaviour? Running the latest Firefox on Windows 7 in case that's of any help.</description>
+      <pubDate>Fri, 06 Mar 2015 16:51:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9836827</link>
+    </item>
+    <item>
+      <title>Custom Font from HDD</title>
+      <description>Hello, 
+
+I'm Chris and I'm new user - about 2 weeks of Koken. Almost everything I wanted managed to find in Internet or do by myself, to the point I'm thinking about completely new theme ;), but that's not nearest future, just as an introduction :).
+
+So, to the core of problem - I'm using an Elementary theme on my site, and till now I've used fonts from google font. Today I've found new font - completely free - but it's not on any site like google fonts or typekit. So my idea is to upload the font to server and then somehow integrate it into theme - is it possible?</description>
+      <pubDate>Wed, 31 Dec 2014 09:37:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9835758</link>
+    </item>
+    <item>
+      <title>Menu chastain</title>
+      <description>hello,
+
+How to change the location of "chastain" menu and set up under the title of the site ...
+
+thank you very much.
+
+Stéphane Chambon
+
+http://www.stephanechambon.com/</description>
+      <pubDate>Thu, 11 Jun 2015 22:47:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9820341</link>
+    </item>
+    <item>
+      <title>koken:keyboard_scroll – is it possible to use up/down keys instead of left/right?</title>
+      <description>Hi there,
+
+I'm currently putting together my portfolio site, and was wondering if it is possible to have the koken:keyboard_scroll tag use the up/down arrows instead of left/right?
+
+I'm already using the left/right arrow keys to navigate to the previous/next album using the koken:link tag and the bind_to_key attribute and I feel like the up/down keys make more sense to scroll up/down within a given album.
+
+Thanks a bunch in advance for your help!</description>
+      <pubDate>Thu, 18 Dec 2014 17:58:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9814602</link>
+    </item>
+    <item>
+      <title>No content on tag page after update 0.19.1</title>
+      <description>There are no content on tag page after update 0.19.1
+
+
+
+{{tag.title}}
+
+
+	
+</description>
+      <pubDate>Fri, 12 Dec 2014 15:56:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9798837</link>
+    </item>
+  </channel>
+</rss>

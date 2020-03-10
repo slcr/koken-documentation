@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Theme design</title>
+    <link>http://help.koken.me/customer/en/portal/topics/483366-theme-design</link>
+    <description>Theme design articles</description>
+    <item>
+      <title>Introduction to theme design</title>
+      <description>Ready to build your own theme? Fantastic. Here are some things you should know before doing so. 
+
+ Themes 
+...</description>
+      <pubDate>Fri, 02 Aug 2013 15:04:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/828686</link>
+    </item>
+    <item>
+      <title>Build your first theme</title>
+      <description>This is the first in a multi-part series of articles explaining the basics of Koken theme creation. If you're ...</description>
+      <pubDate>Thu, 16 Oct 2014 20:48:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/828691</link>
+    </item>
+    <item>
+      <title>Build your first theme - Part two</title>
+      <description>In our first theme design tutorial we demonstrated how to build a basic portfolio site using the main Lens tem...</description>
+      <pubDate>Tue, 20 May 2014 18:21:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1306574</link>
+    </item>
+    <item>
+      <title>Build your first theme - Part three</title>
+      <description>So far we've built a basic portfolio theme, then enhanced the theme to include archival pages for viewing cont...</description>
+      <pubDate>Tue, 20 May 2014 18:22:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1306575</link>
+    </item>
+    <item>
+      <title>Build your first theme - Part four</title>
+      <description>This is the fourth (and final) article in a series of theme building exercises. If you missed the others we re...</description>
+      <pubDate>Tue, 20 May 2014 18:23:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1306577</link>
+    </item>
+    <item>
+      <title>Add social media metadata and links</title>
+      <description>This article provides tips for adding social media metadata and share links to your custom Koken theme. 
+
+ M...</description>
+      <pubDate>Mon, 22 Sep 2014 20:09:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1140400</link>
+    </item>
+    <item>
+      <title>Assign a template as the front page</title>
+      <description>By default, themes use the index.lens template to display the front page of a site. Publishers can always assi...</description>
+      <pubDate>Tue, 14 May 2013 18:31:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1140694</link>
+    </item>
+    <item>
+      <title>Create a custom template</title>
+      <description>Koken uses a default set of templates to display content on a web site. You should include most of these defau...</description>
+      <pubDate>Tue, 20 May 2014 17:31:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1140390</link>
+    </item>
+    <item>
+      <title>Create a password protected login page</title>
+      <description>For those who would prefer to share password-protected content as opposed to unlisted content with their clien...</description>
+      <pubDate>Tue, 24 Feb 2015 15:12:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1895155</link>
+    </item>
+    <item>
+      <title>Image loading and formatting</title>
+      <description>This tutorial will cover one of Koken's most important features — image publishing. We'll first explain how im...</description>
+      <pubDate>Thu, 09 May 2013 17:43:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1078046</link>
+    </item>
+    <item>
+      <title>SEO markup for themes</title>
+      <description>When designing a custom Koken theme you should always keep SEO (search engine optimization) in mind. This guid...</description>
+      <pubDate>Tue, 20 May 2014 17:45:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1527429</link>
+    </item>
+    <item>
+      <title>Adding social media metadata and share links</title>
+      <description>If you're going to the trouble of designing a theme, chances are you want it to be seen. This article contains...</description>
+      <pubDate>Fri, 25 Apr 2014 21:45:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1527587</link>
+    </item>
+    <item>
+      <title>Blueprint theme for developers</title>
+      <description>Blueprint is a very basic Koken theme that demonstrates in the simplest way possible the Lens templates, varia...</description>
+      <pubDate>Thu, 28 Aug 2014 15:44:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/828700</link>
+    </item>
+  </channel>
+</rss>

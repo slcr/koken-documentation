@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Using Koken</title>
+    <link>http://help.koken.me/customer/portal/topics/291467-using-koken</link>
+    <description>Using Koken articles</description>
+    <item>
+      <title>How it all works</title>
+      <description>We know, we've been there. Getting accustomed to an entirely new software product can sometimes feel like you'...</description>
+      <pubDate>Tue, 11 Mar 2014 15:54:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/913513</link>
+    </item>
+    <item>
+      <title>Updating Koken</title>
+      <description>New versions of Koken are continually released and may be downloaded directly through your installation. Updat...</description>
+      <pubDate>Fri, 18 Apr 2014 18:42:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1147754</link>
+    </item>
+    <item>
+      <title>Updating themes and plugins</title>
+      <description>Updates to Koken themes and plugins are made available through the Koken Store. The Store link in Koken's main...</description>
+      <pubDate>Tue, 11 Mar 2014 16:02:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1307367</link>
+    </item>
+  </channel>
+</rss>

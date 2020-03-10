@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Lens</title>
+    <link>http://help.koken.me/customer/portal/topics/375567-lens</link>
+    <description>Lens articles</description>
+    <item>
+      <title>What's new in Lens</title>
+      <description>In this document we chronologically track recent edits and additions to Lens variables, tags and templates. Th...</description>
+      <pubDate>Mon, 23 Mar 2015 16:08:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1140184</link>
+    </item>
+    <item>
+      <title>Lens templates</title>
+      <description>Koken's Lens system uses a defined list of templates to display managed content. The following is a list of ev...</description>
+      <pubDate>Tue, 24 Feb 2015 15:06:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828688</link>
+    </item>
+    <item>
+      <title>Lens variables</title>
+      <description>Variables display simple string data, like an album title. Some variables are global and may be used anywhere ...</description>
+      <pubDate>Tue, 09 Dec 2014 20:59:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/982033</link>
+    </item>
+    <item>
+      <title>Lens tags</title>
+      <description>Lens template tags render HTML elements or conditionally load data. They are formatted like traditional HTML t...</description>
+      <pubDate>Tue, 09 Dec 2014 20:59:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828690</link>
+    </item>
+    <item>
+      <title>Lens events</title>
+      <description>The Lens template system fires several custom JavaScript events during different phases of the page loading pr...</description>
+      <pubDate>Wed, 22 May 2013 20:58:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/929836</link>
+    </item>
+    <item>
+      <title>Helper classes</title>
+      <description>Koken adds unique HTML classes to dynamically published content for targeting purposes in style sheets and Jav...</description>
+      <pubDate>Mon, 23 Mar 2015 16:04:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828695</link>
+    </item>
+    <item>
+      <title>Settings</title>
+      <description>Settings allow publishers to edit a theme's appearance in the site console. This walkthrough will explain how ...</description>
+      <pubDate>Sat, 31 May 2014 19:49:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828692</link>
+    </item>
+    <item>
+      <title>Setting types</title>
+      <description>This document is a developer's reference for creating theme settings. Be sure to read the settings overview fo...</description>
+      <pubDate>Wed, 14 May 2014 19:49:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828693</link>
+    </item>
+    <item>
+      <title>Styles</title>
+      <description>Styles provide site publishers with alternate theme appearances. This walkthrough will explain how Styles work...</description>
+      <pubDate>Mon, 17 Dec 2012 15:02:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/888149</link>
+    </item>
+    <item>
+      <title>Navigation groups</title>
+      <description>Navigation links in themes are defined by navigation groups. Every theme uses Koken's primary navigation group...</description>
+      <pubDate>Fri, 22 Nov 2013 01:54:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828694</link>
+    </item>
+  </channel>
+</rss>

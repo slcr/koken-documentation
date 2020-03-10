@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Installation and setup</title>
+    <link>http://help.koken.me/customer/portal/topics/291471-installation-and-setup</link>
+    <description>Installation and setup articles</description>
+    <item>
+      <title>Installing Koken</title>
+      <description>Ready to install Koken? Awesome. Here's how. 
+
+ 1) Create a database 
+
+ First step is to create a MySQL da...</description>
+      <pubDate>Mon, 03 Nov 2014 19:12:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/632102</link>
+    </item>
+    <item>
+      <title>Recommended web hosting providers</title>
+      <description>Koken is software that must be installed on a web server through a web hosting provider. Chances are if a host...</description>
+      <pubDate>Fri, 15 Aug 2014 15:51:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1647417</link>
+    </item>
+    <item>
+      <title>System requirements</title>
+      <description>Koken is software that requires a web server to setup and use. To install Koken you need to know how to create...</description>
+      <pubDate>Wed, 07 Jan 2015 15:03:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/827352</link>
+    </item>
+    <item>
+      <title>Selecting an image processor</title>
+      <description>Koken creates images by using image processing software installed on your web server. Every web host includes ...</description>
+      <pubDate>Sat, 06 Sep 2014 21:44:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1682472</link>
+    </item>
+    <item>
+      <title>Glossary of terms</title>
+      <description>This document is an alphabetical reference for all the terminology Koken uses in its console and documentation...</description>
+      <pubDate>Tue, 09 Dec 2014 20:58:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/890657</link>
+    </item>
+    <item>
+      <title>Installing Koken at DigitalOcean using Docker</title>
+      <description>DigitalOcean is a web-hosting provider geared towards developers that offers SSD-based virtual servers (known ...</description>
+      <pubDate>Tue, 24 Mar 2015 20:21:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1648433</link>
+    </item>
+  </channel>
+</rss>

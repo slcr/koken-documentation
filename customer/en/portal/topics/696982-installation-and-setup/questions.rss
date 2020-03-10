@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Installation and setup</title>
+    <link>http://help.koken.me/customer/en/portal/topics/696982-installation-and-setup</link>
+    <description>Installation and setup articles</description>
+    <item>
+      <title>Directory structure, storage setup</title>
+      <description>Hey there, I am trying to setup koken in a way that it stores all images on non system drive. (using aws ec2 amz linux ami) Idea is to keep small fast storage for system and keep all my data on extra attached storage. 
+Can you please provide some guidance on directory structure? I would setup symlinks then for main storage folders. 
+
+Cheers, </description>
+      <pubDate>Wed, 19 Jul 2017 13:04:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17108195</link>
+    </item>
+    <item>
+      <title>image border color </title>
+      <description>hello,
+
+I select an album -
+Under Theme/Settings/border it says:"edit image border color below to see"
+ok, but where on earth do I see the image border color???
+
+thx
+
+</description>
+      <pubDate>Thu, 13 Jul 2017 16:56:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17105161</link>
+    </item>
+    <item>
+      <title>Provider Choice</title>
+      <description>Hello.
+There are experiences with my provider choice - domain factory (Germany, df.de)?
+Greetings from Berlin,
+Olaf.</description>
+      <pubDate>Thu, 13 Jul 2017 12:52:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17104986</link>
+    </item>
+    <item>
+      <title>creating database</title>
+      <description>How do I create a MySQL database?</description>
+      <pubDate>Mon, 10 Jul 2017 16:04:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17102121</link>
+    </item>
+    <item>
+      <title>[pool www] server reached pm.max_children setting (5), consider raising it</title>
+      <description>Hi,
+
+I keep getting this error in my php7.0-fpm.log file:
+[pool www] server reached pm.max_children setting (5), consider raising it.
+
+I'm hosted on Digital Ocean with a 1GB / 1 CPU droplet running with Ubuntu 16.04 with php 7.0-fpm and Nginx 1.10.3 with MariaDB 10.0.29.
+
+The www.conf has the default settings of:
+pm = dynamic
+pm.max_children = 5
+pm.start_servers = 2
+pm.min_spare_servers = 1
+pm.max_spare_servers = 3
+;pm.max_requests = 500
+
+I've tried changing the settings, by increasing the numbers, which makes the problem worse with MariaDB constantly crashing.
+
+This is the main server block configuration I have at the moment:
+
+server {
+	root /var/www/html;
+	index index.php index.html index.htm;
+
+	server_tokens off;
+	charset utf-8;
+
+	# By default, do not set expire headers
+	expires 0;
+
+	# Set expires header for console CSS and JS.
+	# These files are timestamped with each new release, so it is safe to cache them agressively.
+	location ~ "console_.*\.(js|css)$" {
+		expires max;
+	}
+
+	# Catch image requests and pass them back to PHP if a cache does not yet exist
+	location ~ "^/storage/cache/images(/(([0-9]{3}/[0-9]{3})|custom)/.*)$" {
+		# Cached images have timestamps in the URL, so it is safe to set
+		# aggresive cache headers here.
+		expires max;
+		try_files $uri /i.php?path=$1;
+	}
+
+	# Catch .css.lens requests and serve cache when possible
+	location ~ "(lightbox-)?settings.css.lens$" {
+		default_type text/css;
+		try_files /storage/cache/site/${uri} /app/site/site.php?url=/$1settings.css.lens;
+	}
+
+	# Catch koken.js requests and serve cache when possible
+	location ~ koken.js$ {
+		default_type text/javascript;
+		try_files /storage/cache/site/${uri} /app/site/site.php?url=/koken.js;
+	}
+
+	# Standard site requests are cached with .html extensions
+	set $cache_ext 'html';
+
+	# PJAX requests contain the _pjax GET parameter and are cached with .phtml extensions
+	if ($arg__pjax) {
+		set $cache_ext 'phtml';
+	}
+
+	# Do not check for a cache for non-GET requests
+	if ($request_method != 'GET') {
+		set $cache_ext 'nocache';
+	}
+
+	# If share_to_tumblr cookie is preset, disable caching (long story)
+	if ($http_cookie ~* "share_to_tumblr" ) {
+		set $cache_ext 'nocache';
+	}
+
+	# Prevent web requests to Koken's .cache files
+	location ~ .cache$ {
+		deny all;
+	}
+
+	# Catch root requests
+	location = / {
+		try_files /index.html /storage/cache/site/index/cache.$cache_ext @koken;
+	}
+
+	# All other requests get passed back to Koken unless file already exists
+	location / {
+		try_files $uri $uri/ /storage/cache/site/${uri} /storage/cache/site/${uri}cache.$cache_ext @koken;
+	}
+
+	location @koken {
+		try_files /installer.php /app/site/site.php?url=$uri&amp;$args;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+		include fastcgi.conf;
+	}
+
+	error_page 500 502 503 504 /50x.html;
+	location = /50x.html {
+		root /usr/share/nginx/html;
+	}
+
+	# pass image processing to another PHP pool
+	location = /i.php {
+		try_files $uri =404;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+		include fastcgi.conf;
+	}
+
+	# Catch albums requests and pass them back to PHP if a cache does not yet exist
+	location ~ "^/storage/cache/albums(/([0-9]{3}/[0-9]{3})/.*)$" {
+		# Cached albums have timestamps in the URL, so it is safe to set
+		expires max;
+		try_files $uri /a.php?path=$1;
+	}
+
+	location ~ \.php$ {
+		fastcgi_cache phpcache; # The name of the cache key-zone to use
+		fastcgi_cache_valid 200 30m; # What to cache: 'Code 200' responses, for half an hour
+		fastcgi_cache_methods GET HEAD; # What to cache: only GET and HEAD requests (not POST)
+		add_header X-Fastcgi-Cache $upstream_cache_status; # Add header so we can see if the cache hits or misses
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+		fastcgi_param HTTPS 'on';
+	}
+
+	# browser caching of static assets
+	location ~*  \.(jpg|jpeg|png|gif|ico|css|js|woff|woff2)$ {
+		expires 7d;
+	}
+
+	# deny access to .htaccess files, if Apache's document root
+	# concurs with nginx's one
+	#
+	location ~ /\.ht {
+		deny all;
+	}
+}
+
+And my nginx.conf:
+
+user www-data;
+# worker_processes auto;
+worker_processes 1;
+pid /run/nginx.pid;
+
+events {
+	use epoll;
+	worker_connections 1024;
+	# multi_accept on;
+}
+
+http {
+
+	##
+	# Basic Settings
+	##
+
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	keepalive_timeout 20;
+	# keepalive_timeout 2;
+	types_hash_max_size 2048;
+	# server_tokens off;
+
+	client_max_body_size 100M;
+	port_in_redirect off;
+
+	# server_names_hash_bucket_size 64;
+	# server_name_in_redirect off;
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	##
+	# SSL Settings
+	##
+
+	ssl_protocols TLSv1 TLSv1.1 TLSv1.2; # Dropping SSLv3, ref: POODLE
+	ssl_prefer_server_ciphers on;
+
+	##
+	# Logging Settings
+	##
+
+	access_log /var/log/nginx/access.log;
+	error_log /var/log/nginx/error.log;
+
+	##
+	# Virtual Host Configs
+	##
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+}
+
+Any help with this would be great as this has been going on for many months now and would like to see this resolved.</description>
+      <pubDate>Fri, 07 Jul 2017 15:25:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17100599</link>
+    </item>
+    <item>
+      <title>Koken requires the mysql client library (not mysqli) in order to connect </title>
+      <description>I did not find any solution in the forum. my server should have all the necessary requirements, but i can´t fix the problem. did anyone has the same probs?
+best,
+nicholas </description>
+      <pubDate>Wed, 05 Jul 2017 17:04:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17099187</link>
+    </item>
+    <item>
+      <title>Cannot open store from application</title>
+      <description>Hi,
+
+the header link "store(1)" shows there is an update in the store. 
+I can open store via browser and login.
+I cannot open the store in koken using the header link "store". the store appears as white area (without any content, but player buttons above) for 1 to 2 seconds and falls back into the library view.
+
+Could you give me any hints?
+
+Thank you very much!</description>
+      <pubDate>Wed, 05 Jul 2017 14:38:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17098889</link>
+    </item>
+    <item>
+      <title>hide exif...</title>
+      <description>
+Is it possible to hide the captions, exif or date of a picture?
+Thanks, Martin</description>
+      <pubDate>Wed, 28 Jun 2017 14:51:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17094844</link>
+    </item>
+    <item>
+      <title>html injector plugin</title>
+      <description>I am trying to set up Google Tracking Management using the HTML injector plugin but I get an error message saying setting did not save. below is the code of course with a legit id in place of the GTM_XXXX
+ help please. thank you
+
+Copy the following JavaScript and paste it as close to the opening  tag as possible on every page of your website, replacing GTM-XXXX with your container ID:
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXX');
+
+Copy the following snippet and paste it immediately after the opening  tag on every page of your website, replacing GTM-XXXX with your container ID:
+
+
+</description>
+      <pubDate>Thu, 22 Jun 2017 15:53:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17091003</link>
+    </item>
+    <item>
+      <title>PHP 7</title>
+      <description>My host is going to raise its PHP to 7, is Koken compatible with it?</description>
+      <pubDate>Tue, 20 Jun 2017 14:43:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17089614</link>
+    </item>
+    <item>
+      <title>featured albums</title>
+      <description>How do I add albums to "Featured Albums"?  Drag and drop did not work for me.</description>
+      <pubDate>Sat, 17 Jun 2017 13:43:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17084417</link>
+    </item>
+    <item>
+      <title>Multi-Language Websites</title>
+      <description>Hey there :)
+
+I'm using koken for quite a time now. 
+I'm starting with a new business which requires that I have a website in differetn languages. I'm a noob in html and stuff, is there any way that I could create a second website and implement a button with which the user could at any time switch the language?
+
+Thanks a lot!
+
+Anni</description>
+      <pubDate>Tue, 13 Jun 2017 17:36:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17081701</link>
+    </item>
+    <item>
+      <title>what would be the final URL?</title>
+      <description>Hi,
+
+i forgot to enter my correct email last time. so, our website is: geckogear.com.au and the hosting server is windows based.
+My question is if we install Koken into out server will the final URL link to our own website something like www.images.geckogear.com.au? 
+
+kind regards,
+maya</description>
+      <pubDate>Tue, 13 Jun 2017 14:34:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17081217</link>
+    </item>
+    <item>
+      <title>Photo Selection</title>
+      <description>Hello,
+
+Is there a way to send a album link to my clients and they select the photos that they want?
+I'm a photographer.
+
+Thank you!
+
+(Sorry for the bad english, i'm Brazilian).</description>
+      <pubDate>Fri, 09 Jun 2017 15:55:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17079461</link>
+    </item>
+    <item>
+      <title>database</title>
+      <description>I am using koken on a new Drobo 5n2 - I have installed koken and I can see my online portal where my images should be, etc.  It says to add images, just drag and drop them.  
+I don't want to do that.  Is there any way to point the koken database to a folder of images that is already on my Drobo?</description>
+      <pubDate>Fri, 09 Jun 2017 15:57:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17079180</link>
+    </item>
+    <item>
+      <title>username for installation on my Net Sol account</title>
+      <description>username for installation of your database? (Net Sol account).
+I installed a folder on my Net Sol account page with the 777 suffix and it is being found on my browser, just having problems after that configuring your installation window to run your database. Thanks.
+KL</description>
+      <pubDate>Thu, 08 Jun 2017 17:37:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17078685</link>
+    </item>
+    <item>
+      <title>Install Ensemble</title>
+      <description>Hi! I have installed koken on my database, and I registered. I created a shop.koken account, and I am signed in. Now, as I'm trying to download Ensemble I keep getting this error message: "Installation of this product requires an account with a registered installation of Koken. If you have an account, please sign-in. If you don't, create one here."
+I've tried to sign out and sign in again. 
+I deleted the token file from my database and installed it again by adding "koken1_" on the admin setup screen.
+Nothing has helped.
+How should I proceed?</description>
+      <pubDate>Thu, 08 Jun 2017 16:35:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17078600</link>
+    </item>
+    <item>
+      <title>Use existing photo directory</title>
+      <description>Hi there,
+
+I've installed Koken as an addon to my Netgear ReadyNAS 314.  It already contains my photos from the last few years in a single directory that itself has a sub-directory for each album.  How do I point Koken to the existing photos?
+
+Ideally Koken would: 
+  - leave the photo files untouched
+  - not waste disk space by duplicating the photos  
+  - add uploaded images to the existing directory structure
+
+Can it work this way?
+
+Thank you for your time.
+
+Kind regards,
+Karl.</description>
+      <pubDate>Tue, 06 Jun 2017 15:04:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073027</link>
+    </item>
+    <item>
+      <title>Vertical pictures side by side</title>
+      <description>(Sorry, I might ask you quite a lot of questions while I'm setting this up)
+
+Is there a way of placing vertical images side by side, so that their total horizontal width is the same as the long edge of a horizontal image?</description>
+      <pubDate>Mon, 05 Jun 2017 16:14:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17072630</link>
+    </item>
+    <item>
+      <title>Album download</title>
+      <description>Hi where do I find the possibility the enable album download in Oxygen?</description>
+      <pubDate>Tue, 06 Jun 2017 14:52:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17071047</link>
+    </item>
+    <item>
+      <title>installation </title>
+      <description>I seem to be failing at the first step!  I'm installing to a vps with php7 and lighttpd under ubuntu 16.04.  The web server runs fine, and I can access web pages I put up there.  I created a mysql database.  I downloaded the koken installation script .. unzipped it and placed the /koken folder in the root domain (happens to be at /var/www/html).
+
+When I access the url http://yourdomain.com/koken (of course, putting my own domain in there), I get a "403 - Forbidden".   I tried moving the index.php out of the /koken directory, put a few random files in there, and my browser when going to yourdomain.com/koken shows the directory contents.  So its not the browser not accessing the directory, but seemingly something about the index.php which causes the 403 message.
+
+I've googled, but not found anyone else with the problem.  The lighttpd error log has nothing to show.
+
+Any suggestions?</description>
+      <pubDate>Thu, 01 Jun 2017 16:21:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17070514</link>
+    </item>
+    <item>
+      <title>spash screen timing</title>
+      <description>Is it possible to change the amount of time between images displayed as a full screen splash screen in Madison 2 ? 
+
+The default setting is way too fast for me (hence I stick to 1 image only) 
+
+www.roberthuber.com
+
+Thanks for advice</description>
+      <pubDate>Wed, 31 May 2017 12:10:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17067656</link>
+    </item>
+    <item>
+      <title>Reinstall of prurchased itemes does not work</title>
+      <description>I have reinstalled koken and tried to reinstall the previously purchased theme madison and the rating plugin as well. Although the installation of free plugins works without any problem for the purchased ones the installation hangs showing a window "please wait"
+What is to do?</description>
+      <pubDate>Tue, 23 May 2017 12:08:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17054181</link>
+    </item>
+    <item>
+      <title>Version 0.22.21 is now available for download</title>
+      <description>Hi,
+I'm getting an error message whentrying to download this version: Koken was not able to download the new release. Try setting the permissions on the Koken directory and all subdirectories and files to 777.
+I do not understand what to do.
+Best,
+Kalifa.</description>
+      <pubDate>Mon, 22 May 2017 18:48:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17047259</link>
+    </item>
+    <item>
+      <title>Database connection error: Access denied for user 'xxxxxx'@'localhost' (using password: YES) </title>
+      <description>I don't believe the problem described here is fixed:
+
+http://help.koken.me/customer/portal/questions/8490121-database-connection-error-access-denied-for-user-xxxxxx-localhost-using-password-yes-
+
+I've experienced the same problem multiple times when using randomly generated passwords comprising special characters. When I use alphanumeric passwords, Koken is able to connect.</description>
+      <pubDate>Mon, 22 May 2017 12:31:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040808</link>
+    </item>
+    <item>
+      <title>Installation Madison</title>
+      <description>I just bought Madison theme and wanted to install it. With FilleZilla I already changed the permissions of the storage folders and it's dirs inside to 777 but still it doesn't want to install, keep on hanging at "installing"</description>
+      <pubDate>Sat, 20 May 2017 11:59:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040496</link>
+    </item>
+    <item>
+      <title>Moving Install</title>
+      <description>I've been testing Koken on my local web server just to see if I like it.
+
+Once I choose a hosting site, is there a way to move the site/database to the host?</description>
+      <pubDate>Fri, 19 May 2017 14:39:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17039171</link>
+    </item>
+    <item>
+      <title>Admin Colour Scheme hard to read</title>
+      <description>I've had a quick search, but haven't found anything yet about changing the theme/colour scheme in the admin area? I'm finding the grey colours on a black background really hard to cope with, and would love to change some of them, but haven't yet identified how to.
+
+Might be easy and I've just not found it yet, and I'll keep searching but if someone could advise I'd be very grateful.</description>
+      <pubDate>Thu, 18 May 2017 11:34:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17038761</link>
+    </item>
+    <item>
+      <title>slideshow on homepage</title>
+      <description>Hi - I've just purchased Madison theme... I'd like the homepage to have a slideshow of featured images like I've seen in a lot of examples. After reading up on "pulse slideshows" I'm none the wiser as to how to implement it as I can't find a index.lens file to add the example code to.
+
+Please can you advise</description>
+      <pubDate>Sat, 13 May 2017 13:13:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17034743</link>
+    </item>
+    <item>
+      <title>installing Docker Container with Plesk Onyx results in wrong Password error. </title>
+      <description>System:
+
+OS	‪Ubuntu 16.04.2 LTS‬
+Product	Plesk Onyx  Version 17.5.3
+
+I installed the Docker Image: koken/koken-lemp in Plesk 
+
+after this Instruction:
+https://docs.plesk.com/en-US/onyx/administrator-guide/plesk-administration/using-docker.75823
+
+when connecting to my domain (https) i get the set up screen, i'm able to set admin, email and password. clicking next until i got the login screen. it will not take the right credentials, now matter what, on clicking reset password  and entering the email nothing happens. aber opening a tab with the site on the homepage i get: "API Error
+
+The theme is not able to make contact with your Koken installation. Contact your host to see if they are blocking loopback connections." what does that mean specifically?
+
+is there anything that is needed to be done to fix this, or do you have a tutorial for plesk?
+
+regards, Jan </description>
+      <pubDate>Thu, 11 May 2017 20:21:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17034137</link>
+    </item>
+    <item>
+      <title>installation</title>
+      <description>Hi,
+
+i downloaded the koken and unzipt it but only a php site opens, i have a apple i dont know if that it the reason i can not install it?
+
+regards aline</description>
+      <pubDate>Thu, 11 May 2017 13:41:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17033583</link>
+    </item>
+    <item>
+      <title>Download link for images in album view</title>
+      <description>Hello Koken Team
+
+I would like to have the possibility (in my custom theme) to create download link (icons) for each image in the album view. But the lens tag "koken:max_download" and the koken:if check for "settings.content_show_dl" isn't working in the album context.
+
+I know from the documentation that max_download is only available in the content template and not within the album image loop. Is there any workaround?
+
+greetings
+Daniel</description>
+      <pubDate>Sun, 07 May 2017 13:11:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17030368</link>
+    </item>
+    <item>
+      <title>Koken installation on DigitalOcean Ubuntu Docker 17.04.0-ce on 16.04</title>
+      <description>Followed the DigitalOcean installation guide, modified the hosts file and added the loopback rule to firewall. Installation still hangs and getting the regular loopback error...What to do?</description>
+      <pubDate>Sat, 06 May 2017 21:05:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17030237</link>
+    </item>
+    <item>
+      <title>API Error with SSL reverse proxy and koken  0.22.20</title>
+      <description>I have a koken setup with two servers:
+
+Koken [ip: 10.107.29.182]: HTTP installation with nginx and php-fpm on port 80
+Frontend [ip: 10.107.29.61]: SSL proxy that forwards connection to koken and which does SSL termination and which is available on the internet.
+
+With this setup I'm getting Koken API Error: " The theme is not able to make contact with your Koken installation. Contact your host to see if they are blocking loopback connections. "
+
+When looking at the logs I see that koken is able to connect to the server:
+10.107.29.182 - - [06/May/2017:11:12:10 +0000] "\x16\x03\x01\x02\x00\x01\x00\x01\xFC\x03\x03;(\xD1\xC02Al\x1C\xF9\x1C\xAA\xFE\xDE\x95\xAE\x09\xBA&lt;               curl_setopt($curl, CURLOPT_URL, 'http' . '://' . $host . self::$location['real_root_folder'] . '/api.php?' . $url);
+---
+&gt;               curl_setopt($curl, CURLOPT_URL, self::$protocol . '://' . $host . self::$location['real_root_folder'] . '/api.php?' . $url);
+
+This way I force koken to access the website over the loopback. 
+Is there a better way to correct this? It seems that `self::$protocol` should be detected from the php connection. </description>
+      <pubDate>Mon, 22 May 2017 13:23:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17030117</link>
+    </item>
+    <item>
+      <title>error 500 after migration</title>
+      <description>Hi,
+
+I changed a hosting provider.
+So I do the migration as you explain it :
+- backup database from old server and restore it to the new.
+- tar /var/www/koken_site and untar to the new server.
+- my database are the same name and the same user/password, so I needn't to change the storage/configuration/database.php file.
+- I delete /cache/api and /cache/images folders
+
+Now I have access to /admin. It's work fine.
+But I can't access to my home (www.andoromeda.fr) I have an Error 500.
+
+May you help me please ?</description>
+      <pubDate>Sun, 07 May 2017 13:10:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17030102</link>
+    </item>
+    <item>
+      <title>Redirect after submitted contact form</title>
+      <description>Is there any way to redirect to a different page after successfully submitting the contact form?
+Currently you can only add a text message, but I'm thinking on some javascript/html/css trick or similar to redirect to a thanks page.
+Many thanks in advance for your help! </description>
+      <pubDate>Fri, 05 May 2017 21:00:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17029742</link>
+    </item>
+    <item>
+      <title>E-Mail Contact form in Koken with copy sent to user</title>
+      <description>Hello
+
+I have a contact form setup for inquieries. Now if I don't respond in a timely manner many potential customers fill out the form again and ask if I didn't receive the E-Mail.
+
+This is very annoying for both. Would it be possible to send a copy of the form to the user (E-Mail field is in the contact form)?
+
+Kind regards
+Sandro Barbieri
+
+www.sandro-barbieri.com</description>
+      <pubDate>Thu, 04 May 2017 13:43:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17028749</link>
+    </item>
+    <item>
+      <title>change video thumbnail</title>
+      <description>How can I change the video thumbnail (I see a thumbnail i.e. ffmpeg is running). I can't find any menu options or buttons which would generate a new thumbnail.</description>
+      <pubDate>Tue, 02 May 2017 16:11:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17027285</link>
+    </item>
+    <item>
+      <title>Transfert theme installation</title>
+      <description>Hi,
+
+i want to transfert just Regale 2 theme that i had buy (on cellebrek.com) to a other domain (natankerbellec.com),
+How can i do that ?
+
+Thank you
+
+Natan K.</description>
+      <pubDate>Wed, 26 Apr 2017 18:45:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17023729</link>
+    </item>
+    <item>
+      <title>exclude downloading</title>
+      <description>Is it possible to exclude downloading Photos from my koken-site?</description>
+      <pubDate>Wed, 26 Apr 2017 13:28:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17023274</link>
+    </item>
+    <item>
+      <title>Problems Logging In &amp; Changing Settings</title>
+      <description>Right after setting up Koken, I was not able to log into the admin dashboard. I tried reinstalling Koken, and the same issue occurred, I tried resetting my password and most times no email, except ONE time a message showed up saying "This email was not found." Then until I set "Keep me signed in," I was able to log in fine.
+
+Then the welcome splash appeared, and I wasn't able to flip through any of the options at all, no response from the site, and none of the top links work at all. After 5 or 6 refreshes, finally the site became a bit response. Once going to the Settings to check things to change, going to Site Publishing -&gt; Page Title, I got an error saying I don't have privileges to alter this?
+
+And still, I can't login without "Keep me signed in" checked, which is a security issue.</description>
+      <pubDate>Thu, 27 Apr 2017 12:23:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17023256</link>
+    </item>
+    <item>
+      <title>Upgrade error 777 on Azure</title>
+      <description>Hi, 
+
+I am hosting 2 Koken sessions on Microsoft Azure Web apps, which install fine. However when i try to upgrade i get the usual message "Koken was not able to download the new release. Try setting the permissions on the Koken directory and all subdirectories and files to 777." 
+
+i have change the permissions on the folder and subdirectories but still the same error. Is there a way to manually upgrade the site? 
+
+Thanks
+
+Dave</description>
+      <pubDate>Tue, 25 Apr 2017 12:31:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17022338</link>
+    </item>
+    <item>
+      <title>Database connection error: Access denied for user</title>
+      <description>Hi, forst: Sorry for my English...
+
+I have a problem with start a koken on step:
+"Connect to database
+
+Enter your MySQL database information."
+
+None of the users I proposed is working and pops up an error ... Please help. 
+Regards, Marcin. 
+</description>
+      <pubDate>Tue, 25 Apr 2017 12:22:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17022264</link>
+    </item>
+    <item>
+      <title>Tutorial about how to setup koken with a CDN</title>
+      <description>Hi,
+I would like to share a small tutorial about how to setup koken together with a CDN. (in my example KeyCDN)
+-&gt; https://cielitolindo.de/essays/2016/05/use-koken-with-a-content-delivery-network-cdn/</description>
+      <pubDate>Mon, 24 Apr 2017 13:55:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17021524</link>
+    </item>
+    <item>
+      <title>Problem to understand how to instal Koken</title>
+      <description>Hi,
+I am trying to instal Koken.
+Step 1&amp;2 are done. So I have basically created my database and downloaded the Koken folder.
+I don't understand what to do for The step 3 :"Using an FTP client on your desktop, connect to your site and upload the /koken folder to the root of your domain." 
+1) How do I use a FTP client on my desktop? How should I create one?
+2) "connect to your site" means that I should connect to an old website of mine?
+3) How do upload the folder to the root of my domain?
+Thanks for your help
+</description>
+      <pubDate>Sat, 22 Apr 2017 16:41:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17020788</link>
+    </item>
+    <item>
+      <title>Re-applying theme settings</title>
+      <description>Hi,
+
+Are the settings stored in a plist/json file somewhere? I just duplicated my Axis theme and want to edit the templates, but it appears that first I have to entirely re-configure all aspects of the theme (image title instead of text; don't use slideshow, etc).
+
+What would be great is if there is a file somewhere, even a technical file, that I can copy/paste to my new theme. I don't even see a way to ensure that I've made all the changes in the second theme that I made in the first (no way to compare or run through a list)... 
+
+Is there a settings file I can hack or at least look at somewhere in the theme installation?
+
+Thank you,
+Michael</description>
+      <pubDate>Fri, 21 Apr 2017 18:57:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17020458</link>
+    </item>
+    <item>
+      <title>Store Account</title>
+      <description>Why is it not possible to link my Koken installation on my Website with my Koken Store Account to install Plugins?</description>
+      <pubDate>Thu, 20 Apr 2017 13:31:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17019343</link>
+    </item>
+    <item>
+      <title>Custom background image for login screen</title>
+      <description>Hello everyone.
+
+I did this on another Koken site a long time ago. Setting up a new Koken site, and can't remember how to do this.
+</description>
+      <pubDate>Wed, 19 Apr 2017 20:38:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17018821</link>
+    </item>
+    <item>
+      <title>only ONE product transferring to different installation</title>
+      <description>I bought AXIS 2 and installed it to the wrong token installation (to Zauberseife.ch instead to 2public.ch)
+I want to only ONE product be transferred  from Zauberseife.ch to 2public.ch
+how to do this?  (don't want to delete all products of this installation since Madison 2 is still needed for Zauberseife.ch)
+is this possible?
+
+urgent
+
+kind regards
+Andreas
+</description>
+      <pubDate>Tue, 18 Apr 2017 12:31:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17017053</link>
+    </item>
+    <item>
+      <title>Image Size</title>
+      <description>Hi, 
+
+I am trying to set the max with on my images to 530px instead of 730px. I have tried to inject some costume html code but I don't know what class to use to make this work. When I look at the web inspector it is defined under img.height_limit.k-lazy-loaded. I am using Axis 2. 
+
+Thank you for your help. 
+
+Alexander</description>
+      <pubDate>Sun, 16 Apr 2017 16:59:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17016229</link>
+    </item>
+    <item>
+      <title>Payment </title>
+      <description>Hello
+I want to buy a template and pay through the Payoneer payment service (www.payoneer.com)
+What is necessary for such a payment?
+Thank you.</description>
+      <pubDate>Sat, 15 Apr 2017 17:08:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17015974</link>
+    </item>
+    <item>
+      <title>How to change "Albums" text appearing on links in Facebook?</title>
+      <description>Hi, I've searched for it in my webpage files twice but could'nt find where to change it.
+Can you help me in which file or koken settings it's stored in?
+
+Here's a screenshot:
+http://www.mateusz-zaklada.pl/koken.jpg
+
+Best regards
+Mateusz Zakłada</description>
+      <pubDate>Fri, 14 Apr 2017 13:16:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17015236</link>
+    </item>
+    <item>
+      <title>making a website</title>
+      <description>Hi, 
+I have installed and bought a theme.  The process of posting stuff doesn't really look straight forward, and doesn't make a lot of sense to me, but my question is that can I make a site with a menu at left sidebar, and a slideshow at right which would change by clicking on the links, like www.paulbride.com which is a squarespace wells theme.  or like all these aphotofolio.com sites?
+Thanks
+Farid
+</description>
+      <pubDate>Tue, 11 Apr 2017 17:22:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16996278</link>
+    </item>
+    <item>
+      <title>Unable to login to admin after fresh install</title>
+      <description>Just installed Koken on a fresh install of Ubuntu 16.04 LTS. Install completes successfully but I can't get past the admin login unless I check the "keep me signed in" box. Once I login with that checked, I just get a blank, black screen with some unclickable links at the top.
+
+Google developer console shows these errors:
+
+GET http://koken.alderaan.pw/api.php?/plugins/cache:false 401 (Unauthorized)
+
+Uncaught TypeError: Cannot read property 'length' of undefined
+    at Object.finished (koken-core.js:3045)
+    at Object.r.request.length.e.request.length.n.success (koken-core.js:891)
+    at j (jquery.min.js:2)
+    at Object.fireWith [as resolveWith] (jquery.min.js:2)
+    at x (jquery.min.js:4)
+    at XMLHttpRequest. (jquery.min.js:4)
+
+POST http://koken.alderaan.pw/api.php?/settings 401 (Unauthorized)
+
+GET https://store.koken.me/installs//updates 500 (Internal Server Error)
+
+XMLHttpRequest cannot load https://store.koken.me/installs//updates. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://koken.alderaan.pw' is therefore not allowed access. The response had HTTP status code 500.
+
+Upon a refresh of the page it redirects back to login.
+
+I read through other similar issue pages to no avail.</description>
+      <pubDate>Thu, 13 Apr 2017 13:54:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16991821</link>
+    </item>
+    <item>
+      <title>import vidéo</title>
+      <description>Bonjour,
+
+Je ne comprends pas pourquoi les vignettes des deux dernières vidéos que j'ai importé de viméo par le plugin viméo n'apparaissent pas sur ma page koken?
+
+Merci d'avance et bonne journée
+
+Michel Handschumacher</description>
+      <pubDate>Fri, 07 Apr 2017 19:19:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16989346</link>
+    </item>
+    <item>
+      <title>what is the tagline page</title>
+      <description>What is the site tagline page for???  This page shows when I go to the uls without the /admin/index.html</description>
+      <pubDate>Sun, 02 Apr 2017 17:27:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16983250</link>
+    </item>
+    <item>
+      <title>storage</title>
+      <description>hi,
+
+I need the images to be accessed from the file system
+is it possible ? or they are stored in database ?</description>
+      <pubDate>Fri, 31 Mar 2017 16:20:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16982253</link>
+    </item>
+    <item>
+      <title>Theme Elementary / Hide right column</title>
+      <description>Hello!
+
+Simple Question ... How can I hide the right column in the elementary Theme?
+I don´t want do hide parts of it, I want to hide the whole column.
+Is that possible?
+Thanks 
+Marco</description>
+      <pubDate>Sun, 02 Apr 2017 13:44:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16981393</link>
+    </item>
+    <item>
+      <title>cannot open homepage/cannot log in as admin      </title>
+      <description>After last update I cannot open homepage any more - also other people cannot open. 
+When I want to log in as an admin to find out what probably went wrong  there is only a black screen. No login window. </description>
+      <pubDate>Wed, 29 Mar 2017 13:13:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16969560</link>
+    </item>
+    <item>
+      <title>User</title>
+      <description>How can i make second user without admin privileges.
+
+Thanks.</description>
+      <pubDate>Thu, 23 Mar 2017 15:09:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16963414</link>
+    </item>
+    <item>
+      <title>Slide show</title>
+      <description>Hello, how to make a slide show on home button in Madison theme?
+I add some fotos in featured section, but they all appear together in home page like gallery.</description>
+      <pubDate>Tue, 21 Mar 2017 17:11:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16960522</link>
+    </item>
+    <item>
+      <title>plugin reinstall</title>
+      <description>Hi there,
+
+everytime I try to reinstall my purchased plugins nothing happens. It just loads and loads... I already deleted the whole koken installation in my database and did a fresh installation but it still doesn't work.
+
+Best, Stefan</description>
+      <pubDate>Tue, 21 Mar 2017 12:53:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16960207</link>
+    </item>
+    <item>
+      <title>admin can't login after initial install</title>
+      <description>Installed ok.
+Can't login as admin.
+says password is wrong.. and I know it is correct.
+Is this a permissions issue?</description>
+      <pubDate>Sat, 18 Mar 2017 19:26:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16957321</link>
+    </item>
+    <item>
+      <title>transferring</title>
+      <description>Hey 
+
+I would like to transfer a whole installation from the account salkatennen.de to salkatennen. com
+parrallel on the same server , same provider....
+
+
+How to do
+
+all the best
+r.
+
+</description>
+      <pubDate>Thu, 23 Mar 2017 18:31:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16955509</link>
+    </item>
+    <item>
+      <title>Koken with nextcloud</title>
+      <description>I'm an avid user of nextcloud. It's gallery app for displaying or managing photography is far from adequate. I would like to use nextcloud syncing and Koken photo management/presentation per nextcloud user. I would imagine this require custom plug-in for Koken?</description>
+      <pubDate>Wed, 15 Mar 2017 14:39:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16954132</link>
+    </item>
+    <item>
+      <title>Boolean serach, by any chance?</title>
+      <description>Is there any possibility in the near future that a multi-word or Boolean search will be implemented in Kooken?
+Need to find pictures taken in Italy and with models for example in the http://boulevard.koken.me/.
+</description>
+      <pubDate>Mon, 13 Mar 2017 14:31:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16951556</link>
+    </item>
+    <item>
+      <title>Where are photos saved?</title>
+      <description>Where are the photos saved? Is it in the database or in folders in the file system? </description>
+      <pubDate>Wed, 15 Mar 2017 13:58:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950220</link>
+    </item>
+    <item>
+      <title>admin login?</title>
+      <description>after the initial installation, how do i login as admin? i don't see an admin or login link in the gallery GUI.</description>
+      <pubDate>Wed, 08 Mar 2017 18:46:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16914753</link>
+    </item>
+    <item>
+      <title>Admin</title>
+      <description>Can you add multiple admins?</description>
+      <pubDate>Tue, 07 Mar 2017 13:47:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16857815</link>
+    </item>
+    <item>
+      <title>Adding another website</title>
+      <description>Hello, I recently bought a second domain and would like to create a second website.  How do I go about adding another domain to my account?  
+
+Thanks, 
+
+Mike </description>
+      <pubDate>Mon, 06 Mar 2017 14:24:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16836976</link>
+    </item>
+    <item>
+      <title>Install fails at "Updating"...every time.</title>
+      <description>4th or 5th attempt already after scouring Google and this board for answers...seems that others have had the same problem and some solved it by deleting the "migrations" folder per TeamNetOvjets' instructions, but I still get only the infinitely loading "Updating - The new version is now being installed." progress bar, which makes no progress even after over an hour of doing its thing.
+
+What else to try?
+
+</description>
+      <pubDate>Tue, 07 Mar 2017 00:46:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16836767</link>
+    </item>
+    <item>
+      <title>Installing KOKEN on my own server (apache2, mariadb, php)</title>
+      <description>Hi, is there an installation- or setup-documentation/ help-document for my own LAMP-server?
+Best regards
+Klaus</description>
+      <pubDate>Fri, 03 Mar 2017 18:12:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16835121</link>
+    </item>
+    <item>
+      <title>Digital Ocean - "The theme is not able to make contact with your Koken installation."</title>
+      <description>I installed on DigitalOcean just now via the Docker method using the instructions provided here:
+
+http://help.koken.me/customer/portal/articles/1648433-installing-koken-at-digitalocean-using-docker
+
+I got the message "The theme is not able to make contact with your Koken installation. Contact your host to see if they are blocking loopback connections."
+
+I'm able to log in to the admin panel and change settings but cannot view the front-facing site. Is there anything I can do to fix this?</description>
+      <pubDate>Wed, 01 Mar 2017 16:54:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16832639</link>
+    </item>
+    <item>
+      <title>hide Album-Titles (Ensemble)</title>
+      <description>Hello!
+
+How could i hide the Album-Titles or change the front of it? 
+
+I use the Ensemble-Theme.
+Thanks for Help. </description>
+      <pubDate>Fri, 24 Feb 2017 14:40:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16828950</link>
+    </item>
+    <item>
+      <title>Problems uploading and activating Website at provider starto.de</title>
+      <description>Hi,
+I just configured a new Koken Website for a friend of me and have problems to get the uploaded Koken Website activated, used the database.php in folder /storage/configuration for the database details, imported the sql database without failure but get only a message "internal server error".
+At my own Site www.om-photodesign.de all is well and running,
+the new site has the url: www.kunstatelier-ama.de
+
+Thanks a lot for your help !
+
+Best regards,
+Oliver Müller</description>
+      <pubDate>Mon, 20 Feb 2017 14:42:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16823657</link>
+    </item>
+    <item>
+      <title>Header layout inside pad on mobile</title>
+      <description>Hello,
+
+I have set the header inside pad to 100px as I don’t want the logo and navigation to stretch to the full width - which works perfectly.
+
+However the padding setting is also set on the mobile site - so the logo is half off the phone - I want the logo without padding on mobile, as is expected.
+
+I have looked for mobile only code, and I cant seem to find any.
+
+How can I keep the padding on desktop, which is very important, without pushing the mobile logo off the screen?
+
+Much thanks.</description>
+      <pubDate>Thu, 16 Feb 2017 15:01:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16821545</link>
+    </item>
+    <item>
+      <title>Account Name</title>
+      <description>On the Koken-display I am called Max Mustermann. Of course I am not Max Mustermann.
+
+How can I change this name to Cara Litissa?
+
+Thank you!
+Cara</description>
+      <pubDate>Thu, 16 Feb 2017 13:27:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16821327</link>
+    </item>
+    <item>
+      <title>Forwarding when i click the Store in AdminPortal</title>
+      <description>Hello,
+
+With the new update from Koken i have a Problem. When i cklick "Store" in the AdmnPortal is automatic forwarding to the "Library" in AdminPortal. This is new as i have install the update 0.22.18. Before i can Install PlugIn's and Themes, but now not.
+
+Greetings</description>
+      <pubDate>Wed, 15 Feb 2017 18:02:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16820791</link>
+    </item>
+    <item>
+      <title>HTTP Error upload on NGINX</title>
+      <description>So I was running into an issue where I was getting an error uploading after a new setup with Digital Ocean on LEMP. To resolve the issue you need to do the following:
+
+1. Increase PHP limits by changing upload_max_filesize and post_max_filesize to your desired limit.
+2. Set nginx to client_max_body_size 0; in your nginx.conf file.
+
+Restart php-fpm and nginx services, and you should be good to go.
+
+This is purely informational to anyone else running into this issue with NGINX, PHP and Koken. I did a lot of google searching and it took a bit of time to find this answer, especially on the NGINX component.</description>
+      <pubDate>Mon, 13 Feb 2017 16:10:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16818474</link>
+    </item>
+    <item>
+      <title>Images are loaded over insecure connection</title>
+      <description>Hi,
+
+I changed my htaccess file to forward all requests to https, but all the images are still loaded over http, rendering the site only partially secure. I can find no solutions to this, can someone help me on this?</description>
+      <pubDate>Sat, 11 Feb 2017 20:19:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16817527</link>
+    </item>
+    <item>
+      <title>Social Media Icons</title>
+      <description>Hello,
+
+Would love to ask how can I put Icons on my website for Instagram, Pinterest, Tumblr, Flickr, Snapchat and all the other social media websites? My website is: www.plamenpanchev.com and currently use Boulevard 2 Koken Theme
+
+To better illustrate my point, please see the attached screenshot. Thank you!
+Download link:
+https://we.tl/LI2Qq2ALtP
+
+Best,
+Plamen
+</description>
+      <pubDate>Wed, 08 Feb 2017 15:58:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812226</link>
+    </item>
+    <item>
+      <title>Search Funtion</title>
+      <description>Hey is this koken project still alive or is it dead?
+i would love to use koken but just if there is a search functionality with tags categorys etc.</description>
+      <pubDate>Sun, 05 Feb 2017 20:57:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16809162</link>
+    </item>
+    <item>
+      <title>Password protected site and areas</title>
+      <description>Hello
+Is it possible to have password protected areas or whole site?
+I don't want to have all my pictures available in public.
+
+Thank you, 
+Andrii Petrenko</description>
+      <pubDate>Fri, 03 Feb 2017 21:56:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16808668</link>
+    </item>
+    <item>
+      <title>Deinstalation dont work</title>
+      <description>Hello,
+i try to deinstallay my Koken folder at my webspcae. But it dont work. Many folders are protect and my ftp program could not delete them. I need your help for this problem.
+
+thx
+</description>
+      <pubDate>Wed, 01 Feb 2017 13:46:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16806377</link>
+    </item>
+    <item>
+      <title>connection to database problem</title>
+      <description>I'm having trouble connecting to my database and this message. comes up: Database connection error: Access denied for user 'dustinjt_dustin'@'132-18-115-50.tpa.kgix.net' (using password: YES)</description>
+      <pubDate>Tue, 31 Jan 2017 15:52:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16805058</link>
+    </item>
+    <item>
+      <title>Social Media Icons</title>
+      <description>Hello,
+
+Would love to ask how can I put Icons on my website for Instagram, Pinterest, Tumblr, Flickr, Snapchat and all the other social media websites? My website is: www.plamenpanchev.com and currently use Boulevard 2 Koken Theme
+
+To better illustrate my point, please see the attached screenshot. Thank you!
+Download link
+https://we.tl/NRPTOk20cW
+
+Best,
+Plamen</description>
+      <pubDate>Mon, 30 Jan 2017 16:44:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16802941</link>
+    </item>
+    <item>
+      <title>Site Description, Keywords</title>
+      <description>Hello,
+
+I wanted to ask how can I update the site description under my name when somebody google my website, for example. I attached a photo. It is something like that right now, but I want to be presented as Plamen Panchev Studios on top (the link) and bellow Fashion and Commercial Photographer from Plovdiv, Bulgaria email: plamenpanchevphotography@yahoo.com tel: +359899967943
+
+Is there anything that can be done? Do I have to wait 15-20 days in order for them to change how it appears as we google my name/website?
+
+What kind of keywords should I include and how many?
+
+Please download the sample photos from the following link:
+https://wetransfer.com/downloads/b6c6bd133c0820712a41c23b8d1876e620170128132419/bacb1f501cd2a5d6aa2a890c11ff3d6620170128132419/41186e
+
+Thank you!
+Plamen</description>
+      <pubDate>Sat, 28 Jan 2017 17:32:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16802901</link>
+    </item>
+    <item>
+      <title>Update</title>
+      <description>Hi, at first – thanks for all!
+I love Koken!
+But now I have a big problem after the update.
+My side does not work... Show here: www.rene-gaens.de
+My database run under version 5.5.52.
+Is this the problem?
+How can I change in a new database?
+I have create a new database in version 5.6.35, but I can't found a setting for changing.
+Please help me – I need my Site daily ...
+Thanks!
+Regards, René</description>
+      <pubDate>Mon, 30 Jan 2017 18:31:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16802889</link>
+    </item>
+    <item>
+      <title>création site photographe</title>
+      <description>Bonjour, 
+J'ai actuellement un site wix avec un nom de domaine http://www.photographe-49.com/ que je souhaite conservé j'ai fait la démarche auprès de wix :Votre demande de transfert du domaine wix-BfGstrD5F. vers un autre hébergeur que Wix a bien été réceptionnée.
+Je souaite recréer complètement un site avec koken et ne pas réutiliser le site actuel.
+Comment faire pour travailler sur votre logiciel.
+Merci.
+JR BARILLERE</description>
+      <pubDate>Fri, 27 Jan 2017 14:40:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801885</link>
+    </item>
+    <item>
+      <title>publishing from Lightroom to Koken Site bullseyephotography.ca</title>
+      <description>I keep getting the same error message when trying to upload photos to my site....
+
+This plug-in’s post-processing task did not finish successfully.
+Upload to Koken failed. The server did not return an error message. Contact Koken support for more help.
+
+HELP!</description>
+      <pubDate>Fri, 27 Jan 2017 14:35:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801527</link>
+    </item>
+    <item>
+      <title>Option of translation koken into another language</title>
+      <description>Hi!
+
+Do I understand correctly that the option of translation koken into another language is possible only in the premium templates?
+
+Thank you in advance!</description>
+      <pubDate>Thu, 26 Jan 2017 17:11:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801144</link>
+    </item>
+    <item>
+      <title>création site photographe</title>
+      <description>Bonjour, j'ai un compte chez  HOSTINGER est ce compatible ?</description>
+      <pubDate>Thu, 26 Jan 2017 14:32:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801043</link>
+    </item>
+    <item>
+      <title>création site photographe</title>
+      <description>Bonjour, j'ai actuellement un nom de domaine que j'ai acheté sur WIX comment faire pour l'utiliser avec vous?
+</description>
+      <pubDate>Thu, 26 Jan 2017 14:32:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801030</link>
+    </item>
+    <item>
+      <title>Reinstallation (Theme and plugins)</title>
+      <description>Hi,
+
+I try to reinstall my token blog in another vm. I have a problem to download the themes and plugins I bough. The others are ok. For instance when I try to reinstall the Madison 2 theme I have the message that the installation is in progress but nothing appears. 
+
+Could you help me please.
+Thx.</description>
+      <pubDate>Tue, 24 Jan 2017 20:14:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16799162</link>
+    </item>
+    <item>
+      <title>Cart: Where are the buy buttons? They never appear.</title>
+      <description>Despite numerous attempts I can't seem to locate the "buy" buttons or how to configure purchase options. Setup was a breeze, but finding the buttons is very frustrating.
+
+Also, is it true that you can only use the "buy" function from gallery pages (and not blog posts) when it works? If so, super sad and I've just wasted $50. This plugin seems critically underdeveloped.</description>
+      <pubDate>Tue, 24 Jan 2017 18:42:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16798381</link>
+    </item>
+    <item>
+      <title>Multi-language support</title>
+      <description>Hi!
+
+How affairs with multi-language support?
+
+But please, say straight.</description>
+      <pubDate>Thu, 26 Jan 2017 13:17:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16797821</link>
+    </item>
+    <item>
+      <title>Offline installer</title>
+      <description>Hi,
+
+As far as i see, the installation process downloads directly the binaries from the web. Is it possible to have a bundle version of koken as my servers, on premises, don't have any access to the Internet.
+
+Do you have any zip file containing the whole product or an alternative installation scheme using docker or similar approach?
+
+Regards</description>
+      <pubDate>Sun, 29 Jan 2017 16:20:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16797540</link>
+    </item>
+    <item>
+      <title>mcrypt for Mac Sierra</title>
+      <description>Hi there
+
+I tried to install the lovely looking Koken on my Mac Sierra server but it seems that it need the mcrypt mcrypt.so which Apples default install do not have.
+
+I'm not that much into compiling my own things and there for I thought I ask you if you know if there are any precompiled installers of the mcrylt available for the Mac 10.12 Sierra?
+
+
+Kind regards
+
+Petter</description>
+      <pubDate>Tue, 31 Jan 2017 14:21:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16796957</link>
+    </item>
+    <item>
+      <title>Move complete koken installation to different folder (on same server)?</title>
+      <description>Is it possible to move an existing koken installation to a different folder (url) on the same server?
+
+Currently I have an instance for testing purposes running on: mydomain.de/koken/
+
+Cause I very satisfied with koken, I want to move this test-instance to my productive website now: mydomain.de/  
+
+What steps do I have to take, to to achieve this? 
+
+Thanks in advance.
+Johannes</description>
+      <pubDate>Tue, 31 Jan 2017 20:51:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16796913</link>
+    </item>
+    <item>
+      <title>Web Hosting</title>
+      <description>Hello,
+When I try to install Koken with my host "Free" (http://photopus.free.fr/koken/), I never go out of the phase "Testing your server for compatibility... Please Wait"
+Is Koken compatible with http://sql.free.fr/phpMyAdmin/?
+
+Web Hosting information :
+
+MySQL :
+     Serveur: photopus.sql.free.fr via TCP/IP
+     Version du serveur: 5.0.83
+     Jeu de caractères pour MySQL: UTF-8 Unicode (utf8)
+
+Serveur web
+    Apache
+    Version du client MySQL: 5.1.61
+    Extension PHP: mysql 
+    Version de PHP: 5.3.9
+
+Thank you for your reply.
+Cordially.
+Vincent</description>
+      <pubDate>Thu, 19 Jan 2017 15:32:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16794801</link>
+    </item>
+  </channel>
+</rss>

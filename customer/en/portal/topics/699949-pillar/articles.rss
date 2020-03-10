@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Pillar</title>
+    <link>http://help.koken.me/customer/en/portal/topics/699949-pillar</link>
+    <description>Pillar articles</description>
+    <item>
+      <title>Using Pillar</title>
+      <description>Pillar is a JavaScript grid layout library we developed to create mosaic content layouts. Images are ordered l...</description>
+      <pubDate>Wed, 03 Sep 2014 19:08:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1680009</link>
+    </item>
+    <item>
+      <title>Assigning dynamic values to Pillar</title>
+      <description>This article extends our Pillar setup instructions by explaining how grid properties may be edited through the...</description>
+      <pubDate>Fri, 05 Sep 2014 18:15:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1680031</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,5548 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bceadb921a","applicationID":"48637645,27456590","transactionName":"JlpeF0ENCggEExtXTRZBXw5WEEkUDhNAVVRKXlI8UhASDQINUUcXFl1fFA==","queueTime":0,"applicationTime":193,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta pod-id="" />
+	  <link href="http://assets3.desk.com/assets/portal_jqueryui_only-ae2078f5d9247e97c310caf0c453b7d9.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="http://assets3.desk.com/assets/vendor-c0a3f0c532dd6db2d09875a0ea69a8b0.js" type="text/javascript"></script>
+		<script src="http://assets0.desk.com/assets/customer_widget-044efc6df9c5a6cdfe09ae38cde0fa38.js" type="text/javascript"></script>
+		<script src="http://assets0.desk.com/assets/portal-6cf8baf2170daed9feb9f26bb3d2e9d5.js" type="text/javascript"></script>
+      <script src="http://assets1.desk.com/assets/portal/desk.public_event_logger-b261b5d6041d73051bbb6db8fe304281.js" type="text/javascript"></script>
+
+
+		
+		<script src="http://www.google.com/jsapi?key=ABQIAAAAQO2RPu5r12mVC40HMDIFHRQqrBpdv_jP_dFl8Cw_MxS37sDB3xTXnsXso23z1ROPVCqEVVv6cqz_cA" type="text/javascript"></script>
+	<script src="http://assets2.desk.com/assets/tracking-cb4e8c412440f717ed31041fd947ad26.js" type="text/javascript"></script>
+
+  <script src="//webassets.desk.com/assets/js/analytics/deskanalytics.js" type="text/javascript"></script>
+
+
+<script src="http://assets0.desk.com/assets/tracking/settings/production-ad67a2d478c351fef5c8e17a224aafa1.js" type="text/javascript"></script>
+
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="9U2o4iCA+mqMSmzNM4YfcEU52WZI7w5sNK4/V2zN51A=" name="csrf-token" />
+	<meta name="site_id" content="75530" />
+	<meta name="env" content="production" />
+	<meta name="public_events_server" content="events.deskapi.com" />
+	<meta name="portal_errors_attachment_file_size_too_big" content="The attached file is too big to upload" />
+
+		
+
+
+<link rel='SHORTCUT ICON' type='image/ico' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+<link rel='icon' type='image/png' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+
+
+<link href="http://assets.koken.me/help/prettify/prettify.css" type="text/css" rel="stylesheet" />
+<link href="http://assets.koken.me/help/prettify/koken.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="http://assets.koken.me/help/prettify/prettify.js"></script>
+
+<title>
+  Koken |
+  
+    Release notes
+  
+</title>
+
+
+  <meta property="og:title" content="Release notes"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="Koken"/>
+  <meta property="og:description"
+        content="0.22.24 (August 7, 2017) 
+ 
+  [FIXED] Incomplete album downloads.  
+ 
+
+ 0.22.23 (June 4, 2017) 
+
+ 
+ 
+ [FIXED] Essays &am..."/>
+
+
+
+
+<style type="text/css">
+  
+  
+  /* Reset */
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+  address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+  tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-size: 100%; font-family: inherit; vertical-align: baseline; outline: none; }
+  html { font-size: 13px; height: 100%; }
+  body { margin: 0; padding: 0; border: 0; font-family: 'Helvetica Neue', 'Helvetica', sans-serif; background: #F8F8F8; }
+  h1, h2, h3, h4, h5, h6, p, address { color: #272727;}
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 14px; color: #414141; }
+  a img { border: 0; }
+  p { line-height: 18px; color: #535353; margin: 0 0 20px; }
+  a { color: #254689; text-decoration: none; }
+  a:link { color: #254689; }
+  a:visited { color: #254689; }
+  a:hover, a:focus { color: #254689; text-decoration: underline; }
+  a:active { color: #254689; }
+
+  /* Flash Messages */
+
+  #flash {
+    font-size: 20px;
+    text-align: center;
+    display:none;
+  }
+
+  .flash_html {
+    display: inline;
+  }
+
+  .flash_ajax{
+    display:block;
+    margin:0 auto 0 -200px;
+    position:fixed;
+    top:0px;
+    left:50%;
+    width:400px;
+    z-index:1003;
+    color:#222;
+  }
+
+  .flash_html div, .flash_ajax div {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px auto;
+    width: 400px;
+    padding: 5px 40px;
+    background-color: #FFFDD7;
+    border-bottom: 3px solid #FDFBA8;
+    border-left: 3px solid #FDFBA8;
+    border-right: 3px solid #FDFBA8;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .flash_ajax div.flash_error,
+  .flash_html div.flash_error,
+  .flash_ajax div.flash_critical,
+  .flash_html div.flash_critical {
+    border-color: #FF0000;
+    background-color: #FFBABA;
+  }
+
+  /* Portal Wrappers */
+
+  .wrapper {
+    margin: 0 auto;
+    width: 950px;
+  }
+
+  #company-support-portal {
+    padding: 0 0 30px;
+    overflow: hidden;
+  }
+
+  /* Breadcrumbs */
+
+  #breadcrumbs {
+    color: #666;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+
+  /* Portal Company Header */
+
+  #company-header {
+    background: #000;
+    padding: 12px 0;
+  }
+
+  #company-header h1 {
+    background: url('http://assets0.desk.com/images/portal/portal-icon.png') 0 center no-repeat;
+    color: #FFF;
+    font-size: 25px;
+    padding: 0 0 0 35px;
+    float: left;
+  }
+
+  #company-header a {
+    color: #FFF;
+  }
+
+  #company-header a:hover {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #customer-account {
+    float: right;
+    color: #FFF;
+    margin: 3px 0 0;
+  }
+
+  #customer-account span {
+    float: left;
+    padding: 4px 9px;
+    font-weight: bold;
+  }
+
+  #customer-account a {
+    float: left;
+    display: inline-block;
+    padding: 4px 9px;
+    background: #2B2B2B;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #customer-account a:hover {
+    background: #3B3B3B;
+    color: #FFF;
+  }
+
+  /* Portal Support Header */
+
+  #support-header {
+    background: #E5E5E5;
+    border-bottom: 1px solid #ACACAC;
+    margin: 0 0 30px;
+    padding: 20px 0;
+  }
+
+  #support-header .wrapper {
+    position: relative;
+  }
+
+  #support-header h2 {
+    font-size: 32px;
+    text-shadow: 0 1px 0 #FFF;
+  }
+
+  /* Support Side Column */
+
+  #support-side {
+    float: left;
+    margin: 0 0 0 20px;
+    width: 230px;
+  }
+
+  #support-side .content {
+    margin: 0 0 40px;
+  }
+
+  #support-side h3 {
+    border-bottom: 1px solid #ccc;
+    margin: 21px 0 30px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-side ul {
+    list-style: none;
+  }
+
+  #support-side li {
+    margin: 0 0 5px;
+  }
+
+  /* Support Side Column Twitter */
+
+  #tweets .tweet_avatar {
+    display: none;
+  }
+
+  #tweets .tweet_time a {
+    color: #999;
+    display: block;
+  }
+
+  #tweets li {
+    margin: 0 0 20px;
+    line-height: 18px;
+  }
+
+  /* Support Main Column */
+
+  #support-main {
+    float: left;
+    width: 700px;
+  }
+
+  #support-main .support-body {
+    background: #FFF;
+    border: 1px solid #CCC;
+    -moz-box-shadow: 0 3px 4px #CCC;
+    -webkit-box-shadow: 0 3px 4px #CCC;
+  }
+
+  #support-main .content {
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  /* Support Main Column Headers */
+
+  #support-main h3 {
+    border-bottom: 1px solid #DDD;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+  }
+
+  #support-main h4 {
+    margin: 0 0 30px;
+  }
+
+  #support-main h5 {
+    margin: 0 0 9px;
+  }
+
+  #support-main h5 a {
+    background: #EEE;
+    color: #666;
+    font-size: 11px;
+    padding: 3px 7px;
+    margin: -2px 0 0 9px;
+    position: absolute;
+    text-decoration: none;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  /* Dashboard */
+
+  #support-main .dashboard h5 a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #support-main .dashboard td {
+    border-bottom: 1px solid #CCC;
+    padding: 20px 0 10px;
+  }
+
+  #support-main .dashboard .row1 td {
+    padding: 0 0 10px;
+  }
+
+  #support-main .dashboard .last td {
+    border-bottom: none;
+  }
+
+  #support-main .dashboard .topic {
+    margin: 0;
+  }
+
+  #support-main .dashboard .topic ul {
+    color: #254689;
+    margin: 0 15px 20px 0;
+    list-style: none;
+  }
+
+  #support-main .dashboard .topic li {
+    background: url('http://assets0.desk.com/images/portal/featured-bullet.png') -2px 5px no-repeat;
+    margin: 0 0 5px;
+    padding: 0 0 0 15px;
+  }
+
+  #support-main .dashboard .topic li.featured a {
+    background: #FAFBCA;
+    font-weight: bold;
+  }
+
+  #support-main .dashboard h5 {
+    background: url('http://assets0.desk.com/images/portal/icon-types-small.png') 0 0 no-repeat;
+    height: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+  }
+
+  #support-main .dashboard h5.questions {
+    background-position: 0 -109px;
+  }
+
+  /* Article Lists */
+
+  #support-main .articles ul {
+    list-style: none;
+  }
+
+  #support-main .articles h4 {
+    margin: 0 0 5px;
+    font-weight: normal;
+  }
+
+  #support-main .articles li {
+    margin: 0 0 30px;
+  }
+
+  #support-main .articles li.question {
+    background: url('http://assets0.desk.com/images/portal/icon-types.png') 0 3px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.article {
+    background: url('http://assets0.desk.com/images/portal/icon-types.png') 0 -276px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.question.featured {
+    background-position: 0 -138px;
+  }
+
+  #support-main .articles li.article.featured {
+    background-position: 0 -415px;
+  }
+
+  #support-main .articles li.featured h4 a {
+    font-weight: bold;
+    background: #FAFBCA;
+  }
+
+  #support-main .articles li p {
+    margin: 0 0 5px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed {
+    background: #FFFDF4;
+    border: 1px solid #E3DEBF;
+    margin: 0 0 30px;
+    padding: 20px 20px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .articles .condensed li {
+    margin: 0;
+    padding: 0;
+  }
+
+  #support-main .articles .condensed h4 {
+    font-size: 15px;
+  }
+
+  #support-main .articles .condensed p {
+    margin: 0 0 20px 30px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed a {
+    margin: 0 0 20px 30px;
+  }
+
+  /* Article List Metas */
+
+  #support-main #search-results .meta,
+  #support-main .articles .meta {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+
+  #support-main .articles .meta .answered {
+    background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+    border-right: 1px solid #DDD;
+    color: #549b07;
+    padding: 0 5px 0 14px;
+    margin: 0 5px 0 0;
+  }
+
+  #support-main .articles .meta .count,
+  #support-main .articles .meta .date,
+  #support-main .question-details .meta .name {
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+    border-right: 1px solid #DDD;
+  }
+
+  /* Article List Toggles */
+
+  #toggle div {
+    float: right;
+    margin: -62px 0 0 0;
+  }
+
+  #toggle a {
+    background: #FFF;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  #toggle a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #toggle .active, #toggle a.active:hover {
+    background: #DDD;
+    color: #000;
+  }
+
+  /* Page Title */
+
+  #support-main .title {
+    border-bottom: 1px solid #CCC;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .title h3 {
+    margin: 0 0 3px;
+    padding: 0;
+    border: 0;
+  }
+
+  #support-main .title .meta {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* Article View & Question View */
+
+  #support-main .article-content h1,
+  #support-main .article-content h2,
+  #support-main .article-content h3,
+  #support-main .article-content h4,
+  #support-main .article-content h5,
+  #support-main .answer-details h1,
+  #support-main .answer-details h2,
+  #support-main .answer-details h3,
+  #support-main .answer-details h4,
+  #support-main .answer-details h5, {
+    margin: 0 0 20px;
+  }
+
+  #support-main .article-content h1, #support-main .answer-details h1 {
+    font-size: 22px;
+  }
+
+  #support-main .article-content h2, #support-main .answer-details h2 {
+    font-size: 20px;
+  }
+
+  #support-main .article-content h3, #support-main .answer-details h3 {
+    font-size: 18px;
+  }
+
+  #support-main .article-content h4, #support-main .answer-details h4 {
+    font-size: 16px;
+  }
+
+  #support-main .article-content h5, #support-main .answer-details h5 {
+    font-size: 15px;
+  }
+
+  #support-main .article-content ul, ol, #support-main .answer-details ul, #support-main .answer-details ol {
+    margin-left:15px;
+    list-style-position:inside;
+  }
+  #support-main .article-content p {
+    margin:0;
+  }
+  #support-main .article-content blockquote, #support-main .article-content q,
+  #support-main .answer-details blockquote, #support-main .answer-details q {
+    margin: 0.80em 0 0.80em 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    quotes: "" "";
+  }
+  #support-main .article-content blockquote p, #support-main .article-content q p,
+  #support-main .answer-details blockquote p, #support-main .answer-details q p {
+    margin: 0;
+    padding: 0.80em;
+    color: #666;
+    background: inherit;
+  }
+
+  /* Article View Attachments */
+
+  #attachments {
+    border-bottom: 1px solid #CCC;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+  }
+
+  #attachments strong {
+    background: url('http://assets0.desk.com/images/attachment.png') -1px 0 no-repeat;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 0 0 16px;
+  }
+
+  #attachments ul {
+    list-style: none;
+  }
+
+  /* Article View Rating */
+
+  #rate_article_container {
+    margin: 20px 0 0 0;
+  }
+
+  #rate_article div {
+    color: #265007;
+    float: left;
+    width: 100%;
+    margin: 0 0 6px;
+    font-style: italic;
+    height: 1%;
+  }
+
+  #rate_article_container a {
+    background: url('http://assets0.desk.com/images/portal/rating-arrows.gif') center 4px no-repeat;
+    overflow: hidden;
+    float: left;
+    width: 20px;
+    height: 16px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-indent: -999px;
+    margin: -2px 5px 0 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #rate_article_container .rate-link-down {
+    color: #9b0909;
+  }
+
+  #rate_article_container .rate-link-down a {
+    background-position: center -28px;
+  }
+
+  #rate_article_container span {
+    float: left;
+  }
+
+  /* Question View */
+
+  #support-main .question {
+    padding: 0;
+  }
+
+  #support-main .question .question-body {
+    background: #FFFDF4;
+    border-bottom: 1px solid #E3DEBF;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+  }
+
+  #support-main .question .gravatar-wrapper {
+    float: left;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .question .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }
+
+  #support-main .question .question-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .question-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+  }
+
+  #support-main .question .question-details .meta {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #support-main .question .meta {
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+
+  /* Question Answers */
+
+  #support-main .question .replies {
+    padding: 0 20px;
+    margin: 0 0 20px;
+  }
+
+  #support-main .question .replies h4 {
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .replies.agents h4 {
+    background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+    padding: 10px 0 10px 20px;
+  }
+
+  #support-main .question .replies.agents .reply {
+    background: #FFF;
+    padding: 20px 0 0;
+  }
+
+  #support-main .question .reply {
+    margin: 0;
+    overflow: hidden;
+    height: 1%;
+    padding: 20px 0 0 70px;
+    position: relative;
+  }
+
+  #support-main .question .answer-details,
+  #support-main .myportal .interaction-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .answer-details .meta {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  #support-main .question .answer-details .meta span {
+    display: block;
+  }
+
+  #support-main .question .answer-details .meta span.date {
+    float: none;
+    display: block;
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .meta span.date-short {
+    float: none;
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .answer-body,
+  #support-main .interactions .interaction-details .interaction-body {
+    margin-bottom: 20px;
+  }
+
+  /* Question View Rating */
+
+  #support-main .question .answer-rating {
+    font-size: 20px;
+    height: 53px;
+    line-height: 20px;
+    position: absolute;
+    margin: 0 0 0 -70px;
+    *margin: 0 0 0 -120px;
+    text-align: center;
+    width: 54px;
+  }
+
+  #support-main .question .answer-rating div {
+    border: 1px solid #CCC;
+    padding: 4px;
+    height: 48px;
+    overflow: hidden;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .answer-rating a {
+    background: url('http://assets0.desk.com/images/portal/rating-arrows.gif') center top no-repeat;
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-indent: -900px;
+    overflow: hidden;
+  }
+
+  #support-main .question .answer-rating .decrement {
+    background-position: center -25px;
+  }
+
+  #support-main .question .dialog {
+    display: none;
+  }
+
+  #support-main .question .rating-true .score {
+    display: inline-block;
+    margin: 5px 0 0 0;
+  }
+
+  #support-main .question .rating-true .dialog {
+    display: inline-block;
+    color: #999;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .score-positive {
+    color: #396905;
+  }
+
+  #support-main .question .score-negative {
+    color: #69050c;
+  }
+
+  /* Question View and Private Portal Reply Form */
+
+  #support-main .question #form,
+  #support-main .myportal #form {
+    background: #f8f8f8;
+    border: 1px solid #CCC;
+    margin: 20px;
+    padding: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .form-notice,
+  #support-main .myportal .form-notice {
+    border-top: 1px solid #DDD;
+    margin: 0 20px 20px;
+    padding: 15px 0 0 0;
+  }
+
+  #support-main .question #form h4,
+  #support-main .myportal #form h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+
+  #support-main .question #form .input-block input[type=text],
+  #support-main .question #form .input-block textarea,
+  #support-main .myportal #form .input-block textarea {
+    width: 610px;
+  }
+
+  /* Pre Create Headers */
+
+  #support-main .pre-create h4 {
+    margin: 0 0 30px 0;
+  }
+
+  #support-main .pre-create ul h4 {
+    margin: 0;
+  }
+
+  /* Support Forms */
+
+  #form .label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+
+  #form .label span {
+    color: #999;
+  }
+
+  #form .input-block input[type=text],
+  #form .input-block textarea {
+    /*display: block;*/
+    font-size: 13px;
+    margin: 0 0 20px;
+    width: 650px;
+  }
+
+  #form .input-block textarea {
+    height: 200px;
+  }
+
+  #form .input-block select {
+    margin: 0 0 20px;
+  }
+
+  #form .input-button input {
+    background: url('http://assets0.desk.com/images/portal/button.gif') 0 0 repeat-x;
+    border: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 6px;
+    height: 32px;
+    text-transform: uppercase;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #form .input-button .disabled {
+    background-position: 0 -38px;
+  }
+
+  #form .input-button img {
+    display: none;
+    margin: 7px 0 0 5px;
+    position: absolute;
+  }
+
+  #form label.invalid {
+    color: red;
+    display: inline-block;
+    margin: -20px 0 20px 0;
+  }
+
+  /* Pagination */
+
+  #paginate_block {
+    margin: 0;
+    position: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #paginate_block .pagination {
+    background-color: #FFF;
+    height: auto;
+    margin: 0;
+    padding-top: 0;
+    position: auto;
+    width: auto;
+  }
+
+  #paginate_block .current {
+    background-color: #DDD;
+    border: 1px solid #CCC;
+    padding: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+ 
+
+  /* Footer */
+
+  #footer {
+    display: block;
+    clear: both;
+    color: #999;
+    padding: 20px 0 30px;
+  }
+
+  #footer a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #question-mask {
+    color: #AAA;
+    position: absolute;
+    width: 90%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    text-overflow: ellipsis;
+  }
+
+  .question-big {
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
+  }
+
+  .question-small {
+    font-size: 13px;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  .search-bg {
+    display: none;
+  }
+
+  .highlight{
+    background-color: #FFFAE1;
+  }
+
+  /* Modals */
+
+  #modal-screen {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+  }
+
+  #modal .inner {
+    background: rgba(0,0,0,0.4);
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    margin: -230px 0 0 -350px;
+    position: absolute;
+    padding: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+  }
+
+  #modal .inner h1 {
+    text-align: center;
+    font-size: 27px;
+    padding: 25px 0 0;
+  }
+
+  #modal .inner p.subheader {
+    font-size: 18px !important;
+    color: #767676 !important;
+    text-align: center;
+    margin: 4px 0 30px 0;
+  }
+
+  #modal .inner .input-button {
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #modal .inner .input-button input {
+    margin: 0 0 0 10px;
+  }
+
+  #modal .inner .note {
+    text-align: center;
+    color: #616161;
+    margin: 0 0 20px 0 !important;
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  #modal .main {
+    background: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #modal .close {
+    float: right;
+    margin: -16px -16px 0 0;
+  }
+
+  /* Auto Completion */
+
+  .ui-autocomplete {
+    background: #FFF;
+    border: 1px solid #C0C0C0;
+    width: 100px;
+    list-style: none;
+    margin: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  }
+
+  .ui-autocomplete a {
+    padding: 9px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .ui-autocomplete a:hover,
+  .ui-autocomplete a.ui-state-hover {
+    background: #FFFAE1;
+    text-decoration: none;
+  }
+
+  .ui-autocomplete li:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+  }
+
+  .ui-autocomplete li:last-child a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .ui-autocomplete .KbArticle,
+  .ui-autocomplete .QnaThread {
+    background: url('http://assets0.desk.com/images/portal/icon-types-small.png') 0 4px no-repeat;
+    display: block;
+    padding: 0 0 0 25px;
+    overflow: hidden;
+  }
+
+  .ui-autocomplete .QnaThread {
+    background-position: 0 -106px;
+  }
+
+  .ui-autocomplete .article-autocomplete-subject {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .ui-autocomplete .article-autocomplete-body {
+    display: block;
+    font-size: 13px;
+    color: #666;
+  }
+
+  /* Get Satisfaction Styles */
+  .gs-idea {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/idea_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-question {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/question_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-praise {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/praise_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-update {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/update_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-problem {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/problem_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs_search_result {
+    width:100% !important;
+  }
+
+  #gs_Sidebar_Results .tweet_time, .gs-search-result {
+    padding-left: 20px;
+  }
+
+  #gs_search_title h5 {
+    font-size:20px;
+    border-bottom:1px solid #DDDDDD;
+    margin:0 0 20px;
+    padding:0 0 20px;
+  }
+
+  #question-best-answer {
+  border: 1px solid #ddd;
+  background: #FFF;
+  border-radius: 5px;
+  margin: 0 0 25px 70px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px 20px 0;
+  }
+
+ #support-main .agent-answer-label {
+  margin: 0 0 10px;
+ }
+
+ #support-main #question-best-answer .reply {
+  height: 1%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+ }
+
+#support-main .best-answer-green {
+  position: absolute;
+  right: 0;
+  background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+  padding: 0 0 0 15px;
+  color: #6db400;
+  font-weight: bold;
+}
+
+#support-main .best-answer-green a {
+  color: #6db400;
+}
+
+#support-main .best-answer-green a:hover {
+  text-decoration: none;
+}
+
+#support-main #question-best-answer-heading {
+  margin: 30px 0 10px 0;
+}
+
+#social-share {
+  float: left;
+  width: 80px;
+  margin-left: -90px;
+}
+
+#social-share .share-btn {
+  margin: 0 auto 15px auto;
+  width: 60px;
+  text-align: center;
+}
+
+#social-share .share-btn .fb-like {
+  margin-left: 6px;
+}
+
+  /* Private Portal */
+
+  #support-main .myportal {
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .myportal .content {
+    background: #FFF;
+  }
+
+  .myportal-label {
+    margin: 0 0 8px 0;
+    padding-left: 22px;
+    background: url('../images/mail.png') 0 0 no-repeat;
+  }
+
+  .myportal .mycases-filters {
+    padding: 20px 0 0 0;
+    height: 50px;
+  }
+
+  .myportal .a-selectbox {
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #FFF;
+    -webkit-border-image: none;
+    display: block;
+    float: left;
+    padding: 4px;
+    text-decoration: none;
+    zoom: 1;  
+  }
+
+  .myportal .a-selectbox select {
+    background: url("/images/arrow_down.png") right 0px no-repeat;
+    border: none;
+    box-sizing: border-box;
+    white-space: pre;
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    padding: 2px 3px;
+    font-size: 12px;
+    width: 190px;
+  }
+
+  .myportal .a-checkbox {
+    float: left;
+    margin: 5px;
+    color: #333;
+    font-size: 11px;
+  }
+
+  .myportal-button, .myportal-button:visited {
+    float: right;
+    padding: 8px 6px;
+    border: 0;
+    background: url(/images/portal/button.gif) 0 0 repeat-x;
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff !important;
+    text-transform: uppercase;
+  }
+
+  .myportal-button:hover {
+    text-decoration: none;
+  }
+
+  .myportal .mycases {
+    background:##E5E5E5;
+    width: 100%;
+    border-collapse:collapse;
+    font:normal 12px verdana, arial, helvetica, sans-serif;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .myportal .mycases caption {
+    border:1px solid #5C443A;
+    color:#5C443A;
+    font-weight:bold;
+    letter-spacing:20px;
+    padding:6px 4px 8px 0px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases td, th {
+    color:#363636;
+    padding: 11px 5px;
+  }
+
+  .myportal .mycases tr {
+    background: #FFF;
+    border: 1px solid #ccc;
+  }
+  
+  .myportal .mycases tbody tr:hover {
+    cursor: pointer;
+  }
+
+  .myportal .mycases thead th, tfoot th {
+    background: #E8E8E8;
+    font-size: 10px;
+    font-weight: bold;
+    color:#666;
+    padding: 6px 5px;
+    text-align:left;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases a {
+    text-decoration:none;
+  }
+
+  .myportal .mycases a:hover {
+    text-decoration: underline;
+  }
+
+  .myportal .mycases tbody th, tbody td {
+    text-align:left;
+    vertical-align:middle;
+  }
+
+  .myportal .mycases tfoot td {
+    background:#5C443A;
+    color:#FFFFFF;
+    padding-top:3px;
+  }
+  
+  .myportal .mycases .a-casechannel {
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    padding: 11px 0 11px 11px;
+  }
+
+  .myportal .case-block{
+    float: left;
+    margin-right: 60px;
+  }
+
+  .myportal .a-caseid {
+    padding-left: 15px;
+  }
+
+  .myportal .a-caseid, .myportal .a-casestatus {
+    width: 70px;
+  }
+
+  .myportal .a-casecreated {
+    width: 60px;
+  }
+
+  #support-main .case {
+    padding: 0;
+  }
+
+  #support-main .myportal .case-details, #support-main .myportal .interaction {
+    padding: 20px;
+  }
+
+  #support-main .myportal .case-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 510px;
+    font-size: 18px;
+    vertical-align: top;
+    float: left;
+  }
+  
+  #support-main .myportal .case-details img {
+    margin-right: 5px;
+    float:left;
+  }
+
+  #support-main .myportal .status {
+    float: right;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .status .a-New,
+  #support-main .myportal .status .a-Open,
+  #support-main .myportal .status .a-Pending,
+  #support-main .myportal .status .a-Resolved,
+  #support-main .myportal .status .a-Closed {
+    color: #fff;
+    padding: 2px 8px;
+    font-weight:bold;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .myportal .status .a-New {
+    background-color: #5B75AF;
+    border: #465A86 1px solid;
+  }
+
+  #support-main .myportal .status .a-Open {
+    background-color: #61A00F;
+    border: #4A7B0B 1px solid;
+  }
+
+  #support-main .myportal .status .a-Pending {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .status .a-Resolved {
+    background-color: #A5A5A5;
+    border: #7E7E7E 1px solid;
+  }
+
+  #support-main .myportal .status .a-Closed {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .meta {
+    clear: both;
+    padding: 8px 0;
+    color: #888;
+    line-height: 16px;
+  }
+
+  #support-main .myportal .meta strong {
+    color: #000;
+  }
+
+  .myportal #paginate_block .pagination {
+    background-color: transparent;
+  }
+
+/* Private Portal - Case Detail */
+
+  #support-main .myportal .case-details .meta span.date,
+  #support-main .myportal .interaction-details span.date {
+    margin: 0;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .interaction-details span.date {
+    float: right;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .case-data {
+    width: 50%;
+    float: left;
+    position: relative;
+  }
+
+  #support-main .myportal .meta .case-dates {
+    width: 50%;
+    float: right;
+    position: relative;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .name {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #support-main .myportal .interactions {
+    border-top: 1px solid #E3DEBF;
+  }
+  
+  #customer-account a {
+    margin-left: 9px;
+  }
+
+  #support-main .myportal .gravatar-wrapper {
+    position: absolute;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .myportal .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }  
+
+  #support-main .myportal .interaction-details .meta {
+    width: 100%;
+    margin: 0;
+  }
+
+/* Private Portal - My Account */
+
+  .myaccount-form {
+    padding-top: 20px;
+  }
+
+  .myaccount-form .new_customer_contact_email {
+    padding: 30px 0;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] form div {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+  }
+
+  .myaccount-form div[id^="email_"]:hover {
+    background-color:#f9f9f9;
+  }
+
+  .myaccount-form div[id^="email_"] .verified {
+    display: block;
+    float: right;
+    padding-right: 10px;
+    color: #5FA400;
+    font-weight: bold;
+  }
+
+  .myaccount-form div[id^="email_"] form input[type="submit"] {
+    height: 25px;
+  }
+
+  .myaccount-form input[type="text"] {
+    font-size: 12px;
+    border: 1px solid #C0C0C0;
+    float: left;
+    margin: 0 5px 8px 0;
+    width: 195px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .myaccount-form button {
+    height: 32px;
+    padding: 0 6px;
+    border: 1px solid #C0C0C0;
+    background: url('/images/portal/button.gif') 0 0 repeat-x;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .myaccount-form label.invalid {
+    font-weight: normal ;
+    display: block !important;
+    clear: both;
+    margin: 10px 0 20px 0;
+  }
+
+/* Private Portal - Login and Registration */
+
+  .login-form, .registration-form, .forgotpw-form, .alternatelogins {
+    padding: 20px 0;
+  }
+
+  .alternatelogins {
+    float: right;
+    padding: 20px 0;
+  }
+
+  .login-form .field label, .registration-form .field label, .forgotpw-form .field label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+  }
+
+  .login-form .field input, .registration-form .field input, .forgotpw-form .field input {
+    font-size: 14px;
+    border: 1px solid #999;
+    display: block;
+    margin: 4px 0 15px 0;
+    width: 250px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .login-form .actions input {
+    width: 80px;
+    margin-bottom: 40px;
+  }
+
+  .login-form .newaccount, .login-form .forgotpw {
+    font-weight: bold;
+    float: left;
+  }
+
+  .login-form .forgotpw {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #999;
+  }
+
+  .registration-form label.invalid,
+  .forgotpw-form label.invalid {
+    font-weight: normal;
+    display: block;
+    margin: -10px 0 20px 0;
+  }
+  .login-form form {
+    float: left;
+    width: 330px;
+  }
+  .alternatelogins {
+    border-left: 1px solid #ccc;
+    float: left;
+    height: 200px;
+    padding-left: 25px;
+  }
+  .alternatelogins div {
+    margin: 0 0 20px 0;
+  }
+  .alternatelogins a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    padding: 0 1em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #222;
+    background: #fff;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: none; 
+    *overflow: visible;
+    *display: inline;
+    *zoom: 1;
+  }
+  .alternatelogins a:hover,
+  .alternatelogins a:focus,
+  .alternatelogins a:active {
+    color: #222;
+    text-decoration: none;
+  }
+  .alternatelogins a:before {
+    content: "";
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url(/images/portal/auth-icons.png) no-repeat 99px 99px;
+  }
+  .alternatelogins #twitter {
+    border-color: #a6cde6;
+    color: #327695;
+    background: #cfe4f0;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -o-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+  }
+  .alternatelogins #twitter:hover,
+  .alternatelogins #twitter:focus,
+  .alternatelogins #twitter:active {
+    color: #327695;    
+    border-color: #8dc2e4;
+    background-color: #cadde9;
+  }
+  .alternatelogins #twitter:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7;
+  }
+  .alternatelogins #twitter:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -36px -22px;
+  }
+  .alternatelogins #facebook {
+    border-color: #29447e;
+    border-bottom-color: #1a356e;
+    color: #fff;
+    background-color: #5872a7;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -webkit-linear-gradient(#637bad, #5872a7);
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -ms-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    -webkit-box-shadow: inset 0 1px 0 #879ac0;
+    box-shadow: inset 0 1px 0 #879ac0;
+  }
+  .alternatelogins #facebook:hover,
+  .alternatelogins #facebook:focus {
+    color: #fff;
+    background-color: #3b5998;
+  }
+  .alternatelogins #facebook:active {
+    color: #fff;
+    background: #4f6aa3;
+    -webkit-box-shadow: inset 0 1px 0 #45619d;
+    box-shadow: inset 0 1px 0 #45619d;
+  }
+  .alternatelogins #facebook:before {
+    border-right: 1px solid #465f94;
+    margin: 0 1em 0 -1em;
+    background-position: 0 -22px;
+  }
+  .answer-body img { max-width: 100% }
+  
+</style>
+
+<link href="http://assets.koken.me/help/css/pe-icon-7-stroke.css" type="text/css" rel="stylesheet">
+<link href="http://assets.koken.me/help/css/desk201408.css" rel="stylesheet" type="text/css" />
+
+
+
+	</head>
+	<body>
+			<div id="flash" class="flash_html"><div class="agent_notifier_msg a-flash flash_notice">
+  
+  
+</div>
+</div>
+		
+
+<main>
+
+<a name="top"></a>
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<div id='company-support-portal'>
+  <div id='company-header'>
+    <div class='wrapper'>
+      <h1><a href='/'></a></h1>
+<div class="extra">
+  <h2><a href='/' title="Koken Help Center">Help Center</a></h2>
+<ul>
+  <li>
+    <a href="/" title="Koken Help Center">Topics</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/questions/new" title="Ask a question">Ask a question</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/emails/new?t=484231" title="Contact Koken support directly">Email us</a>
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us</a>
+          </li>
+
+    <li>
+    <a href="http://blog.koken.me" title="Koken Blog" onclick="return !window.open(this.href);">Blog</a>
+  </li>
+    <li>
+    <a href="http://store.koken.me/" title="Koken Store - Free and premium themes and plugins" onclick="return !window.open(this.href);">Store</a>
+  </li>
+</ul>
+</div>
+      
+      <form action='/customer/portal/articles/search' method='get' id='support-search' class='support-search-small'>
+          <div>
+            <input id='q' maxlength='100' name='q' type='text' value='' />
+            
+            <input id='support-search-submit' type='submit' value='Search' />
+            <span class="search_glass pe-7s-search"></span>
+          </div>
+        </form>
+      <div style="float:right"></div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  <div id='support-header'>
+    <div class='wrapper'>
+      <h2>Support Center</h2>
+      
+        
+      
+    </div>
+  </div> <!-- /#support-header -->
+  
+  <div class='wrapper'>
+    
+    <div id='support-side'>
+
+      <div class='content'>
+   
+        <!-- if a topic or article page -->        
+        
+        <section>
+        <ul>
+          <li>
+            <a href='/customer/en/portal/topics/547626-support/articles'><h2>Support articles</h2></a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/848339-release-notes'>Release notes</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/2313697-feedback'>Feedback</a>
+          </li>
+          
+        </ul>
+        </section>
+        
+
+        
+
+
+        <section>
+          <h2>About Koken</h2>
+          <p>
+          This Help Center provides support for <a href="http://koken.me" title="Koken">Koken</a>, a free content management system designed for photographers, artists and designers.
+          </p>
+        </section>
+
+      <section>
+          <a href="https://twitter.com/koken" class="twitter-follow-button" data-show-count="false">Follow @koken</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </section>
+
+      <section>
+      <div class="fb-like" data-href="http://facebook.com/kokencms" data-send="false" data-layout="button_count" data-width="190" data-show-faces="true" data-font="arial"></div>
+      </section>
+      
+      
+      
+    </div>
+  </div>
+    
+        <!--begin:portal_body-->
+
+<!--begin:page_article--><div id="jump_head">
+  <div class="wrapper">
+    <div class="lcol">
+      Release notes
+    </div>
+    <div class="rcol">
+      <a href="#top" title="Back to top">Back to top</a><div id="jumpto_scroll"></div></div>
+    </div>
+   </div>
+</div>
+
+<div id='support-main'>
+
+  <div class='support-body'>
+    
+<div id='breadcrumbs'>
+  <a href='/'>Home</a>
+  
+  &rsaquo; <a href='/customer/en/portal/topics/547626-support/articles'>Support</a> &rsaquo; Release notes
+  
+        <a class='bttn-small' href='/customer/portal/questions/new' title='Ask a question'>Ask a question</a>
+
+</div>
+    
+    <div id='social-share'>
+      <div class='share-btn'>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical"></a>
+      </div>
+      <div class='share-btn'>
+        <div class="fb-like" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+      </div>
+      <div class='share-btn'>
+        <g:plusone size="tall"></g:plusone>
+      </div>
+    </div>
+
+    <div class='content article'>
+    
+      <div class='title'>
+        <h1>Release notes</h1>
+        <div class='meta'>Last Updated: Aug 07, 2017 12:30PM EDT</div>
+      </div>
+
+      <div class='article-content'>
+        <h2>0.22.24 (August 7, 2017)</h2>
+<ul>
+	<li><p>[FIXED] Incomplete album downloads.</p></li>
+</ul>
+
+<h2>0.22.23 (June 4, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Essays &amp; Pages not loading images.</p>
+	</li>
+</ul>
+
+<h2><br />
+0.22.22 (June 4, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Use absolute media urls in share links.</p>
+	</li>
+	<li>
+	<p>[FIXED] Use absolute urls in RSS feeds.</p>
+	</li>
+	<li>
+	<p>[FIXED] Browser history compatibility with pjax navigation.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added &#39;relative&#39; attribute to koken:img, koken:background and koken:pulse Lens tags.</p>
+	</li>
+</ul>
+
+<h2>0.22.21 (May 16, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Provide max_download Lens tag access to content attributes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album slideshows linked to lighbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Error when mbstring extension is not installed.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved Danish translations.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Using relative image URLs.</p>
+	</li>
+</ul>
+
+<h2>0.22.20 (March 14, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Allow album_download Lens tag to working in album scope.</p>
+	</li>
+</ul>
+
+<h2>0.22.19 (February 24, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Add OpenSSL as an optional encryption library.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Indicate reCAPTCHA fields as required.</p>
+	</li>
+</ul>
+
+<h2>0.22.18 (February 13, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] Compatibility fixes for PHP 5.3 and 5.4.</p>
+	</li>
+</ul>
+
+<h2>0.22.17 (February 13, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Suppport for Google reCAPTCHA in contact forms.</p>
+	</li>
+</ul>
+
+<h2>0.22.16 (January 30, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] PHP 5.3 compatibility for koken:search tag.</p>
+	</li>
+</ul>
+
+<h2>0.22.15 (January 27, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Add koken:search tag to Lens framework</p>
+	</li>
+</ul>
+
+<h2>0.22.14 (January 6, 2017)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] Instagram embeds work with latest Instagram API.</p>
+	</li>
+	<li>
+	<p>[FIX] Pulse slideshows with size set to expand now load.</p>
+	</li>
+	<li>
+	<p>[FIX] Rating plugin works with unlisted albums.</p>
+	</li>
+</ul>
+
+<h2>0.22.13 (December 21, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added &#39;version&#39; parameter to Lens koken:asset tag allowing cache busting.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Allow editing of Album urls slugs.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Corrected some EXIF values while also adding new ones.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Helper CSS classes generated on custom Lens templates.</p>
+	</li>
+	<li>
+	<p>[FIX] Geolocation scripts loaded with HTTPS in Console.</p>
+	</li>
+	<li>
+	<p>[FIX] Low memory warning with &gt;1GB of memory.</p>
+	</li>
+	<li>
+	<p>[FIX] Duplicate exif and iptc Lens tags no longer conflict.</p>
+	</li>
+</ul>
+
+<h2>0.22.12 (December 5, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] Password plugin: allow use of passwords with leading zeros.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Made kicons available to theme developers in common.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Support for rating plugin in lightbox template.</p>
+	</li>
+</ul>
+
+<h2>0.22.11 (November 4, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Support for new rating plugin lens tag.</p>
+	</li>
+	<li>
+	<p>[FIX] Correction to Russian translations.</p>
+	</li>
+	<li>
+	<p>[FIX] Quality detection in ImageMagick and GrgraphicsMagick.</p>
+	</li>
+	<li>
+	<p>[FIX] Clipping of auto-rotation images when using GD image processor.</p>
+	</li>
+</ul>
+
+<h2>0.22.10 (October 25, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] Album content not loading when using MySQL 5.7.</p>
+	</li>
+	<li>
+	<p>[FIX] Unable to assign new Themes in some versions of MySQL.</p>
+	</li>
+</ul>
+
+<h2>0.22.9 (October 10, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] Large JPEG images maintain their source quality when imported.</p>
+	</li>
+	<li>
+	<p>[FIX] Console error when changing colors with opacity.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Support for reading IPTC headings in to image titles.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Support for Greek in premium themes.</p>
+	</li>
+</ul>
+
+<h2>0.22.8 (September 30, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIX] Console sign in restored on hosts running an outdated version of PCRE.</p>
+	</li>
+</ul>
+
+<h2>0.22.7 (September 20, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Improved support for PHP 7.</p>
+	</li>
+	<li>
+	<p>[FIX] Automatically rotate uploaded images based on their captured orientation.</p>
+	</li>
+	<li>
+	<p>[FIX] Themes with pjax support iOS 10.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Upgrade CodeIgniter to latest 2.x,&nbsp;<strong>requires</strong> PHP <a href="http://php.net/manual/en/book.mcrypt.php">mcrypt extension</a>.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Improve speed through better browser caching.</p>
+	</li>
+</ul>
+
+<h2>0.22.6 (August 16, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Automatically rotate uploaded images based on their captured orientation.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Sorting by title will fallback when a title is not present.</p>
+	</li>
+	<li>
+	<p>[FIX] Repair koken:permalink tags in Lens framework.</p>
+	</li>
+	<li>
+	<p>[FIX] Using select all on large collections while loading.</p>
+	</li>
+</ul>
+
+<h2>0.22.5 (June 3, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATE] HTTPS checks expanded to cover common ports.</p>
+	</li>
+</ul>
+
+<h2>0.22.4 (May 4, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATE] Speed up the creation of album archives.</p>
+	</li>
+	<li>
+	<p>[FIXED] Slow loading images on some hosts without loopback support.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album navigation, use arrow keys between albums and shift + arrows for images.</p>
+	</li>
+</ul>
+
+<h2>0.22.3 (April 6, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATE] Support for email servers that mandate DMAC compliance.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Additional Hungarian language available in Lens templates.</p>
+	</li>
+	<li>
+	<p>[FIXED] Correction to Swedish translations.</p>
+	</li>
+</ul>
+
+<h2>0.22.2 (March 23, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIXES] New caching support for PHP 5.3.</p>
+	</li>
+</ul>
+
+<h2>0.22.1 (March 23, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Build image cache button in the Settings &gt; Image publishing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Increased limit of images in album downloads to 500.</p>
+	</li>
+	<li>
+	<p>[FIXES] Missing date formatting characters.</p>
+	</li>
+</ul>
+
+<h2>0.22.0 (March 2, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added theme support for Album Downloads.</p>
+	</li>
+</ul>
+
+<h2>0.21.15 (February 23, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Site not loading on hosts that don&#39;t support .htaccess options.</p>
+	</li>
+</ul>
+
+<h2>0.21.14 (February 19, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Lens tag koken:link can now link to custom templates with routes.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Upgraded animate.css and timeago.js libraries to the latest versions</p>
+	</li>
+	<li>
+	<p>[UPDATED] Contact form messages are localized with the theme.</p>
+	</li>
+	<li>
+	<p>[FIXED] Hide application files when pretty urls aren&#39;t supported.</p>
+	</li>
+	<li>
+	<p>[FIXED] Custom date format strings no longer add extra characters.</p>
+	</li>
+	<li>
+	<p>[FIXED] Issue with corrupt downloads of files with a .dl extension.</p>
+	</li>
+</ul>
+
+<h2>0.21.13 (February 4, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Theme builders can now include custom templates in navigation groups.</p>
+	</li>
+	<li>
+	<p>[UPDATED] International date formatting in the Lens framework for the koken:dates tag.</p>
+	</li>
+	<li>
+	<p>[FIXED] Improved MariaDB support when installing updates.</p>
+	</li>
+</ul>
+
+<h2>0.21.12 (February 1, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Case where some albums hierarchies caused updates to not complete.</p>
+	</li>
+</ul>
+
+<h2>0.21.11 (January 26, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Save Settings will only clear the Image Cache when necessary.</p>
+	</li>
+</ul>
+
+<h2>0.21.10 (January 22, 2016)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Allow drafts to save more data, such as large navigation &amp; custom CSS.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Send extra data to infinite-loaded event handlers.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Validate the Site&#39;s theme settings.</p>
+	</li>
+</ul>
+
+<h2>0.21.9 (December 24, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Updated unlisted images to be hidden from public albums.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Additional languages available in Lens templates. Added Spanish, Italian, Polish, Russian, Dutch, Norwegian and Swedish.</p>
+	</li>
+	<li>
+	<p>[FIXED] Missing english text in Lightbox template.</p>
+	</li>
+</ul>
+
+<h2>0.21.8 (December 7, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Updated Lens framework to better support number inputs, placeholders and dependencies.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Updated Plugin API to include PJAX site hooks.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed test for .htaccess support over HTTPS.</p>
+	</li>
+</ul>
+
+<h2>0.21.7 (November 17, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Updated the video player library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed empty contact form submissions when labels contain quotes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed library thumbnails&#39; width not being restricted in FireFox.</p>
+	</li>
+</ul>
+
+<h2><br />
+0.21.6 (November 11, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved issue on PHP 5.3 installs.</p>
+	</li>
+</ul>
+
+<h2><br />
+0.21.5 (November 10, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added French and German Language packs.</p>
+	</li>
+</ul>
+
+<h2><br />
+0.21.4 (October 30, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Library thumbnails can be scaled.</p>
+	</li>
+	<li>​[FIXED] Tumblr sharing.</li>
+</ul>
+
+<h2><br />
+0.21.3 (October 23, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Site settings panel can be pinned to the sidebar.</p>
+	</li>
+	<li>
+	<p>[FIXED] Tumblr sharing fixed and updated to use the latest Tumblr endpoint.</p>
+	</li>
+	<li>
+	<p>[FIXED] Vimeo video sizing in the Boulevard theme.</p>
+	</li>
+	<li>
+	<p>[FIXED] The clipping of wide custom logos in the Chastain theme on mobile devices.</p>
+	</li>
+	<li>
+	<p>[FIXED] Allow content to have their historic dates set prior to January 1,&nbsp;1970.</p>
+	</li>
+	<li>
+	<p>[FIXED] Properly encoded unicode contact form labels in emails.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album tree improvements to prevent albums from assuming the same position in the tree as existing albums.</p>
+	</li>
+</ul>
+
+<h2><br />
+0.21.2 (March 25, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved issue that caused contact form emails to be sent multiple times in Regale and Madison.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved contact form email truncation issue on PHP 5.3 installs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several album count fixes that ensure private, password protected albums show up in listings properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Trash empty bug that could cause unexpected album deletion has been fixed.</p>
+	</li>
+</ul>
+
+<h2>0.21.1 (March 23, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Email delivery fixes when using built-in PHP mailer.</p>
+	</li>
+</ul>
+
+<h2>0.21.0 (March 23, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Contact forms can now be embedded into any Page (<a href="http://help.koken.me/customer/portal/articles/1914327-insert-contact-form">Documentation</a>).</p>
+	</li>
+	<li>
+	<p>[NEW] Internal updates to allow plugins to take over system email functions (See: <a href="https://store.koken.me/plugins/email-endpoints">Email endpoints plugin</a>).</p>
+	</li>
+	<li>
+	<p>[FIXED] RSS feeds are no longer published for non-public albums.</p>
+	</li>
+</ul>
+
+<h2>0.20.5 (March 6, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved color profile issue introduced in 0.20. If you are experiencing this issue, clear your image cache (Settings &gt; Image publishing) after upgrading to 0.20.5.</p>
+	</li>
+</ul>
+
+<h2>0.20.4 (March 2, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Pulse slideshow issues with Password Protect plugin resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Various content visibility fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix koken:covers minimum option.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved duplicate plugin listing in Settings &gt; Plugins.</p>
+	</li>
+</ul>
+
+<h2>0.20.3 (February 24, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed intermittent upload errors from Lightroom plugin.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:asset path fix for some Windows servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve issue that caused Pulse plugins to stop working in 0.20.</p>
+	</li>
+	<li>
+	<p>[FIXED] Image downloads are now forced as downloads instead of showing in the browser..</p>
+	</li>
+</ul>
+
+<h2>0.20.2 (February 19, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Cache performance tune-ups.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue that removed pages saved as drafts from the Text listing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Modifying essay dates to p.m. times now working properly again.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed trash loading issue.</p>
+	</li>
+</ul>
+
+<h2>0.20.1 (February 16, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved image rendering issue introduced in 0.20 when using certain versions of the GD2 image processor.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:asset path fix for some servers.</p>
+	</li>
+</ul>
+
+<h2>0.20.0 (February 16, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Reworked album visibility to match content visibility options (public, unlisted, private).</p>
+	</li>
+	<li>
+	<p>[UPDATED] May now assign collection visibility from the Add New sheet.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Plugin system rebuilt for improved performance and more access to core Koken functionality.</p>
+	</li>
+	<li>
+	<p>[FIXED] Identified and resolved several issues related to performance.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve console error when clicking a draft in the right column in Text.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed PJAX error that caused blank pages after using the back button.</p>
+	</li>
+	<li>
+	<p>[FIXED] Introduced LOOPBACK_HOST_HEADER setting in user_setup.php to workaround loopback connection issues on some servers.</p>
+	</li>
+</ul>
+
+<h2>0.19.4 (January 26, 2015)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Tour is no only shown once, even if browser cookies are cleared.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lens truncation now works properly with multibyte characters.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue that caused essay action buttons to not appear at certain screen resolutions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue in 0.19 that could cause album and essay creation to fail on some installs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Improved performance and lower resource usage for site rendering.</p>
+	</li>
+</ul>
+
+<h2>0.19.3 (December 15, 2014)</h2>
+
+<ul>
+	<li>[FIXED] Featured essays can now be ordered again via drag and drop.</li>
+	<li>[FIXED] Resolved an issue that caused image titles and captions to unexpectedly disappear in essay media embeds.</li>
+	<li>[FIXED] API errors when using Vimeo and Instagram plugins with PHP 5.3.</li>
+</ul>
+
+<h2>0.19.2 (December 12, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Album lightbox redirect issue with Firefox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue that caused some albums to be created with improper sort data.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed page URLs for some installs.</p>
+	</li>
+</ul>
+
+<h2>0.19.1 (December 10, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fix category page listings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix featured content listings for some installs.</p>
+	</li>
+</ul>
+
+<h2>0.19.0 (December 9, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] URLs can now be edited after items have been created.</p>
+	</li>
+	<li>
+	<p>[NEW] Sort criteria may now be assigned directly to content and published without using site filters.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed theme settings scope issue in Site that prevented some settings from being assigned properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed lightbox loading spinner visibility issue when viewing the lightbox in fullscreen mode.</p>
+	</li>
+</ul>
+
+<h2>0.18.4 (December 1, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Updated the set console icon.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme setting reset buttons now display confirmations to help avoid accidents.</p>
+	</li>
+	<li>
+	<p>[FIXED] Type wrap rendering issues in Chrome 39 / Windows resolved.</p>
+	</li>
+</ul>
+
+<h2>0.18.3 (October 6, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed missing upload progress indicator.</p>
+	</li>
+</ul>
+
+<h2>0.18.2 (September 25, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[SECURITY] Resolved an issue that could allow non-authenticated requests to modify records.</p>
+	</li>
+	<li>
+	<p>[FIXED] RSS date formatting fixes for some timezones.</p>
+	</li>
+	<li>
+	<p>[FIXED] Add SVG MIME type in .htaccess rules.</p>
+	</li>
+</ul>
+
+<h2>0.18.1 (September 23, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Image processing fix for images with uppercase file extensions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Site title, tagline display issue on published site.</p>
+	</li>
+</ul>
+
+<h2>0.18.0 (September 22, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Tags can now be deleted system-wide.</p>
+	</li>
+	<li>
+	<p>[NEW] Numerous console UI updates for improved HiDPI / Retina display.</p>
+	</li>
+	<li>
+	<p>[NEW] Added a k-link-lightbox-loading class and event when items are clicked that load the lightbox.</p>
+	</li>
+	<li>
+	<p>[NEW] &lt;koken:link&gt; now supports a &quot;share&quot; parameter for easier linking to social media services.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Button added to the theme settings panel to drop recent edits and revert a draft theme to its live state.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Several optimizations to improve API response times.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Image publishing speed optimizations with managing ICC color profiles.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved API rendering issue for errors.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix for retain image metadata setting on some installs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Set current link JavaScript fix for sites using HTTPS.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue that prevented Settings values from updating under certain conditions.</p>
+	</li>
+</ul>
+
+<h2>0.17.6 (September 8, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed issue that disallowed removing category and tag filters from index pages in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better handling for JSON encoding when malformed UTF-8 characters are present (requires PHP 5.5).</p>
+	</li>
+	<li>
+	<p>[FIXED] Tag URL fix when viewing tag detail page.</p>
+	</li>
+	<li>
+	<p>[FIXED] Tags pagination fix.</p>
+	</li>
+	<li>
+	<p>[FIXED] Link fix for numeric tags.</p>
+	</li>
+	<li>
+	<p>[FIXED] Koken no longer uses persistent database connections as they cause issues at some hosts.</p>
+	</li>
+	<li>
+	<p>[FIXED] Improved image publishing to prevent needless upscaling, resulting in better performance for some images.</p>
+	</li>
+</ul>
+
+<h2>0.17.5 (September 4, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Pillar spacing fix.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix URL data corruption that could cause blank album pages.</p>
+	</li>
+</ul>
+
+<h2>0.17.4 (September 3, 2014)</h2>
+class assignment when using the back button in pjax themes.
+
+<ul>
+	<li>
+	<p>[UPDATED] Store tab can now be expanded for easier browsing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved ImageMagick/GraphicsMagick performance.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Better text point size in lightbox landscape view.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Show text/caption is now enabled by default for Library content inserted into essays/pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix reloading of body CSS classes when back button is used in pjax themes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix intermittent blank screens when double-clicking links in pjax themes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed flush Pillar issue that caused uneven grid column widths in themes like Axis 2.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix koken:load tag ordering when limit_to is used.</p>
+	</li>
+</ul>
+
+<h2>0.17.3 (August 18, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fix Pulse slideshow loading when 4 images are loaded.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix GPS output for some images.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:has_category was broken in previous versions of 0.17.</p>
+	</li>
+	<li>
+	<p>[FIXED] IE9 fixes for some core theme functionality.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix for outputting tags as a string in Lens.</p>
+	</li>
+</ul>
+
+<h2>0.17.2 (August 13, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fix ordering for koken:previous in album category listings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue that caused the tag autocomplete input to stop working after editing a few item tags.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix tag output for albums in Timeline listings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Animated GIF processing fixes for Imagick, ImageMagick and GraphicsMagick.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved Site settings panel issue when using numeric ID-based URLs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Some installs did not fully complete the upgrade process for 0.17. This release should fix those installs and prevent that from happening in the future.</p>
+	</li>
+</ul>
+
+<h2>0.17.1 (August 8, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] koken:has_tag was broken in 0.17.0.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:tags and koken:categories output was broken in some scenarios in 0.17.0.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ensure category and tag counts stay in sync when albums and content are moved to and from the trash.</p>
+	</li>
+</ul>
+
+<h2>0.17.0 (August 7, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Under-the-hood improvements to tags and categories.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue where embedded images from Instagram, Flickr, etc in essays/pages could be displayed larger than their original dimensions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Image profiles are properly retained when using GD image processing library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Nested toggle arrow display issue in Firefox resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Notification now successfully displays when a save is committed after clicking the Inspector panel&#39;s edit view.</p>
+	</li>
+	<li>
+	<p>[FIXED] Slideshows displaying featured albums in random playback order are now ordered properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved Pulse linking issue on mobile devices.</p>
+	</li>
+</ul>
+
+<h2>0.16.2 (July 21, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixes .htaccess corruption when clearing system caches on installs where the site root has been moved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved display issues with rotated photos.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed incorrect content showing when using Koken with the IIS webserver on Windows.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed image generation on old versions of PHP/GD2.</p>
+	</li>
+</ul>
+
+<h2>0.16.1 (July 16, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixes for ImageMagick when not compiled with OpenMP support.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pulse slideshows with only one image were not displaying properly in 0.16.0.</p>
+	</li>
+	<li>
+	<p>[FIXED] GPS metadata now working properly again.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix theme/plugin downloads from the Koken Store on some hosts.</p>
+	</li>
+	<li>
+	<p>[FIXED] Essay preview link fix for installs without URL rewriting enabled.</p>
+	</li>
+</ul>
+
+<h2>0.16.0 (July 15, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Swipe support added to Pulse for touch-enabled screens.</p>
+	</li>
+	<li>
+	<p>[NEW] The image processing library can now be changed in Settings &gt; Image publishing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Responsive images only request a new image if the element&#39;s size increases.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Pulse content event data now returns object for current image&#39;s parent album.</p>
+	</li>
+	<li>
+	<p>[UPDATED] RSS feeds updated to support content modules.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a issue that caused video controls to malfunction when all videos are unlisted.</p>
+	</li>
+	<li>
+	<p>[FIXED] Added threshold to Pillar to prevent images from being moved indefinitely for similarly sized columns.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved layout issue in Text toolbar when using a retina display.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue that caused Europe/Moscow timezone to revert to Asia/Dubai.</p>
+	</li>
+	<li>
+	<p>[FIXED] Styling fixes for datepicker and colorpicker.</p>
+	</li>
+	<li>
+	<p>[FIXED] Style fix for share buttons in lightbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Style fix for settings sliders in Firefox.</p>
+	</li>
+</ul>
+
+<h2>0.15.0 (June 19, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] &quot;Read more&quot; functionality for essays.</p>
+	</li>
+	<li>
+	<p>[NEW] Beta support for the GraphicsMagick image processing library.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Koken now intelligently detects if two requests are generating the same cache and if so, other requests wait for the first to complete. This improves server resource usage when several visitors are viewing new content.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue where links to albums couldn&#39;t be assigned to library images inserted into essays and pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Site rendering hooks are now fired separately for the lightbox to prevent plugins conflicting with the lightbox functionality.</p>
+	</li>
+	<li>
+	<p>[FIXED] Reset scrollbar when selecting media to be inserted into Text.</p>
+	</li>
+	<li>
+	<p>[FIXED] Share menu not opening on some touch devices.</p>
+	</li>
+</ul>
+
+<h2>0.14.5 (June 11, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Boolean shortcode settings now save properly when switching back to false.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed scaling issue with koken:background and retina displays.</p>
+	</li>
+</ul>
+
+<h2>0.14.4 (June 6, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Added {{ count }} variable for retrieving number of loaded items from Lens tags that return array-based data.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Modified koken:albums Lens tag so that all albums are returned by default.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Updated introductory tour with store tab.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with color picker not closing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue where a tag or category couldn&#39;t be selected in the template filter options.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with editing custom URLs assigned to images inserted into essays and pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed Firefox issue with arrow keys in link label edit field.</p>
+	</li>
+	<li>
+	<p>[FIXED] Dollar signs in lens output are now escaped to prevent parsing issues.</p>
+	</li>
+	<li>
+	<p>[FIXED] External content fix for Safari and pjax themes (fixes issue with Vimeo videos).</p>
+	</li>
+</ul>
+
+<h2>0.14.3 (May 26, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed .htaccess issues on older versions of Apache.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed login issues for some installs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed URL customization in Settings &gt; Site publishing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Trash loading fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Publish modal in Text not closing when clicking cancel.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed Firefox display problem with sets in the insert media sheet select</p>
+	</li>
+</ul>
+
+<h2>0.14.2 (May 20, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Improved string escaping to prevent errors in custom CSS.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve filtering issue that breaks plugins that handle code insertions.</p>
+	</li>
+</ul>
+
+<h2>0.14.1 (May 20, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Essay/page saving issue in PHP versions before 5.4.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix for HiDPI/Retina image rendering.</p>
+	</li>
+</ul>
+
+<h2>0.14.0 (May 20, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added a koken:meta template tag that outputs better, more SEO-friendly descriptions and keywords for content pages.</p>
+	</li>
+	<li>
+	<p>[NEW] Links to unpublished drafts are now displayed in the right column of Text.</p>
+	</li>
+	<li>
+	<p>[SECURITY] Improved prevention against cross-site scripting attacks (also known as XSS).</p>
+	</li>
+	<li>
+	<p>[SECURITY] Session cookies are now encrypted for improved security.</p>
+	</li>
+	<li>
+	<p>[UPDATED] <a href="http://blog.koken.me/essays/2014/05/new-and-improved-content-visibility-available-now/">Improved visibility control with new Library views and automatic content conversion</a>.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added a global visibility option for all new albums and sets to Settings &gt; Importing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Timeline and other date-based pages now load up to 50% faster.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Cached image URLs now incorporate the last modified timestamp in the filename itself, making them more CDN-friendly.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Many of the internal libraries that the Koken console utilizes have been updated for improved stability and performance.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Lens copy of jQuery updated to 1.11.1.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album lightbox links now work properly in tag/category pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Plugin API fix to resolve issue with hooks firing for internal image caches. In some scenarios, this caused watermarks to be applied twice to an image when using the Image Watermarks plugin.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox fixed in IE8.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved playback issue with Pulse in Safari 5.</p>
+	</li>
+	<li>
+	<p>[FIXED] Images inserted into pages and essays now lazy-load as their parent page is scrolled in the browser.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved performance issues when using Koken on some localhost environments.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue where Vimeo captions wouldn&#39;t appear in the lightbox.</p>
+	</li>
+</ul>
+
+<h2>0.13.3 (April 21, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Confirmation notifications now appear when editing tags assigned to albums.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with pillar-based themes not functioning correctly in Safari 5.0 specifically.</p>
+	</li>
+</ul>
+
+<h2>0.13.2 (April 17, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Plugin import sheet issues.</p>
+	</li>
+</ul>
+
+<h2>0.13.1 (April 17, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Global import option for assigning date captured to published date.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Koken updates can now be performed from Settings &gt; Console.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Draft/live status badges in Site &gt; Themes and Site &gt; Draft history.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better detection for when Pulse slideshows are able to link to the parent album when editing slideshow options in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Library order maintained properly for categorized album listings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pulse video playback issues on iOS.</p>
+	</li>
+	<li>
+	<p>[FIXED] Flickr embeds in essays and pages now working again.</p>
+	</li>
+</ul>
+
+<h2>0.13.0 (April 9, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Date editing now available when multiple items are selected.</p>
+	</li>
+	<li>
+	<p>[NEW] Library content sidebar now shows what album(s) that item is a member of.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Lightbox interface improvements.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added keyboard shortcut (Cmd/Ctrl-I) to open the Import Content sheet in the Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox links are not applied to sets.</p>
+	</li>
+	<li>
+	<p>[FIXED] In previous versions, deleted albums would sometimes appear in the timeline.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix current navigation class names in themes that use pjax/turbolinks and have multiple navigation lists.</p>
+	</li>
+</ul>
+
+<h2>0.12.6 (March 28, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[SECURITY] Fixed directory traversal vulnerability. Thanks to Roland Koch for reporting.</p>
+	</li>
+	<li>
+	<p>[NEW] Double-clicking album covers opens that cover in single view.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Responsive images with 1:1 ratios now use cropped presets to save storage space.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed character encoding for UTF-8 IPTC keywords.</p>
+	</li>
+	<li>
+	<p>[FIXED] oEmbed fixes for the Spotify plugin.</p>
+	</li>
+	<li>
+	<p>[FIXED] Image scaling fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Password reset messaging improvements.</p>
+	</li>
+	<li>
+	<p>[FIXED] Issue with Share &gt; Embed menu positioning and not being able to close.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved conflicts with the lightbox and the Image Protector plugin.</p>
+	</li>
+</ul>
+
+<h2>0.12.5 (March 21, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fix for image previews when the source image dimensions differ from the video (GD image processing library only).</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox improvements when orientation of a mobile device changes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue where body styles from parent page would be picked-up by the lightbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Unnecessary modal warnings when publishing changes to Madison 2 / Regale 2.</p>
+	</li>
+	<li>
+	<p>[FIXED] Import button not disabling after click allowing it to be pressed multiple times.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with some browser extensions that would prevent the Koken Store from loading.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better error messages for info.json syntax errors.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with Library multiselect not working when plugins were actived.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed character encoding for images with UTF-8 IPTC data.</p>
+	</li>
+</ul>
+
+<h2>0.12.4 (March 17, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed issue that would cause grid view themes like Madison 2 and Regale 2 to show duplicate images.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue where long album titles would cause the import button in the upload sheet to disappear.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with long page titles in the Site &gt; Edit links sheet.</p>
+	</li>
+	<li>
+	<p>[FIXED] Maintain global upload visibility default when importing via drag and drop.</p>
+	</li>
+</ul>
+
+<h2>0.12.3 (March 14, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed lightbox when opening from a Pulse slideshow on non-root Koken installations.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with social media icons not appearing in the lightbox when used with certain themes.</p>
+	</li>
+	<li>
+	<p>[FIXED] More dependable theme/plugin installations and upgrades on some hosts.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed embedded media in themes that use pjax.</p>
+	</li>
+	<li>
+	<p>[FIXED] k-nav-current fixes for custom links.</p>
+	</li>
+</ul>
+
+<h2>0.12.2 (March 12, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Keyboard navigation now works properly in 0.12.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved console errors when attempting to activate certain themes.</p>
+	</li>
+</ul>
+
+<h2>0.12.1 (March 11, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Failed Koken updates when using PHP 5.2.</p>
+	</li>
+</ul>
+
+<h2>0.12.0 (March 11, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Koken Store added to the console.</p>
+	</li>
+	<li>
+	<p>[NEW] Replacing upload functionality with new Import Content button and interface. Includes options to upload from local drive, direct url, or Instagram/Vimeo through plugins.</p>
+	</li>
+	<li>
+	<p>[NEW] Images/videos can be uploaded to the Library by drag-and-drop into the middle column. Items automatically added to album when an album is selected.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Lightbox design updates to include share menu and other changes.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Imported videos now display timestamps on their thumbnails.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Various console user interface design updates.</p>
+	</li>
+	<li>
+	<p>[UPDATE] Changed Observatory theme name to Ensemble because Sebastian got tired of it.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved responsive image sizing issue when img elements have padding applied.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with captions containing hyperlinks in the lightbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved sizing issue with the newly redesigned SoundCloud embeddable player.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved various layout problems when browsers are zoomed in/out.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed color in white text editor style.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved sorting issue in the Library&#39;s Last Import view.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several issues with Timeline and timezones have been resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed HTTP upload errors on some servers.</p>
+	</li>
+</ul>
+
+<h2>0.11.3 (January 20, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Essay topics now properly removed when the topic album is moved to the trash.</p>
+	</li>
+	<li>
+	<p>[FIXED] YouTube oEmbed fix to ensure embedded video is the largest version available.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved an issue that caused Chrome to crash when loading the Library, especially when using Chrome on Windows.</p>
+	</li>
+</ul>
+
+<h2>0.11.2 (January 9, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Older items not showing up in trash.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix image generation on some installs with Imagick.</p>
+	</li>
+	<li>
+	<p>[FIXED] Request limit fixes for Site5.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix JavaScript issue on non-rewrite installations.</p>
+	</li>
+</ul>
+
+<h2>0.11.1 (January 7, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Bindings error when changing settings in Site.</p>
+	</li>
+</ul>
+
+<h2>0.11.0 (January 7, 2014)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Lots of under-the-hood work to optimize application performance on different types of web servers.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Featured albums may now be assigned to Pulse slideshows. When assigned the primary cover of each album is used. Hyperlinks link to each album&#39;s album page.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved performance for essays that load large numbers of images.</p>
+	</li>
+	<li>
+	<p>[FIXED] Numerous Library bugs resolved concerning tag creation from IPTC, drag and drop, filtering and trashing content.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolving filename display problem in the footer of some sheets.</p>
+	</li>
+	<li>
+	<p>[FIXED] Conflict with drop-downs between theme settings and pulse slideshows resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Passwords containing ampersands can now be changed in Settings &gt; Administrator.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix category order for album and content detail pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix HTTP upload error when using an internationalized domain name and Firefox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix ESC key exit from Lightbox in Firefox.</p>
+	</li>
+	<li>
+	<p>[FIXED] k-nav-current fix for tag links when international characters are used.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved several issues related to numeric tag URLs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed first item links in tag/category listings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed pagination for multiword tags.</p>
+	</li>
+	<li>
+	<p>[FIXED] Prefer DateTimeOriginal over DateTimeDigitized when reading capture on data from EXIF.</p>
+	</li>
+	<li>
+	<p>[FIXED] Prevent renamed images from producing slugs suffixed with -1 when the title matches the filename.</p>
+	</li>
+	<li>
+	<p>[FIXED] Color profile fix for installs using the GD image processing library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Set sensible resource limits when using Imagick processing library. Fixes image generation on some hosts who offer Imagick.</p>
+	</li>
+	<li>
+	<p>[FIXED] Responsive images now load properly in IE 11.</p>
+	</li>
+	<li>
+	<p>[FIXED] Plenty of other miscellaneous fixes, tweaks and general improvements.</p>
+	</li>
+</ul>
+
+<h2>0.10.6 (November 6, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved compilation error that caused some Library image listings to break in 0.10.5.</p>
+	</li>
+</ul>
+
+<h2>0.10.5 (November 6, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Video thumbnails are now pulled from the middle of the video to help avoid black frames (FFmpeg required).</p>
+	</li>
+	<li>
+	<p>[FIXED] Upload fix for replacing images in the Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Trash loading fix.</p>
+	</li>
+	<li>
+	<p>[FIXED] Style attributes entered in the code editor in Text are now retained.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix descending order options for public albums listing in Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] For for backdating content, albums or essays to early 2000s or before.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:albums now works inside of koken:loop.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed essay button layout problem in Safari 7.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with media embed code creeping into essay exerpts.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed code editor issues in Safari 7.</p>
+	</li>
+	<li>
+	<p>[FIXED] Content and album RSS feeds are now properly sorted by published date.</p>
+	</li>
+	<li>
+	<p>[FIXED] Site &gt; Themes no longer breaks when a theme is missing a preview image.</p>
+	</li>
+	<li>
+	<p>[FIXED] Prevent lightbox refresh when at the first or last image and an arrow key is pressed.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album counts now update immediately when content is removed from the album.</p>
+	</li>
+</ul>
+
+<h2>0.10.4 (October 22, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added is_cover content variable to detect whether an image inside an album is assigned as one of the album&#39;s covers.</p>
+	</li>
+	<li>
+	<p>[UPDATED] More generous lazy loading so that content just outside of the current view is loaded when possible.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Content properties for Library images may now be used inside koken:featured_image.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with album content not appearing in the timeline RSS feed.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved sorting issue in Library when switching criteria.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix upload issue that would cause the browse files window to open multiple times.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix Firefox scaling issue that caused the right column to disappear inside the console.</p>
+	</li>
+	<li>
+	<p>[FIXED] Text editor now recognizes formatting changes and enables save buttons after they have been made.</p>
+	</li>
+	<li>
+	<p>[FIXED] Timeline can now be specified as the default_front_page in info.json.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved Imagick issue that caused some images to be 1px off the intended dimensions.</p>
+	</li>
+</ul>
+
+<h2>0.10.3 (October 1, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added Published editable timestamps to Library albums, sets, images and videos.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Additional timeline filtering to prevent images/videos that are part of albums from appearing as timeline events.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Default sort of contents index and timeline pages changed to new published on date.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Links published by koken:navigation and koken:breadcrumbs now assign a title attribute to the anchor element.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Library list view now displays titles alongside file names.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Elementary theme: Added theme setting to control visibility of timeline share links.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: Added content archive, tag and category templates. / Added tag and category support to content.</p>
+	</li>
+	<li>
+	<p>[FIXED] Updated internal uploading library (Plupload 2). Brings improvements and fixes when uploading through the Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixes breadcrumb URLs when using custom timeline label.</p>
+	</li>
+	<li>
+	<p>[FIXED] Elementary theme: Set descriptions now appear in set.lens</p>
+	</li>
+	<li>
+	<p>[FIXED] Text data could be replaced by other entry data when moving between interfaces while editing multiple text items.</p>
+	</li>
+</ul>
+
+<h2>0.10.2 (September 24, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fix month display in Library when using Firefox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Category listing for individual items were incorrectly showing all categories.</p>
+	</li>
+	<li>
+	<p>[FIXED] Encoding fix for UTF-8 information in IPTC/EXIF data.</p>
+	</li>
+	<li>
+	<p>[FIXED] Text editing issue that could cause one item&#39;s data to overwrite another page or essay.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved conflict with album names that matched core labels.</p>
+	</li>
+	<li>
+	<p>[FIXED] Contextual links when viewing content inside an unlisted album.</p>
+	</li>
+</ul>
+
+<h2>0.10.1 (September 20, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Album summary properly updates when changing to another album in the console.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better compatibility check for hosts that do not support multiple cURL requests.</p>
+	</li>
+	<li>
+	<p>[FIXED] Validation issues when trying to setup plugins.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several backend issues related to Timeline data.</p>
+	</li>
+</ul>
+
+<h2>0.10.0 (September 19, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Timeline content view that presents a unified stream of the most recently published content, albums and essays. Includes new templates for timeline.lens and date.lens.</p>
+	</li>
+	<li>
+	<p>[NEW] Top-level tag and category browsing. Supporting templates include tags.lens, categories.lens, tag.lens and category.lens.</p>
+	</li>
+	<li>
+	<p>[NEW] Pagination of albums, essays and content within tag and category archives added so that context is retained.</p>
+	</li>
+	<li>
+	<p>[NEW] Added koken:discussion_count tag to display comment counts outside of the page displaying the discussion.</p>
+	</li>
+	<li>
+	<p>[NEW] Added timeline.rss feed.</p>
+	</li>
+	<li>
+	<p>[NEW] Added a Clear System Cache button to the Settings&gt;System. This flushes the site and API caches for troubleshooting purposes.</p>
+	</li>
+	<li>
+	<p>[NEW] Console plugins can now be remotely updated so you&#39;re always up to date.</p>
+	</li>
+	<li>
+	<p>[NEW] Expand size option added to Pulse. Automatically expands and contracts the height of the Pulse slideshow to the native aspect ratio of the content it displays.</p>
+	</li>
+	<li>
+	<p>[NEW] Independent filter added to the Library. This filters your current view to display any images or videos that haven&#39;t been added to a collection.</p>
+	</li>
+	<li>
+	<p>[NEW] Assign new tag input now displays a drop-down offering existing tags as a shortcut.</p>
+	</li>
+	<li>
+	<p>[NEW] Drafts of published essays are now automatically saved in Text.</p>
+	</li>
+	<li>
+	<p>[NEW] Added new koken:select tag for displaying a dropdown containing linked lists of data.</p>
+	</li>
+	<li>
+	<p>[NEW] Added new koken:dates tag to display monthly archival links for the timeline, albums, content and essays.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added &#39;relative&#39; option to koken:time.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Newly created albums and sets now have public visibility by default.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added character limit display to album &#39;Summary&#39; field.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Uploads can now be cancelled while in progress.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Double clicking an image in single view now returns to grid view.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added Disqus comment counts to index pages in all themes.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Date edit panel behavioural improvements.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Duration of videos now displayed in Library Inspector column.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Drag-and-drop album cover assignment supported in the covers section of the Library Inspector panel.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Tag select dropdowns added to create collection sheet, essays and site link options.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: Added templates for timeline. / Updated Favorites Slideshow template to use new expand size option.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Elementary theme: Added templates for timeline, tags, categories and favorites. / Design updates all around.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Observatory theme: Added templates for timeline, tags, categories and favorites. / Black style added.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Regale theme: Added splash page custom template that displays a full screen slideshow of featured content. / Vertical offset now a global setting that is applied to all pages / page.lens text formatting issue resolved / Improved image scaling</p>
+	</li>
+	<li>
+	<p>[UPDATED] Repertoire theme: Added templates for timeline.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: Added set title and description to set pages. / Added a Favorites template. / Split font setting into separate controls for site title and body. / Added new typeface options.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Lens jQuery updated to 1.10.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Image lazy loading is now throttled to ensure the server is not overloaded with new image requests.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue where the Home link label in Site couldn&#39;t be edited.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved filter row display problem when linking to a query in the Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Color style mods to most themes for better Disqus style support.</p>
+	</li>
+	<li>
+	<p>[FIXED] CSS editor in Site would sometimes not display correctly when open and the browser was refreshed.</p>
+	</li>
+	<li>
+	<p>[FIXED] Library pagination problem when moving items to the trash while in single view resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Filter JavaScript out of EXIF/IPTC data before rendering it to prevent XSS.</p>
+	</li>
+	<li>
+	<p>[FIXED] Axis theme: Grid column display issues in mobile portrait state resolved. / Tablet landscape dimensions fixed for sites with increased page widths.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lots of other minor interface and behavioural fixes throughout the console.</p>
+	</li>
+</ul>
+
+<h2>0.9.5 (August 20, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Autocompletion when adding new tags.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Koken now recognizes images from external media embeds and uses them for featured images in essays and pages.</p>
+	</li>
+	<li>
+	<p>[UPDATED] All themes - Support for &lt;small&gt; element.&lt;/small&gt;</p>
+	</li>
+	<li>
+	<p>[UPDATED] IDs added to meta listings for easier targeting.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Regale/Observatory - Improved column reflow for mobile devices.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved remaining issues with link label editing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several fixes for the insert media sheet in Text.</p>
+	</li>
+	<li>
+	<p>[FIXED] Close button issue when opening an album in the lightbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved several issues with the add tags drawer.</p>
+	</li>
+	<li>
+	<p>[FIXED] Draft essays no longer show in category listings or album topic data.</p>
+	</li>
+	<li>
+	<p>[FIXED] Add link to current page now working when linking to an category archive.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard - Pagination fixes for albums with more than 100 items.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard - PJAX fix for easier customization of album.lens.</p>
+	</li>
+</ul>
+
+<h2>0.9.4 (August 3, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved an issue with link label editing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Calendar fixes when changing the published date in Text.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard - Positioning fixes when custom logos are used.</p>
+	</li>
+	<li>
+	<p>[FIXED] Madison - Mobile menu fixes when the viewport size changes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ensure all dates in RSS feeds conform with RFC-822.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ensure console JavaScript is served as UTF-8.</p>
+	</li>
+</ul>
+
+<h2>0.9.3 (August 2, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Front links in a site navigation group may now be hidden.</p>
+	</li>
+	<li>
+	<p>[NEW] Modal launched before a category is deleted.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Videos no longer scale past their original dimensions in responsive layouts.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:pagination tag now supports a &#39;limit&#39; attribute to cap the number of page links that are published.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added duration to Inspector column for uploaded videos.</p>
+	</li>
+	<li>
+	<p>[UPDATED] {{ now }} and {{ year }} lens variables added for easier date output.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Bumped up the point size of the CSS and HTML editors.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Breadcrumbs and page titles now use custom .lens file names.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Pagination in all themes now limited to cap the number of page links.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added Essay and Content RSS feed links to Site&#39;s Add Links sheet.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Integrated the Add New Section sheet into the Add Links sheet. Look for new plus buttons next to templates.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: Added basic EXIF output to album slideshow and content layouts.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Elementary theme: Added setting to control number of thumbnails on content page. / Added cover size control for albums index.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: Added contents and favorites indexes. Old favorites template migrated to custom template that can be added separately.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:parent now supports order_by and order_direction parameters.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Settings included in templates that fall outside of a setting&#39;s scope now return false by default.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:albums template tag now works in any content context (not just content.lens).</p>
+	</li>
+	<li>
+	<p>[UPDATED] Misc text input focus updates for Library and Text sidebars.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Showing commonalities in categories/tags/license/visibility/max download drawers when multiple assets selected.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox close button fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed error that displayed when RSS feeds were viewed inside the site editor.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pulse settings panel would not appear correctly if main settings panel was last set to &#39;Template&#39;.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed social link issue in Safari where multiple pop-up windows would be created.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue where numerical tags returned 404s.</p>
+	</li>
+	<li>
+	<p>[FIXED] Axis theme: fixed slideshow scaling issue on mobile devices.</p>
+	</li>
+	<li>
+	<p>[FIXED] Madison theme: fixed issue with social links and copyright not moving underneath favorites slideshow on mobile.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several Site URL issues on Windows servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed several validation errors in the various RSS feeds that Koken publishes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Assigning tags and categories to multiple Library items at once now working correctly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several fixes for the &#39;Recent tags&#39; listing in the tag drawer.</p>
+	</li>
+	<li>
+	<p>[FIXED] Error when attempting to trash an already selected album.</p>
+	</li>
+	<li>
+	<p>[FIXED] Covers not being draggable after first album load.</p>
+	</li>
+	<li>
+	<p>[FIXED] Trashing selected album via gear menu did not redirect out of the album.</p>
+	</li>
+	<li>
+	<p>[FIXED] Sheet inputs not getting focus priority when sidebar drawers were open.</p>
+	</li>
+	<li>
+	<p>[FIXED] Sheets not closing when toggling HTML view in Text.</p>
+	</li>
+	<li>
+	<p>[FIXED] Title, caption, and description fields not clearing properly when new assets were added to selection.</p>
+	</li>
+	<li>
+	<p>[FIXED] Select inputs not keeping correct state when toggling between Public and All content.</p>
+	</li>
+	<li>
+	<p>[FIXED] Bindings error when using the sidebar drawer after loading console directly into multiple selections.</p>
+	</li>
+	<li>
+	<p>[FIXED] Removing all the assets from Favorites not showing proper empty state.</p>
+	</li>
+	<li>
+	<p>[FIXED] Text sidebar drawer not closing properly during certain routes.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:neighbors now works properly for albums and essays.</p>
+	</li>
+</ul>
+
+<h2>0.9.2 (July 5, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Repertoire theme: Added color settings for pagination, fixed other color issues.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:breadcrumbs now supports a link_current parameter. When set to false, the last item will not be wrapped in a link.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix minimum setting for koken:covers, resolving issue with Twitter card output for albums.</p>
+	</li>
+	<li>
+	<p>[FIXED] Tag saving fixes for Lightroom uploads.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed custom image uploads that use uppercase extensions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix month output in Library&#39;s left column in Firefox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix HTML editor toggling when using expanded text editor.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed mobile menu icon in Regale theme.</p>
+	</li>
+	<li>
+	<p>[FIXED] Prevent koken:breadcrumbs from creating links to non-existant index pages.</p>
+	</li>
+</ul>
+
+<h2>0.9.1 (July 2, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] All themes - Updated twitter card to use the large image summary card for essays with featured images.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve upload errors when marking images as unlisted.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix custom source attributes in koken:pulse.</p>
+	</li>
+	<li>
+	<p>[FIXED] Workaround for servers with older versions of the PCRE library.</p>
+	</li>
+	<li>
+	<p>[FIXED] .htaccess fix for servers without mod_headers enabled.</p>
+	</li>
+	<li>
+	<p>[FIXED] koken:load fix for filter:category.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several timezone fixes.</p>
+	</li>
+</ul>
+
+<h2>0.9.0 (July 2, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Featured images - Images can now be assigned as the featured image for an essay or page.</p>
+	</li>
+	<li>
+	<p>[NEW] Focal points - Assign a specific area to be retained when the image is cropped.</p>
+	</li>
+	<li>
+	<p>[NEW] Featured essays - Essays can now be featured and ordered like featured content and albums.</p>
+	</li>
+	<li>
+	<p>[NEW] content.public and album.public added to Lens/API to test if an album or item is publicly accessible and can be shared.</p>
+	</li>
+	<li>
+	<p>[NEW] location.site_url added to Lens variables. Contains the full URL to the published site.</p>
+	</li>
+	<li>
+	<p>[NEW] Separate site setting for page title allowing better control over the title used in the HTML</p>
+	</li>
+	<li>
+	<p>[NEW] koken:iptc tag added to Lens for displaying IPTC data.</p>
+	</li>
+	<li>
+	<p>[NEW] Add .to_json method for printing Lens variables to a JSON string: {{ content.to_json }}. Also allows for writing only specific fields to the JSON: {{ content.to_json fields=&quot;id, title&quot; }}</p>
+	</li>
+	<li>
+	<p>[NEW] Support for new sets.lens template, which shows top-level sets.</p>
+	</li>
+	<li>
+	<p>[NEW] Added Library button that reverses content order in albums.</p>
+	</li>
+	<li>
+	<p>[NEW] koken:breadcrumbs tag added to easily output hierarchical links.</p>
+	</li>
+	<li>
+	<p>[NEW] Content can now be ordered by filename in template filters.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved HTML editing for pages and essays.</p>
+	</li>
+	<li>
+	<p>[UPDATED] RSS feed formatting improvements.</p>
+	</li>
+	<li>
+	<p>[UPDATED] {{ content.filename.clean }} variable added to print content filenames with stripped file suffixes and hyphens/underscores replaced with spaces.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:background now allows positioning to be passed in via a parameter.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Poster attribute added to videos with preview images available.</p>
+	</li>
+	<li>
+	<p>[UPDATED] html5shiv.js updated to 3.6.2.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Share links in all themes are now hidden on unlisted content pages.</p>
+	</li>
+	<li>
+	<p>[UPDATED] When subfolder installs use a customized site root setting, Koken now sets up a 301 redirect from the original root to the new root.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Login process modified so that password managers like 1Password recognize the login and offer to save the password.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Media embeds in pages and essays now use &lt;figure&gt; and &lt;figcaption&gt; HTML elements.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Slideshow embeds now able to optionally show title and/or caption like other media embeds.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Better array handling options when outputing variables in Lens templates.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Last upload data is now persistently stored in the database.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Slideshow embeds can now either use the default click action for all essays, or use a unique click action for just that embed.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved sharpening to provide more variance through the range of possible settings. Also improved the threshold setting to prevent oversharpening.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Site video player interface design updates.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added Tumblr to Share menu in Library.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Observatory theme - Videos now playback on album pages and titles link to content pages / Archive pages added for albums, essays and content. / Breadcrumb navigation added.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Repertoire theme - Updating home page layout to include featured essay images.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme - Contents.lens template added with options for list or grid layout / Site width setting split into unique settings for each template (see Template / Dimensions to adjust each template).</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme - Removing navigation link animation to reduce jumpiness / Only apply nav highlight to current page, not parent sets / Left column copyright and social buttons now move under content in mobile view</p>
+	</li>
+	<li>
+	<p>[UPDATED] Regale theme - Album titles can now appear underneath covers / Added title support to content pages / Added alpha slider for title hover background / Added mobile side navigation</p>
+	</li>
+	<li>
+	<p>[UPDATED] All themes - Added Tumblr as social share option.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better image/video counts for sets.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix koken:parent confusion when the trash contains former sibling albums.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed support for source/filter options in koken:pulse.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve parent album loading issue in essay topics that could cause PHP memory exhaustion.</p>
+	</li>
+	<li>
+	<p>[FIXED] Tag URLs with Cyrillic now work properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard theme - Fixed filtering/ordering for home page albums.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed an API filter issue that caused the wrong data to be passed to plugins.</p>
+	</li>
+	<li>
+	<p>[FIXED] Now possible to add multiword tags in the new collection sheet.</p>
+	</li>
+	<li>
+	<p>[FIXED] 1600px version created by Koken for image generation is now properly removed when the image is deleted.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved an issue which could cause non-unique slugs when editing multiple items in the Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Timezone database updates.</p>
+	</li>
+	<li>
+	<p>[FIXED] Updating album info from the Public albums view now working properly again.</p>
+	</li>
+	<li>
+	<p>[FIXED] Editing text dates now properly timezone aware.</p>
+	</li>
+	<li>
+	<p>[FIXED] Regale theme - Favorites template can now load more than 100 items.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed autoplay attribute issue with koken:video.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed full screen video playback so that video scales to entire window.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed album title truncation problem in Insert Slideshow sheet.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed sorting issue in Library where Ascending/Descending options would sometimes be hidden.</p>
+	</li>
+</ul>
+
+<h2>0.8.5 (May 24, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Added url_encode option to Lens output tags.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Facebook and Twitter social button code updated with improved markup.</p>
+	</li>
+	<li>
+	<p>[FIXED] Slideshows may now be inserted into essays and pages again.</p>
+	</li>
+	<li>
+	<p>[FIXED] Share data in all themes are now url encoded to prevent character parsing issues.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix lightbox close button when site publishing path has been changed from the default.</p>
+	</li>
+	<li>
+	<p>[FIXED] Madison theme: Fix issue causing intermittent hiding of the share button for essays.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved redirect looping issue on some installs.</p>
+	</li>
+</ul>
+
+<h2>0.8.4 (May 22, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolve a caching issue that was causing updates to not show on the published site.</p>
+	</li>
+</ul>
+
+<h2>0.8.3 (May 22, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] k-image-loaded event added to detect when lazy loaded images have loaded and fully faded in.</p>
+	</li>
+	<li>
+	<p>[UPDATED] For larger images, the image processing system now creates a medium sized copy to use for smaller image generation, resulting in drastically improved performance.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Content share tweets from the Library now include title (or filename if no title is available).</p>
+	</li>
+	<li>
+	<p>[UPDATED] Twitter share links in all themes now include content titles and profile links.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Boulevard theme: Share links added to content.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Boulevard theme: Clicking first image now returns to the album intro if visible.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: Share button isn&#39;t visible until the image underneath it has loaded.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: Added a parent album link to the bottom of the content page.</p>
+	</li>
+	<li>
+	<p>[FIXED] Redirect issue with unlisted links.</p>
+	</li>
+	<li>
+	<p>[FIXED] Keyboard navigation fixes for the lightbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Axis theme: Long album titles were not wrapping properly on mobile.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard theme: Image clicks to advance forward and backward wouldn&#39;t register sometimes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pagination and archival link fixes in the archive templates.</p>
+	</li>
+	<li>
+	<p>[FIXED] Cover assignment notification would get visibily stuck when dragging an image to an album title.</p>
+	</li>
+	<li>
+	<p>[FIXED] Add current page button issues resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] More reliable album linking in Pulse.</p>
+	</li>
+</ul>
+
+<h2>0.8.2 (May 15, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Madison theme: Index template settings visible on albums page too to avoid confusion, pagination links.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Better error handling to alert the user to API and database connection issues.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added variables that print the absolute path to an album&#39;s primary cover at preset sizes.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improvements to social media metadata output.</p>
+	</li>
+	<li>
+	<p>[FIXED] Transparent PNG fix when GD image library is in use.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed linking to album for media inserted into essays or pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Regale theme: Fixed album cover width issue on mobile devices.</p>
+	</li>
+	<li>
+	<p>[FIXED] Modifying the album content order now works as expected.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better encoding for inserted code in essays and pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved issue with infinity loading and front pages in some themes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox linking working properly again in Pulse.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox close button fixes for subfolder installs.</p>
+	</li>
+</ul>
+
+<h2>0.8.1 (May 9, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolve a caching issue that was causing updates to not show on the published site.</p>
+	</li>
+</ul>
+
+<h2>0.8.0 (May 9, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Covers can now be assigned to sets.</p>
+	</li>
+	<li>
+	<p>[NEW] Custom URL and label assignment.</p>
+	</li>
+	<li>
+	<p>[NEW] Added Google+ option to the Library share menu.</p>
+	</li>
+	<li>
+	<p>[NEW] Map modal for viewing location of geotagged images in the Library.</p>
+	</li>
+	<li>
+	<p>[NEW] <koken:discussion> tag for rendering comment threads using supported commenting plugins. All themes updated to support it.</koken:discussion></p>
+	</li>
+	<li>
+	<p>[NEW] Help notes may now be displayed underneath settings in Site&#39;s Settings panel.</p>
+	</li>
+	<li>
+	<p>[NEW] <koken:link> now supports the bind_to_key parameter, allowing theme developers to bind the link to a keyboard shortcut.</koken:link></p>
+	</li>
+	<li>
+	<p>[NEW] Custom images from other sites can now be added to essays and pages by pasting the URL into the text.</p>
+	</li>
+	<li>
+	<p>[NEW] Embed code and scripts may now be inserted into essays and pages using the rich editor.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Custom templates may now be added to themes by including documents with .lens as their file suffix.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved SEO support for old URLs and canonical meta tags for content pages.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved cover assignment and reordering.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:img now automatically adds the alt tag to the generated <img />.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: additional typeface options.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: new albums index and content templates.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: new alternate album page layout for displaying content as thumbnails.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Axis theme: added social media links for content sharing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Boulevard theme: social media and email header links.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: new favorites template with slideshow for potential front page use.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: new mobile side navigation and button.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: added social media links for content sharing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Elementary theme: portraits on content page now fit within browser window.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Regale theme: adding maximum height control for content template images.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Repertoire theme: added alternate index layout that doesn&#39;t include essay excerpts.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Slide transition add to Pulse core.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme location variable now includes host ({{ location.host }}) and theme path ({{ location.theme_path }}) information.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Raw and computed exif values can now be accessed in Lens variables.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Multiple items from the Library may now be inserted into an essay or page by selecting more than one.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Essay created on date is now editable.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pulse slide transition now working in all browsers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Prevent unwanted upscaling in koken:img.</p>
+	</li>
+	<li>
+	<p>[FIXED] Content area reloading when dropping onto Featured albums from Publc.</p>
+	</li>
+	<li>
+	<p>[FIXED] Loading spinner displaying when no content was uploaded.</p>
+	</li>
+	<li>
+	<p>[FIXED] Covers are now properly removed from an album when the content itself is removed from the album.</p>
+	</li>
+	<li>
+	<p>[FIXED] Stop showing private content in media sheets.</p>
+	</li>
+	<li>
+	<p>[FIXED] Middle column unloading when sending an item to trash.</p>
+	</li>
+	<li>
+	<p>[FIXED] More dependable lightbox closing when site template caching is enabled.</p>
+	</li>
+	<li>
+	<p>[FIXED] Image loading issue with Safari / OS X Mountain Lion when &quot;Retain metadata&quot; is selected in Settings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Infinite loading fixes to ensure initial page view has enough images to fill the viewport.</p>
+	</li>
+	<li>
+	<p>[FIXED] Allow tilde in Site publishing path.</p>
+	</li>
+	<li>
+	<p>[FIXED] .htaccess fix for subdomain installations inside subfolders of main domain.</p>
+	</li>
+	<li>
+	<p>[FIXED] site.output filter is now skipped for RSS feeds.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ensure server does not aggressively cache API requests, which causes login failures and other issues.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album RSS feed path issue resolved on servers that do not support rewriting.</p>
+	</li>
+	<li>
+	<p>[FIXED] Albums may now be loaded by id using the koken:load template tag.</p>
+	</li>
+	<li>
+	<p>[FIXED] Chastain theme: Fixing z-index problem with footer and essay slideshows, video sizing issue in album template.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard theme: Fixing albums layout on mobile devices.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed Facebook og:image URLs for installations not using rewrites.</p>
+	</li>
+	<li>
+	<p>[FIXED] Custom HTTPS links now work properly when added to the site navigation lists.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix animated GIF corruption when resized.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved an API issue that caused only the last of multiple filters to work.</p>
+	</li>
+</ul>
+
+<h2>0.7.1 (March 28, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] SoundCloud tracks may now be added to essays and pages.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Lightbox styling updates.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Site area can now be viewed when no content has been uploaded.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved handling for EXIF and IPTC data containing multibyte or malformed data.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Added distance parameters to drag events to give more control for pen inputs.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Refocus tag input field after tags are accepted.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Elementary theme: layout improvements for tablets.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Chastain theme: toggle added to launch album images in lightbox.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Regale theme: fixed issue with last content item sometimes not appearing, option to hide title/caption on content page.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Madison theme: nested links remain open now when switching pages, adding set link indent setting, fixing strip navigation highlight issues.</p>
+	</li>
+	<li>
+	<p>[FIXED] Responsive image fix to retain aspect ratio when original image is smaller than the target dimensions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Update Vimeo shortcode support so that user generated links are detected.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix lightbox closing issue for subfolder installations.</p>
+	</li>
+	<li>
+	<p>[FIXED] Albums with numeric names can now be added to Site link lists.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix API error when filtering linked album content.</p>
+	</li>
+	<li>
+	<p>[FIXED] Theme and plugin info is no longer cached, ensuring new plugins and themes show up immediately when installed.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better retina detection for koken:img when target preset is defined in the tag.</p>
+	</li>
+	<li>
+	<p>[FIXED] Embedded slideshows in Text now work properly when Quick collection is used as the data source.</p>
+	</li>
+	<li>
+	<p>[FIXED] Albums would change names after certain drag events finished.</p>
+	</li>
+	<li>
+	<p>[FIXED] Multi-word tags not being accepted.</p>
+	</li>
+	<li>
+	<p>[FIXED] Repertoire theme - Featured albums on home page were not displayed in correct manual order.</p>
+	</li>
+	<li>
+	<p>[FIXED] Axis theme - Initial Play/Pause label now set correctly using slideshow autostart setting.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard theme - Album title disappearing after certain pjax loads.</p>
+	</li>
+	<li>
+	<p>[FIXED] Inability to drop an image from inside an album to Quick collection.</p>
+	</li>
+</ul>
+
+<h2>0.7.0 (March 21, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Quality and sharpness can now be set from Settings &gt; Image publishing.</p>
+	</li>
+	<li>
+	<p>[NEW] koken:has_tag and koken:has_category Lens tags added for checking if an item belongs to a particular category or tag.</p>
+	</li>
+	<li>
+	<p>[NEW] Modal added when trying to use a new theme where a draft already exists.</p>
+	</li>
+	<li>
+	<p>[UPDATED] After upload completes the user is now returned to Last upload instead of All content.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Add touch/swipe events to the lightbox.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Adding wait notifications to long running tasks.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Truncated text output by Lens is now stripped of HTML for more accurate truncation.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:max_download is now loopable so all downloadable versions can be listed.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Notifications added when trying to drop favorite/featured content that are already favorite/featured.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Date captured in Library sidebar will now remember if you want it open/closed.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme / Boulevard - Added logo support to header, support for more than 100 items in an album, only show date in essay time stamps, page title display fixes.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme / Regale - Resolved browser resize issue with images, column arrangement work.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme / Axis - Adding a wait/load spinner to album slideshows, better navigation link spacing for mobile devices.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme / Chastain - Adding pagination arrows to content page, adding page and essay support.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme / Madison - Adding album title/summary support, bumping-up body point size.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved image quality for retina/HiDPI screens.</p>
+	</li>
+	<li>
+	<p>[FIXED] More reliable oEmbed detection when pasting URLs into Text entries.</p>
+	</li>
+	<li>
+	<p>[FIXED] Serve retina images to supported devices when viewing content in the lightbox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lightbox automatic playback fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Added miscellaneous error catches.</p>
+	</li>
+	<li>
+	<p>[FIXED] Max download may now be edited with multiple items selected.</p>
+	</li>
+	<li>
+	<p>[FIXED] Transition duration not adhering when using the dissolve transition.</p>
+	</li>
+	<li>
+	<p>[FIXED] Glitch that caused manual ordering of featured albums to break in 0.6.2 has been resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several album tree related fixes to prevent albums disappearing from the left column.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lens case parameter now multibyte safe when server supports PHP mb functions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Sidebar events now initialize with albums/sets containing no content.</p>
+	</li>
+	<li>
+	<p>[FIXED] Featured albums no longer accept unlisted albums as a valid droppable.</p>
+	</li>
+	<li>
+	<p>[FIXED] Unrelated sets toggling open when selecting albums in sets.</p>
+	</li>
+	<li>
+	<p>[FIXED] Removed sets acting as if they accepted uploads.</p>
+	</li>
+</ul>
+
+<h2>0.6.2 (March 12, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Generated images now retain their ICC color profiles for more accurate colors.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pulse linking now correctly loads sets.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better timezone handling.</p>
+	</li>
+	<li>
+	<p>[FIXED] Custom CSS not reopening when coming to draft from live view.</p>
+	</li>
+	<li>
+	<p>[FIXED] Boulevard image click to advance not working for albums linked in navigation.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several database issues related to MySQL 5.6+.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several image processing fixes to prevent image generation failures in ImageMagick and GD.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix infinite loading when previewing a theme in the Themes tab in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Properly set .lens MIME type in .htaccess when the IdeaWebServer is in use.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a cover icon bug in Library when an image was unmarked as cover.</p>
+	</li>
+	<li>
+	<p>[FIXED] Custom routes/templates now work without a source setting and also properly show up as navigation options.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several fixes for redirects after the lightbox is closed.</p>
+	</li>
+	<li>
+	<p>[FIXED] Image path fixes for non-Apache servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Reordering being triggered when dragging albums/sets to be featured causing random loss of albums in sidebar.</p>
+	</li>
+	<li>
+	<p>[FIXED] Notification causing an error when marking a set as featured.</p>
+	</li>
+	<li>
+	<p>[FIXED] Notifications not showing album title on badge clicks.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a blurry thumbnail issue when GD was in use.</p>
+	</li>
+	<li>
+	<p>[NEW] Pulse dataloaded trigger now reports false if no items are loaded.</p>
+	</li>
+</ul>
+
+<h2>0.6.1 (March 6, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed an issue that prevented editing new essays/pages.</p>
+	</li>
+</ul>
+
+<h2>0.6.0 (March 6, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] GD library now supported when ImageMagick is not available.</p>
+	</li>
+	<li>
+	<p>[NEW] Retain metadata option added to Settings/Publishing.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Adding text sheet defaults to the sidebar selection.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Reworked URL structure for better server compatibility with non-Apache web servers</p>
+	</li>
+	<li>
+	<p>[UPDATED] Theme settings panel input fields now save their value when pressing Enter/Return.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Option to link to lightbox page now available in the slideshow settings panel.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Slideshow settings panel now closes when changing pages in Site&#39;s draft mode.</p>
+	</li>
+	<li>
+	<p>[FIXED] Set links now point to the proper site link in Librarys right column.s right column.</p>
+	</li>
+	<li>
+	<p>[FIXED] Site link issues with albums inside unlisted sets resolved.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed a bug that would only allow dates to be changed once before a refresh of the browser would be necessary.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed video preview scaling issues in essays/pages.</p>
+	</li>
+	<li>
+	<p>[FIXED] IPTC/EXIF metadata is now updated when an image is replaced with a new version.</p>
+	</li>
+	<li>
+	<p>[FIXED] Infinite loading pages now bring in the next page of content instead of duplicating the first.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with datepickers not working after being used once.</p>
+	</li>
+	<li>
+	<p>[FIXED] Retain input focus when toggling between essay/page options in new text sheet.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed the koken:keyboard_scroll tag so keys advance content properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with Pulse slideshows not looping correctly when cached images were not reported being loaded.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved security issue with popup.php. Replaced with the more secure dl.php.</p>
+	</li>
+	<li>
+	<p>[FIXED] Notifications now show album titles when marking sets as featured.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed unicode handling in tags and category titles to support international characters.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed drop events not responding after dropping an image from one album to another.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed pulse timer showing when only 1 image in slideshow.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed IE9 issues with image lazyload.</p>
+	</li>
+	<li>
+	<p>[FIXED] Additional steps to ensure content with private visibility never appear on the published site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed 50 images only being loaded in Library when viewed on large monitors.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed issue with hyperlinks in album descriptions and content captions inadvertently breaking site layouts.</p>
+	</li>
+</ul>
+
+<h2>0.5.6 (February 26, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Custom CSS editor now has a close button.</p>
+	</li>
+	<li>
+	<p>[UPDATED] More extensive browser compatibility check.</p>
+	</li>
+	<li>
+	<p>[FIXED] Clear nav Site path when an album is moved from public to unlisted.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a path issue that could cause images to not generate on Windows servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Updating captured, created, uploaded dates working properly again.</p>
+	</li>
+	<li>
+	<p>[FIXED] SSL fixes for the Site preview and settings panel.</p>
+	</li>
+	<li>
+	<p>[FIXED] Featured albums that reside inside sets now show properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Theme updates for better SSL compatibility.</p>
+	</li>
+	<li>
+	<p>[FIXED] Responsive images fix for Firefox and the Boulevard theme.</p>
+	</li>
+	<li>
+	<p>[FIXED] Album covers in Chastain now link to album.lens as intended.</p>
+	</li>
+	<li>
+	<p>[FIXED] Removed problematic .htaccess rule that caused 403 Forbidden errors on some servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix draft essay previewing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Cache oEmbed calls to prevent rate limiting issues with Twitter and other services.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better installer check to prevent 403s on some servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] More reliable path resolution when including Pulse plugins.</p>
+	</li>
+</ul>
+
+<h2>0.5.5 (February 23, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Resolved an issue that caused sessions to appear to persist, even though they were no longer authenticated, which caused the console to become unresponsive.</p>
+	</li>
+</ul>
+
+<h2>0.5.4 (February 22, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fix for editing captured on / uploaded on data.</p>
+	</li>
+	<li>
+	<p>[FIXED] Twitter handle validation fix to allow underscores.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed cached CSS rendering on some servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix plugin loading issues when moving the Site URL.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix unlisted album visibility in public views.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix essay URLs.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix site pagination when paginated template is used as the front page.</p>
+	</li>
+	<li>
+	<p>[FIXED] Support for mailto links in Site navigation and essays/pages.</p>
+	</li>
+</ul>
+
+<h2>0.5.3 (February 21, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Essay/page titles are now linked to a preview of the entry in Text.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved security for console sessions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Password editing now functioning again in Settings &gt; Administrator.</p>
+	</li>
+	<li>
+	<p>[FIXED] Various style refinements and fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ensure only signed-in users can preview unpublished essays.</p>
+	</li>
+	<li>
+	<p>[FIXED] Set pages can now be ordered/filtered in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Unlisted images in album content views now properly link to their private URL.</p>
+	</li>
+	<li>
+	<p>[FIXED] YouTube embeds now work when using the shortened link (youtu.be)</p>
+	</li>
+	<li>
+	<p>[FIXED] Various upload fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] More dependable image generation when using Imagick.</p>
+	</li>
+</ul>
+
+<h2>0.5.2 (February 15, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fixed issue that could cause media embeds to nest in Text items.</p>
+	</li>
+	<li>
+	<p>[FIXED] Chunked file uploads now work properly in supported browsers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Sorting secondary nav groups no longer breaks the navigation listing in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved an issue that would cause set title display issues when dragging albums in the left column in Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Improved CSS editor visibility when changing views in Site.</p>
+	</li>
+</ul>
+
+<h2>0.5.1 (February 14, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Improved twitter username handling.</p>
+	</li>
+	<li>
+	<p>[FIXED] Flyout menu positioning and visiblity improvements.</p>
+	</li>
+	<li>
+	<p>[FIXED] Support for custom date formatting in new Lens output syntax.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve several issues with Site link editing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Hide CSS editor when in live view in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix redirect issue when going from live preview to themes browser in Site.</p>
+	</li>
+</ul>
+
+<h2>0.5.0 (February 13, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] New syntax for output in Lens templates (e.g. <code>{{ content.title }}</code>).</p>
+	</li>
+	<li>
+	<p>[NEW] Centralized theme updating from inside console.</p>
+	</li>
+	<li>
+	<p>[NEW] New administrator profile data fields for display name, email, Twitter and Facebook.</p>
+	</li>
+	<li>
+	<p>[NEW] Add custom CSS to any theme from inside the Site interface.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Better history management when changing between interfaces.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved SSL support.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Performance improvements for site rendering.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed style switching in several built-in themes, including Madison.</p>
+	</li>
+	<li>
+	<p>[FIXED] oEmbed linking fixes for Firefox.</p>
+	</li>
+	<li>
+	<p>[FIXED] Do not append \_n to new links if new link matches an existing route.</p>
+	</li>
+	<li>
+	<p>[FIXED] When links are reset, internal routes are also reset to prevent conflicts.</p>
+	</li>
+	<li>
+	<p>[FIXED] Links in secondary navigation lists can now be removed properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a JavaScript error when themes do not define styles.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed a bug that would prevent scrolling to the bottom of the left column in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Allow hypens in theme folder names.</p>
+	</li>
+	<li>
+	<p>[FIXED] More dependable primary cover assignment for Collections.</p>
+	</li>
+	<li>
+	<p>[FIXED] No longer show unlisted albums in context listings on content detail pages.</p>
+	</li>
+</ul>
+
+<h2>0.4.0 (January 28, 2013)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Essay excerpts can now be edited.</p>
+	</li>
+	<li>
+	<p>[NEW] Users can now specify where the Site is published, allowing them to move the published site outside of the Koken folder.</p>
+	</li>
+	<li>
+	<p>[NEW] favorites.lens is now a default template.</p>
+	</li>
+	<li>
+	<p>[NEW] favorites, featured_albums and featured_content are now valid options for the source setting in koken:load.</p>
+	</li>
+	<li>
+	<p>[NEW] Site previewing now restricted to logged in users.</p>
+	</li>
+	<li>
+	<p>[NEW] Pages are now assigned URLs when created for previewing, viewing in rendered site.</p>
+	</li>
+	<li>
+	<p>[NEW] New infinite scrolling option for koken:load.</p>
+	</li>
+	<li>
+	<p>[NEW] Slider setting values can now be clicked and edited manually.</p>
+	</li>
+	<li>
+	<p>[NEW] Featured albums and Public albums can now be ordered manually.</p>
+	</li>
+	<li>
+	<p>[NEW] Two new built-in themes: Boulevard and Regale.</p>
+	</li>
+	<li>
+	<p>[NEW] Pulse slideshow settings are now configurable through a dedicated panel.</p>
+	</li>
+	<li>
+	<p>[NEW] Pulse now supports plugins via the Koken plugin API.</p>
+	</li>
+	<li>
+	<p>[NEW] New Pulse sizing option (Auto) that reads the average aspect ratio of the loaded images and sizes the player to that aspect ratio.</p>
+	</li>
+	<li>
+	<p>[NEW] Tweets from Twitter, images from Flickr/Instagram and videos from Vimeo, YouTube and Hulu may be embedded in essays by pasting their URL.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Lightbox design improvements for mobile display.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Reworked shortcodes system that can now be extended by developers through the Koken plugin API.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Streamlined link creation for content, essay and album archive links.</p>
+	</li>
+	<li>
+	<p>[UPDATED] New style for default Text list.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Newly created collections in the Library are now auto-selected and scrolled-to.</p>
+	</li>
+	<li>
+	<p>[FIXED] Responsive image publishing fixes for IE 9.</p>
+	</li>
+	<li>
+	<p>[FIXED] Lazy loading now works with horizontally scrolling layouts.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed an issue with searching/refreshing in the Library interface.</p>
+	</li>
+	<li>
+	<p>[FIXED] Prevent empty categories/tags from being created/assigned.</p>
+	</li>
+	<li>
+	<p>[FIXED] Favicon uploading progress working properly again in Chrome.</p>
+	</li>
+	<li>
+	<p>[FIXED] Multiple fixes for assigning and removing album covers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Trashed items are now restored correctly.</p>
+	</li>
+</ul>
+
+<h2 id="">0.3.2 (December 14, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Additional parameters passed to koken:asset are written to the resulting tag as expected.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Reduce HTTP requests for Koken backend by combining images and CSS.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Improved flow when adding new links. Sheet now disappears and user is redirected to new link.</p>
+	</li>
+	<li>
+	<p>[FIXED] Pulse slideshows with more than 100 items now play through all items.</p>
+	</li>
+	<li>
+	<p>[FIXED] Trashed items are hidden as expected in featured/favorite listings.</p>
+	</li>
+	<li>
+	<p>[FIXED] Copying multiple site links in the right column in Library would always revert to the first URL copied.</p>
+	</li>
+	<li>
+	<p>[FIXED] Unlisted content display properly when added to an album.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed an issue that caused unexpected redirects from Site to Library.</p>
+	</li>
+	<li>
+	<p>[FIXED] Captured time data is now properly preserved for replacement uploads.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ellipsis only added to koken:print if text was shorter than the truncated limit.</p>
+	</li>
+	<li>
+	<p>[FIXED] Plus signs no longer improperly stripped from essays and pages</p>
+	</li>
+	<li>
+	<p>[FIXED] Images loaded via lazy load are only served as HiDPI to HiDPI screens.</p>
+	</li>
+	<li>
+	<p>[FIXED] It is now possible to output raw datetime/timestamp data with koken:print.</p>
+	</li>
+	<li>
+	<p>[FIXED] Items can now be dropped on albums that are inside a set.</p>
+	</li>
+	<li>
+	<p>[FIXED] Various fixes for the essay/page editor.</p>
+	</li>
+</ul>
+
+<h2 id="031_november_16_2012">0.3.1 (November 16, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Added support for essays and pages to Axis theme.</p>
+	</li>
+	<li>
+	<p>[FIXED] ImageMagick detection fix for older versions.</p>
+	</li>
+	<li>
+	<p>[FIXED] Ensure that trashed items do not show up in previous/next links.</p>
+	</li>
+	<li>
+	<p>[FIXED] Manual ordering now an option in Site filter sheet.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed a plugin issue that caused setup-less plugins to not activate.</p>
+	</li>
+	<li>
+	<p>[FIXED] Thumbnail visual jumpiness fixed in Text&rsquo;s insert media sheet.</p>
+	</li>
+	<li>
+	<p>[FIXED] Last selection is now saved when using insert media sheet in Text.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed a loading issue where Pulse slideshows with more than 100 items would throw JavaScript errors.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed Pulse loading issue in IE 10 and Chrome 24+.</p>
+	</li>
+</ul>
+
+<h2 id="030_november_13_2012">0.3.0 (November 13, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Badges can be clicked in the library to remove item as favorite, featured, etc.</p>
+	</li>
+	<li>
+	<p>[NEW] &ldquo;Make public&rdquo; option in flyout menu for unlisted albums.</p>
+	</li>
+	<li>
+	<p>[NEW] Location data is now returned in API for content with GPS data embedded in EXIF data. New Lens template tag is also available &lt;koken:geolocation /&gt;</p>
+	</li>
+	<li>
+	<p>[NEW] Videos are now supported in Pulse.</p>
+	</li>
+	<li>
+	<p>[NEW] Experimental support for the imagick PECL extension in PHP when exec() is not available.</p>
+	</li>
+	<li>
+	<p>[NEW] Menu option for marking the primary cover in an album.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Quick collections can be ordered and default to manual ordering when used in the published site.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Smarter messaging and options in the album gear popup menu in Library.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Better error handling for uploads.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix album loading in themes that use custom routes for album templates.</p>
+	</li>
+	<li>
+	<p>[FIXED] Albums can now be featured from the gear popout menu in the left column.</p>
+	</li>
+	<li>
+	<p>[FIXED] Cleaner exposure output (uses fractions instead of decimals).</p>
+	</li>
+	<li>
+	<p>[FIXED] Text sheet fixes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Force UTF-8 encoding for published site in case PHP is not setup to do so automatically.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix meta tag rendering issue in some built-in themes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed an issue in Library that was blocking drag events on the scrollbar in the middle column.</p>
+	</li>
+	<li>
+	<p>[FIXED] Koken now appends _n to URLs to avoid naming collisions with existing routes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Several fixes for how links are handled in Site. Also, there is now a button to reset the site links to the theme defaults.</p>
+	</li>
+	<li>
+	<p>[FIXED] Updates made to secondary navigation groups now immediately show up in the left column in Site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Adding description, tags, summary, and categories to a new collection now saves properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Download original image action now works for subfolder installations.</p>
+	</li>
+</ul>
+
+<h2 id="023_november_2_2012">0.2.3 (November 2, 2012)</h2>
+
+<ul>
+	<li>[FIXED] Another fix for redirect loops for certain PHP configurations.</li>
+</ul>
+
+<h2 id="022_november_2_2012">0.2.2 (November 2, 2012)</h2>
+
+<ul>
+	<li>[FIXED] Fix redirect loop for some installs inside subfolders.</li>
+</ul>
+
+<h2 id="021_november_2_2012">0.2.1 (November 2, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Patched markup issue causing two &lt;head&gt; sections in rendered site.</p>
+	</li>
+	<li>
+	<p>[FIXED] Various updates for Firefox styling issues.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved panel issues when changing between a theme that has styles defined and one that does not.</p>
+	</li>
+	<li>
+	<p>[FIXED] More dependable theme previewing on all servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Items can now be removed from the &ldquo;Quick collection&rdquo;</p>
+	</li>
+</ul>
+
+<h2 id="020_october_30_2012">0.2.0 (October 30, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[NEW] Automatically detect HiDPI (retina) screens and serve the appropriate 2x imagery to them.</p>
+	</li>
+	<li>
+	<p>[NEW] Templates that load album content are now filterable in Site.</p>
+	</li>
+	<li>
+	<p>[NEW] koken:pulse now includes a &ldquo;random&rdquo; ordering option (random=&rdquo;true&rdquo;) that allows random playback of content.</p>
+	</li>
+	<li>
+	<p>[NEW] Essays can now be reverted to draft status when editing them in the Text interface.</p>
+	</li>
+	<li>
+	<p>[NEW] Custom URLs can now be assigned to media inserted into essays and pages.</p>
+	</li>
+	<li>
+	<p>[NEW] RSS feeds for recent content, essays and album content are now published.</p>
+	</li>
+	<li>
+	<p>[NEW] If media inserted into an essay is a part of an album, that album can be linked to via the hyperlink options.</p>
+	</li>
+	<li>
+	<p>[NEW] Collections can now be ordered manually in the Library. Also, collection order defaults to manual in the published site.</p>
+	</li>
+	<li>
+	<p>[NEW] Initial Plugin API.</p>
+	</li>
+	<li>
+	<p>[UPDATED] Reworked interface system for dramatically improved performance.</p>
+	</li>
+	<li>
+	<p>[UPDATED] koken:asset tag now supports &lt;img /&gt; and &lt;embed /&gt; (for SVG).</p>
+	</li>
+	<li>
+	<p>[UPDATED] Text editor refinements.</p>
+	</li>
+	<li>
+	<p>[FIXED] Custom date/time formats now properly preview in Settings &gt; Publishing.</p>
+	</li>
+	<li>
+	<p>[FIXED] Custom links added to secondary navigation groups are now properly added to that group instead of Primary.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a few Edit links sheet display issues.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed a bug that would sometimes cause duplicate navigation entries when switching themes.</p>
+	</li>
+</ul>
+
+<h2 id="013_october_3_2012">0.1.3 (October 3, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[UPDATED] Minor lightbox styling.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a whitespace issue in essay excerpts when lines ended in question or exclamation marks.</p>
+	</li>
+	<li>
+	<p>[FIXED] Titles and captions now properly appear when library content is inserted into pages or essays.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fixed output issue with tag, category and archive index labels</p>
+	</li>
+	<li>
+	<p>[FIXED] The &ldquo;Last upload&rdquo; display now shows content by the uploaded date as expected.</p>
+	</li>
+	<li>
+	<p>[FIXED] Captured listing in Library sidebar now shows all months correctly in Safari.</p>
+	</li>
+	<li>
+	<p>[FIXED] Proper redirection to 404 page when items are not found in the published site.</p>
+	</li>
+	<li>
+	<p>[FIXED] When previewing a draft essay, show current time when displaying published_on information.</p>
+	</li>
+	<li>
+	<p>[FIXED] Fix for incorrect PHP_SELF setting on some servers.</p>
+	</li>
+	<li>
+	<p>[FIXED] Display fallback preview images for videos when FFmpeg is not installed.</p>
+	</li>
+</ul>
+
+<h2 id="012_september_28_2012">0.1.2 (September 28, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Adding and updating objects in Koken with ampersands now works properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Sharpening defaults for presets have been tuned for better display over a variety of image sizes.</p>
+	</li>
+	<li>
+	<p>[FIXED] Dragging albums in the left column to be featured now works properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolve issues with lightbox playback and fullscreen functionality.</p>
+	</li>
+</ul>
+
+<h2 id="011_september_27_2012">0.1.1 (September 27, 2012)</h2>
+
+<ul>
+	<li>
+	<p>[FIXED] Fallbacks for servers with no or broken PATH_INFO setting in PHP.</p>
+	</li>
+	<li>
+	<p>[FIXED] Better permissions management during install and upgrade.</p>
+	</li>
+	<li>
+	<p>[FIXED] Resolved a database issue with NULL insertions on some servers that was causing failures when images were added to collections.</p>
+	</li>
+	<li>
+	<p>[FIXED] Saving new settings in Settings &gt; Publishing now works properly.</p>
+	</li>
+	<li>
+	<p>[FIXED] Saving an image as the sign-in background now works on servers with allow_url_fopen disabled in PHP.</p>
+	</li>
+	<li>
+	<p>[FIXED] Scrolling by dragging the scrollbar now working properly in the main Library view.</p>
+	</li>
+	<li>
+	<p>[FIXED] Create collection button is now disabled while new collection is created to prevent duplicates.</p>
+	</li>
+	<li>
+	<p>[FIXED] Site settings panel remains hidden until preview has been loaded.</p>
+	</li>
+</ul>
+
+<h2 id="010_september_26_2012">0.1.0 (September 26, 2012)</h2>
+
+<p>The initial beta release of Koken.</p>
+
+      </div>
+      
+      
+      <div id="rate_article_container" style="display:none;">
+	<div id="rate_article">
+		<div>
+			<a href="http://help.koken.me/customer/en/portal/articles/848339/rate?rating=1" class="rate_link" data-method="post" data-remote="true" rel="nofollow"> Yes </a>
+			<span>
+        I found this article helpful
+			</span>
+		</div>
+		<div class="rate-link-down">
+			<a href="http://help.koken.me/customer/en/portal/articles/848339/rate?rating=0" class="rate_link" data-method="post" data-remote="true" rel="nofollow"> No</a>
+			<span>
+        I did not find this article helpful
+			</span>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$.get('/customer/en/portal/articles/848339/is_rateable.json', function(json) {
+			if (json.is_rateable) {
+				$("#rate_article_container").show();
+			}
+		});
+	});
+</script>
+
+    
+    </div>
+  </div>
+  <!--
+  ***************
+  The following attribution needs to remain as is in terms of wording with the appropriate link back to desk.com as per our terms of service: http://www.desk.com/terms
+  If you would like, you may change the location or the styling to better match your site, but the content and the link must remain in the template and visible to end users.
+  ****************
+  -->
+  <div id='footer'>
+    <ul class="footer_nav">
+  <li>
+    <a href="http://koken.me">Koken.me home</a> 
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us @Koken</a>
+          </li>
+<li>
+            <a href="http://facebook.com/kokencms" title="Follow us on Facebook" onclick="window.open(this.href); return false;">Facebook</a>
+          </li>
+  <li>
+    <a href="https://plus.google.com/+KokenMe" onclick="window.open(this.href); return false;">Google+</a>
+  </li>
+  <li>
+    <a href="http://blog.koken.me">Blog</a>
+  </li>
+</ul>
+
+&copy; 2013-7 Koken. All Rights Reserved.
+    <br/>
+    <a href='http://www.Desk.com'>Customer service software</a> powered by Desk.com
+  </div>
+</div>
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop()>319) {
+        $('#jump_head:hidden').stop(true, true).fadeIn();
+    } else {
+        $('#jump_head').stop(true, true).fadeOut();
+    }
+});
+</script><!--end:page_article-->
+
+<!--end:portal_body-->
+
+    
+  </div>
+</div>
+
+<!-- Facebook Like Button -->
+<div id="fb-root"></div>
+
+<!-- External Variables for Portal Header -->
+<div id="desk-external-variables-header" class="desk-external-variables">
+   <div id="read_only"></div>
+    <div id="site-default_mailbox">support@koken.me</div>
+  <div id="desk_javascript_host">http://assets3.desk.com/</div>
+  <div id="twitter_enabled">false</div>
+  <div id="twitter_username">koken</div>
+  <div id="system-snippets-loading">Loading</div>
+  <div id="system-snippets-seconds_ago">seconds ago</div>
+  <div id="system-snippets-a_minute_ago">a minute ago</div>
+  <div id="system-snippets-minutes_ago">minutes ago</div>
+  <div id="system-snippets-an_hour_ago">an hour ago</div>
+  <div id="system-snippets-hours_ago">hours ago</div>
+  <div id="system-snippets-a_day_ago">a day ago</div>
+  <div id="system-snippets-days_ago">days ago</div>
+  <div id="system-snippets-about">about</div>
+  <div id="enable_gs">false</div>
+  <div id="system-snippets-invalid_characters_found">Invalid characters found</div>
+  <div id="site-search_autocomplete_articles_url">/customer/en/portal/articles/autocomplete</div>
+  <div id="search-term"></div>
+  
+</div>
+
+<script type="text/javascript" src="http://assets3.desk.com/portal/desk.portal.shared.js"></script>
+<script type="text/javascript" src="http://assets3.desk.com/portal/desk.portal.header.js"></script>
+<script type="text/javascript" src="http://assets3.desk.com/portal/desk.portal.body.layout_footer.js"></script>
+
+<script>
+  $(function() {
+     prettyPrint();
+  
+     var pathname = (window.location.pathname);
+     if (pathname!="/") { 
+        $('#support-side ul li a').each(function() {
+          if ($(this).attr('href').indexOf(pathname) != -1)
+          {
+             $(this).addClass('current');
+          }
+        });
+     }
+
+     if($("#page_home").length > 0) {
+        $('main').addClass('page_home');
+      }
+  });
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36460516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</main>
+
+
+	</body>
+</html>

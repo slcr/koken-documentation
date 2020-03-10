@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Getting started</title>
+    <link>http://help.koken.me/customer/portal/topics/291471-getting-started</link>
+    <description>Getting started articles</description>
+    <item>
+      <title>Installing Koken</title>
+      <description>Koken is a free download and can be easily setup at most web hosting providers in just a few minutes. Here are...</description>
+      <pubDate>Mon, 28 Jul 2014 19:10:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/632102</link>
+    </item>
+    <item>
+      <title>Recommended web hosting providers</title>
+      <description>Koken is software that must be installed on a web server through a web hosting provider. Chances are if a host...</description>
+      <pubDate>Tue, 05 Aug 2014 15:13:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1647417</link>
+    </item>
+    <item>
+      <title>System requirements</title>
+      <description>Koken is software that requires a web server to setup and use. To install Koken you need to know how to create...</description>
+      <pubDate>Mon, 04 Aug 2014 17:23:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/827352</link>
+    </item>
+    <item>
+      <title>Glossary of terms</title>
+      <description>This document is an alphabetical reference for all the terminology Koken uses in its console and documentation...</description>
+      <pubDate>Tue, 11 Mar 2014 15:53:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/890657</link>
+    </item>
+  </channel>
+</rss>

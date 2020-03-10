@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Site</title>
+    <link>http://help.koken.me/customer/portal/topics/546842-site</link>
+    <description>Site articles</description>
+    <item>
+      <title>Site overview</title>
+      <description>Site is for editing all aspects of your published web site. The area is divided into three views: Themes, Draf...</description>
+      <pubDate>Fri, 05 Dec 2014 12:46:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/638104</link>
+    </item>
+    <item>
+      <title>Add a favicon to your site</title>
+      <description>A favicon is a "favorites" icon. They're the small icons you see in your web browser's tabs, bookmarks, locati...</description>
+      <pubDate>Fri, 19 Sep 2014 18:32:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1213488</link>
+    </item>
+    <item>
+      <title>Add filtered content pages</title>
+      <description>Want to display a page of albums assigned a particular category? A page of images assigned a particular tag? Y...</description>
+      <pubDate>Fri, 22 Nov 2013 21:05:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1140411</link>
+    </item>
+    <item>
+      <title>Apply custom CSS to a theme</title>
+      <description>Themes that include editable settings may be customized a variety of ways using the Settings panel. You can us...</description>
+      <pubDate>Sat, 03 Jan 2015 14:00:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1033530</link>
+    </item>
+    <item>
+      <title>Assign new front page</title>
+      <description>Every theme has a particular template that is used to publish the front page of your site. You can change the ...</description>
+      <pubDate>Fri, 28 Mar 2014 12:47:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1146024</link>
+    </item>
+    <item>
+      <title>Duplicate a site theme</title>
+      <description>Koken's default Elementary theme, as well as most themes made available through the Koken Store, include custo...</description>
+      <pubDate>Fri, 28 Mar 2014 12:48:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/898661</link>
+    </item>
+    <item>
+      <title>Edit image quality and sharpness</title>
+      <description>Koken publishes images using default values for quality and sharpness that are recommended for most publishers...</description>
+      <pubDate>Fri, 05 Dec 2014 13:18:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1107999</link>
+    </item>
+    <item>
+      <title>Edit site links and labels</title>
+      <description>Content created in Koken is viewed on your site using links provided by Koken. Though Koken generates these li...</description>
+      <pubDate>Tue, 09 Dec 2014 21:02:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1140398</link>
+    </item>
+    <item>
+      <title>Edit site navigation</title>
+      <description>The left column in Site displays all the navigation links your draft is currently using. Links that fall under...</description>
+      <pubDate>Mon, 24 Nov 2014 15:39:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1249141</link>
+    </item>
+    <item>
+      <title>Edit site URL</title>
+      <description>Koken automatically publishes its web site to the directory where Koken is installed. You may change the addre...</description>
+      <pubDate>Thu, 18 Sep 2014 01:41:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1523076</link>
+    </item>
+    <item>
+      <title>Edit theme slideshows</title>
+      <description>Slideshow dimensions, behavior, transitions and other options are edited through Site. Click "Site" in Koken's...</description>
+      <pubDate>Fri, 05 Dec 2014 13:30:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1209871</link>
+    </item>
+    <item>
+      <title>Edit theme style and settings</title>
+      <description>Every Koken theme offered through our store includes editable settings. These settings require no HTML experie...</description>
+      <pubDate>Mon, 22 Sep 2014 20:11:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1232103</link>
+    </item>
+    <item>
+      <title>Validate and submit site for Twitter Card support</title>
+      <description>Twitter Cards are special layouts for media that appear when a web page is linked on Twitter. All of Koken's d...</description>
+      <pubDate>Thu, 25 Jul 2013 19:57:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1140722</link>
+    </item>
+    <item>
+      <title>View RSS feeds</title>
+      <description>RSS feeds syndicate site updates so visitors may subscribe to published content. They also provide site publis...</description>
+      <pubDate>Mon, 24 Nov 2014 15:40:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1249138</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Essays and Pages</title>
+    <link>http://help.koken.me/customer/en/portal/topics/696985-essays-and-pages</link>
+    <description>Essays and Pages articles</description>
+    <item>
+      <title>Essay text loses formatting when published</title>
+      <description>Hello all,
+
+My essay http://www.kasperdemeulemeester.be/albums/all-too-human/ loses its paragraphs, italic font,... when I publish it. What am I doing wrong? When I open the essay part of the admin section, it looks perfectly alright.
+
+Thanks a lot!
+
+Kasper</description>
+      <pubDate>Thu, 13 Jul 2017 15:47:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17105062</link>
+    </item>
+    <item>
+      <title>Password protected essays</title>
+      <description>Hello,
+
+Would it be possible to implement the password protection for essays too? I use essays linked to album on my website, and if I protect an album the linked essay is still accessible.
+
+Thank you</description>
+      <pubDate>Mon, 03 Jul 2017 14:59:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097912</link>
+    </item>
+    <item>
+      <title>Please help, how do I make koken use a picture for an essay cover?</title>
+      <description>I have uploaded x number of pictures on an essay. When I hit publish, Koken picks a picture from a category seemingly at random and assigned it to that essay. I can't have another persons picture on an essay about a different person. But the only thing I could do was delete the wrong picture, and now I have a giant grey box for a picture instead of a picture of the family I'm blogging about. Can anyone please help?</description>
+      <pubDate>Mon, 03 Jul 2017 13:28:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097478</link>
+    </item>
+    <item>
+      <title>Comments on albums</title>
+      <description>How can i get allow comments on albums?
+
+http://www.nassergazi.com/albums/adam-candice/</description>
+      <pubDate>Mon, 05 Jun 2017 20:30:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17072828</link>
+    </item>
+    <item>
+      <title>Remove dates on albums</title>
+      <description>How can I remove the date posted beneath each picture on albums in the Axis 2 theme?
+
+Thanks</description>
+      <pubDate>Mon, 05 Jun 2017 20:30:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17072827</link>
+    </item>
+    <item>
+      <title>Infinite scrolling on album</title>
+      <description>How can get get rid of pagination of albums (infinite scrolling) ?
+
+Thanks</description>
+      <pubDate>Mon, 05 Jun 2017 20:30:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17072824</link>
+    </item>
+    <item>
+      <title>Possible to add a blog</title>
+      <description>Hi Koken team,
+
+My site is craighullphotography.co.uk, and I wanted to get a blog page to come out as craighullphotography.co.uk/blog and be able to add a theme or at least HTML and CSS to it. 
+How is this possible?
+
+I know you have essays, which is great - and similar to blog posts, but i would really like the /blog ending
+and the ability to change it as I see fit (name, css, html, flow within my site etc).
+
+Thank you
+
+Craig</description>
+      <pubDate>Thu, 25 May 2017 13:51:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17062597</link>
+    </item>
+    <item>
+      <title>Change page url</title>
+      <description>Hi! Is there a way to change a page URL from fotokrafie.at/pages/contact to fotokrafie.at/contact?
+And why do links to extern in my pages (for example on fotokrafie.at/pages/contact) do not count for SEO checkers like seorch.de as link to extern? 
+Thanks,
+Katharina </description>
+      <pubDate>Wed, 24 May 2017 18:31:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17060403</link>
+    </item>
+    <item>
+      <title>breadcrumbs - Navigation to retrace back to Album, Set ?</title>
+      <description>Is there a way to have a good breadcrumb trail in the Madison 2 theme ? 
+I have Sets &amp; Albums. 
+
+When I open an image in an album, there is a link which leads back to the album - but there is no link which leads the album back to the set. 
+
+e.g: 
+http://www.pappy.ch/roberthuber/koken/sets/projects-1/
+
+I am new to Koken and have just started setting it up. It seems like a great tool, I would very much like to find out if there is a way to use a more logical navigation for those links to "go back", 
+
+Thanks for advice, 
+
+Robert
+
+</description>
+      <pubDate>Tue, 23 May 2017 16:46:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17057059</link>
+    </item>
+    <item>
+      <title>Essay Formatting</title>
+      <description>I've written and added my first essay.
+
+When I view the essay page, it displays the essay title, and the entire essay its'self in the body.  Clicking on the essay does the same thing.
+
+On the primary essay page, is there a way to format it so it displays other information such as the date published and only a few lines of the essay?</description>
+      <pubDate>Fri, 19 May 2017 17:16:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17039994</link>
+    </item>
+    <item>
+      <title>add 'essays' to an 'album'</title>
+      <description>Hi.
+
+I'd like to be able to place an essay within an album.  So, the process would be: write / publish an essay.  Assign it a Topic.  Set "Published" date to control the order.  
+
+Then have it magically appear between photos - in the right order (according to date or manual order).
+
+That would allow me to annotate my gallery with essays about my photos and such, and have this appear directly within an Album or Set.
+
+Anything like this on the horizon?  Until then, I can't really see any use for 'Essays'.  Is there a list of published sites using Koken I could review and try to learn from?</description>
+      <pubDate>Tue, 16 May 2017 18:55:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17036572</link>
+    </item>
+    <item>
+      <title>Essays</title>
+      <description>How to save essays? Please advise!</description>
+      <pubDate>Sat, 13 May 2017 13:13:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17034788</link>
+    </item>
+    <item>
+      <title>Edit read more label</title>
+      <description>I've edited and changed the read more label in essays to German "weiterlesen" . That works on the essays page but not for the featured essays on the home page, here it allways writes "more" and the quick info shows "Read [essay name]".
+How can that be changed in theme Repertoire? Thanks for any hint.</description>
+      <pubDate>Thu, 11 May 2017 14:41:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17033502</link>
+    </item>
+    <item>
+      <title>Error in google calender enbed</title>
+      <description>I am trying to embed the google calendar in text draft page, in draft it looks fine, but after closing the page when I re open it, the calendar looks list like a blank square... what to do?</description>
+      <pubDate>Thu, 27 Apr 2017 12:23:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17024056</link>
+    </item>
+    <item>
+      <title>Lightbox Settings</title>
+      <description>How to modify parameters of a slideshow of the built in lightbox?
+(duration, transition)</description>
+      <pubDate>Thu, 27 Apr 2017 14:01:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17023834</link>
+    </item>
+    <item>
+      <title>Essay &amp; Pages not working</title>
+      <description>Hello,
+
+When i try to make a essay/page to add some text it seems to be not working.
+I click on the + bottom left of the admin page it gives up a pop up where it asks for page title.
+When added and then click to proceed it says page/essay saved but nothing shows up.
+Nor can i add text to the page it simple does not show up at all.
+
+link to my page if that helps: http://project-ghost.hisevilness.com/</description>
+      <pubDate>Mon, 24 Apr 2017 15:07:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17021089</link>
+    </item>
+    <item>
+      <title>Madison 2 / navigation issue</title>
+      <description>Hi
+
+i am using madison 2.
+
+Everything is working great, except:
+I can't open the set "Japan" on the navigation. The others are single albums.
+If i use "open in new tab" i can see the albums and it works.
+
+Thanks for your help
+
+ming</description>
+      <pubDate>Mon, 24 Apr 2017 15:15:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17020810</link>
+    </item>
+    <item>
+      <title>Text at beginning of album</title>
+      <description>I want to display a text page as the first page in an album.  (an artist's statement explaining the work about to be viewed)  I would like to have the album (with it's chosen cover image) still visible on my albums page (which is my home page).  Any suggestions on how to set this up? </description>
+      <pubDate>Tue, 11 Apr 2017 18:19:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16991780</link>
+    </item>
+    <item>
+      <title>Increase Image size in Essay</title>
+      <description>Hi can someone tell me how i can publish larger images than the default in essays?
+Thank you</description>
+      <pubDate>Mon, 13 Mar 2017 13:18:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950969</link>
+    </item>
+    <item>
+      <title>image float in text</title>
+      <description>What I missing in this is the possibilty in settings to set a image float.  Yes I know I can do that with html but I think this has te be a base option in the script. 
+
+Any way this script rocks. Have used so many but this one is the best!!</description>
+      <pubDate>Thu, 09 Mar 2017 20:13:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16936841</link>
+    </item>
+    <item>
+      <title>Password Protection for Essays</title>
+      <description>Hi,
+
+is there a possibility to protect Essays for a closed user group? (Password Protect)
+
+Best Regards,
+Rolf </description>
+      <pubDate>Tue, 07 Mar 2017 14:06:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16864013</link>
+    </item>
+    <item>
+      <title>How to put pictures into columns </title>
+      <description>I am using the Elementary theme and on my album pages I would like the pictures to be displayed in 3 columns rather than 1. However the CSS I have tried has not been successful, is there anything you can recommend?</description>
+      <pubDate>Mon, 06 Mar 2017 20:57:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16836815</link>
+    </item>
+    <item>
+      <title>Blog</title>
+      <description>Hello,
+
+Is it possible to change this name "ESSAYS" to "Blog"? 
+
+Please chech the attached photo to better understand what I am referring to:
+Download link 
+https://we.tl/MeYeWihg66</description>
+      <pubDate>Mon, 06 Mar 2017 14:32:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16835911</link>
+    </item>
+    <item>
+      <title>https with .htaccess </title>
+      <description>Hello !
+
+I am setting up a family page, that should only be accessed by friends. So I am securing the page access with a user / password using an .htaccess file. While creating the page .htaccess was not active. After I finished the page I enabled the check. Now some albums show an empty page (browser cache completely deleted). Could this be related of securing with the site with .htaccess and how could I overcome this problem?
+
+For testing purpose I removed .htaccess again, but I have the same issue. Some albums show only an empty page. While on the admin / site page, everything is fine. But the problem also occurrs if I call "View page" from the admin page.
+
+Do you have a hint what I can do?
+
+Thanks and best regards,
+Uwe
+
+P.S. Pictures have been populated using the ligthroom plugin.
+</description>
+      <pubDate>Fri, 24 Feb 2017 17:12:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16829156</link>
+    </item>
+    <item>
+      <title>Blog</title>
+      <description>Hello,
+
+I would love to create a blog that will be in my website itself in order to get a better traffic and improve my SEO. What would be the best way to do that and what are your recommendations? I currently use Boulevard 2 Koken Theme. This is my website: www.plamenpanchev.com 
+I would love to create an interesting looking blog and the ability to be shared easily + other people to have an option to comment bellow every post. How can I do that? Also organized with a date/timeline that would be from the now moving to the past. I have some blog post from the past because I moved from another website but how can I organize and post my old blog posts as well with dates from the previous years?
+
+I kind of like the blogs of another theme called Oxygen but is there a way that I can creates something similar if I use Boulevard 2 Theme?
+Examples:
+https://varoystrand.se/artiklar/ 
+https://ingmarwein.com/index.php?/blog/ 
+
+What would you recommend me to do in order to great successful and gorgeous-looking blog?
+
+With Much Love and Great Respect!
+Plamen
+</description>
+      <pubDate>Thu, 23 Feb 2017 16:09:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16827914</link>
+    </item>
+    <item>
+      <title>chastain</title>
+      <description>How can I show a cover of my essays on the fron page like I can show covers of my albums?
+I only can make a link to this part of my website (have a look: http://www.abele-photography.com)</description>
+      <pubDate>Wed, 08 Feb 2017 15:30:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16811982</link>
+    </item>
+    <item>
+      <title>essay</title>
+      <description>I have been trying Elementary, Ensemble, Madison 2 and Oxygen. My essays look fine in draft form; but when I go to the site with these themes and view published essays, they shows error messages:
+
+ "Warning: include(tags/IntlDateFormatter.php): failed to open stream: No such file or directory in /home/...........koken/app/site/site.php on line 1173"
+
+"Warning: include(): Failed opening 'tags/IntlDateFormatter.php' for inclusion (include_path='.:/usr/local/lib/php:/usr/local/php5/lib/pear') in ....."
+
+I am a photographer and know nothing about lower level codes or languages. How can I fix the "errors" and have a restored site?    Thanks</description>
+      <pubDate>Sat, 11 Feb 2017 18:13:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16811836</link>
+    </item>
+    <item>
+      <title>how te create the post under the big picture (at Home) in the Repertoire theme</title>
+      <description>hello, how do i create the 4 post (nycityskype / alaska / jerusalem / music) under the big picture  in this example? hope you can help me. thanks! greetings mirjam</description>
+      <pubDate>Tue, 07 Feb 2017 15:10:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16810931</link>
+    </item>
+    <item>
+      <title>Embeding iFrame Code</title>
+      <description>I am having endless problems trying to embed an iFrame into a page that will add a shopping cart page to my koken website. 
+
+I can add the code ok using the code option and everytime I do this the page will load correctly... but only that one time.... every refresh thereafter loads the page but it does not display correctly, it only displays a few line from the top of the page. 
+
+I'm at a loss as to why it does this and despite trying various different things I haven't been able to get it to stop doing this. 
+
+Can you help?
+
+http://www.fascinatinglight.photography/</description>
+      <pubDate>Sun, 26 Feb 2017 18:14:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16809343</link>
+    </item>
+    <item>
+      <title>Blog</title>
+      <description>Hello,
+
+I would love to create a blog that will be in my website itself in order to get a better traffic and improve my SEO. What would be the best way to do that and what are your recommendations? I currently use Boulevard 2 Koken Theme. This is my website: www.plamenpanchev.com
+I would love to have an interesting looking blog and the ability to be shared easily + other people to have an option to comment bellow every post. How can I do that? Also organized with a date/timeline that would be from the now moving to the past. I have some blog post from the past because I moved from another website but how can I organize and post my old blog posts as well with dates from the previous years?
+
+I kind of like the blogs of another theme called Oxygen but is there a way that I can creates something similar if I use Boulevard 2 Theme?
+Examples:
+https://varoystrand.se/artiklar/
+https://ingmarwein.com/index.php?/blog/
+
+With Much Love and Great Respect!
+Plamen</description>
+      <pubDate>Sat, 28 Jan 2017 17:32:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16802907</link>
+    </item>
+    <item>
+      <title>Lightbox issue when opened from essay (again)</title>
+      <description>Hi,
+I have the exact same problem than the one describe by Carsten
+
+what I have :
+A lightbox opened from an essay will display whatever is in my public content, even if I assigned as 'topic' an album created specifically to contain the images for this post
+
+what I expect :
+the lightbox should loop through the images *contained in the post* no more no less, and show them in the order they are inserted in the post
+
+how are koken:previous and koken:next determined ?
+
+my koken is up to date with Madison 2 theme
+URL to test the issue : https://www.perspectives.photo/blog/2017/01/seance-cocooning-au-mas-de-lafeuillade-a-montpellier/ </description>
+      <pubDate>Fri, 27 Jan 2017 14:44:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801982</link>
+    </item>
+    <item>
+      <title>modify theme </title>
+      <description>Hello,
+I was just wondering if, with the Repertoire theme, an option was available to keep the "essays" column on every page?
+
+Quentin</description>
+      <pubDate>Thu, 26 Jan 2017 13:13:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16798695</link>
+    </item>
+    <item>
+      <title>How do I specify an image to use through editing html?</title>
+      <description>I'm trying to create a custom bio page and want to include an uploaded image at a certain size.  The information you have in your how-to docs talk about using something like   however there's never a mention of where the image actually resides on my system.  I see the uploaded image refered to in [koken_upload filename="my-image.jpg" label="my-image.jpg"]  but this is outside the koken:img tag and so I cannot specify the file size.
+
+I don't want to create a whole new theme for just one bio page.  It would be nice to have some documentation showing how to use css and the koken tags to control just a single page.</description>
+      <pubDate>Mon, 16 Jan 2017 13:22:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16791179</link>
+    </item>
+    <item>
+      <title>Sometime Essays won't show up on my page</title>
+      <description>Hi,
+if I don't update Essays (add some new posts, updates etc.) then Essays page is empty to the viewers.
+Not sure why this happens, tried cleaning cache and so, also changed an hosting etc. and I still have the same problem for quite some time... 
+my site http://vedranpapes.from.hr/
+
+Best regards,
+Vedran</description>
+      <pubDate>Fri, 13 Jan 2017 18:53:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16790591</link>
+    </item>
+    <item>
+      <title>Images not in Content?</title>
+      <description>I have set up an essay, mainly consisting of a list of images, added to that page. However, I can't find the images in the library. Where are the pictures?
+-Mino</description>
+      <pubDate>Sun, 08 Jan 2017 15:58:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16782712</link>
+    </item>
+    <item>
+      <title>Page title on contact page</title>
+      <description>I'm sure there's a simple solution to this that I've been banging my head on the wall for a few hours now.
+
+I created a contact page, named Contact. The page name comes up in the body of the contact page (Seen here: http://sok.al/pages/contact/). How do I stop the page name from displaying on the contact page?</description>
+      <pubDate>Tue, 03 Jan 2017 15:22:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16777520</link>
+    </item>
+    <item>
+      <title>Image embedded in page</title>
+      <description>I'm trying to create an 'About Me' page. I understand I can add media to the page, but I would like an image to be displayed above my text content without the user having to interact with the image title. How do I do this?</description>
+      <pubDate>Fri, 30 Dec 2016 21:02:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16770612</link>
+    </item>
+    <item>
+      <title>Changing URL</title>
+      <description>In the text tab all my URLs start with /essays/etc.
+
+How do I change the "essays" to something else?</description>
+      <pubDate>Wed, 16 Nov 2016 13:44:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16743529</link>
+    </item>
+    <item>
+      <title>Tagcloud</title>
+      <description>Is there a way to create a tagcloud instead of the default plain taglist?</description>
+      <pubDate>Mon, 07 Nov 2016 14:17:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16730935</link>
+    </item>
+    <item>
+      <title>Adding contact form is not possible</title>
+      <description>I don't have that symbol of an envelope in my quick-bar when I click into a field. </description>
+      <pubDate>Fri, 04 Nov 2016 10:01:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16728525</link>
+    </item>
+    <item>
+      <title>Lightbox issue when opened from essay</title>
+      <description>In all my essays I place a picture which on click shows the linked album in the lightbox. Other than opening the lightbox from the album page the numbering is missing here. Further with my last essay the sorting order in the lightbox is garbled and even shows images from a different album. What's going wrong here?</description>
+      <pubDate>Sun, 30 Oct 2016 13:52:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16718932</link>
+    </item>
+    <item>
+      <title>Multiple Essay PAges</title>
+      <description>Hi,
+
+I was wondering if it would be possible to have multiple Essay pages. e.g. one for the Actual travel and one page with all the conducted travels so far. I tried to have two essay pages but was not able to assigne essays to one or the other page. THX for the help.
+regards,
+Rolf
+</description>
+      <pubDate>Mon, 26 Sep 2016 18:39:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16696062</link>
+    </item>
+    <item>
+      <title>Edit Essay-URL</title>
+      <description>Hi Koken team!
+
+Thank you for what you are doing!
+
+I have a couple of questions! 
+
+1. How can I change (edit) the URL for my finished essay? 
+2.How can I have a more clean structure in my Essaypage on my website? I do not want the people to scroll all my essays to find the right topic for them
+
+3. Why is Koken not writing its own comment function for the essay? Koken is nearly perfect for an uncomplicated Portfolio or Website or Blog. Is there anybody still working on koken? I just want to know honestly.
+
+Much Love to you guys!!!</description>
+      <pubDate>Sat, 24 Sep 2016 13:35:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16693976</link>
+    </item>
+    <item>
+      <title>Changing default alignment in Axxis 2 essays</title>
+      <description>I want to change the default alignment for essays in the Axxis 2 theme to something other than "centered".   It is possible to do this for pages via a setting, but apparently not for essays.  Searching the Help Center here, I came up with this suggestion to add as custom CSS
+
+article { text-align:justify; }
+
+It unfortunately doesn't work for Axxis.
+
+I am not a programmer by any stretch, but I would very much like to fix this issue, if possible.  The site is www.pacificlight.ca
+
+Thanks</description>
+      <pubDate>Sat, 24 Sep 2016 13:29:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16693730</link>
+    </item>
+    <item>
+      <title>Add image count to an essay or page</title>
+      <description>In a HTML page, I have a list of links to Koken tags. E.g. XYZ text
+Is there any way to insert a count of how many images are in that tag?
+If it's possible, I would like to see "XYZ test (123 images)".</description>
+      <pubDate>Fri, 23 Sep 2016 00:10:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16692601</link>
+    </item>
+    <item>
+      <title>Title disappeared</title>
+      <description>Hi my main title (in this case my name dissapeared) it is only seen when you are at home. clicking one category like about my Header (my name) dissapears. This happened adding a link on the site section.</description>
+      <pubDate>Thu, 22 Sep 2016 13:33:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16691814</link>
+    </item>
+    <item>
+      <title>pasting text is not possible</title>
+      <description>when i am writing an Essay with the Editor, i can write directly in the Editor, but it is not possible to paste a copied text from the simpe windows-Editor! it opens always the window "Begin typing, paste a url or click here to insert media or code" but nothing happens then. 
+for me it is a big Problem, because i write my text with many different applications and want to copy/paste directly it to the koken-editior. 
+what shall i do? 
+best regards 
+ronny</description>
+      <pubDate>Tue, 20 Sep 2016 06:27:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16687804</link>
+    </item>
+    <item>
+      <title>edit page content</title>
+      <description>how do I do that ? I only can add one item(text) and thats it.. There is no box appearing to add more our other content? My cursor seems to be stuck in the text ? 
+
+THx</description>
+      <pubDate>Sat, 10 Sep 2016 08:26:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16679731</link>
+    </item>
+    <item>
+      <title>Less than 10 items per page?</title>
+      <description>In the template settings of default theme (cones with installation) the minimum number of items per page is 10. How can i set the value to 9 to get the classic 3x3 image grid? Btw, koken is a really cool tool :)</description>
+      <pubDate>Fri, 09 Sep 2016 12:24:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16678752</link>
+    </item>
+    <item>
+      <title>"Repertoire" theme essay feed</title>
+      <description>Hello,
+
+We are currently using your "repertoire" theme for our organization's website. I was wondering if there was any to to have the essay feed on the left-hand side of the homepage (provided you are in 2-column mode) persist through all pages.
+
+Thank you,
+Jake</description>
+      <pubDate>Mon, 22 Aug 2016 13:14:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16663262</link>
+    </item>
+    <item>
+      <title>Text editor</title>
+      <description>Hi,
+I have some trouble to add images after adding text 
+
+also it's impossible de move picture up or down this is kind of stupid.
+
+The text editor for the essay is very weak!!!!
+ 
+Impossible de add columns ect...
+
+You should make a better text editor for the next version.
+
+cheers</description>
+      <pubDate>Tue, 16 Aug 2016 10:29:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16653775</link>
+    </item>
+    <item>
+      <title>RE: Essays page Vimeo media now no longer full width</title>
+      <description>Hi all
+
+Thanks to Rupert for investigating on this. I'm facing the same problem, my latest vimeo media are no longer full width. Can we expect a fix soon?
+
+Andi</description>
+      <pubDate>Thu, 18 Aug 2016 21:00:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16643134</link>
+    </item>
+    <item>
+      <title>text formatting</title>
+      <description>I am a bit terrified (i.e. disappointed) about the poor text formatting abilities in Axis (maybe in all other themes as well).
+
+E.g. I can not 
+• set different fonts (e.g. for subtitles, highlighting, image captions)
+• change the alignment e.g. to 'justified' or 'left aligned' etc.
+
+might be that 'Axis' means 'centered'. But anyhow, I want to have my essays left-aligned or justified, e.g. to a limited text width of 750px. Can I assign my own css stylesheet to my theme to avoid working with this rudimentary text functions and will my styles appear in the list beneath 'paragraph / quote / code / H1 / H2 …' ?</description>
+      <pubDate>Tue, 02 Aug 2016 19:42:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16380987</link>
+    </item>
+    <item>
+      <title>Contact Form Sent Message issue</title>
+      <description>Hi, 
+
+I'm hoping this is straightforward. I have a simple contact form on my site - www.brightonbowen.com/pages/contact-us/ - and when you hit send, the success message is displayed in white text, and it's on a white background :) I can't find any setting within Koken which shows white text as selected.
+
+How can I change this, please?
+
+thank you
+
+kevin</description>
+      <pubDate>Tue, 02 Aug 2016 11:29:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16380172</link>
+    </item>
+    <item>
+      <title>Blog page unlisted</title>
+      <description>Is there a way to create a blog/text page that is unlisted.  ( that is not public, and that I can share the URL only when I want to )?  
+
+I found how to make an album unlisted but not a text page.
+
+Thanks,
+Paul</description>
+      <pubDate>Fri, 29 Jul 2016 12:37:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16376432</link>
+    </item>
+    <item>
+      <title>Essays page Vimeo media now no longer full width</title>
+      <description>It used to be that when I wrote essays and inserted a link to one of my Vimeo videos, they would span the full width of the essays column. (In Madison 2, this seems to be @ 800px) Now if you have a look, the grey media box spans correctly, but the video view port does not:
+
+http://www.noir.net/essays/
+
+The funny thing is that I set a number of my Vimeo videos to a Favorites category, and built a page that looks great:
+
+http://www.noir.net/vimeo/
+
+The Essays page used to look so nice. Now, not so much. Any ideas?
+
+Many thanks in advance,
+
+- Rupert</description>
+      <pubDate>Mon, 25 Jul 2016 22:30:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16362203</link>
+    </item>
+    <item>
+      <title>Missing Images at Essays Overview</title>
+      <description>Dear Koken,
+
+I reallly like your CMS System. It is the best one for photographs.  Now I have a little Problem with the essays Overview. The CMS don't show me the pictures, whitch are inserted before the readmore link. 
+
+At the beginning it has waorked, but now not.
+
+Here is the Website.
+
+https://kerstinbittner.de/blog/
+Please can you help me. It is really importent for our Website.
+
+Your
+
+Moritz</description>
+      <pubDate>Tue, 19 Jul 2016 17:49:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16360045</link>
+    </item>
+    <item>
+      <title>double image at the end of the post</title>
+      <description>Hi. Could anyone know a reason why a last image in a blog post is now getting displayed twice?
+
+http://www.magiafotografii.pl/essays/2016/07/magda-i-milosz-czerwcowe-kolorowe-zdjecia-slubne/
+
+http://www.magiafotografii.pl/essays/2016/07/magda-i-milosz-lipcowe-kolorowe-zdjecia-slubne/
+
+I tried two times. No any custom codes has been made
+
+Regards
+Paul</description>
+      <pubDate>Tue, 12 Jul 2016 13:01:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16355772</link>
+    </item>
+    <item>
+      <title>Essays border/frame</title>
+      <description>I wonder if someone can help. I understand how to use CSS but need a little help with exactly how to do the following. 
+
+I would like to add some kind of border around each essay in the Essays/Blog page, to help delineate each essay from the others.
+
+Can someone help me with the CSS that would be needed to add some kind of border, either a thin line or shadow.
+
+http://www.fascinatinglight.photography/blog/
+
+many thanks </description>
+      <pubDate>Mon, 11 Jul 2016 13:55:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16354698</link>
+    </item>
+    <item>
+      <title>changing "about me" page on website</title>
+      <description>How do I edit and change the about me page on my website?</description>
+      <pubDate>Mon, 04 Jul 2016 19:29:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16346698</link>
+    </item>
+    <item>
+      <title>Include content, which has not been published yes into essay</title>
+      <description>Hello,
+
+I imported several images into my library planning to use them in an essay. I already added titles and tags so I already put some work into it.
+
+The pictures are in private state currently, because I don't want them to appear in Content or Timeline.
+
+When trying to add the pictures to the essay it is not possible to include them (I guess because they are private). Is there a way to achieve that I can add the pictures from the library to the essay without changing them to public beforehand?
+
+Thank you
+
+Sebastian </description>
+      <pubDate>Thu, 16 Jun 2016 14:32:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16327412</link>
+    </item>
+    <item>
+      <title>Page Break only after 10 Essays</title>
+      <description>Hey Guys,
+
+is there an option to set the max. number of items for Essays?
+I use the theme "elementary". I build a site that show only essays. Now there were only 10 Essays per page.
+
+If i build a site for albums there is a slider for the "number of items". It is possible to change the number of essays per page?
+
+Thanks for help.
+
+regards,</description>
+      <pubDate>Mon, 13 Jun 2016 14:25:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16324119</link>
+    </item>
+    <item>
+      <title>Logo</title>
+      <description>Hi, 
+
+The problem I am having is to do with the positioning of my site name/logo on the contact page. For some reason the positioning changes in comparison to all other pages.
+
+I have set up the contact page as a text page where as the others are normal image pages, I have a feeling this might be why the title/logo is changing position.
+
+Any help would be much appropriated. 
+
+The theme I am using is "Boulevard" and links to my homepage and contact page below: 
+
+http://emcn.co.uk/  &amp; http://emcn.co.uk/pages/contact/
+
+Thanks in advance.
+
+Ed</description>
+      <pubDate>Tue, 07 Jun 2016 14:10:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16319085</link>
+    </item>
+    <item>
+      <title>Nested Menue</title>
+      <description>Hi,
+I'm new to Koken and struggle with the "nested pages" function of the Madison-2 theme.
+I want to have plain text pages nested in an "about" menu (like on http://pixelstory.ca, which is also built with Koken Madison-2).
+
+I turn on the "nested" function in the Theme menu, but then I don't see any add link within a set or page.
+What do I do wrong?
+
+Best Joerg </description>
+      <pubDate>Mon, 23 May 2016 13:43:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16303332</link>
+    </item>
+    <item>
+      <title>Unlisted album an essays</title>
+      <description>Hello,
+I try to insert photos from an unlisted album, and I din't suceed. Can you help me?
+Thank you
+
+J-C</description>
+      <pubDate>Tue, 17 May 2016 21:02:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16294255</link>
+    </item>
+    <item>
+      <title>renaming the label "essay" doesn't work correctly</title>
+      <description>Hello,
+
+I renamed the label "essays / essay" into "Beiträge / Beitrag". In the navigation menu of my site it was inherited correctly, but in the bottom of a single post (e.g. www.schelagowski.de/beitraege/workshop-fotografie-people-outdoor/) and in the rss feed link it still calls "essays". Should I rename a label somewhere else? I'm using the regale 2 theme and the latest koken version.  
+
+Regards, Thomas</description>
+      <pubDate>Wed, 18 May 2016 20:29:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16291602</link>
+    </item>
+    <item>
+      <title>Pages and changes to pages don't get published or saved</title>
+      <description>Hi I'm having a problem with a clients site.
+If I make changes to a page and publish these changes, they won't show on my live site.
+Nor does adding links in the navigation work.
+Everything looks good in Draft but when I check my Live website and go back to Draft, all the changes have disappeared.
+
+I Also can't seem to update to a newer versions.
+Every time I try, I and it refreshes, the update message is still showing and Koken is still running on an older version.
+I have this problem with my own website as well.
+
+</description>
+      <pubDate>Mon, 16 May 2016 16:00:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16290992</link>
+    </item>
+    <item>
+      <title>how to sort Essays</title>
+      <description>Hello, 
+
+I have a page showing all my featured essays, 
+
+I sort them manually in admin "text/featured essays" but on my website they appear in another order (last modified last). How can I change this?
+
+thanks
+
+Federico</description>
+      <pubDate>Tue, 17 May 2016 10:08:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16290989</link>
+    </item>
+    <item>
+      <title>remove "view all essays" link</title>
+      <description>is it possible to remove the "view all essays" link at the end of all my essays?
+
+I'm using koken with regale 2 theme
+
+thank you!
+
+Federico</description>
+      <pubDate>Thu, 12 May 2016 13:45:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16287732</link>
+    </item>
+    <item>
+      <title>How align header left on blog pages?</title>
+      <description>I don't like that Header 3 is centered on blog pages. How can I align it on left? 
+
+</description>
+      <pubDate>Mon, 02 May 2016 17:37:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16278219</link>
+    </item>
+    <item>
+      <title>Photo in page</title>
+      <description>Hello
+I want to set a picture in to the text site and get the picture to the right and picture to the left. But i can't do that, what can i do?
+The picture is also big, see my homepage under CV: http://madsclausrasmussen.dk/pages/cv-1/</description>
+      <pubDate>Fri, 29 Apr 2016 11:01:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16273703</link>
+    </item>
+    <item>
+      <title>Pasting plain text + formatting</title>
+      <description>Hello,
+
+First things first: thanks for an amazing product. I can't really express how happy I was when I found Koken. Thanks!
+
+I have one issue, though. When I paste plain text to the essay editor (e.g. from Evernote), it ignores all the blank lines. When I opent he HTML editor, I can see them, but they are not turned to paragraphs (...). 
+
+I understand that there is a ton of things to consider and this is probably a result of some compromise, etc., but I believe it would be very useful to either make this an option somewhere, or to add some special command to paste &amp; format. It doesn't necessarily have to support rich formatting, but turning single breaks to  and double breaks to  would be super helpful.
+
+Is there any other way to do this? I even considered creating an OS X action (for the context menu) to do this for me...
+
+Thanks a lot for your reply.</description>
+      <pubDate>Thu, 21 Apr 2016 06:50:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16264724</link>
+    </item>
+    <item>
+      <title>Change information on the contact page of a website</title>
+      <description>Hi,
+Im updating a website for my manager. This website states telephone numbers and an address which are no longer valid. Im wondering how to change or delete these? 
+Thanks</description>
+      <pubDate>Sun, 17 Apr 2016 14:46:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16257005</link>
+    </item>
+    <item>
+      <title>text menu</title>
+      <description>Hello
+
+I use the theme "elementary"
+I need to create the different menus that contain diifferenti text pages.
+If you use items "essays", each menu item contains the same essays.
+if you use items "pages" I can not enter the sub pages
+
+how do I fix?
+
+thank you
+angelo</description>
+      <pubDate>Tue, 29 Mar 2016 20:10:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16235106</link>
+    </item>
+    <item>
+      <title>How do I mke a "contact me"-page?</title>
+      <description>Hi! 
+
+When I make a page, how do I move it Into 
+I want to make a simple "contact me"-page, but i can't get it too work. I've tried making it as a page, but then I don't know how to link it to the "OM MIG + KONTAKT"-page. It worked when I did it as an essay, but then it didn't look like I wanted it to. (The picture is huge, there's no contact info etc).  I want it to look like this, http://michaellarssen.de/pages/kontakt/ but also with a picture of me on it. 
+
+Thank you!
+
+Maja</description>
+      <pubDate>Mon, 21 Mar 2016 15:40:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16225355</link>
+    </item>
+    <item>
+      <title>Center title of Essay in Regale 2</title>
+      <description>I can't seem to be able to center the essay titles.. tried css text-align: center but doesn't work. Any other tricks I could try? Thanks.</description>
+      <pubDate>Tue, 22 Mar 2016 17:55:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16224667</link>
+    </item>
+    <item>
+      <title>Turn off titel on a page as homepage</title>
+      <description>Is there any possibility to turn off the title on a page assinged as homepage? I did it by css, but it isn't nice (see fotos.lobolmo.de) in the tab.
+
+Or how could I change the title in the header?
+
+Thanks Michael</description>
+      <pubDate>Tue, 12 Apr 2016 17:54:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16224345</link>
+    </item>
+    <item>
+      <title>Splash Page loads once, then not again until history/cache is cleared</title>
+      <description>Why? Is there a fix?</description>
+      <pubDate>Thu, 10 Mar 2016 16:16:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16210937</link>
+    </item>
+    <item>
+      <title>Video Background Splash Page</title>
+      <description>Hi,
+
+With koken it's possible to put a video on the website background in home page?
+
+Thank you</description>
+      <pubDate>Mon, 07 Mar 2016 16:24:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16198763</link>
+    </item>
+    <item>
+      <title>Pages content not displaying</title>
+      <description>Dear support team,
+
+The content of the page http://goldenhour.ch/pages/tarifs/ stopped showing, after changing the body text size.
+
+It can be seen correctly on the pages admin section but does not show any content in the live preview or the online version.
+
+Please threat this case as urgent, as an ad campaign is ongoing and this is the prices page.
+
+Thank you,
+Best regards,
+MP</description>
+      <pubDate>Mon, 07 Mar 2016 13:49:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16198077</link>
+    </item>
+    <item>
+      <title>font formatting on my Links page</title>
+      <description>I am having trouble with the formatting of text on my links page:
+http://www.arky.com/pages/links/
+
+I have made all of the type use the header format, but when published it is all a jumble and not consistent.
+Can you have look at it to see what the problem is ?
+
+Thanks,
+David</description>
+      <pubDate>Fri, 26 Feb 2016 19:10:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16184808</link>
+    </item>
+    <item>
+      <title>Essay date format</title>
+      <description>Hi,
+
+I've noticed that recently the date format on the essays pages of my site have changed. Previously they were seperated with a character (can't remember if it was a period, dash or hyphen), but now they are just displayed as a string of 8 numbers, which looks a bit poor. 
+
+Has there been an update to the template that has caused this? I've checked that I've not removed it using CSS, and I've not altered the template at all. 
+
+An example of this can be seen at the top of the following page:
+http://www.dannypaynephotography.com/blog/2016/02/tame-impala-manchester-arena-a-bold-step/</description>
+      <pubDate>Wed, 09 Mar 2016 15:54:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16182267</link>
+    </item>
+    <item>
+      <title>Columns in pages or essays</title>
+      <description>Hello, is there any proper way to do column in pages or essays ?
+
+I have try some basic technics like table and div, that work for basic thing like text but it is more difficult to have a good result when insert image.
+
+I want to put image and text in 2 columns on the same line.
+
+I need to do something like that : http://www.solennejakovsky.com/avis
+
+Best regards</description>
+      <pubDate>Sat, 20 Feb 2016 18:17:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16178698</link>
+    </item>
+    <item>
+      <title>Essay Excerpt vs. Essay Content</title>
+      <description>Is it possible to write a koken:if/else/then statement in order to display only the {{essay.excerpt}} on the Essays page and display the {{essay.content}} on the individual essay posts? In short I am trying to show just a teaser text on the essays page and the full content in the essay. I thought about doing something in the info.json file but wasn't sure where to even start. Thanks.</description>
+      <pubDate>Wed, 17 Feb 2016 17:56:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16160489</link>
+    </item>
+    <item>
+      <title>Subcategoryes</title>
+      <description>Hello.
+
+I can`t find how to create a (sub)category, if it is possible.
+Subcategory for pages. Sample: _site.ru/pages/blog/page1
+This is possible?
+
+Thanks in advance for your reply.</description>
+      <pubDate>Wed, 10 Feb 2016 00:23:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16150196</link>
+    </item>
+    <item>
+      <title>How publish link on mainpage?</title>
+      <description>Tell me please. I have created a page, but I can not figure out how to add a link in the menu.
+
+Thanks in advance for your reply.
+
+Screenshots:
+http://joxi.ru/Q2K0yZWI9qE5aA — page
+http://joxi.ru/52aROpGSGeqPnA — place for links</description>
+      <pubDate>Tue, 09 Feb 2016 15:44:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16148625</link>
+    </item>
+    <item>
+      <title>Image in Regale 2</title>
+      <description>Hello,
+
+Just a little bug, when i make essays, if i insert a picture (from library or not) this pictures is not show in essays, I show only the text. If i insert 2 or more pictures, they are all show correctly (first include).
+
+I think it is a bug, i use regale 2 theme.
+
+Best regards,</description>
+      <pubDate>Thu, 11 Feb 2016 21:20:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16135090</link>
+    </item>
+    <item>
+      <title>secret pages</title>
+      <description>can I publish a page that can be seen only by selected people ?
+I mean without giving my password and id to enter mywebsite console
+Thank you for answering</description>
+      <pubDate>Mon, 01 Feb 2016 15:03:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16134911</link>
+    </item>
+    <item>
+      <title>Add Images in single line</title>
+      <description>Hi
+
+i've a page where I would like to add more than one image in single line, I see when I click in new line i've an upload bar that I've to use if I want to upload my image with also a link but if I would like to add another image I've to do this in a new line.
+
+How Can I insert more than one image in single line?</description>
+      <pubDate>Fri, 22 Jan 2016 20:04:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16115061</link>
+    </item>
+    <item>
+      <title>Re-ordering images in essays</title>
+      <description>I would like to rearrange the order of images that I have placed in an essay.
+So for example to take the last to the first or add text in between two images. 
+
+Is there a difference between what can be done while in draft mode as compared to the esaay one it is published ?
+</description>
+      <pubDate>Tue, 12 Jan 2016 15:49:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16094930</link>
+    </item>
+    <item>
+      <title>Images in essays aren't inserted right when 100+</title>
+      <description>Hi,
+
+I actually love Koken, but now I want to embed 100+ images in an essay.
+
+I can insert them and the first 100 pictures are showing correctly, the other/last ones are not, they look like duplicates of the last one.
+
+You can see it here: http://florianvoigt.de/blog/2016/01/sri-lanka/
+It's happening on all other themes too.
+
+Can you help me?</description>
+      <pubDate>Mon, 11 Jan 2016 15:49:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16093605</link>
+    </item>
+    <item>
+      <title>Using Koken for a group of photographers</title>
+      <description>Hi,
+
+We are a group of amateur photographers, and we would like to create a new site to show our portfolios under one web site. I saw Koken, it seems a really nice CMS for photographers. I wonder if we can create multiple portfolios in one site using Koken? We plan to include 4 photographers in this site. Is this possible? Do you have a real site list that we can see?
+
+Thanks in advance,
+
+Best regards,
+Ercan</description>
+      <pubDate>Tue, 05 Jan 2016 21:02:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16075077</link>
+    </item>
+    <item>
+      <title>cannot see the text fileds</title>
+      <description>Hi!
+
+The  contact form is not displayed properly!
+You cannot see the text fileds and the send button (all borders of fields are invisible...)
+http://riadhdridi.com/pages/contact/
+
+Thank you !</description>
+      <pubDate>Mon, 28 Dec 2015 15:01:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16009316</link>
+    </item>
+    <item>
+      <title>Slideshow</title>
+      <description>Hi , how to see our pictures like that : http://www.emericfohlen.com/-/galeries/portfolio ?
+I mean we all images on one page and when you click the image it will open in full screen ? Thank you</description>
+      <pubDate>Mon, 11 Jan 2016 16:19:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16004757</link>
+    </item>
+    <item>
+      <title>Bug in Essays and Pages</title>
+      <description>Hi,
+
+I've recently updated my Koken to the latest version and I noticed that there is a bug going on with my Essays and Pages. All my published posts have retitled as "undefined" and when I open each of the post, it just shows a blank page.
+
+At the bottom, it says that "Draft saved xx days ago" and when I click "Undo draft", it would restore the content of the post. However, when I try to save, it would not do anything, even if I made some changes.
+
+Can you please check this out?
+
+Thanks!</description>
+      <pubDate>Sun, 13 Dec 2015 02:11:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/15959841</link>
+    </item>
+    <item>
+      <title>"View all Essay" instead "view all Blogs"</title>
+      <description>Hello,
+
+I renamed essay(s) into blog(s), but the link back to blog overview is still called "view all essay".
+
+Is this a bug? As I can remember that this problem did not occur before.
+
+Thanks
+
+Andreas
+
+</description>
+      <pubDate>Thu, 10 Dec 2015 22:05:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/15956641</link>
+    </item>
+    <item>
+      <title>How to change subject of contact form mails?</title>
+      <description>Hey there,
+
+I guess there must be some piece of code one can modify to change the subject of mails sent by the contact form, but I can't find it. Where do I have to look for it?</description>
+      <pubDate>Tue, 15 Dec 2015 19:01:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/15919099</link>
+    </item>
+    <item>
+      <title>Possible to change text color?</title>
+      <description>Is it possible to format text color in an essay or page by clicking or is it necessary to change html manually?</description>
+      <pubDate>Sat, 21 Nov 2015 04:06:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/15893175</link>
+    </item>
+    <item>
+      <title>Exporting Text</title>
+      <description>Is there a way to export text from Koken instead of having to go to each essay or page and copy from each one? Thanks! </description>
+      <pubDate>Sat, 14 Nov 2015 12:59:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/15430424</link>
+    </item>
+    <item>
+      <title>Cannot update and Console error</title>
+      <description>Hi Koken team,
+
+I have installed koken and the CMS is really great and easy to use.
+However, I am somehow not able to update. I have changed the permission of the files to 777, but still no luck.
+
+Recently I also got a console error when logging in, could this be connected?
+And is there a way to update and remove the console error?
+
+I would like to hear from you,
+
+Alieke</description>
+      <pubDate>Mon, 09 Nov 2015 16:08:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/14650885</link>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Discussions</title>
+    <link>http://help.koken.me/customer/en/portal/topics/290729-discussions</link>
+    <description>Discussions articles</description>
+    <item>
+      <title>picture too large for the creen</title>
+      <description>hello, my pictures are too large  for the sreen, how can i change the size  .When i mean too large, that mean  i need the mouse to move the picture up and down 
+
+http://edouarddeblay.com/</description>
+      <pubDate>Thu, 29 Jan 2015 00:05:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8415743</link>
+    </item>
+    <item>
+      <title>Koken Site </title>
+      <description>Hello 
+
+I have a problem with my koken Site. When i try to load it. In the frontend just the header is rendered, but not the content or the footer. This problem has been going for 2 months now and changing the browser didn't fix it. I hope you can help. Thank you in advance. </description>
+      <pubDate>Tue, 07 Oct 2014 20:25:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8412450</link>
+    </item>
+    <item>
+      <title>Boulevard Featured Content</title>
+      <description>Hi, 
+
+I am very new to Koken. I am following Koken help to make my website. Problem I am facing is with Showing a series of pictures on my home page. I uploaded multiple images to Featured Content Folder and also added an whole album to Featured Album, however only first image appears on my homepage. I need that series with scroll capability. Also is there a way to increase the height of the picture ? 
+
+Can someone please assist. 
+
+Thank you.
+Kunal</description>
+      <pubDate>Thu, 11 Jun 2015 22:47:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8412365</link>
+    </item>
+    <item>
+      <title>Testing and publishing the final Version</title>
+      <description>Hello from Kassel, Germany,
+
+currently we are testing our new website on a different host with a different url. After testing is over and we go to move the installation of the new Koken Site to the final host what happens with the assigning of Madison 2? What has to be changed to let the moved installation work under the final url and host?
+
+Thanks
+
+Stefan</description>
+      <pubDate>Thu, 28 Aug 2014 21:10:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8410491</link>
+    </item>
+    <item>
+      <title>Koken team, this MUST be changed</title>
+      <description>It is possible to use hidden sets and hidden albums instead of User ID and Password. In Library &gt; Inspector the link is possible to
+
+Copy
+view and 
+reset
+
+To reset the Site link a double step is needed in the form of “Reset Lite Link really?   Yes / No” in order to make no mistakes.  
+
+May be, there are better ideas? User ID and Password?
+
+Thank you
+Franz
+</description>
+      <pubDate>Thu, 08 Jan 2015 13:09:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8409266</link>
+    </item>
+    <item>
+      <title>Lightroom Plugin download</title>
+      <description>Hello,
+
+I'm trying to setup integration between lightroom and a a new Koken based website.  I've got KOKEn installed and running on my host but I can't find the lightroom plugin download.
+
+I've found this page -&gt; https://store.koken.me/lightroom/koken-publish-service but there doesn't seem to be anywhere to actually download the plugin.
+
+Can you point me in the right direction please?
+
+Thanks
+</description>
+      <pubDate>Thu, 28 Aug 2014 21:57:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8408571</link>
+    </item>
+    <item>
+      <title>3rd party plugins</title>
+      <description>Hi
+
+I am having problems getting 3rd party plugins to work in v0.17.xx of Koken.
+
+Is this by design now, or a bug or a configuration issue at my end? For me extensibility is an absolute must for any cms, and I sincerely hope I will be able to modify and customize some of the workings of Koken to suit my use case.
+
+Regards,
+Ben</description>
+      <pubDate>Sun, 31 Aug 2014 15:38:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8408052</link>
+    </item>
+    <item>
+      <title>Display of images in content &amp; Favourites - Madison 2 (Random &amp; Category)</title>
+      <description>I was wondering if there is a way to display the "Content" and "Favourites" pages of images in a random order as it can be done in the slideshow.
+Similarly, if I want to display a page with my images in a grid of lets say only a particular category "wedding" is that possible?
+
+Thanks.
+</description>
+      <pubDate>Fri, 14 Aug 2015 17:50:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8407189</link>
+    </item>
+    <item>
+      <title>Pre-Cache - It is really needed</title>
+      <description>Your system's ability to generate images is really quite slow.  I run very fast servers with dedicated RAM and CPU on a dedicated server account,, yet it still takes so long to generate new images that people are leaving thinking the images are broken.    I know it is only Koken as my other sites with galleries produce their resized images at a fraction of the speed.
+
+Would it be so hard to simply cache the images with a simple script?
+All my WordPress websites have this ability.  I can cache every page and image on the site with the press of a button.  
+
+This is particularly important for gallery sites like these.
+
+Plus it's kinda of ridiculous for me to have to "view" all my uploaded images just to get them cached.  It takes a long time to go through and "view" every image each time I upload a new gallery of images.</description>
+      <pubDate>Sun, 14 Sep 2014 17:32:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8407138</link>
+    </item>
+    <item>
+      <title>Album contains 50 pictures but shows 0</title>
+      <description>What I use : 
+Madison 2
+koken 0.17.3
+Lightroom 5.6
+Koken Publish Service for Adobe Lightroom 1.2.6
+
+I constructed a set containing 2 albums. Than I uploaded 50 pictures from LR to one of this album. After, this album contains definitely 50 pictures, I can see in koken.
+I can also see, my set contains two albums. But this with my 50 pictures shows 0 (zero). The consequence of this my menu point in my internet site shows "This album is empty".
+
+I hope you can help me.
+Thank you
+</description>
+      <pubDate>Thu, 28 Aug 2014 21:05:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8405068</link>
+    </item>
+    <item>
+      <title>Elementary theme - changing thumbnails to scrolling pics</title>
+      <description>Is there a way to change the album content's thumbnail view into big scrolling pics like on Ensemble theme? 
+
+I know I can simply use the Ensemble theme but I like the "Home" page of the Elementary. So it's either I put the "Home" feature on Ensemble or change the album contents' view on Elementary.
+
+Thanks in advance.</description>
+      <pubDate>Tue, 26 Aug 2014 17:50:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8404206</link>
+    </item>
+    <item>
+      <title>Facebook Like Box</title>
+      <description>Hello
+
+I want to insert the Facebook Like Box into Koken. I had insert the Box wie the HTML Injector plugin in the footer. But i want this in the position of the social network buttons. See screenshot.
+
+http://666kb.com/i/cr9zb7jw6d887s7es.jpg 
+
+How can i do this? I dont need two Facebook Like buttons. I think this is interesting for all photographers who has a fanpage on facebook!
+
+I use the Axis 2 Theme
+</description>
+      <pubDate>Thu, 28 Aug 2014 20:59:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8404145</link>
+    </item>
+    <item>
+      <title>infinite_toggle not working</title>
+      <description>Hello!
+
+I have trouble making the infinite_toggle work. This is my index.lens code:
+
+https://gist.github.com/martinwolf/d2e440749338d4dbc06e
+
+Is there anything I'm doing wrong?
+I'm stuck. :/
+
+Cheers,
+Martin</description>
+      <pubDate>Fri, 29 Aug 2014 16:32:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8403803</link>
+    </item>
+    <item>
+      <title>Theme-Dev: Tag-Overview as Grid</title>
+      <description>Hi
+
+i worked on my own Theme - based on Blueprint and Axis.
+At the moment i have an problem to "design" the Tag-Picture-Overview (Blueprint: tag.lens/events.html; own tags.lens).
+
+2 Problems:
+1) i want use an Grid-Design - like "Contents layout: GRID" in axix-Theme.
+Is it possible to "copy" the contents.lens and his *.html-Files an change it to "tag" instead "content"? For an short test, i've do this - it doesn't work ;) i think i forget somethings? Any tips? (i don't want see the title, description of each pic or other available tags for each pic [other tag as option]). Any idea?
+
+2) i don't want links like tags/tag-12/content/this-is-the-content-page-for-image-123
+I've checked many themes - but every themes uses as link to the content-Page somethink like tags/tag-12/content/this-is-the-titel-content-page-for-image-123  (or: tags/tag-12/content/this-is-the-titel-content-page-for-image-225). i want use the same link like in contents.lens (/content/this-is-the-titel-content-page-for-image-123). 
+
+My code:
+
+tag.lens [short]
+
+
+
+
+
+			
+			
+layouts/events.html [short]
+
+
+
+
+
+
+
+
+
+
+changed koken:link -&gt; koken:link to="content"
+==&gt; /content/:slug/
+
+Regards
+Patrick
+
+
+PS: i miss an Theme &amp; Plugin-Board @ help.koken.me :)</description>
+      <pubDate>Thu, 28 Aug 2014 20:54:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8403535</link>
+    </item>
+    <item>
+      <title>Madison 2 / Timeline</title>
+      <description>Dear Koken Team,
+
+is it somehow possible to show only the latest content upload in timeline?
+Or in "Content" ?
+
+I know it´s possible to use "Featured Images", but I would like to have something like timeline for latest upload.
+
+Thanks
+Ming
+</description>
+      <pubDate>Thu, 28 Aug 2014 20:54:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8403528</link>
+    </item>
+    <item>
+      <title>FEATURE REQUEST : Set the album's date </title>
+      <description>Hi,
+
+Will it be possible to add an option to set the publication date of an album to the publication date of the oldest picture of this album. It would be an option like the one to set the publication date of a photo to its captured date.
+
+For example, if the oldest picture of my album as been shot at 14h00 the 25th of septembre 2013, the album will be marked as published the same hour and date (13/09/25 14:00:00).
+
+Cheers,
+
+Chris CB</description>
+      <pubDate>Fri, 29 Aug 2014 01:17:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8403388</link>
+    </item>
+    <item>
+      <title>Photograph not showing as Content?</title>
+      <description>I've just added a photograph ("Brick Buildings In Ann Arbor") to my Koken site (http://www.philperkins.org) and, while the image is appearing in its assigned album (Photography), it isn't showing up as content (Latest Designs)?
+
+Is this a result of an upper limit to the number of images allowable to be displayed as 'content', or some other issue?
+
+Any help is appreciated...</description>
+      <pubDate>Mon, 01 Sep 2014 13:59:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8403283</link>
+    </item>
+    <item>
+      <title>mapbox.com / implement map / old thread </title>
+      <description>Hi
+
+found this very interesting thread:
+
+http://help.koken.me/customer/portal/questions/8066467-create-a-map-with-all-your-pictures
+
+Added anything as given but get only a blank page (no error message, no http 404)
+
+Could someone help?
+
+Thanks
+Roland</description>
+      <pubDate>Tue, 02 Sep 2014 02:06:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8403186</link>
+    </item>
+    <item>
+      <title>Axis-2: After upload double collections get installed in "albums"</title>
+      <description>Hi,
+since same days I have after the upload from photos double collections in the template "album" installed. I do the selection via smart-albums in LR5. In LR5 every thing looks good (only one smart-album with the same name), but on the admin-page and on the website there are double collections installed. And also on the content-page are same photos twice, three-times or even four times present.
+i already emailed twice, but did not get a response yet. Can anybody help me?
+Thank you for your help.
+Heike</description>
+      <pubDate>Thu, 28 Aug 2014 20:52:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8402573</link>
+    </item>
+    <item>
+      <title>Image size in essay</title>
+      <description>Hello,
+just in this topic (http://help.koken.me/customer/portal/questions/964279-image-size-2-48px-) I have an issue with the image sizes, and mostly in essays. When adding a photo taking in portrait mode the image cant fit on a normal laptop screen and I cant find a way to make it smaller. I would like it to be maybe half of the screens height.
+I use the theme Chastain but have seen that the problem is also in the other free themes.
+
+Is this something that can be fixed?</description>
+      <pubDate>Thu, 28 Aug 2014 10:52:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8402410</link>
+    </item>
+    <item>
+      <title>lightroom pluging JSON error</title>
+      <description>Hello,
+I have the latest version of koken and lightroom plugin installed (actually I did a clean install to reproduce the problem).
+I am using the latest version of lightroom available as of 25-08-2014.
+When I go to Applications and copy the api path into koken account section in lightroom plugin it opens kmy admin interface and allows me to grant access, The token in created and appears in Application section of my koken install.
+
+Then when I click I'm done or whatever it is called in the plug in. I get an error window with: 
+
+An internal error has occured: {string "JSON.lua"}:197: nil passed to JSON:decode()
+
+In order to replicate the error I did a clean install of koken, I am still getting the error.
+I tried both ssl and non ssl address, I get the eror on both (it is a comodo certificate and not a self signed one).
+
+If it is important I am running apache 2.2 php 5.4.24 mysql 5.6.20 on mac osx 10.9.4.
+
+also I tried from local network and from external. (basically tried with 192.168.0.* adress and with my domain name and with my external ip)
+
+Any ideas on how to resolve this^</description>
+      <pubDate>Mon, 25 Aug 2014 17:11:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8398858</link>
+    </item>
+    <item>
+      <title>Play video file after pre-load</title>
+      <description>Hello,
+
+I added a video to mp4 h264 on my website (http://blogoflip.fr/galeries/albums/timelaps/content/centre-equestre-ocheval/) everything is ok but when I start playing I have to wait for the full load (the video is 400MB) in order to start the drive. Is this normal?
+
+Philippe</description>
+      <pubDate>Wed, 27 Aug 2014 15:46:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8398487</link>
+    </item>
+    <item>
+      <title>Update fails</title>
+      <description>When trying to update my koken-installation (Madison 2) to 0.17.3 the process stops / hangs in the middle and I see "Updating
+The new version is now being installed." The update never finishes.
+The website is still working but I can´t get onto the admin-site. I already sent a message to the support team but I got no reply yet. Any ideas what to do? Anybody facing the same problem?</description>
+      <pubDate>Tue, 26 Aug 2014 09:50:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8398085</link>
+    </item>
+    <item>
+      <title>New Koken user with few questions</title>
+      <description>Hello
+
+First of all a big thank you to all developers, amazing work you are doing!
+
+I'm using the Ensemble theme and have a few questions to modify it:
+- I would like to have more columns, is there a possibility?
+- I would like to modify the font+color of the header title, how?
+- I would like to change the colors of the text, how?
+- I would like to have the order of the pictures in random, is there a possibility?
+
+How do I set the small image, which you can see on the left of a browser tab (Google Chrome)? 
+
+I'm running a homemade Synology NAS, where also the photos are located. Can I link the photos folder directly to Koken?
+I havent found a "image directory" from Koken yet, so I couldnt do that...
+
+
+Cheers Josh
+
+
+</description>
+      <pubDate>Thu, 28 Aug 2014 21:16:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8397772</link>
+    </item>
+    <item>
+      <title>Site links for Content</title>
+      <description>Hi,
+
+I want to create  a content page on my site where I show my content based on date uploaded. The default for content is to show based on date published. So to achieve what I want I have to:
+1. Add Content page
+2. Rename Content page to Content2
+3. Press the + sign next to a new Content page and add a new content page with whatever options I want
+
+The new Content page looks fine. My only problem is that the link is content-2 which I don't like. Could you please advise how can I get a custom Content page with "content" in the permalink?
+
+Regards,
+
+Yiannis
+</description>
+      <pubDate>Thu, 28 Aug 2014 21:34:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8397644</link>
+    </item>
+    <item>
+      <title>latest Upgrade - admin panel keeps refreshing</title>
+      <description>Hi
+
+After the latest koken update I can't access my admin panel anymore on
+
+After the Upgrade the screen "Updating - The new version is now being installed" is displayed and as soon it's done the pages refreshes and starts again. I then tried to access it with different browsers and deleting the cookies and failed.
+
+Any ideas?
+
+cheers,
+Stefan</description>
+      <pubDate>Mon, 25 Aug 2014 16:23:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8397610</link>
+    </item>
+    <item>
+      <title>RSS Feed for Unlisted Gallery</title>
+      <description>Hello,
+
+When I upload my pictures to my Unlisted Gallery I dont want it to be shown on RSS feed. But unfortunatelly every single photo I upload is being shown on recent.rss. How can I stop that?
+
+Thanks,</description>
+      <pubDate>Thu, 28 Aug 2014 20:48:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8397166</link>
+    </item>
+    <item>
+      <title>Axis 1: no update? (1.4.x to 1.4.3)</title>
+      <description>Hi
+
+i have set for an test the version of Axis 1 to 1.4.1 (actually 1.4.3). But Koken recognized this "older" Version not as old ... No new Updates available. Last Week it works with axis 1.4.x to 1.4.3 (and set 1.4.x again and update) 
+
+How can i say koken: newer Version of Axis are available? (Cache cleared, Browser changed, Webserver restart)
+
+Set koken to older Version and update to 0.17.3 works.
+
+Thx
+Frank</description>
+      <pubDate>Wed, 27 Aug 2014 20:32:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8395366</link>
+    </item>
+    <item>
+      <title>Information: New plugin for Google+ comments available</title>
+      <description>If you are looking for a plugin that allows you to use the Google+ comment system instead of Disqus you can download and install this plugin: https://www.brisoft.de/en/add-google-comments-koken/</description>
+      <pubDate>Sun, 24 Aug 2014 18:31:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8395101</link>
+    </item>
+    <item>
+      <title>problem of saturation when import</title>
+      <description>Hello,
+
+I have a problem when i import my pictures : colors are saturated! when i import, colors of my pictures are not the same as the original! i host my website in local, with mamp! 
+Do you know how can i resolve the problem please? 
+
+Thank you;</description>
+      <pubDate>Wed, 27 Aug 2014 21:46:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8394592</link>
+    </item>
+    <item>
+      <title>Easy Links?</title>
+      <description>Hello
+
+When i go to the Galery, it is the link:
+
+http://www.linsenschuss.de/index.php?/alben/
+
+i think it looks better an its easy for others when the link is shorter. like this:
+
+http://www.linsenschuss.de/alben/
+
+Is this possible?</description>
+      <pubDate>Mon, 01 Sep 2014 07:37:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8394166</link>
+    </item>
+    <item>
+      <title>www.domainname.com does not work (Docker Issue)</title>
+      <description>Help.. I still can not get www.domainname.com to work. only domainname.com without the www works.. Do I need to make virtual host file in Apache?
+
+Docker is totally different from a normal lamp setup.
+
+Thanks,
+
+-Tyler</description>
+      <pubDate>Mon, 25 Aug 2014 21:57:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8393513</link>
+    </item>
+    <item>
+      <title>Instagram videos with Instagram plugin for Koken</title>
+      <description>Hi,
+
+I recently bought the Instagram plugin because I need to show some of my Instagram videos on my website.
+I didn't met any troubles to upload my contents and to create this "automatic album".
+
+I can't upload these videos on Vimeo. I have already this another plugin for other movies. It's perfection !
+
+Is there a next step for your Instagram plugin concerning the integration of videos ?
+
+Thanks you,
+Nicolas</description>
+      <pubDate>Mon, 25 Aug 2014 19:39:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8392431</link>
+    </item>
+    <item>
+      <title>Bug: Publish live for essay</title>
+      <description>So I saved an essay as draft, then I published it as live (same screen). But it didn't seem to work (refreshed but still not seeing it). Set as Featured (hoping it'll make it to the main Essay page - I'm using Boulevard theme) and still nothing.
+
+Then I don't know what I did, but I eventually saw the "Publish live" on the button again (as oppsoed to save changes).
+It might be possbile that if you click it once, it publishes and if you click again, it doesn't (goes back to draft).</description>
+      <pubDate>Thu, 28 Aug 2014 20:24:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8392255</link>
+    </item>
+    <item>
+      <title>Plugin : Like option</title>
+      <description>Hello,
+
+Do you plan to develop a plugin "Like button" type of facebook?</description>
+      <pubDate>Wed, 27 Aug 2014 16:27:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8392231</link>
+    </item>
+    <item>
+      <title>admin login after installation fails "incorrect e-mail" &amp;&amp; reset fails with "that e-mail address..."</title>
+      <description>
+admin login after installation fails "incorrect e-mail" &amp;&amp; reset attempt fails with "that e-mail address is unknown".
+
+Site: http://koken.daerr.com
+
+Steps taken:
+
+Install on clean sub-domain
+Installation ended OK. (config was done with copy and pasting credentials from a side-document to avoid typos in e-mail etc.)
+
+Error description
+At admin login after install, the login fails "incorrect e-mail"
+Trying to use reset on the admin page fails with "that e-mail address is unknown".
+
+-&gt; Trying to use procedure http://help.koken.me/customer/portal/articles/1182607-recovering-a-lost-password fails with "server denying to display page", even after checking chmod status of the 'password-reset.php' file.
+
+Help &amp; advice appreciated.
+</description>
+      <pubDate>Sat, 22 Aug 2015 05:49:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8391883</link>
+    </item>
+    <item>
+      <title>After changing URL picture are not displayed anymore</title>
+      <description>I have installed Koken in a sub folder for testing reason. After I was convinced that Koken is excatly what I'm looking for. So, I wanted to moved the site from mydomain.de/koken to mynewdomain.de - both are on the same server. Based on the tips I found here, I was able to do so, but now the pic which I added from flickr so far are gone. In the content overview I can see all files but the pic are not displayed. Instead of that I see this rotating circle for each pic. And even when I want to add a pic it will not displayed. I used GD bundles which was obviously working fine under mydomain.de/koken. 
+
+What can I do to use koken under the new domain in the old folder? 
+
+Thanks in advance. </description>
+      <pubDate>Sun, 21 Jun 2015 05:32:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8390560</link>
+    </item>
+    <item>
+      <title>[Axis2] - submenu in navigation?</title>
+      <description>Hi
+
+Is its possible to make some submenus in the navigation?
+
+Screenshot from my old page for exaple: http://666kb.com/i/cr6o7i4yapwr5y3is.jpg
+
+It would be really great if you could implement the submenu!
+
+Thank you</description>
+      <pubDate>Mon, 25 Aug 2014 20:04:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8390334</link>
+    </item>
+    <item>
+      <title>Images won't load, or take forever to load</title>
+      <description>I have some images that just refuse to load, for example here:
+
+http://www.tobiassolem.se/albums/rynningeviken/
+
+For whatever reason 1-2 tops 4 images load, and then the rest take forever to load.
+
+256MB cache RAM and cache enabled.
+
+Please help.
+
+Thank you.
+
+/Tobias</description>
+      <pubDate>Thu, 18 Sep 2014 01:32:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8389098</link>
+    </item>
+    <item>
+      <title>"Share-buttons": what file do they come from?</title>
+      <description>Hi, 
+
+I like the share buttons, however, I don't want to have all of them but only some.
+As that can not be configured, I figure it should be easy to get rid of some in their source file. 
+But which one would that be?
+
+Any one any idea?
+
+Thanks and have a nice weekend!
+
+Jan</description>
+      <pubDate>Wed, 27 Aug 2014 15:42:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8388762</link>
+    </item>
+    <item>
+      <title>Ads in Koken</title>
+      <description>Hello,
+
+i wan't to include ads in my Koken Blog. 
+Is there someting like replacing every 10th picture in albums with some Ad?
+
+thanks</description>
+      <pubDate>Thu, 28 Aug 2014 18:58:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8387499</link>
+    </item>
+    <item>
+      <title>Koken Lightroom publish plugin error</title>
+      <description>I have same issues with Koken Lightroom publish plugin.
+When I pushing "Publish Now" button LR5 write en error: "An internal error has occurred: AgExportSession:recordRemoteCollectionId: remote ID must be a number or string"
+
+OSX 10.9.4
+LR 5.6
+Plugin version -  1.2.6
+Koken version - 0.17.3</description>
+      <pubDate>Mon, 02 Mar 2015 19:47:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8387421</link>
+    </item>
+    <item>
+      <title>I lost albums from the main page after updating koken</title>
+      <description>I lost albums from the main page after updating koken 0.17.3
+
+In the Library page the albums are still there but in the site page, no albums found
+
+Can you help me ? Thanks for your answer.
+
+Philippe</description>
+      <pubDate>Tue, 02 Sep 2014 11:55:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8387029</link>
+    </item>
+    <item>
+      <title>installation fails</title>
+      <description>After installation the webroser gives fololwing error message:
+
+Not Found
+
+The requested URL /koken/admin/ was not found on this server.
+
+via FTP I have controled the presense of this folder. 
+This folder has been created on my webserver One.com.
+
+How resove this?</description>
+      <pubDate>Thu, 28 Aug 2014 18:59:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8386353</link>
+    </item>
+    <item>
+      <title>Get images and the titles of the set and album they are in</title>
+      <description>Heyhey,
+
+is there a way to achieve this?
+
+Backend structure: set (a) -&gt; album (b) -&gt; image (c)
+
+ with all featured images (or images with a specific tag)
+
+         (c)
+
+        Title of Album the image is in (b)
+        
+        Title of Set the Album is in (a)
+
+
+
+Help would be really appreciated. Thanks!
+Martin</description>
+      <pubDate>Wed, 27 Aug 2014 21:30:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8386204</link>
+    </item>
+    <item>
+      <title>[Axis] Number of Columns &amp; Pulse</title>
+      <description>Helle There,
+
+i have two questions.
+
+1. I cant find the config to change the number of the columns anymore in Axis. On one website i have 3 columns on another i have 4 columns. I want to have 3 columns on both :)
+
+2 secons question is about pulse. In my albums i want to see first the grid layout and than, when click on a pucture, a slideshow. Is this possible ?
+
+Thanks for your help
+
+Nicole</description>
+      <pubDate>Mon, 25 Aug 2014 19:14:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8385819</link>
+    </item>
+    <item>
+      <title>image protector reinstalling does not work</title>
+      <description>hello 
+
+some time ago I bought the expansion image protector. 
+Unfortunately I had to put on my new website, and now wants to image protector install again. 
+but that does not work, only the window with "install the plugin" opens and then I'm stuck. 
+about the website I tried the reinstall the product, but that has not helped.
+can someone help me? 
+
+please excuse my bad english 
+
+Thank you, 
+Denis</description>
+      <pubDate>Thu, 10 Sep 2015 19:15:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8385555</link>
+    </item>
+    <item>
+      <title>Accessing a Subdirectory on my web server</title>
+      <description>My host lets me look at my stats by going to domain.com/stats/
+
+Since Koken is installed in /koken and I'm using an .htaccess file to redirect, how can I go to /stats/?
+
+I get a 404 error.
+
+Thanks,
+Tom</description>
+      <pubDate>Thu, 28 Aug 2014 20:18:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8384170</link>
+    </item>
+    <item>
+      <title>Changing the order of albums in a set</title>
+      <description>How do I do this? I am sure I have done it before but I can't see now.....</description>
+      <pubDate>Thu, 21 Aug 2014 19:55:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8383926</link>
+    </item>
+    <item>
+      <title>LR upload failed (assertion failed) since 0.17.x</title>
+      <description>Hi,
+since upgraded to koken .17.3 I cannot upload any images anymore. I have LR 5.4 and added some smart and regular albums, filled with one or more images. Koken creates an album, but it takes minutes to upload them.
+
+Sometimes I get an "assertion failed" error, sometimes the job just finishes, but there no new images online.
+
+Console-Log: 21.08.14 20:04:11,863 Adobe Photoshop Lightroom 5[1861]: Failed to restore first responder (message was inputContext)
+
+I appreciate any help!!
+Sebastian</description>
+      <pubDate>Thu, 28 Aug 2014 20:12:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8383479</link>
+    </item>
+    <item>
+      <title>Pulse Pager</title>
+      <description>Hey guys,
+
+I wonder if there is a way to easily add a pager to a Pulse slideshow. Something like that:
+http://drop.horrido.io/aqMpuQDW0.png
+
+Thought maybe there is something implemented because it's a relatively common pattern.
+
+Thank you!
+Martin</description>
+      <pubDate>Wed, 27 Aug 2014 21:26:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8382843</link>
+    </item>
+    <item>
+      <title>Pulse with Captions</title>
+      <description>Hey guys,
+
+I'm currently doing my first project with Koken for a client and I like it so far.
+What I need to do now is the following:
+
+My structure is like that:
+- set
+-- album
+--- images
+-- album
+--- images
+- set
+-- album
+--- images
+- set
+-- album
+--- images
+
+Now I need to add a slideshow on the index page with featured content images which are selected from the albums.
+In the pulse slideshow I need to have the featured image with a caption consisting of the set and the album name the image is in.
+
+Is there a way to do that?
+
+Help would be greatly appreciated!
+
+Thank you!
+Martin</description>
+      <pubDate>Thu, 28 Aug 2014 20:34:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8382823</link>
+    </item>
+    <item>
+      <title>Lightroomplugin login fails</title>
+      <description>Hello, 
+
+I have the same error as described in the following threat:
+
+http://help.koken.me/customer/portal/questions/1520789-json-error-after-granting-access-to-lightroom-service
+
+I use Win 7-64 in German. Unfortunately, helps me to turn off the firewall is not on. I've made ​​a screenshot of the error, but I do not know how to post it here.
+
+Can someone please help me?
+
+Greetings Swen Gerber</description>
+      <pubDate>Thu, 21 Aug 2014 13:18:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8382353</link>
+    </item>
+    <item>
+      <title>Migrate db to koken Docker</title>
+      <description>Hi, 
+
+I'm testing koken on Digital Ocean using Koken Docker Image. And this seems really fast !
+
+But I've a question: 
+
+I can migrate all data using sFTP but I would like to know How to migrate the database.
+
+Regards, 
+
+Chris</description>
+      <pubDate>Tue, 26 Aug 2014 05:00:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8381775</link>
+    </item>
+    <item>
+      <title>Album title/Set title - Madison 2 theme</title>
+      <description>Is it possible to remove title from a Set page - but keep title on Album page?
+
+I see that I can uncheck 'Show album title and description' - but this removes title from Set page and Album page.
+
+Reason:
+I have a link for each Set, the link is highlighted to indicate the title, so I'd prefer not to show the title of the Set page. But when I open the Set, I'd like to have Album titles showing.
+
+Many thanks</description>
+      <pubDate>Mon, 25 Aug 2014 19:25:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8381602</link>
+    </item>
+    <item>
+      <title>LR Plugin does not work (LR 4.4, koken plugin 1.2.6) koken ver 0.17.3</title>
+      <description>hi! installation seemed to be ok, but when i tried to upload my pics through LR  this warning occoured: 
+
+an internal problem showed up :  KokenAPI.lua:304: attempt to index local 'settings' (a boolean value)
+
+i then changed  my internet connection, tried it again and got another failure (seen also in the error report):
+
+Plug-in error log for plug-in at: /Users/gerhardkrejci/Downloads/koken-publish-service 2/koken.lrplugin
+
+**** Error 1
+
+Die Nachbearbeitungsaufgabe dieses Zusatzmoduls konnte nicht erfolgreich abgeschlossen werden.
+KokenAPI.lua:304: attempt to index local 'settings' (a boolean value)
+
+**** Error 2
+
+Die Nachbearbeitungsaufgabe dieses Zusatzmoduls konnte nicht erfolgreich abgeschlossen werden.
+AgExportSession:recordRemoteCollectionId: remote ID must be a number or string
+
+could you help me please?
+gerhard</description>
+      <pubDate>Fri, 26 Jun 2015 16:58:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8381490</link>
+    </item>
+    <item>
+      <title>Problem API error</title>
+      <description>Good afternoon. My site worked 6 months. And 20 minutes ago my site stopped working. Message to the home page:
+"API Error
+The theme is not able to contact Koken's API. Ensure that your host is not blocking loopback connections."
+
+Нelp fix my site pleeeeeeeeeease</description>
+      <pubDate>Thu, 11 Jun 2015 22:48:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8379718</link>
+    </item>
+    <item>
+      <title>ALBUMS - change name?</title>
+      <description>Hello
+
+In the view of the categories is the title "ALBUMS" - Where can i chance this title?</description>
+      <pubDate>Fri, 22 Aug 2014 04:25:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8378647</link>
+    </item>
+    <item>
+      <title>Boulevard imageheight to max....</title>
+      <description>Hey,....i know this question was asked often in the past. I´m sorry, but i couldnt find a solution. 
+If i look to the boulevard theme on my 24inch screen, than the images are a little bit too big...i would like to present them smaler....now they are 60-70% of the screen height. 
+Is there a way to limit the max image size for example to 600px height?
+I tried this css in the custumpanel:
+img {
+max-height: 600px;
+}
+that works a little bit, but if i resize the browser window a bit smaler, than the other ratios didnt work anymore.....thank you so so much!!</description>
+      <pubDate>Wed, 16 Sep 2015 11:38:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8378518</link>
+    </item>
+    <item>
+      <title>Axis theme</title>
+      <description>I tried to duplicate my Axis theme folder, but the transfer failed. After that I realized that my Axis theme folder was empty. Now I can't access Koken any longer.  When I sign in, it says: Unable to parse the info.json file for this theme. I'm afraid to lose  my database if I install the index.php again. Is it possible you send me just the axis theme folder?
+Thanks
+</description>
+      <pubDate>Wed, 20 Aug 2014 19:38:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8378502</link>
+    </item>
+    <item>
+      <title>GIF animation</title>
+      <description>When I upload a gif it only shows as a static image - what can I do?
+
+My settings are:
+
+Image publishing
+Processing:
+GD bundled (2.1.0 compatible)
+HiDPI (Retina):
+ Publish high resolution images
+Quality / Sharpness: 
+ Use default settings
+
+System
+PHP:
+Version 5.3.29
+MySQL:
+Version 5.5.38-MariaDB-1~wheezy
+Server operating system:
+Linux
+Image processing:
+GD bundled (2.1.0 compatible)
+FFmpeg:
+Not installed
+Memory limit:
+128MB
+Upload file size limit:
+96MB
+EXIF/IPTC parsing:
+Supported
+
+the best,
+Tove</description>
+      <pubDate>Mon, 25 Aug 2014 17:51:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8377881</link>
+    </item>
+    <item>
+      <title>KOKEN 0.17.3 Update</title>
+      <description>Update from 0.17.2 to 0.17.3 started normally and hungs in the middle. After several hours I closed my Browser because nothings happens.
+
+Now the following problem appeared - after I login console switched directly to Update Screen and thats all. Not able to do something in KOKEN Console.
+
+What can I do?</description>
+      <pubDate>Mon, 25 Aug 2014 15:00:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8377795</link>
+    </item>
+    <item>
+      <title>Axis-2 home page resizing bug</title>
+      <description>Hi , again small bug ,
+
+even on http://axis.koken.me/
+
+if you resize browser window manually - it looks ok ,
+
+but if click expand/collapse button ( Restore down) next to X - homepage slideshow do not catch that event and do not resize slideshow
+
+( checked on chrome)</description>
+      <pubDate>Wed, 20 Aug 2014 20:29:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8377215</link>
+    </item>
+    <item>
+      <title>viewing images sequentially</title>
+      <description>Hello,
+
+i'm new to koken. The management on the back end is really cool, but browsing the photos in the front end are not so good in my opinion.
+I mean, i want to browse through the thumbs in an album, and by clicking a thumb i want to go directly to a big view of this photo with the feature to move to the next/previous photo (like the lightbox), but without the step between to see a content-page of this single photo. Closing the lightbox should navigate me back to my thumbs inside the album.
+Also, is there an alternative to the lightbox? What lightbox makes me crazy is, i cannot zoom in to a photo, and browsing to the next photo hides the lightbox while loading the photo (in InternetExplorer), so user can think the box has closed. The next thing is, if i close the lightbox, i'm in the content page of a photo. Now i click to the browsers back button. I expect to get back to the thumbs of the album, but instead the lightbox is shown again.
+So the navigation is very annoying to me.
+Are there settings or other possibilities to customize the users browsing experience.
+
+Thank you</description>
+      <pubDate>Wed, 20 Aug 2014 21:10:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8377084</link>
+    </item>
+    <item>
+      <title>Madison2 and IE9 - Thanks and some advice</title>
+      <description>Hi,
+
+I've installed the IE9 update for madison 2 and everything on my end looks great. Unfortunately, it seems that our public service departments don't allow webfonts.
+
+The problem with that is the page up and down arrows fall back to a Chinese(?) character font and the slideshow doesn't have all the controls available.  The right arrow is appearing but the rest of the controls are missing.
+
+Any advice on what I need to change in order to fix those up?
+
+On my end, with IE9, everything looks great!
+
+I'd also like to say a big thank you to the guys working on Koken. Not one week after asking about the IE9 issues and they've come out with an update.  I appreciate it, thanks!.</description>
+      <pubDate>Thu, 21 Aug 2014 18:55:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8374753</link>
+    </item>
+    <item>
+      <title>Vimeo AutoPlay and Description wont turn off</title>
+      <description>Hi,
+I'm trying to turn off the autoplay and descriptions for the Vimeo video plug-in. I clicked off the "autoplay video" under the Vimeo player tab in the inspector but there is no option to save that change. Whenever I click back onto the video the "autoplay" is still selected. Is their any solutions? Thanks. :)</description>
+      <pubDate>Wed, 20 Aug 2014 19:56:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8374116</link>
+    </item>
+    <item>
+      <title>Timeline</title>
+      <description>Hello
+
+I would like to exclude in the timeline some albums / sets. How can this be done?
+
+And can I limit the timeline to a number? The are listed as only a maximum of 12?</description>
+      <pubDate>Thu, 28 Aug 2014 19:19:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8373892</link>
+    </item>
+    <item>
+      <title>Speed</title>
+      <description>I have been using Koken for about a year now for my website and in the last few weeks it has been running SUPER slow. I updated the software (I am using Repetoire) and it has not helped. Did something change in the last few weeks? I can barely do anything, the images take forever to load. </description>
+      <pubDate>Wed, 20 Aug 2014 21:19:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8373843</link>
+    </item>
+    <item>
+      <title>axis2 grid json</title>
+      <description>hi, i've just purchased axis 2, love it .... apart from the settings for albums and album page are the same regarding the random grid effect.
+
+could i copy and paste the json info for "grid_col_type" and "grid_col_var_amt" then change the scope for just albums page ?
+
+not looked at json before so not sure how it works .
+
+thanks</description>
+      <pubDate>Thu, 21 Aug 2014 09:22:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8373721</link>
+    </item>
+    <item>
+      <title>Axis-2 Video bug</title>
+      <description>another bug with video positioning 
+
+video is self hosted 
+
+lightbox disabled
+
+i.e. just clicked from content and start playing  ( i.e. before starting playing it looks ok )
+
+there is black line on top and player is not at the bottom - so looks like something wrong with player/video positioning 
+
+screenshot :
+
+http://www.tiikoni.com/tis/view/?id=8060127
+
+( another bug btw with video when lightbox is enabled - clicking video from content -  it shows video in lightbox - but clicking don't play it - it ok to just show video as just fisrt frame if it is not possible to play it properly in lightbox - but than play button need to be disabled at least some how )
+
+</description>
+      <pubDate>Mon, 01 Sep 2014 20:33:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8373190</link>
+    </item>
+    <item>
+      <title>Axis-2 spinner</title>
+      <description>Hi ,
+
+looks like one small bug , spinner is not disappearing on second image and further in essay , i.e. images are loaded - but spinner is visible too </description>
+      <pubDate>Wed, 20 Aug 2014 19:18:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8373029</link>
+    </item>
+    <item>
+      <title>albums not displaying on albums page</title>
+      <description>Hi
+It seems as though after a recent koken update; my albums that I have set up in Library are not displaying when clicking on the albums page.  It says "No albums; please create albums in Library"
+
+Any quick fixes?
+Even if I create another test album; it doesn't display
+Am I missing something?
+
+Kind Regards
+</description>
+      <pubDate>Wed, 27 Aug 2014 20:58:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8372970</link>
+    </item>
+    <item>
+      <title>Date translate</title>
+      <description>How can I change the language of the dates displayed on the site? When I edit the file ./system/language/english/calendar_lang.php, everything is still in English. I try clean cache.</description>
+      <pubDate>Thu, 21 Aug 2014 19:31:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8372704</link>
+    </item>
+    <item>
+      <title>Pulse slideshow to load first</title>
+      <description>Hello,
+
+We are designing our own theme. We have a Album-page with first a Pulse slideshow of the album (covering most of the screen) and beneath that the thumbs of the same album (of course) for a quick overview. However the thumbs (that are mostly not visible) load first. When loading of all thumbs (often 100+) has completed  the Pulse slideshow starts to initialize. So one is looking to a black screen often for 10s or more. And when one scrolls down to see if anything is happening we get an '500 Internal Server Error'. Have a look here (not yet public):
+http://www.alphenphoto.nl/koken/index.php?/categories/psvjeugd/albums/psv-b1-alphense-boys-b1-5-1/
+
+Our questions:
+- We have tried hard (f.i. 'lazy loading' the thumbs giving us the same '500 Internal Server Error' on scrolling down) but can not get the Pulse slideshow to load first - can someone help us out with that?
+- How can we avoid the '500 Internal Server Error' without having to give up the Pulse slideshow on the same page (we suspect that might cause the problem)?
+
+As always, thanks for the good work, really appreciate it.
+
+Kind regards,
+Ron Hoenson
+alphenphoto.nl</description>
+      <pubDate>Thu, 21 Aug 2014 20:54:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8372045</link>
+    </item>
+    <item>
+      <title>Dynamic shifting of the whole Boulevard theme?</title>
+      <description>Hi!
+I'm using Boulevard NOT for what it was intended, but it works fine for me although I am OF COURSE stuck with one little problem... 
+I'd like the whole thing to be dynamically centered in the browser, but I can't find how I could do it.
+Any HTML / CSS geniuses out there that can help me? 
+
+For a peak at what I mean, go check my website and you'll undertand...
+
+http://www.jscote.com
+
+Thanks a lot!
+
+Cheers!
+
+JS
+
+</description>
+      <pubDate>Thu, 21 Aug 2014 20:54:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371971</link>
+    </item>
+    <item>
+      <title>Plugins: "require file.php" not allowed?</title>
+      <description>Hi
+
+i want to integrate the "commentics"-Comment-System into Koken. I want use the "disqus"-Plugin from Koken as basis.
+
+I don't need Setup ... so i change  $this-&gt;require_setup = true; ... to false.
+
+I need only "$this-&gt;register_hook('discussion', 'render_div');" ... (in my theme i activated disqus-comments)
+
+In function render_div()
+
+		$cmtx_identifier = '1';
+		$cmtx_reference = 'Page One';
+		$cmtx_path = '/apps/koken/commentics/upload/'; 
+		require $cmtx_path . 'includes/commentics.php';
+		
+path are correct
+
+I think "require" is forbidden by Koken?
+
+When I open an content-site: parsing stopped at this 
+
+Change require to include =&gt; parsing is correct, but NO content in kdiscuss-DIV.
+
+Commentics need to run an session_start(); in Line 1 of my php-code ... insert this into site.php (Line 1) - don't work.
+
+Is there a way to run this code in an koken-plugin?
+
+For testing I use "require '/robots.txt';" ... don't work...
+
+Thanks</description>
+      <pubDate>Tue, 19 Aug 2014 13:16:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371962</link>
+    </item>
+    <item>
+      <title>using pulse</title>
+      <description>probably very silly, yet so far i have been unable to find pulse or slideshow controls anywhere, using chastain and basic....
+I've read advanced pulse details yet cannot sees the very basic button..
+old eyes 
+help
+ta
+haha
+s</description>
+      <pubDate>Thu, 28 Aug 2014 18:56:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371946</link>
+    </item>
+    <item>
+      <title>can't upload</title>
+      <description>My album won't upload from Lightroom ---
+
+It is coming up with this error -
+
+Can't Update this collection.
+An internal error has occurred: AgExportSession:recordRemoteCollectionId: remote ID must be a number or string
+
+Any Idea what is wrong?</description>
+      <pubDate>Sat, 22 Nov 2014 11:31:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371915</link>
+    </item>
+    <item>
+      <title>update token console</title>
+      <description>i want to use the vimeo plug-in.
+i need to update from 0.17.2 to Koken 0.17.3.
+how can i do that? i can`t see any available updates.</description>
+      <pubDate>Wed, 20 Aug 2014 20:45:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371771</link>
+    </item>
+    <item>
+      <title>Galery - Different size, unequal grid</title>
+      <description>Hello
+
+I want all the pictures are the same size, and a uniform grid is created.
+
+See screenshot: http://666kb.com/i/cr2mpe96tqa7wx6kk.jpg 
+
+I use the Axis 2 Theme.
+
+Can you help me please? Thank you!</description>
+      <pubDate>Sat, 23 Aug 2014 21:24:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371457</link>
+    </item>
+    <item>
+      <title>lightroom upload to koken hangs</title>
+      <description>Hi,
+when trying to upload a photo to my woken installation, the upload ends without result and without error message.
+In LR the images remain as to be published.
+When I create a new album with 1 photo and try to upload that, the album appears on my web site but remains empty.
+
+I am using 
+     LR 5.6
+     koken.lrplugin 1.2.5
+     koken 0.17.3  
+Any ideas?
+Thanks, Dietmar</description>
+      <pubDate>Wed, 20 Aug 2014 19:51:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8371145</link>
+    </item>
+    <item>
+      <title>Thumbnail size in Elementary  Theme</title>
+      <description>Sorry about probably my poor English...
+
+I just want to make sure that I can't modify the thumbnail size in the album page : I 've seen that I can change the number of thumbnails displayed (3, 6, 18, etc.) but I haven't seen any tool to change their size.
+
+Is that the case ?
+THANK you for your answer</description>
+      <pubDate>Wed, 20 Aug 2014 19:44:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8370880</link>
+    </item>
+    <item>
+      <title>Error 404 when trying to access my admin page</title>
+      <description>I'm trying to do some administrative work on my website at wobbay.com/koken but when I go to wobbay.com/koken/admin/ it takes me to my website title and header but then gives me an error 404 on the same page.  
+
+Any ideas on what could be happening here?</description>
+      <pubDate>Tue, 19 Aug 2014 04:11:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8370391</link>
+    </item>
+    <item>
+      <title>Scrolling images in Elementary</title>
+      <description>I am using the Elementary theme.  I forget what I did to create the page, but one page on my site has large images that scroll vertically with the mouse wheel.  I like this layout.  My other pages all have grids of thumbnails.  In the right side control panels, the "template" section says no template data for that page.  All the other pages have both theme and template data.
+
+How can I make more pages with large images that scroll, either vertically or horizontally?  Thanks.</description>
+      <pubDate>Wed, 20 Aug 2014 20:24:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8369996</link>
+    </item>
+    <item>
+      <title>problem downloading koken</title>
+      <description>what do i do if download says error  and will not open.My computer is windows 2008 but doesn't have PFP in it.</description>
+      <pubDate>Wed, 20 Aug 2014 12:02:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8369249</link>
+    </item>
+    <item>
+      <title>Update never completing</title>
+      <description>Hi,
+
+My admin panel is inaccessible due the latest update never completing. No error is returned.
+I think it might have occurred because the update firstly asked me to set all folders permission to 777, and WHILE filezilla was setting the permissions, koken retried to update.
+
+Any ideas?
+Denis.</description>
+      <pubDate>Mon, 18 Aug 2014 20:33:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8368931</link>
+    </item>
+    <item>
+      <title>fresh install to stop 777 issues</title>
+      <description>would a clean install stop the 777 probs every update since 14.0 ?
+i have two installs on the same host (streamline.net) old site updates fine, new one won't so i move the files over via ftp.
+
+if i do a clean install and then ftp the storage folders and database back, would it work ?
+
+i dont think i can point to the current database during setup can i ?
+
+thanks</description>
+      <pubDate>Wed, 20 Aug 2014 12:00:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8368770</link>
+    </item>
+    <item>
+      <title>More 0.17.2 problems - internal server error on cached images</title>
+      <description>My Koken install was working dandy until the update to 0.17.2. The first issue I noticed was the content.tags lens tag is now blank, which in this case is serious as we're using tags to define the display of different types of images.
+
+Another problem has arisen however, wherein certain images are throwing a 500 Internal Server Error in Lightbox view. It's unclear why some do and some don't, but when I examine the cache folder via FTP I can see that the problem images have a suffix of '.lock'.
+
+This wasn't happening before - and we need to get the site back in action ASAP. Can you help? </description>
+      <pubDate>Mon, 18 Aug 2014 20:25:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8368532</link>
+    </item>
+    <item>
+      <title>importing video link? ++</title>
+      <description>Hi.
+If I could ask 2 questions please:
+
+1) Im trying to import a vimeo link and i keep being told its an incorrect url for import.
+Link i am trying to import:
+http://vimeo.com/72562365
+
+my website
+www.kimthome.com/koken
+
+2) Is there a way of centering my text content under "ABOUT" (from pages)
+
+All help is appreciated!
+
+Kim
+</description>
+      <pubDate>Wed, 20 Aug 2014 12:00:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8368295</link>
+    </item>
+    <item>
+      <title>[Request] Option for open in new Window for Google+ and Twitter-Site</title>
+      <description>Hi,
+
+for the Link to my Facebook-Profile i can set the option "Open in new browser window". Why not for G+ and Twitter?
+
+Best regards
+
+Uwe</description>
+      <pubDate>Wed, 20 Aug 2014 11:42:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8367950</link>
+    </item>
+    <item>
+      <title>password-protected albums</title>
+      <description>Hello everybody,
+
+a week ago I installed Koken the first time and I'm very pleased about the functionality and performance so far. 
+
+But now I was asked by a customer to, if it is possible to created a password-protected album at my site with the pics of his order.
+
+Is this currently possible with Koken? And if not, will that be possible in the future?
+
+Best regards 
+
+René</description>
+      <pubDate>Sat, 23 Aug 2014 21:22:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8367658</link>
+    </item>
+    <item>
+      <title>Watermark Plugin - Out of Proportion</title>
+      <description>Hi Koken Team,
+
+I just bought your Watermark plugin for 35$. But I like it unfortunately is still the same "bug" as in April :-(
+
+I think the solution surface a good idea. Would you include this ?!
+http://help.koken.me/customer/portal/questions/6332472-watermark-plugin-out-of-proportion
+
+Thanks</description>
+      <pubDate>Wed, 20 Aug 2014 11:40:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8367129</link>
+    </item>
+    <item>
+      <title>Instagram Plugin doesn't seem to work</title>
+      <description>I just bought the Instragram import Plugin and tried to import some of my Photos. I tried both ways, selecting the images visually for import and providing individual URLs. But both ways don't work at all.
+For the visual selection and import Koken just sits there and spins forever pretending to import something. But it never does actually. For single URLs I get an exclamation mark message with "true". But no image is actually imported.
+
+Any idea where I can look for the cause of this one?</description>
+      <pubDate>Tue, 19 Aug 2014 13:42:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8367007</link>
+    </item>
+    <item>
+      <title>Koken Site Blown Up after Update on 0.17.2</title>
+      <description>Hi Team,
+
+During update to 0.17.2  I recieved the error for none sufficient permissions.
+Afterwards the whole installation seems to be messed up.
+Not possible to access the site anymore.
+
+Support is much appreciated! FTP access can be given via Email.
+
+Thanks,
+
+Josef</description>
+      <pubDate>Mon, 18 Aug 2014 17:54:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8366915</link>
+    </item>
+    <item>
+      <title>Wrong linking in Disqus comments</title>
+      <description>Hi,
+
+I'm not sure if this is related to Koken or Disqus or both but comments that appear under the page as "Also on yourwebsite.url" may have some wrong url address.
+
+for example http://nitrogliserin.net/essays/2014/06/italy-the-red-passion/
+here under the page you'll see two comments.
+
+Left comment is linking to koken.nitrogliserin.net which is not a valid url and after you click it it won't open. 
+
+Right comment has a valid url and can be opened.
+
+I don't know where it does get this wrong linking.
+
+I'll be glad you can support me on this.
+
+Regards,</description>
+      <pubDate>Tue, 19 Aug 2014 13:44:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8366585</link>
+    </item>
+    <item>
+      <title>deleting the date in the text page</title>
+      <description>Can i eliminate the modify date in the text page?
+
+as seen here:
+http://www.art-director.co.il/--5/</description>
+      <pubDate>Wed, 20 Aug 2014 13:13:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8364707</link>
+    </item>
+    <item>
+      <title>Beta</title>
+      <description>Hello,
+
+Softaculous does not yet support Koke, because they mention it's still in beta, is it true ?
+Softaculous discussion takes place here where they mention the above http://www.softaculous.com/board/index.php?tid=4267&amp;title=Koken</description>
+      <pubDate>Mon, 18 Aug 2014 19:43:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8363236</link>
+    </item>
+    <item>
+      <title>UniqueID issues and updates</title>
+      <description>Hello Koken Team,
+
+with every update I need to merge my installation with your update because you haven't fixed all unique id occurences (e.g. in Email.php, Upload.php, ...). 
+
+As you may remember there is a problem with the unique id in IIS where you need to extend the randomizer. It would be great if I could upgrade my installation without any merge operations afterwards.
+
+Thank you!
+
+kind regards
+Marco</description>
+      <pubDate>Mon, 18 Aug 2014 19:48:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8363154</link>
+    </item>
+    <item>
+      <title>suggested improvements to lightbox </title>
+      <description>I'm using the Regale 2 theme. I've search the web and discussions on koken.me for any advice on creating a link from the currently displaying lightbox image to the actual image content page, but I can't find anything. I'd like visitors to be able to go directly from an image they see in the lightbox to the webpage for that image so they can comment or share if they so desire. This is probably possible by getting into the core of Koken, but I'm hoping to work around it with javascript so I can continue to receive future upgrades. My first suggestion would be to add this functionality.
+
+Less import, I've also found there to be no way to configure speed or transitions for lightbox slideshows, only for the splash page sildeshow or slideshows embedded in essays. Is that something you could add? I'm not liking how abruptly the images transition in the lightbox.
+
+Lastly, I've read that it's not possible to create a lightbox slideshow for a specific album. I just put up my website and so far it doesn't have a lot of content, but I'll definitely want the visitors to be able to peruse, in a slideshow, only the contents of the album they are in. Can that feature be added in the future or do you have a suggestion for a workaround?
+
+Thank you.</description>
+      <pubDate>Wed, 20 Aug 2014 19:26:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8361540</link>
+    </item>
+    <item>
+      <title>Pulse window has no options</title>
+      <description>Whenever I go to Site and click the icon to get the dropdown list with options for Pulse appear, it's always empty. No settings at all. How can I make the options appear or set the transition type through code instead?</description>
+      <pubDate>Wed, 20 Aug 2014 11:35:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/8359835</link>
+    </item>
+  </channel>
+</rss>

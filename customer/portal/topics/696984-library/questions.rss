@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Library</title>
+    <link>http://help.koken.me/customer/portal/topics/696984-library</link>
+    <description>Library articles</description>
+    <item>
+      <title>EXIF orientation tag not used</title>
+      <description>Hi.
+
+Yes ... I searched this site &amp; Google, but after years of KOKEN development, I believe it is strange that the automatic EXIF image rotation based on orientagtion tag is not yet included in KOKEN. I have to manually rotate every single picture from landscape to portrait.
+
+Do I really have to rotate manually or did I miss something?
+
+Many thanks!</description>
+      <pubDate>Sun, 06 Sep 2015 22:57:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14307497</link>
+    </item>
+    <item>
+      <title>Can't Sort Manually in my Public Folder</title>
+      <description>Hello Koken, I am having a heck of a time sorting the Albums in my Public Collection. It just won't refresh the thumbnails of the albums and when I try to drag one album in front of another it just sits there and doesn't do anything. I've cleared the cache multiple times, but just can't get it to work. Any help would be great. Thanks 
+Justin</description>
+      <pubDate>Thu, 03 Sep 2015 15:47:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14299593</link>
+    </item>
+    <item>
+      <title>How to delete single items</title>
+      <description>Yes this is my question: How can I delete uploaded pics?</description>
+      <pubDate>Tue, 25 Aug 2015 11:54:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14257399</link>
+    </item>
+    <item>
+      <title>No images showing on Azure</title>
+      <description>Hi
+
+I am really liking this product, is exactly what I've been looking for.
+I have installed on Azure and I see none of the images (both system and the ones I upload)  are rendering client side: I've tested in IE9 to Edge, and Chrome.
+
+Installation info: 
+IIS8.0 on Azure Cloud
+PHP 5.4.42
+MySQL 5.5.42
+OS Azure
+Image Processer  GD Bundled 2.1.0 compatible
+Token (latest version from your download site)
+
+what I've tried:  (from what articles I have found so far)
+.Clearing Image Cache
+.Clearing System Cache
+.Cleared Folder  /Storage/Cache/Api
+.Could not find /Storage/cache/site
+.Checked rewrite_check (setting is set to off) (ok I did try both even though IIS rewrite is not supported .according to what I have read)
+.I noticed that in the /Storage/cache folder there is no 000 folder structure as mentioned in a few posts, not sure if that helps.
+.Checked App folders (both Koken and the admin Folder) in settings and it looks correct.
+
+when I click Album I just get the rotating circles, when I go into an album I get no images, when in the admin console I see the images are also not rendering, but I do get the image error icon. 
+
+
+Now I am at a loss, any advice will be most welcome.
+
+Many Thanks
+Ruari
+
+
+</description>
+      <pubDate>Tue, 01 Sep 2015 12:38:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13321005</link>
+    </item>
+    <item>
+      <title>How to write an accounting essay with the help of custom essay writing service?</title>
+      <description>Writing a good essay is all about communicating your ideas clearly.Custom essay writing services providing in a wide variety of activities besides preparing management financial statements and transactions of business recording quality management and financial performance,tax strategy, and health care benefits management also.
+http://www.essayscouncil.com
+</description>
+      <pubDate>Sat, 01 Aug 2015 04:50:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13050153</link>
+    </item>
+    <item>
+      <title>after uploading pictures from lightroom successfully in koken the pictures will not be shown</title>
+      <description>Hello,
+
+the upload from lightroom was successfully. In Koken I can see that there was uploaded pictures but koken doesn't show me the pictures. The symbol for loading doesn't disappear so that the pictures will not be shown from koken.
+
+Thank you for your help!
+
+Regards
+Fred Wilhelms</description>
+      <pubDate>Fri, 31 Jul 2015 06:27:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13048472</link>
+    </item>
+    <item>
+      <title>SET COVER PICTURE</title>
+      <description>Hi,
+how can i decide which Picture is going to be my SET Coverpicture.
+Right now i have a random selection of Pictures in my SET COVER Window. But i dont know how to put a particular Picture in this window.
+
+Any Ideas?
+
+Cheers
+Ersin</description>
+      <pubDate>Sun, 16 Aug 2015 14:50:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13045426</link>
+    </item>
+    <item>
+      <title>Folder cache/api has over 15000 files</title>
+      <description>Hi 
+I use koken for half a year and it works perfect for me.
+
+There is only a small problem with the folder cache/api. The folder holds over 15000 Files and 800MB.
+
+Clearing the system und file cache has no effect.
+
+So i want to delete the folder with  a ftp-client, but I always get the message that I have no rights to do this.
+
+Thank you for helping
+
+Michael</description>
+      <pubDate>Thu, 30 Jul 2015 13:22:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13042953</link>
+    </item>
+    <item>
+      <title>tiff, raw, an dng</title>
+      <description>is it  possible upload tiff, raw, DNG images?
+
+even in a webhost, or local desktop
+
+thanks
+
+sorry for my inglish
+
+João Moura</description>
+      <pubDate>Sun, 26 Jul 2015 15:13:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12976176</link>
+    </item>
+    <item>
+      <title>File Menu with different Albums </title>
+      <description>I am wondering f there is a possibility to have a menu with different image galleries/albums.
+E.g. 
+Menu "Portfolio" includes Album "Landscape", "Portrait", "Macro"
+Menu "Projects" includes Album "Faces", "Trees"
+
+How can this realized?
+
+Alex
+</description>
+      <pubDate>Sun, 26 Jul 2015 15:15:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12885726</link>
+    </item>
+    <item>
+      <title>All content empty after moving</title>
+      <description>Hi,
+
+I decided to move my Koken site to another server (Nginx to Apache) and another domain name. I move files and database and everything is working fine except All content in admin. I have photos in Last updates, Favorites... but not in Content. Example : http://bertrandsoulier.photo/index.php?/content/
+
+I have the same problem in public site. I cleared caches (images and api folder). I uploaded 2 new photos without any problem. I can see them in Last updates.
+
+Thanks for your help
+
+</description>
+      <pubDate>Tue, 23 Jun 2015 21:03:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12869138</link>
+    </item>
+    <item>
+      <title>Image Library Export</title>
+      <description>Hi there,
+
+I have the need to export Images from your Library to another CMS System.
+
+Is there a recommended way to do that?
+
+Best,
+
+Christian Haase</description>
+      <pubDate>Mon, 22 Jun 2015 20:03:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12861542</link>
+    </item>
+    <item>
+      <title>Sorting order for private albums</title>
+      <description>Hi,
+
+on my site, I have both, public and private albums. Whereas I am able to sort the public albums by simply drag&amp;drop, this is not possible for private albums. The option to change the sorting order (lower left) is grayed out for private albums but changeable for the public ones.
+
+What am I missing here?</description>
+      <pubDate>Wed, 17 Jun 2015 18:50:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12782102</link>
+    </item>
+    <item>
+      <title>Autoimport from folder</title>
+      <description>Hi,
+
+Is there any way Koken can autoimport images to Library from a folder automatically? Let's say I drop some images on /users/pictures/, can Koken "watch" this folder and autoimport picture? Thank you</description>
+      <pubDate>Mon, 10 Aug 2015 14:51:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12782055</link>
+    </item>
+    <item>
+      <title>Deleted images still in originals</title>
+      <description>Using LR plugin (1.2.10 @ koken 0.21.2). Found that originals folder have lots of old deleted images in its subfolders.
+
+And there lots of folders that have that have only .jpg.icc files.
+
+What are those files?
+
+Cleaning tool or something would be very nice.  </description>
+      <pubDate>Tue, 02 Jun 2015 05:27:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12764568</link>
+    </item>
+    <item>
+      <title>Vertical In Full Size ?</title>
+      <description>Hey there.
+
+My website is www.deni-dedic.com and the issue I have is that my vertical photographs are resized down when viewed on a desktop which makes them (imo) look horrible compared to the original.
+
+The usual height/width I upload is 900x600 which I also want it displayed as, sadly, my website displays it as about 640x427 which looks horrible..
+
+I have taken a look at http://help.koken.me/customer/portal/articles/828690-lens-tags#kokenimg but it is too complicated for me, to be honest..
+
+What I want is that koken doesn't resize my images, as I upload horizontal ones and vertical ones the same size all the time. So I will do job of resizing. Don't want more than that.
+
+Really hope someone can help me out.</description>
+      <pubDate>Wed, 03 Jun 2015 10:36:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12749232</link>
+    </item>
+    <item>
+      <title>exporting library</title>
+      <description>Is there anyway to export my entire library or copy the files to a new koken installation?</description>
+      <pubDate>Fri, 29 May 2015 11:17:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12745187</link>
+    </item>
+    <item>
+      <title>can't insert to library animated gif</title>
+      <description>I actually can insert it but it's not animated anymore, it shows just first frame, can you please guide me how to have a moving gif on my web?
+
+thanks!
+laura
+
+</description>
+      <pubDate>Wed, 27 May 2015 11:23:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12737409</link>
+    </item>
+    <item>
+      <title>How to delete older files in the originals folder?</title>
+      <description>Hi,
+
+I am using Lightroom to publish and sync my photos with Koken. When my server storage got exhausted, I decided to re-publish all of them in lower resolution. So first I flagged all of them to be unpublished. Which worked good. The photos were gone from the library and the trash can was empty.  
+
+But when I go to my originals folder, I still find a lot of (all?) older versions of my photos there. 
+Hence, a lot of storage is still occupied unnecessarily.
+
+How can I find and delete files, that are no longer in usage? Is there a way?
+Or shall I better delete all of them and re-publish them completely again?
+
+Thanks for any clue!
+
+Best,
+Frank</description>
+      <pubDate>Thu, 28 May 2015 10:38:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12725717</link>
+    </item>
+    <item>
+      <title>Cropping thumbnails</title>
+      <description>Hi, I typically add a border in lightroom on export. Is it possible to crop the thumbnails in Koken to exclude the border?</description>
+      <pubDate>Tue, 19 May 2015 09:58:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12656199</link>
+    </item>
+    <item>
+      <title>Library issue</title>
+      <description>Hi, 
+
+I signed into my Koken account to upload new pictures, however when I click on Library. All I see is black and none of my content.
+I updated my version thinking it would fix it, but no luck.
+
+Please help!
+
+Manda</description>
+      <pubDate>Fri, 15 May 2015 21:25:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12188383</link>
+    </item>
+    <item>
+      <title>black sheet after installing</title>
+      <description>Sorry for my English/ I have installed Koken on my site but i haven't seen the Library only black sheet...what should I do?</description>
+      <pubDate>Mon, 18 May 2015 17:28:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12042741</link>
+    </item>
+    <item>
+      <title>Publishing issues - Sets/Albums/Pictures not showing</title>
+      <description>Hello,
+I'm new to Koken, so please be patient.. 
+1. I created two SETs in the library and both contain a couple of albums. All of these are set to PUBLIC. Still in frontend Koken only shows one album per set. 
+2. This may be related to 1: In the library, when I look at my albums, there are three albums per set marked as "featured" (with the little star in the bottom left corner) but only one (the one that is showing in frontend) shows the right number of pictures it contains (in the upper right corner), the others are showing zero. Every pictures visibility is set to "public". 
+
+I'm deeply irritated by this. What am I doing wrong here?</description>
+      <pubDate>Sat, 09 May 2015 10:28:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11947752</link>
+    </item>
+    <item>
+      <title>Photos taking forever to load</title>
+      <description>Hello, I currently have a wordpress site and saw someone in one of my phootgraphy groups talking about koken. I am a web designer and thought this might be too good to be true. So I just installed it in a seperate folder on my site.
+
+I am trying to either upload or export from lightroom and the photos are taking forever to come in. I am just getting a spinning icon and cannot see the images. 
+
+The images are at 80% quality and 2048 long edge so they are not extremely large.
+
+Any help would be appreciated. I dont want to give up on this before I even had the chance to try it.
+
+Mike</description>
+      <pubDate>Tue, 05 May 2015 18:59:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11696881</link>
+    </item>
+    <item>
+      <title>Export all images in one album</title>
+      <description>I organized and sorted all my images in Koken albums. The source images are inside Lightroom but badly organized and sorted. Now I wonder if I could export all images in one Koken album to create a set of images for viewing on a photoframe or smartphone photoviewer.
+
+The folder structure in storage/originals is all over the place...
+
+A shell script, python script maybe???</description>
+      <pubDate>Thu, 07 May 2015 15:49:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11684374</link>
+    </item>
+    <item>
+      <title>Library: thumbnails take forever to load since SSL and Password Protect</title>
+      <description>Thumbnails in private albums (organized in sets) take extremely (!) long to load in the library. Since i haven't experienced that before, i was thinking about what had changed on the system, and there a two things:
+
+1) I recently switched to SSL. Is it possible that Koken has problems with SSL?
+2) I began to use the Password Protect plugin and set up several sets with private albums. Maybe that plugin is causing that extrem delay?
+
+At the moment the application is unusable for me. I can provide admin access to the Koken team if needed.</description>
+      <pubDate>Fri, 01 May 2015 19:26:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11684063</link>
+    </item>
+    <item>
+      <title>Lightroom CC doesn't publish</title>
+      <description>After the installation of Lightroom CC new pictures do not appear after "Publish". There are no error messages or any other indication that something is wrong. The activity bar shows converting and uploading is taking place. Is this a bug in the new version of Lightroom?</description>
+      <pubDate>Mon, 27 Apr 2015 16:08:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11660185</link>
+    </item>
+    <item>
+      <title>Lightbox reveals unlisted content</title>
+      <description>I have unlisted content in a public collection. The unlisted images have been placed last in the collection using the admin interface. The pictures are not listed when I view the album on my site. However, if I go to the last picture using the lightbox, I can then go to the next picture in the collection. The counter will then say "21 of 20 " and will display the unlisted content. I'm using Regale 2.
+Not a very pleasant bug.</description>
+      <pubDate>Wed, 22 Apr 2015 19:53:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11653342</link>
+    </item>
+    <item>
+      <title>Cover Regale 2</title>
+      <description>Hi,
+
+In your example site in regale 2 theme, in page http://regale.koken.me/collections/high-line/, the cover have a "Read More Link", a link to essays.
+
+How can I create a link on the album cover?
+
+Thank you.
+
+
+
+</description>
+      <pubDate>Mon, 10 Aug 2015 15:00:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11652186</link>
+    </item>
+    <item>
+      <title>Video thumbnails without FFmpeg anytime soon?</title>
+      <description>Hey there Koken,
+
+Is there a plan to get video thumbnails without FFmpeg anytime soon?  I am sure I'm not the only one who would love to have videos show thumbnails without having to switch servers.
+
+Thanks for any information!</description>
+      <pubDate>Mon, 10 Aug 2015 14:56:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11651785</link>
+    </item>
+    <item>
+      <title>Export photos of the library on the computer</title>
+      <description>Hello,
+
+I would like to know if it is possible to  export all the photos I took in library on my computer. And if it is, how I can do that ?
+
+Thank you ! </description>
+      <pubDate>Fri, 07 Aug 2015 01:20:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11650783</link>
+    </item>
+    <item>
+      <title>Text Under Images</title>
+      <description>I would prefer that my images have no text or dates underneath them. How do I edit this information out?
+
+Thanks!
+Deanna</description>
+      <pubDate>Mon, 13 Apr 2015 22:00:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11602452</link>
+    </item>
+    <item>
+      <title>Content does not show completley</title>
+      <description>Hello,
+
+something weired is happening to my koken installation. I’ve got some 130 pics (uploaded in september 2014) in a public album, but these pics don’t show in the library/content. No filters set. They also don’t show on the website but one. (see fotografie.bennemanndesign.com:golfturnier 201)
+As far as I can tell from looking into ftp account, they’re all there. But but my koken doesn’t seem to find them correctly. Any idea hoiw to slve that?</description>
+      <pubDate>Tue, 02 Jun 2015 00:37:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11588423</link>
+    </item>
+    <item>
+      <title>No Content in my library</title>
+      <description>Hi, 
+
+Just the other day I uploaded new photos to my library with no issues, Today I have gone back up to update some things and do the new Contact page but none of my content will load in my library, If i goto my site all my photos show up but they won't show in my library. Even if i go down to Collections my images will show up, just not in content. 
+
+I have tried to empty the trash and cleared the cache but no changes, even logged out and re logged back in.
+
+nothing has worked. please help!
+
+thanks
+
+Andrew West</description>
+      <pubDate>Mon, 20 Apr 2015 03:23:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11585202</link>
+    </item>
+    <item>
+      <title>Failed to display images</title>
+      <description>Hello Koken Team,
+
+Thanks for your awesome product, I love it !
+I'm wrinting you tonight, I'm having trouble with image loading. I upload to Koken, it's fine but I just get a spinning circle after that.
+
+I have tried clearing all the caches and I saw that some same questions are with no anwser on the topics.
+
+Can you tell me more about the problem please ? 
+Thank you in advance, have a nice day !
+
+Arnaud</description>
+      <pubDate>Tue, 31 Mar 2015 20:00:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11576708</link>
+    </item>
+    <item>
+      <title>Images not loading</title>
+      <description>I am having trouble with image loading. I upload to koken fine but i just get a spinning circle after that. 
+
+I have tried clearing all the caches etc.
+
+Any ideas?</description>
+      <pubDate>Tue, 30 Jun 2015 08:34:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11562037</link>
+    </item>
+    <item>
+      <title>albums always have -# in the urls.</title>
+      <description>I have a few separate installs of koken for different websites.  On one of them I have the ability to edit the url of the albums, but on another install the edit option is missing.  What can I do to get the ability to edit the urls and remove the -# from the end of the names.</description>
+      <pubDate>Wed, 25 Mar 2015 03:02:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11555921</link>
+    </item>
+    <item>
+      <title>view geolocation</title>
+      <description>View geolocation in koken admin doesn't work (the small button top right which is visible in inspector). It defaults to http://myhost/koken/#
+
+If koken is using the geolocation in admin my guess is it would also be visible in the site. I can;t find any clues how to display the geolocation in the site.
+</description>
+      <pubDate>Fri, 03 Apr 2015 03:16:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11551931</link>
+    </item>
+    <item>
+      <title>Size of the Pictures</title>
+      <description>Hello,
+
+how can I fix the size of the Picture which ist shown in the browser ?
+
+For example hier on my site.
+
+http://juergenfriedrich.photography/albums/theater/
+
+Thank you</description>
+      <pubDate>Wed, 01 Apr 2015 02:13:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11528522</link>
+    </item>
+    <item>
+      <title>Thumbnail for Video</title>
+      <description>Hello,
+
+it is possible to have a thumbnail for my Video which i place in my essays?
+One question more: Why is the indication of the video on my iPad so bad? I mean not the playing movie, i mean the preview of the place where is my video. On the PC looks good (http://photo-schatz.de/essays/2015/03/meine-ersten-timelape/)
+
+Kind regards
+Dirk Schatz</description>
+      <pubDate>Thu, 19 Mar 2015 15:08:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11524893</link>
+    </item>
+    <item>
+      <title>Content not loading</title>
+      <description>Hello,
+
+I have the following issue:
+
+The part "Content" in the console keeps loading content but never display it. However, if I go to my albums (still in the console), I can see all the pictures but the pictures that are not in an album are not displaying on my website. (Example: I uploaded a logo in order to insert it on a page, this logo is not in any album but used to display on the "Content" console page, now it is not displaying on the console AND on the site.)
+
+I already cleared all caches and tried to change the image processing method but it didn't help.
+
+Thanks in advance for your support! :)</description>
+      <pubDate>Fri, 07 Aug 2015 01:18:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11523974</link>
+    </item>
+    <item>
+      <title>IPTC/metadata</title>
+      <description>When I import a certain file via lightroom plugin koken-inspector shows IPTC/metadata content in the  and  fields.
+
+Importing the same file via  the caption and title are empty.
+
+Any thoughts ?</description>
+      <pubDate>Fri, 20 Mar 2015 06:10:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11519177</link>
+    </item>
+    <item>
+      <title>Cover</title>
+      <description>the inspector does not show any cover of an album with 18 pics. I used the lightroom plugin to upload the files.
+
+</description>
+      <pubDate>Wed, 11 Mar 2015 17:11:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11507616</link>
+    </item>
+    <item>
+      <title>icon badge</title>
+      <description>What does the upper right album/set icon badge means ?</description>
+      <pubDate>Wed, 11 Mar 2015 15:12:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11506019</link>
+    </item>
+    <item>
+      <title>Set empty but where is my pics ?</title>
+      <description>I had uploaded few files ( 2 albums )  but koken say that set is empty
+
+why ?
+
+http://i186.photobucket.com/albums/x91/Hashka/ScreenShot%202015-03-06%20a%2017.19.39.png
+http://i186.photobucket.com/albums/x91/Hashka/ScreenShot%202015-03-06%20a%2017.19.49.png
+http://i186.photobucket.com/albums/x91/Hashka/ScreenShot%202015-03-06%20a%2017.19.58.png
+
+
+please help me to understand ( it's not the first time ) and i don't know why 
+
+thanks</description>
+      <pubDate>Fri, 06 Mar 2015 16:27:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11498792</link>
+    </item>
+    <item>
+      <title>Request</title>
+      <description>Hi All
+
+A client of mine using Koken has requested that the album summary field be as long as the album description field in the Koken admin system.
+
+Just wanted to pass it along.
+
+Many thanks for a great system.
+
+Regards
+Mike
+</description>
+      <pubDate>Tue, 03 Mar 2015 17:22:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11483045</link>
+    </item>
+    <item>
+      <title>Can't move photos to another album</title>
+      <description>Hi,
+
+I created 2 albums. One with all the photos in and one empty one to drag and drop my choice out of them in.  I selected photos and dragged them to the empty album and they were added. Not moved. This means all the photos are still all present in the original album and a "copy" is now in the smaller album too. Not ideal, but ok. But when I want to make changes to my small selection, I can only choose to trash the ones I don't want anymore, instead of moving them back to the original album. That sounds ok for the small album, but then they are deleted from the library so also from the original album. 
+
+Kind regards,
+Andy</description>
+      <pubDate>Thu, 26 Feb 2015 14:51:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11460076</link>
+    </item>
+    <item>
+      <title>medium.crop images take "fore ever" to load</title>
+      <description>Running the latest version of Koken and plugins, and since latest update the medium.crop images takes fore ever to load/be created! :/
+
+Is there any way that we can create this smaller versions of our images from inside the admin, since this is what first meets our visitors these needs to load fast.
+Bigger images as "large" and x-lagre is fine if they load slower since the visitor knows that big images thake time to load.</description>
+      <pubDate>Fri, 07 Aug 2015 01:22:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11451787</link>
+    </item>
+    <item>
+      <title>Suggestion: Download link for images</title>
+      <description>To day, if I'm right, the visitor will get a direct link to the image to download ex:
+www.sitename.com/storage/cache/images/000/xxx/some.image.name.jpg
+
+This looks a bit "tacky" and could also be a potential security threat...
+
+What about parsing the download link through some php, ex:
+ Download here
+?&gt; 
+
+This way the visitor will never see the true link to the image, and the image will be "forced" to be downloaded instead of as to day, where he/she have to right click the images to download, and then hitting the back button to continue browsing the site.
+
+Just a thought
+
+Best regards Bjarne</description>
+      <pubDate>Thu, 19 Feb 2015 23:52:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11424156</link>
+    </item>
+    <item>
+      <title>Image names</title>
+      <description>Hi!
+
+I had a question regarding modifying image names within the library. I have a couple of set I've put in my library, and I want to keep the photos consistent with the album. Though, some photos have 'EDIT' on some of their names, throwing off the consistency.
+
+ I use elementary, so whenever someone goes on that album, the name of the image shows up. Is there a way to disable a visitor from viewing the name of the photo, or changing the name of the photo file within the library instead of deleting the photo and re-uploading?
+
+Thank you!</description>
+      <pubDate>Thu, 19 Feb 2015 08:55:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11420251</link>
+    </item>
+    <item>
+      <title>site presentation</title>
+      <description>hi, 
+I need some help.. i managed the installation and working on my library.. did my albums ans sets presentation in order.. so far so good, but when i go on the "site view" it's totally different from my view on "library". i don't see my settings anymore but only "ALBUMS" and "CONTENTS" which i don't want to see..
+
+could you give me some explanations with that.. that would be great. Sorry for my english.
+thanks already
+christine</description>
+      <pubDate>Wed, 18 Feb 2015 12:51:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11415810</link>
+    </item>
+    <item>
+      <title>Description update</title>
+      <description>Hi,
+
+When I paste my text in "description" for an album, it doesn't save it.
+I can't see any description, nowhere in my website. I tried from my cell phone, my Ipad, and my laptop.
+Thanks for your answer,
+
+Fred</description>
+      <pubDate>Tue, 17 Feb 2015 12:29:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11411525</link>
+    </item>
+    <item>
+      <title>how to assign photos from the library to the site?</title>
+      <description>Hi, 
+please can you tell how can I assign photos from the library to the site?
+thanks,
+aina</description>
+      <pubDate>Fri, 13 Feb 2015 16:31:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11395831</link>
+    </item>
+    <item>
+      <title>Same pictures / different albums</title>
+      <description>Is it possible to have same pictures in different albums? An example: a black &amp; white image of street life. I would like to have in an album named black &amp; white and in another album named street life.
+
+Thanks for your help.
+
+Peter</description>
+      <pubDate>Sun, 15 Feb 2015 15:22:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11391298</link>
+    </item>
+    <item>
+      <title>Full overview of all albums</title>
+      <description>Hi,
+I would like to know how to get a full overview of ALL albums on the viewers side?
+Meaning, I don't want a few albums on one page, click to page 2, 3 etc.
+I want all albums on one page. 
+
+Is there a way to set this?</description>
+      <pubDate>Sat, 07 Feb 2015 14:41:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11362056</link>
+    </item>
+    <item>
+      <title>Creating and Deleting items in the library does not work properly</title>
+      <description>I am using KOKEN 0.19.4 on a 64bit Windows 8.1 System with Internet Explorer 11.
+
+When I create or delete Albums or set or when I drag Images into an Album or into the trash, it SEEMS that nothing happens. Seems because the Album etc. is there, but it is not shown in the list on the left side of the Administrator Screen.
+
+When I close the Administration tool and Login again, it ist shown (or - in case of deletion - no longer shown). That applies to nearly every Action i take except uploading Images - the result of the Action is shown only after logging out and logging in again.
+
+As many People are using Koken (and i guess IE 11 also), this might be a Problem of my Installation. Could you give any hint where to look for the mistake ?
+
+Regards - Peter </description>
+      <pubDate>Mon, 02 Feb 2015 14:54:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11337450</link>
+    </item>
+    <item>
+      <title>Sort Order - Random</title>
+      <description>I would love to see a sort option in the library that randomizes the images. For a lot of my images the albums look much better with the images appearing randomly. Sorting by filename, date captured, date modified, and date uploaded often just result in the same sort order, especially if the album is from a single shooting session. 
+
+Please consider adding this function.
+
+Thanks.</description>
+      <pubDate>Tue, 27 Jan 2015 14:19:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11309080</link>
+    </item>
+    <item>
+      <title>album containing tagged images</title>
+      <description>Hi. 
+Is there a way to have an album containing images with certain tags? So it would show the images of other albums, but only if they have a certain tag?
+
+Bests
+Morten</description>
+      <pubDate>Mon, 26 Jan 2015 13:06:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11304446</link>
+    </item>
+    <item>
+      <title>Section "photos" does not load completely</title>
+      <description>Hey, the photos on my www.danadolata.de do not load completely since today. The upper part loads, but not the lower.
+
+And it is since today.
+
+There are 34 public photos in the Library, mostly lowres uplaodad, not all.
+
+In the private section there is much more.
+
+What could it be?
+
+</description>
+      <pubDate>Sat, 24 Jan 2015 13:27:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11261010</link>
+    </item>
+    <item>
+      <title>Photos not loading</title>
+      <description>How you get photos to load? I have uploaded a couple, but they always show a loading screen. I can download the file and it will show up, but online it will not.</description>
+      <pubDate>Mon, 19 Jan 2015 20:11:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/10688267</link>
+    </item>
+    <item>
+      <title>Moving files to another folder</title>
+      <description>Hi,
+
+I uploaded files to one folder then moved them to another and it now says 0 files in the folder when you go to the featured album in the library.
+
+is they a way to fix this or do i have to re upload them?
+
+Thank You</description>
+      <pubDate>Mon, 19 Jan 2015 03:19:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/10632695</link>
+    </item>
+    <item>
+      <title>albums, sets, confusing</title>
+      <description>I am confused by the albums and sets in terms of organising images into projects and commercial/non commercial work.
+Do individual projects go in albums, or in sets?
+Does commercial/non-commercial go in albums?
+
+I am confused.</description>
+      <pubDate>Wed, 14 Jan 2015 10:35:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/10364237</link>
+    </item>
+    <item>
+      <title>Set the URL of an unlisted site</title>
+      <description>Is there a way that I can have an unlisted page on my site, but set the URL myself? Rather than have a random URL automatically generated, could I choose my own in order to have something easier to remember?</description>
+      <pubDate>Tue, 13 Jan 2015 02:47:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/10026686</link>
+    </item>
+    <item>
+      <title>Image Properties</title>
+      <description>What does the use of the Title and the Caption fields in the Properties Area?</description>
+      <pubDate>Sat, 10 Jan 2015 06:47:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9931793</link>
+    </item>
+    <item>
+      <title>Grid view in albums</title>
+      <description>When viewing a album (in public) with +3 images, the first row only displays image 1+2 the following rows dispalys 3 images...
+Example:
+http://varoystrand.se/album/lost-found/
+
+Not a big deal, but it dosent look good in my eyes :(
+
+This happens in Safari, FF and Chrome
+
+I cant find any setting for this in the theme (Elementary)</description>
+      <pubDate>Wed, 07 Jan 2015 14:05:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9918379</link>
+    </item>
+    <item>
+      <title>lightroom error publishing images</title>
+      <description>Morning guys
+1st off, awesome product, loving it already and only beta 0.2. I've a problem with publishing to the library.
+I successfully published a series of images, then realised I needed to name the images, keyword them etc in LR.
+So I updated all the images in LR and tried to republish and I get this error 
+
+Can't update this  collection.
+
+An internal error has occured :[string
+"KokenExportServiceProvider.Lua"]:596: attempt to
+index upvalue 'contentObj' (a boolean value)
+
+
+Things I've tried
+1 - plain republish - 2 images were uploaded
+2 - deleted all the images - the same 2 images were uploaded
+3- deleted the publish folder/ collection in LR made a new one with a different name - 3 images were uploaded
+4- deleted the slideshow in the Koken Essay - the same 3 images were uploaded
+5- checked all the keywords, titles and captions for accented characters (á etc) - nothing odd
+6 - went to bed 
+7- trying again, but with no luck.
+
+I've also turned off my Avasti virus checker, I'm not downloading any torrents.
+
+8- I am no publishing one photograph at a time, to see which image is causing the problem, but this is not an ideal workaround.
+
+Any ideas, suggestions would be much appreciated.
+
+Thanks 
+
+Hamish</description>
+      <pubDate>Tue, 24 Feb 2015 16:26:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9894676</link>
+    </item>
+    <item>
+      <title>More EXIF/IPTC data please</title>
+      <description>I'd like it to display more EXIF/IPTC data on the right side of my pictures.
+
+For instance, I've gone through some lengths to fill out the Country, City, Province, Sublocation. For each and every one of my pictures. Being holiday pictures, this is quite important. None of these fields show.
+
+Koken needs to be able to display MUCH more fields, and which fields needs to be selectable. Preferably on a per-folder basis even. But let's start by adding those fields.</description>
+      <pubDate>Fri, 09 Jan 2015 13:12:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9889501</link>
+    </item>
+    <item>
+      <title>Breadcrumbs for a picture not working correctly</title>
+      <description>Let's say I have pictures organized like so:
+
+(root)
++ Japan (set)
++ + Aomori (album)
++ + + Picture 1
++ + + Picture 2
++ + + Picture 3
+
+When I go to the page for "Japan", the breadcrumbs is sort-of-correct:
+
+Home / Sets / Japan
+
+I'd leave the "Sets" part out, since that's not meaningful to a visitor. If anything, I'd call it "Albums", because that's what they really are. Anyway. Let's navigate to the page for "Aomori":
+
+Home / Albums / Aomori 
+
+Okay, that's completely wrong. Now my visitor won't know what album "Aomori" is in. It's supposed to be in "Japan", but it gets plonked into the root, so it seems.
+
+It should be this:
+
+Home / Japan / Aomori
+
+Or this:
+
+Home / Albums / Japan / Aomori.
+
+If you look at the way my pictures are organised (see above), this make complete sense. I can't fathom why a sub-album would need to look like it's in the root...
+
+Please fix? </description>
+      <pubDate>Thu, 08 Jan 2015 18:03:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9889473</link>
+    </item>
+    <item>
+      <title>Tags without the #</title>
+      <description>All my tags are prepended with a # sign. This is not twitter.
+
+How to remove it? I didn't put it there, so I don't expect my site to put them there magically without asking. Plus, it looks messy. A simple comma-separated list like this:
+
+landscape, green, town, mountains
+
+Looks much better than this mess:
+
+#landscape #green #town #mountains</description>
+      <pubDate>Thu, 01 Jan 2015 21:04:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9889212</link>
+    </item>
+    <item>
+      <title>Geolocation and how to display it</title>
+      <description>All my pictures are neatly geotagged. Or to put it less hipster-y: they all have proper GPS location in their IPTC data. Works great in phpGallery 3.0 that I'm currently running, but in Koken, all I get is a lousy link to google.
+
+How do I get it to display an embedded map with the picture as a pin?
+And how do I get an embedded map with pictures in an album or a set as cluster(s) and/or pins?</description>
+      <pubDate>Thu, 01 Jan 2015 21:01:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9889184</link>
+    </item>
+    <item>
+      <title>Delete picture from one collection only</title>
+      <description>I can't seem to figure out how to delete a picture from only one collection and not from another. I copied a bunch of pictures to another collection (I thought I was moving them, since my drag cursor indicated a "move") but now they're in both. Stuck.
+
+If I drag a picture to the trash (which is quite a drag, since the Del button doesn't work! Please fix!) the picture gets deleted from BOTH collections. I haven't found a way to delete a picture only from the collection I'm working in.</description>
+      <pubDate>Mon, 05 Jan 2015 08:24:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9888952</link>
+    </item>
+    <item>
+      <title>Why does EXIF / File-number appear?</title>
+      <description>Hey
+
+I don't like that the pictures I'm uploading seems to need a "title". The file name or EXIF shows up (underneath the picture). Is it possible to remove?</description>
+      <pubDate>Tue, 17 Feb 2015 19:05:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9860672</link>
+    </item>
+    <item>
+      <title>Show any unlisted content to logged-in users</title>
+      <description>Hello,
+I really like koken! But, to make it more practical for sharing my albums, I would love the following feature, I'd be willing to purchase it as a plugin:
+
+* have some kind of user-management for selected people
+* have a login-area on the site
+* once logged in, you can browse the site as normal, but:
+* you ALSO see all content marked as "unlisted". 
+
+thus, I could post photos from my trips, but mark personal pictures as unlisted. All my family could see the "full" album, but unregistered guests would see only the pictures meant for the general audience.</description>
+      <pubDate>Sun, 21 Dec 2014 12:51:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9859224</link>
+    </item>
+    <item>
+      <title>Albums don't display in some lists, do in others.</title>
+      <description>So take a look here:
+http://cl.ly/image/460u0w0G0E0R
+
+As you can see, there are multiple populated albums in my installation, but only one shows up on the lefthand navigation.  Even more aggravatingly, as these albums don't list there, they also don't show up in the source picker when I'm writing an essay.
+
+All of these albums were created via the Lightroom Plugin, if that's important.
+
+Any thoughts on how to resolve?
+
+Thanks.</description>
+      <pubDate>Thu, 18 Dec 2014 13:05:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9833015</link>
+    </item>
+    <item>
+      <title>v0.19 : Album title not displayed</title>
+      <description>Hi,
+Thanks for the new sort functionality. This will help a lot in organizing my content.
+
+I saw some small problem on how the collections / albums  are now displayed in the library:
+only the field relevant to the sort order is displayed. The title isn't anymore.
+Would be helpful to be able to see the title regardless of sorting.
+
+A second small problem: When changing an album title (in the top-right field), the content of the span holding the last modified date (or whatever the sort order is) is updated with the title.
+
+Thanks,
+
+Daniel</description>
+      <pubDate>Fri, 12 Dec 2014 15:02:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9807612</link>
+    </item>
+    <item>
+      <title>Instagram plug in</title>
+      <description>I just did the latest general updated for Axis and went to my Library to find my Instagram folder is missing? The images are on my site and I see them as the Last Import  but no longer is a folder for my Instagram imported images in my Library.  How should I correct this?
+Thanks,
+Kevin</description>
+      <pubDate>Wed, 10 Dec 2014 19:20:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9797015</link>
+    </item>
+    <item>
+      <title>I don't know what you guys did...</title>
+      <description>But my installation loads images so much faster in this most recent update! Great stuff!
+
+Thats it, just thanks!</description>
+      <pubDate>Wed, 10 Dec 2014 03:29:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9792984</link>
+    </item>
+    <item>
+      <title>axis2</title>
+      <description>featured content doesn't show anymore , after todays update ? featured albums is  ok  Thanks !</description>
+      <pubDate>Wed, 10 Dec 2014 12:46:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9792416</link>
+    </item>
+    <item>
+      <title>For some pictures not all IPTC data are extracted</title>
+      <description>Hi,
+
+today I have uploaded several pictures to a new album. For about half of the pictures all IPTC data were extracted correctly, but for some of the pictures only some IPTC fields were extracted, e.g. tags and contact were extracted but the most important fields title and contact were not extracted.
+I have checked the IPTC stores IPTC information and they seem to be correct. The only difference that I could see between the pictures was that the IPTC data were stored internally a different order.
+
+Any ideas? If you want I can send you some sample pictures.
+
+Regards
+Martin</description>
+      <pubDate>Sun, 07 Dec 2014 20:03:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9777129</link>
+    </item>
+    <item>
+      <title>Two instances of images in storage. How to avoid this?</title>
+      <description>While trying to find out why my video does not upload (apparently a PHP setting problem), I realized that images are stored in two instances in "storage/originals". I upload images via the publishing plugin in Lightroom. Originals are 20MP DNG files. I've set in plugin settings that images have to be scaled to 1080px on the short edge. One instance of an image lands on Koken under its original name in the resolution as expected according settings in the plugin. Another instance gets ".1600." attached to the end of the name and is the same image but scaled to 1600px on the long edge. I understand if this was a kind of cache, but it rather looks like a waste of space? Is this a bug or a feature? What should I set to use the server space more effectively?
+
+I use Koken Lightroom plugin 1.2.8 and the "System" section on my server is:
+
+PHP
+Version 5.5.18
+MySQL
+Version 5.5.40-log
+Server operating system
+SunOS
+Webserver software
+Apache/2.2.29 (Unix)
+Image processing
+ImageMagick 6.7.9
+FFmpeg
+Not installed
+Memory limit
+128MB
+Upload file size limit
+32MB
+EXIF/IPTC parsing
+Supported
+
+</description>
+      <pubDate>Wed, 03 Dec 2014 12:26:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9748842</link>
+    </item>
+    <item>
+      <title>Got a grey line right after pictures from content album -  yesterday upgraded V 0.18.3</title>
+      <description>Hi
+yesterday i've upgraded to V0.18.3 and it's look like something happened to the theme.
+Now i got a grey line right after the pictures from the content album and i don't have this grey line after pictures that i uploaded directly,
+
+how can i fix this problem? i don't want the grey line at all...
+i'm including a link to the page with this problem, 
+
+http://www.chayaruckin.com/pages/2d-projects/
+
+looking forward to your help
+
+Chaya Ruckin</description>
+      <pubDate>Wed, 10 Dec 2014 14:14:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9701899</link>
+    </item>
+    <item>
+      <title>Last Import is never emptied</title>
+      <description>I import my images from Lightroom using the plugin. This works a expected. But the content of Last Import under Library does not get emptied when a new import is made, instead the images of the new import get added to the ones from the previous import(s).
+I'm using version 0.18.3 of koken.</description>
+      <pubDate>Fri, 21 Nov 2014 16:44:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9645690</link>
+    </item>
+    <item>
+      <title>Diacritic in metadata problem when importing</title>
+      <description>Hello,
+
+In the metadata of my images/photos i use letters with diacritics (French one like "è é à"). The metadata are entered with GeoSetter.
+
+When importing my images/photo in Koken all letters with diacritics are lost and the rest of the word/sentence is ignored by Koken. For example, the title "Le R-100 à l'aéroport de Saint-Hubert - Août 1930" become "Le R-100 " in Koken. Beginning at "à" the rest of the phrase is ignore!
+
+For me it's a major problem since all my images/photos uses this king of metadata.
+
+What can bes done to solve the problem.
+
+Thanks
+
+Sylvain</description>
+      <pubDate>Mon, 17 Nov 2014 22:37:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9569366</link>
+    </item>
+    <item>
+      <title>Gzllery View</title>
+      <description> I had several set ( public and private )
+But since few week, i don't see albums in few set 
+
+Why about that ?
+
+How can i resolve it ?
+
+
+I'm on boulevard theme</description>
+      <pubDate>Mon, 08 Dec 2014 14:42:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9559740</link>
+    </item>
+    <item>
+      <title>Http error</title>
+      <description>Hello
+
+Everytime i try to update an photography ( jpeg), i've got an error : http error 
+to solve this i need to change the dimension of my picture, it's take me a long time
+I already check all the solution into this forum, but it change nothing
+Possible to have some help *,
+thank you for your feedback 
+</description>
+      <pubDate>Mon, 08 Dec 2014 20:07:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9554983</link>
+    </item>
+    <item>
+      <title>Lightroom plugin and sets</title>
+      <description>Hello, 
+
+My situation :
+ - I'm have a brand new Koken installation. 
+ - I configured the Lightroom plugin. 
+ - I can create an album from the Lightroom publish, and then publish photos there. It works OK
+
+But the I wanted to do this : 
+ - Create a set "Essays" in Lightroom Koken publish. 
+ - Add an album "2014-08-10" in this set, and put photos there
+ - When I clicked "Publish" : 
+       - What I had : Koken created an "Essays" album and a "2014-08-10" sub-album inside
+       - What I expected : Koken should have created "Essays" as a set instead of an album
+
+Is this normal behavior ? 
+
+How can I manage my Koken sets from Lightroom ? 
+
+More globally, I've heard that Koken had a very good Lightroom plugin, and that's one of the reasons I'm giving it a try. But I can tell that it's very far from what I have been used to (http://alloyphoto.com/plugins/piwigo/) ...</description>
+      <pubDate>Fri, 21 Nov 2014 23:56:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9550622</link>
+    </item>
+    <item>
+      <title>Database entries/koken_content/ source, source html and html what they are for. </title>
+      <description>Hi, 
+
+i looked at the mysql database of koken and found the entries source, source html and html. 
+What they are for.  
+Can I use them? Maybe to switch to an other page?
+Or are they used in later versions, or are they already used. 
+In my database all entries are filled with NULL.
+
+Thanks in advance, 
+Hannes 
+</description>
+      <pubDate>Thu, 06 Nov 2014 11:08:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9545609</link>
+    </item>
+    <item>
+      <title>How to change the site link after changing a name of a collection</title>
+      <description>Hi,
+
+I changed the name of a category on my website, but the site link keeps the old name.
+In library i see the old site link but i can't change it. It's grey.
+
+Any idea?
+
+Thanks!
+
+Paul</description>
+      <pubDate>Wed, 05 Nov 2014 15:19:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9541984</link>
+    </item>
+    <item>
+      <title>Uploaded video not working</title>
+      <description>Hi.
+I have uploaded an H.264 MP4 video using the recommended settings, and I am having no luck at all with making the video play.
+When I upload I get a video in my library with a time of 0:00 and no thumbnail. 
+When I try to play the video in my album on the site I just get the buffering icon.
+I have made sure that ffmpeg is enabled.
+
+I really like using Koken, but I can't pay for any plugins at the moment as I am currently looking for work (hence the portfolio site).
+
+If this is not fixed I will have to change to another CMS and I really don't want to do that, so please help me.
+
+Thank you,
+
+Chris</description>
+      <pubDate>Thu, 29 Jan 2015 21:37:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9541534</link>
+    </item>
+    <item>
+      <title>Photos in library and on site</title>
+      <description>Half of the photos in my library will not load.  They just show a spinning circle.  Also, on the actual website, 95% of the photos will not load - same spinning circle.
+jkurtschmidt.com
+0.18.3
+jkurtschmidt
+Mozart@0
+</description>
+      <pubDate>Tue, 11 Nov 2014 02:32:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9539747</link>
+    </item>
+    <item>
+      <title>losing exif data after rotating image</title>
+      <description>Hi again!
+
+I got my webhost to enable EXIF parsing. It's all good when I upload the image, and if I don't have to rotate it. However, I've noticed that when I rotate an image, they lose exif data. Is this normal behavior? 
+
+Thanks!
+
+</description>
+      <pubDate>Tue, 11 Nov 2014 02:26:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9530631</link>
+    </item>
+    <item>
+      <title>Images are in library, but only showing a 'loading' spinning disc in admin and not appearing on site</title>
+      <description>Hi there,
+
+According to the library page in the admin section, my library still has all its images in it. I've just uploaded another to make sure that it's working (which is is).
+
+However, all the images are shown as 'loading' in the admin section by spinning disc images, and not appearing on my site.
+
+My koken site is still being built so isn't the main destination for my site URL; the main site's images are still there.
+
+Is this a theme / koken issue, or is it something to do with my ISP?
+
+Thanks,
+
+Neil</description>
+      <pubDate>Wed, 03 Dec 2014 16:50:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9520309</link>
+    </item>
+    <item>
+      <title>Classic Galerry</title>
+      <description>Hello there, 
+
+is that possible to simply have galleries as on this website, from which the theme is looking like Madison 2 which i bought?</description>
+      <pubDate>Mon, 03 Nov 2014 18:34:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9513153</link>
+    </item>
+    <item>
+      <title>Metadata/EXIF stripped upon import</title>
+      <description>Hi! I just recently discovered Koken, and I'm loving it so far. It actually motivated me to revive my outdated photoblog.
+
+I have one issue though. I've been searching for the help center and the closest one that describes the issue I'm having is this - http://help.koken.me/customer/portal/questions/842361-image-metadata-stripped- 
+
+That was posted last year, and I want to confirm if this is still the case.
+
+I import my photos via drag and drop, and import content. I noticed that it's not retrieving any meta data / exif data (example: the date in the  `date captured` will be the time I uploaded the the photo).
+
+I've tried to shrink the size of the photo, and it's still the same - not getting the actual date captured. 
+
+Am I the only one getting this issue?  
+
+My webhost has the following software. 
+*  GD bundled
+* IPTC only parsing</description>
+      <pubDate>Mon, 03 Nov 2014 17:25:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9502879</link>
+    </item>
+    <item>
+      <title>Sorting of 'Public' albums not working</title>
+      <description>Hi there,
+
+First let me just say, great job with the product. It's getting better by the week. However, I'm having trouble when sorting my Public albums.
+
+So,  if I try to select 'Manual' sorting and I drag any album except for the last album uploaded they will behave as they are meant to. The drag and drop works as it is meant to and the list of albums down the left hand side of the screen update to show the new order. However, if I select the last album uploaded and I try to drag and drop it, it freezes. Now cover picture from the last album stays frozen on the screen in an arbitrary fashion and if I then drag and drop other albums they appear to swap positions however their positions in the left hand list do not update. 
+
+Now I thought I could get around this by simply sorting the albums by date published/ created as it appeared to only be an issue with the last album uploaded when I tried to drag and drop it. So I sorted them by date published and when I did this all the albums appear to sort into the correct order in their main view however the list of albums down the left hand side does not update and the Live version of the site remains in incorrect order. 
+
+I hope you can help me with this issue I am having.</description>
+      <pubDate>Wed, 29 Oct 2014 18:26:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/9468918</link>
+    </item>
+    <item>
+      <title>Image information</title>
+      <description>Hi,
+
+First of all I want to say that KOKEN is a great CMS and beautiful styled.
+
+I am running into a problem and can't find an answer. I have a lot of imagery and all these images got information written for it. This information is added through Photoshop. The great thing is that when I upload an image through the backend it spreads all this information to different fields, which makes everything easy. Though if I download an image at the front end it will download an image called 'i.jpg' and without any information left.
+
+I could see that the link to the image is something like this: i.php?/000/073/NAME,large.1412237776.jpg, a copy of the original I pressume.
+
+Is there a way to copy its information to the copied file aswell?
+
+Thanks in advance!</description>
+      <pubDate>Fri, 17 Oct 2014 11:55:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/8624239</link>
+    </item>
+    <item>
+      <title>Portfolio" view album"</title>
+      <description>Hi,
+
+the frontpage of my website (Repertoire Theme) are not shown every album as a picture.
+
+In the portfolio where the albums are to see as thumnails is in the top right corner the "album view". 
+The visible albums from the frontpage have there a number which shown the count of the pictures from the album.
+The missing albums from thr frontpage count 0 but in the album are pictures.
+
+Sorry for bad english</description>
+      <pubDate>Fri, 17 Oct 2014 18:12:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/8606672</link>
+    </item>
+    <item>
+      <title>Album Sort Order Does Not Change</title>
+      <description>Sorry for the repost on this, but when I try to set the Album Sort Order to Library it reverts back to Date Captured. This is a real headache, as my albums are very carefully sorted. This worked before, but no it's completely botched. Any ideas. I'm getting frustrated.</description>
+      <pubDate>Tue, 07 Oct 2014 14:57:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/8590251</link>
+    </item>
+    <item>
+      <title>All Albums Page Blank After Update</title>
+      <description>My All Albums Page is Blank after the latest update. Sigh. Help?
+
+http://rickalfaro.com/koken/albums/</description>
+      <pubDate>Tue, 07 Oct 2014 20:55:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/8590175</link>
+    </item>
+    <item>
+      <title>Image Import is not working, Waiting does not help</title>
+      <description>Hello Koken Team.
+
+My Image Import is not working. 
+
+Wether i upload one or twenty .jpegs with 100 to 300kb each, the library won't recognize the images and is only showing me the round turning waiting symbol.
+e.G: http://imgur.com/a/Qt5bo
+
+This definetly a CMS problem, i've reinstalled Koken for four times.
+I had the same images imported in no time on my old indexhibit site.
+
+
+A progress bar would be more informative and would show the user wether the system is actually working.
+
+  
+</description>
+      <pubDate>Wed, 08 Oct 2014 15:37:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/8582540</link>
+    </item>
+  </channel>
+</rss>

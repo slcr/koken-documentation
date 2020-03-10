@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Themes</title>
+    <link>http://help.koken.me/customer/en/portal/topics/696978-themes</link>
+    <description>Themes articles</description>
+    <item>
+      <title>Unable to purchase items</title>
+      <description>Hi,
+
+I am interested in a specific theme (Oxygen), however I am unable to purchase it. I freshly install Koken, but now it tells me I had to update before accessing the store.
+
+Sadly the update fails without specific reason. ("Uh oh...").
+
+I am hosting the instance myself and got full access to the system. However I can't find anything wrong (www.miezmaster.de). Is there a possibility to run a manual update or to fix the automatic one?
+
+Here's a dump of the system overview.
+
+System Information about the server hosting this installation.
+PHP
+Version 5.6.33-0+deb8u1
+MySQL
+Version 5.5.57-0+deb8u1
+Server operating system
+Linux
+Webserver software
+Apache/2.4.10 (Raspbian)
+Image processing
+GraphicsMagick 1.3.20
+FFmpeg
+Installed (Version 83651)
+Memory limit
+128MB
+Upload file size limit
+2MB
+EXIF/IPTC parsing
+Supported
+
+
+Best regards,
+Stefan Beck</description>
+      <pubDate>Mon, 22 Jan 2018 13:47:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17242313</link>
+    </item>
+    <item>
+      <title>Install theme</title>
+      <description>a friend of mine asked me to create a site for him, I have a Koken account and a site with the "axis" theme, can I use my theme or do I have to buy the theme for him again ? Can I buy a theme for a new website with my email or is it better to use my friend's email?</description>
+      <pubDate>Mon, 22 Jan 2018 13:45:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17242275</link>
+    </item>
+    <item>
+      <title>Link to parent album from Favourite image</title>
+      <description>I'm using Regale 2 theme and trying to modify it.
+My goal is to add a link to parent album page to content.lens. The goal would be that next to the big photo there would be a link that would take visitor to an album page from where this photo is from.
+
+I also want this to work with an image opened from Favourites page.
+Basically, this page: http://www.tarmohaud.ee/favorites/tigutorn-in-fog/ should have a link to http://www.tarmohaud.ee/albums/cityscape/ page as this photo is from that album.
+
+I've tried the following:
+ Back to album: {{ album.title }}
+
+But this only creates a URL: /albums/:slug/
+
+</description>
+      <pubDate>Mon, 22 Jan 2018 13:41:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17241867</link>
+    </item>
+    <item>
+      <title>Change number of "picture boxes" in my portfolio</title>
+      <description>Hi! I use Regale 2 theme, and wonder if it's possible to change  the numbers of boxes of pictures in my portfolio (to make the pictures bigger on the screen). Now I have 5 rows/boxes but 3 or 4 would be nice. Thank you!
+
+Maja</description>
+      <pubDate>Thu, 18 Jan 2018 13:25:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17241176</link>
+    </item>
+    <item>
+      <title>madison2 / responsive image size in album view</title>
+      <description>Dear support team,
+
+first thank's a lot for the great CMS! I switched to Koken yesterday, setting up the basics was a breeze and Madison is a great looking theme.
+
+I have but one big issue remaining: In album view (when showing single pictures), image height doesn't fit the screen, so lower image parts are only visible by scrolling down. (Example: http://www.michaelzeeh.de/albums/portraits/content/dsc1530/ )
+
+Both portrait and most landscape pictures are affected. Things are fine for landscape with very "flat" aspect ratio, when max. width is the limiting factor. Screen size at my desktop is 1680x1050.
+
+I tried "max height" in theme settings, but without success. Minimum option seems to be 800px, which would still be too much. (Plus, strange enough, when checking some portraits images in screenshots, they are displayed with a height of ca. 840px instead of a 800px limit.)
+
+In the "lightbox", image size works fine. I'd very much prefer to stay in "album view" instead of using the "lightbox", though, to have site title and navigation always visible.
+
+Would you have some advice if there's some adjustment I may have set wrong as a newbie?
+Your help is greatly appreciated!
+
+Yours, Michael
+
+</description>
+      <pubDate>Mon, 15 Jan 2018 15:19:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17238658</link>
+    </item>
+    <item>
+      <title>no exif displayed in AXIS2</title>
+      <description>I have a problem with the exif data in axis2.  I activated exif it in the theme checkbox, but the exif data are not displayed on the page. they are available in the library and the system menu also shows "exif supported"
+Does somebody has any idea?
+
+www.kreativbilder.at
+
+THX
+Helmut</description>
+      <pubDate>Mon, 15 Jan 2018 15:18:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17238648</link>
+    </item>
+    <item>
+      <title>Slideshow that makes a portrait photo fully visible and max size?</title>
+      <description>Is there some combination of slideshow settings, or some theme, that will allow portrait orientation 35mm aspect photographs to display fully (no cropping) but as large as possible on the viewer's browser (no matter what size or shape browser window they have)?
+
+I've tried the Elementary theme so far, with "auto" and "expand" dimensions and the various crop options, but can never get the photo to display without having to scroll down. Right now I'm using the 16:9 dimension and adaptive crop which happens to make the photo fully visible on typical browser windows, but it's not as large as it could be.</description>
+      <pubDate>Thu, 11 Jan 2018 15:23:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17237460</link>
+    </item>
+    <item>
+      <title>Change text justification in a theme</title>
+      <description>Hi. I am using the Chastain Theme for my site, and I am happy with it, except for the text justification.  The Settings allow me to change the typeface and color, but not the justification.  It is currently center-justified, and I would prefer left-justified. I'm guessing that Custom CSS might be work, but I don't know how to do that. Thanks for your help you can provide.</description>
+      <pubDate>Tue, 12 Dec 2017 13:56:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17221675</link>
+    </item>
+    <item>
+      <title>Visibility of tags</title>
+      <description>Site Settings: When checking tags to be displayed, they show up in grid view (below the picture). I want them to show up *only* in lightbox view on the right side(column) of each picture. Which settings i have to check/uncheck for this required page design?
+www.nightphotos.de
+
+Thanx for any help!
+DocFeelGood</description>
+      <pubDate>Mon, 04 Dec 2017 16:19:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17211998</link>
+    </item>
+    <item>
+      <title>Regale 2 - albums on home page don't load sometimes</title>
+      <description>I've noticed that quite often when first loading up the site, the albums on my home page just don't load. 
+
+If I refresh the page or click on the logo they load up.
+
+I've tried refreshing the system cache, and just kept an eye on it over time to see if updates sort it out but it continues to happen. Anyone know what could be happening here?
+
+The site is: www.dtphotography.co.nz
+
+Many thanks
+</description>
+      <pubDate>Tue, 05 Dec 2017 20:08:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17207429</link>
+    </item>
+    <item>
+      <title>Changing link destination in theme</title>
+      <description>Hi,
+I have been trying to modify the Ensemble theme for my website, but I can't find what I should edit.
+On the homepage I have all public albums. When I click on an album I would like to go to the first photo in this album (now the link directs me to all photos from this album).
+I'm trying to find out what file I have to change to make this effect happen. I hope someone can help me with this.
+
+Regards,
+Jagoda</description>
+      <pubDate>Mon, 20 Nov 2017 15:05:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17192629</link>
+    </item>
+    <item>
+      <title>Can't turn off exif and captured date on Reportoire theme</title>
+      <description>Hello there I'm having problem can't find to turn of exif,captured,edited date on the Reportoire theme
+can't find at theme settings.
+can anyone explain how to do that?</description>
+      <pubDate>Mon, 13 Nov 2017 16:27:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17188016</link>
+    </item>
+    <item>
+      <title>Width of themes</title>
+      <description>Can any theme be made full width or do you have to purchase a full-width theme?
+
+In the free themes, which I will use until we are fully comfortable, the dimensions seem to be set and locked in the settings panel.
+
+From what I can gather, we can make changes in the CSS to alter this but I wasn't sure if its one change or if there are multiple places (files) where changes have to be made.
+
+Could you clarify this for me please and if possible, tell me how this is done or provide an example. I'm not much of a css person so any detailed info is great.
+
+Thanks alot. Love it so far.
+
+Jason
+
+</description>
+      <pubDate>Mon, 06 Nov 2017 19:27:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17184704</link>
+    </item>
+    <item>
+      <title>http path out of ftp path</title>
+      <description>hello,
+
+wanted to insert a logo image as the title, but i am not able to figure out the http path of the image.. just loaded it up to my ftp server as described  in one of the previous help comments, and the only thing  i can copy there is obviously an ftp url..  this works as internal for sure, but when checking the site on another computer it keeps asking me for the password..
+
+cheers and thx in advance,
+michi</description>
+      <pubDate>Wed, 01 Nov 2017 15:31:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17177731</link>
+    </item>
+    <item>
+      <title>Grid view in albums</title>
+      <description>Hi, I use Koken 0.22.24 and Chastain theme.
+I want to change view type in albums to grid-view. Now it is line view (I dont know the right name).
+Can you help me?
+My site is https://shatokhina.art
+</description>
+      <pubDate>Tue, 24 Oct 2017 16:01:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17167743</link>
+    </item>
+    <item>
+      <title>full reload of page in firefox</title>
+      <description>Hello 
+I would like to thank you firstly for a great photographers cms.  I used director and ssp and loved that while it existed. I have a default koken install on a Godaddy shared server, with the elementary theme. 
+http://koke.vaxevanis.org/albums/jason/content/beach-ball/      If you want to have a look.
+I am a photographer and my programming skills are novice if that.  I have noticed something I think is strange, maybe you could help me understand it. When in firefox, if I select any menu item or advance a picture with the next and previous controls, the entire page reloads from the beginning causing a flashing effect.  It is rather jerky. I was wondering if there is any way just to have the image reload without reloading the entire page. 
+Any assistance or direction would be great.  I noticed it does not behave this way with the ajax2 template for example.
+
+Thank you
+
+Daniel Anast</description>
+      <pubDate>Fri, 20 Oct 2017 20:21:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17167031</link>
+    </item>
+    <item>
+      <title>theme developmenet</title>
+      <description>dear ladies and gentlemen, 
+would it be possible to develope a theme that comes close to the wordpress theme twenty seventeen? 
+I love this theme as many others, but so far, unfortunately, only wordpress comparable implemented.
+especially, I would love to move with my other site to koken.
+best regards by andreas lübberstedt</description>
+      <pubDate>Wed, 11 Oct 2017 18:47:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17162364</link>
+    </item>
+    <item>
+      <title>Repertoire 1.7.2 - multiple albums on home page / page of essay thumbnails by category?</title>
+      <description>Two things:
+
+Looking at the example image for the Repertoire theme, I think I see one large album (the slideshow) and two smaller ones under it (with essay "thumbnails" to the left). I don't seem to be able to figure out how to do that; I see only the large album slide show.
+
+How to set up a pages with just essay thumbnails (rather than a big scroll of all essays), preferably filtered by category?
+
+Many Thanks!</description>
+      <pubDate>Tue, 10 Oct 2017 13:12:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17160405</link>
+    </item>
+    <item>
+      <title>Back button</title>
+      <description>Hello,
+
+I’m on Axis 2.
+
+In a private gallery, how to install a button that refers to the sub-galleries of this gallerie?
+
+Looking at the photos of one of the under galleries, how can we go back to the sub gallerie to choose another one?
+
+Thank you in advance for your solution,
+
+Tanguy Stichelmans
+</description>
+      <pubDate>Thu, 05 Oct 2017 16:37:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17159278</link>
+    </item>
+    <item>
+      <title>album landing page ensemble theme</title>
+      <description>hi there,
+i already used the search function and read the 9 sites being postet but no subject like this;
+when you are clicking and album you are directed to a site where the pictures are shown vertically, i just want to have them horizontally.
+how can i adjust this? do i have to learn css for this or can you may post me the line i have to insert? 
+thanks in advance,
+patrick</description>
+      <pubDate>Thu, 05 Oct 2017 16:27:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17159110</link>
+    </item>
+    <item>
+      <title>Language</title>
+      <description>It is said that themes are multi-linguistic, or, that one can change language, but does this include ALL language strings like the text stamp in headlines for posts and such. For example this: "Published 40 minutes ago" and "View timeline by month". If not, could someone guide me to the files where these hard-coded text strings occur. I have a hard time finding them and I thought I had been through just about every code file there was :(</description>
+      <pubDate>Tue, 03 Oct 2017 19:19:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17150865</link>
+    </item>
+    <item>
+      <title>How Theme settings are working ?</title>
+      <description>Hi everyone,
+
+Actually my website use the Boulevard 2 Theme and I'm quite happy with it. But I want to make some hacks and I understand that I need to duplicate the Theme folder on my FTP as your recommendations on your help topics.
+
+I followed all the steps for duplicating the theme. 
+
+But when I want to switch the theme on my Koken administration, all my actual theme settings are not replicated. Can someone explain me where all these settings are stored and if it's possible to capture these settings and duplicate them and applying them on the duplicated theme ?
+
+Thanks a lot. Regards</description>
+      <pubDate>Mon, 02 Oct 2017 15:05:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17149544</link>
+    </item>
+    <item>
+      <title>Social Media Links – Instagram, Flickr,…</title>
+      <description>For photographers most important social media platforms – flickr, instagram and others – can not be added in the administrator section, while for photographers less popular platforms like Twitter and Google+ are available.
+
+I would be fine to tweak the Twitter and Google+ options by adding a Instagram link and changing the displayed logo to an Instagram logo. But even that is not possible due to the built-in url check.
+
+So how can i add an Instagram or a Flickr link to the header section of the used theme (Boulevard2)?
+
+Valuable answers that help me here are highly appreciated.</description>
+      <pubDate>Wed, 04 Oct 2017 15:49:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17149527</link>
+    </item>
+    <item>
+      <title>Boulevard 2 : draft wrong behaviour</title>
+      <description>Hello folks,
+
+I just purchased Boulevard 2 theme and I got troubles with it.
+When in draft editing, settings with sliders and dropdown menu don't apply, checkboxes settings apply instantly.
+
+However, every changes is going live when publishing.
+
+Happens in Firefox 55 and Chrome 61
+
+I have cleared the koken cache and browser cache.
+
+Any idea ?
+
+
+
+</description>
+      <pubDate>Mon, 25 Sep 2017 13:57:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17145023</link>
+    </item>
+    <item>
+      <title>presentation of categories</title>
+      <description>Hey guys,
+
+I have a question the presentation of the results of a category search in the boulevard theme.
+I copied the necessary files from the bluprint theme and modified the category.lens and events.html with this result: http://www.ragekay.de/koken/kategorien/ue-belgien/
+
+I wanted to get the same style like on the albums-pages with the album-thumbnails and animation. is this possible at all?
+
+kind regards
+
+Käthe
+</description>
+      <pubDate>Fri, 22 Sep 2017 19:14:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17144463</link>
+    </item>
+    <item>
+      <title>Boulevard 2</title>
+      <description>Can someone tell me if Boulevard 2 comes with updated social media icons (in particular, instagram and flickr)? Would be nice if I'm to pay $60 for this update that it came with something I would actually find useful :)</description>
+      <pubDate>Mon, 18 Sep 2017 19:12:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17139681</link>
+    </item>
+    <item>
+      <title>Album content on homepage</title>
+      <description>Hello there !
+
+Has anyone managed to display an album content (i.e. all images of a chosen album) on the homepage instead of the usual featured albums covers ?
+
+I'd like to keep the albums structure as it is but I need to choose specific images for the homepage portfolio (and hide the other content from the homepage).
+
+Thanks in advance !
+
+Sam</description>
+      <pubDate>Thu, 07 Sep 2017 13:29:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17135122</link>
+    </item>
+    <item>
+      <title>Titel and Menue centerd Top</title>
+      <description>Hi,
+i was looking for a way to center the Titel and than put the menu under the titel centered.
+
+do you have an idea how that works.
+
+Thx,
+Manu</description>
+      <pubDate>Tue, 29 Aug 2017 15:43:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17129130</link>
+    </item>
+    <item>
+      <title>Theme Background</title>
+      <description>Is there a theme with a black background? If so, what is it and how do I transfer to it?
+
+Thanks!</description>
+      <pubDate>Mon, 28 Aug 2017 15:45:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17128298</link>
+    </item>
+    <item>
+      <title>horizontal gallery with vertical menu</title>
+      <description>Hi,
+
+Is there a Koken theme with horizontal gallery and vertical menu?
+
+If not is it possible to create a menu link in Madison that connects to a Boulevard album on another site?
+
+Thanks
+
+Regards,
+Jonathon</description>
+      <pubDate>Sat, 12 Aug 2017 15:36:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17120641</link>
+    </item>
+    <item>
+      <title>Installed Themes doesn't work as they should...</title>
+      <description>Hi!
+I have installed themes from STORE and also from GitHub.
+Everything's going good until I click "USE THEME" – and then when i am at SITE tab to make some changes – it is like some css styles couldn't work. Theme doesn't look like in preview before i installed it – it hase one column and every theme I choose - it is always the same. I have some screenshots:
+
+preview:
+https://www.awesomescreenshot.com/image/2726925/1ca81cff6554970550a083ba9a35dfef
+
+after i install theme on SITE tab:
+https://www.awesomescreenshot.com/image/2726930/dba89162da1d509e6242b6f0d2f11bc3
+
+preview:
+https://www.awesomescreenshot.com/image/2726931/4d746cd7ee958683690b43a722d7e0c9
+
+afrer instalation:
+https://www.awesomescreenshot.com/image/2726933/8a918d8beb4f948220840c1d48481a79</description>
+      <pubDate>Fri, 11 Aug 2017 12:47:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17120231</link>
+    </item>
+    <item>
+      <title>Custom background image with Ensemble theme</title>
+      <description>Hi I am wondering if there is any way I can make a custom background in the Ensemble theme?
+I can find everything else to reference in the CSS but I can't find the background? 
+
+If that's not possible; is there a watermark (or other) I can put as a layer over the background or some of it?
+
+Thank you so much. </description>
+      <pubDate>Thu, 10 Aug 2017 14:49:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17119934</link>
+    </item>
+    <item>
+      <title>Madison Sub-Menu size</title>
+      <description>Is it possible to reconfigure in css the size of link in the menu / sub-menu because i want them to be smaller than the menu, and i don't know how to do it with the java things. if some one can help me.</description>
+      <pubDate>Thu, 10 Aug 2017 13:59:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17119589</link>
+    </item>
+    <item>
+      <title>Changing the share </title>
+      <description>When viewing an individual photo in the lightbox, there is a white rectangle with an arrow at the top left, indicating sharing options.  When you click it,  it expands to show the sharing options.   Is it possible to 
+
+1.  Edit something in the theme so that it is open by default, or
+2. Replace the code with my "AddThis" snippet?
+
+If either or both is possible, which file should the edits be made?
+
+Thanks</description>
+      <pubDate>Mon, 07 Aug 2017 19:43:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17118235</link>
+    </item>
+    <item>
+      <title>Trying a premium theme</title>
+      <description>Is there anyway I can try one of the premium themes to see what my content looks like, without purchasing it first?
+
+Thanks
+Anna</description>
+      <pubDate>Mon, 07 Aug 2017 17:27:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17118108</link>
+    </item>
+    <item>
+      <title>thumbnails rather than full size images for client galleries</title>
+      <description>Hi, 
+I use the Repertoire theme and recntly I implemented a  password protected "client" page. LIke the rest of the site this displays the header images, full size in a single column for each password protected album. I would like each protected album to display a smallish thumbnail.
+
+I have the following questions...
+Is this a possibility?  IE is there a way I can configure this behaviour? 
+Or would I need to modify the page? 
+Is there an existing theme that could be configured this way? 
+
+TIA
+
+Mark </description>
+      <pubDate>Tue, 08 Aug 2017 13:32:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17117654</link>
+    </item>
+    <item>
+      <title>Are themes refundable?</title>
+      <description>Hi Folks,
+
+Thanks for developing Koken.
+
+I am considering paying for the premium Oxygen theme.  However, say for example, I purchase it and it doesn't suit our work, is it possible to ask for a refund or swap for our second choice theme Madison 2?
+
+Sincerely,
+
+Owen Daily
+sharingnothoarding.org
+owen@daily.org.uk
+
+</description>
+      <pubDate>Thu, 03 Aug 2017 13:22:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17116431</link>
+    </item>
+    <item>
+      <title>Axis 2</title>
+      <description>Hello
+What do I need to change to ensure the images align horizontally (ideally at the bottom of each row) on the following featured album?
+
+http://www.fitzmaurice.works/albums/selected-works/
+
+Also please explain:
+
+1. variability
+2. CSS etc to control transparancy/opacity of Lightbox
+
+Thank you in advance.</description>
+      <pubDate>Thu, 03 Aug 2017 13:24:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17116099</link>
+    </item>
+    <item>
+      <title>Ansel theme</title>
+      <description>Hello, 
+i just bought the Ansel theme which is not in the koken store but in themeforest but i don't know how to install it on koken. I just got these instructions but it's not clear (because i don't know how to upload the theme) : 
+
+Ansel Theme Instructions. 
+
+Installation
+
+For installation of Koken please refer to: http://help.koken.me/
+
+To install Ansel simply upload "ansel-v1.1" folder into Koken at this destination:
+
+koken/storage/themes 
+
+Thanks for answers.. </description>
+      <pubDate>Wed, 16 Aug 2017 13:40:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17115982</link>
+    </item>
+    <item>
+      <title>http://kv-design.at/gallery</title>
+      <description>Hi,
+i want to add a hyperlink to the logo. I am using the Ensemble Theme.
+How does that work?</description>
+      <pubDate>Wed, 02 Aug 2017 14:13:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17115890</link>
+    </item>
+    <item>
+      <title>Regale 2: CSS underline for Splash-Page (entry page)</title>
+      <description>Hello,
+
+i am using the Regale 2 Theme at www.cy-man.com and a splash page as entry page. 
+
+Only at the splash screen page no link is highlighted while mouseover. I wonder if i add a bit of CSS (e.g. text-decoration: underline white solid) this sould add a highlight but there is no discrete class for the a-tag at the navigation . Is there a way to modify /inc/header.html maybe with a class for navigation a-tags?
+
+with kind regards
+Simon Gude</description>
+      <pubDate>Mon, 07 Aug 2017 15:22:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17115762</link>
+    </item>
+    <item>
+      <title>Repertoire Theme change to black</title>
+      <description>Hello,
+
+I've just added the repertoire theme to a clean install and I'm trying to change the theme to black in site\settings\theme\style, no change occurs though when I click on publish. I've also tried changing the background color but no change either. Am I in the wrong place for these changes?
+
+Cheers!</description>
+      <pubDate>Wed, 16 Aug 2017 13:45:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17115667</link>
+    </item>
+    <item>
+      <title>Adding Album metadata to content.lens</title>
+      <description>Hi All,
+
+I'm trying to add the Album Title and Summary to the top of my single image page template (content.lens).  I've added
+
+	{{ album.title }}
+	{{ album.summary }}
+
+
+and the HTML will render but the variables displaying the title and summary will not.  is there something else i need to do?</description>
+      <pubDate>Fri, 28 Jul 2017 16:33:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17113345</link>
+    </item>
+    <item>
+      <title>Text in front of a album</title>
+      <description>I want a text in front of an album.
+As I understand there are the descritions.
+But with Oxygen the descriptionis not displayed.
+What can I do?
+
+Thanks
+Kamran</description>
+      <pubDate>Fri, 21 Jul 2017 11:00:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17109254</link>
+    </item>
+    <item>
+      <title>Text in side menu with Madison 2</title>
+      <description>Hey there,
+
+I´d like to add some text between the title and the first menu item in the side menu. How is this possible?
+Thanks for you support, I start liking you CMS a lot!
+
+Cheers,
+Jon</description>
+      <pubDate>Wed, 19 Jul 2017 13:02:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17108100</link>
+    </item>
+    <item>
+      <title>Dropdown menu with Madison 2 theme</title>
+      <description>Good morning,
+
+I´m working on my new page with the Madison 2 theme, facing some menu issues.
+On many example pages (for the Madison 2) there is only one set-link in the menu, by clicking it expands with all the containing albums (like here if you click on "the protfolios": http://jorgeparra.com). I want to apply the same fuctionality on my page but didnt manage to get it. Where can i configure it?
+
+Thanks</description>
+      <pubDate>Wed, 19 Jul 2017 12:59:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17108042</link>
+    </item>
+    <item>
+      <title>Madison Orignal Theme</title>
+      <description>Hi Just wondering if anyone out there has the original madison theme downloaded they could email me or provide me a download link as i had my website built with it &amp; had some trouble with my web host and I didn't back up the site :( 
+if anyone could help me out i would appreciate it as that was my favourite theme</description>
+      <pubDate>Mon, 17 Jul 2017 12:15:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17106285</link>
+    </item>
+    <item>
+      <title>Best theme for video</title>
+      <description>Hi, 
+Is there a theme that's better than the others for video?  I assume they are all the same for photos. I'm using Boulevard 2 at this moment.  
+
+Also, is there a theme that's better for retail? For example, selling prints?
+
+Thank you and best,
+
+Ming</description>
+      <pubDate>Mon, 17 Jul 2017 12:28:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17106055</link>
+    </item>
+    <item>
+      <title>Madison 2: Essay Grid Layout</title>
+      <description>Hello all together!
+
+Is it possible to implement a grid layout to the essays page in madison 2 theme like it is done in regale 2 theme? I would really love to have this option. As I own both themes is it simply possible to copy a grid layout file from regale to madison folder and overwrite the original files? I am not a coding master and have no idea to implement it by myself.
+
+Would really love to have the grid view in madison 2 theme. 
+
+Thanks a lot for creating koken! :)</description>
+      <pubDate>Mon, 17 Jul 2017 12:28:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17105889</link>
+    </item>
+    <item>
+      <title>Getting Cover 1, 2, 3</title>
+      <description>I'm currently building a theme in which I want to use all three covers, but give each individual styles. How can I get just cover number one, add a custom class to it, then cover 2, add a custom class, and so on?</description>
+      <pubDate>Sat, 08 Jul 2017 12:45:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17101531</link>
+    </item>
+    <item>
+      <title>splash page black when menü be shown</title>
+      <description>Hallo,
+i have Theme OxyGen, it's very nice.
+Only wenn i see the slideshow on splash page, its full size, its ok, when i switsh on menü is the page black.
+i want see the slideshow and the menü. 
+This is possible, I have seen in the example.
+Where can I adjust this? Please help me.
+With best regards
+C.Schmidt</description>
+      <pubDate>Fri, 14 Jul 2017 12:01:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17098988</link>
+    </item>
+    <item>
+      <title>Theme Functionality Request for Albums in Axis 2</title>
+      <description>In the Boulevard theme on the albums page, when you pass the mouse over the albums the picture changes on the album.
+
+Any chance you could incorporate that functionality into the albums page of the Axis 2 theme.... pretty please with a cherry on top?
+
+many thanks
+Scott
+
+www.fascinatinglight.photography
+
+</description>
+      <pubDate>Mon, 03 Jul 2017 13:25:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097465</link>
+    </item>
+    <item>
+      <title>Help turning off DOWNLOAD on image view...</title>
+      <description>Hi there,
+
+Can you please help me turn off download image in the main image view? I have a link included below as an example... I don't want any images to be downloadable.
+
+http://www.orangeroseproductions.com/2018/index.php?/albums/design/content/breakawayutah-du70952-edit2/
+
+Thanks so much,
+
+Donald</description>
+      <pubDate>Sun, 02 Jul 2017 14:05:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097116</link>
+    </item>
+    <item>
+      <title>Madison 2 theme / Assign Home site to Albums</title>
+      <description>Hey everyone,
+
+i am just updating my website  (www.maximilian-koenig.com) with the Madison 2 theme. 
+My question is:
+
+on the first Page (Home) i have all the featured Pictures assigned. 
+If i click on them the lightbox starts. 
+
+I was wondering if it is possible, to change the settings in a way, that you are directly navigated to the Album of the picture you clicked on. 
+
+I know it would be possible to do that with a "featured Sets" link, but then i would just have the front Pic of the Set on the Featured (home) page. 
+
+Lookin forward to any help on this topic :)
+
+Best
+Max</description>
+      <pubDate>Mon, 17 Jul 2017 13:32:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17096612</link>
+    </item>
+    <item>
+      <title>Fixed/Static Header in the Elementary theme</title>
+      <description>I found the following thread; http://help.koken.me/customer/portal/questions/1608588-fixed-header-in-regale-theme which mentions how to make the header static for the Regale theme, and on the off chance, I tried it within the Elementary theme but didn't seem to work.
+
+How can I achieve a fixed/static header using this theme?
+
+Thank you in advance!</description>
+      <pubDate>Mon, 17 Jul 2017 12:15:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17095188</link>
+    </item>
+    <item>
+      <title>Empty titles</title>
+      <description>Hello,
+
+I don't wan't to give every picture a title. But without giving a title, the filename ist shown.
+
+How can I do that where is no title assigned an empty row appears or a blank space?
+
+I think with lens tag but I am not familiar enough to lens tag. Please can you help?
+
+Example:
+
+http://www.barbara-neumann-art.de/a/plastiken/
+
+Last picture shows the filname. </description>
+      <pubDate>Wed, 05 Jul 2017 18:41:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17092959</link>
+    </item>
+    <item>
+      <title>Theme Madison 2 </title>
+      <description>Hello,
+
+i installed Madison 2 succesfully
+But i can't find the settings to make theme customizations.
+There ist nothing like "Theme" or "Template" in my Backend
+
+thanks for your help
+gernot
+</description>
+      <pubDate>Fri, 07 Jul 2017 16:55:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17091867</link>
+    </item>
+    <item>
+      <title>change links / text Colour in Splash page</title>
+      <description>Hey hey,
+
+i know there has already been a thread about this but i can't really solve this problem.
+How can i change the colour of my navigation Text / links  on the splash page seperately. 
+I want my Logo and the whole navigation Text to be white when on splash page, and to be black when on the other pages. 
+
+
+Regards
+Max</description>
+      <pubDate>Sat, 17 Jun 2017 18:47:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17084496</link>
+    </item>
+    <item>
+      <title>Regale 2 - Title on splash screen image</title>
+      <description>Hi all
+
+I am trying to set a title on each of the splash screen images. But I dont know hot to do it. Has anybody a suggestion. Many thanks.
+
+https://eventsandconcerts.ch/
+
+Regards, Joe</description>
+      <pubDate>Sun, 11 Jun 2017 15:23:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17080132</link>
+    </item>
+    <item>
+      <title>Theme setup private gallery</title>
+      <description>Hei Guys, 
+i want to set up the Theme in a private gallery witch is shared with a password. In the public Gallery is this no problem.
+Thanks!</description>
+      <pubDate>Thu, 08 Jun 2017 17:38:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073085</link>
+    </item>
+    <item>
+      <title>Theme not showing</title>
+      <description>Hi
+I installed Koken yesterday. After some initial problems with installing the Axis 2 theme, it seems to have now installed. However, I can see the Axis 2 theme in the preview section of my admin area, but my actual website (www.nassergazi.com) looks nothing like Axis 2.
+
+What is happening?</description>
+      <pubDate>Mon, 05 Jun 2017 14:50:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17072104</link>
+    </item>
+    <item>
+      <title>Repertoire - single picture view</title>
+      <description>Hello,
+one question ... when you click through the galleries till you reach the single picture, there is the filename as a headline and "CAPTURED", "EXIF", "TAGS" und "SHARE". 
+I can´t find anything to skip this (only show the picture), or skip the single picture view.
+Is this possible?
+Thank you
+Marco
+www.marco-urban.de</description>
+      <pubDate>Mon, 05 Jun 2017 15:47:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17071892</link>
+    </item>
+    <item>
+      <title>Axis 2 theme isn't installing</title>
+      <description>Hi
+
+I bought Koken about and the Axis 2 theme about 6 months ago. I'm trying to install it now. Koken has been successfully installed. However, when i try and install the Axis 2 theme I get this error message:
+
+Before you can install this item, the Koken installation at nassergazi.com needs to be upgraded.\
+
+I have Version 0.22.21 of Koken which I installed today.
+
+Can you help
+</description>
+      <pubDate>Mon, 05 Jun 2017 14:49:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17071724</link>
+    </item>
+    <item>
+      <title>Logo position regale 2</title>
+      <description>Hi
+I have regale 2 theme, i've added my logo and for full website it's ok that this logo is on the left of the bar, is it possible that in mobile view it will appear in center?
+I've read a lot of forum discussion but not find the solution.
+
+Thanks</description>
+      <pubDate>Sat, 03 Jun 2017 15:41:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17071605</link>
+    </item>
+    <item>
+      <title>Boulevard 2 – No vertival scrolling in mobile view?</title>
+      <description>Hi, 
+
+i am using Boulevard 1 for quite a while now. Now i was willing to go for premium Boulevard 2 to get a better mobile experience.
+
+But as i mentioned it within the theme examples (davidesser.nl) the most importent feature, the vertical scrolling seems to be taken out on mobile breakpoints?
+
+Can you confirm that? Because if so, i would then change to another CMS.
+
+Looking forward to your answer.
+
+KR, Tobias
+
+</description>
+      <pubDate>Mon, 05 Jun 2017 15:39:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17071267</link>
+    </item>
+    <item>
+      <title>Remove essay date</title>
+      <description>I'm using Madison 2 and would like to know if there is a way to remove resp. to not show the date of essays? I can't find such a setting. Thank you!</description>
+      <pubDate>Thu, 01 Jun 2017 15:37:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17064864</link>
+    </item>
+    <item>
+      <title>Regale 2 Social buttons</title>
+      <description>Hello :)
+I have 3 separate sites that use Regale 2.
+When turning on the social share buttons in the footer, there isn't enough padding on the bottom.
+The buttons are cut off slightly.
+I am not using any custom CSS,
+
+I've noticed this problem for a while.
+
+Can you please fix?
+
+</description>
+      <pubDate>Fri, 09 Jun 2017 17:13:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17064693</link>
+    </item>
+    <item>
+      <title>How to Submit theme ?</title>
+      <description>How to Submit site with theme OxyGen ?</description>
+      <pubDate>Tue, 30 May 2017 15:59:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17064611</link>
+    </item>
+    <item>
+      <title>picture id</title>
+      <description>I am using madison as theme. I would like to show the unique id given to each uploaded foto in the caption of the corresponding foto, too. Is this possible and if, yes, how to configure?</description>
+      <pubDate>Sat, 27 May 2017 17:56:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17063385</link>
+    </item>
+    <item>
+      <title>Delete unused theme</title>
+      <description>Hi!
+I've got the same as described here: http://help.koken.me/customer/portal/questions/16760556-how-can-i-delete-themes-
+After deleting the folder the theme doesn't show up under site / themes any longer but updates are still offered. How to get rid of the notification? Thanks for a hint!</description>
+      <pubDate>Tue, 30 May 2017 14:25:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17062601</link>
+    </item>
+    <item>
+      <title>Regale 2 Theme</title>
+      <description>Hi!  I purchased the Regale2 theme a few years ago.  I am currently trying to set up a new Koken installation on an internal web server for testing purposes.  I can't get the theme to download to this installation.  When I click reinstall it tells me that the Koken installation needs to be upgraded before I can do so.  It however is trying to install it on the old server.  How can I get it over to my new one?
+thanks!</description>
+      <pubDate>Sun, 21 May 2017 11:39:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040835</link>
+    </item>
+    <item>
+      <title>Remove time stamps on pictures.</title>
+      <description>How do I remove the time stamps? I want the pictures to be shown plan without Titles, Captions, or the time stamp.</description>
+      <pubDate>Sun, 21 May 2017 11:36:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040818</link>
+    </item>
+    <item>
+      <title>Error in css Regale 2</title>
+      <description>h1, h2, h3, h4, h5, h6 {
+    font-weight: 1;
+    text-transform: uppercase
+}
+
+
+Font-weight of 1 can't be right.</description>
+      <pubDate>Sun, 21 May 2017 11:29:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040753</link>
+    </item>
+    <item>
+      <title>Regale 2 - Exif absence ?</title>
+      <description>Hello,
+I use the Regale 2 theme.
+
+In system: EXIF / IPTC parsing is checked "Supported".
+
+In the edit menu of the theme (on the album page, or on an image of an album), when I unchecked in "template": "launch lightbox ...", I see the options "Titles": Show Donwload link, show titles, show caption and show rating .... but there is no "show EXIF" (as it should be, according to information on this theme : https://store.koken.me/themes/regale/guide/1 )
+
+What can be the problem ?
+
+Website : https://www.arnaudleclere-photo.fr/gallery/ 
+
+Thank you for your help,
+Best Regards</description>
+      <pubDate>Sat, 20 May 2017 15:34:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040633</link>
+    </item>
+    <item>
+      <title>Home SlideShow</title>
+      <description>I set up my site on the Elementary theme and had a slideshow of 5 featured images on the Home page.
+
+I purchased and installed the Madison 2 theme and it converted the slideshow to 5 fullsize images in a list.  I don't see on the Theme or Template where to change to a slide show (I see how to change between grid and list).
+
+I know it's there because I saw it on many examples but I can't seem to find it.
+
+Can you point me in the right direction?
+
+Thanks,
+Keith
+</description>
+      <pubDate>Fri, 19 May 2017 17:24:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040187</link>
+    </item>
+    <item>
+      <title>Help with 'Madison 2' Theme</title>
+      <description>Good day Team Koken!
+
+I've recently installed your wonderful Madison 2 theme but have run into a bit of a problem when uploading my video work.
+
+The file appears without a thumbnail and has a weird double scroll effect happening. The film formats are in .mp4. 
+
+I've also had an issue trying to use a custom logo as a header (your guidelines state 230 px wide) but my logo appears to be small and blurry.
+
+You can view the page here - work.tsokumaela.com 
+
+Thank you so much and I'm looking forward to your response!
+
+Kind Regards,
+Tsoku Maela</description>
+      <pubDate>Mon, 15 May 2017 16:18:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17035980</link>
+    </item>
+    <item>
+      <title>Move purchases to new domain name</title>
+      <description>Good day!
+
+I would like to move my purchases to the new brand/domain name as the circumstances have changed.
+
+Please let me know if it would be possible to move all my purchases from foto-vid.com to didico.online.
+
+That would be great:)
+
+And thanks again for the amazing Koken product and service!
+
+Best regards,
+Anton Demekhin</description>
+      <pubDate>Fri, 12 May 2017 12:38:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17034454</link>
+    </item>
+    <item>
+      <title>Boulevard 2 </title>
+      <description>I've upgraded my boulevard theme to v.2 Premium.
+I feel a bit disappointed since I was hoping to see a few interesting additional features.
+So my question today is kind of a request.
+
+A possibility to use lightbox in albums is a must have. I got it to work with the boulevard v.1 but i don't remember how. I guess i could make a custom theme again but won't be able to update it anyway.
+
+The splash screen is pretty cool but there is no way to show some text on it. It would be great if a page could be embedded.
+
+Do you think any of this could me possible in the next (free of course ^^ ) update ?
+
+best regards </description>
+      <pubDate>Wed, 03 May 2017 18:18:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17028260</link>
+    </item>
+    <item>
+      <title>Boulevard 2 navigation</title>
+      <description>Hi, 
+
+is there any way to get rid of those "previous &amp; next" buttons in the Boulevard 2 theme on the top left?
+It kinda looks stupid right beside the navigation.
+
+Also, is it possible to get a lightbox by clicking on the images?
+
+Honestly, that bit of customizability is what I expect from a paid theme.
+It's essential.
+Don't really care about different spinners and custom colors for everything though...
+
+Cheers</description>
+      <pubDate>Wed, 26 Apr 2017 13:21:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17021306</link>
+    </item>
+    <item>
+      <title>Is there a way to transfer just one purchased theme to another koken linked site?</title>
+      <description>All the directions I'm finding online are about transferring all set themes and downloads from one site to another. </description>
+      <pubDate>Sun, 23 Apr 2017 14:00:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17021036</link>
+    </item>
+    <item>
+      <title>Wasnt able to edit navigation / update problems !?</title>
+      <description>Hi @ all,
+
+i bought a theme at the store: Regale 2. When i adjust the Regale 2 theme in Draft mode and add or remove something within primary navigation or footer navigation the changes doesnt take effect. Even if i want to assign a different navigation link to the front page / landing page. Why is this happening?
+
+Additionally, i do have problems with Koken in general: e. g. i create a page and its not available within text &gt; pages. I created albums and sometimes they are not available (doesnt appear in UI). This must have something to do with an updating mechanism. Thats really annoying! Tried on FireFox 52 and IE 11...
+
+Please help me out.
+
+Best Regards
+
+Joerg
+</description>
+      <pubDate>Mon, 24 Apr 2017 15:15:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17020720</link>
+    </item>
+    <item>
+      <title>Rename "Esssays" category to "Stories"</title>
+      <description>Hi guys,
+
+I've tried to alter the texts in defaults.json to change "Essay(s)" to "Story/Stories". But I can't get it done.
+I'm using the default template. 
+
+How can I change all instances from Essay to Story, including the URL? (http://poing.com/essays to http://poing.com/stories)?
+
+Thanks in advance.</description>
+      <pubDate>Wed, 19 Apr 2017 14:20:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17018416</link>
+    </item>
+    <item>
+      <title>Norma/Album/Images</title>
+      <description>I'm using the Norma theme and the photos in the albums are originally aligned in a grid and show as squares. I would like the images to appear in 1 centered column and display the full image. I am having a hard time accomplishing this and I feel as if I'm skipping over something very simple. Can you help me get my full images in 1 centered column?
+
+Thank you.</description>
+      <pubDate>Mon, 17 Apr 2017 13:26:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17016525</link>
+    </item>
+    <item>
+      <title>Madison 2 | Splash page image size &amp; contact page</title>
+      <description>Hi koken community,
+I have installed and set up the Madison 2 theme for my photo page. I am happy with it so far, but have the following two questions:
+
+1. Splash page image size:
+Does anyone know if it is possible to change the image size of a splash page? Currently the images that are featured are shown filling the whole image space. However, I think I have seen other websites using the theme that show images smaller, not filling up all the space and having e.g. while space above and below the shown image.
+
+2. I have seen someone using a contact form in order to be contacted via the website. Does anyone know how to set this up?
+
+Thanks a lot for your help.
+
+All the best,
+
+Henning</description>
+      <pubDate>Sun, 16 Apr 2017 22:19:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17016276</link>
+    </item>
+    <item>
+      <title>album download line in axis 2</title>
+      <description>I am using Axis 2, and would like to set album download as described here: 
+http://blog.koken.me/essays/2016/03/koken-0220-album-downloads/
+but under the page title, the "Show download link" does not appear. Any advise?
+thanks Jozsef</description>
+      <pubDate>Fri, 14 Apr 2017 18:48:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17015706</link>
+    </item>
+    <item>
+      <title>Same height for all pictures in Koken Pillar</title>
+      <description>Hello,
+I'm working with a custom theme where I use Pillar to display the pictures from my albums. The pictures are mixed between landscape and portrait aspect ratio. I now have the problem that the landscape photos are a lot bigger and more dominant than the landscape ones because they have the same width. Would it be possible to use pillar in a way that it builds the mosaic with a containing div and that the images inside scale to fit the div's height, so they would have all the same height? 
+
+Thanks!</description>
+      <pubDate>Mon, 17 Apr 2017 13:33:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17014560</link>
+    </item>
+    <item>
+      <title>Madison 2 Portratiview on cell phone</title>
+      <description>hey there,
+
+i'm using the Madison 2 Theme. Everything looks fine except  the portraitview on my cell phone...at the front page is a big gap between the site title and my splash...you can check it out: www.stefan-zamisch.at/koken
+
+is there a way to bring them closer togheter...it just doesnt look so nice this way...
+
+best regards
+
+Stefan</description>
+      <pubDate>Thu, 06 Apr 2017 13:18:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16987420</link>
+    </item>
+    <item>
+      <title>Language</title>
+      <description>Do you have a theme in french? Or I suppose I could translate t myself, any suggestion on how to proceed?
+Thanks
+</description>
+      <pubDate>Wed, 05 Apr 2017 12:41:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16986154</link>
+    </item>
+    <item>
+      <title>MAP (GPS / Geodata)</title>
+      <description>Hi, is it possible or planed to show a small map, if the picture has GPS geo data in the exif included with the theme Regale 2?
+
+Thanks, Frank</description>
+      <pubDate>Mon, 03 Apr 2017 12:42:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16983571</link>
+    </item>
+    <item>
+      <title>regale 2: esc-function without using lightbox</title>
+      <description>Dear wkken-team,
+
+I would rather not use the lightbox. Is there still any way to close a picture by using the "esc"-key in the "normal" image mode ?
+
+Best,
+
+Manuel
+</description>
+      <pubDate>Thu, 30 Mar 2017 13:43:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16981167</link>
+    </item>
+    <item>
+      <title>Site title - insert an image</title>
+      <description>Hello from Germany,
+
+I have a problem with insert an image in the site title.
+Can i use a link from the library? Are there size limitations, only jpg, gif or something ?
+I have tried it several times without success.
+
+best regards,
+Nadine
+</description>
+      <pubDate>Tue, 28 Mar 2017 19:41:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16969460</link>
+    </item>
+    <item>
+      <title>regale 2 - erase informations under pictures</title>
+      <description>Dear koken-team: I am using „regale 2“ and whenever I click on a picture and it pops up, it always shows the name of my starting page, the number of the current picture and an option to blend in the caption of he picture underneath it. How can I get rid of all those?
+best
+Manuel</description>
+      <pubDate>Mon, 27 Mar 2017 18:49:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16967129</link>
+    </item>
+    <item>
+      <title>Add paging to infinite scrolling</title>
+      <description>This has been a long time problem that I have experienced in the them Madison2. When scrolling through a large album, especially on mobile or tablet, the site bogs down and stops loading images most likely due to a lack of resources on the client machine. 
+
+We need the ability to have adaptive scrolling with a MAX number of images for paging. This would keep the same fluid look and feel of the theme while allowing larger albums. I haven't really used my koken site in years due to this limitation and the fact that there wasn't a like/rating system.
+
+Now that there is a like/ rate plugin, we are half way there.
+
+P.S. 
+You need a demo/ example site for your like/ rating plugin.</description>
+      <pubDate>Thu, 23 Mar 2017 18:25:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16962556</link>
+    </item>
+    <item>
+      <title>Bug reporting for theme "Regale 2" #2</title>
+      <description>Clicking on the slideshow links to "/albums/" folder instead of advancing the slideshow, despite Click action "Advance slideshow" is set.</description>
+      <pubDate>Sun, 12 Mar 2017 19:55:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950683</link>
+    </item>
+    <item>
+      <title>Bug reporting for theme "Regale 2"</title>
+      <description>1) Show/hide footer doesn't seem to work (homepage with fullscreen slideshow): I still see the bottom links despite I deactivated "show footer".
+
+2) Title case doesn't seem to work: overridden by "header.main h1 {text-transform:none}"</description>
+      <pubDate>Sun, 12 Mar 2017 19:54:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950670</link>
+    </item>
+    <item>
+      <title>Title case not working </title>
+      <description>I bought Regale 2 theme but Title case is not working. I tried to se uppercase, or lowercase. Nothing changes in the site title appearance. Is it intended like this? Thank you.</description>
+      <pubDate>Sun, 12 Mar 2017 19:53:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950665</link>
+    </item>
+    <item>
+      <title>Fullscreen slider homepage</title>
+      <description>Hi! 
+I bought your theme Regale 2. I would like to exactly replicate this homepage: http://sebastiandoerken.de/ but I found nothing in the settings to do that. Any help?
+Thank you!
+
+</description>
+      <pubDate>Sun, 12 Mar 2017 19:53:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950658</link>
+    </item>
+    <item>
+      <title>Fluid columns in Elementary theme?</title>
+      <description>Dear team,
+
+I've just installed the Elementary theme to begin with, and am wondering if one of the example websites that is listed for this theme - http://aperturized.com/content/ -, indeed is made with Elementary? 
+I'm looking for a solution to have fluid columns - is this possible at all with Elementary?
+
+Looking forward to your answer!
+
+Best,
+Mirta</description>
+      <pubDate>Sun, 12 Mar 2017 19:47:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950640</link>
+    </item>
+    <item>
+      <title>"koken:head" not dynamically inserted into the "head" region of index.lens</title>
+      <description>Hello,
+
+I am working on my own theme and have my social media metadata set up like advised in your theme design tutorial. It works fine except for the index.lens file. 
+Somehow koken seems to ignore my code in that file and doesn't add anything dynamically to the head of the index except for what's already in the head:
+
+            
+    
+
+Everything inside the following code is ignored:
+
+        
+            
+            
+            
+            
+        
+    
+    No data found
+    
+
+Am I missing something or is this a bug?
+
+Best regards
+Jan</description>
+      <pubDate>Fri, 10 Mar 2017 18:36:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16949615</link>
+    </item>
+    <item>
+      <title>Regale Theme: Spacing between albums</title>
+      <description>Hi,
+
+where can I change the spacing between album overviews (between the cover pictures)? I don't find a way to change this to zero for this section:
+
+https://thilomeyer.me/logintest/
+
+URL looks strange but is just the album overview for all my password protected albums.
+
+Thx lot in advance for help, Thilo</description>
+      <pubDate>Tue, 07 Mar 2017 15:03:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16863921</link>
+    </item>
+  </channel>
+</rss>

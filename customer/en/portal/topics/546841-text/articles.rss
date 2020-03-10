@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Text</title>
+    <link>http://help.koken.me/customer/en/portal/topics/546841-text</link>
+    <description>Text articles</description>
+    <item>
+      <title>Text overview</title>
+      <description>Text is for publishing written content on your web site. 
+
+ Creating 
+
+ Click on the plus (+) button at th...</description>
+      <pubDate>Mon, 23 Mar 2015 16:05:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/632095</link>
+    </item>
+    <item>
+      <title>Add topics</title>
+      <description>Topics associate essays with albums (and vice versa). They allow you to write about a public album in your Lib...</description>
+      <pubDate>Sat, 14 Jun 2014 17:47:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1153050</link>
+    </item>
+    <item>
+      <title>Insert contact forms</title>
+      <description>Contact forms allow visitors to send messages via email through your site. Forms are embedded in pages and inc...</description>
+      <pubDate>Mon, 13 Feb 2017 17:23:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1914327</link>
+    </item>
+    <item>
+      <title>Insert photos and videos</title>
+      <description>Photos and videos from the Library can be easily inserted into essays and pages. Once inserted you may assign ...</description>
+      <pubDate>Fri, 20 Jun 2014 02:29:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1590894</link>
+    </item>
+    <item>
+      <title>Insert read more links</title>
+      <description>Read more links break essays into partial and complete articles. They're typically inserted after the second o...</description>
+      <pubDate>Fri, 20 Jun 2014 02:30:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1590895</link>
+    </item>
+    <item>
+      <title>Insert slideshows</title>
+      <description>Slideshows are one of the available options when inserting media into an essay or page. This tutorial will exp...</description>
+      <pubDate>Mon, 23 Mar 2015 16:06:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1209868</link>
+    </item>
+    <item>
+      <title>Insert JavaScript and HTML</title>
+      <description>Custom HTML markup and JavaScript code can be added to essays and pages published by Koken. You have a couple ...</description>
+      <pubDate>Fri, 20 Jun 2014 02:29:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1525762</link>
+    </item>
+    <item>
+      <title>Insert content from Twitter, YouTube, Vimeo, Instagram, Flickr, and SoundCloud</title>
+      <description>Essays and Pages created in the Text console can display tweets, photos and videos as easily as pasting an ite...</description>
+      <pubDate>Fri, 20 Jun 2014 02:29:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/947438</link>
+    </item>
+  </channel>
+</rss>

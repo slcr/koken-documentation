@@ -1,0 +1,5620 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta pod-id="" />
+	  <link href="http://assets3.desk.com/assets/portal_jqueryui_only-ae2078f5d9247e97c310caf0c453b7d9.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="http://assets1.desk.com/assets/vendor-c0a3f0c532dd6db2d09875a0ea69a8b0.js" type="text/javascript"></script>
+		<script src="http://assets2.desk.com/assets/customer_widget-044efc6df9c5a6cdfe09ae38cde0fa38.js" type="text/javascript"></script>
+		<script src="http://assets1.desk.com/assets/portal-6cf8baf2170daed9feb9f26bb3d2e9d5.js" type="text/javascript"></script>
+      <script src="http://assets2.desk.com/assets/portal/desk.public_event_logger-b261b5d6041d73051bbb6db8fe304281.js" type="text/javascript"></script>
+
+
+		
+		<script src="http://www.google.com/jsapi?key=ABQIAAAAQO2RPu5r12mVC40HMDIFHRQqrBpdv_jP_dFl8Cw_MxS37sDB3xTXnsXso23z1ROPVCqEVVv6cqz_cA" type="text/javascript"></script>
+	<script src="http://assets0.desk.com/assets/tracking-1b7234dfdb53a1f5d1f8c427e6b594f3.js" type="text/javascript"></script>
+
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="Vl8sxSOk5eXY6xMV0/raXSwLaEfdnz2W2uJrLj6MKVo=" name="csrf-token" />
+	<meta name="site_id" content="75530" />
+	<meta name="env" content="production" />
+	<meta name="public_events_server" content="events.deskapi.com" />
+	<meta name="portal_errors_attachment_file_size_too_big" content="The attached file is too big to upload" />
+
+		
+
+
+<link rel='SHORTCUT ICON' type='image/ico' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+<link rel='icon' type='image/png' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+
+
+<link href="http://assets.koken.me/help/prettify/prettify.css" type="text/css" rel="stylesheet" />
+<link href="http://assets.koken.me/help/prettify/koken.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="http://assets.koken.me/help/prettify/prettify.js"></script>
+
+<title>
+  Koken |
+  
+    Lens tags
+  
+</title>
+
+
+  <meta property="og:title" content="Lens tags"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="Koken"/>
+  <meta property="og:description"
+        content="Lens template tags render HTML elements or conditionally load data. They are formatted like traditional HTML tags and ma..."/>
+
+
+
+
+<style type="text/css">
+  
+  
+  /* Reset */
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+  address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+  tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-size: 100%; font-family: inherit; vertical-align: baseline; outline: none; }
+  html { font-size: 13px; height: 100%; }
+  body { margin: 0; padding: 0; border: 0; font-family: 'Helvetica Neue', 'Helvetica', sans-serif; background: #F8F8F8; }
+  h1, h2, h3, h4, h5, h6, p, address { color: #272727;}
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 14px; color: #414141; }
+  a img { border: 0; }
+  p { line-height: 18px; color: #535353; margin: 0 0 20px; }
+  a { color: #254689; text-decoration: none; }
+  a:link { color: #254689; }
+  a:visited { color: #254689; }
+  a:hover, a:focus { color: #254689; text-decoration: underline; }
+  a:active { color: #254689; }
+
+  /* Flash Messages */
+
+  #flash {
+    font-size: 20px;
+    text-align: center;
+    display:none;
+  }
+
+  .flash_html {
+    display: inline;
+  }
+
+  .flash_ajax{
+    display:block;
+    margin:0 auto 0 -200px;
+    position:fixed;
+    top:0px;
+    left:50%;
+    width:400px;
+    z-index:1003;
+    color:#222;
+  }
+
+  .flash_html div, .flash_ajax div {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px auto;
+    width: 400px;
+    padding: 5px 40px;
+    background-color: #FFFDD7;
+    border-bottom: 3px solid #FDFBA8;
+    border-left: 3px solid #FDFBA8;
+    border-right: 3px solid #FDFBA8;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .flash_ajax div.flash_error,
+  .flash_html div.flash_error,
+  .flash_ajax div.flash_critical,
+  .flash_html div.flash_critical {
+    border-color: #FF0000;
+    background-color: #FFBABA;
+  }
+
+  /* Portal Wrappers */
+
+  .wrapper {
+    margin: 0 auto;
+    width: 950px;
+  }
+
+  #company-support-portal {
+    padding: 0 0 30px;
+    overflow: hidden;
+  }
+
+  /* Breadcrumbs */
+
+  #breadcrumbs {
+    color: #666;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+
+  /* Portal Company Header */
+
+  #company-header {
+    background: #000;
+    padding: 12px 0;
+  }
+
+  #company-header h1 {
+    background: url('http://assets0.desk.com/images/portal/portal-icon.png') 0 center no-repeat;
+    color: #FFF;
+    font-size: 25px;
+    padding: 0 0 0 35px;
+    float: left;
+  }
+
+  #company-header a {
+    color: #FFF;
+  }
+
+  #company-header a:hover {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #customer-account {
+    float: right;
+    color: #FFF;
+    margin: 3px 0 0;
+  }
+
+  #customer-account span {
+    float: left;
+    padding: 4px 9px;
+    font-weight: bold;
+  }
+
+  #customer-account a {
+    float: left;
+    display: inline-block;
+    padding: 4px 9px;
+    background: #2B2B2B;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #customer-account a:hover {
+    background: #3B3B3B;
+    color: #FFF;
+  }
+
+  /* Portal Support Header */
+
+  #support-header {
+    background: #E5E5E5;
+    border-bottom: 1px solid #ACACAC;
+    margin: 0 0 30px;
+    padding: 20px 0;
+  }
+
+  #support-header .wrapper {
+    position: relative;
+  }
+
+  #support-header h2 {
+    font-size: 32px;
+    text-shadow: 0 1px 0 #FFF;
+  }
+
+  /* Support Side Column */
+
+  #support-side {
+    float: left;
+    margin: 0 0 0 20px;
+    width: 230px;
+  }
+
+  #support-side .content {
+    margin: 0 0 40px;
+  }
+
+  #support-side h3 {
+    border-bottom: 1px solid #ccc;
+    margin: 21px 0 30px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-side ul {
+    list-style: none;
+  }
+
+  #support-side li {
+    margin: 0 0 5px;
+  }
+
+  /* Support Side Column Twitter */
+
+  #tweets .tweet_avatar {
+    display: none;
+  }
+
+  #tweets .tweet_time a {
+    color: #999;
+    display: block;
+  }
+
+  #tweets li {
+    margin: 0 0 20px;
+    line-height: 18px;
+  }
+
+  /* Support Main Column */
+
+  #support-main {
+    float: left;
+    width: 700px;
+  }
+
+  #support-main .support-body {
+    background: #FFF;
+    border: 1px solid #CCC;
+    -moz-box-shadow: 0 3px 4px #CCC;
+    -webkit-box-shadow: 0 3px 4px #CCC;
+  }
+
+  #support-main .content {
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  /* Support Main Column Headers */
+
+  #support-main h3 {
+    border-bottom: 1px solid #DDD;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+  }
+
+  #support-main h4 {
+    margin: 0 0 30px;
+  }
+
+  #support-main h5 {
+    margin: 0 0 9px;
+  }
+
+  #support-main h5 a {
+    background: #EEE;
+    color: #666;
+    font-size: 11px;
+    padding: 3px 7px;
+    margin: -2px 0 0 9px;
+    position: absolute;
+    text-decoration: none;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  /* Dashboard */
+
+  #support-main .dashboard h5 a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #support-main .dashboard td {
+    border-bottom: 1px solid #CCC;
+    padding: 20px 0 10px;
+  }
+
+  #support-main .dashboard .row1 td {
+    padding: 0 0 10px;
+  }
+
+  #support-main .dashboard .last td {
+    border-bottom: none;
+  }
+
+  #support-main .dashboard .topic {
+    margin: 0;
+  }
+
+  #support-main .dashboard .topic ul {
+    color: #254689;
+    margin: 0 15px 20px 0;
+    list-style: none;
+  }
+
+  #support-main .dashboard .topic li {
+    background: url('http://assets0.desk.com/images/portal/featured-bullet.png') -2px 5px no-repeat;
+    margin: 0 0 5px;
+    padding: 0 0 0 15px;
+  }
+
+  #support-main .dashboard .topic li.featured a {
+    background: #FAFBCA;
+    font-weight: bold;
+  }
+
+  #support-main .dashboard h5 {
+    background: url('http://assets0.desk.com/images/portal/icon-types-small.png') 0 0 no-repeat;
+    height: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+  }
+
+  #support-main .dashboard h5.questions {
+    background-position: 0 -109px;
+  }
+
+  /* Article Lists */
+
+  #support-main .articles ul {
+    list-style: none;
+  }
+
+  #support-main .articles h4 {
+    margin: 0 0 5px;
+    font-weight: normal;
+  }
+
+  #support-main .articles li {
+    margin: 0 0 30px;
+  }
+
+  #support-main .articles li.question {
+    background: url('http://assets0.desk.com/images/portal/icon-types.png') 0 3px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.article {
+    background: url('http://assets0.desk.com/images/portal/icon-types.png') 0 -276px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.question.featured {
+    background-position: 0 -138px;
+  }
+
+  #support-main .articles li.article.featured {
+    background-position: 0 -415px;
+  }
+
+  #support-main .articles li.featured h4 a {
+    font-weight: bold;
+    background: #FAFBCA;
+  }
+
+  #support-main .articles li p {
+    margin: 0 0 5px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed {
+    background: #FFFDF4;
+    border: 1px solid #E3DEBF;
+    margin: 0 0 30px;
+    padding: 20px 20px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .articles .condensed li {
+    margin: 0;
+    padding: 0;
+  }
+
+  #support-main .articles .condensed h4 {
+    font-size: 15px;
+  }
+
+  #support-main .articles .condensed p {
+    margin: 0 0 20px 30px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed a {
+    margin: 0 0 20px 30px;
+  }
+
+  /* Article List Metas */
+
+  #support-main #search-results .meta,
+  #support-main .articles .meta {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+
+  #support-main .articles .meta .answered {
+    background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+    border-right: 1px solid #DDD;
+    color: #549b07;
+    padding: 0 5px 0 14px;
+    margin: 0 5px 0 0;
+  }
+
+  #support-main .articles .meta .count,
+  #support-main .articles .meta .date,
+  #support-main .question-details .meta .name {
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+    border-right: 1px solid #DDD;
+  }
+
+  /* Article List Toggles */
+
+  #toggle div {
+    float: right;
+    margin: -62px 0 0 0;
+  }
+
+  #toggle a {
+    background: #FFF;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  #toggle a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #toggle .active, #toggle a.active:hover {
+    background: #DDD;
+    color: #000;
+  }
+
+  /* Page Title */
+
+  #support-main .title {
+    border-bottom: 1px solid #CCC;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .title h3 {
+    margin: 0 0 3px;
+    padding: 0;
+    border: 0;
+  }
+
+  #support-main .title .meta {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* Article View & Question View */
+
+  #support-main .article-content h1,
+  #support-main .article-content h2,
+  #support-main .article-content h3,
+  #support-main .article-content h4,
+  #support-main .article-content h5,
+  #support-main .answer-details h1,
+  #support-main .answer-details h2,
+  #support-main .answer-details h3,
+  #support-main .answer-details h4,
+  #support-main .answer-details h5, {
+    margin: 0 0 20px;
+  }
+
+  #support-main .article-content h1, #support-main .answer-details h1 {
+    font-size: 22px;
+  }
+
+  #support-main .article-content h2, #support-main .answer-details h2 {
+    font-size: 20px;
+  }
+
+  #support-main .article-content h3, #support-main .answer-details h3 {
+    font-size: 18px;
+  }
+
+  #support-main .article-content h4, #support-main .answer-details h4 {
+    font-size: 16px;
+  }
+
+  #support-main .article-content h5, #support-main .answer-details h5 {
+    font-size: 15px;
+  }
+
+  #support-main .article-content ul, ol, #support-main .answer-details ul, #support-main .answer-details ol {
+    margin-left:15px;
+    list-style-position:inside;
+  }
+  #support-main .article-content p {
+    margin:0;
+  }
+  #support-main .article-content blockquote, #support-main .article-content q,
+  #support-main .answer-details blockquote, #support-main .answer-details q {
+    margin: 0.80em 0 0.80em 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    quotes: "" "";
+  }
+  #support-main .article-content blockquote p, #support-main .article-content q p,
+  #support-main .answer-details blockquote p, #support-main .answer-details q p {
+    margin: 0;
+    padding: 0.80em;
+    color: #666;
+    background: inherit;
+  }
+
+  /* Article View Attachments */
+
+  #attachments {
+    border-bottom: 1px solid #CCC;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+  }
+
+  #attachments strong {
+    background: url('http://assets0.desk.com/images/attachment.png') -1px 0 no-repeat;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 0 0 16px;
+  }
+
+  #attachments ul {
+    list-style: none;
+  }
+
+  /* Article View Rating */
+
+  #rate_article_container {
+    margin: 20px 0 0 0;
+  }
+
+  #rate_article div {
+    color: #265007;
+    float: left;
+    width: 100%;
+    margin: 0 0 6px;
+    font-style: italic;
+    height: 1%;
+  }
+
+  #rate_article_container a {
+    background: url('http://assets0.desk.com/images/portal/rating-arrows.gif') center 4px no-repeat;
+    overflow: hidden;
+    float: left;
+    width: 20px;
+    height: 16px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-indent: -999px;
+    margin: -2px 5px 0 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #rate_article_container .rate-link-down {
+    color: #9b0909;
+  }
+
+  #rate_article_container .rate-link-down a {
+    background-position: center -28px;
+  }
+
+  #rate_article_container span {
+    float: left;
+  }
+
+  /* Question View */
+
+  #support-main .question {
+    padding: 0;
+  }
+
+  #support-main .question .question-body {
+    background: #FFFDF4;
+    border-bottom: 1px solid #E3DEBF;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+  }
+
+  #support-main .question .gravatar-wrapper {
+    float: left;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .question .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }
+
+  #support-main .question .question-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .question-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+  }
+
+  #support-main .question .question-details .meta {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #support-main .question .meta {
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+
+  /* Question Answers */
+
+  #support-main .question .replies {
+    padding: 0 20px;
+    margin: 0 0 20px;
+  }
+
+  #support-main .question .replies h4 {
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .replies.agents h4 {
+    background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+    padding: 10px 0 10px 20px;
+  }
+
+  #support-main .question .replies.agents .reply {
+    background: #FFF;
+    padding: 20px 0 0;
+  }
+
+  #support-main .question .reply {
+    margin: 0;
+    overflow: hidden;
+    height: 1%;
+    padding: 20px 0 0 70px;
+    position: relative;
+  }
+
+  #support-main .question .answer-details,
+  #support-main .myportal .interaction-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .answer-details .meta {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  #support-main .question .answer-details .meta span {
+    display: block;
+  }
+
+  #support-main .question .answer-details .meta span.date {
+    float: none;
+    display: block;
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .meta span.date-short {
+    float: none;
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .answer-body,
+  #support-main .interactions .interaction-details .interaction-body {
+    margin-bottom: 20px;
+  }
+
+  /* Question View Rating */
+
+  #support-main .question .answer-rating {
+    font-size: 20px;
+    height: 53px;
+    line-height: 20px;
+    position: absolute;
+    margin: 0 0 0 -70px;
+    *margin: 0 0 0 -120px;
+    text-align: center;
+    width: 54px;
+  }
+
+  #support-main .question .answer-rating div {
+    border: 1px solid #CCC;
+    padding: 4px;
+    height: 48px;
+    overflow: hidden;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .answer-rating a {
+    background: url('http://assets0.desk.com/images/portal/rating-arrows.gif') center top no-repeat;
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-indent: -900px;
+    overflow: hidden;
+  }
+
+  #support-main .question .answer-rating .decrement {
+    background-position: center -25px;
+  }
+
+  #support-main .question .dialog {
+    display: none;
+  }
+
+  #support-main .question .rating-true .score {
+    display: inline-block;
+    margin: 5px 0 0 0;
+  }
+
+  #support-main .question .rating-true .dialog {
+    display: inline-block;
+    color: #999;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .score-positive {
+    color: #396905;
+  }
+
+  #support-main .question .score-negative {
+    color: #69050c;
+  }
+
+  /* Question View and Private Portal Reply Form */
+
+  #support-main .question #form,
+  #support-main .myportal #form {
+    background: #f8f8f8;
+    border: 1px solid #CCC;
+    margin: 20px;
+    padding: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .form-notice,
+  #support-main .myportal .form-notice {
+    border-top: 1px solid #DDD;
+    margin: 0 20px 20px;
+    padding: 15px 0 0 0;
+  }
+
+  #support-main .question #form h4,
+  #support-main .myportal #form h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+
+  #support-main .question #form .input-block input[type=text],
+  #support-main .question #form .input-block textarea,
+  #support-main .myportal #form .input-block textarea {
+    width: 610px;
+  }
+
+  /* Pre Create Headers */
+
+  #support-main .pre-create h4 {
+    margin: 0 0 30px 0;
+  }
+
+  #support-main .pre-create ul h4 {
+    margin: 0;
+  }
+
+  /* Support Forms */
+
+  #form .label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+
+  #form .label span {
+    color: #999;
+  }
+
+  #form .input-block input[type=text],
+  #form .input-block textarea {
+    /*display: block;*/
+    font-size: 13px;
+    margin: 0 0 20px;
+    width: 650px;
+  }
+
+  #form .input-block textarea {
+    height: 200px;
+  }
+
+  #form .input-block select {
+    margin: 0 0 20px;
+  }
+
+  #form .input-button input {
+    background: url('http://assets0.desk.com/images/portal/button.gif') 0 0 repeat-x;
+    border: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 6px;
+    height: 32px;
+    text-transform: uppercase;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #form .input-button .disabled {
+    background-position: 0 -38px;
+  }
+
+  #form .input-button img {
+    display: none;
+    margin: 7px 0 0 5px;
+    position: absolute;
+  }
+
+  #form label.invalid {
+    color: red;
+    display: inline-block;
+    margin: -20px 0 20px 0;
+  }
+
+  /* Pagination */
+
+  #paginate_block {
+    margin: 0;
+    position: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #paginate_block .pagination {
+    background-color: #FFF;
+    height: auto;
+    margin: 0;
+    padding-top: 0;
+    position: auto;
+    width: auto;
+  }
+
+  #paginate_block .current {
+    background-color: #DDD;
+    border: 1px solid #CCC;
+    padding: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+ 
+
+  /* Footer */
+
+  #footer {
+    display: block;
+    clear: both;
+    color: #999;
+    padding: 20px 0 30px;
+  }
+
+  #footer a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #question-mask {
+    color: #AAA;
+    position: absolute;
+    width: 90%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    text-overflow: ellipsis;
+  }
+
+  .question-big {
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
+  }
+
+  .question-small {
+    font-size: 13px;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  .search-bg {
+    display: none;
+  }
+
+  .highlight{
+    background-color: #FFFAE1;
+  }
+
+  /* Modals */
+
+  #modal-screen {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+  }
+
+  #modal .inner {
+    background: rgba(0,0,0,0.4);
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    margin: -230px 0 0 -350px;
+    position: absolute;
+    padding: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+  }
+
+  #modal .inner h1 {
+    text-align: center;
+    font-size: 27px;
+    padding: 25px 0 0;
+  }
+
+  #modal .inner p.subheader {
+    font-size: 18px !important;
+    color: #767676 !important;
+    text-align: center;
+    margin: 4px 0 30px 0;
+  }
+
+  #modal .inner .input-button {
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #modal .inner .input-button input {
+    margin: 0 0 0 10px;
+  }
+
+  #modal .inner .note {
+    text-align: center;
+    color: #616161;
+    margin: 0 0 20px 0 !important;
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  #modal .main {
+    background: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #modal .close {
+    float: right;
+    margin: -16px -16px 0 0;
+  }
+
+  /* Auto Completion */
+
+  .ui-autocomplete {
+    background: #FFF;
+    border: 1px solid #C0C0C0;
+    width: 100px;
+    list-style: none;
+    margin: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  }
+
+  .ui-autocomplete a {
+    padding: 9px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .ui-autocomplete a:hover,
+  .ui-autocomplete a.ui-state-hover {
+    background: #FFFAE1;
+    text-decoration: none;
+  }
+
+  .ui-autocomplete li:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+  }
+
+  .ui-autocomplete li:last-child a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .ui-autocomplete .KbArticle,
+  .ui-autocomplete .QnaThread {
+    background: url('http://assets0.desk.com/images/portal/icon-types-small.png') 0 4px no-repeat;
+    display: block;
+    padding: 0 0 0 25px;
+    overflow: hidden;
+  }
+
+  .ui-autocomplete .QnaThread {
+    background-position: 0 -106px;
+  }
+
+  .ui-autocomplete .article-autocomplete-subject {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .ui-autocomplete .article-autocomplete-body {
+    display: block;
+    font-size: 13px;
+    color: #666;
+  }
+
+  /* Get Satisfaction Styles */
+  .gs-idea {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/idea_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-question {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/question_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-praise {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/praise_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-update {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/update_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-problem {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/problem_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs_search_result {
+    width:100% !important;
+  }
+
+  #gs_Sidebar_Results .tweet_time, .gs-search-result {
+    padding-left: 20px;
+  }
+
+  #gs_search_title h5 {
+    font-size:20px;
+    border-bottom:1px solid #DDDDDD;
+    margin:0 0 20px;
+    padding:0 0 20px;
+  }
+
+  #question-best-answer {
+  border: 1px solid #ddd;
+  background: #FFF;
+  border-radius: 5px;
+  margin: 0 0 25px 70px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px 20px 0;
+  }
+
+ #support-main .agent-answer-label {
+  margin: 0 0 10px;
+ }
+
+ #support-main #question-best-answer .reply {
+  height: 1%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+ }
+
+#support-main .best-answer-green {
+  position: absolute;
+  right: 0;
+  background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+  padding: 0 0 0 15px;
+  color: #6db400;
+  font-weight: bold;
+}
+
+#support-main .best-answer-green a {
+  color: #6db400;
+}
+
+#support-main .best-answer-green a:hover {
+  text-decoration: none;
+}
+
+#support-main #question-best-answer-heading {
+  margin: 30px 0 10px 0;
+}
+
+#social-share {
+  float: left;
+  width: 80px;
+  margin-left: -90px;
+}
+
+#social-share .share-btn {
+  margin: 0 auto 15px auto;
+  width: 60px;
+  text-align: center;
+}
+
+#social-share .share-btn .fb-like {
+  margin-left: 6px;
+}
+
+  /* Private Portal */
+
+  #support-main .myportal {
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .myportal .content {
+    background: #FFF;
+  }
+
+  .myportal-label {
+    margin: 0 0 8px 0;
+    padding-left: 22px;
+    background: url('../images/mail.png') 0 0 no-repeat;
+  }
+
+  .myportal .mycases-filters {
+    padding: 20px 0 0 0;
+    height: 50px;
+  }
+
+  .myportal .a-selectbox {
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #FFF;
+    -webkit-border-image: none;
+    display: block;
+    float: left;
+    padding: 4px;
+    text-decoration: none;
+    zoom: 1;  
+  }
+
+  .myportal .a-selectbox select {
+    background: url("/images/arrow_down.png") right 0px no-repeat;
+    border: none;
+    box-sizing: border-box;
+    white-space: pre;
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    padding: 2px 3px;
+    font-size: 12px;
+    width: 190px;
+  }
+
+  .myportal .a-checkbox {
+    float: left;
+    margin: 5px;
+    color: #333;
+    font-size: 11px;
+  }
+
+  .myportal-button, .myportal-button:visited {
+    float: right;
+    padding: 8px 6px;
+    border: 0;
+    background: url(/images/portal/button.gif) 0 0 repeat-x;
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff !important;
+    text-transform: uppercase;
+  }
+
+  .myportal-button:hover {
+    text-decoration: none;
+  }
+
+  .myportal .mycases {
+    background:##E5E5E5;
+    width: 100%;
+    border-collapse:collapse;
+    font:normal 12px verdana, arial, helvetica, sans-serif;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .myportal .mycases caption {
+    border:1px solid #5C443A;
+    color:#5C443A;
+    font-weight:bold;
+    letter-spacing:20px;
+    padding:6px 4px 8px 0px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases td, th {
+    color:#363636;
+    padding: 11px 5px;
+  }
+
+  .myportal .mycases tr {
+    background: #FFF;
+    border: 1px solid #ccc;
+  }
+  
+  .myportal .mycases tbody tr:hover {
+    cursor: pointer;
+  }
+
+  .myportal .mycases thead th, tfoot th {
+    background: #E8E8E8;
+    font-size: 10px;
+    font-weight: bold;
+    color:#666;
+    padding: 6px 5px;
+    text-align:left;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases a {
+    text-decoration:none;
+  }
+
+  .myportal .mycases a:hover {
+    text-decoration: underline;
+  }
+
+  .myportal .mycases tbody th, tbody td {
+    text-align:left;
+    vertical-align:middle;
+  }
+
+  .myportal .mycases tfoot td {
+    background:#5C443A;
+    color:#FFFFFF;
+    padding-top:3px;
+  }
+  
+  .myportal .mycases .a-casechannel {
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    padding: 11px 0 11px 11px;
+  }
+
+  .myportal .case-block{
+    float: left;
+    margin-right: 60px;
+  }
+
+  .myportal .a-caseid {
+    padding-left: 15px;
+  }
+
+  .myportal .a-caseid, .myportal .a-casestatus {
+    width: 70px;
+  }
+
+  .myportal .a-casecreated {
+    width: 60px;
+  }
+
+  #support-main .case {
+    padding: 0;
+  }
+
+  #support-main .myportal .case-details, #support-main .myportal .interaction {
+    padding: 20px;
+  }
+
+  #support-main .myportal .case-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 510px;
+    font-size: 18px;
+    vertical-align: top;
+    float: left;
+  }
+  
+  #support-main .myportal .case-details img {
+    margin-right: 5px;
+    float:left;
+  }
+
+  #support-main .myportal .status {
+    float: right;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .status .a-New,
+  #support-main .myportal .status .a-Open,
+  #support-main .myportal .status .a-Pending,
+  #support-main .myportal .status .a-Resolved,
+  #support-main .myportal .status .a-Closed {
+    color: #fff;
+    padding: 2px 8px;
+    font-weight:bold;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .myportal .status .a-New {
+    background-color: #5B75AF;
+    border: #465A86 1px solid;
+  }
+
+  #support-main .myportal .status .a-Open {
+    background-color: #61A00F;
+    border: #4A7B0B 1px solid;
+  }
+
+  #support-main .myportal .status .a-Pending {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .status .a-Resolved {
+    background-color: #A5A5A5;
+    border: #7E7E7E 1px solid;
+  }
+
+  #support-main .myportal .status .a-Closed {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .meta {
+    clear: both;
+    padding: 8px 0;
+    color: #888;
+    line-height: 16px;
+  }
+
+  #support-main .myportal .meta strong {
+    color: #000;
+  }
+
+  .myportal #paginate_block .pagination {
+    background-color: transparent;
+  }
+
+/* Private Portal - Case Detail */
+
+  #support-main .myportal .case-details .meta span.date,
+  #support-main .myportal .interaction-details span.date {
+    margin: 0;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .interaction-details span.date {
+    float: right;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .case-data {
+    width: 50%;
+    float: left;
+    position: relative;
+  }
+
+  #support-main .myportal .meta .case-dates {
+    width: 50%;
+    float: right;
+    position: relative;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .name {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #support-main .myportal .interactions {
+    border-top: 1px solid #E3DEBF;
+  }
+  
+  #customer-account a {
+    margin-left: 9px;
+  }
+
+  #support-main .myportal .gravatar-wrapper {
+    position: absolute;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .myportal .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }  
+
+  #support-main .myportal .interaction-details .meta {
+    width: 100%;
+    margin: 0;
+  }
+
+/* Private Portal - My Account */
+
+  .myaccount-form {
+    padding-top: 20px;
+  }
+
+  .myaccount-form .new_customer_contact_email {
+    padding: 30px 0;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] form div {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+  }
+
+  .myaccount-form div[id^="email_"]:hover {
+    background-color:#f9f9f9;
+  }
+
+  .myaccount-form div[id^="email_"] .verified {
+    display: block;
+    float: right;
+    padding-right: 10px;
+    color: #5FA400;
+    font-weight: bold;
+  }
+
+  .myaccount-form div[id^="email_"] form input[type="submit"] {
+    height: 25px;
+  }
+
+  .myaccount-form input[type="text"] {
+    font-size: 12px;
+    border: 1px solid #C0C0C0;
+    float: left;
+    margin: 0 5px 8px 0;
+    width: 195px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .myaccount-form button {
+    height: 32px;
+    padding: 0 6px;
+    border: 1px solid #C0C0C0;
+    background: url('/images/portal/button.gif') 0 0 repeat-x;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .myaccount-form label.invalid {
+    font-weight: normal ;
+    display: block !important;
+    clear: both;
+    margin: 10px 0 20px 0;
+  }
+
+/* Private Portal - Login and Registration */
+
+  .login-form, .registration-form, .forgotpw-form, .alternatelogins {
+    padding: 20px 0;
+  }
+
+  .alternatelogins {
+    float: right;
+    padding: 20px 0;
+  }
+
+  .login-form .field label, .registration-form .field label, .forgotpw-form .field label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+  }
+
+  .login-form .field input, .registration-form .field input, .forgotpw-form .field input {
+    font-size: 14px;
+    border: 1px solid #999;
+    display: block;
+    margin: 4px 0 15px 0;
+    width: 250px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .login-form .actions input {
+    width: 80px;
+    margin-bottom: 40px;
+  }
+
+  .login-form .newaccount, .login-form .forgotpw {
+    font-weight: bold;
+    float: left;
+  }
+
+  .login-form .forgotpw {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #999;
+  }
+
+  .registration-form label.invalid,
+  .forgotpw-form label.invalid {
+    font-weight: normal;
+    display: block;
+    margin: -10px 0 20px 0;
+  }
+  .login-form form {
+    float: left;
+    width: 330px;
+  }
+  .alternatelogins {
+    border-left: 1px solid #ccc;
+    float: left;
+    height: 200px;
+    padding-left: 25px;
+  }
+  .alternatelogins div {
+    margin: 0 0 20px 0;
+  }
+  .alternatelogins a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    padding: 0 1em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #222;
+    background: #fff;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: none; 
+    *overflow: visible;
+    *display: inline;
+    *zoom: 1;
+  }
+  .alternatelogins a:hover,
+  .alternatelogins a:focus,
+  .alternatelogins a:active {
+    color: #222;
+    text-decoration: none;
+  }
+  .alternatelogins a:before {
+    content: "";
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url(/images/portal/auth-icons.png) no-repeat 99px 99px;
+  }
+  .alternatelogins #twitter {
+    border-color: #a6cde6;
+    color: #327695;
+    background: #cfe4f0;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -o-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+  }
+  .alternatelogins #twitter:hover,
+  .alternatelogins #twitter:focus,
+  .alternatelogins #twitter:active {
+    color: #327695;    
+    border-color: #8dc2e4;
+    background-color: #cadde9;
+  }
+  .alternatelogins #twitter:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7;
+  }
+  .alternatelogins #twitter:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -36px -22px;
+  }
+  .alternatelogins #facebook {
+    border-color: #29447e;
+    border-bottom-color: #1a356e;
+    color: #fff;
+    background-color: #5872a7;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -webkit-linear-gradient(#637bad, #5872a7);
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -ms-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    -webkit-box-shadow: inset 0 1px 0 #879ac0;
+    box-shadow: inset 0 1px 0 #879ac0;
+  }
+  .alternatelogins #facebook:hover,
+  .alternatelogins #facebook:focus {
+    color: #fff;
+    background-color: #3b5998;
+  }
+  .alternatelogins #facebook:active {
+    color: #fff;
+    background: #4f6aa3;
+    -webkit-box-shadow: inset 0 1px 0 #45619d;
+    box-shadow: inset 0 1px 0 #45619d;
+  }
+  .alternatelogins #facebook:before {
+    border-right: 1px solid #465f94;
+    margin: 0 1em 0 -1em;
+    background-position: 0 -22px;
+  }
+  .answer-body img { max-width: 100% }
+  
+</style>
+
+<link href="http://assets.koken.me/help/css/pe-icon-7-stroke.css" type="text/css" rel="stylesheet">
+<link href="http://assets.koken.me/help/css/desk201408.css" rel="stylesheet" type="text/css" />
+
+
+
+	</head>
+	<body>
+			<div id="flash" class="flash_html"><div class="agent_notifier_msg a-flash flash_notice">
+  
+  
+</div>
+</div>
+		
+
+<main>
+
+<a name="top"></a>
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<div id='company-support-portal'>
+  <div id='company-header'>
+    <div class='wrapper'>
+      <h1><a href='/'></a></h1>
+<div class="extra">
+  <h2><a href='/' title="Koken Help Center">Help Center</a></h2>
+<ul>
+  <li>
+    <a href="/" title="Koken Help Center">Topics</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/questions/new" title="Ask a question">Ask a question</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/emails/new?t=484231" title="Contact Koken support directly">Email us</a>
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us</a>
+          </li>
+
+    <li>
+    <a href="http://blog.koken.me" title="Koken Blog" onclick="return !window.open(this.href);">Blog</a>
+  </li>
+    <li>
+    <a href="http://store.koken.me/" title="Koken Store - Free and premium themes and plugins" onclick="return !window.open(this.href);">Store</a>
+  </li>
+</ul>
+</div>
+      
+      <form action='/customer/portal/articles/search' method='get' id='support-search' class='support-search-small'>
+          <div>
+            <input id='q' maxlength='100' name='q' type='text' value='' />
+            
+            <input id='support-search-submit' type='submit' value='Search' />
+            <span class="search_glass pe-7s-search"></span>
+          </div>
+        </form>
+      <div style="float:right"></div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  <div id='support-header'>
+    <div class='wrapper'>
+      <h2>Support Center</h2>
+      
+        
+      
+    </div>
+  </div> <!-- /#support-header -->
+  
+  <div class='wrapper'>
+    
+    <div id='support-side'>
+
+      <div class='content'>
+   
+        <!-- if a topic or article page -->        
+        
+        <section>
+        <ul>
+          <li>
+            <a href='/customer/en/portal/topics/375567-lens/articles'><h2>Lens articles</h2></a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1140184-what-s-new-in-lens'>What&#x27;s new in Lens</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828688-lens-templates'>Lens templates</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/982033-lens-variables'>Lens variables</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828690-lens-tags'>Lens tags</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/929836-lens-events'>Lens events</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828695-helper-classes'>Helper classes</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828692-settings'>Settings</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828693-setting-types'>Setting types</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/888149-styles'>Styles</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828694-navigation-groups'>Navigation groups</a>
+          </li>
+          
+        </ul>
+        </section>
+        
+
+        
+
+
+        <section>
+          <h2>About Koken</h2>
+          <p>
+          This Help Center provides support for <a href="http://koken.me" title="Koken">Koken</a>, a free content management system designed for photographers, artists and designers.
+          </p>
+        </section>
+
+      <section>
+          <a href="https://twitter.com/koken" class="twitter-follow-button" data-show-count="false">Follow @koken</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </section>
+
+      <section>
+      <div class="fb-like" data-href="http://facebook.com/kokencms" data-send="false" data-layout="button_count" data-width="190" data-show-faces="true" data-font="arial"></div>
+      </section>
+      
+      
+      
+    </div>
+  </div>
+    
+        <!--begin:portal_body-->
+
+<!--begin:page_article--><div id="jump_head">
+  <div class="wrapper">
+    <div class="lcol">
+      Lens tags
+    </div>
+    <div class="rcol">
+      <a href="#top" title="Back to top">Back to top</a><div id="jumpto_scroll"></div></div>
+    </div>
+   </div>
+</div>
+
+<div id='support-main'>
+
+  <div class='support-body'>
+    
+<div id='breadcrumbs'>
+  <a href='/'>Home</a>
+  
+  &rsaquo; <a href='/customer/en/portal/topics/375567-lens/articles'>Lens</a> &rsaquo; Lens tags
+  
+        <a class='bttn-small' href='/customer/portal/questions/new' title='Ask a question'>Ask a question</a>
+
+</div>
+    
+    <div id='social-share'>
+      <div class='share-btn'>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical"></a>
+      </div>
+      <div class='share-btn'>
+        <div class="fb-like" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+      </div>
+      <div class='share-btn'>
+        <g:plusone size="tall"></g:plusone>
+      </div>
+    </div>
+
+    <div class='content article'>
+    
+      <div class='title'>
+        <h1>Lens tags</h1>
+        <div class='meta'>Last Updated: Jun 06, 2017 02:19PM EDT</div>
+      </div>
+
+      <div class='article-content'>
+        <div id="jumpto_container">
+<div id="jumpto_select">&nbsp;</div>
+</div>
+
+<p>Lens template tags render HTML elements or conditionally load data. They are formatted like traditional HTML tags and may be customized with attributes. The following is a list of all supported Lens template tags, plus examples of each.</p>
+
+<h4>Labels</h4>
+
+<p>You&#39;ll notice color labels appended to each tag. These labels indicate the context in which each template tag can be used. See <a href="http://help.koken.me/customer/portal/articles/828688-lens-templates">Lens templates</a> for an explanation of how templates load data.</p>
+
+<ul>
+	<li><span class="label label_global">Global</span> &mdash; Tag that may be used anywhere.</li>
+	<li><span class="label label_content">Content</span> &mdash; Tag used when rendering uploaded images and videos.</li>
+	<li><span class="label label_essay">Essay</span> &mdash; Tag used when rendering an essay.</li>
+	<li><span class="label label_album">Album</span> &mdash; Tag used when rendering an album.</li>
+	<li><span class="label label_event">Event</span> &mdash; Tag used when rendering a timeline event.</li>
+</ul>
+<a id="album_download" name="kokenalbum_download"></a>
+
+<h3>koken:album_download <span class="labels"> <span class="label label_album">Album</span> </span></h3>
+
+<p>Displays album download data.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;album_download.title&nbsp;}}</td>
+			<td>Returns the title of the Album.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album_download.link&nbsp;}}</td>
+			<td>Returns the absolute url of the album to be downloaded.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s a usage example from album.lens.</p>
+
+<pre class="prettyprint">
+&lt;koken:album_download&gt;
+  &lt;p&gt;
+    &lt;koken:link&gt;Download {{&nbsp;album_download.title&nbsp;}}&lt;/koken:link&gt;
+  &lt;/p&gt;
+&lt;/koken:album_download&gt;
+</pre>
+<a id="kokenalbums" name="kokenalbums"></a>
+
+<h3>koken:albums <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>For publishing a list of all public albums an image or video is included in.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>include_current</td>
+			<td>Boolean</td>
+			<td>Whether to include the album the image/video is currently being viewed in.</td>
+			<td>true</td>
+		</tr>
+		<tr>
+			<td>order_by</td>
+			<td>String</td>
+			<td>Order in which albums are returned. Values include <code>title</code>, <code>published_on</code>, <code>modified_on</code> and <code>created_on</code>.</td>
+			<td>title</td>
+		</tr>
+		<tr>
+			<td>order_direction</td>
+			<td>String</td>
+			<td>Direction of order. Options include <code>asc</code> for ascending and <code>desc</code> for descending.</td>
+			<td><code>asc</code></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of albums.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example (from a content.lens template) we loop over the data returned by <a href="#kokenalbums"><code>&lt;koken:albums&gt;</code></a> and display linked album titles separated by a comma. Each link takes the user to album.lens to display that album.</p>
+
+<pre class="prettyprint">
+&lt;koken:albums&gt;
+  Also appears in:
+  &lt;koken:loop separator=&quot;, &quot;&gt;
+    &lt;koken:link&gt;
+      {{&nbsp;album.title&nbsp;}}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:albums&gt;
+</pre>
+<a id="kokenasset" name="kokenasset"></a>
+
+<h3>koken:asset <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Loads an external file (style sheet, javascript, image, etc) into a template. Koken automatically generates the appropriate HTML tag depending on the type of file being loaded. URLs are always relative to a site&#39;s theme folder.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>file</td>
+			<td>String</td>
+			<td>The URL to the external asset you want to include.</td>
+		</tr>
+		<tr>
+			<td>common</td>
+			<td>Boolean</td>
+			<td>For loading an asset from Koken&#39;s built-in collection of common theme files located in app/site/themes/common. Used mostly with default themes.</td>
+		</tr>
+		<tr>
+			<td>version</td>
+			<td>Boolean, String</td>
+			<td>For preventing caching of external assets by appending a version to the request. When set to <code>true</code> the theme&#39;s version is inherited. Otherwise the string specified is used.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The following loads a style sheet using a relative URL inside the theme&#39;s folder:</p>
+
+<pre class="prettyprint">
+&lt;koken:asset file=&quot;css/screen.css&quot; /&gt;
+</pre>
+
+<p>This example loads the common reset.css style sheet:</p>
+
+<pre class="prettyprint">
+&lt;koken:asset file=&quot;reset.css&quot; common=&quot;true&quot; /&gt;
+</pre>
+<a id="kokenbackground" name="kokenbackground"></a>
+
+<h3>koken:background <span class="labels"> <span class="label label_album">Album</span> <span class="label label_content">Content</span> </span></h3>
+
+<p>Publishes an image as the background of a generated HTML element. This effectively works the same as <code>&lt;koken:img /&gt;</code> except instead of generating an <code>img</code> tag a <code>div</code> is created with a background equal to the image.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>class</td>
+			<td>String</td>
+			<td>For assigning a class to the generated tag.</td>
+		</tr>
+		<tr>
+			<td>lazy</td>
+			<td>Boolean</td>
+			<td>When true, background image loads when scrolled into view.</td>
+		</tr>
+		<tr>
+			<td>position</td>
+			<td>String</td>
+			<td>For assigning a background position. Default is &quot;center center&quot;.</td>
+		</tr>
+		<tr>
+			<td>relative</td>
+			<td>Boolean</td>
+			<td>When true, a relative path will be used to for the image src. Default value is <em>true</em>.</td>
+		</tr>
+		<tr>
+			<td>tag</td>
+			<td>String</td>
+			<td>For changing the type of tag that is generated. Default is <code>div</code>.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example from a contents.lens template we loop over all content and generate a <code>div</code> for each item. The image is assigned as the background of the <code>div</code>, which is also assigned a class of &quot;thumb&quot; so we can style it with CSS. We also publish the content title, which appears on top of the background image.</p>
+
+<pre class="prettyprint">
+&lt;koken:loop&gt;
+  &lt;koken:background class=&quot;thumb&quot;&gt;
+    {{&nbsp;content.title&nbsp;}}
+  &lt;/koken:background&gt;
+&lt;/koken:loop&gt;
+</pre>
+
+<p>To assign a background position, use values like you would when using the <code>background-position</code> CSS property. For example, to position in the upper left corner you&#39;d assign &quot;0 0&quot;, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:loop&gt;
+  &lt;koken:background class=&quot;thumb&quot; position=&quot;0 0&quot;&gt;
+    {{&nbsp;content.title&nbsp;}}
+  &lt;/koken:background&gt;
+&lt;/koken:loop&gt;
+</pre>
+<a id="kokenbreadcrumbs" name="kokenbreadcrumbs"></a>
+
+<h3>koken:breadcrumbs <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Publishes links to each page that is a parent to the current page.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>link_current</td>
+			<td>Boolean</td>
+			<td>Controls whether the last link (the current page) is assigned a hyperlink. Default is &quot;true&quot;.</td>
+		</tr>
+		<tr>
+			<td>separator</td>
+			<td>String</td>
+			<td>Character to display in-between links. Default is &quot;&gt;&quot;.</td>
+		</tr>
+		<tr>
+			<td>show_home</td>
+			<td>Boolean</td>
+			<td>Controls whether a link to the home page is included. Default is <code>true</code>.</td>
+		</tr>
+		<tr>
+			<td>show_if_single</td>
+			<td>Boolean</td>
+			<td>Controls whether breadcrumbs should be published if only one link is available. Default is <code>true</code> (always show breadcrumbs).</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Example</strong></p>
+
+<p>Inserting breadcrumbs into a template is easy. Simply do the following anywhere inside <code>&lt;koken:load&gt;</code>. In this example we&#39;ve changed the separator and will hide the breadcrumbs if only one link is available (eg, when used on a home page).</p>
+
+<pre class="prettyprint">
+&lt;koken:breadcrumbs separator=&quot;/&quot; show_if_single=&quot;false&quot; /&gt;
+</pre>
+<a id="kokencategories" name="kokencategories"></a>
+
+<h3>koken:categories <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Loads and displays categories.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>order_by</td>
+			<td>String</td>
+			<td>Order in which categories are returned. Values include <code>title</code> and <code>count</code>.</td>
+			<td>title</td>
+		</tr>
+		<tr>
+			<td>order_direction</td>
+			<td>String</td>
+			<td>Direction of order. Options include <code>asc</code> for ascending and <code>desc</code> for descending.</td>
+			<td><code>asc</code></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;category.title&nbsp;}}</td>
+			<td>The title of the category.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;category.counts.content&nbsp;}}</td>
+			<td>Total number of library images and videos the category is assigned to.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;category.counts.essays&nbsp;}}</td>
+			<td>Total number of essays the category is assigned to.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;category.counts.albums&nbsp;}}</td>
+			<td>Total number of albums and sets the category is assigned to.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of categories.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The following prints a comma separated list of each category associated with the content presented on a page. Each category is wrapped with a hyperlink to their respective archive page.</p>
+
+<pre class="prettyprint">
+&lt;koken:categories&gt;
+  Categories:
+  &lt;koken:loop separator=&quot;, &quot;&gt;
+    &lt;koken:link&gt;
+      {{&nbsp;category.title&nbsp;}}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:categories&gt;
+</pre>
+<a id="kokencontent_image" name="kokencontent_image"></a>
+
+<h3>koken:content_image <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Conditional that detects whether the content loaded is an image. Here&#39;s an example from a typical content.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:content_image&gt;
+  &lt;!-- We have an image --&gt;
+  &lt;koken:img /&gt;
+&lt;/koken:content_image&gt;
+</pre>
+<a id="kokencontent_video" name="kokencontent_video"></a>
+
+<h3>koken:content_video <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Conditional that detects whether the content loaded is a video. Here&#39;s an example from a typical content.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:content_video&gt;
+  &lt;!-- We have a video --&gt;
+  &lt;koken:video /&gt;
+&lt;/koken:content_video&gt;
+</pre>
+<a id="kokencontext" name="kokencontext"></a>
+
+<h3>koken:context <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Displays contextual information for individual images or videos. This tag is most commonly used to publish the title of the album, tag, or category an item is being viewed within.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{ context.title }}</td>
+			<td>Title of the parent context (album, tag or category).</td>
+		</tr>
+		<tr>
+			<td>{{ context.position }}</td>
+			<td>Index of the image/video in the parent context.</td>
+		</tr>
+		<tr>
+			<td>{{ context.total }}</td>
+			<td>Total number of images/videos in the parent context.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The following example from a typical content.lens template demonstrates how to use <code>&lt;koken:context&gt;</code> to publish contextual information about an image/video. This outputs the title of the context (album, tag or category) and wraps it with a link to view more. It also creates a counter to display the numerical position of the image/video within the parent context.</p>
+
+<p>If the image/video is not being viewed as part of an album, tag or category, then it falls back to <code>&lt;koken:else&gt;</code> to display a link to contents.lens.</p>
+
+<pre class="prettyprint">
+&lt;koken:context&gt;
+  &lt;koken:link&gt;
+    {{ context.title }}
+  &lt;/koken:link&gt;
+  ({{ context.position }} of {{ context.total }})
+&lt;koken:else&gt;
+  &lt;koken:link to=&quot;contents&quot;&gt;{{ labels.content.plural }}&lt;/koken:link&gt;
+&lt;/koken:context&gt;
+</pre>
+<a id="kokencovers" name="kokencovers"></a>
+
+<h3>koken:covers <span class="labels"> <span class="label label_album">Album</span> </span></h3>
+
+<p>Loads and displays all of the cover images assigned to an album.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>limit</td>
+			<td>Number</td>
+			<td>Limits the returned data to a specific number of results.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>minimum</td>
+			<td>Number</td>
+			<td>Assigns the minimum number of cover images to be returned. If an album has fewer assigned covers than the minimum a different (non-cover) image from the album is selected at random and used as a cover.</td>
+			<td>empty</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of cover images.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In the example below (from an albums.lens template) we publish an image for each cover the album contains.</p>
+
+<pre class="prettyprint">
+&lt;koken:covers&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:img /&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:covers&gt;
+</pre>
+
+<p>To display only the album&#39;s primary cover, you may just use <code>&lt;koken:img /&gt;</code> by itself without <code>&lt;koken:covers&gt;</code>, or replace <code>&lt;koken:loop&gt;</code> (from the example above) with a <code>&lt;koken:first&gt;</code> tag, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:covers&gt;
+  &lt;koken:first&gt;
+    &lt;koken:img /&gt;
+  &lt;/koken:first&gt;
+&lt;/koken:covers&gt;
+</pre>
+<a id="kokendates" name="kokendates"></a>
+
+<h3>koken:dates <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Displays links to monthly archives for the timeline, albums, content and essays.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>limit_to</td>
+			<td>String</td>
+			<td>Publish dates for only a particular content type. Options include <em>essays</em>, <em>albums</em> and <em>content</em>.</td>
+			<td>empty</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of dates.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Example</strong></p>
+
+<p>When used by itself, <code>&lt;koken:dates&gt;</code> publishes a link for each month of timeline activity. That link leads to date.lens to display all events that were published in that particular month. Here&#39;s example code that could be used anywhere in any template:</p>
+
+<pre class="prettyprint">
+&lt;koken:dates&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:link&gt;
+      {{ date.title }}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:dates&gt;
+</pre>
+
+<p>You can also display monthly archival links for specific types of content. For example, monthly archive links for essays in archive.essays.lens, albums in archive.albums.lens and content in archive.contents.lens. You&#39;d do that by appending the <code>limit_to</code> attribute (see table above for values). You can also display the number of items inside each month, as shown in the example below which allows visitors to browse essays by month.</p>
+
+<pre class="prettyprint">
+&lt;koken:dates limit_to=&quot;essays&quot;&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:link&gt;
+      {{ date.title }} ({{ date.counts.total }})
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:dates&gt;
+</pre>
+
+<p>This tag can also be used in conjunction with <code>&lt;koken:select&gt;</code> to display a drop-down of date links. Here&#39;s the example above modified to display a select:</p>
+
+<pre class="prettyprint">
+&lt;koken:dates limit_to=&quot;essays&quot;&gt;
+  &lt;koken:select label=&quot;Select month&quot; /&gt;
+&lt;/koken:dates&gt;
+</pre>
+<a id="kokendiscussion" name="kokendiscussion"></a>
+
+<h3>koken:discussion <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>For publishing comments in a template from Disqus (using our <a href="http://help.koken.me/customer/portal/articles/1128533-disqus-plugin">official plugin</a>) or other service via a plugin.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;discussion&nbsp;}}</td>
+			<td>Renders the comment markup.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The code below would render a header and comment markup if the publisher has a plugin enabled (e.g, our <a href="http://help.koken.me/customer/portal/articles/1128533-disqus-plugin">Disqus plugin</a>) that targets the template tag.</p>
+
+<pre class="prettyprint">
+&lt;koken:discussion&gt;
+  &lt;h3&gt;Comments&lt;/h3&gt;
+  {{ discussion }}
+&lt;/koken:discussion&gt;
+</pre>
+<a id="kokendiscussion_count" name="kokendiscussion_count"></a>
+
+<h3>koken:discussion_count <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Ties in with <code>&lt;koken:discussion&gt;</code> to display the number of comments made on a particular item. Requires the <a href="http://help.koken.me/customer/portal/articles/1128533-disqus-plugin">Disqus plugin</a>.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;discussion_count&nbsp;}}</td>
+			<td>Renders the comment count.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The <code>&lt;koken:discussion&gt;</code> must be added first to a content.lens, essay.lens and/or album.lens page in order for count data to be returned. Once you&#39;ve integrated that tag and comments are displaying, insert <code>&lt;koken:discussion&gt;</code> into any other page that lists applicable content. For example, essays.lens, albums.lens and/or contents.lens. Inside <code>&lt;koken:loop&gt;</code> on those pages you&#39;d insert the following to display the number of comments made on each content item:</p>
+
+<pre class="prettyprint">
+&lt;koken:discussion_count&gt;
+  {{ discussion_count }}
+&lt;/koken:discussion_count&gt;
+</pre>
+<a id="kokenevent" name="kokenevent"></a>
+
+<h3>koken:event <span class="labels"> <span class="label label_event">Event</span> </span></h3>
+
+<p>This tag is rendered for each event returned by timeline data. It wraps the <code>&lt;koken:event_album&gt;</code>, <code>&lt;koken:event_content&gt;</code>, <code>&lt;koken:event_essay&gt;</code> and <code>&lt;koken:event_album_update&gt;</code> template tags. Koken uses the markup inside each of the aforementioned tags when publishing timeline events.</p>
+
+<p><strong>Example</strong></p>
+
+<p>Here&#39;s a typical example from a timeline.lens template.</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:event&gt;
+      &lt;koken:event_album&gt;
+        &lt;!-- Rendered if a new public album is created --&gt;
+      &lt;/koken:event_album&gt;
+      &lt;koken:event_content&gt;
+        &lt;!-- Rendered if a new public image/video is uploaded --&gt;
+      &lt;/koken:event_content&gt;
+      &lt;koken:event_essay&gt;
+        &lt;!-- Rendered if a new essay is published --&gt;
+      &lt;/koken:event_essay&gt;
+    &lt;/koken:event&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:load&gt;
+</pre>
+<a id="kokenevent_album" name="kokenevent_album"></a>
+
+<h3>koken:event_album <span class="labels"> <span class="label label_event">Event</span> </span></h3>
+
+<p>Renders a public album in a timeline event. Here&#39;s an example from a timeline.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:event&gt;
+      &lt;koken:event_album&gt;
+        &lt;-- Link to view the album in album.lens --&gt;
+        &lt;koken:link&gt;
+          &lt;-- Displays the album&#39;s primary cover --&gt;
+          &lt;koken:img /&gt;
+          {{ album.title }}
+        &lt;koken:link&gt;
+      &lt;/koken:event_album&gt;
+    &lt;/koken:event&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:load&gt;
+</pre>
+
+<h3>koken:event_album_update <span class="labels"> <span class="label label_event">Event</span> </span></h3>
+
+<p>Renders content that&#39;s been added to a public album. The update event is only used for albums that are at least one day old. Otherwise <code>&lt;koken:event_album&gt;</code> is used. Here&#39;s an example from a timeline.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:event&gt;
+      &lt;koken:event_album_update&gt;
+        &lt;!-- Link to view the album in album.lens sorted by recency --&gt;
+        &lt;koken:link&gt;
+          &lt;koken:loop&gt;
+          &lt;!-- Display each added image --&gt;
+            &lt;koken:img /&gt;
+          &lt;/koken:loop&gt;
+          {{ album.title }}
+          &lt;!-- Display number of items added --&gt;
+          ({{ content.length }} new {{ content.length plural=&quot;items&quot; singular=&quot;item&quot; }})
+          {{ album.summary }}
+        &lt;koken:link&gt;
+      &lt;/koken:event_album_update&gt;
+    &lt;/koken:event&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:load&gt;
+</pre>
+<a id="kokenevent_content" name="kokenevent_content"></a>
+
+<h3>koken:event_content <span class="labels"> <span class="label label_event">Event</span> </span></h3>
+
+<p>Renders a public image or video in a timeline event. Here&#39;s an example from timeline.lens.</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:event&gt;
+      &lt;koken:event_content&gt;
+        &lt;!-- Render the image or video --&gt;
+        &lt;koken:content_image&gt;
+          &lt;!-- View image in content.lens --&gt;
+          &lt;koken:link&gt;
+            &lt;koken:img /&gt;
+          &lt;/koken:link&gt;
+        &lt;/koken:content_image&gt;
+        &lt;koken:content_video&gt;
+          &lt;koken:video /&gt;
+        &lt;/koken:content_video&gt;
+        &lt;!-- Display title or filename if not assigned --&gt;
+        {{ content.title | content.filename }}
+        {{ content.caption }}
+      &lt;/koken:event_content&gt;
+    &lt;/koken:event&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:load&gt;
+</pre>
+<a id="kokenevent_essay" name="kokenevent_essay"></a>
+
+<h3>koken:event_essay <span class="labels"> <span class="label label_event">Event</span> </span></h3>
+
+<p>Renders a published essay in a timeline event. Here&#39;s an example from timeline.lens.</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:event&gt;
+      &lt;koken:event_essay&gt;
+        &lt;!-- Link to view the essay in essay.lens --&gt;
+        &lt;koken:link&gt;
+          &lt;!-- Displays the essay&#39;s featured image --&gt;
+          &lt;koken:featured_image&gt;
+            &lt;koken:img /&gt;
+          &lt;/koken:featured_image&gt;
+          {{ essay.title }}
+          {{ essay.excerpt }}
+        &lt;koken:link&gt;
+      &lt;/koken:event_essay&gt;
+    &lt;/koken:event&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:load&gt;
+</pre>
+<a id="kokenexif" name="kokenexif"></a>
+
+<h3>koken:exif <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Publishes EXIF image metadata.</p>
+
+<table class="nowrap">
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;exif.clean&nbsp;}}</td>
+			<td>Used when looping over all EXIF data. Outputs EXIF values in human readable form. Eg, aperture would display as &quot;f/3.6&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.raw&nbsp;}}</td>
+			<td>Used when looping over all EXIF data. Outputs EXIF values from the original image. Eg, aperture would display as &quot;18/5&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.computed&nbsp;}}</td>
+			<td>Used when looping over all EXIF data. Outputs same value as <code>exif.clean</code> but without added characters. Eg, aperture would display as &quot;3.6&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.label&nbsp;}}</td>
+			<td>Used when looping over all EXIF data. Outputs the name of an EXIF property.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.make&nbsp;}}</td>
+			<td>The manufacturer of the camera.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.model&nbsp;}}</td>
+			<td>The model name or model number of the camera.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.image_description&nbsp;}}</td>
+			<td>Title of the image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.user_comment&nbsp;}}</td>
+			<td>Comments on the image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.aperture&nbsp;}}</td>
+			<td>The lens aperture.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.exposure&nbsp;}}</td>
+			<td>Exposure time.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.exposure_bias&nbsp;}}</td>
+			<td>Exposure bias.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.exposure_mode&nbsp;}}</td>
+			<td>The exposure mode set when the image was shot.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.flash&nbsp;}}</td>
+			<td>Indicates whether flash was used.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.focal_length&nbsp;}}</td>
+			<td>The actual focal length of the lens, in mm.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.iso_speed_ratings&nbsp;}}</td>
+			<td>The ISO speed value of the camera.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.lens&nbsp;}}</td>
+			<td>The type of lens used.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.metering_mode&nbsp;}}</td>
+			<td>The metering mode.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;exif.white_balance&nbsp;}}</td>
+			<td>Indicates the white balance mode set when the image was shot.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of EXIF items.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s an example that prints the entire list of EXIF values. It loops over each and outputs the EXIF label, then first tries to print its value using the &quot;clean&quot; (human readable) version. If that&#39;s not available it displays the &quot;raw&quot; (unformatted) EXIF value.</p>
+
+<pre class="prettyprint">
+&lt;koken:exif&gt;
+  &lt;koken:loop&gt;
+    &lt;strong&gt;{{&nbsp;exif.label&nbsp;}}&lt;/strong&gt;
+    {{&nbsp;exif.clean | exif.raw&nbsp;}}
+  &lt;/koken:loop&gt;
+&lt;/koken:exif&gt;
+</pre>
+
+<p>Example that displays specific EXIF properties and their values:</p>
+
+<pre class="prettyprint">
+&lt;koken:exif&gt;
+  &lt;koken:not empty=&quot;exif.model&quot;&gt;
+    &lt;strong&gt;Camera:&lt;/strong&gt; {{&nbsp;exif.model&nbsp;}}
+  &lt;/koken:not&gt;
+  &lt;koken:not empty=&quot;exif.exposure&quot;&gt;
+    &lt;strong&gt;Exposure:&lt;/strong&gt; {{&nbsp;exif.exposure&nbsp;}}
+  &lt;/koken:not&gt;
+&lt;/koken:exif&gt;
+</pre>
+
+<p>Values output by specific EXIF properties &mdash; like the example above &mdash; are &quot;clean&quot; by default. This means they&#39;re formatted for readability. You may change this to &quot;raw&quot; to display unformatted data from the original EXIF metadata or &quot;computed&quot; for numeric versions of &quot;clean&quot;. The example below shows two EXIF values displayed using both &quot;raw&quot; and &quot;computed&quot;. To use other variables simply append &quot;.raw&quot; or &quot;.computed&quot; for that specific value, if available.</p>
+
+<pre class="prettyprint">
+&lt;koken:exif&gt;
+  &lt;koken:not empty=&quot;exif.iso_speed_ratings&quot;&gt;
+    &lt;strong&gt;ISO:&lt;/strong&gt; {{ exif.iso_speed_ratings.raw }}
+  &lt;/koken:not&gt;
+  &lt;koken:not empty=&quot;exif.aperture&quot;&gt;
+    &lt;strong&gt;Aperture:&lt;/strong&gt; &lt;span class=&quot;fstop&quot;&gt;f&lt;/span&gt;/{{ exif.aperture.computed }}
+  &lt;/koken:not&gt;
+&lt;/koken:exif&gt;
+</pre>
+<a id="kokenfeatured_image" name="kokenfeatured_image"></a>
+
+<h3>koken:featured_image <span class="labels"> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>For publishing the featured image associated with an essay or page.</p>
+
+<p><strong>Example</strong></p>
+
+<p>In the following example from an essays.lens page we loop over each published essay and publish their title, excerpt and featured image.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+&lt;head&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;koken:load&gt;
+    &lt;koken:loop&gt;
+      &lt;article&gt;
+        &lt;koken:featured_image&gt;
+          &lt;koken:link&gt;
+            &lt;koken:img /&gt;
+          &lt;/koken:link&gt;
+        &lt;/koken:featured_image&gt;
+        &lt;h1&gt;{{ essay.title }}&lt;/h1&gt;
+        &lt;p&gt;{{ essay.excerpt }}&lt;/p&gt;
+      &lt;/article&gt;
+    &lt;/koken:loop&gt;
+  &lt;/koken:load&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<a id="kokenfiltered" name="kokenfiltered"></a>
+
+<h3>koken:filtered <span class="labels"> <span class="label label_album">Album</span> </span></h3>
+
+<p>Used when an album page is viewed using a url query to filter content by date, tag or category. If the page is filtered the template tag&#39;s content is rendered. This is useful for displaying information about the filter and link to view more content.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;filter.count&nbsp;}}</td>
+			<td>Number of items returned by the filter.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;filter.title&nbsp;}}</td>
+			<td>Filter data type. Returns &quot;Date&quot;, &quot;Tags&quot; or &quot;Categories&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;filter.value&nbsp;}}</td>
+			<td>Filter value. Returns the date, tag or category.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Example</strong></p>
+
+<p>The following code when added to album.lens first checks to see what type of filter is being used to access the page. After that it displays the total number of items the filter returned, the total number of items in the album, plus a link to view all the album&#39;s contents.</p>
+
+<pre class="prettyprint">
+&lt;koken:filtered&gt;
+  Displaying {{ filter.count }} of {{ album.counts.total }} / &lt;koken:link&gt;View all&lt;/koken:link&gt;
+&lt;/koken:filtered&gt;
+</pre>
+<a id="kokengeolocation" name="kokengeolocation"></a>
+
+<h3>koken:geolocation <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Publishes geolocation information for content items with GPS embedded in their EXIF data.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;geolocation.longitude&nbsp;}}</td>
+			<td>East/west geographic coordinate from the image&#39;s GPS data.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;geolocation.latitude&nbsp;}}</td>
+			<td>North/south geographic coordinate from the image&#39;s GPS data.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s an example that prints out a link to a Google map showing the location where the photo was taken:</p>
+
+<pre class="prettyprint">
+&lt;koken:geolocation&gt;
+  &lt;a href=&quot;http://maps.google.com/?q={{&nbsp;geolocation.latitude&nbsp;}},{{&nbsp;geolocation.longitude&nbsp;}}&quot;&gt;View map&lt;/a&gt;
+&lt;/koken:geolocation&gt;
+</pre>
+<a id="kokenhas_category" name="kokenhas_category"></a>
+
+<h3>koken:has_category <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Conditionally detects the presence of a particular category or categories and outputs any markup displayed inside. May be used with loading any data that has categories assigned to it.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>title</td>
+			<td>String</td>
+			<td>Title of the category or categories (comma separated) to detect.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In this example we detect the presence of a category named &quot;Portraits&quot;.</p>
+
+<pre class="prettyprint">
+&lt;koken:has_category title=&quot;Portraits&quot;&gt;
+  &lt;!-- Portraits category assigned. Render this. --&gt;
+&lt;koken:else&gt;
+  &lt;!-- Not found. Render this instead. --&gt;
+&lt;/koken:has_category&gt;
+</pre>
+
+<p>In this example we look for two categories. Only if both of the assigned categories are found would the tag&#39;s interior content display.</p>
+
+<pre class="prettyprint">
+&lt;koken:has_category title=&quot;Portraits,Landscapes&quot;&gt;
+  &lt;!-- Portraits and Landscapes category assigned. Render this. --&gt;
+&lt;koken:else&gt;
+  &lt;!-- Not found. Render this instead. --&gt;
+&lt;/koken:has_category&gt;
+</pre>
+<a id="kokenhas_tag" name="kokenhas_tag"></a>
+
+<h3>koken:has_tag <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Conditionally detects the presence of a particular tag or tags and outputs any markup displayed inside. May be used with loading any data that has tags assigned to it.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>title</td>
+			<td>String</td>
+			<td>Title of the tag or tags (comma separated) to detect.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In this example we detect the presence of a tag named &quot;blue&quot; to change the page background color.</p>
+
+<pre class="prettyprint">
+&lt;koken:has_tag title=&quot;blue&quot;&gt;
+  &lt;style&gt;
+    body {
+      background:blue;
+    }
+  &lt;/style&gt;
+&lt;koken:else&gt;
+  &lt;!-- Not found. Render this instead. --&gt;
+&lt;/koken:has_tag&gt;
+</pre>
+
+<p>In this example we look for two tags. Only if both of the assigned tags are found would the tag&#39;s interior content display.</p>
+
+<pre class="prettyprint">
+&lt;koken:has_tag title=&quot;red,blue&quot;&gt;
+  &lt;!-- Red and blue tags found. Render this. --&gt;
+&lt;koken:else&gt;
+  &lt;!-- Not found. Render this instead. --&gt;
+&lt;/koken:has_tag&gt;
+</pre>
+<a id="kokenhead" name="kokenhead"></a>
+
+<h3>koken:head <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Inserts markup into the <code>&lt;head&gt;</code> region of the parent HTML document. This is helpful in situations when a template that&#39;s including a global header needs to insert its own meta tags, javascript files, or other content.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example from an album.lens template we insert Facebook Open Graph meta tags into the template&#39;s <code>&lt;head&gt;</code>.</p>
+
+<pre class="prettyprint">
+&lt;koken:head&gt;
+  &lt;meta property=&quot;og:title&quot; content=&quot;{{&nbsp;site.title&nbsp;}}: {{&nbsp;album.title&nbsp;}}&quot; /&gt;
+  &lt;meta property=&quot;og:description&quot; content=&quot;{{&nbsp;album.summary&nbsp;}}&quot; /&gt;
+&lt;/koken:head&gt;
+</pre>
+
+<p>In this example we override the <code>&lt;title&gt;</code> tag in <code>&lt;head&gt;</code> with a custom one for the particular template being viewed.</p>
+
+<pre class="prettyprint">
+&lt;koken:head&gt;
+  &lt;title&gt;This title will be used instead&lt;/title&gt;
+&lt;/koken:head&gt;
+</pre>
+<a id="kokenimg" name="kokenimg"></a>
+
+<h3>koken:img <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Displays a library image.</p>
+
+<p>Koken measures the area surrounding the tag and returns an image size that is appropriate for the space. If a site visitor adjusts their browser window size or loads your site on a device with a smaller screen (phone, tablet, etc) Koken supplies new images that are no larger than necessary. This &quot;responsive&quot; image system provides desktop and mobile visitors with the highest image quality and smallest file sizes regardless of how they access your site.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>crop</td>
+			<td>Boolean</td>
+			<td>Controls whether the image is cropped to fit width and height.</td>
+		</tr>
+		<tr>
+			<td>data</td>
+			<td>String</td>
+			<td>Assigns a specific data source for the image.</td>
+		</tr>
+		<tr>
+			<td>fade</td>
+			<td>Boolean or Number</td>
+			<td>When true, image fades-in with half second duration. Assigning a number (milliseconds) fades-in the image with a custom duration.</td>
+		</tr>
+		<tr>
+			<td>height</td>
+			<td>Number</td>
+			<td>Assigns a <em>height</em> attribute and value to the <code>&lt;img&gt;</code> tag.</td>
+		</tr>
+		<tr>
+			<td>lazy</td>
+			<td>Boolean</td>
+			<td>When true, image loads when scrolled into view.</td>
+		</tr>
+		<tr>
+			<td>preset</td>
+			<td>String</td>
+			<td>Loads an available image size preset.</td>
+		</tr>
+		<tr>
+			<td>relative</td>
+			<td>Boolean</td>
+			<td>When true, a relative path will be used to for hte image src. Default value is <em>true</em>.</td>
+		</tr>
+		<tr>
+			<td>respond_to</td>
+			<td>String</td>
+			<td>Assigns which container dimension should serve as boundary for responsiveness. Acceptable values are &quot;width&quot; and &quot;height&quot;. Default is &quot;width&quot;.</td>
+		</tr>
+		<tr>
+			<td>size</td>
+			<td>String</td>
+			<td>Requests a cropped image using a custom aspect ratio.</td>
+		</tr>
+		<tr>
+			<td>width</td>
+			<td>Number</td>
+			<td>Assigns a <em>width</em> attribute and value to the <code>&lt;img&gt;</code> tag.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s a basic example. The contents.lens template displays a list of all uploaded library content (that is public). To display those images, create a loop and insert a <code>&lt;koken:img /&gt;</code> tag, like so:</p>
+
+<pre class="prettyprint">
+&lt;ol&gt;
+  &lt;koken:loop&gt;
+    &lt;li&gt;
+      &lt;koken:img /&gt;
+    &lt;/li&gt;
+  &lt;/koken:loop&gt;
+&lt;/ol&gt;
+</pre>
+
+<p><strong><em>Display cropped image using an aspect ratio</em></strong></p>
+
+<p>Let&#39;s say your layout has a grid of thumbnails that should all be the same width and height while retaining the ability to change size when their layout changes. You may do this by adding the <em>size</em> attribute. For example:</p>
+
+<pre class="prettyprint">
+&lt;ol&gt;
+  &lt;koken:loop&gt;
+    &lt;li&gt;
+      &lt;koken:img size=&quot;3:2&quot; /&gt;
+    &lt;/li&gt;
+  &lt;/koken:loop&gt;
+&lt;/ol&gt;
+</pre>
+
+<p>A cropped image will then be generated using the list element&#39;s width for the image&#39;s width and an image height that&#39;s 34% smaller. Koken will then use this aspect ratio whenever image updates are necessary.</p>
+
+<p><strong><em>Display preset image</em></strong></p>
+
+<p>If you&#39;d rather not use the default responsive behavior you may make a direct request to one of the image&#39;s preset image sizes by adding a <em>preset</em> attribute, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:img preset=&quot;medium&quot; /&gt;
+</pre>
+
+<p>Available size options include &quot;tiny&quot; (60px), &quot;small&quot; (100px), &quot;medium&quot; (480px), &quot;medium_large&quot; (800), &quot;large&quot; (1024px), &quot;xlarge&quot; (1600px) and &quot;huge&quot; (2048px).</p>
+
+<p>To display a preset and force its display to a particular dimension, add <em>width</em> and/or <em>height</em> properties. Whichever dimension is longest will be applied and the other will be proportionally calculated.</p>
+
+<pre class="prettyprint">
+&lt;koken:img preset=&quot;medium&quot; width=&quot;125&quot; height=&quot;125&quot; /&gt;
+</pre>
+
+<p>If the medium preset were 480px wide by 400px high, it would then output like so:</p>
+
+<pre class="prettyprint">
+&lt;img src=&quot;path/to/preset/&quot; width=&quot;125&quot; height=&quot;104&quot; /&gt;
+</pre>
+
+<p><strong><em>Display custom image</em></strong></p>
+
+<p>To request a custom image size assign <em>width</em> and <em>height</em> attributes by themselves. This will generate a proportionally scaled image using whichever dimension is longest:</p>
+
+<pre class="prettyprint">
+&lt;koken:img width=&quot;125&quot; height=&quot;125&quot; /&gt;
+</pre>
+
+<p>To request a custom image at the exact dimensions assigned by <em>width</em> and <em>height</em>, add a crop property set to &quot;true&quot;:</p>
+
+<pre class="prettyprint">
+&lt;koken:img width=&quot;125&quot; height=&quot;125&quot; crop=&quot;true&quot; /&gt;
+</pre>
+
+<p><strong><em>Lazy loading images</em></strong></p>
+
+<p>Lazy loading is a common technique where images out of view (usually lower in a page) aren&#39;t loaded until they&#39;re scrolled to. To use, add <code>lazy=&quot;true&quot;</code> to any <code>&lt;koken:img /&gt;</code> tag:</p>
+
+<pre class="prettyprint">
+&lt;koken:img lazy=&quot;true&quot; /&gt;
+</pre>
+
+<p>The resulting <code>&lt;img&gt;</code> tag won&#39;t request its image unless it&#39;s visible in the browser&#39;s viewport. A temporary <code>k-lazy-loading</code> class is appended to the unloaded image so theme authors may style the image&#39;s loading state. <code>k-lazy-loading</code> is then replaced with <code>k-lazy-loaded</code> when the image has loaded.</p>
+
+<p>Lazy loaded images fade-in using a half-second duration by default. To change the animation&#39;s duration, assign a <code>fade</code> attribute equal to the duration&#39;s length (in milliseconds). For example, the following creates a one second fade-in:</p>
+
+<pre class="prettyprint">
+&lt;koken:img lazy=&quot;true&quot; fade=&quot;1000&quot; /&gt;
+</pre>
+
+<p>If you&#39;d rather not fade images in (so they appear immediately) assign <code>false</code> as the value of <code>fade</code>, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:img lazy=&quot;true&quot; fade=&quot;false&quot; /&gt;
+</pre>
+
+<p><strong><em>Pass-through img attributes</em></strong></p>
+
+<p>To assign attributes like <code>class</code>, <code>style</code>, <code>data-*</code>, or anything else to the <code>img</code> tag Koken generates, add the attribute as you normally would to <code>&lt;koken:img /&gt;</code>. Koken will pass the attribute name and value through. Example:</p>
+
+<pre class="prettyprint">
+&lt;koken:img class=&quot;content&quot; /&gt;
+</pre>
+<a id="kokeninclude" name="kokeninclude"></a>
+
+<h3>koken:include <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Inserts the contents of an outside document. Example:</p>
+
+<pre class="prettyprint">
+&lt;koken:include file=&quot;includes/header.html&quot; /&gt;
+</pre>
+<a id="kokeniptc" name="kokeniptc"></a>
+
+<h3>koken:iptc <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Publishes IPTC image metadata.</p>
+
+<table class="nowrap">
+	<tbody>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>{{ iptc.label }}</td>
+			<td>Outputs the name of the IPTC property. Used when looping over all IPTC data.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.value }}</td>
+			<td>Outputs the value of the IPTC property. Used when looping over all IPTC data.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.byline }}</td>
+			<td>Name of the person who created the image.</td>
+		</tr>
+		<tr>
+			<td class="nowrap">{{ iptc.byline_title }}</td>
+			<td>Job title for the person assigned to byline.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.caption }}</td>
+			<td>Caption of the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.category }}</td>
+			<td>Category of the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.city }}</td>
+			<td>Name of the city pictured in the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.country }}</td>
+			<td>Name of the country pictured in the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.copyright }}</td>
+			<td>Contains any necessary copyright notice for claiming the intellectual property for this photograph and should identify the current owner of the copyright for the photograph.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.contact }}</td>
+			<td>Contact info for the person who created the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.credit }}</td>
+			<td>Who should be credited when this image is published.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.headline }}</td>
+			<td>A brief synopsis of the caption.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.keywords }}</td>
+			<td>Keywords to express the subject of the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.source }}</td>
+			<td>Identifies the original owner of the copyright for the intellectual content of the image. This could be an agency, a member of an agency or an individual.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.state }}</td>
+			<td>Name of the province or state pictured in the image.</td>
+		</tr>
+		<tr>
+			<td>{{ iptc.title }}</td>
+			<td>A shorthand reference for the digital image.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of IPTC items.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>To output a list of all IPTC data associated with an image you would use <code>{{ iptc.label }}</code> and <code>{{ iptc.value }}</code> inside a loop, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:iptc&gt;
+  &lt;ul&gt;
+    &lt;koken:loop&gt;
+      &lt;li&gt;
+        {{ iptc.label }}: {{ iptc.value }}
+      &lt;/li&gt;
+    &lt;/koken:loop&gt;
+  &lt;/ul&gt;
+&lt;/koken:iptc&gt;
+</pre>
+
+<p>To output a single value, just enter its variable from the table above, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:iptc&gt;
+  State: {{ iptc.state }}
+&lt;/koken:iptc&gt;
+</pre>
+<a id="kokenkeyboardscroll" name="kokenkeyboard_scroll"></a>
+
+<h3>koken:keyboard_scroll <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Adds smooth keyboard scrolling to a template using the left and right arrow keys.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>element</td>
+			<td>String</td>
+			<td>Assigns the class name of the target HTML element to scroll to.</td>
+		</tr>
+		<tr>
+			<td>offset</td>
+			<td>Number</td>
+			<td>Amount of vertical offset (in pixels) to apply at the beginning of the scroll point. Default is 50.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Keyboard scrolling is especially helpful on index pages containing long lists of content. The following example from a basic album.lens page shows how it works:</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:loop&gt;
+    &lt;div class=&quot;list-image&quot;&gt;
+      &lt;koken:img lazy=&quot;true&quot; fade=&quot;true&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/koken:loop&gt;
+  &lt;koken:keyboard_scroll element=&quot;div.list-image&quot; offset=&quot;10&quot; /&gt;
+&lt;/koken:load&gt;
+</pre>
+
+<p>Koken loops over all content in the album and wraps each image with <code>&lt;div class=&quot;list-image&quot;&gt;</code>. The <code>koken:keyboard_scroll</code> template tag (inserted after the loop) is then assigned the div&#39;s list-image class, plus a custom vertical offset. Once published, users may then scroll the page smoothly up and down to view content.</p>
+<a id="kokenlink" name="kokenlink"></a>
+
+<h3>koken:link <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Generates a content hyperlink. When used by itself, <code>&lt;koken:link&gt;</code> generates a link by inspecting which data is currently being rendered and dynamically fills the resulting anchor tag&#39;s <em>href</em> attribute with the link it needs. You may also point the link to a specific template by assigning a <em>source</em> attribute.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>bind_to_key</td>
+			<td>String</td>
+			<td>Binds the link to a keystroke. When the key or keys are pressed the link engages.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>class</td>
+			<td>String</td>
+			<td>Assigns a <em>class</em> attribute and value to the generated <code>&lt;a&gt;</code>.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>data</td>
+			<td>String</td>
+			<td>Assigns a specific data source for the link to link to.</td>
+			<td>current item</td>
+		</tr>
+		<tr>
+			<td>filter:id</td>
+			<td>String</td>
+			<td>Used in conjunction with <em>source</em> to link to a specific content, album, or essay page.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>lightbox</td>
+			<td>Boolean</td>
+			<td>Loads the linked content in the lightbox viewer. This should only be used when linking to a single album or image.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>share</td>
+			<td>String</td>
+			<td>Creates a link for sharing the canonical page URL of an image or video through social media platforms. Supported values include &quot;twitter&quot;, &quot;facebook&quot;, &quot;pinterest&quot;, &quot;tumblr&quot; and &quot;google-plus&quot;.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>style</td>
+			<td>String</td>
+			<td>Assigns a <em>style</em> attribute and value to the generated <code>&lt;a&gt;</code>.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>to</td>
+			<td>String</td>
+			<td>Loads a site template. Uses data source values (see below).</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>url</td>
+			<td>String</td>
+			<td>Custom URL to use for the link. Passed directly into the <code>&lt;a&gt;</code> tag&#39;s href attribute.</td>
+			<td>empty</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>For example, when used in a loop inside albums.lens, the link generated with each iteration points to the album.lens template to view each album.</p>
+
+<pre class="prettyprint">
+&lt;ul&gt;
+  &lt;koken:loop&gt;
+    &lt;li&gt;
+      &lt;h2&gt;&lt;koken:link&gt;{{&nbsp;album.title&nbsp;}}&lt;/koken:link&gt;&lt;/h2&gt;
+    &lt;/li&gt;
+  &lt;/koken:loop&gt;
+&lt;/ul&gt;
+</pre>
+
+<p>Now let&#39;s say you want to link back to albums.lens from album.lens. To do so you&#39;d insert <code>&lt;koken:link&gt;</code> into album.lens and assign it a <code>to</code> attribute with &quot;albums&quot; as its value, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:link to=&quot;albums&quot;&gt;View all albums&lt;/koken:link&gt;
+</pre>
+
+<h4>Data sources</h4>
+
+<p>The following table displays all available <code>to</code> values, a description of what they return, the .lens template a theme must include to support the link, plus any necessary filters that must be added to the link in order for it to function.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Data sources</th>
+			<th>Description</th>
+			<th>Template</th>
+			<th>Required filter</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: left;">album</td>
+			<td style="text-align: left;">Single album</td>
+			<td>album.lens</td>
+			<td style="text-align: left;">filter:id</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">albums</td>
+			<td style="text-align: left;">All top-level public albums and sets</td>
+			<td>albums.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">categories</td>
+			<td style="text-align: left;">All categories</td>
+			<td>categories.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">content</td>
+			<td style="text-align: left;">Single image or video</td>
+			<td>content.lens</td>
+			<td style="text-align: left;">filter:id</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">contents</td>
+			<td style="text-align: left;">All public images and videos</td>
+			<td>contents.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">essay</td>
+			<td style="text-align: left;">Single essay</td>
+			<td>essay.lens</td>
+			<td style="text-align: left;">filter:id</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">essays</td>
+			<td style="text-align: left;">All published essays</td>
+			<td>essays.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">favorites</td>
+			<td style="text-align: left;">All favorite images and videos</td>
+			<td>favorites.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">front</td>
+			<td style="text-align: left;">Front page</td>
+			<td>- none -</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">page</td>
+			<td style="text-align: left;">Single page</td>
+			<td>page.lens</td>
+			<td style="text-align: left;">filter:id</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">sets</td>
+			<td style="text-align: left;">All top-level sets</td>
+			<td>sets.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">tags</td>
+			<td style="text-align: left;">All tags</td>
+			<td>tags.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">timeline</td>
+			<td style="text-align: left;">All timeline events</td>
+			<td>timeline.lens</td>
+			<td style="text-align: left;">None</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Filtering links</h4>
+
+<p>For templates that require <code>filter:id</code> to function, assign the ID of the applicable item like so. You can find IDs for all content types in the right Inspector column inside Koken.</p>
+
+<pre class="prettyprint">
+&lt;koken:link to=&quot;album&quot; filter:id=&quot;10&quot;&gt;View album&lt;/koken:link&gt;
+</pre>
+
+<h4>Keystrokes</h4>
+
+<p>To bind a link to a keystroke you add the <code>bind_to_key</code> attribute with the keystroke you want assigned as its value. This comes in especially handy with pagination links to move forward/backward or other actions. In the example below we assign the left and right arrow keys to a pair of forward/backward links in a content.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:previous&gt;
+  &lt;koken:link bind_to_key=&quot;left&quot;&gt;Previous&lt;/koken:link&gt;
+&lt;/koken:previous&gt;
+&lt;koken:next&gt;
+  &lt;koken:link bind_to_key=&quot;right&quot;&gt;Next&lt;/koken:link&gt;
+&lt;/koken:next&gt;
+</pre>
+
+<p>To bind a keystroke to a normal HTML anchor assign a <code>data-bind-to-key</code> attribute followed by the key. For example:</p>
+
+<pre class="prettyprint">
+&lt;a href=&quot;http://koken.me&quot; data-bind-to-key=&quot;left&quot;&gt;Home&lt;/a&gt;
+</pre>
+
+<p>See <a href="https://github.com/madrobby/keymaster#supported-keys" target="_blank">all supported keys</a> for this attribute.</p>
+<a id="kokenload" name="kokenload"></a>
+
+<h3>koken:load <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>As explained in <a href="http://help.koken.me/customer/portal/articles/828688-lens-templates">templates</a>, <code>&lt;koken:load&gt;</code> is used to load data.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>filter:param</td>
+			<td>String</td>
+			<td>Assigns a filter to return a subset of data. <a href="#filtertypes">See parameters</a>.</td>
+			<td>null</td>
+		</tr>
+		<tr>
+			<td>infinite</td>
+			<td>Boolean</td>
+			<td>Allows paginated data to be dynamically appended to the current view when reaching the end of the viewport.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>infinite_toggle</td>
+			<td>String</td>
+			<td>ID of the (optional) element that will append the next set of paginated data when clicked.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>limit</td>
+			<td>Number</td>
+			<td>Limits the returned data to a specific number of results.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>limit_to</td>
+			<td>String</td>
+			<td>Used when loading archival data. Limits scope to a particular content type.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>order_by</td>
+			<td>String</td>
+			<td>To return loaded data in a particular order. See &quot;Ordering data&quot; below for values.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>order_direction</td>
+			<td>String</td>
+			<td>To control the direction in which data is displayed. Options include &quot;asc&quot; for ascending order, &quot;desc&quot; for descending order.</td>
+			<td>&quot;desc&quot;</td>
+		</tr>
+		<tr>
+			<td>source</td>
+			<td>String</td>
+			<td>For assigning a specific data source. Options include <em>albums</em>, <em>categories</em>, <em>category</em>, <em>content</em>, <em>contents</em>, <em>date</em>, <em>essay</em>, <em>essays</em>, <em>favorites</em>, <em>featured_albums</em>, <em>featured_content</em>, <em>featured_essays</em>, <em>page</em>, <em>tag</em>, <em>tags</em> and <em>timeline</em>.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>summary</td>
+			<td>Boolean</td>
+			<td>Used when loading archival data. Set to &quot;true&quot; for data that excludes content previews for a lighter and faster load.</td>
+			<td>false</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of loaded items.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>In its most basic use, <code>&lt;koken:load&gt;</code> loads a template&#39;s data. See below.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>To request specific data, add a <code>source</code> attribute equal to the <a href="http://help.koken.me/customer/portal/articles/828688-lens-templates">name of the data</a> you want. In the example below we load all published essays:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;essays&quot; limit=&quot;3&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;html&gt;
+</pre>
+
+<p>You may also include multiple <code>&lt;koken:load&gt;</code> tags in a single template. Below we use the index.lens template to load its native data source (<b>featured_content</b>) but then also request <b>essays</b> data to print the ten most recent essays.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+  &lt;!-- This koken:load tag loads featured content --&gt;
+  &lt;koken:load&gt;
+    &lt;!-- This koken:load tag loads essays --&gt;
+    &lt;koken:load source=&quot;essays&quot; limit=&quot;10&quot;&gt;
+      &lt;koken:loop&gt;
+        {{&nbsp;essay.title&nbsp;}}
+      &lt;/koken:loop&gt;
+    &lt;/koken:load&gt;
+  &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>To request a specific data source by ID you may add a <code>filter:id</code> attribute. In the example below we request an image by its ID (&quot;352&quot;). You may find content, album, essay and page IDs by selecting the items and looking for the &quot;ID&quot; row at the top of the right Inspector panel.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;content&quot; filter:id=&quot;352&quot;&gt;
+      &lt;koken:img /&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>Scroll down to &quot;Filtering data&quot; below for more detailed information on filtering data.</p>
+
+<h4>Limiting data</h4>
+
+<p><code>&lt;koken:load&gt;</code> limits data requests to 100 items or fewer. Fewer items may be returned by adding a <code>limit</code> attribute equal to the number of items you want. Here&#39;s an example using <code>limit</code>:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load limit=&quot;20&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>Additional data not loaded by <code>&lt;koken:load&gt;</code> may be accessed with pagination or by dynamically appending the additional data to the current page. The first option is handled with the <code>&lt;koken:pagination&gt;</code> tag, which you can see examples of <a href="#kokenpagination">below</a>.</p>
+
+<p>The second option is handled by adding an <code>infinite</code> attribute to <code>&lt;koken:load&gt;</code>. Additional data is then requested and appended to the current page when the user scrolls their browser window to the last item.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load infinite=&quot;true&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>Archival data sources that include multiple types of content &mdash; including <b>archives</b>, <b>categories</b> and <b>tags</b> &mdash; may be limited to return only one specific source. This is done by adding a <code>limit_to</code> attribute equal to the type of data you want. The table below includes acceptable values.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Limit to</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>albums</td>
+			<td>Returns only public albums from the list.</td>
+		</tr>
+		<tr>
+			<td>content</td>
+			<td>Returns only public library images/videos from the list.</td>
+		</tr>
+		<tr>
+			<td>essays</td>
+			<td>Returns only published essays from the list.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>For example, you could use <code>limit_to</code> to request all the categories that have been assigned to albums (but not for essays or content), as demonstrated below:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;categories&quot; limit_to=&quot;albums&quot; order_by=&quot;album_count&quot;&gt;
+      &lt;koken:categories&gt;
+        &lt;koken:loop separator=&quot;, &quot;&gt;
+          {{&nbsp;category.title&nbsp;}}
+        &lt;/koken:loop&gt;
+      &lt;/koken:categories&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<a id="filtertypes" name="filtertypes"></a>
+
+<h4>Filtering data</h4>
+
+<p>When requesting data directly you may filter data by adding a <code>filter</code> attribute. Available filters include:</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Filter</th>
+			<th>Type</th>
+			<th>Data source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: left;">filter:category</td>
+			<td style="text-align: left;">string</td>
+			<td style="text-align: left;">albums, contents, essays, archives</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:favorites</td>
+			<td style="text-align: left;">boolean</td>
+			<td style="text-align: left;">contents</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:featured</td>
+			<td style="text-align: left;">boolean</td>
+			<td style="text-align: left;">albums, contents, essays</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:flat</td>
+			<td style="text-align: left;">boolean</td>
+			<td style="text-align: left;">albums</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:id</td>
+			<td style="text-align: left;">string</td>
+			<td style="text-align: left;">album, content, essay, page</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:month</td>
+			<td style="text-align: left;">number</td>
+			<td style="text-align: left;">albums, contents, essays, archives</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:page</td>
+			<td style="text-align: left;">string</td>
+			<td style="text-align: left;">albums, contents, essays, archives</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:tags</td>
+			<td style="text-align: left;">string</td>
+			<td style="text-align: left;">albums, contents, essays, archives</td>
+		</tr>
+		<tr>
+			<td style="text-align: left;">filter:year</td>
+			<td style="text-align: left;">number</td>
+			<td style="text-align: left;">albums, contents, essays, archives</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Filters may be inclusionary or exclusionary. The example below filters <b>albums</b> to include featured albums only:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;albums&quot; filter:featured=&quot;true&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>If filtering by a parameter that&#39;s a string (not boolean like the above) you&#39;d do it like so:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;albums&quot; filter:category=&quot;category_name&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>To make the string exclusionary instead of inclusionary, add <code>:not</code>, as demonstrated below:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;albums&quot; filter:category:not=&quot;category_name&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>Filters may also be combined. Simply add another <code>filter</code> attribute, like so:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;essays&quot; filter:year=&quot;2010&quot; filter:month:not=&quot;12&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>As explained earlier, you may also use <code>filter</code> to grab a specific album, essay or content item using its ID. The example below loads an album assigned the ID of &quot;1&quot;, loops over each image it contains and publishes it using the <code>&lt;koken:img /&gt;</code> tag:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;album&quot; filter:id=&quot;1&quot;&gt;
+      &lt;koken:loop&gt;
+        &lt;koken:img /&gt;
+      &lt;/koken:loop&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>When loading a data source that supports more than one value (e.g., tags) each value should be comma separated. The example below loads all uploaded content and filters the results to display only those tagged &quot;desert&quot; and/or &quot;sand&quot;:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;contents&quot; filter:tags=&quot;desert,sand&quot;&gt;
+      &lt;koken:loop&gt;
+        &lt;koken:img /&gt;
+      &lt;/koken:loop&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>You would use the <code>page</code> filter to display paginated content. For example, if you wanted to load featured content, limit the number to 50 items, and then paginate the data if more than 50 are loaded, you would need to apply a <code>page</code> filter set to the current page number. We retrieve that through the <code>{{ location.parameters.page }}</code> variable, as demonstrated below:</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;featured_content&quot; filter:page=&quot;{{ location.parameters.page }}&quot;&gt;
+      &lt;koken:loop&gt;
+        &lt;koken:img /&gt;
+      &lt;/koken:loop&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<a id="ordering_data" name="ordering_data"></a>
+
+<h4>Ordering data</h4>
+
+<p>When a list of data is loaded (<b>archives</b>, <b>contents</b>, <b>essays</b>, <b>albums</b>, <b>categories</b>, <b>tags</b>) you may apply a custom order by adding <code>order_by</code> and <code>order_direction</code> attributes. If no <code>order_by</code> attribute is assigned content is returned in their manual order. The table below includes the options available to each data type.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Order by</th>
+			<th>Description</th>
+			<th>Data source</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>album_count</td>
+			<td>Number of albums in the archive.</td>
+			<td>categories, tags, archives</td>
+		</tr>
+		<tr>
+			<td>captured_on</td>
+			<td>Date a photo was captured (EXIF). If video, data is same as uploaded_on.</td>
+			<td>contents</td>
+		</tr>
+		<tr>
+			<td>content_count</td>
+			<td>Number of content items in the archive.</td>
+			<td>categories, tags, archives</td>
+		</tr>
+		<tr>
+			<td>created_on</td>
+			<td>Date the item was created.</td>
+			<td>contents, essays, albums</td>
+		</tr>
+		<tr>
+			<td>essay_count</td>
+			<td>Number of essays in the archive.</td>
+			<td>categories, tags, archives</td>
+		</tr>
+		<tr>
+			<td>modified_on</td>
+			<td>Date the item was last modified.</td>
+			<td>contents, essays, albums</td>
+		</tr>
+		<tr>
+			<td>published_on</td>
+			<td>Date the item was published publicly.</td>
+			<td>contents, essays, albums</td>
+		</tr>
+		<tr>
+			<td>title</td>
+			<td>Title of the item.</td>
+			<td>albums</td>
+		</tr>
+		<tr>
+			<td>total_count</td>
+			<td>Total number of assets the item contains.</td>
+			<td>albums</td>
+		</tr>
+		<tr>
+			<td>uploaded_on</td>
+			<td>Date the item was uploaded to Koken.</td>
+			<td>contents</td>
+		</tr>
+		<tr>
+			<td>video_count</td>
+			<td>Total number of videos the item contains.</td>
+			<td>albums</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>The example below returns all loaded albums by the date they were last modified.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load source=&quot;albums&quot; order_by=&quot;modified_on&quot; order_direction=&quot;desc&quot;&gt;
+      &lt;!-- Insert template tags/properties --&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<a id="kokenloop" name="kokenloop"></a>
+
+<h3>koken:loop <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Loops over a data until reaching the end.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;index&nbsp;}}</td>
+			<td>Current loop iteration number.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>data</td>
+			<td>String</td>
+			<td>Assigns a specific data source object to loop over.</td>
+		</tr>
+		<tr>
+			<td>limit</td>
+			<td>Number</td>
+			<td>Prevents looping beyond a fixed number.</td>
+		</tr>
+		<tr>
+			<td>separator</td>
+			<td>String</td>
+			<td>Inserts a string of text after each loop iteration.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s an example that outputs the title of all items in the contents.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;ul&gt;
+  &lt;koken:loop&gt;
+    &lt;li&gt;
+      &lt;h2&gt;{{&nbsp;title&nbsp;}}&lt;/h2&gt;
+    &lt;/li&gt;
+  &lt;/koken:loop&gt;
+  &lt;/ul&gt;
+&lt;/koken:load&gt;
+</pre>
+
+<p>If you need to know the number of the current loop, insert a <code>{{ index }}</code> variable, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;ul&gt;
+  &lt;koken:loop&gt;
+    {{ index }}
+  &lt;/koken:loop&gt;
+  &lt;/ul&gt;
+&lt;/koken:load&gt;
+</pre>
+<a id="kokenmax_download" name="kokenmax_download"></a>
+
+<h3>koken:max_download <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Displays maximum image download data.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;max_download.title&nbsp;}}</td>
+			<td>Returns the full title of the maximum download setting. Eg, &quot;Large (1024)&quot;</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;max_download.label&nbsp;}}</td>
+			<td>Returns just the maximum download setting&#39;s label. Eg, &quot;Large&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;max_download.link&nbsp;}}</td>
+			<td>Returns the absolute url of the image to be downloaded.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;max_download.width&nbsp;}}</td>
+			<td>Returns just the width of the downloadable image. Eg, &quot;1024&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;max_download.height&nbsp;}}</td>
+			<td>Returns just the height of the downloadable image. Eg, &quot;780&quot;.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s a usage example from content.lens.</p>
+
+<pre class="prettyprint">
+&lt;koken:max_download&gt;
+  &lt;p&gt;
+    &lt;strong&gt;Download image:&lt;/strong&gt;
+    &lt;koken:link&gt;{{&nbsp;max_download.title&nbsp;}}&lt;/koken:link&gt;
+  &lt;/p&gt;
+&lt;/koken:max_download&gt;
+</pre>
+
+<p>When published the title of whichever option is selected as the content&#39;s maximum download setting is wrapped with a hyperlink to download the image. If maximum download is set to &quot;None&quot; nothing is published. If you&#39;d like to display a fallback message instead, you can add a <code>&lt;koken:else&gt;</code> tag, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:max_download&gt;
+  &lt;p&gt;
+    &lt;strong&gt;Download image: &lt;/strong&gt;
+    &lt;koken:link&gt;{{&nbsp;max_download.title&nbsp;}}&lt;/koken:link&gt;
+  &lt;/p&gt;
+  &lt;koken:else&gt;
+  User has disabled downloads for this image.
+&lt;/koken:max_download&gt;
+</pre>
+
+<p>To output a link to the selected download option <em>plus</em> all smaller image sizes, add <code>&lt;koken:loop&gt;</code> inside, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:max_download&gt;
+  &lt;p&gt;
+    &lt;strong&gt;Download image:&lt;/strong&gt;
+    &lt;koken:loop&gt;
+      &lt;koken:link&gt;{{&nbsp;max_download.title&nbsp;}}&lt;/koken:link&gt;
+    &lt;/koken:loop&gt;
+  &lt;/p&gt;
+&lt;/koken:max_download&gt;
+</pre>
+<a id="kokenmeta" name="kokenmeta"></a>
+
+<h3>koken:meta <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Publishes dynamic author, description and keywords <code>&lt;meta&gt;</code> tags in the template <code>&lt;head&gt;</code>. Description tag uses the global site description edited in Settings &gt; Site Publishing by default. On content pages (essay.lens, content.lens, album.lens, etc) the description uses the content&#39;s description, caption, or summary. Keywords tag uses the global keywords edited in Settings &gt; Site Publishing, then appends tags on content pages.</p>
+
+<p><strong>Example</strong></p>
+
+<p>In the following we use both <code>&lt;koken:meta /&gt;</code> and <code>&lt;koken:title /&gt;</code> to publish dynamic <code>&lt;title&gt;</code> and <code>&lt;meta&gt;</code> tags.</p>
+
+<pre class="prettyprint">
+&lt;head&gt;
+  &lt;koken:title /&gt;
+  &lt;koken:meta /&gt;
+&lt;/head&gt;
+</pre>
+<a id="kokenmore" name="kokenmore"></a>
+
+<h3>koken:more <span class="labels"> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Publishes a &quot;read more&quot; link if an essay contains one. This allows publishers to post shorter previews of essays to essay index and archive pages.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;essay.read_more_label&nbsp;}}</td>
+			<td>The read more link&#39;s label. Returns &quot;Read more&quot; by default.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Example</strong></p>
+
+<p>The following example is from an essays.lens template. A list of all published essays is created. If an essay contains a read more link the content returned by <code>{{ essay.content }}</code> stops at the point where the publisher has inserted the link in the editor.</p>
+
+<pre class="prettyprint">
+&lt;h1&gt;{{ essay.title }}&lt;/h1&gt;
+
+{{ essay.content }}
+
+&lt;koken:more&gt;
+  &lt;koken:link title=&quot;{{ essay.title }}&quot;&gt;
+    {{ essay.read_more_label }}
+  &lt;/koken:link&gt;
+&lt;/koken:more&gt;
+</pre>
+<a id="kokennavigation" name="kokennavigation"></a>
+
+<h3>koken:navigation <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Inserts an unordered list of links from the primary navigation group.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>group</td>
+			<td>String</td>
+			<td>Displays links from a navigation group <span>defined by the theme</span>.</td>
+		</tr>
+		<tr>
+			<td>list</td>
+			<td>Boolean</td>
+			<td>Controls whether navigation links are published as an unordered list. Default value is true..</td>
+		</tr>
+		<tr>
+			<td>nested</td>
+			<td>Boolean</td>
+			<td>When set to true, a linked set will display its child items as a nested navigation list inside itself (instead of linking to set.lens). Koken automatically includes the necessary Javascript so that nested lists are hidden by default, then open/close when their parent set is clicked. Default value is false.</td>
+		</tr>
+		<tr>
+			<td>fallbacktext</td>
+			<td>String</td>
+			<td>Displays a string of text when a navigation group doesn&#39;t contain any links. Text only appears in a theme&#39;s draft view inside the console.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>CSS classes</strong></p>
+
+<p>Classes are added to hyperlinks so they may be targeted and styled by theme developers. They include:</p>
+
+<ul>
+	<li><em>.k-nav-current</em> - Assigned to the navigation link of the currently loaded page.</li>
+	<li><em>.k-nav-set</em> - Assigned to links for sets that include a nested navigation.</li>
+	<li><em>.k-nav-open</em> - Assigned to any set&#39;s link that is toggled open.</li>
+	<li><em>.k-nav-list</em> - Each unordered list element receives this class.</li>
+	<li><em>.k-nav-root</em> - Applied to the top level unordered list only.</li>
+</ul>
+
+<p><strong>Examples</strong></p>
+
+<p>The following example inserts the primary navigation into a template:</p>
+
+<pre class="prettyprint">
+&lt;koken:navigation /&gt;
+</pre>
+
+<p>The following example uses the <em>group</em> property to display a custom navigation group.</p>
+
+<pre class="prettyprint">
+&lt;koken:navigation group=&quot;name&quot; /&gt;
+</pre>
+
+<p>In this example we use <em>nested</em> to output nested links in the unordered list.</p>
+
+<pre class="prettyprint">
+&lt;koken:navigation nested=&quot;true&quot; /&gt;
+</pre>
+
+<p>When published the unordered list looks similar to this:</p>
+
+<pre class="prettyprint">
+&lt;ul class=&quot;koken-nav-list koken-nav-root&quot;&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;#&quot; class=&quot;koken-nav-set&quot;&gt;Set name&lt;/a&gt;
+    &lt;ul class=&quot;koken-nav-list&quot;&gt;
+      &lt;li&gt;
+        &lt;a href=&quot;#&quot;&gt;Album name&lt;/a&gt;
+        &lt;a href=&quot;#&quot;&gt;Album name&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+<a id="kokenneighbors" name="kokenneighbors"></a>
+
+<h3>koken:neighbors <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Extends <a href="#kokennext"><code>&lt;koken:next&gt;</code></a> and <a href="#kokenprevious"><code>&lt;koken:previous&gt;</code></a> by smartly allocating sibling count to each template tag depending on the position of the current item in view.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>count</td>
+			<td>Number</td>
+			<td>The number of siblings to allocate.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>For example, let&#39;s say you want a thumbnail-based navigation in content.lens that should display three images: previous content on the left, current content in the middle, next content on the right. By wrapping the <code>&lt;koken:next&gt;</code> and <code>&lt;koken:previous&gt;</code> tags with <code>&lt;koken:neighbors&gt;</code>, if the current item is first then two siblings are allocated to <code>&lt;koken:next&gt;</code> (and <code>&lt;koken:previous&gt;</code> would not be published). If the current item is last, <code>&lt;koken:previous&gt;</code> would receive two siblings (and <code>&lt;koken:next&gt;</code> would not be published).</p>
+
+<p>Here&#39;s example code:</p>
+
+<pre class="prettyprint">
+&lt;ol&gt;
+  &lt;koken:neighbors count=&quot;2&quot;&gt;
+    &lt;koken:previous&gt;
+      &lt;koken:loop&gt;
+        &lt;li&gt;
+          &lt;koken:link&gt;
+            &lt;koken:img preset=&quot;tiny&quot; crop=&quot;true&quot; width=&quot;60&quot; height=&quot;60&quot; /&gt;
+          &lt;/koken:link&gt;
+        &lt;/li&gt;
+      &lt;/koken:loop&gt;
+    &lt;/koken:previous&gt;
+    &lt;li&gt;
+      &lt;!-- The current image --&gt;
+      &lt;koken:img preset=&quot;tiny&quot; crop=&quot;true&quot; width=&quot;60&quot; height=&quot;60&quot; /&gt;
+    &lt;/li&gt;
+    &lt;koken:next&gt;
+      &lt;koken:loop&gt;
+        &lt;li&gt;
+          &lt;koken:link&gt;
+            &lt;koken:img preset=&quot;tiny&quot; crop=&quot;true&quot; width=&quot;60&quot; height=&quot;60&quot; /&gt;
+          &lt;/koken:link&gt;
+        &lt;/li&gt;
+      &lt;/koken:loop&gt;
+    &lt;/koken:next&gt;
+  &lt;/koken:neighbors&gt;
+&lt;/ol&gt;
+</pre>
+<a id="kokennext" name="kokennext"></a>
+
+<h3>koken:next <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>For loading and publishing sibling data related to the currently loaded content. <code>&lt;koken:next&gt;</code> requests data on siblings ahead of an item while its counterpart <a href="#kokenprevious"><code>&lt;koken:previous&gt;</code></a> requests data on the siblings before. The data returned is the full object for the data type, including <em>essay</em>, <em>album</em> and <em>content</em>.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>count</td>
+			<td>Number</td>
+			<td>The number of siblings to be returned in the requested data. Defaults to 1.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Let&#39;s start with a basic example. In essay.lens, if you wanted to display a link to the next essay using its title, you&#39;d do so like this:</p>
+
+<pre class="prettyprint">
+&lt;koken:next&gt;
+  &lt;koken:link&gt;
+    {{&nbsp;essay.title&nbsp;}}
+  &lt;/koken:link&gt;
+&lt;/koken:next&gt;
+</pre>
+
+<p>Now let&#39;s say you want to display links to the five siblings ahead of the current essay. You&#39;d add a <strong>count</strong> attribute and assign &quot;5&quot; as its value, then insert a loop to publish a link to each sibling, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:next count=&quot;5&quot;&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:link&gt;
+      {{&nbsp;essay.title&nbsp;}}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:next&gt;
+</pre>
+
+<p>To display alternate content when a sibling doesn&#39;t exist, insert a <code>&lt;koken:else&gt;</code> tag inside, followed by your fallback content. For example:</p>
+
+<pre class="prettyprint">
+&lt;koken:previous&gt;
+  &lt;koken:link&gt;
+    {{&nbsp;essay.title&nbsp;}}
+  &lt;/koken:link&gt;
+  &lt;koken:else&gt;
+    Nothing
+&lt;/koken:previous&gt;
+</pre>
+
+<blockquote>
+<p>Also see <a href="#kokenneighbors"><code>&lt;koken:neighbors&gt;</code></a> for related functionality.</p>
+</blockquote>
+<a id="kokennote" name="kokennote"></a>
+
+<h3>koken:note <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>For displaying helps tip or other information to a publisher. Contents of the note are only rendered when a theme is previewed and are not published to a live site.</p>
+<strong>Example</strong>
+
+<pre class="prettyprint">
+&lt;koken:note&gt;
+  Hello world
+&lt;/koken:note&gt;
+</pre>
+
+<p>When rendered, Koken wraps the note with a span assigned the class <code>k-note</code> so you can style it. For example:</p>
+
+<pre class="prettyprint">
+&lt;span class=&quot;k-note&quot;&gt;
+  Hello world
+&lt;/span&gt;
+</pre>
+<a id="kokenpagination" name="kokenpagination"></a>
+
+<h3>koken:pagination <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<p>For displaying additional data not loaded by <code>&lt;koken:load&gt;</code>.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>limit</td>
+			<td>Number</td>
+			<td>For limiting the number of page links to a particular number.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;is_current&nbsp;}}</td>
+			<td>Returns true if a loop&#39;s increment matches the page in view.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page&nbsp;}}</td>
+			<td>The current page number.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;pages&nbsp;}}</td>
+			<td>The total number of pages.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;link&nbsp;}}</td>
+			<td>The URL of the current page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;previous_page.number&nbsp;}}</td>
+			<td>The number of the page prior to the current one.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;previous_page.link&nbsp;}}</td>
+			<td>The URL of the previous page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;next_page.number&nbsp;}}</td>
+			<td>The number of the page ahead of the current one.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;next_page.link&nbsp;}}</td>
+			<td>The URL of the next page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;number&nbsp;}}</td>
+			<td>The number of the current page being looped over.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>CSS classes</strong></p>
+
+<ul>
+	<li><em>.k-pagination-current</em> - Assigned to the number associated with the current page.</li>
+</ul>
+
+<p><strong>Examples</strong></p>
+
+<p>The following example could be used in albums.lens, album.lens, contents.lens, essays.lens or any data load by <code>&lt;koken:load&gt;</code> that exceeds its <code>limit</code> value or the initial 100 items it returns:</p>
+
+<pre class="prettyprint">
+&lt;koken:pagination&gt;
+  &lt;ol&gt;
+    &lt;koken:pagination_previous&gt;
+    &lt;li class=&quot;prev&quot;&gt;
+      &lt;koken:link title=&quot;View page {{&nbsp;previous_page.number&nbsp;}}&quot;&gt;
+      Previous
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:pagination_previous&gt;
+    &lt;li&gt;
+      &lt;ol class=&quot;num&quot;&gt;
+        &lt;koken:loop&gt;
+          &lt;li&gt;
+            &lt;koken:link class=&quot;{{&nbsp;is_current&nbsp;}}&quot; title=&quot;View page {{&nbsp;number&nbsp;}}&quot;&gt;
+              {{&nbsp;number&nbsp;}}
+            &lt;/koken:link&gt;
+          &lt;/li&gt;
+        &lt;/koken:loop&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;koken:pagination_next&gt;
+    &lt;li class=&quot;next&quot;&gt;
+      &lt;koken:link title=&quot;View page {{&nbsp;next_page.number&nbsp;}}&quot;&gt;
+      Next
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:pagination_next&gt;
+  &lt;/ol&gt;
+&lt;/koken:pagination&gt;
+</pre>
+
+<p>You may also limit the number of page links by adding a <code>limit</code> attribute, plus the <code>&lt;koken:pagination_limited_previous&gt;</code> and <code>&lt;koken:pagination_limited_next&gt;</code> tags. Here&#39;s the same example from above modified to support limited page links.</p>
+
+<pre class="prettyprint">
+&lt;koken:pagination limit=&quot;10&quot;&gt;
+  &lt;ol&gt;
+    &lt;koken:pagination_previous&gt;
+    &lt;li class=&quot;prev&quot;&gt;
+      &lt;koken:link title=&quot;View page {{&nbsp;previous_page.number&nbsp;}}&quot;&gt;
+      Previous
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:pagination_previous&gt;
+    &lt;koken:pagination_limited_previous&gt;
+    &lt;li&gt;
+      &lt;koken:link&gt;
+      ...
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:pagination_limited_previous&gt;
+    &lt;li&gt;
+      &lt;ol class=&quot;num&quot;&gt;
+        &lt;koken:loop&gt;
+          &lt;li&gt;
+            &lt;koken:link class=&quot;{{&nbsp;is_current&nbsp;}}&quot; title=&quot;View page {{&nbsp;number&nbsp;}}&quot;&gt;
+              {{&nbsp;number&nbsp;}}
+            &lt;/koken:link&gt;
+          &lt;/li&gt;
+        &lt;/koken:loop&gt;
+      &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;koken:pagination_limited_next&gt;
+    &lt;li&gt;
+      &lt;koken:link&gt;
+      ...
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:pagination_limited_next&gt;
+    &lt;koken:pagination_next&gt;
+    &lt;li class=&quot;next&quot;&gt;
+      &lt;koken:link title=&quot;View page {{&nbsp;next_page.number&nbsp;}}&quot;&gt;
+      Next
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:pagination_next&gt;
+  &lt;/ol&gt;
+&lt;/koken:pagination&gt;
+</pre>
+<a id="kokenpagination_limited_next" name="kokenpagination_limited_next"></a>
+
+<h3>koken:pagination_limited_next <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<p>Used in conjunction with <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> to publish a link that loads the next group of paginated results when the number of links has been limited. See the <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> documentation for example usage.</p>
+<a id="kokenpagination_limited_previous" name="kokenpagination_limited_previous"></a>
+
+<h3>koken:pagination_limited_previous <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<p>Used in conjunction with <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> to publish a link that loads the previous group of paginated results when the number of links has been limited. See the <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> documentation for example usage.</p>
+<a id="kokenpagination_next" name="kokenpagination_next"></a>
+
+<h3>koken:pagination_next <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<p>Used in conjunction with <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> to publish a link that loads the next set of paginated data. See the <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> documentation for example usage.</p>
+<a id="kokenpagination_previous" name="kokenpagination_previous"></a>
+
+<h3>koken:pagination_previous <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<p>Used in conjunction with <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> to publish a link that loads the previous set of paginated data. See the <a href="#kokenpagination"><code>&lt;koken:pagination&gt;</code></a> documentation for example usage.</p>
+<a id="kokenparent" name="kokenparent"></a>
+
+<h3>koken:parent <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Loads parent index data into a child page. The data is loaded depends on the context in which the tag is used. If used in content.lens the tag loads the item&#39;s parent album and its content. If used in album.lens, and the album is a child of a set, the tag loads the parent album plus and sibling albums.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>order_by</td>
+			<td>Number</td>
+			<td>To return loaded data in a particular order. See <a href="#ordering_data">&quot;Ordering data&quot;</a> for acceptable values.</td>
+		</tr>
+		<tr>
+			<td>order_direction</td>
+			<td>Number</td>
+			<td>To control the direction in which data is displayed. Options include &quot;asc&quot; for ascending order, &quot;desc&quot; for descending order. Default value is &quot;desc&quot;.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The following code from content.lens displays images and links to sibling content in the item&#39;s parent album:</p>
+
+<pre class="prettyprint">
+&lt;koken:parent&gt;
+  &lt;ul&gt;
+    &lt;koken:loop&gt;
+    &lt;li&gt;
+      &lt;koken:link&gt;
+        &lt;koken:img width=&quot;100&quot; height=&quot;100&quot; /&gt;
+      &lt;/koken:link&gt;
+    &lt;/li&gt;
+    &lt;/koken:loop&gt;
+  &lt;/ul&gt;
+&lt;/koken:parent&gt;
+</pre>
+
+<p>Here&#39;s another example from album.lens that publishes images and links to sibling albums in an album&#39;s parent set (only albums that are in sets would show this):</p>
+
+<pre class="prettyprint">
+&lt;koken:parent&gt;
+  &lt;h6&gt;Other albums in {{&nbsp;album.title&nbsp;}}&lt;/h6&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:link&gt;
+      &lt;koken:covers&gt;
+        &lt;koken:img width=&quot;100&quot; height=&quot;100&quot; /&gt;
+      &lt;/koken:covers&gt;
+      {{&nbsp;album.title&nbsp;}}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:parent&gt;
+</pre>
+
+<blockquote>
+<p>Note: Whichever item in the data returned by <code>&lt;koken:parent&gt;</code> matches the page currently in view will receive a .k-current class assigned to the anchor tag generated by <code>&lt;koken:link&gt;</code>.</p>
+</blockquote>
+<a id="kokenpermalink" name="kokenpermalink"></a>
+
+<h3>koken:permalink <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Outputs the permalink url for content as a string. This is handy when needing to use a content url for something other than a hyperlink, in which case you&#39;d use <a href="#kokenlink"><code>&lt;koken:link&gt;</code></a>.</p>
+<a id="kokenpulse" name="kokenpulse"></a>
+
+<h3>koken:pulse <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> </span></h3>
+
+<p>Koken&#39;s default slideshow player. Complete documentation for Pulse&#39;s properties and events and usage examples may be read <a href="http://help.koken.me/customer/portal/articles/835067-overview">here</a>.</p>
+<a id="kokenprevious" name="kokenprevious"></a>
+
+<h3>koken:previous <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>For loading and publishing sibling data related to the currently loaded content. <code>&lt;koken:previous&gt;</code> requests data on siblings before an item while its counterpart <a href="#kokennext"><code>&lt;koken:next&gt;</code></a> requests data on the siblings ahead. The data returned is the full object for the data type, including <em>essay</em>, <em>album</em> and <em>content</em>.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>count</td>
+			<td>Number</td>
+			<td>The number of siblings to be returned in the requested data.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Let&#39;s start with a basic example. In essay.lens, if you wanted to display a link to the previous essay using its title, you&#39;d do so like this:</p>
+
+<pre class="prettyprint">
+&lt;koken:previous&gt;
+  &lt;koken:link&gt;
+    {{&nbsp;essay.title&nbsp;}}
+  &lt;/koken:link&gt;
+&lt;/koken:previous&gt;
+</pre>
+
+<p>Now let&#39;s say you want to display links to the five siblings before the current essay. You&#39;d add a <strong>count</strong> attribute and assign &quot;5&quot; as its value, then insert a loop to publish a link to each sibling, like so:</p>
+
+<pre class="prettyprint">
+&lt;koken:previous count=&quot;5&quot;&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:link&gt;
+      {{&nbsp;essay.title&nbsp;}}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:previous&gt;
+</pre>
+
+<p>To display alternate content when a sibling doesn&#39;t exist, insert a <code>&lt;koken:else&gt;</code> tag inside, followed by your fallback content. For example:</p>
+
+<pre class="prettyprint">
+&lt;koken:previous&gt;
+  &lt;koken:link&gt;
+    {{&nbsp;essay.title&nbsp;}}
+  &lt;/koken:link&gt;
+  &lt;koken:else&gt;
+    Nothing
+&lt;/koken:previous&gt;
+</pre>
+
+<blockquote>
+<p>Also see <code>&lt;koken:neighbors&gt;</code> for related functionality.</p>
+</blockquote>
+<a id="kokenprofile_facebook" name="kokenprofile_facebook"></a>
+
+<h3>koken:profile_facebook <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Rendered if the publisher&#39;s profile contains a Facebook profile link.</p>
+
+<p><strong>Example</strong></p>
+
+<p>Here we first use the tag to check for data, then print the the <a href="http://help.koken.me/customer/portal/articles/982033-lens-variables">variable</a> in a link.</p>
+
+<pre class="prettyprint">
+&lt;koken:profile_facebook&gt;
+  &lt;a href=&quot;{{&nbsp;profile.facebook&nbsp;}}&quot;&gt;
+    Facebook
+  &lt;/a&gt;
+&lt;/koken:profile_facebook&gt;
+</pre>
+<a id="kokenprofile_twitter" name="kokenprofile_twitter"></a>
+
+<h3>koken:profile_twitter <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Rendered if the publisher&#39;s profile contains a Twitter username.</p>
+
+<p><strong>Example</strong></p>
+
+<p>Here we first use the tag to check for data, then print the <a href="http://help.koken.me/customer/portal/articles/982033-lens-variables">variable</a> in a link.</p>
+
+<pre class="prettyprint">
+&lt;koken:profile_twitter&gt;
+  &lt;a href=&quot;http://twitter.com/{{&nbsp;profile.twitter&nbsp;}}&quot;&gt;
+    {{&nbsp;profile.twitter&nbsp;}}
+  &lt;/a&gt;
+&lt;/koken:profile_twitter&gt;
+</pre>
+<a id="kokenpublic" name="kokenpublic"></a>
+
+<h3>koken:public <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Renders content inside the tag if the tag&#39;s parent page is accessed through a public URL. If page is accessed through an unlisted URL (for example, an image, video, album or set with unlisted visibility) the tag&#39;s content is not rendered. Also see <code>&lt;koken:unlisted&gt;</code> for related functionality.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example we use the tag to conditionally display social media share links in the single image/video template (content.lens). The links are only displayed if the image/video has public visibility.</p>
+
+<pre class="prettyprint">
+&lt;koken:public&gt;
+  &lt;koken:link share=&quot;twitter&quot;&gt;Share on Twitter&lt;/koken:link&gt;
+  &lt;koken:link share=&quot;facebook&quot;&gt;Share on Facebook&lt;/koken:link&gt;
+&lt;/koken:public&gt;
+</pre>
+<a id="kokenrating" name="kokenrating"></a>
+
+<h3>koken:rating <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>For publishing ratings in a template (using our <a href="https://store.koken.me/plugins/rating">official plugin</a>).</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;rating&nbsp;}}</td>
+			<td>Renders the rating markup.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>The code below would render a header and rating markup if the publisher has a plugin enabled (e.g, our <a href="https://store.koken.me/plugins/rating">Rating plugin</a>) that targets the template tag.</p>
+
+<pre class="prettyprint">
+&lt;koken:rating&gt;
+  &lt;h3&gt;Likes&lt;/h3&gt;
+  {{ rating }}
+&lt;/koken:rating&gt;
+</pre>
+<a id="kokensearch" name="kokensearch"></a>
+
+<h3>koken:search <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Generates an HTML5 search element that uses Koken tags to autocomplete. The tag is designed to be used with the <a href="http://help.koken.me/customer/portal/articles/828688-lens-templates">tag.lens</a> template.</p>
+<a id="kokenselect" name="kokenselect"></a>
+
+<h3>koken:select <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>label</td>
+			<td>String</td>
+			<td>Assigns the label of the default option that appears when displayed.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Generates an HTML <code>&lt;select&gt;</code> element. The tag is designed to be used with archival links (dates, tags, categories) to display drop-downs for browsing content. The generated <code>&lt;select&gt;</code> element is assigned the &quot;k-select&quot; class so it can be targeted.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s example where <code>&lt;koken:select&gt;</code> is used to output a list of monthly archival links for essays.</p>
+
+<pre class="prettyprint">
+&lt;koken:dates limit_to=&quot;essays&quot;&gt;
+  &lt;koken:select label=&quot;Select month&quot; /&gt;
+&lt;/koken:dates&gt;
+</pre>
+
+<p>Here&#39;s an example that displays a list of global tags. Selected options automatically link to the tag.lens template.</p>
+
+<pre class="prettyprint">
+&lt;koken:tags&gt;
+  &lt;koken:select label=&quot;Select tag&quot; /&gt;
+&lt;/koken:tags&gt;
+</pre>
+<a id="kokensettings" name="kokensettings"></a>
+
+<h3>koken:settings <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Loads a theme&#39;s settings.css.lens document. This tag is explained in greater detail in the <a href="http://help.koken.me/customer/portal/articles/828692-settings">Theme Settings</a> overview.</p>
+<a id="kokentags" name="kokentags"></a>
+
+<h3>koken:tags <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Loads and displays tags.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>order_direction</td>
+			<td>String</td>
+			<td>Direction of order. Tags are always returned in alphabetical order. Options include <code>asc</code> for ascending order and <code>desc</code> for descending order.</td>
+			<td><code>asc</code></td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;tag.title&nbsp;}}</td>
+			<td>The title of the tag.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of tags.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>This example from a typical content.lens template prints a list of space separated tags, each linking to their respective archive pages:</p>
+
+<pre class="prettyprint">
+&lt;koken:tags&gt;
+  &lt;koken:loop separator=&quot; &quot;&gt;
+    &lt;koken:link&gt;
+      {{&nbsp;tag.title&nbsp;}}
+    &lt;/koken:link&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:tags&gt;
+</pre>
+<a id="kokentime" name="kokentime"></a>
+
+<h3>koken:time <span class="labels"> <span class="label label_content">Content</span> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> <span class="label label_event">Event</span> </span></h3>
+
+<p>Generates an HTML5 <code>&lt;time&gt;</code> element containing ISO standards for date and time. Formatting is controlled in the administrative console&#39;s Settings &gt; Publishing area. Using this tag to output timestamps is recommend so publishers may choose their preferred format.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>data</td>
+			<td>String</td>
+			<td>For assigning a specific (date related) data source. See <a href="#kokenload"><code>&lt;koken:load&gt;</code></a> for acceptable values.</td>
+		</tr>
+		<tr>
+			<td>relative</td>
+			<td>Boolean</td>
+			<td>Outputs time in relative terms (&quot;two hours ago&quot;). Default value is <em>false</em>.</td>
+		</tr>
+		<tr>
+			<td>show</td>
+			<td>String</td>
+			<td>Filters the printed timestamp to show the date (default), time (&quot;time&quot;) or both date and time (&quot;both&quot;).</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>This example from an essay.lens page prints the date the essay was published.</p>
+
+<pre class="prettyprint">
+&lt;koken:time /&gt;
+</pre>
+
+<p>When rendered the HTML output looks like so:</p>
+
+<pre class="prettyprint">
+&lt;time datetime=&quot;2011-12-27T18:00:00-06:00&quot;&gt;
+  December 27, 2011
+&lt;/time&gt;
+</pre>
+<a id="kokentitle" name="kokentitle"></a>
+
+<h3>koken:title <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Generates an HTML <code>&lt;title&gt;</code> tag wrapping title data for a template.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>separator</td>
+			<td>String</td>
+			<td>Character inserted between title strings (if necessary).</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<pre class="prettyprint">
+&lt;koken:title separator=&quot;:&quot; /&gt;
+</pre>
+<a id="kokentopics" name="kokentopics"></a>
+
+<h3>koken:topics <span class="labels"> <span class="label label_album">Album</span> <span class="label label_essay">Essay</span> </span></h3>
+
+<p>Loads a list of the topics assigned to an essay or page. Topics are for creating symbolic relationships between essays, pages and albums. Using topics you may publish links to albums from an essay/page and vice versa.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>order_by</td>
+			<td>String</td>
+			<td>Order in which topics are returned. Values include <code>title</code>, <code>published_on</code>, <code>modified_on</code> and <code>created_on</code>.</td>
+			<td><code>published_on</code> when used with album data, <code>title</code> when used with essay data.</td>
+		</tr>
+		<tr>
+			<td>order_direction</td>
+			<td>String</td>
+			<td>Direction of order. Options include <code>asc</code> for ascending and <code>desc</code> for descending.</td>
+			<td><code>desc</code> when used with album data, <code>asc</code> when used with essay data.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Total number of topics.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>This example from an essay.lens page outputs the topic by publishing the album&#39;s primary cover image and title, both of which are linked to the album page to view more images:</p>
+
+<pre class="prettyprint">
+&lt;koken:topics&gt;
+  &lt;h6&gt;Topics:&lt;/h6&gt;
+  &lt;koken:loop&gt;
+    &lt;p&gt;
+      &lt;koken:link&gt;
+        &lt;koken:img preset=&quot;small&quot; /&gt;
+      &lt;/koken:link&gt;
+      &lt;br&gt;
+      &lt;koken:link&gt;
+        {{ album.title }}
+      &lt;/koken:link&gt;
+    &lt;/p&gt;
+  &lt;/koken:loop&gt;
+&lt;/koken:topics&gt;
+</pre>
+<a id="kokenunlisted" name="kokenunlisted"></a>
+
+<h3>koken:unlisted <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Renders content inside the tag if the tag&#39;s parent page is accessed through an unlisted URL. If page is accessed through an public URL (for example, an image, video, album or set with public visibility) the tag&#39;s content is not rendered. Also see <code>&lt;koken:public&gt;</code> for related functionality.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example we use the tag to conditionally display a message to our friends and clients. The message is only displayed if the page is viewed through an unlisted URL.</p>
+
+<pre class="prettyprint">
+&lt;koken:unlisted&gt;
+  This page is unlisted. Please don&#39;t share.
+&lt;/koken:unlisted&gt;
+</pre>
+<a id="kokenvariable" name="kokenvariable"></a>
+
+<h3>koken:variable <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Creates a template variable and value. Once defined the variable may be used as an attribute value in other template tags.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>name</td>
+			<td>String</td>
+			<td>The name of the variable.</td>
+		</tr>
+		<tr>
+			<td>value</td>
+			<td>String</td>
+			<td>The value of the variable.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In this example we use <code>&lt;koken:variable /&gt;</code> to assign a value that is dependent on a content&#39;s context (whether the content is being viewed as part of an album or by itself). We then use the variables to write link labels for pagiation purposes.</p>
+
+<pre class="prettyprint">
+&lt;koken:if empty=&quot;content.context.album&quot;&gt;
+  &lt;koken:variable name=&quot;previous_label&quot; value=&quot;Older&quot; /&gt;
+  &lt;koken:variable name=&quot;next_label&quot; value=&quot;Newer&quot; /&gt;
+&lt;koken:else&gt;
+  &lt;koken:variable name=&quot;previous_label&quot; value=&quot;Previous&quot; /&gt;
+  &lt;koken:variable name=&quot;next_label&quot; value=&quot;Next&quot; /&gt;
+&lt;/koken:if&gt;
+
+&lt;koken:link data=&quot;content.context.previous.last&quot; title=&quot;{{ previous_label }}&quot;&gt;
+  {{&nbsp;previous_label&nbsp;}}
+&lt;/koken:link&gt;
+
+&lt;koken:link data=&quot;content.context.next.first&quot; title=&quot;{{ next_label }}&quot;&gt;
+  {{&nbsp;next_label&nbsp;}}
+&lt;/koken:link&gt;
+</pre>
+<a id="kokenvideo" name="kokenvideo"></a>
+
+<h3>koken:video <span class="labels"> <span class="label label_content">Content</span> </span></h3>
+
+<p>Inserts an HTML5 <code>&lt;video&gt;</code> element to display a video.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>autoplay</td>
+			<td>Boolean</td>
+			<td>Controls whether the video begins playback automatically when loaded. Default is false.</td>
+		</tr>
+		<tr>
+			<td>width</td>
+			<td>Number</td>
+			<td>Sets the display width of the <code>&lt;video&gt;</code> element. Height is calculated automatically. Defaults to 100%.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In this example (from a typical content.lens template) we first check to make sure the content is a video (using <a href="#kokencontent_video"><code>&lt;koken:content_video&gt;</code></a>) then insert inside the <code>&lt;koken:video /&gt;</code> tag to embed a video.</p>
+
+<pre class="prettyprint">
+&lt;koken:content_video&gt;
+  &lt;koken:video /&gt;
+&lt;/koken:content_video&gt;
+</pre>
+
+<h2 id="logic_tags">Logic tags</h2>
+
+<p>Template tags that provide programatic functionality.</p>
+<a id="kokenif" name="kokenif"></a>
+
+<h3>koken:if <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Basic conditional that tests something.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attributes</th>
+			<th>Type</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>condition</td>
+			<td>String</td>
+			<td>For testing one variable against another using operators. Supported operators include &gt; (greater than), &lt; (less than), == (equal), != (not equal), &gt;= (greater than or equal to), &lt;= (less than or equal to).</td>
+		</tr>
+		<tr>
+			<td>data, equals</td>
+			<td>Strings</td>
+			<td>Checks the value of data against the value of equals.</td>
+		</tr>
+		<tr>
+			<td>empty</td>
+			<td>Boolean</td>
+			<td>Checks data for length. If data contains no value, it is considered to be true.</td>
+		</tr>
+		<tr>
+			<td>true</td>
+			<td>Boolean</td>
+			<td>Tests a settings variable (of boolean type) for being true.</td>
+		</tr>
+		<tr>
+			<td>exists</td>
+			<td>Boolean</td>
+			<td>Tests to see if a variable exists in the assigned data.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>Here&#39;s a basic example:</p>
+
+<pre class="prettyprint">
+&lt;koken:if&gt;
+  &lt;!-- True, do this --&gt;
+&lt;koken:else&gt;
+  &lt;!-- False, do this --&gt;
+&lt;/koken:if&gt;
+</pre>
+
+<p>This example uses <em>empty</em> to test whether an image is being viewed in the context of a parent album or by itself:</p>
+
+<pre class="prettyprint">
+&lt;koken:if empty=&quot;content.context.album&quot;&gt;
+  &lt;!-- Not part of an album. Display this. --&gt;
+&lt;/koken:if&gt;
+</pre>
+
+<p>This example uses <em>data</em> and <em>equals</em> to check if a theme setting is equal to a particular value:</p>
+
+<pre class="prettyprint">
+&lt;koken:if data=&quot;settings.show_caption&quot; equals=&quot;Summary&quot;&gt;
+  &lt;!-- True, display this --&gt;
+&lt;/koken:if&gt;
+</pre>
+
+<p>This example uses <em>true</em> to test a boolean theme setting for being true/false:</p>
+
+<pre class="prettyprint">
+&lt;koken:if true=&quot;settings.show_date&quot;&gt;
+  &lt;!-- True, show this --&gt;
+&lt;koken:else&gt;
+  &lt;!-- False, show this --&gt;
+&lt;/koken:if&gt;
+</pre>
+
+<p>This example uses an &quot;or&quot; conditional to check two boolean theme settings for being true/false:</p>
+
+<pre class="prettyprint">
+&lt;koken:if true=&quot;settings.show_date || settings.show_title&quot;&gt;
+  &lt;!-- True, show this --&gt;
+&lt;koken:else&gt;
+  &lt;!-- False, show this --&gt;
+&lt;/koken:if&gt;
+</pre>
+
+<p>Here&#39;s the same example from above using an &quot;and&quot; conditional:</p>
+
+<pre class="prettyprint">
+&lt;koken:if true=&quot;settings.show_date &amp;&amp; settings.show_title&quot;&gt;
+  &lt;!-- True, show this --&gt;
+&lt;koken:else&gt;
+  &lt;!-- False, show this --&gt;
+&lt;/koken:if&gt;
+</pre>
+
+<p>...and finally, one that uses &quot;or&quot; and &quot;and&quot;:</p>
+
+<pre class="prettyprint">
+&lt;koken:if true=&quot;settings.bool_three || (settings.bool_one &amp;&amp; settings.bool_two)&quot;&gt;
+  &lt;!-- True, show this --&gt;
+&lt;koken:else&gt;
+  &lt;!-- False, show this --&gt;
+&lt;/koken:if&gt;
+</pre>
+<a id="kokenfirst" name="kokenfirst"></a>
+
+<h3>koken:first <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Returns the first item in loaded data. This is similar to <code>&lt;koken:shift&gt;</code> except it returns the first item without removing it from the data array.</p>
+
+<p>Here&#39;s an example where <code>&lt;koken:first&gt;</code> is used to display the first cover of an album in the albums.lens template:</p>
+
+<pre class="prettyprint">
+&lt;koken:covers&gt;
+  &lt;koken:first&gt;
+    &lt;koken:link&gt;
+      &lt;koken:img /&gt;
+    &lt;/koken:link&gt;
+  &lt;/koken:first&gt;
+&lt;/koken:covers&gt;
+</pre>
+<a id="kokennot" name="kokennot"></a>
+
+<h3>koken:not <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Used to test if something is not true. This is effectively the inverse of <a href="#kokenif"><code>&lt;koken:if&gt;</code></a> and supports the same attributes.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example a variable is tested for being empty using the <em>empty</em> attribute. If not (true) the caption is displayed.</p>
+
+<pre class="prettyprint">
+&lt;koken:not empty=&quot;content.caption&quot;&gt;
+  {{&nbsp;content.caption&nbsp;}}
+&lt;/koken:not&gt;
+</pre>
+<a id="kokenpop" name="kokenpop"></a>
+
+<h3>koken:pop <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Returns the last item in data returned by <a href="#kokenload"><code>&lt;koken:load&gt;</code></a>.</p>
+
+<p><strong>Examples</strong></p>
+
+<p>In the following example we use <code>&lt;koken:pop&gt;</code> in an albums.lens template to display the last album loaded in the list.</p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:pop&gt;
+    &lt;div class=&quot;album-featured&quot;&gt;
+      &lt;koken:img data=&quot;album.covers.first&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/koken:pop&gt;
+&lt;/koken:load&gt;
+</pre>
+<a id="kokenshift" name="kokenshift"></a>
+
+<h3>koken:shift <span class="labels"> <span class="label label_global">Global</span> </span></h3>
+
+<p>Returns the first item in data returned by <a href="#kokenload"><code>&lt;koken:load&gt;</code></a>.</p>
+
+<p><strong>Examples</strong></p>
+
+<pre class="prettyprint">
+&lt;koken:load&gt;
+  &lt;koken:shift&gt;
+    &lt;!-- first item displayed here --&gt;
+  &lt;/koken:shift&gt;
+&lt;/koken:load&gt;
+</pre>
+<script>
+$(function() {
+
+  var jumpTo = $('<select />'),
+    items = $('h3:contains("koken:")'),
+    hasHash = window.location.hash.length > 0,
+    offset = 40,
+                selected;
+
+  jumpTo.append( $('<option/>').text('Jump to tag') );
+
+  items.sort(function(a,b) {
+    var _a = $(a).text().substr(6),
+      _b = $(b).text().substr(6);
+    return _a == _b ? 0 : _a < _b ? -1 : 1;
+  });
+
+items.each(function(k,v) {
+    var ident = $(this).clone(),
+      el = $(this).prev();
+    ident.find('span').remove();
+    jumpTo.append( $('<option />').text(ident.text()).attr( 'class', el.attr('name') ) );
+    if ( hasHash && el.attr('name') === window.location.hash.substr(1) ) {
+      jumpTo.find('.' + el.attr('name')).attr('selected','selected');
+                        selected = jumpTo.find('.' + el.attr('name')).text();
+    }
+  });
+
+  jumpTo.on('change', function() {
+    var klass = $(this).find(':selected').attr('class'),
+      _offset = ( $('#jump_head').css('display') === 'none' ) ? (offset+20) : offset;
+    window.location.hash = (klass) ? klass : 'top';
+    if (klass) { $(document).scrollTop( $(document).scrollTop() - _offset ); }
+  });
+
+if ( hasHash ) {
+          var timer, docHeight = $(document).height();
+          window.setTimeout(function() {
+            timer = window.setInterval(function() {
+              if ( docHeight != $(document).height() ) {
+clearInterval(timer);
+                window.setTimeout(function() {
+                $(document).scrollTop( $('h3:contains("' + selected + '")').offset().top - offset )
+},100);
+              }
+            },10);
+          },10);
+        }
+
+  $('#jumpto_select').append(jumpTo);
+
+});
+</script><script>
+$(window).scroll(function() {
+    if ($(this).scrollTop()>319) {
+    $('#jumpto_select').appendTo('#jumpto_scroll');
+    } else {
+    $('#jumpto_select').appendTo('#jumpto_container');
+    }
+});
+</script>
+      </div>
+      
+      
+      <div id="rate_article_container" style="display:none;">
+	<div id="rate_article">
+		<div>
+			<a href="http://help.koken.me/customer/en/portal/articles/828690/rate?rating=1" class="rate_link" data-method="post" data-remote="true" rel="nofollow"> Yes </a>
+			<span>
+        I found this article helpful
+			</span>
+		</div>
+		<div class="rate-link-down">
+			<a href="http://help.koken.me/customer/en/portal/articles/828690/rate?rating=0" class="rate_link" data-method="post" data-remote="true" rel="nofollow"> No</a>
+			<span>
+        I did not find this article helpful
+			</span>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$.get('/customer/en/portal/articles/828690/is_rateable.json', function(json) {
+			if (json.is_rateable) {
+				$("#rate_article_container").show();
+			}
+		});
+	});
+</script>
+
+    
+    </div>
+  </div>
+  <!--
+  ***************
+  The following attribution needs to remain as is in terms of wording with the appropriate link back to desk.com as per our terms of service: http://www.desk.com/terms
+  If you would like, you may change the location or the styling to better match your site, but the content and the link must remain in the template and visible to end users.
+  ****************
+  -->
+  <div id='footer'>
+    <ul class="footer_nav">
+  <li>
+    <a href="http://koken.me">Koken.me home</a> 
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us @Koken</a>
+          </li>
+<li>
+            <a href="http://facebook.com/kokencms" title="Follow us on Facebook" onclick="window.open(this.href); return false;">Facebook</a>
+          </li>
+  <li>
+    <a href="https://plus.google.com/+KokenMe" onclick="window.open(this.href); return false;">Google+</a>
+  </li>
+  <li>
+    <a href="http://blog.koken.me">Blog</a>
+  </li>
+</ul>
+
+&copy; 2013-7 Koken. All Rights Reserved.
+    <br/>
+    <a href='http://www.Desk.com'>Customer service software</a> powered by Desk.com
+  </div>
+</div>
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop()>319) {
+        $('#jump_head:hidden').stop(true, true).fadeIn();
+    } else {
+        $('#jump_head').stop(true, true).fadeOut();
+    }
+});
+</script><!--end:page_article-->
+
+<!--end:portal_body-->
+
+    
+  </div>
+</div>
+
+<!-- Facebook Like Button -->
+<div id="fb-root"></div>
+
+<!-- External Variables for Portal Header -->
+<div id="desk-external-variables-header" class="desk-external-variables">
+   <div id="read_only"></div>
+    <div id="site-default_mailbox">support@koken.me</div>
+  <div id="desk_javascript_host">http://assets1.desk.com/</div>
+  <div id="twitter_enabled">false</div>
+  <div id="twitter_username">koken</div>
+  <div id="system-snippets-loading">Loading</div>
+  <div id="system-snippets-seconds_ago">seconds ago</div>
+  <div id="system-snippets-a_minute_ago">a minute ago</div>
+  <div id="system-snippets-minutes_ago">minutes ago</div>
+  <div id="system-snippets-an_hour_ago">an hour ago</div>
+  <div id="system-snippets-hours_ago">hours ago</div>
+  <div id="system-snippets-a_day_ago">a day ago</div>
+  <div id="system-snippets-days_ago">days ago</div>
+  <div id="system-snippets-about">about</div>
+  <div id="enable_gs">false</div>
+  <div id="system-snippets-invalid_characters_found">Invalid characters found</div>
+  <div id="site-search_autocomplete_articles_url">/customer/en/portal/articles/autocomplete</div>
+  <div id="search-term"></div>
+  
+</div>
+
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.shared.js"></script>
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.header.js"></script>
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.body.layout_footer.js"></script>
+
+<script>
+  $(function() {
+     prettyPrint();
+  
+     var pathname = (window.location.pathname);
+     if (pathname!="/") { 
+        $('#support-side ul li a').each(function() {
+          if ($(this).attr('href').indexOf(pathname) != -1)
+          {
+             $(this).addClass('current');
+          }
+        });
+     }
+
+     if($("#page_home").length > 0) {
+        $('main').addClass('page_home');
+      }
+  });
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36460516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</main>
+
+
+	</body>
+</html>

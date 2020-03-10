@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Plugin development</title>
+    <link>http://help.koken.me/customer/portal/topics/377728-plugin-development</link>
+    <description>Plugin development articles</description>
+    <item>
+      <title>Introduction to plugin development</title>
+      <description>Beginning with version 0.2.0, Koken includes a plugin API that allows you to build upon Koken's core features....</description>
+      <pubDate>Thu, 25 Jul 2013 20:48:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/835100</link>
+    </item>
+    <item>
+      <title>Building your first plugin</title>
+      <description>To create your first plugin, create a folder inside the storage/plugins directory. Folder names should only co...</description>
+      <pubDate>Thu, 25 Jul 2013 20:49:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/835102</link>
+    </item>
+    <item>
+      <title>Building the Google Analytics plugin</title>
+      <description>The following is a step-by-step guide on how the Google Analytics plugin for Koken was created. It covers many...</description>
+      <pubDate>Tue, 04 Dec 2012 22:49:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/835114</link>
+    </item>
+    <item>
+      <title>Hooks</title>
+      <description>Hooks are fired at particular points in Koken to signify that an event has taken place. Plugin developers can ...</description>
+      <pubDate>Thu, 07 Feb 2013 22:26:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/835104</link>
+    </item>
+    <item>
+      <title>Filters</title>
+      <description>Filters allow plugin developers to modify the output of Koken. Filters can be applied to API responses, or the...</description>
+      <pubDate>Thu, 07 Feb 2013 22:24:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/835106</link>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <description>Developing a shortcode plugin begins like any other Koken plugin -- by creating a folder to contain your plugi...</description>
+      <pubDate>Tue, 22 Jan 2013 20:38:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/953268</link>
+    </item>
+    <item>
+      <title>Defining an oEmbed provider</title>
+      <description>oEmbed is a format for allowing an embedded representation of a URL on third party sites. The simple API allow...</description>
+      <pubDate>Tue, 22 Jan 2013 20:48:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/956775</link>
+    </item>
+    <item>
+      <title>Pulse plugins</title>
+      <description>[Coming soon - instructions for building a plugin for Pulse]</description>
+      <pubDate>Tue, 04 Dec 2012 22:41:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874261</link>
+    </item>
+    <item>
+      <title>Labs</title>
+      <description>This page contains links to experimental plugins our development team has worked on and shared for other Koken...</description>
+      <pubDate>Thu, 28 Aug 2014 15:45:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1477894</link>
+    </item>
+  </channel>
+</rss>

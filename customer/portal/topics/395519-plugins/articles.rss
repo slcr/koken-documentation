@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Plugins</title>
+    <link>http://help.koken.me/customer/portal/topics/395519-plugins</link>
+    <description>Plugins articles</description>
+    <item>
+      <title>Installation</title>
+      <description>Follow these instructions to install any Koken plugin. 
+
+ Installation 
+
+  Connect to the server where Kok...</description>
+      <pubDate>Thu, 19 Sep 2013 19:51:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874124</link>
+    </item>
+    <item>
+      <title>Google Analytics</title>
+      <description>Automatically generates and inserts Google Analytics tracking code into your published site, regardless of wha...</description>
+      <pubDate>Thu, 17 Oct 2013 12:34:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874107</link>
+    </item>
+    <item>
+      <title>Font Loader</title>
+      <description>The Font Loader plugin allows publishers to apply custom web fonts to any Koken theme. Supported web font serv...</description>
+      <pubDate>Thu, 17 Oct 2013 12:34:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1015639</link>
+    </item>
+    <item>
+      <title>Disqus plugin</title>
+      <description>For displaying discussions alongside essays, content or other pages using a Disqus account. 
+
+ Download 
+
+...</description>
+      <pubDate>Thu, 23 Jan 2014 14:42:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1128533</link>
+    </item>
+    <item>
+      <title>rdio embed</title>
+      <description>For embedding albums, playlists and songs from the music streaming service rdio in an essay or page. 
+
+ Down...</description>
+      <pubDate>Thu, 30 May 2013 21:13:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/998034</link>
+    </item>
+    <item>
+      <title>Timeago</title>
+      <description>Turns any &amp;lt;koken:time&amp;gt; generated date or time and turns it into a relative date (e.g. 4 days ago).
+
+Down...</description>
+      <pubDate>Fri, 20 Sep 2013 15:08:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874109</link>
+    </item>
+    <item>
+      <title>HTML Injector</title>
+      <description>Allows publishers to inject arbitrary code before the &amp;lt;head&amp;gt; and/or &amp;lt;body&amp;gt; closing tags in a site ...</description>
+      <pubDate>Thu, 17 Oct 2013 12:36:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874110</link>
+    </item>
+    <item>
+      <title>Pulse countdown timer</title>
+      <description>This plugin adds a countdown timer animation to Pulse slideshows. The timer visualizes the amount of time left...</description>
+      <pubDate>Fri, 22 Feb 2013 21:31:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874126</link>
+    </item>
+    <item>
+      <title>Pulse transition pack</title>
+      <description>This plugin adds additional transition styles to Pulse, Koken's built-in slideshow player. The player is used ...</description>
+      <pubDate>Thu, 09 May 2013 17:37:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/874127</link>
+    </item>
+    <item>
+      <title>Spotify plugin</title>
+      <description>For embedding albums, playlists and songs from the music streaming service Spotify in an essay or page. 
+
+ D...</description>
+      <pubDate>Thu, 30 May 2013 22:24:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1166338</link>
+    </item>
+  </channel>
+</rss>

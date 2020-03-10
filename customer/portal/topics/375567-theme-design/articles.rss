@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Theme design</title>
+    <link>http://help.koken.me/customer/portal/topics/375567-theme-design</link>
+    <description>Theme design articles</description>
+    <item>
+      <title>Introduction</title>
+      <description>Ready to build your own theme? Fantastic. Here are some things you should know before doing so.
+
+
+ Themes 
+...</description>
+      <pubDate>Fri, 08 Feb 2013 14:26:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828686</link>
+    </item>
+    <item>
+      <title>Lens templates</title>
+      <description>Koken's Lens system uses a defined list of templates to display managed content. The following is a list of ea...</description>
+      <pubDate>Fri, 08 Feb 2013 00:13:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828688</link>
+    </item>
+    <item>
+      <title>Lens variables</title>
+      <description>Variables display simple string data, like an album title. Some variables are global and may be used anywhere ...</description>
+      <pubDate>Mon, 22 Apr 2013 20:43:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/982033</link>
+    </item>
+    <item>
+      <title>Lens tags</title>
+      <description>Lens template tags render HTML elements or conditionally load data. They are formatted like traditional HTML t...</description>
+      <pubDate>Fri, 19 Apr 2013 14:18:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828690</link>
+    </item>
+    <item>
+      <title>Lens events</title>
+      <description>The Lens template system fires several custom JavaScript events during different phases of the page loading pr...</description>
+      <pubDate>Thu, 07 Feb 2013 20:40:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/929836</link>
+    </item>
+    <item>
+      <title>Settings</title>
+      <description>This walkthrough extends our introduction to theme creation by explaining how your theme's appearance can be m...</description>
+      <pubDate>Thu, 07 Feb 2013 20:41:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828692</link>
+    </item>
+    <item>
+      <title>Settings types</title>
+      <description>This document is a developer's reference for creating theme settings. Be sure to read the settings overview fo...</description>
+      <pubDate>Fri, 16 Nov 2012 21:05:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828693</link>
+    </item>
+    <item>
+      <title>Styles</title>
+      <description>Styles provide site publishers with alternate theme appearances. This walkthrough will explain how Styles work...</description>
+      <pubDate>Mon, 17 Dec 2012 15:02:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/888149</link>
+    </item>
+    <item>
+      <title>Navigation groups</title>
+      <description>Navigation links in themes are defined by navigation groups. Every theme uses Koken's primary navigation group...</description>
+      <pubDate>Mon, 17 Dec 2012 22:31:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828694</link>
+    </item>
+    <item>
+      <title>CSS classes</title>
+      <description>Koken injects and wraps content with special classes that may be used in a style sheet. Here are the classes y...</description>
+      <pubDate>Wed, 24 Apr 2013 13:52:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/828695</link>
+    </item>
+  </channel>
+</rss>

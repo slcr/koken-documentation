@@ -1,0 +1,3 @@
+# Permanent Redirect
+RewriteEngine on
+Redirect 301 http://help.koken.me/ /

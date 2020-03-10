@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Videos</title>
+    <link>http://help.koken.me/customer/portal/topics/697721-videos</link>
+    <description>Videos articles</description>
+    <item>
+      <title>Installing themes and plugins</title>
+      <description>In this video we demonstrate how themes and plugins are downloaded and installed from the Koken Store to a Kok...</description>
+      <pubDate>Wed, 27 Aug 2014 18:32:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1673638</link>
+    </item>
+    <item>
+      <title>Vimeo Plugin</title>
+      <description>In this video we demonstrate our premium Vimeo import plugin which adds videos from Vimeo to your Koken Librar...</description>
+      <pubDate>Wed, 27 Aug 2014 18:36:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1673643</link>
+    </item>
+  </channel>
+</rss>

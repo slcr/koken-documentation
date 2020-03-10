@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Plugins</title>
+    <link>http://help.koken.me/customer/portal/topics/697568-plugins</link>
+    <description>Plugins articles</description>
+    <item>
+      <title>Vimeo Plugin</title>
+      <description>Hallo,
+I bought the vimeo plugin, but i cant import my films. The settings on vimeo are all “public“. Perhaps, you can help? Here the URL of the video: https://vimeo.com/137828874. 
+Thanks a lot,
+Henriette</description>
+      <pubDate>Tue, 01 Sep 2015 17:26:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14287590</link>
+    </item>
+    <item>
+      <title>Selling from a site</title>
+      <description>What shopping cart software do you use on your store.  It's very simple and straight forward.  I'm wanting to do something very similar but don't want to have to transfer control to Magento or such, AND don't have to have to manage yet another set of images.  Your store seems to be integrated.
+
+Maybe you'd like to sell the shopping cart as a plugin?
+
+Thanks</description>
+      <pubDate>Sun, 30 Aug 2015 02:17:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14276611</link>
+    </item>
+    <item>
+      <title>Finally,Facebook comments instead of discuss</title>
+      <description>Finally it's here: Facebook comments for your Koken site.
+Thanks to Martin Herbst and Koken Community Support, we can now enjoy not only the "like button" but we are also able to connect via comments to Facebook. :)
+
+Get it here: http://kokensupport.varoystrand.se/viewtopic.php?f=17&amp;t=156
+
+Best regards, Bjarne 
+Koken Community Support - http://kokensupport.varoystrand.se/ </description>
+      <pubDate>Sun, 23 Aug 2015 17:01:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14251794</link>
+    </item>
+    <item>
+      <title>Password dialog do not appear</title>
+      <description>Hi Support,
+
+i have purchased and tested the password functionality. It worked very well.
+
+Now I am trying to use it in production on my website. But whatever I do, the password dialog do not appear.
+
+This is my test album. I am always been redirected to a site showing all pasword protected albums and sets.
+http://www.light-and-lens.de/index.php?/alben/test/
+
+What can I do?
+
+thanks
+Holger</description>
+      <pubDate>Fri, 31 Jul 2015 12:59:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13045094</link>
+    </item>
+    <item>
+      <title>Vimeo Plugin - do you need a Plus membership?</title>
+      <description>Hello.
+
+I installed the Vimeo plugin, but it can't find my account name. I have a free account. Do I need Vimeo Plus for this to work? If not, any ideas why it can't find me?
+
+Thanks</description>
+      <pubDate>Sun, 26 Jul 2015 21:03:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13038290</link>
+    </item>
+    <item>
+      <title>Vimeo import doesn't work properly</title>
+      <description>I just bought the vimeo plugin. On vimeo, I have several videos, that aren't shown for the public. I just set them to be embedded. After having read, that for first import to koken, they have to be public, this worked fine for two files. To other clips are causing problems.
+
+When I try to import them, they get shown under "last imports" in the vimeo-pop-up. But as soon as I add them to my library, the thumbnail rests black with a spinning circle. No matter how long I wait, it never finishes. I already tried to set several security settings in vimeo, I deleted the files in koken and imported them again, I uploaded the videos again to vimeo + import to koken, but nothing works. Changing the browser between safari to firefox to chrome didn't help either.
+
+The clips are all from the same source (iPhone), there is no difference in postprocessing. The length is 1.30 minutes for the one, and about 3 minutes for the other video.
+
+I left one of the vieo files public. The URL is https://vimeo.com/133759810. My vimeo username is "fuchslocher".
+
+Maybe you can figure out the problem.
+Thanks a lot
+Philip</description>
+      <pubDate>Sun, 19 Jul 2015 13:10:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12998064</link>
+    </item>
+    <item>
+      <title>Using IG photos as Featured images</title>
+      <description>Hi, I tried to select a few my Instagram photos to be featured images on my homepage. That part works and they do show up however their quality is awful-- very low red. Is this a known issue? The weird thing is that the quality of the images in the Instagram album I have is totally fine (http://portfolio.francescofiondella.com/index.php?/albums/mobile-photography/). It's only when they're selected as featured that they become lower quality. 
+
+</description>
+      <pubDate>Sat, 25 Jul 2015 16:16:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12911632</link>
+    </item>
+    <item>
+      <title>Google Analytics not working</title>
+      <description>Version Koken: 0.21.2
+Version Plugin (Google Analytics): 1.2.0
+Theme: Chastain (1.5.0; black Background)
+
+Short: Google Analytics doesn´t work.
+
+Long: I´ve installed the Plugin via Store in the Koken Backend. Installation went fine, no errors. After that i inserted the Tracking ID and enabled the plugin. No mess so far ;). Sadly my Site doesn´t connect to GA. Script isn´t even loading when i visit the Site. GA shows no stats at all.
+
+Help! :)</description>
+      <pubDate>Fri, 24 Jul 2015 03:10:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12886018</link>
+    </item>
+    <item>
+      <title>Error when using Lightroom Export</title>
+      <description>Plugin Version: 1.2.10
+Lightroom Version: Lightroom CC
+
+Error: Can't update this collection. This plug-in’s post-processing task did not finish successfully.
+AgExportSession:recordRemoteCollectionId: remote ID must be a number or string
+
+When trying to create a new album and uploading in Koken, I receive the above error. I tried this on multiple new albums. </description>
+      <pubDate>Fri, 24 Jul 2015 03:01:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12884578</link>
+    </item>
+    <item>
+      <title>Image Protection</title>
+      <description>Image Protector Plugin does'nt work with the private (Password protected) albums. It allows copying the photos.
+Is it possible to desable the copy or protect those albums too ?</description>
+      <pubDate>Sat, 25 Jul 2015 16:17:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12876435</link>
+    </item>
+    <item>
+      <title>Password protection</title>
+      <description>Hi!
+
+Is it possible to password-protect a single page (not entire page!) with the Password Protection-Plugin?
+
+Thanks!
+</description>
+      <pubDate>Sat, 25 Jul 2015 16:17:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12875767</link>
+    </item>
+    <item>
+      <title>Categories in Smart Albums for Lightroom Plugin</title>
+      <description>So, I was setting up a Smart Album in my Lightroom plugin when I noticed that I could create one based on Category. Curious, I selected "Landscape" from the dropdown. Lo and behold, my landscape images were added to that album. I did the same thing for "Travel" and none of my travel photos were added. I created a third one for "City &amp; Architecture". Bam! All of my City and Architecture photos were added. So, now I can't figure out where in Lightroom I can change the category of my photos. I have the keywords added in case that's where they were pulled from. That didn't work. I see nowhere in the metadata to enter a category. They look very similar to that of 500px's categories. So, I'm wondering if they are somehow tied. 
+
+Nevertheless, my question is how do you change the category of your photos so that they are pulled into Smart Albums?</description>
+      <pubDate>Sat, 25 Jul 2015 16:17:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12838874</link>
+    </item>
+    <item>
+      <title>Password protected galleries</title>
+      <description>Protected galleries do not work anymore. If I build one - as described in the manual - its main symbol picture appears, but if one clicks on it, nothing happens. 
+
+Does anybody knows a solution for this problem?
+
+Thank you, Christoph
+</description>
+      <pubDate>Fri, 24 Jul 2015 03:05:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12833017</link>
+    </item>
+    <item>
+      <title>Vimeo Plugin - Thumbnails not loading</title>
+      <description>Hi there,
+
+I got a problem mentioned a few time on the board:
+After setting up koken and the vimeo plugin most of the thumbnails won't load, but remain with the loading circle.
+
+Interesting thing is, that in the backend different thumbs won't load, compared to the frontend.
+
+-&gt; schlechteeltern.de/v2
+-&gt; vimeo: vonschlechteneltern</description>
+      <pubDate>Fri, 24 Jul 2015 03:06:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12815738</link>
+    </item>
+    <item>
+      <title>Password protection &amp; Navigation 2</title>
+      <description>Hi, I got the title for this from an old post that has reached its max limit for posts, and the last post was in March. I haven't found anything else. (PS like most people, I love Koken great job!) 
+
+So password plugin... I've bought, installed and been through the tutorial... 
+I think most would agree sending out individual links to protected albums isn't practical. 
+I have added a link to a private album in the navigation as suggested in the tutorial. 
+
+But that's not really ideal. Why can't the password protected album appear with the rest of the albums, and then just click through to the password page? It makes sense for all albums to be on the same page, rather than have a separate 'Private' nav with all the private albums (looks silly if there is just one). Maybe it needs a small icon in the thumbnail to indicate that the album is protected... 
+
+Anyway so the question, isn't there a way to have the password protected album appear with all the other public album thumbnails? 
+
+If not, is there a way to create a public album with the same title as the protected album (with just one photo so it generates a thumbnail with the other public albums, and then change the href= link so it goes to the private album page site link instead? </description>
+      <pubDate>Wed, 17 Jun 2015 16:25:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12814591</link>
+    </item>
+    <item>
+      <title>LR plugin creates 'remote ID must be number or string exception'</title>
+      <description>Hello!
+
+I encounter the same exception as found in 
+http://help.koken.me/customer/portal/questions/8387421-koken-lightroom-publish-plugin-error
+http://help.koken.me/customer/portal/questions/6933938-lightroom-plugin-doesn-t-work
+
+Unfortunately the situation in my case is a little different to the 'solution' in the first discussion:
+Today I updated the LR plugin to the newest version 1.2.10. I have one koken installation and two Lightroom libraries. The first library has already been used for publishing since 2 years or so and the publishing process still works without any errors. To publish pictures from the second library I got a new plugin instance running in the within that library and authorization etc. worked fine. But now when I try to publish pictures from the second library I encounter the exception mentionned above. I tried to create new instances and authorizations several times but it didn't work. To avoid conflicts with existing folders I only tried to publish to newly created folders, though the original goal was to fill the same folders on my koken installation from different LR libraries, but this is another topic for later discussion.</description>
+      <pubDate>Sun, 07 Jun 2015 20:35:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12793178</link>
+    </item>
+    <item>
+      <title>Splash plugin doesn't work/ Regale 2</title>
+      <description>Hello there,
+
+I'm a new comer in the koken word, and I like a lot the possibilities and the fonction of the administration. But I've a problem I can't resolve by myself, I think I've tried all possibilities to settle the splash plugin for the front page (called HOME). I've created an album with 4 images inside, the direction of the album looks good. I've settled this album to go Front page and I've hidden the link on the navigation . The splash don't run, just one image is appearing and I don't know why. Could you help me please? Thanks a best regards!</description>
+      <pubDate>Fri, 07 Aug 2015 01:13:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12784513</link>
+    </item>
+    <item>
+      <title>Instagram plugin does not import images.</title>
+      <description>Hi,
+
+I have installed and configured and used the Instagram plugin to import 11 images. After that I have tried a couple of times, but import does not seem to be doing anything after the images are selected. At one stage i tried selecting 30 images, and all of them started flashing quickly on a screen. 
+
+Some images seem to be showing "Undefined photo imported from instagram" and there is no import.
+
+I can provide you with access to try it out.
+
+Srdjan
+ </description>
+      <pubDate>Sat, 22 Aug 2015 05:57:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12781395</link>
+    </item>
+    <item>
+      <title>Password Protect &amp; Pages</title>
+      <description>Hi,
+
+Will you update your password protect plugin to work with pages?
+
+It will be very usefull to write some news, text etc in a page. And protect these pages with a password like album.
+
+Regards,
+YellowRoach
+
+
+</description>
+      <pubDate>Thu, 04 Jun 2015 16:31:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12778502</link>
+    </item>
+    <item>
+      <title>Lightroom upload problem</title>
+      <description>Hey.
+I´m using the newest versions of Koken and the plugin Publish Service for Lightroom.
+Installation and setup worked fine. 
+But trying to publish from Lr to Koken the following error message:
+Upload to Koken failed. The following error returned: Unabale to write to output file.
+
+Any ideas?</description>
+      <pubDate>Fri, 07 Aug 2015 01:13:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12748666</link>
+    </item>
+    <item>
+      <title>cookies plugin</title>
+      <description>Hi
+
+I need to insert in my koken website a cookies disclaimer because in EU community it will be a law , could you help me?</description>
+      <pubDate>Fri, 07 Aug 2015 01:21:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12743791</link>
+    </item>
+    <item>
+      <title>Email Endpoints charset ?</title>
+      <description>Hi,
+
+I've just a little problem with email endpoints.
+My website is in french and contact form has french field name, with accent letter, like:
+Nom et prénom (name and first name).
+When I receive a mail, content is fine, but not the field name.
+
+ex:
+Nom et pru00e9nom
+––––––––––––––––––––––––––––––
+Jean Paul Hervé
+
+So I expect there is a file where the UTF-8 charset is not set.
+
+My database is UTF-8, and I don't where to check in PHP file of the plugin, or the koken files to force charset.
+
+Thanks for help
+
+Didier
+</description>
+      <pubDate>Wed, 03 Jun 2015 15:47:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12733400</link>
+    </item>
+    <item>
+      <title>Vimeo plugin video not found error</title>
+      <description>Hello.
+
+I've installed the Vimeo plugin and tried to import video.  I can see a list of videos to import in the import window, but any number of videos I choose remains stuck in the thumbnail generating mode.  I cannot play or open them but It shows a successful import.
+
+I then tried using various direct links for video import, including ones I saw in threads here that are known to be functional, still no go.  I get the error of "video not found at link".  I have made sure all the privacy setting is completely open on Vimeo end.
+
+Help?</description>
+      <pubDate>Fri, 22 May 2015 22:47:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12717945</link>
+    </item>
+    <item>
+      <title>Use iCloud with Email Endpoints?</title>
+      <description>Hi. Has anyone succeeded in setting up the Koken Email Endpoints plugin using an iCloud.com email address?
+
+The plugin documentation (https://store.koken.me/plugins/email-endpoints/guide/1) does site SMTP examples using free Gmail and Google Apps accounts, but no mention of iCloud?
+
+I've tried several times (using these iCloud settings - https://support.apple.com/en-us/HT202304), though have yet to receive a 'test email' sent from inside the Koken admin panel.
+
+Any info is appreciated - thanks.</description>
+      <pubDate>Fri, 22 May 2015 16:25:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12716005</link>
+    </item>
+    <item>
+      <title>How do you sort your photos in an album (by using Lithroom)?</title>
+      <description>Hey all!
+
+I'm using Lightroom (LR 6) to create and organize my albums. I found Koken with its plugin to be the best practice to publish and share my photos.
+
+In LR I'm using "Custom Order" and "Manual" in Koken. When I publish an album to Koken it happens sometimes, that Koken's photos have another order than LR. Is that because LR "forks" the upload to Koken and Koken's manual sorting is oriented on the published date?
+
+If I use the sequence number in LR as a prefix to the filename and upload a whole album, I can use the filename sorting mechanism in Koken. But if I only republish a modified photo to Koken, then gives LR the sequence number "1" and the sorting does not work.
+The only way out is, to republish the complete album if I modify one photo to keep the order.
+
+How do you sort your photos in an album? I want to avoid to check the sorting of the photos twice.
+
+
+Best regards,
+Dominik</description>
+      <pubDate>Wed, 20 May 2015 21:15:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12701464</link>
+    </item>
+    <item>
+      <title>Wordpress Plugin for Koken??</title>
+      <description>Why was there no response from the Koken team on this post?
+http://help.koken.me/customer/portal/questions/5356766-wordpress-front-end
+
+I purchased several instances of SlideShowPro &amp; still working but would like to move away from it since they officially discontinued it this year.  
+
+Please reply and let us know if there's going to be a WORDPRESS PLUGIN that allows us to pull and display content stored in Koken and display in Wordpress?
+
+Thanks!
+V</description>
+      <pubDate>Mon, 17 Aug 2015 09:07:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12628198</link>
+    </item>
+    <item>
+      <title>Vimeo plugin</title>
+      <description>Just tried to add a vimeo video trough the link option. The problem is that there's a black thumbnail with a spinning wheel, the metadata is already there, but no thumbnail and the video is not playing. 
+
+I have already read some complaints of the support. Is the rumor right that koken is dying? 
+
+Waiting your reply. </description>
+      <pubDate>Thu, 21 May 2015 09:51:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12521515</link>
+    </item>
+    <item>
+      <title>Lightroom Plugin and Sub albums</title>
+      <description>Hi, 
+
+There might be an issue with the lightroom plugin and sub-albums. I have a structure like this
+
+album
+- sub album 1
+- - sub sub album 1
+- - sub sub album 2
+- - sub sub album 3
+- sub album 2
+- sub album 3
+
+Now I create 'sub album 1' with it's sub albums before I create 'sub album 2' - when I then create 'sub album 2' and published it, it was created as a sub album to 'sub album 1'.
+
+For it looks like the plugin have a problem handling albums within albums.
+
+Thanks,
+Casper</description>
+      <pubDate>Sat, 30 May 2015 19:33:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12456517</link>
+    </item>
+    <item>
+      <title>Watermark showing on private images</title>
+      <description>I understood that watermarks would not be applied by the plugin to images in private (password protected) albums -- this is what I want to happen. 
+
+But if I move albums (or images) from public to private, watermark persists. How to I force Koken to make new derivative image files without watermarks?</description>
+      <pubDate>Thu, 21 May 2015 16:53:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12414539</link>
+    </item>
+    <item>
+      <title>Size of the Video - Vimeo Plugin</title>
+      <description>Hi Guys,
+
+I'm working on my new website using Koken (Regale 2 Theme) and I just bought a Vimeo plugin to showcase some backstage movies in the behind the scenes section.
+
+I would like to ask if there is a way to control the default size of the Vimeo movie embeeded in the Koken gallery?
+
+I see two problems in this case.
+On the one hand if no HD version of the movie is available on the Vimeo site the embeeded video appears very small (which is quite OK, coz the quality is low too).
+On the other hand if the HD version of the movie is provided the video appears way to big (this looks terrible, coz the quality of the playback can only be low).
+
+It would be great if one could adjust the size of the Viemo frame on the Koken website so every video will have the same size - adequate to the allowed quality. 
+
+best
+Arkadiusz
+</description>
+      <pubDate>Thu, 21 May 2015 17:00:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12158804</link>
+    </item>
+    <item>
+      <title>Problem with Vimeo Plugin</title>
+      <description>Hi!
+I'm working with the Boulevard template, and after updating my Vimeo plugin, I'm having problems with importing new videos. They appear in a very small size,impossible to watch.
+Can you help me?
+Thank you!
+
+Best Regards
+Rui Peralta
+
+/Users/ruiperalta/Desktop/Screen Shot 2015-05-06 at 17.38.01.png</description>
+      <pubDate>Fri, 08 May 2015 16:54:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11875237</link>
+    </item>
+    <item>
+      <title>Vimeo Import</title>
+      <description>The Demo Video uses the theme Regale. Any Video that is clicked seems to leave the album page and is shown on its on page.
+
+Is that always the case, or can it be played back inside an album page? Using the Madison theme for example.</description>
+      <pubDate>Mon, 04 May 2015 13:51:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11692636</link>
+    </item>
+    <item>
+      <title>chair balenciaga handbags during</title>
+      <description>BabyCenter Blog
+
+Each of my babies has a song. It the song that I sing over and over to them each night before bed or while we spend hours rocking in a chair during those long, sleepless newborn nights. No matter how many different songs I try, it always seemed like one song would emerge as a favorite with each child. It would be the one that could stop the tears or help them settle down at night.
+
+With Birdy, my littlest, comes straight from one of my favorite kids music CDs by Renee Jeremy. I said it plenty of times before, but there aren many children music CDs that I like. Mostly, my [b][url=http://www.balenciagatop.com/]balenciaga handbags[/url][/b] kids listen to what I listen to can be anything from Dean Martin to bluegrass to U2. But there are a few kids CDs that stand out from the rest. That become such favorites, I be willing to listen to them even if there weren a kid in earshot to listen, too.
+
+Renee Jeremy are one of those duos that fall soundly in the favorite category. And just today they released a few more trippy songs to [b][url=http://www.balenciagatop.com/]balenciaga[/url][/b] their collection of cool videos on YouTube. As much as I loathe a lot of kids music, I also loathe adult music remixed for kids. But Renee Jeremy hit it on the mark. Coldplay? Red Hot Chili Peppers? Yes, please. Check out the videos below:When I'm not geeking out over baby gear, you can find me on my personal blog, MommyCoddle, talking about life with four girls in our fixerupper farmhouse in rural Maryland.
+
+This Internet site provides information of a general nature and is designed for educational purposes only. If you have any concerns about your own health or the health of your child, you should always consult with a physician or other healthcare professional.
+</description>
+      <pubDate>Mon, 04 May 2015 06:54:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11691221</link>
+    </item>
+    <item>
+      <title>Lightroom 6  - EXIF Data</title>
+      <description>Dear, 
+
+I'm using 1.2.10 of the Lightroom plugin.  It looks like not all EXIF data is published correctly with LR 6. When publishing wiht LR 5.7.1 the 'Camera' and 'Camera make' fields are filled in on the Koken-console. 
+
+When publishing with LR6, the 'Camera make' is displayed on the Koken Console, but remains empty. The "Camera" field is not displayed at all. It doesn't appear in the list when viewing the EXIF data. 
+
+Can you have a look ? 
+
+Thanks upfront.</description>
+      <pubDate>Wed, 03 Jun 2015 14:45:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11688556</link>
+    </item>
+    <item>
+      <title>Contact form</title>
+      <description>Is there a way to add captcha to the contact form like you have done on this form ?
+Many thanks. </description>
+      <pubDate>Sat, 02 May 2015 09:18:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11685803</link>
+    </item>
+    <item>
+      <title>Watermark plugin position on Splash Slideshow</title>
+      <description>Hi,
+
+I've just install yesterday the watermark plugin and for sure, I'm not really happy with the result.
+My homepage is a splash featured images slideshow, and images are cropped to fill the full page.
+
+The watermark position depends on image dimension and be also cropped to fill the page. In this case, watermark is ugly, and ridiculous.
+
+Is possible to exclude splash slideshow from watermark, or to define watermark position from frame size and not image size ?
+
+Thanks for help
+
+Didier</description>
+      <pubDate>Tue, 02 Jun 2015 16:25:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11683355</link>
+    </item>
+    <item>
+      <title>Vimeo thumbnail focal point</title>
+      <description>Is there a way to assign a focal point to a vimeo thumbnail? I have the thumbnails set on my page to display at 1:1 ( http://bryanrowland.com/albums/videos/)but they seem to be center cropping with no way to set a focal point like on an image. Any ideas? Thanks for the great work.
+
+</description>
+      <pubDate>Wed, 29 Apr 2015 23:53:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11676709</link>
+    </item>
+    <item>
+      <title>Image Protector Plugin with unlisted album</title>
+      <description>Hello, 
+
+Image Protector Plugin does'nt work with the unlisted albums. It allows copying the photos.
+Is it possible to desable the copy or protect those albums too  ?
+
+
+Best regards,
+
+Michel</description>
+      <pubDate>Sun, 26 Apr 2015 16:07:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11662604</link>
+    </item>
+    <item>
+      <title>Contact form - Mailchimp</title>
+      <description>Hello, 
+really like the new contact form feature! This really completes my site. :) 
+
+It would be really useful if there could be an easy form to use the contact form plugin to make a mailchimp form, like it it works in squarespace or wordpress. 
+
+Thanks very much!
+Yours Sebastian </description>
+      <pubDate>Mon, 10 Aug 2015 14:56:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11660201</link>
+    </item>
+    <item>
+      <title>Image Protector and Pinterest</title>
+      <description>Hi,
+
+I've recently purchased the Image Protector plugin and installed it on my site www.markus-wahl.de. I don't want to block pinning of my content but unchecking "Disallow pinning to Pinterest" has no effect. Pinning is blocked and the Pinterest butten deactivated either way. Due to this bug I'v disabled the Image protector plugin at the moment.
+
+Searching this forum I've found that the bug is around at least for some months:
+http://help.koken.me/customer/portal/questions/8471558-image-projector-bug-and-suggestions
+
+Any chances that this bug gets fixed soon as a disabled plugin for $20 is quite expensive.
+
+Thanks,
+Markus</description>
+      <pubDate>Tue, 02 Jun 2015 16:25:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11652106</link>
+    </item>
+    <item>
+      <title>Watermark plugin question</title>
+      <description>Hi ,
+
+I am looking at the way to display watermark in google image search , and only there , basically it not for copyright things but to hopefully increase click through rate as I get many image views but very few clicks .
+
+So thinking if somehow I can use watermark plug-in for that - what I am thinking if I can point google in scheme.org markup to  image if specific size which will only be used for that purpose will be excluded from normal images on my site ( don't want any watermarks there ) - so is any idea how to do this ? ( I mean chance plugin code obviously - but would be useful to get some hint where exactly)
+
+alternately - thinking of watermarking by javascript somehow - after checking that  image displays in google frame - any 3rd party solutions for that ?
+
+I understand that not current koken functionality - just thinking about options/ideas
+
+Thanks</description>
+      <pubDate>Fri, 07 Aug 2015 01:12:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11651200</link>
+    </item>
+    <item>
+      <title>Image Protector does not work on unlisted albums</title>
+      <description>I am using the 'Image Protector' plugin, but somehow it is still possible to download images from unlisted albums. Despite both the plugin and the downloadsettings of the individual photo's on 'none'.
+
+Could you please fix this?</description>
+      <pubDate>Tue, 21 Apr 2015 08:25:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11650097</link>
+    </item>
+    <item>
+      <title>Lightroom Plugin</title>
+      <description>Hi
+I wanted to update my pictures of my koken installation but I'm now getting suddenly an error:
+KokenAPI.lua:245: attempt to concatenate field 'content' (a nil value)
+
+Is there an update on the way to resolve this error?
+
+thanks in advance</description>
+      <pubDate>Fri, 08 May 2015 08:42:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11646190</link>
+    </item>
+    <item>
+      <title>slider-gallery?</title>
+      <description>Hello,
+just getting started and trying to find out, if Koken is the right choice for what I want.
+So first question: i want to show pictures, but they mustn't "pop out" or sth: 
+
+I need a slider, 
+where I can click (an arrow or sth) for next/previous, 
+drag them to go next/previous,
+where I can add description and title for each picture,
+and where there are optional thumbnails to show next to the picture.
+All that should have a responsive design.
+
+If you can help me, that would be great.
+Thanks alot!
+
+Jens</description>
+      <pubDate>Sun, 19 Jul 2015 13:09:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11644196</link>
+    </item>
+    <item>
+      <title>Search Functionality</title>
+      <description>Any idea when front end search capabilities will be implemented? Search on the back end is great - can't that be translated to front end?</description>
+      <pubDate>Wed, 22 Apr 2015 23:49:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11637965</link>
+    </item>
+    <item>
+      <title>Password Protect Plugin Session Expiration</title>
+      <description>Hi,
+
+what is the maximum configurable expire session timeout in the password protect plugin?
+
+Is there a demo site available before buying the plugin?
+
+Kind regards,
+Christian</description>
+      <pubDate>Wed, 22 Apr 2015 05:42:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11637515</link>
+    </item>
+    <item>
+      <title>Contact form</title>
+      <description>When you type into the fields of the contact form you cannot see the copy, but when to highlight it it's there. the text is in white and not black. Please advice.
+
+Regards</description>
+      <pubDate>Fri, 19 Jun 2015 10:14:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11624946</link>
+    </item>
+    <item>
+      <title>Lightroom plugin: again error after koken update</title>
+      <description>Hi
+
+In reference to the same problem I had earlier (http://help.koken.me/customer/portal/questions/9904065-lr-plug-in-an-internal-error-has-occurred-string-kokenapi-lua-243-attempt-to-concatenate-fiel):
+
+After upgrading koken to latest version 0.21.2 the error when trying to publish pictures from LR to koken re-appeared:
+"An internal error has occurred: [string "KokenAPI.lua"]:243: attempt to concatenate field 'content' (a nil value)"
+
+Any idea how to fix this this time?
+
+Best regards,
+Carsten
+</description>
+      <pubDate>Tue, 14 Apr 2015 19:43:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11617834</link>
+    </item>
+    <item>
+      <title>Comments</title>
+      <description>Hi! Please add comment function(plugin) to photo)</description>
+      <pubDate>Fri, 10 Apr 2015 12:44:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11617358</link>
+    </item>
+    <item>
+      <title>new contact form only visible in preview</title>
+      <description>I have installed the new contact form (Axis 2 theme) on a new page.
+The page works well in preview mode and the form is shown as expected.
+But live the page does only show the header and the form itself is not visible.
+Any ideas?</description>
+      <pubDate>Thu, 16 Apr 2015 09:00:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11611817</link>
+    </item>
+    <item>
+      <title>Password Protection CSS</title>
+      <description>I tried to change the login page for the Password Protection Plugin
+http://www.guerber.com/preview.php?/login/
+
+I could change the relevant text, but I could not find out how to change the background color to the same as my entire homepage.
+
+Can someone help please.
+
+Kind regards
+Urs</description>
+      <pubDate>Mon, 13 Apr 2015 21:59:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11606627</link>
+    </item>
+    <item>
+      <title>Koken LR Plugin not working, Albums are not created</title>
+      <description>Hi
+
+Koken LR Plugin does not work. I'm running the most current Versions (Koken &amp; Plugin). Error Message in LR:
+
+"Saving album failed. The server did not return an error message. Contact Koken support for more help"
+
+I'm struggling with the Plugin since I started to use Koken. From my point of view this feature is the biggest selling point  - and it's not good to have problems with...
+
+I'm based in Germany, so I'm availabe with a time gap only.
+
+Thx
+Roland</description>
+      <pubDate>Tue, 07 Apr 2015 23:44:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11603127</link>
+    </item>
+    <item>
+      <title>problems with password plugin</title>
+      <description>hello,
+
+i have written here a question about the password plugin, but nothing happens. why?
+
+thx,
+knut</description>
+      <pubDate>Mon, 13 Apr 2015 22:03:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11600009</link>
+    </item>
+    <item>
+      <title>New contact form doesn't send any mail</title>
+      <description>Hey guys!
+
+I hope one of you can help me. I'm desperate. I implemented the new contact form, but I'm not receiving any mail. The contact form is here: http://bergfolio.de/pages/kontakt/
+
+Also the testmail function in the backend is not working. :(
+
+Can someone detect any problem with my website?</description>
+      <pubDate>Fri, 03 Apr 2015 19:08:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11585955</link>
+    </item>
+    <item>
+      <title>contact form</title>
+      <description>Doesn't works. Smpt or API or self smpt, no way...
+Maybe next version ?
+Thanks for all</description>
+      <pubDate>Wed, 01 Apr 2015 01:53:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11575710</link>
+    </item>
+    <item>
+      <title>Pulse - not scaling to container size</title>
+      <description>Hi there!
+
+I tried setting up site using Koken (which I love btw!), but I have trouble using Pulse. I tried modifying default Koken theme, so that Pulse's container has for example 500px. However Pulse overrides it. And doesn't fit properly. 
+
+Any help would be much appreciated!</description>
+      <pubDate>Mon, 30 Mar 2015 22:41:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11574218</link>
+    </item>
+    <item>
+      <title>Lightroom plug in</title>
+      <description>1. install lightroom plugin
+2. I get api key from site
+3. log in insert key
+4. click Ok i'm done
+5. Screen http://joxi.ru/j1A50bupjo12Ed
+</description>
+      <pubDate>Tue, 31 Mar 2015 19:05:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11573723</link>
+    </item>
+    <item>
+      <title>New contact form does not send email</title>
+      <description>Hello. Hitting send message does not have any effect. 
+
+http://www.magiafotografii.pl/pages/kontakt2/ </description>
+      <pubDate>Mon, 30 Mar 2015 18:40:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11570479</link>
+    </item>
+    <item>
+      <title>contact form</title>
+      <description>Hello good morning from Germany,
+
+please help me to integrate a contact form
+into my site   www.juergenfriedrich.photography</description>
+      <pubDate>Sat, 28 Mar 2015 08:31:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11567148</link>
+    </item>
+    <item>
+      <title>contact form (text lowercase) - password protected albums (system getting slow)</title>
+      <description>hello kokenteam
+
+all the textmodules within koken except text in lowercase style - except the new contact form.
+it seems that it just turns every letter in a capital letter. or is there a way for me to change that
+(beside costum html code)
+
+/
+i use the password protection plugin - which is great.
+
+i created a collection (with the password protection) and within this collection are my alblums.
+i was also able to put collections within the password protected collection but then the whole system became so slow that i was not able to load my page in the browser any more. even the koken software itself became almost unusable. so i had to remove the collection within the psw. protected collection.
+
+does koken support that or is that something that has to do with my webspace limitations of the database...
+
+/
+like in this message i do have many slashes at the beginning of a new textline as a typographic element.
+but koken (or html) doesn´t accept the enter after the / to start the text after the slash in a new line - but... koken shows, or seems to accept the enter after the slash. what do i do wrong. i know that i have to hit shift-enter but it doesnt work - only within koken
+
+thanks for the great work
+and greetings from munich germany
+
+florian
+
+www.florianlechner.eu</description>
+      <pubDate>Mon, 30 Mar 2015 17:11:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11565617</link>
+    </item>
+    <item>
+      <title>Vimeo videos appearing tiny</title>
+      <description>Hello,
+
+I'm using a customised boulevard theme and I am wondering why the thumbnails for the Vimeo videos are coming up really small when I place them in an album. I've purchased the plugin and I would have hoped this would just work out of the box. 
+
+http://www.jillchloekenny.com/albums/film/
+
+Since the site is customised is there a specific piece of code or css or such I can use to fix this?
+
+Great CMS by the way!</description>
+      <pubDate>Sun, 30 Aug 2015 16:23:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11564891</link>
+    </item>
+    <item>
+      <title>Email contact form question</title>
+      <description>Hi ,
+
+I have custom Axis theme , I've copied manually css part in settings corresponding to contact form , and it looks ok now ,
+
+I am able to send test email successfully , but on the site itself when press "Send" nothing happens 
+
+Are there any other files I need to copy within Axis from origibal to custom version to make it work ? i.e. what files have been modified to support this form ?</description>
+      <pubDate>Thu, 26 Mar 2015 20:10:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11562215</link>
+    </item>
+    <item>
+      <title>Mandrill Test Working, But Contact Form Not</title>
+      <description>Hi,
+
+I've followed the help documentation and set up a contact form. However, for some reason when I try and test it nothing goes through (i.e. by filling out the actual web form). So I registered with Mandrill and it's the same. The strange thing is the test emails sends perfectly (from settings/email - send test email). 
+
+Anyone have any ideas?
+
+Thanks. </description>
+      <pubDate>Thu, 26 Mar 2015 17:25:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11561719</link>
+    </item>
+    <item>
+      <title>Contact Form</title>
+      <description>It would be great if you could provide some information which is the file to edit contact form email styling and how to remove message "You have received a new Koken contact form submission. The details of the submission are below."
+
+Thank You</description>
+      <pubDate>Thu, 26 Mar 2015 16:23:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11561501</link>
+    </item>
+    <item>
+      <title> Vimeo Plugin still not working</title>
+      <description>Hello Todd + Brad,
+sorry to nag on you, but I still have the problem that the vimeo plugin cannot find the video at the given address. My vimeo account is connected and visible, the video is set to be seen by anyone, but "latest uploads" dos not work and "enter a page url" produces the error described above. Please help me!
+
+This is the video: https://vimeo.com/123134316
+This is my installation of koken: http://web11.webgo24-server46.de
+
+Thank you!</description>
+      <pubDate>Mon, 30 Mar 2015 17:12:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11557147</link>
+    </item>
+    <item>
+      <title>Email Endpoints</title>
+      <description>Good afternoon.
+Install the plugin Email Endpoints, registered and introduced buckle and key mandrill. But before the mandrill messages are not getting through. Can affect the right of the folder 755 and 644 files on hosting?</description>
+      <pubDate>Tue, 24 Mar 2015 19:59:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11554363</link>
+    </item>
+    <item>
+      <title>private password</title>
+      <description>I dont see where the private plugin choices are.</description>
+      <pubDate>Thu, 04 Jun 2015 01:31:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11547558</link>
+    </item>
+    <item>
+      <title>Navigation links to password protected sets or albums</title>
+      <description>I'm not sure i completely understood the content of that thread:
+
+http://help.koken.me/customer/portal/questions/11453335-password-protection-navigation
+
+but i'm pretty sure it's targeting the missing feature to add navigation links to password protected albums.
+
+I'm using Koken 0.20.5 with the Plugin Password Protect 1.2.1 and i can't see no fix for that issue. Also the link provided by Brad https://store.koken.me/plugins/password-protect/guide/2 points to a blank page.
+
+I still can't add a link to a private, password protected album or set to the menu by "Site" - "Add links".
+
+The only way to achieve that is to make that private set or album public first, then add the link via "Site" - "Add links", and then make the set or album private again. This way, i have created the desired navigation link to a password protected set or album.
+
+Of course, that's far from being a solution, because private content should never be publicly shown.
+
+So, please provide a function to be able to add links to any content, no matter if password protected or not.
+
+Thank you,
+Michael</description>
+      <pubDate>Sun, 03 May 2015 19:32:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11537711</link>
+    </item>
+    <item>
+      <title>Watermark plugin and cropped images</title>
+      <description>I have the watermark plugin installed and activated for images above 480px.
+On my website I use the Madison Splash page as my frontpage.
+These images are cropped to get a fullscreen display, I like the feature where I set the focal point so I get the most important part of the image on screen.
+What I don't like is a half watermark, I would like the watermark plugin to be able to watermark my images every time when a cropped image is requested.
+Please could you make this available?
+Thank you very much!
+Regards, Richard Ovink</description>
+      <pubDate>Sun, 15 Mar 2015 13:24:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11521071</link>
+    </item>
+    <item>
+      <title>Scheduling publish/unpublish</title>
+      <description>Hello,
+is there or will there be a way to publish and unpublish texts  by date?
+
+With regards, Carsten</description>
+      <pubDate>Sun, 15 Mar 2015 11:45:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11520945</link>
+    </item>
+    <item>
+      <title>Vimeo Import plugin 1.1.8 and Boulevard theme 1.4.15</title>
+      <description>I, thank’s you all for your great Koken !
+
+I’ve just bought and installed the Vimeo Import plugin with my Boulevard theme.
+As you can see here : http://nicofroment.fr/albums/la-vie-en-rose/
+videos’ height are seriously not the same that pictures’ one. 
+How can I fixed that ?
+This is the latest Boulevard version I’ve installed.
+
+Moreover, if I don’t write any title for the video, the video doesn’t appear.
+
+Best,
+Nico.</description>
+      <pubDate>Fri, 13 Mar 2015 09:13:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11516136</link>
+    </item>
+    <item>
+      <title>Embedded Vimeo Video Not Playing in HD on Mobile</title>
+      <description>Hello,
+
+I recently embedded a vimeo video onto my Madison 2 themed site. It plays fantastically on the desktop version of the site, but when I view it on mobile (Android), I noticed the Vimeo play bar is cut off and it's playing in a really bad resolution. I don't even think it's 720p. Any help would be appreciated as to what I'm doing wrong?
+
+Thank you.</description>
+      <pubDate>Wed, 11 Mar 2015 19:23:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11512136</link>
+    </item>
+    <item>
+      <title>upload via lightroom</title>
+      <description>Is it possible to upload files via lightroom plugin and do some site settings at the SAME TIME ?
+
+Or does this cause a hodgepadge in koken's filesystem ?</description>
+      <pubDate>Wed, 11 Mar 2015 17:16:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11507655</link>
+    </item>
+    <item>
+      <title>Contact forms</title>
+      <description>Not a question, just that I've read a few posts about the lack of a plugin for forms. I've set a couple of forms via jotform.com then placed the embed code for the iframe into the code section for a text page. Jot form is free for my needs and doesn't place any advertising etc so it seems pretty good. It didn't work too well with using the embed code. I found the embedded code only loaded when I reloaded the page rather than when I went to the page the first time round. You can mess with css at jotform and there's various functions and features available. For example I have a bog standard contact form plus a form that allow people to upload to my dropbox account. I get a notification when either form is used. Jot form has google fonts and the standard web fonts so I wasn't able to match to my typekit fonts although helvetica in a form isn't too far off helvetica neue so it looks fine. I also have a mail chimp form embedded using the same method although I haven't taken the time to try and make it match my site.
+Hope this helps.
+</description>
+      <pubDate>Tue, 17 Mar 2015 14:17:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11506785</link>
+    </item>
+    <item>
+      <title>Password-Protect: Only tiny images after klicking on thumb, RSS-Feeds from protected Galleries.</title>
+      <description>Hi there! 
+
+I bought the plugin not because I need it really - but I want to support you. But when I buy a plugin, I'll test it. 
+My System is up-to-date with the latest plugin and Koken.
+
+That is, what I found: 
+
+Unresolved Bug - reported almost a year ago: 
+
+When I open an password-protected gallery, the images are showing up in tiny size. It's the same bug, that I reported month ago [1] without getting any answer. I can reproduce that any time on up-to-date Firefox and Chromium. This happens straight away, which renders the plugin useless.
+On my not protected side the error is still reproducable like shown in the video.
+
+And I found a security-issue: 
+When you login into a protected area, you're able to get an RSS-Feed for that. That Feed is working even when your session was closed or if you've changed the password. In other words: Who ever knows the schematic of the RSS-Feed for albums (http://url.invalid/feed/albums/[album-number]/recent.rss) can even fetch the content of protected galleries. 
+
+Dennis
+
+[1] http://help.koken.me/customer/portal/questions/8032342-bug-images-to-small-after-using-the-website-
+</description>
+      <pubDate>Wed, 11 Mar 2015 16:05:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11502764</link>
+    </item>
+    <item>
+      <title>MAX CDN - Plugin ?</title>
+      <description>Hello
+
+Considering switching from WordPress to Koken. I would like to continue using my MAX CDN setup so:
+
+Do you have a plugin for MAX CDN?
+
+
+Thanks
+
+Thomas </description>
+      <pubDate>Mon, 10 Aug 2015 14:58:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11502706</link>
+    </item>
+    <item>
+      <title>Password Protect - asking password each time</title>
+      <description>Quick question:
+I've recently been experimenting with the Password Protect plug in. It's a great new function.
+
+Is there a way to force reentry of the password each time the site is loaded? Currently, if you enter it once you never have to enter it again on the same computer unless the cache is cleared.  When sharing with clients, this could look un-secure. Does that make sense?
+
+Any help you can offer on this would be great!
+
+Thanks,
+
+Jason
+</description>
+      <pubDate>Thu, 05 Mar 2015 21:45:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11489478</link>
+    </item>
+    <item>
+      <title>Password Protect Plugin</title>
+      <description> I have created a Set called 'Client' which I have made 'Private' http://fillycampbell.com/sets/client/ The password for this is 'password'. I have then added two private albums to this Set. One 'Wedding' and one 'Ribeye', for which I have then ticked the boxes 'Assign additional password' and I have also assigned each of these with the password of 'password'. So when I first click on the link to sets/client I am prompted for my password which once answered brings me to view the albums within the set however when I click on either album I am granted access without being prompted for the assigned additional password. Have I missed something in the functionality of this plugin or is it not working as it should? Thanks in advance for your help.</description>
+      <pubDate>Tue, 03 Mar 2015 01:40:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11479693</link>
+    </item>
+    <item>
+      <title>Plugins listed multiple times</title>
+      <description>Hello :)
+New Koken user, old time Slideshow Pro user :)
+
+New install, free plugins are installed, but listed multiple times in the plugin settings page. I can disable the duplicates, but this seems strange.
+
+Thoughts?
+
+:)</description>
+      <pubDate>Mon, 02 Mar 2015 16:09:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11462089</link>
+    </item>
+    <item>
+      <title>Password Protect Plugin needs a way to signout of site.</title>
+      <description>This is more of a request than a question - is there anyway for users to sign out of a password plugin protected site?
+
+It seems like a huge oversight not to support a basic log out use case. Is something forthcoming?
+
+Thanks!
+-m</description>
+      <pubDate>Mon, 02 Mar 2015 17:35:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11458761</link>
+    </item>
+    <item>
+      <title>instagram - original size</title>
+      <description>Why is the import via your plugin limited to 640x640? Please, update this to the original size and quality! At least as an option. </description>
+      <pubDate>Wed, 25 Feb 2015 22:25:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11457257</link>
+    </item>
+    <item>
+      <title>LR Plugin still does not work properly</title>
+      <description>I have just updated Koken to 0.20.3 and LR Plugin to 1.2.10, running Lightroom 5.7 on Mac OS X 10.10.2
+
+Started fresh with an empty site. Created AlbumSet_1-&gt; AlbumSet_1_1 -&gt; Album_A (2 sets, on inside the other, 1 album inside the inner set) in LR. Put some photos into the album, then cklicked "Publish" -&gt; Boom! Internal Error about cannot concatenate empty string. Quit LR, restarted, clicked "Publish", still Boom! Quit and restart LR again, use File Menu -&gt; Export -&gt; Click Export: Success! Well, almost. All the photos are in Koken Library but neither Album Sets nor the Album itself were created. 
+
+What now? Back to manual export of all Collections, then manually creating them on Koken, then manually uploading the photos?
+
+---markus---</description>
+      <pubDate>Mon, 20 Apr 2015 13:47:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11455997</link>
+    </item>
+    <item>
+      <title>Ensemble - disqus on albums?</title>
+      <description>Hello,
+first od all sorry for my english. I want to have disqus on my albums, I use albums like new post on blog and I want to have comments on it. Where I need to add:  "" to show disqus on albums? 
+www.blog.marcinstanczak.pl here is my website.</description>
+      <pubDate>Mon, 10 Aug 2015 14:58:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11454987</link>
+    </item>
+    <item>
+      <title>Password protect the download — not the viewing</title>
+      <description>Hi all — I bought the password plugin. Is it possible to only password protect the downloading of an image — not the viewing? In other words everybody may view the images but only the ones who have the password can download it...
+
+Kind regards, 
+Ron Hoenson
+alphenphoto.nl</description>
+      <pubDate>Wed, 25 Feb 2015 15:15:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11454965</link>
+    </item>
+    <item>
+      <title>Password protection &amp; Navigation</title>
+      <description>I have installed the new Password protection plugin and I have a question on its use:
+
+How could I help my visitors to NAVIGATE to a Private set or album?
+
+I had the impression that this would work the same way as you add any other Public content available in the console by adding a link under SITE, but when trying that there is no reference to Private content?
+
+The idea here is of course that my visitors and clients only need to know my top domain contextphoto.com and their specific password  and that they NAVIGATE to their Private area and enter the password rather than having to enter the quirky URL to the specific Private area and then the Password.
+
+The issue seems to be similar to this question: http://help.koken.me/customer/portal/questions/11451250-password-protect-plugin</description>
+      <pubDate>Thu, 19 Mar 2015 12:34:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11453335</link>
+    </item>
+    <item>
+      <title>Vimeo Plugin not working</title>
+      <description>Hi
+
+Just purchased your vimeo plugin.
+Problem: the connection works, but no videos are loaded. There's a turning wheel that shows "adding video from vimeo..." endlessly.
+
+Thanks for help
+
+Andi</description>
+      <pubDate>Tue, 24 Feb 2015 19:10:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11439576</link>
+    </item>
+    <item>
+      <title>Pulse Playback Timer not showing countdown anymore (since Koken 0.20)</title>
+      <description>Hi there!
+
+First of all: Good Work - Keep Going!!!
+
+But unfortunately I discovered something that seems to be a bug. I noticed after installing Koken 0.20, that the countdown, that should be visible from the Plug-In 'Pulse Playback Timer", is no longer visible. I've tried in IE and Firefox to eliminate problems with patches from Microsoft for the IE, but in both browers I don't see the countdown.
+
+Can you help?
+
+Thanks and best regards,
+Edgar</description>
+      <pubDate>Wed, 25 Feb 2015 16:15:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11435639</link>
+    </item>
+    <item>
+      <title>Pulse transitions not working</title>
+      <description>I installed the Pulse transitions pack with no problems or errors. I am using the Axis 2 theme on LAMP with PHP 5.4.34. When I select one of the new transitions, I just get the Dissolve transition instead. I've tried this with and without swiping, with and without easing, in Safari on Mac and in Chrome on Windows. Same result in all of those scenarios.</description>
+      <pubDate>Tue, 24 Feb 2015 16:53:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11430121</link>
+    </item>
+    <item>
+      <title>Navigation with AJAX?</title>
+      <description>Is there a setting or anything similar to use AJAX calls for the left sidebar or is there a plugin or theme what does this? I already searched in the help center and I found several statements from Koken Agents but they "’ll have more to say about that as [they] get closer.", so I don't really now whether this can work or not.</description>
+      <pubDate>Fri, 20 Feb 2015 11:04:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11421398</link>
+    </item>
+    <item>
+      <title>Shopping Cart</title>
+      <description>I know many have wanted a password protect plugin and I will certainly purchase this once released if it is something that can also be incorporated into my own custom theme.
+
+What I really want to see and need is a shopping cart plugin so that I can sell my work to clients. At the moment I use zenfolio to handle this but I would so much prefer to use Koken instead.
+
+Is anyone out there working on this?
+
+I am also wondering how many others would like to see this.
+
+Regards</description>
+      <pubDate>Wed, 18 Feb 2015 12:49:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11415808</link>
+    </item>
+    <item>
+      <title>front end uploader</title>
+      <description>is there a plugin that would allow visitors to upload images on the front end? </description>
+      <pubDate>Tue, 17 Feb 2015 19:29:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11412994</link>
+    </item>
+    <item>
+      <title>Pulse UI: Cosmic is not working anymore after update to Koken 0.20.1</title>
+      <description>Hi,
+I am using Pulse together with Cosmic UI on the frontpage of my website (https://mherbst.de). After the update to 0.20.1 Cosmic UI does no longer work. I configured the plugin to show the image caption and controls, but they are no longer visible. 
+There is also a problem in the configuration in the backend. I have tried to change some Pulse settings but the "Publish changes" button was not enabled.
+Deleting the cache did not help.
+
+Best Regards
+Martin Herbst</description>
+      <pubDate>Tue, 17 Feb 2015 18:31:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11412759</link>
+    </item>
+    <item>
+      <title>Watermark plugin on older images?</title>
+      <description>Hi!
+
+Will the watermark plugin apply only to pictures that are uploaded after enabling the plugin or would it also automatically watermark the older ones? I would really like that it would work on old pictures as well.</description>
+      <pubDate>Mon, 16 Feb 2015 22:48:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11409312</link>
+    </item>
+    <item>
+      <title>Regale 2 and Vimeo Plugin</title>
+      <description>Hi there,
+am I able to use the vimeo plugin with the Regale 2 theme, i.e. does the plugin show the video in the lightbox details view?</description>
+      <pubDate>Mon, 16 Feb 2015 18:22:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11408479</link>
+    </item>
+    <item>
+      <title>Image Protection... for Android / iOS OS?</title>
+      <description>I downloaded the "Image Protection" software... it works great!
+
+But one issue...
+
+You can still  "touch hold down" on images using Android / iOS tablets/mobile phones, you can still copy images/save as... 
+
+Is there any jQuery I can add or any updates planned for this plugin that will help fix this?</description>
+      <pubDate>Wed, 18 Feb 2015 00:45:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11386926</link>
+    </item>
+    <item>
+      <title>Make Videos downloadable</title>
+      <description>Hello, 
+I'm about to set up a private page with some photos and videos of a dance performance and I want to enable my friends with whom I want to share these to download the photos as well as the videos. If I select a photo I'm able to set a parameter regarding the downloadability of it. When I select a video, I have no option for the download parameter. Is there just no option to make Videos downloadable, do I need a special plugin, or have I done something wrong? For note, all photos and videos are unlisted. 
+Thank you for your help,
+Sincerely, Sven</description>
+      <pubDate>Tue, 10 Feb 2015 10:33:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11379358</link>
+    </item>
+    <item>
+      <title>Vimeo capture date</title>
+      <description>Does the Vimeo plugin capture the date that the video was shot?</description>
+      <pubDate>Sun, 08 Feb 2015 06:05:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11365833</link>
+    </item>
+    <item>
+      <title>WordPress Plugins</title>
+      <description>Hi I am glad to see there is a another stage and move towards a more current platform. Is there any WP plugins to connect with the CMS? Any API?
+
+Sharaz</description>
+      <pubDate>Thu, 05 Feb 2015 22:03:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11354677</link>
+    </item>
+    <item>
+      <title>i want refund purchase.</title>
+      <description>Hi, i'm Koken user.
+I'm so sorry for saying refund my purchase.
+Because instagram plugin doesn't work for my site....some reasons.
+I hope you deep understanding.
+
+plz reply :)</description>
+      <pubDate>Wed, 04 Feb 2015 14:30:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11348391</link>
+    </item>
+    <item>
+      <title>folder and image capacities</title>
+      <description>Hi
+
+We would like to know if there are any limitations on the amount of folders and images the site can manage?
+
+It's crucial that we find out quickly...we have a meeting in a couple hours with a new client and we want to sell them on your platform.
+
+Please feel free to call me
+562-989-0505
+
+or email. 
+
+Hope to hear from you soon (don't want to get fired today) lol
+
+Thanks
+Orlando</description>
+      <pubDate>Tue, 03 Feb 2015 18:23:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/11343807</link>
+    </item>
+  </channel>
+</rss>

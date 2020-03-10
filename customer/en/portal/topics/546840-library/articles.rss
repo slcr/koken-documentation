@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Library</title>
+    <link>http://help.koken.me/customer/en/portal/topics/546840-library</link>
+    <description>Library articles</description>
+    <item>
+      <title>Library overview</title>
+      <description>The Library is where all your photos and videos are imported, edited and organized. 
+
+ Importing 
+
+ Images...</description>
+      <pubDate>Tue, 09 Dec 2014 21:00:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/632093</link>
+    </item>
+    <item>
+      <title>Assign an image focal point</title>
+      <description>Cropped images sometimes need an extra bit of finesse to look their best. The screenshot below shows what can ...</description>
+      <pubDate>Thu, 25 Jul 2013 20:01:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1209866</link>
+    </item>
+    <item>
+      <title>Create albums and sets</title>
+      <description>Library content is grouped together using Albums and Sets. Albums are for grouping images and videos, while se...</description>
+      <pubDate>Fri, 15 Aug 2014 14:38:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1560773</link>
+    </item>
+    <item>
+      <title>Edit album covers</title>
+      <description>Covers are visual previews of collections. They may be assigned to both albums and sets and are most commonly ...</description>
+      <pubDate>Tue, 11 Mar 2014 15:51:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/947768</link>
+    </item>
+    <item>
+      <title>Edit image published dates</title>
+      <description>When an image/video is imported to the Library and published to your site it is assigned a Date published time...</description>
+      <pubDate>Thu, 18 Dec 2014 16:21:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1529123</link>
+    </item>
+    <item>
+      <title>Embed an image at an outside site</title>
+      <description>Koken makes it easy to display a Library image anywhere outside the console.
+
+First, select the Library image ...</description>
+      <pubDate>Thu, 04 Dec 2014 22:48:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1093801</link>
+    </item>
+    <item>
+      <title>Encode videos for importing</title>
+      <description>Koken provides basic support for video uploading and web site playback. This tutorial will explain how Koken h...</description>
+      <pubDate>Tue, 22 Apr 2014 02:11:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1035812</link>
+    </item>
+    <item>
+      <title>Format images for importing</title>
+      <description>Koken makes publishing images for the web easy. Upload a high-resolution original image and Koken creates seve...</description>
+      <pubDate>Tue, 02 Sep 2014 20:41:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1522170</link>
+    </item>
+    <item>
+      <title>Import images and videos</title>
+      <description>Images and videos may be imported to Koken's Library through a variety of ways. This article will cover each a...</description>
+      <pubDate>Wed, 23 Apr 2014 02:09:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1476761</link>
+    </item>
+    <item>
+      <title>Publish image download links</title>
+      <description>Visitors to your web site may download images with your permission. This is controlled through the Maximum Dow...</description>
+      <pubDate>Tue, 24 Feb 2015 15:07:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1575585</link>
+    </item>
+    <item>
+      <title>Publish unlisted and private content</title>
+      <description>Every image, video, album and set has its own Visibility setting. This setting controls who is allowed to view...</description>
+      <pubDate>Tue, 24 Feb 2015 15:07:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1021786</link>
+    </item>
+    <item>
+      <title>Replace uploaded original</title>
+      <description>Say you've uploaded a photo to your Library, assigned a title or other data, and published it on your site. Th...</description>
+      <pubDate>Thu, 25 Jul 2013 20:02:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1148184</link>
+    </item>
+    <item>
+      <title>Sorting content</title>
+      <description>Sorting allows you to control the order in which Library images, videos, albums and sets appear on your Koken ...</description>
+      <pubDate>Tue, 09 Dec 2014 21:25:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1784680</link>
+    </item>
+    <item>
+      <title>Using EXIF and IPTC metadata</title>
+      <description>Digital photos aren't simply photos. Their files can also include helpful metadata in the form of EXIF and IPT...</description>
+      <pubDate>Thu, 19 Mar 2015 17:29:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1537118</link>
+    </item>
+  </channel>
+</rss>

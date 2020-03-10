@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Store</title>
+    <link>http://help.koken.me/customer/en/portal/topics/609569-store</link>
+    <description>Store articles</description>
+    <item>
+      <title>Store overview</title>
+      <description>The Koken Store is a marketplace for Koken themes, plugins, updates and extras. This article covers the basics...</description>
+      <pubDate>Fri, 12 Feb 2016 14:21:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1456030</link>
+    </item>
+    <item>
+      <title>Store questions and answers</title>
+      <description>Are store accounts required to install items? 
+
+ Yes. Here are instructions for setting up your account. 
+...</description>
+      <pubDate>Fri, 12 Feb 2016 14:24:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1439310</link>
+    </item>
+    <item>
+      <title>Creating a Koken Store account</title>
+      <description>An account is required to install themes and plugins from the Koken Store. Follow these steps to create a new ...</description>
+      <pubDate>Fri, 12 Feb 2016 14:26:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1460010</link>
+    </item>
+    <item>
+      <title>Installing themes and plugins</title>
+      <description>Themes and plugins offered through the Koken Store download and self-install to your Koken installation. Here'...</description>
+      <pubDate>Fri, 12 Feb 2016 14:28:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1460128</link>
+    </item>
+    <item>
+      <title>Sharing an installation between accounts</title>
+      <description>A single installation of Koken may be registered with more than one Koken Store account. This functionality is...</description>
+      <pubDate>Tue, 11 Mar 2014 16:04:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1461012</link>
+    </item>
+    <item>
+      <title>Deleting an installation from your account</title>
+      <description>When creating a Koken Store account through an installation of Koken, the address of your installation is auto...</description>
+      <pubDate>Wed, 18 Mar 2015 19:35:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1461724</link>
+    </item>
+    <item>
+      <title>Transferring a theme/plugin to a different installation</title>
+      <description>Premium themes and plugins sold through the Koken Store are registered to installations of Koken. If you have ...</description>
+      <pubDate>Mon, 21 Apr 2014 19:18:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1521793</link>
+    </item>
+    <item>
+      <title>Submit your site as a theme example</title>
+      <description>Using a theme from the Koken Store? We're always on the lookout for example sites to demonstrate the variety o...</description>
+      <pubDate>Sun, 16 Mar 2014 17:51:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1483104</link>
+    </item>
+  </channel>
+</rss>

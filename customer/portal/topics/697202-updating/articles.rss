@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Updating</title>
+    <link>http://help.koken.me/customer/portal/topics/697202-updating</link>
+    <description>Updating articles</description>
+    <item>
+      <title>Updating Koken</title>
+      <description>New versions of Koken are continually released and may be downloaded directly through your installation. Updat...</description>
+      <pubDate>Tue, 26 Aug 2014 19:24:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1147754</link>
+    </item>
+    <item>
+      <title>Updating themes and plugins</title>
+      <description>Updates to Koken themes and plugins are made available through the Koken Store. The Store link in Koken's main...</description>
+      <pubDate>Fri, 19 Sep 2014 18:25:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/articles/1307367</link>
+    </item>
+  </channel>
+</rss>

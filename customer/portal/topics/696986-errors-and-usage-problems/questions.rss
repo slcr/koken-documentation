@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Errors and usage problems</title>
+    <link>http://help.koken.me/customer/portal/topics/696986-errors-and-usage-problems</link>
+    <description>Errors and usage problems articles</description>
+    <item>
+      <title>Thumbnails distorted/deformated</title>
+      <description>Hello everyone! I have a problem on my site with thumbnails generation - images became distorted/deformated. I don't know how to describe it...it would be better to see live example here:  http://annadianova.com/koken/storage/cache/images/000/772/IMG-8,medium.1441821992.jpg
+It started to happen after I had changed my hosting provider.
+I've tried to change image processing between Imagick 6.9.0-3, ImageMagick 6.9.0 and GD bundled (2.1.0 compatible), but that didn't help the situation. I also switched php version from 5.5 to 5.3.
+Some information about my server:
+PHP Version 5.3.29
+MySQL Version 5.6.25-73.1-beget-log
+Server operating system Linux
+Webserver software Apache/2.4.10-1-beget-reuseport (Unix)
+Image processing GD bundled (2.1.0 compatible)
+FFmpeg Installed (Version 2.6.3)
+Memory limit 256MB
+Upload file size limit 999MB
+EXIF/IPTC parsing Supported
+I don't know what to do next, please help my</description>
+      <pubDate>Wed, 09 Sep 2015 18:35:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14317121</link>
+    </item>
+    <item>
+      <title>Chrome thinks site is in Sudanese</title>
+      <description>Every once in a while when I load my site in Chrome, it detects that the page is in Sudanese and asks me if I want to translate it. Is there some setting I need to change somewhere?</description>
+      <pubDate>Wed, 09 Sep 2015 15:33:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14316338</link>
+    </item>
+    <item>
+      <title>Koken Store access via CMS</title>
+      <description>Hi there,
+
+I have set up Koken via my hosting company on my server yesterday. I also bought the "Regale2" theme via the koken website. However, when I try to log on to the Store through the admin area, I receive an error message. " Unauthorized access -  Your request has been sent. You will be notified via email if accepted.  - Sign Out"
+
+I would like to access the store to install the purchased theme and other plugins.
+
+Any help is appreciated.
+
+Thanks,
+
+Uli</description>
+      <pubDate>Wed, 09 Sep 2015 09:41:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14315176</link>
+    </item>
+    <item>
+      <title>Noting is working properly</title>
+      <description>Hi,
+
+I'm having a lot of problems all of a sudden with Koken.
+No matter what I do, feature a photo, un-feature a photo, remove a photo from an album or add a photo to an album, it just doesn't work.
+
+I always get a message saying it succesfully did those thing but when I look in the folders, nothing changed.
+
+I got this problem out of nowhere, after not using Koken for over a month... 
+
+Please help because my site became unmanageable...</description>
+      <pubDate>Mon, 07 Sep 2015 16:54:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14309607</link>
+    </item>
+    <item>
+      <title>Uploading images, no thumbnails, just spinning</title>
+      <description>When uploading images, there is no thumbnail generated. Just a spinning image. I've tried numerous solutions found on your forum (resetting, empty cache, changed image processing, modified .htaccess, even tried chmod 777 (just briefly) and a lot more...), none solved the problem. I might have missed something though... That's why I'm asking for your assistance.
+
+I was really hoping to use this CMS, because it's totally awesome. I even considered spending som cash in your store. But as long as the most basic uploading does not work, I'm not so sure.
+
+I have the currently latest version of Koken installed on a droplet at Digital Ocean, I'm using Debian 7, GD and Imagemagick installed. I'm using a subfolder on my domain name, just for testing yet. But it's accessible for you if needed.</description>
+      <pubDate>Sat, 05 Sep 2015 14:06:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14304712</link>
+    </item>
+    <item>
+      <title>Console Error while accessing the Site tab</title>
+      <description>Firstly I'd like to say thank you to anyone who takes the time to look over this. I really appreciate it! 
+
+Every time I try to access the site tab, I get the following error popup: 
+
+
+"Console error
+
+Koken isn't able to load data. Please click the button below to try and fix the problem. If you see this error message again thereafter, please contact us for support." 
+
+
+The button says "clear cache and reload." It doesn't do anything except freeze the site when I click it, so I've tried clearing the caches though the Settings tab (template, image and system where the ones I could find to clear), with no result. 
+
+Other info: when this error first showed up, I was discarding an unwanted theme draft in the Site tab. My Site tab now always directs me to "http://mysite.com/koken/admin/#/site/draft/theme/url:/". 
+
+Thanks again for looking into this! </description>
+      <pubDate>Fri, 04 Sep 2015 19:58:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14303356</link>
+    </item>
+    <item>
+      <title>Images Go Away Upon Return to Site, Have to Shift-Reload to Get Them Back</title>
+      <description>Hello,
+
+This problem has existed for a while I think, I was wondering if anyone had a solution. I've had potential clients report this and it's a real problem. For ones that told me about the issue who knows how many just left. I tried the updated jquery.pjax-transition.js file but it didn't seem to make any difference.
+
+The basic problem is you go to the site and it works fine, great. You go to some other sites and then return. No  images, just the header and footer and no images. Hitting refresh doesn't do it. Shift-reload will bring the images back, but you shouldn't have to do that and a lot of users won't or don't know about shift-reload.
+
+Any solutions?
+
+Thanks,
+Milton
+
+</description>
+      <pubDate>Thu, 03 Sep 2015 23:57:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14300836</link>
+    </item>
+    <item>
+      <title>no</title>
+      <description>After installation transitions in http: //site.com/admin/ just a black screen ...</description>
+      <pubDate>Wed, 02 Sep 2015 20:45:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14295944</link>
+    </item>
+    <item>
+      <title>Unable to Upload files</title>
+      <description>Hi Team,
+
+I have just installed the latest version and started using but i am unable to import images using drag drop or file uploads. For every upload I am getting an error "New content records must be accompanied by an upload."</description>
+      <pubDate>Sun, 30 Aug 2015 07:28:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14277381</link>
+    </item>
+    <item>
+      <title>site is working but admin page not accessible</title>
+      <description>both my sites iamgo.net and go-design.co are working, but the koken admin page are inaccessible saying connection error Cannot connect to the API...
+
+any ideas?</description>
+      <pubDate>Tue, 25 Aug 2015 22:36:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14259904</link>
+    </item>
+    <item>
+      <title>Error 500 'failed to load resource'</title>
+      <description>My customised index.lens renders as blank page, with an error 500 'failed to load resource' in the Safari Web Inspector.  Annoyingly, there is no further detail in the Inspector log - is there any way to see what's going wrong from the koken side of things?  I appreciate you guys are trying to sell off Koken, and might not be too keen to engage in extensive support / fixing errors.  But if you want to keep the source code to yourself - that rather puts you on the spot for providing support.</description>
+      <pubDate>Tue, 25 Aug 2015 12:21:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/14258054</link>
+    </item>
+    <item>
+      <title>Site routing issue</title>
+      <description>This is my site domain path to Koken @ http://www.cruxiaer.com/koken/
+
+For some reason the first load always goes to the admin site. I have to reload the above link to browse the actual content of my site.</description>
+      <pubDate>Wed, 19 Aug 2015 21:05:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13319157</link>
+    </item>
+    <item>
+      <title>Canonical URLs</title>
+      <description>I have ver. 20.4. According to docs,
+
+"Koken automatically publishes canonical meta tags in the  of any page that needs one. For example:  This is handled for you automatically, so there's nothing you need to edit or modify."
+
+For me, page link is showing as http://natureinfocus.com/albums/birds/content/burrowing-owl/ in browser. Canonical link in the source code shows 
+
+
+I was trying to generate sitemap and am getting a circular reference:
+http://natureinfocus.com/albums/birds/content/burrowing-owl/ to http://natureinfocus.com/index.php?/albums/birds/content/burrowing-owl/" which is a 302 error and then back to
+http://natureinfocus.com/albums/birds/content/burrowing-owl/
+
+Any way to fix this? Seems similar problem as reported at http://help.koken.me/customer/portal/questions/11637446-canonical-url-don-t-work-tag-content-page-
+
+Can anyone help fix this?
+</description>
+      <pubDate>Wed, 19 Aug 2015 00:49:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13312577</link>
+    </item>
+    <item>
+      <title>change DB Password</title>
+      <description>I must change my database password. Where can i change the password in koken? I have access to koken and ftp.
+
+thanks for help
+
+Hans-Jürgen</description>
+      <pubDate>Sun, 16 Aug 2015 14:46:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13264020</link>
+    </item>
+    <item>
+      <title>API ERROR</title>
+      <description>Hello.
+
+When I was adding photos to new album in my koken acount something was happen and now I have this API ERROR.
+
+What can I do?
+
+It's very important to repair that couse it's my work!
+
+
+Plese help.
+
+Thomas
+
+www.lightartstudio.pl</description>
+      <pubDate>Sun, 16 Aug 2015 14:48:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13261085</link>
+    </item>
+    <item>
+      <title>Password-Reset-Script did not work properly</title>
+      <description>Hi @ all :-)
+
+Forgot my admin-PW and used the reset-Script. It shows up a new password but no e-Mail. If I use my Admin-eMail (yes it is the right one :-) ) and the new password nothing happens. Koken tells my that the PW is incorrect.
+
+NEED HELP! PLease :-) Thank you.</description>
+      <pubDate>Fri, 14 Aug 2015 09:52:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13200229</link>
+    </item>
+    <item>
+      <title>Boulevard Theme â€“ Social Media and Mail Icons</title>
+      <description>I did set up social media links for facebook and twitter â€“ but none of them shows up in der header of my boulevard installation. how do i get them show up?
+
+On the other hand â€“ how can i get rid of the mail icon? i have a set up a contact form and don't need that direct mail link anymore.
+
+PS: Is it possible to show other social media links more typical for photographers â€“ like tumblr or or instagram?
+
+my site: http:hildebrandt.photography</description>
+      <pubDate>Thu, 13 Aug 2015 13:20:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13093638</link>
+    </item>
+    <item>
+      <title>404 error at admin login page</title>
+      <description>I successfully installed the php.index file to my DreamHost server using a notebook. (I should state that said notebook is my cousin's, and was done at her house) I also successfully logged in to the admin page while there and started creating my website, which is douglasrbain.com 
+
+Now that I've gotten home, I can absolutely see the content that is on the website, but can not even get to a login UI at http://douglasrbain.com/koken/admin  All that yields is my website with an additional "Error 404" on it. 
+
+I'm a bit perplexed by this behavior. I thought that once it was installed, it wouldn't matter what computer I was using to log in to the admin panel?
+
+Thanks, 
+
+Doug </description>
+      <pubDate>Wed, 12 Aug 2015 13:31:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13066408</link>
+    </item>
+    <item>
+      <title>Microsoft Edge</title>
+      <description>I noticed my websites are not working properly in the new browser microsoft Edge. Some pictures won't load at all. Also, the pulse sliders seems not to load properly either.
+
+Are you aware of this/Is this a common problem?
+Are you planning on updating koken to work properly with the new browser?
+
+Thanks,
+Alieke</description>
+      <pubDate>Wed, 05 Aug 2015 11:46:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13058933</link>
+    </item>
+    <item>
+      <title>Pixelated Images after sometime</title>
+      <description>I have been dealing with this problem from quite a while, when i upload an image to the gallery its fine for sometime and when i check them after some time (few hrs and so) some of the images are pixelated (link below), any solutions?
+
+http://iklash.com/storage/cache/images/000/181/IMG-8129,medium_large.1438757320.jpg</description>
+      <pubDate>Wed, 05 Aug 2015 10:04:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13058597</link>
+    </item>
+    <item>
+      <title>"This article doesn't have a translation for English"</title>
+      <description>http://help.koken.me/customer/portal/articles/1489038-raising-upload-file-size-limit
+
+Gives me a rather dissapointing "This article doesn't have a translation for English"
+This happens with all of the help articles I need to read.
+
+Is there a system wide error in your support articles?
+
+I love the CMS you guys have created it is top notch :)
+
+Cheers
+Lauge</description>
+      <pubDate>Mon, 03 Aug 2015 12:30:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13053331</link>
+    </item>
+    <item>
+      <title>photo's are in the wrong place</title>
+      <description>Hi Koken-team!
+
+Thank you for letting me use the amazing software for my website.
+
+I have installed theme ‘Boulevard’ for my photography website: www.emmawesters.nl. And for the most part it works fine. Within that theme, you have one horizontal line with pictures. But when I am looking at my website on a mobile device or on some computers, I see the last picture from the album underneath the horizontal line with pictures. So there are almost two lines with pictures. How can I get rid of the second line with pictures? Could you please help me? 
+
+Thank you very much in advance!
+
+Best regards, Emma W.
+ </description>
+      <pubDate>Sat, 01 Aug 2015 23:16:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13050943</link>
+    </item>
+    <item>
+      <title>Lighroom Plugin error</title>
+      <description>I've a lightroom plugin error on publication.
+"Une erreur interne s'est produite : [string "KokenAPI.lua"]:243: attempt to concatenate field 'album' (a nil value)"
+It is exactly like this post http://help.koken.me/customer/portal/questions/9904065-lr-plug-in-an-internal-error-has-occurred-string-kokenapi-lua-243-attempt-to-concatenate-fiel but I don't which script I have to rerun to fix my installation.
+
+LR 5.7.1
+Koken updtated</description>
+      <pubDate>Sat, 01 Aug 2015 01:06:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13049990</link>
+    </item>
+    <item>
+      <title>Theme API Error</title>
+      <description>Hi there,
+
+I'm using Koken for almost over a year now with a lot of enjoyment. But yesterday evening my website stopped working and gave me this error:
+
+ "API ERROR: The theme is not able to make contact with your Koken installation. Contact your host to see if they are blocking loopback connections".
+
+I've contacted my hosting company and they've told me that loopback connections are enabled. So what's the problem? I've searched the Koken forum without any luck. 
+
+My website is: http://www.reinkooyman.com/
+
+Thanks in advance!
+
+With kind regards,
+
+
+Boris.</description>
+      <pubDate>Mon, 10 Aug 2015 15:45:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13048759</link>
+    </item>
+    <item>
+      <title>Account Has Been Suspended</title>
+      <description>Just got a message on all my koken installations, that my account is suspended. What's wrong?!</description>
+      <pubDate>Thu, 30 Jul 2015 09:17:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13046666</link>
+    </item>
+    <item>
+      <title>404 error when accessing all thumbnails or images via admin and website view</title>
+      <description>Hello,
+I believe I am experiencing issues similar to this post which was never solved:
+http://help.koken.me/customer/portal/questions/11634152-photos-don-t-load-in-library-spinner-only-requests-to-i-php-return-4-4-
+
+Koken tests the server on install and gives the green light, but after a successful installation, photos upload successfully, but never display.  Whether in the admin or via the website view itself, all photos just result in a spinner running forever and the corresponding request for each photo ends in a 404 after about 5 - 10 seconds of waiting for a response.
+
+Server memory limit is 128MB and I'm testing with a very small image ~200KB
+
+I've noticed that some Koken admins have offered to login to other systems to try and debug issues, I'd be happy to supply credentials to my site to have someone take a look.
+
+Thanks very much,
+-Sean</description>
+      <pubDate>Tue, 28 Jul 2015 18:01:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13043468</link>
+    </item>
+    <item>
+      <title>api cache</title>
+      <description>Another question mentioned this but I cannot add to it. 
+
+Is it safe to delete the contents of the /storage/cache/api folder as it is ballooning to over 600Mb.
+Clear system caches and clear images cache controls from the main admin panel do not seem to touch it.
+
+Cheers</description>
+      <pubDate>Wed, 29 Jul 2015 14:23:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13042566</link>
+    </item>
+    <item>
+      <title>Image Quality Problem</title>
+      <description>Hi Folks,
+
+recently I installed the latest version (0.21.2) of koken for a new project. After uploading the first pictures I recognized a massive quality problem. Dark color gradients in images are getting blocky and blurred. Just like too much compression is applied. In an other installation (version 0.20.5) on the same server I do not experience this.
+
+Settings are default and identical on both installations. Library is ImageMagick 6.2.8 on PHP 5.5.25.
+
+Here are crops showing the problem:
+http://bay3r.de/koken20.5.jpg
+http://bay3r.de/koken21.2.jpg
+
+Any ideas how to solve this? Btw. selecting custom values in "Image Publishing" makes no difference at all.
+
+Thanks and cheers</description>
+      <pubDate>Wed, 29 Jul 2015 17:18:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13039387</link>
+    </item>
+    <item>
+      <title>Connection error</title>
+      <description>my site works fine but I am not able to log into the koken/admin todo any work I get a connection error. I have not updated or did anything that caused this issue. Last time I used it there was no problem but out of a blue I get this message:
+
+Connection error
+
+Cannot connect to the API. Error message:
+Database connection failed. Make sure the database server is running and the information in storage / configuration / database.php is still correct
+
+could you help please? thank you
+
+www.cadeaucreative.com</description>
+      <pubDate>Mon, 20 Jul 2015 21:44:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13015868</link>
+    </item>
+    <item>
+      <title>Regale 2 not updating og:title when changing page name</title>
+      <description>I know this might be minor, but when changing a page name (like for e.g. changing Albums to "Collection"), the Open Graph name isn't changed along with it, meaning that when the page is shared to for e.g. Facebook, the link will state "Albums", when the page isn't called that anymore.
+
+Would be fantastic if this could be updated :)</description>
+      <pubDate>Mon, 20 Jul 2015 06:37:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/13012319</link>
+    </item>
+    <item>
+      <title>No delete, add, move or change images, albums and empty trash</title>
+      <description>For some reason, I try to make any changes to the library and is not published. Also the trash bin
+
+Do not send error message, simply do not apply the changes.
+
+Chache already eliminated the system and images, the problem persists.
+
+I also upgraded to the latest version.</description>
+      <pubDate>Fri, 17 Jul 2015 14:26:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12997939</link>
+    </item>
+    <item>
+      <title>Timeline not displaying new items correctly</title>
+      <description>Hi, I'm using Axis 2 and have the following issue with Timeline:
+When posting a new image into any album it shows up in timeline as "1 new item". So far so good. However, when I later publish the next image to the same album this also shows up as "1 new item", like it should, but the previous image still has the "1 new item" tag. Should not this tag be automatically removed whenever a newer image is put into the same album? After a while, with several additions to the album, they all appear as new items, which does not seem very logical to me. Any views on this? Anything I might do to prevent this?</description>
+      <pubDate>Fri, 17 Jul 2015 09:52:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12996853</link>
+    </item>
+    <item>
+      <title>Koken cache problem</title>
+      <description>I'm seeing a lot of problems in regards to cache for my images. Often I go into one of my albums, and I see in the console for e.g: Failed to load resource: the server responded with a status of 404 (Not Found)
+
+GET my-host/storage/cache/images/000/359/IMG-7676,medium.2x.1437049360.jpg 404 (Not Found)
+
+And then the thumbnail image just spins. I login to the site, and I see that yes, that cache-image doesn't exist. But why doesn't it simply create it? Where is it stored that there should be a cached version that it's trying to load?
+
+This also often happens that thumbnails load on my retina-screen, but then I see the cache problem when looking at the album on a non-retina computer etc.
+
+I've tried clearing the cache, but it's still the same issue sadly.
+
+What can I do to increase the reliance on the cache in this instance? It's really hurting my site when this happens :(</description>
+      <pubDate>Thu, 16 Jul 2015 12:36:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12991698</link>
+    </item>
+    <item>
+      <title>API Error, loopback connections</title>
+      <description>Hello,
+
+my website is: ilsewecker.de
+
+Since few days i have also the Problem with the API Error. At my website there is this Error message:
+"The theme is not able to make contact with your Koken installation. Contact your host to see if they are blocking loopback connections."
+
+I have already cleared the cache in the storage/cache/api folder. But the problem isnt solved. The admin/ site Section isnt load. At the page there is the message that the albums are empty. What can i also do?
+
+Thanks and best regards
+B. Lenk </description>
+      <pubDate>Thu, 16 Jul 2015 06:44:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12990186</link>
+    </item>
+    <item>
+      <title>API Error</title>
+      <description>The theme is not able to make contact with your Koken installation. Contact your host to see if they are blocking loopback connections.
+
+This Access to my website and to my admin page does not work anymore
+
+http://sylmi-photographe.com/ 
+http://sylmi-photographe.com/admin/ </description>
+      <pubDate>Wed, 15 Jul 2015 22:05:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12987967</link>
+    </item>
+    <item>
+      <title>GraphicsMagick - Some site images not being generated</title>
+      <description>Hi,
+
+I have just installed GraphicsMagick on my koken installation and I'm getting various issues:
+- No images are generated or site library links page (http://marcosmontero.es/photo/, phone or desktop)  or  Admin console Library thumbnails . Links images do work (http://marcosmontero.es/albums/categories/photo/costa-rica/) 
+- Images are not generated for any size all unless I check the option to 'Retain Image Metadata'
+
+Troubleshooting: Increased memory to 512MB. Enabled  flags in user_setup.php. Cleared system and image caches. 
+
+Please help. Using latest Koken and graphics magick on Ubuntu, installed through apt-get.
+
+Regards,
+Marcos</description>
+      <pubDate>Tue, 14 Jul 2015 18:00:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12980926</link>
+    </item>
+    <item>
+      <title>Images come out stripy</title>
+      <description>Hi, 
+
+i'm noticing that my images are coming out like the one underneath.
+http://anderstalleraas.com/koken/storage/cache/images/000/276/031152800002-3,medium_large.1436799488.jpg
+
+It's mostly noticeable on images with a pure white (255) background, but I think it´s precent in other images too, although more subtle.
+
+is this a known issue?
+
+</description>
+      <pubDate>Mon, 13 Jul 2015 15:08:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12973957</link>
+    </item>
+    <item>
+      <title>bug</title>
+      <description>Good afternoon.Recently I started to use your system for the site. Really liked the theme of "Ensemble". But the pattern has a very serious bug.
+Manifested it is this. If you open an album and a little run through the button "arrow at the bottom" and then click "arrow at the top", it is redirected to the page with the albums. If you can fix yourself.
+</description>
+      <pubDate>Sat, 11 Jul 2015 12:32:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12958019</link>
+    </item>
+    <item>
+      <title>boulivard theme 2nd line of images</title>
+      <description>I am having a problem where I am getting a 2nd line of images in my galleries.  go to jwmarrah.com/koken.  Only seems to show up in chrome, looks fine in IE, and just seemed to start happening... what am I missing here...
+
+Josh</description>
+      <pubDate>Sat, 11 Jul 2015 10:33:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12952381</link>
+    </item>
+    <item>
+      <title>HTTP Errors uploading photos (worked before)</title>
+      <description>Hello,
+
+I write because I started to use Koken yesterday to set up my personal photography portfolio. I first uploaded a single photo to test it out, and it worked. Then I drag-and-dropped about 120 photos, and only 91 did upload, the others failing with "HTTP Error" displayed.
+
+The domain name is http://www.justahype.net/photography
+
+I did some research about the error and it seems like it is likely to be a hosting limitation issue. I have a domain name and hosting with OVH. I have checked on my OVH dashboard, and I am far from the storage limit (2.86/25.00GB), and the stats show peaks of HTTP requests on my website at the times I uploaded, but none of these are above the host limits.
+
+The only option left is PHP limits, but since I managed to upload more than 90 photos, I don't understand why the remaining can't be uploaded (they are the same size or smaller).
+
+Please let me know what is the issue, and what I can to to fix it. Thank you in advance for your reply.
+
+Regards,
+Guillaume Prevost</description>
+      <pubDate>Fri, 10 Jul 2015 16:34:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12952063</link>
+    </item>
+    <item>
+      <title>Copy/Paste function</title>
+      <description>In editor mode is impossible to use right-click and Cmd+V or Cmd+C combinations. How to copy/paste text in editor?</description>
+      <pubDate>Mon, 10 Aug 2015 14:58:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12951730</link>
+    </item>
+    <item>
+      <title>admin page login problems</title>
+      <description>Hi,
+
+somehow my koken website does not accept my admin password anymore.
+so i tried to request "a new one" but it says my email address is not found.
+i also tried to use the password reset script.
+i got a new password but it is not accepted by koken.
+
+can someone help me?
+
+i'm having this problem for months now, even a new install did not help.
+i see a lot of people having the same problem.
+this must be solved.
+
+i tried emailing before but got no response</description>
+      <pubDate>Fri, 14 Aug 2015 09:37:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12951471</link>
+    </item>
+    <item>
+      <title>Edit site URL</title>
+      <description>I followed the directions to Edit site URL (wanted to remove the "/koken") and now I can't access my site or the API. 
+
+http://dev.gshannonphoto.com/koken/
+garrett.shannon@gmail.com
+kBd3}c}nZ9wdaN
+</description>
+      <pubDate>Mon, 10 Aug 2015 14:59:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12947838</link>
+    </item>
+    <item>
+      <title>Problem with tags</title>
+      <description>Hello, I really start loving koken and I hope it will live for a long time, even if times are kind of rough.
+
+Now my problem....
+
+I would love to use categories and tags on all images. Categories work fine, but the tag thing doesn't.
+ When I add a tag (in this case mobil) to an image it comes out as 
+,mobil, 
+and the link looks like this 
+.../koken/tags/%2Cmobil%2C/inhalte/ 
+and the result is a 404 page.
+
+I use the madison 2 theme, but I tried it with different themes.
+
+Is there anything I did wrong?
+
+Georg 
+
+(from Germany, please excuse my english ;-) )</description>
+      <pubDate>Mon, 13 Jul 2015 20:03:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12945349</link>
+    </item>
+    <item>
+      <title>Not able to login anymore (all of a sudden)</title>
+      <description>Hi, 
+
+I'm suddenly experiencing some strange problems with my site (life.timhartl.de).
+All of a sudden I'm not able to login anymore. I worked on the site, switched browser and then I couldn't login anymore. Reset password tells me, that my e-mail isn't found in the system. The e-mail is definitely correct, I even checked it in the database. I've already seen several people now experiencing this kind of issues the last days. No one got an answer yet. So please help us!</description>
+      <pubDate>Wed, 08 Jul 2015 21:11:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12942087</link>
+    </item>
+    <item>
+      <title>resetting password - no email address</title>
+      <description>Hi guys
+I can't access the admin panel of my site. I've run the password reset file several times, but it never displays an email address.
+I've tried all my email addresses and nothing works. When I try the reset and put in all my passwords, none of them are recognised
+
+please help
+</description>
+      <pubDate>Fri, 10 Jul 2015 08:47:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12938814</link>
+    </item>
+    <item>
+      <title>SEO Problem</title>
+      <description>Hi, I moved from an other CMS to Koken for about a year, and I'm really happy with it for a lot of reasons. However, I have an important problem since I made the change: my website moved from top result on google with a search of my First Name Last Name to the 4th page! 
+
+Thus, I'm invisible on the net... Do you have some advices to solve this problem? Of course, I already have set some Description and Keywords in the "Site publishing" section of the settings tab. Obviously I'm thinkin of getting back a concurrent CMS even if Koken seems much more comfortable to use for me...
+
+My website: www.sebastienbouvier.com
+Search to make to reproduce: Sebastien Bouvier
+
+Thank you per advance for your reply. </description>
+      <pubDate>Wed, 08 Jul 2015 06:39:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12938296</link>
+    </item>
+    <item>
+      <title>Strange thing about moving albums</title>
+      <description>Hi
+
+First of all, I am using koken for a while now and I really like it.
+
+I have a strange problem with moving albums from one set to another set. If I select an album in the right part and move it to another set, then the one left and rigt is also moved.
+
+When I count the albums in a set in the left part and compare it in the middle part, then the numbers dont match.
+
+See example: Number in Projects = 14; number in the middle =16 -&gt; Difference  = 2 albums
+
+Image: http://joebuergi.ch/koken/albums/495ff85dbfebb8c0d9884bb4f30d4d54/content/aafea3915641c3751b509395f6d6c127/ 
+
+Does anybody whats wrong. Thank you very much for your help.
+
+Josef</description>
+      <pubDate>Wed, 08 Jul 2015 19:37:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12929089</link>
+    </item>
+    <item>
+      <title>private content is accessible though password was set</title>
+      <description>I have activated the password protection with the last version.
+The I uploaded some pictures into the private library and set the password
+
+Some weeks later I found these pictures on google! 
+The Url the pictures are was "www.xxxx.de/content/page/4/". With this url I don't need a password.
+When I use the url www.xxx.de/ablums/xxx then I need a password.
+
+Have I made somethink wrong?
+
+</description>
+      <pubDate>Mon, 06 Jul 2015 17:27:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12928120</link>
+    </item>
+    <item>
+      <title>Import video from vimeo</title>
+      <description>Hello,
+i have a problem importing certain videos of my vimeo.
+Some don't want to import, some don't work inside Koken after import. It's very weird.
+CAN YOU HELP ME ??
+
+I can't import these videos (or don't work after import):
+https://vimeo.com/31191501
+https://vimeo.com/60338793
+https://vimeo.com/60338053
+https://vimeo.com/60459607
+
+my account is:
+http://www.simoncahn.com/koken/
+
+Best
+Simon
+</description>
+      <pubDate>Sun, 05 Jul 2015 18:14:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12922240</link>
+    </item>
+    <item>
+      <title>Unable to change URL</title>
+      <description>I've been having some issues with my koken dashboard for a couple weeks now and havent been able to get a response from support so I'm hoping to get some help here. Thanks in advance to anyone who has advice!!
+
+Current issue:
+After some trouble with my koken site (more details below), I'm trying to switch out my old site with a new one. However, I don't seem to be able to update the url for a new koken site to my "live" url (sarahrittenour.com). When I try to update the url on a new koken account, I see an error message that simply says "true" and then continues to say "saving" without actually saving. Once I get the "true" error, the site is blank and I get an error message when trying to login to the dashboard that says "Connection Error - Cannot connect to API" on both koken sites that I've created. The old site is still semi-functional so I'd like to keep it as a back up but even if I change the url, move the files, or completely delete the old site files from the server, I still get that "true" error. I'm completely stuck at this point.
+
+Background:
+I was rearranging some albums in the koken dashboard for my "old" site and the dashboard seemed to freeze while I was moving an album. I hit refresh and it looks like all of my public albums are gone. The live site is suddenly missing photos so I go through my hosting provider and restore a backup of the site which is now semi-functional but still missing half of my albums. I'm unable to create any new albums or make any changes to existing albums on the site and the public albums still don't appear in the dashboard.
+
+If anyone can help me figure out how to resolve the issues on the existing site or change the url for a new site without getting that "true" error, I'd be very very appreciative.
+Thanks!!</description>
+      <pubDate>Tue, 07 Jul 2015 00:20:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12921986</link>
+    </item>
+    <item>
+      <title>Can't connect to store from Koken install</title>
+      <description>Version 0.21.2
+Safari 6.2.7
+Template: Repertoire 1.5.2
+
+Store link in the Admin area returns me to the Content screen.
+
+Template issues:
+EXIF data does not display, cannot turn EXIF display off.
+IPTC data does not show
+"Captured" field in site view (collection) remains at published date instead of creation date despite changing settings in Collection and Import. Cleared both system and image cache.
+
+This is basic functionality offered by the template, but it appears broken.
+
+Can you advise what is wrong?
+
+
+
+</description>
+      <pubDate>Wed, 08 Jul 2015 07:35:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12918220</link>
+    </item>
+    <item>
+      <title>error 502</title>
+      <description>Hello! After installation, a 502 error, but the Admin Center is available. advise how to cure.</description>
+      <pubDate>Fri, 07 Aug 2015 01:18:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12915841</link>
+    </item>
+    <item>
+      <title>Future of Koken?</title>
+      <description>I have just discovered Koken a couple of weeks ago, and LOVE it. Its ease of use and simple beauty. I have also just realised, that it seems to be dying a slow death, and it would be horrible if that happened! I have read the threads about two of the three team members leaving and all that, but I would love to get a clear statement about the future of Koken from the guy(s) behind.
+If it is to drift toward its doom, would it be impossible to make it open source instead?
+If Koken does indeed have a future, I could see myself spending a ton of money in here, but as yet I am holding back, because the future of the system is unclear.
+Does Koken have a future?</description>
+      <pubDate>Mon, 10 Aug 2015 14:20:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12914122</link>
+    </item>
+    <item>
+      <title>Problem install themes</title>
+      <description>I have a problem with Koken since March, I try to contact the support, but I did not get any reply or any help.
+If same one could help me, I really would appreciate, please I am getting desperate.
+
+First was the 777 problem and to try to fix this problem I did a fresh install and know I have the problem that the theme does not finish the installation (I think it's the same problem the 777)
+
+I try to fix this problem setting the permissions for the storage directory plus all directories inside to 777 like it was told on this help
+http://help.koken.me/customer/portal/articles/1748951-theme-plugin-doesn-t-install
+
+Any other solution or thing I could do to fix this problem. Any help it's more than welcome, please.
+I want to buy the password protects plugin and put my site running but nothing.
+</description>
+      <pubDate>Fri, 03 Jul 2015 14:19:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12909947</link>
+    </item>
+    <item>
+      <title>Trying to install a theme I purchased</title>
+      <description>Hi,
+
+I'd like to install a theme I purchased a while back however when I try to open the store in koken it tells me I need to install the new version and then I get this message?
+
+Koken encountered a problem while updating and reverted back to the previous version to ensure your site continues to work. Please try the update again. If you continue to have issues, please contact Koken support.
+
+Any way to fix this? Get access to the store?</description>
+      <pubDate>Fri, 03 Jul 2015 04:27:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12907564</link>
+    </item>
+    <item>
+      <title>Koken Gallery Image Display Issue (Chrome)</title>
+      <description>I noticed after a recent update that when I view images in a gallery, the last image in the gallery displays under the first image in the gallery (instead of at the end of the list). It views properly in Safari, but not in Chrome. Has anyone else noticed this issue?</description>
+      <pubDate>Sat, 04 Jul 2015 10:35:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12907087</link>
+    </item>
+    <item>
+      <title>Some photos appear in very low res when published</title>
+      <description>I uploaded many photos. When the website is live, some of them appear in very low res and like 16 colors. More and more each time I look at it.
+http://photo-van-poucke.eu
+I already reset the caches, but this did not change.
+Any idea?
+Thanks in advance
+Bernard</description>
+      <pubDate>Mon, 10 Aug 2015 14:50:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12898159</link>
+    </item>
+    <item>
+      <title>Latest koken - pulse not loading items</title>
+      <description>Dear Koken Dev,
+
+I used Lauren's pulse strip code as a basis for my galleries a while back:
+
+https://gist.github.com/laurendavissmith/5568811
+
+Everything was working fine until I updated my koken installation.
+
+Almost everything works:
+- clicking on the image in the slideshow
+- using left and right arrow keys 
+- etc
+
+However, when I click on the thumbnails, I it will not load the actual image.
+
+Here's a page you can see it failing at:
+
+http://www.farhezrayani.com/portfolio/albums/landscape
+
+I've tried deleting the caches etc.
+
+Any advice appreciated.
+
+Thanks,
+Farhez</description>
+      <pubDate>Sun, 28 Jun 2015 21:17:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12883690</link>
+    </item>
+    <item>
+      <title>Login / Password Reset Problems</title>
+      <description>Hello,
+
+My admin panel is not allowing me to log in, no matter what I try. I have reset the password (through both means), and confirmed in the database that the application is indeed changing the passwod. Nonetheless, it refuses to accept the new password that the system generated. Any ideas?</description>
+      <pubDate>Mon, 10 Aug 2015 14:49:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12880299</link>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <description>Hello,  I am user of Koken, and I should say that it is awesom!
+But I have question about privacy - are photos, which are uploaded to Koken hosted on VPS, belong only to me? Or they are becoming public somehow?</description>
+      <pubDate>Sat, 27 Jun 2015 21:00:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12880237</link>
+    </item>
+    <item>
+      <title>Lightbox in Axis 2</title>
+      <description>Is there any way to disable the lightbox in AXIS 2?</description>
+      <pubDate>Sat, 27 Jun 2015 14:56:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12880039</link>
+    </item>
+    <item>
+      <title>Display problem in album, one placed underneath another - Boulevard</title>
+      <description>Hi, I have a problem since few days... I use Boulevard theme.
+When I go in an album, images are placed underneath one another, to see the problem, go on 
+
+http://thomasperreon.com/albums/appartement-chay/
+
+I don't understand what happened because i don't do something these days...
+Somebody know what it is? 
+Thanks a lot!!!
+
+Have a nice day</description>
+      <pubDate>Sat, 27 Jun 2015 21:03:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12878389</link>
+    </item>
+    <item>
+      <title>Splash slideshow issues</title>
+      <description>My splash of featured content, when using the latest regale theme, isn't working.
+
+When I resize the browser window, the image is shrinking to fit without being cropped. I want my image on the splash to fill the height and width, no matter what ratio I've scaled my browser window to.
+
+I've tried all the available options and think there's a problem.
+
+Is this a known issue? It was working fine until recently.
+
+Thanks,
+
+Owen</description>
+      <pubDate>Thu, 25 Jun 2015 22:54:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12876954</link>
+    </item>
+    <item>
+      <title>Koken renders pixelated images</title>
+      <description>Please see the thread here:
+http://help.koken.me/customer/en/portal/questions/12876828-pixelated-images?new=12876828</description>
+      <pubDate>Thu, 25 Jun 2015 20:41:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12876833</link>
+    </item>
+    <item>
+      <title>Site getting very large</title>
+      <description>I am running a site for a client and it's getting very large. 
+
+It's nearly over 1Gb, are there any ways to reduce the amount of images on the site?
+
+I tried removing image cache before now but lost all my images</description>
+      <pubDate>Thu, 25 Jun 2015 11:10:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12875680</link>
+    </item>
+    <item>
+      <title>Error when using Lightroom Export</title>
+      <description>Plugin Version: 1.2.10
+Lightroom Version: Lightroom CC
+
+Error: Can't update this collection. This plug-in’s post-processing task did not finish successfully.
+AgExportSession:recordRemoteCollectionId: remote ID must be a number or string
+
+When trying to create a new album and uploading in Koken, I receive the above error. I tried this on multiple new albums. 
+</description>
+      <pubDate>Thu, 25 Jun 2015 05:14:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12875356</link>
+    </item>
+    <item>
+      <title>Navigation floats with scroll / Safari only</title>
+      <description>Hello,
+i have a problem with the koken theme boulevard. It works fine with browsers like chrome, i exp. &amp; safari 
+in desktop mode, but the navigation with break when switching to a mobile view. The Bug occurs on IOS devices with a smaller width than ...700px... The navigation will float free with the scrolling of the album. This 
+problem affects all sorts of templates. 
+Does someone know this issue or has a solution for this bug? I would greatly appreciate your help here.
+Thanks a lot in advance.
+
+Best regards 
+
+Andreas </description>
+      <pubDate>Sun, 28 Jun 2015 10:53:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12873733</link>
+    </item>
+    <item>
+      <title>Problem with RHEL/CentOS 7</title>
+      <description>This is the second time that I've tried installing Koken on a CentOS 7 VM.  It always says:
+
+Your server does not meet the minimum system requirements.
+Correct the problems listed below then try again.
+
+This directory does not have the necessary permissions to perform the install. Set the permissions on the koken folder and the koken/index.php file to 777.
+
+However, it does have the correct permissions.
+
+[root@localhost noselfies.net]# ls -l
+total 0
+drwxrwxrwx. 3 root root 31 Jun 22 23:46 public_html
+
+[root@localhost public_html]# ls -l
+total 48
+-rwxrwxrwt.  1 root root 39395 Feb 16 13:40 index.php
+drwxrwxrwx. 10 root root  4096 Jun 22 23:43 ms
+
+In both the file and the directory it is in, there are chmod -R 777 permissions. Any suggestions.  FYI, the install works fine in CentOS 6 and Ubuntu.
+
+--Jason</description>
+      <pubDate>Mon, 10 Aug 2015 14:51:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12864748</link>
+    </item>
+    <item>
+      <title>Thumbnail not appearing while sharing image in regale2 theme</title>
+      <description>Hi,
+
+When I try to share my image to Facebook, iam not seeing the thumbnail, instead I just see the link.
+I have not modified any code till now, could you please help me to resolve this problem.
+here is the link to one of my images which I wanted to share.
+
+http://www.chetank.com/albums/birds/content/birds-2-of-3/lightbox/
+
+Thanks &amp; Rgds
+Chetan</description>
+      <pubDate>Mon, 22 Jun 2015 11:40:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12861003</link>
+    </item>
+    <item>
+      <title>Link to my external Blog</title>
+      <description>Hi,
+
+I would like to insert a link to my Blog (running under Wordpress). I plan to use the Axis 2 theme. Is there any possibility?
+
+All the best,
+Alex</description>
+      <pubDate>Mon, 22 Jun 2015 06:55:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12856226</link>
+    </item>
+    <item>
+      <title>Lightbox issue with 0.21.2</title>
+      <description>I've got an issue with lightbox usage: my albums available on route, but then I use lightbox="true" it gets 404 error. This issue appeared after upgrade to 0.21.2... PHP: 5.6. 
+
+Any thoughts about this? </description>
+      <pubDate>Mon, 10 Aug 2015 14:57:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12854295</link>
+    </item>
+    <item>
+      <title>Koken site all white</title>
+      <description>Hi 
+
+I'm using koken for my site mythclub.com  It's always looked beautiful and simple.
+
+I just went there and it's all white. If I go to mythclub.com/admin it's just all black.
+
+Thanks.
+
+Joel
+</description>
+      <pubDate>Sat, 20 Jun 2015 08:53:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12850540</link>
+    </item>
+    <item>
+      <title>Contact Form is Unclickable No Cursor Appears</title>
+      <description>I've tried this on two different site and when I have the contact form up and running I cannot even click on the two default boxes to type anything inside of them - you try to click on the YOUR EMAIL or YOUR MESSAGE boxes and the cursor never appears, so you cannot even type anything.</description>
+      <pubDate>Sat, 20 Jun 2015 13:37:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12848799</link>
+    </item>
+    <item>
+      <title>Error</title>
+      <description>I cant import any files.  argh.  im frustrated,  error says  Unable to write to output file.
+I may end up  buying   Sytist  for $299 if i cant get my KOKEN workin.  :(
+
+</description>
+      <pubDate>Sat, 20 Jun 2015 13:39:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12845921</link>
+    </item>
+    <item>
+      <title>Private w/password Gallery Navigation</title>
+      <description>Is it possible to navigate freely within a private image gallery? 
+
+I'll give an example of how I have one of my galleries set up, and the issue I'm having with it. It's as follows:
+
+I create a set, let's call it "Casting" and within the "casting" set I create 2 more set's, called: "Group 1" and "Group 2". Within these each of these sets I have 5 albums of images. 
+
+I take the password protected link I have that brings me to the main "Casting" set. From this main "Casting" set I am able to navigate anywhere I please - so long as that is forward. By the time I get to one of my albums deep within this hierarchy it is impossible to navigate to one of the above folders. I would be forced to backspace page by page, which seems a bit ridiculous.
+
+Ideally, I would be viewing an image and could then click a link at the top of the page that brought me back to the album, and then from the album into the containing group folder, and from the group folder into the "Casting" set. 
+
+As far as I can tell, there is zero navigation possible. There are the " Home / Sets / "Casting"" but when I click home or set they take me to nothing, because everything is private. 
+
+Any help/ideas?
+
+</description>
+      <pubDate>Thu, 18 Jun 2015 21:04:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12844153</link>
+    </item>
+    <item>
+      <title>When I empty the trash bin my server disk space stays full</title>
+      <description>Whenever I delete sets of images from my koken site they are wiped from the interface, but the amount of disk space on my server remains unchanged. Essentially, nothing is happening at all except not being able to access them anymore. 
+
+Am I missing something here?
+
+I am putting things in the trash and emptying the trash. As far as I can tell Koken thinks they're gone.
+
+
+
+</description>
+      <pubDate>Thu, 18 Jun 2015 21:02:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12844147</link>
+    </item>
+    <item>
+      <title>Photos do not appear in pages</title>
+      <description>Hello,
+
+I created 2 pages with theme AXIS 2
+One page for front page. with my logo (logo.png) .
+Second page are an "about me" , with text and picture (selfie.jpg)
+
+In two cases : Caption : Do Not Show     ... and Link : Do Nothing.
+
+It's working before, but since 2 days the pictures doesn't appears ...
+How can I resolv it please ?</description>
+      <pubDate>Thu, 18 Jun 2015 12:52:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12837451</link>
+    </item>
+    <item>
+      <title>.htaccess passwords don't work anymore - and need backup/retrieve images from database</title>
+      <description>hi,
+I ran into a problem last week. Can't run a koken-only website because I need an ordering system for my clients (I use Fotoplayer which is written in flash). I use a custom link in the menu to this webpage. This page has to be password protected. I've always done this with .htaccess. Works great. But not in combination with KOKEN because KOKEN's htaccess somehow messes things up. I get a "404 not found" page when I click on the custom link to the page with the Fotoplayer webgallery. There's no syntax error in the hyperlink. I've double checked it! I emailed KOKEN about this but get no answer (I'm in a hurry, clients are waiting) so I'll post it here, hope someone can help. In the meanwhile I use my old website again and the KOKEN website (in subdir /KOKEN) through menubutton "new website". In the old website the webgallery works fine (the .htaccess works too). I had to delete the .htaccess files that KOKEN makes also to have the old index.htm work even if it's in the root and KOKEN is in it's own dir. 
+
+Other question: is there a quick way to download all the originals from my website? In Slideshow Director this was pretty easy, but I can't find them here, there obviously in the sql database, but how on earth can I get them out? Really need help with this. 
+thanks a lot 
+Ans</description>
+      <pubDate>Fri, 07 Aug 2015 01:15:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12837024</link>
+    </item>
+    <item>
+      <title>Change URL = Cannot Connect to API</title>
+      <description>Hi, hoping someone has had this problem before and resolved it as the Koken team aren't responding to emails. 
+
+I took the /koken off the end of the URL in the settings and clicked save, it got stuck with the saving icon, and now I can't see the web page I have been building NOR can I even get into the admin page - message on the admin page reads Connection Error - Cannot connect to API. 
+
+Has anyone had this problem and fixed it? Any help very much appreciated. 
+
+Many thanks</description>
+      <pubDate>Tue, 16 Jun 2015 16:34:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12833298</link>
+    </item>
+    <item>
+      <title>Change URL = Cannot Connect to API</title>
+      <description>Hi, hoping someone has had this problem before and resolved it as the Koken team aren't responding to emails. 
+
+I took the /koken off the end of the URL in the settings and licked save, it got stuck with the saving icon, and now I can't see the web page I have been building NOR can I even get into the admin page - message on the admin page reads Connection Error - Cannot connect to API. 
+
+Has anyone had this problem and fixed it? Any help very much appreciated. 
+
+Many thanks</description>
+      <pubDate>Fri, 19 Jun 2015 14:00:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12833288</link>
+    </item>
+    <item>
+      <title>Problems with administrator page displaying nothing / Problems with webpage not showing some content</title>
+      <description>- When I access to my administrator page it does not show anything: just a black page.
+
+- In my webpage, there is content that does not appear: 
+
+   - http://samllanes.com/albums/places/ 
+
+Also, this content that now shows up, wasn't there last week:
+
+   - http://samllanes.com/sets/portraits/ 
+
+I need to access my administrator page as soon as possible because I have content already uploaded that I need to share! 
+
+Thanks.</description>
+      <pubDate>Mon, 15 Jun 2015 17:07:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12829503</link>
+    </item>
+    <item>
+      <title>Wrong username/password after install </title>
+      <description>Hello,
+I made a first installation, but the password was not recognized, I asked for a new password, the new password is also not working. I erased everything, started the installation but each time the password is not recognized.</description>
+      <pubDate>Mon, 10 Aug 2015 14:54:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12827573</link>
+    </item>
+    <item>
+      <title>Admin panel showing up as plain-text</title>
+      <description>After using Lightroom to delete an album, the following error has occurred:
+
+When navigating to my /koken/admin directory, the "admin panel" shows up as plain text.  All of the fancy menu systems are not displaying...  it's just like plain, unformatted HTML.  I've navigated to the area where "clear system cache" is displayed, and I clear the cache, but it doesn't help.
+
+Any help would be greatly appreciated.
+
+Matt</description>
+      <pubDate>Mon, 15 Jun 2015 13:48:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12824490</link>
+    </item>
+    <item>
+      <title>content do not Load</title>
+      <description>Hello there,
+
+the content in the Library dont load for weeks now.
+The content page on the website is empty and in the library it loads and loads but nothing happens.
+
+i already cleared the site and picture cache.
+
+I know your guys are rly busy but i have the problem for weeks now. Cant find no solution here.
+
+Thanks for your help !
+
+Nicole</description>
+      <pubDate>Mon, 15 Jun 2015 13:49:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12819579</link>
+    </item>
+    <item>
+      <title>Updated to https but the images/photos are still loaded as http</title>
+      <description>Hey,
+
+I updated my server to https "only", all works fine, but the encryption breaks, because the pictures stored in the library are loaded via http and not https. also there is a meta "canonical" which loads in http.
+
+What can I do to fix this problem?
+
+Best regads
+
+KS</description>
+      <pubDate>Wed, 19 Aug 2015 12:16:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12816502</link>
+    </item>
+    <item>
+      <title>Download-Button is missing in the private content!!!</title>
+      <description>Hi,
+
+i have a problem. I am not able to share my pictures with my customers because of the missing of the download button. The whole thing is not working. I really dont know what to do. 
+
+Best regards
+Artur</description>
+      <pubDate>Thu, 11 Jun 2015 09:00:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12809345</link>
+    </item>
+    <item>
+      <title>HTTP Error</title>
+      <description>Hi Guys,
+
+I've been getting the infamous http error on certain images i upload. And its somehow been getting worse. 
+The requirements are met. I have enough space left, enough memory, the correct image processing library and sufficient permissions.  The tmp folder is empty. The max upload limit is more than enough. And as I said some images work, some dont. Cant relate it to a file type.
+
+I've also contacted koken directly with the domain, username and pw but no answer from them, so now i'm trying here.
+
+Thanks.
+
+Regards Meinhard</description>
+      <pubDate>Wed, 10 Jun 2015 08:11:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12806343</link>
+    </item>
+    <item>
+      <title>Lightbox Load Issue</title>
+      <description>Hi 
+
+Having an issue where the light box fires but then the content doesn't load. Getting the following error several times when i inspect the console. 
+
+Thought initially it was an issue with cashing but wiped the cache and that didn't solve it then i realized the light box link is creating a url that doesn't sit with what I'm used to seeing 
+ 
+&gt;&gt; Instead of generating .... albums/quiz-show/content/quiz-show-00/lightbox/ 
+&gt;&gt; It's generating ... albums/quiz-show/content/quiz-show-00/lightbox/lightbox/?base_folder=/
+
+If you remove the [lightbox/?base_folder=/] everything works fine again. 
+
+Any idea how to get round this. I'm all up to date. Can recreate the problem here. http://www.andrewdedwards.co.uk/albums/categories/theatre/quiz-show/ just hit the lightbox button. 
+
+Thanks in advance for any help. </description>
+      <pubDate>Mon, 15 Jun 2015 14:18:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12804118</link>
+    </item>
+    <item>
+      <title>Album sets disappeared in browser</title>
+      <description>Any idea why my album sets constantly disappear from view in my web browser? They show up in the CMS, but not there in the browser... the only way to get them back is to log in, and make some content change to the set.</description>
+      <pubDate>Tue, 16 Jun 2015 19:29:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12802434</link>
+    </item>
+    <item>
+      <title>Login problems admin page</title>
+      <description>Hi,
+
+somehow my koken website did not accept my admin password anymore.
+so i tried to request "a new one" but it says my email address is not found.
+i also tried to use the password reset script.
+i got a new password but it is not accepted by koken.
+
+can someone help me? </description>
+      <pubDate>Mon, 15 Jun 2015 07:42:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12801749</link>
+    </item>
+    <item>
+      <title>Still Can't Reorder Image in Album...Please Help</title>
+      <description>Hi guys, I've been trying for over 2 months to find out why I cannot reorder image within an album...it lets me drag them, but then changes right back to the original order (new entries on the bottom, which is definitely not what I want). No response from Koken team from my e-mails last month, is something going on?
+
+You can see my site here, and click on "Portfolio" to see the album.
+
+http://www.timgilbreath.com
+
+Thanks in advance,
+
+Tim</description>
+      <pubDate>Wed, 10 Jun 2015 13:06:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12797962</link>
+    </item>
+    <item>
+      <title>Problem with Boulevard theme</title>
+      <description>Dear Sir/Madam,
+
+i have a problem with Boulevard theme in chrome.
+In the album detail, last element (one of images) is under lane with description. and rest of images 
+Is it possible to solve this problem manually?
+
+Yours sincerely,
+Andrzej J. Bacz</description>
+      <pubDate>Sat, 13 Jun 2015 19:14:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12796996</link>
+    </item>
+    <item>
+      <title>Some albums not shown on category-page</title>
+      <description>We're trying to use the category-page to display all albums and essays related to each category. For reasons we don't understand, certain albums are not displayed on the category overview pages. These albums are correctly displayed on all other pages, however.
+
+Example:
+On this page, all albums in the "chile"-category are displayed correctly: https://onewayticket.hagemann.me/country/chile/albums/
+
+On the following page, the "Torres del Paine" album is missing: https://onewayticket.hagemann.me/country/chile/
+
+(We renamed "categories" to "country", hence the different URLs.)
+
+Can anybody tell us the reason for this? We couldn't find any difference in the albums themselves.
+
+Thanks for any help!
+Karen &amp; Roland</description>
+      <pubDate>Wed, 10 Jun 2015 11:53:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12795939</link>
+    </item>
+    <item>
+      <title>no images on published site</title>
+      <description>I published my website yesterday and no images are showing up. It looks like that the website is still loading but my images doesn't appear. Even in the admin tool for editing the website, the images doesn't show up. I have used the elementary theme. I have cleared the cache and was expecting that this will build up automtically by koken.
+Does anyone experience the same issue? Thank you in advance for your help.</description>
+      <pubDate>Sun, 07 Jun 2015 18:29:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12789593</link>
+    </item>
+    <item>
+      <title>I locked myself out of Koken, apparently</title>
+      <description>I installed Koken as the photo blog on my site, and all worked great - until yesterday.
+
+Suddenly I'm not able to log in to the admin interface. My password doesn't work, the reset email never gets sent out, and the password-reset.php generates a password (but leaves the email field empty), but it doesn't work either.
+
+Any ideas what can I do now? I have thousands of photos uploaded and many of them already categorized and tagged - I'd HATE to start over.
+
+Help appreciated!</description>
+      <pubDate>Sun, 07 Jun 2015 18:31:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12786168</link>
+    </item>
+    <item>
+      <title>Empty content upon clicking back button</title>
+      <description>Hello,
+I have exactly the same problem as described in this post:
+http://help.koken.me/customer/portal/questions/9894897-back-button-problem-of-madison2
+
+Reloading the page makes it work again, until the back button is clicked (both the browser button and the back button within image navigation cause the problem). Once this behaviour is triggered, no part of the site works anymore (clicking on a different page such as essays or static pages shows nothing, either) until the page is reloaded.
+
+Emptying the images/system cache and the api cache via FTP doesn't solve the issue. Also, template cache is uncheked.
+
+Any tips welcome.</description>
+      <pubDate>Thu, 18 Jun 2015 21:46:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12778202</link>
+    </item>
+    <item>
+      <title>Upload to Koken failed (Lightroom Plugin)</title>
+      <description>When uploading photos via Lightroom plugin some photos upload fine, then an error message pops up.
+
+Error message:
+This plug-in’s post-processing task did not finish successfully.
+Upload to Koken failed. The server did not return an error message. Contact Koken support for more help.
+
+LR 5.7 &amp; LR CC (2015 / 6.0)
+Plugin 1.2.10
+
+Server side:
+Ubuntu Docker 1.6.2 on 14.04
+Digital Ocean Hosting
+
+Installed exactly following your article:
+http://help.koken.me/customer/portal/articles/1648433-installing-koken-at-digitalocean-using-docker
+
+PLEASE HELP =)
+
+PS: I am making a birthday present with Koken now and really need it fixed this week. Hope I am just being stupid with some of the settings as I already promised to deliver by Monday..)))</description>
+      <pubDate>Thu, 04 Jun 2015 18:35:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12777375</link>
+    </item>
+    <item>
+      <title>No longer can sign in</title>
+      <description>I was wondering if there is a way to restore my login email. I recently changed a bunch of the email addresses in the settings to try to force the contact emails to go to another email address and now I can no longer get signed in to the admin section. It tells me my original and new email address are not found when I try to reset the password. The password reset script wouldn't work for either.</description>
+      <pubDate>Sun, 07 Jun 2015 18:33:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12775594</link>
+    </item>
+    <item>
+      <title>Store Tab Problem</title>
+      <description>Hi,
+
+First thanks for Koken, although I'm very new (just installed) it looks and feels awesome and I can't wait to learn to use it. 
+
+My problem is that when I click on the [Store] tab it tries to go to the store page but returns to [Content] tab about a second afterwards. I'd like to use the store for themes and plugins. Can they be installed separately?
+
+Any help appreciated.
+
+Best Regards
+
+Mel
+</description>
+      <pubDate>Mon, 10 Aug 2015 14:57:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/portal/questions/12771640</link>
+    </item>
+  </channel>
+</rss>

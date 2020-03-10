@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Installation and setup</title>
+    <link>http://help.koken.me/customer/en/portal/topics/291471-installation-and-setup</link>
+    <description>Installation and setup articles</description>
+    <item>
+      <title>Installing Koken</title>
+      <description>Ready to install Koken? Awesome. Here's how. 
+
+ 1) Create a database 
+
+ First step is to create a MySQL da...</description>
+      <pubDate>Sat, 26 Sep 2015 23:02:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/632102</link>
+    </item>
+    <item>
+      <title>Managed Hosting FAQ</title>
+      <description>What is Managed Koken?
+Managed Koken is a subscription service that we set up, monitor and maintain to ensure ...</description>
+      <pubDate>Wed, 07 Jun 2017 22:31:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/2819687</link>
+    </item>
+    <item>
+      <title>Setting up your Managed Koken Subscription</title>
+      <description>Here’s how to get started with your new subscription.​
+
+After purchasing, your subscription will be displayed ...</description>
+      <pubDate>Mon, 12 Jun 2017 14:08:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/2821891</link>
+    </item>
+    <item>
+      <title>System requirements</title>
+      <description>Koken is software that requires a web server to setup and use. To install Koken you need to know how to create...</description>
+      <pubDate>Wed, 07 Jan 2015 15:03:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/827352</link>
+    </item>
+    <item>
+      <title>Moving a Koken Installation</title>
+      <description>To move your Koken installation complete the following steps in order: 
+
+ 
+ Move the Koken folder and the data...</description>
+      <pubDate>Wed, 28 Jun 2017 16:35:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/2831872</link>
+    </item>
+    <item>
+      <title>Selecting an image processor</title>
+      <description>Koken creates images by using image processing software installed on your web server. Every web host includes ...</description>
+      <pubDate>Sat, 06 Sep 2014 21:44:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1682472</link>
+    </item>
+    <item>
+      <title>Glossary of terms</title>
+      <description>This document is an alphabetical reference for all the terminology Koken uses in its console and documentation...</description>
+      <pubDate>Tue, 09 Dec 2014 20:58:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/890657</link>
+    </item>
+    <item>
+      <title>Installing Koken at DigitalOcean using Docker</title>
+      <description>DigitalOcean is a web-hosting provider geared towards developers that offers SSD-based virtual servers (known ...</description>
+      <pubDate>Fri, 30 Dec 2016 18:48:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1648433</link>
+    </item>
+    <item>
+      <title>Recommended web hosting providers</title>
+      <description>Koken is software that must be installed on a web server through a web hosting provider. Chances are if a host...</description>
+      <pubDate>Fri, 30 Dec 2016 19:16:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1647417</link>
+    </item>
+  </channel>
+</rss>

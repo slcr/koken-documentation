@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Plugins</title>
+    <link>http://help.koken.me/customer/en/portal/topics/697568-plugins</link>
+    <description>Plugins articles</description>
+    <item>
+      <title>Hotjar</title>
+      <description>Hi!
+
+I cannot find a way to install a plugin to use hotjar or any other plugin. When I try to follow instructions I can't find where I should find it. I actually cannot find the plugin store, it shows me my Instagram photos instead. 
+
+Thank you!</description>
+      <pubDate>Mon, 27 Nov 2017 15:26:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17195031</link>
+    </item>
+    <item>
+      <title>Cart Plugin- no cart visible.. all is set up</title>
+      <description>hi there
+
+i have the cart plug in and a braintree account, everything is set up and active, but the cart symbol is not visible on the pictures i activated for sale.
+before entering the production key i had sandbox key, there the cart was visible, now with the production keys no cart!
+
+i tried to reinstall cart, reenter key, redo the setup, activate sale on all pictures, reset cache.. nothing works!
+
+my website: www.nicolaspetit.ch, the pictures i want to sell: https://www.photo.nicolaspetit.ch/albums/portfolio/
+
+please help!
+</description>
+      <pubDate>Wed, 15 Nov 2017 15:37:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17185095</link>
+    </item>
+    <item>
+      <title>Multi-language plugin</title>
+      <description>Hi,
+I wanted to share that I created a plugin that translates content in the browser - so no adaption of server-php code is necessary.
+You can even extend your theme to contain a language selector.
+Furthermore the plugin detects automatically the language of your visitor and sets automatically the apropritate language (or a fallback language if you didn't translate your page yet into the language of the visitor).
+Last but not least the plugin makes your browser cache the language files so that they are not refetched on every page reload (if you select to do so in the plugin settings).
+You can find more info about the plugin under https://cielitolindo.de/essays/2017/10/enable-multi-language-support-on-a-koken-site/</description>
+      <pubDate>Mon, 23 Oct 2017 16:53:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17167866</link>
+    </item>
+    <item>
+      <title>Plugin Cart does not work</title>
+      <description>Hi,
+today I bought Cart plugin and implemented it with Braintree option.
+I do not get any basket symbol on "purchasable" photos. 
+I also checked "Enable live orders on your published site" in plugin settings.
+
+Please see under http://www.kreativ187.de/albums/blickgaenge/   first two pictures are enabled.
+
+  
+Regards Erik</description>
+      <pubDate>Wed, 18 Oct 2017 14:22:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17165728</link>
+    </item>
+    <item>
+      <title>Edit Visibility in Password Plugin...?</title>
+      <description>After creating a Private album, I drag images to it.
+
+Before the images are dropped into the folder, a message appears asking, "You are adding X public and unlisted items to a private album. Would you like to change the items to private?"
+
+What difference does it make if I choose "No, leave them alone." or "Yes, make them private"? I can find nothing on this in Help.
+
+All I want to do is to be able to send a link (password protected) to this album to a client for their private viewing.
+
+Thanks.
+
+D.</description>
+      <pubDate>Tue, 17 Oct 2017 19:40:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17165176</link>
+    </item>
+    <item>
+      <title>Importing vimeo private videos</title>
+      <description>If I was to use the vimeo pluging to embed videos into my library, can I import videos that are password protected on vimeo? How would that work? 
+
+Thanks</description>
+      <pubDate>Mon, 16 Oct 2017 19:35:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17164789</link>
+    </item>
+    <item>
+      <title>Code doesn't appear</title>
+      <description>Hi, want to add a simple meta tag with the HTML Injector, but when I look into the header of my homepage, it's not inserted.</description>
+      <pubDate>Thu, 12 Oct 2017 15:50:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17162914</link>
+    </item>
+    <item>
+      <title>fonts</title>
+      <description>trying to use the font loader plugin, i downloaded and installed it but it does not work when I use google fonts or any font</description>
+      <pubDate>Fri, 06 Oct 2017 14:35:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17159703</link>
+    </item>
+    <item>
+      <title>cart plugin - no purchase option</title>
+      <description>Just want a cart so my client does not have to download every image individually.
+They may want to download 30 at 1 time.
+Is this an option with the current cart plugin?</description>
+      <pubDate>Thu, 05 Oct 2017 23:54:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17159607</link>
+    </item>
+    <item>
+      <title>Adding Google AdSense</title>
+      <description>I have plenty of experiences in reading and understanding basic HTML and CSS along with some JS. I'm currently trying to add Google Adsense to my website. I'm aware that you don't have plugin for that. However, I'm looking for the front page HTML of my installed theme where I can add my google adsense code in the . Please help with locating the front page in my installed theme?</description>
+      <pubDate>Tue, 03 Oct 2017 18:11:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17150756</link>
+    </item>
+    <item>
+      <title>Rating Plugin: Is it possible to Allow one user to add more than one like</title>
+      <description>What i am actually looking for is a solution where my TfP models can not only tell me if they like an image or not but be a bit more specific. No heart could equal "please delete image", one heart could equal "image is OK", two hearts could equal "please send image with basic post" and three likes could equal "please postprocess this image".
+
+I know i could try to activate disqus but then it would be active everywhere and i only need it in privatee albums.
+
+Ideas anyone?</description>
+      <pubDate>Fri, 29 Sep 2017 18:33:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17148829</link>
+    </item>
+    <item>
+      <title>Instagram plug-in won't connect</title>
+      <description>Hi -
+
+Instagram Plugin is enabled successfully.  When I go Library and try to import content using the plug-in, I get the import pop up window, and then click on the "Connect with Instagram" button.
+
+However it just cycles a bit, then just stops and I am back on the same page - nothing has changed. Have tried reinstalling, but nothing changes.
+
+Is there another step I must make to connect to my instagram act?    I have an SSL website, if that matters.
+Thank you.. </description>
+      <pubDate>Thu, 28 Sep 2017 22:49:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17147888</link>
+    </item>
+    <item>
+      <title>Cart - unable to get the cart icon</title>
+      <description>Hi, 
+
+I just bought the Cart plugin. Despite all has been configured according the instruction and comments seen on this help center, I just can't get the cart icon to appear. I even re installed the plugin. Logged off, back on. Changed theme. No way to get it working.
+
+Others seem to have their icons gone. Need help here.
+
+Thanks</description>
+      <pubDate>Wed, 27 Sep 2017 19:19:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17147138</link>
+    </item>
+    <item>
+      <title>Setting up favicons</title>
+      <description>Hello,
+
+I'm following the instructions at http://help.koken.me/customer/portal/articles/1213488-add-a-favicon-to-your-site to add favicons to my site.  I've uploaded the images from iconifier to the root of my website (I can open them directly through a web browser).
+
+When I try to add the code to the HTML Injector setup page I get an error telling me that the settings were not saved.
+
+Any thoughts as to where things are going wrong?
+
+Thanks ... Pete</description>
+      <pubDate>Sat, 23 Sep 2017 18:52:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17144763</link>
+    </item>
+    <item>
+      <title>Shop Icons gone</title>
+      <description>Hey,
+
+i have the shop plugin - all the icons and the buying option are gone.
+
+www.prauss.fr
+
+What shall i do?
+
+Greets.
+
+Fabien</description>
+      <pubDate>Mon, 18 Sep 2017 15:36:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17141325</link>
+    </item>
+    <item>
+      <title>Cart plugin without payment processor</title>
+      <description>Hi,
+is it possible to use the cart plugin also without a payment processor. So that I only get informed (maybe by Email), that somebody wants a photo?
+
+Thanks,
+Franz</description>
+      <pubDate>Tue, 12 Sep 2017 15:11:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17137059</link>
+    </item>
+    <item>
+      <title>Purchasable option not available in Library</title>
+      <description>Hello
+I recently purchased the Cart plugin and just finished setting up Stripe. I have configured the settings of the plugin and enabled live orders. But how do I mark the images purchasable. The only options I have in the Library module are; PROPERTIES, OWNERSHIP, SITE, HISTORY. So I seem to be missing the CART section. 
+
+I´m using the latest version of Axis 2 and Version 0.22.24 of Koken.
+
+I also tried to rebuild the image cache, remove template caching. But nothing seems to work.
+
+Ideas?
+
+/h</description>
+      <pubDate>Mon, 04 Sep 2017 21:22:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17132254</link>
+    </item>
+    <item>
+      <title>Password </title>
+      <description>Hi guy's, very new to the system, but I have a very old cms system running on my server. Now I want to go and change to a different photoviewing and distribution system like koken. what I miss is, that yes I can protect my pictures or collections, but what about a client that wants a website with all their images but doesnt want to be listed under all the other users? is there any chance that I can give away users and passwords so that user xyz with password aaa will be directed to a different "under" website? or does anybody have a different solution?
+I dont want my customers see that I have shot images for other customers, or weddings or etc..
+any solution?
+Best regards </description>
+      <pubDate>Tue, 29 Aug 2017 21:34:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17129652</link>
+    </item>
+    <item>
+      <title>Rating on boulevard thème</title>
+      <description>I am on the free version of boulevard thème (1.6.3) and the ratio button apear nowhere (and no option on the preference). Do i need the 2.0 version,  i buy the rating plugins and now i have to buy the new theme ?
+
+"image ratings to any theme"</description>
+      <pubDate>Tue, 29 Aug 2017 18:21:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17127764</link>
+    </item>
+    <item>
+      <title>HTML Injector</title>
+      <description>Hi there,
+
+I'm using Koken for a while now. I just rebuild from the start a new version from my website with Boulevard2. Everything was fine until I installed the HTML Injector plugin. 
+
+After the installation I was unable to save settings or uploaded pictures from the admin console. I tried to disable this plugin but the issue was still there. So I deleted it and now everything was fine again.
+
+</description>
+      <pubDate>Mon, 21 Aug 2017 16:27:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17124254</link>
+    </item>
+    <item>
+      <title>Rating Plugin and Google Rich Cards</title>
+      <description>I would like to use the Koken Rating plugin for google rich cards. Which seems easy to implement in Koken, since I can insert HTML directly into a page or essay. Here is a code example: https://goo.gl/images/fPKXhh
+
+My question: How do I get the value out of the rating plugin?
+
+Best regards
+Claas</description>
+      <pubDate>Fri, 18 Aug 2017 17:22:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17123808</link>
+    </item>
+    <item>
+      <title>Multiple Items / Item-specific option</title>
+      <description>Hello!
+
+Upon purchasing and installing the Cart plugin, I am disappointed to discover that the  "Cart" is not actually a shopping cart at all, but rather a method for purchase a single item. I thought that I must be doing something wrong, but a quick search reveals that in fact, the 'Cart" allows for placing only a singular item into it before check out is required to continue shopping. Additionally, it seems that there is no method of assigning item-specific options, for example, a specific print being available in several sizes, while a different print might be available in different sizes. 
+
+It should surprise no one that in most cases I prefer my customers to purchase multiple items which seem to bring in more revenue than selling a single item and frequently, in photography and fine art, the proportions of a specific image lend themselves only to specific sizes which differ somewhat from image to image. 
+
+I would like to think I;m missing something here but alas, it seems that the Cart is not a cart after all. Virtually by definition, a cart is something only required for multiple items. Please let me know when I might expect the cart to accommodate multiple items, and item-specific options and pricing. Without these seemingly very basic features, the cart seems unusable to me.
+
+Thanks!</description>
+      <pubDate>Wed, 30 Aug 2017 07:05:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17123509</link>
+    </item>
+    <item>
+      <title>font-loader not changing default font</title>
+      <description>Hello
+
+I am setting up a site for a client. We have purchases the Axis 02 theme, and I have installed the Font-Loader plugin in. I want to use Google fonts and have added this is the appropriate field:
+Fjalla One,Cantarell,Lato
+But the fonts still display as Helvetica. Can you tell me if I'm doing some thing wrong?
+
+The site is http://marcelasilva.com/koken/
+
+Thanks
+Jesse</description>
+      <pubDate>Tue, 15 Aug 2017 16:54:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17122126</link>
+    </item>
+    <item>
+      <title>rating Icon colour</title>
+      <description>Good morning,
+I want to change the colour of the (heart) icon of the rating. 
+Can you explain how I can do that?
+
+THx
+Johny </description>
+      <pubDate>Thu, 17 Aug 2017 15:29:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17120396</link>
+    </item>
+    <item>
+      <title>card-plugin failure</title>
+      <description>I have enabled "Enable instant digital downloads after purchase". And I have also enabled in braintree and paypal the setting "Do not accept a payment twice" So, yesterday the payment of a buyer was rejected but the download was then enabled in koken. So the buyer got the pfotos without any payment. Is there any possibility to prevent this? </description>
+      <pubDate>Thu, 10 Aug 2017 20:39:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17120016</link>
+    </item>
+    <item>
+      <title>Cart plugin - different items to sell</title>
+      <description>I'm using Cart for selling prints and have two price options for different sizes. Now I have also published a book and want to sell it through the website. So I added two different prices for book depending on delivery options. Can I assign only the relevant prices to the book (represented by a photo of the book) but not all the possible options which also include price for prints. At the moment it shows all 4 different options for prints and books.
+
+Thank you, 
+Dmitry</description>
+      <pubDate>Wed, 09 Aug 2017 13:17:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17118963</link>
+    </item>
+    <item>
+      <title>CDN plugin</title>
+      <description>Is there still a CDN plugin available and if so how do I get it?
+
+</description>
+      <pubDate>Mon, 07 Aug 2017 15:15:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17117552</link>
+    </item>
+    <item>
+      <title>Supporting Apple Photos</title>
+      <description>Hi, I would like to know if Koken support Apple Photos or if it will support Apple Photos.  Thanks</description>
+      <pubDate>Mon, 07 Aug 2017 15:13:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17117459</link>
+    </item>
+    <item>
+      <title>Watermark on Download images and Cart</title>
+      <description>Hi,
+
+A couple of queries and how 2 plugins work together for the 2nd query..
+
+Firstly,
+Does the watermark still remain on images you have enabled for download. I have mine set to download the original size image. Will the applied watermark remain on the downloaded copy? I hope yes.
+
+Secondly,
+If I install both watermark plugin and the Cart. Will the watermark be applied to site images only but the purchased image (download) be clean / the original image with no watermark?
+
+Thanks</description>
+      <pubDate>Mon, 07 Aug 2017 15:06:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17116940</link>
+    </item>
+    <item>
+      <title>Download enable just for password protected album</title>
+      <description>Hello,
+I have the password protect plugin, and I want to enable the download just for the password protected area.
+For example:
+Album A : public part, without password, download disable
+Album B : same images, but in a private album, with password, with download enable.
+For the moment, same images are in both album, but the download attribute is shared between these 2 albums. An option of download attribute by album is possible?
+Thanks for your answer!
+www.exposive.gallery</description>
+      <pubDate>Mon, 24 Jul 2017 14:10:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17110369</link>
+    </item>
+    <item>
+      <title>Email endpoints with Amazon SES</title>
+      <description>I have been trying to configure the custom Amazon SMTP service. I have entered the information correctly, but no email is sent.
+Any way to debug to figure out what is going wrong?
+</description>
+      <pubDate>Wed, 19 Jul 2017 15:22:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17108305</link>
+    </item>
+    <item>
+      <title>Feature Request: Custom Map Location for Album</title>
+      <description>I'd like to see a feature where I can add a single map location just for the album. The pictures within the album may have they own map markers, but a general map for an entire album (even if the images don't have location data) would be really neat, as most of my pictures are travel pictures! </description>
+      <pubDate>Fri, 14 Jul 2017 15:39:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17105801</link>
+    </item>
+    <item>
+      <title>Koken Cart not showing up</title>
+      <description>I just bought and installed Koken Cart. It's all configured with Stripe (latest versions of Koken and cart plugin), but I can't seem to make images purchaseable. Is there a bit of a wait time, or should I be worried?</description>
+      <pubDate>Wed, 19 Jul 2017 09:00:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17104721</link>
+    </item>
+    <item>
+      <title>Koken Cart</title>
+      <description>Is there a way to change the default Koken Cart icon that displays when a user rolls over an image?  The default logo really doesn't symbolize "Purchase" or "Buy Now".  Ultimately, I would like to change it to a "$" - that might help people understand to click the button to purchase.
+
+Thank you for your help.</description>
+      <pubDate>Mon, 10 Jul 2017 22:03:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17102881</link>
+    </item>
+    <item>
+      <title>Image Protector is easy to bypass...</title>
+      <description>While it prevents you from right-clicking on an image, all you need to do is right-click on any other part of the page and select "View Source."
+
+Scroll down to the "window.theContent" area and you will see the easily readable URL for the image.
+
+Anyone with basic HTML knowledge would be able to download the full uploaded resolution of your image.
+
+Any plans on fixing this? I was about to purchase the plug-in but this is a bummer.</description>
+      <pubDate>Mon, 07 Aug 2017 15:05:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17101460</link>
+    </item>
+    <item>
+      <title>CDN plugin does not work</title>
+      <description>After upgrading to the latest version 0.22.23, the CDN plugin does not work for images. This may due to the relative image URLs. Is there a way to solve it?</description>
+      <pubDate>Wed, 05 Jul 2017 14:46:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17098794</link>
+    </item>
+    <item>
+      <title>Password Protect</title>
+      <description>Hi.
+
+I'm using a DynDNS service right now but maybe I'll get my own domain sometime.
+
+If I do so, can I still use the Password Protect plugin or do I have to buy a new license?
+
+Thanks for the information.
+
+Regards
+
+Thorsten
+</description>
+      <pubDate>Sun, 02 Jul 2017 14:11:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097197</link>
+    </item>
+    <item>
+      <title>E-mail Endpoints</title>
+      <description>I have set up my Koken on Docker in DigitalOcean. I haven't been able to get the SMTP server to work with Koken. I'm using g-mail and have requested DigitalOcean to remove the SMTP block on the account. What seems to be the problem?
+
+Website is http://erfianugrah.com</description>
+      <pubDate>Tue, 04 Jul 2017 14:32:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097182</link>
+    </item>
+    <item>
+      <title>Flickr...</title>
+      <description>Good Morning!
+I switched to Koken some time ago, hoping that the system would evolve and that more support for external sources would be realized with plugins.
+I miss, for example, a comfortable integration of Flickr. Now, every CMS, only Koken does not.
+When will you offer such a thing?
+LG
+Peter</description>
+      <pubDate>Sun, 02 Jul 2017 14:07:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097161</link>
+    </item>
+    <item>
+      <title>easy hotlinking</title>
+      <description>Hi,
+
+Since Photobucket had the brilliant idea of stopping 3rd party hosting, unless you pay them 399$ a year, I want a personal space, where I can store my photos, but can share them easily. 
+
+The Koken Gallery is working fine, uploading is easy. But I am not finding a plugin that shows me easy to copy share links, that I can use on several Forums and sites. I have searched the Plugin library, but could not find a plugin that can help me. 
+
+Ideally, the plugin will put a custom link underneath the shown photo, with the physical location, so that I can put that link in image brackets on forum. This way I will have total control over my photos and as long as I pay my own site fees, no company will thrash my forumthreads. :)
+
+Hope there is something out there, that already has this feature, or hope someone is willing and able to make a plugin that will do exactly this. :)
+
+Thanks in advance for the help. :)
+
+Marc</description>
+      <pubDate>Sat, 01 Jul 2017 18:59:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17096879</link>
+    </item>
+    <item>
+      <title>Stripe Plugin: Giropay, SEPA Direct Debit and SOFORT </title>
+      <description>Hi Koken Team,
+
+Stripe now offers Giropay, SEPA Direct Debit and SOFORT as payment options.
+Is it planned to integrate these options into the Cart Plugin?
+Furthermore, it would be great if it would also be possible to use Braintree and Stripe parallel (depending on the chosen payment option).</description>
+      <pubDate>Mon, 26 Jun 2017 13:30:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17093222</link>
+    </item>
+    <item>
+      <title>Image Protector Pluigin in custom theme</title>
+      <description>Hey Koken Team,
+
+I would like to use the Image Protector Plugin from the Koken Store on my page. Before I buy the 
+plugin though I was hoping that there is a way of confirming that it will work in a custom designed theme. 
+
+In my theme images are loaded via koken:load and koken:img and placed within a figure-tag. Now I'm not sure how the Protector plugin targets the images it should protect and whether i would need to change my markup structure.
+
+Let me know if you need more information.
+Cheers
+Lukas
+
+</description>
+      <pubDate>Mon, 26 Jun 2017 13:30:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17093187</link>
+    </item>
+    <item>
+      <title>Cart Plugin: does it support collecting state based sales tax (via either payment provider)?</title>
+      <description>Hi,
+
+I'm looking into using the Koken and the Cart Plugin to market fine art prints of my work. In order to do so and when shipping within the US state I live in, I need to collect sales tax. Does the Cart Plugin support this scenario via either payment provider, based on the shipping address of the customer?
+
+Is there more extensive and detailed documentation around the Cart Plugin and its integration with either payment platform? I'd like to understand this better before I make a decision towards Koken and the Cart Plugin.
+
+Many thanks,
+
+Tobias W.</description>
+      <pubDate>Thu, 22 Jun 2017 17:59:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17091471</link>
+    </item>
+    <item>
+      <title>import instagram</title>
+      <description>Hi, 
+
+I have two Instagram accounts. And would like to import from both. But if I try to switch by disconnecting in the settings and connecting to a different, koken choses automatically again the first. 
+Anything to do about it? 
+
+:) Uli </description>
+      <pubDate>Mon, 19 Jun 2017 15:13:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17088268</link>
+    </item>
+    <item>
+      <title>Image protector </title>
+      <description>Hello, 
+
+I just purchased a license to use Image Protector, and am very disappointed it does not seem to work with the PhotoSwipe plugin. 
+
+Any work-around for this? 
+
+PhotoSwipe is much more elegant than the native slide show in Oxygen 2.3.2.
+
+Or if you can make another suggestion. 
+
+Thanks, 
+Ron T Simon
+Montreal 
+koken ----&gt; http://theaterofmemory.com 
+
+http://www.fineprintphoto.com 
+
+
+
+
+
+
+
+</description>
+      <pubDate>Thu, 15 Jun 2017 18:54:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17083412</link>
+    </item>
+    <item>
+      <title>Details about cart</title>
+      <description>Dear ladies and gentleman,
+
+i'm really interested in using the "Cart"-Plugin. So here are my final questions before buying the product:
+
+- I'm located in Germany. Are german print media suppliers adapted?
+- Is it possible to set a password protection for some albums / galeries?
+- Can I send a news mail to every registered customer?
+
+Thanks for your support and have a nice day.
+
+Sincerely,
+Manuel Pape
+</description>
+      <pubDate>Thu, 15 Jun 2017 13:43:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17083029</link>
+    </item>
+    <item>
+      <title>after upgrading to 0.22.23  store and plugins links don't work</title>
+      <description>Hi 
+
+After upgrading to 0.22.23 it says my installation needs to be upgraded after clicking on plugins or store links.
+
+Then if I say yes to the upgrade even though I know its already upgraded it says there is a problem and I'm getting downgraded.
+
+Then if I look at version under Settings/Console its not downgraded! 
+
+Can you please advise how to get into plugins and Store again since upgrading to 0.22.23 .
+
+THanks
+Dale</description>
+      <pubDate>Fri, 09 Jun 2017 15:15:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17079338</link>
+    </item>
+    <item>
+      <title>Cart Plugin not working</title>
+      <description>I set up Cart Plugin with Braintree, now nothing like a shopping car is showing up over the images I selected.
+
+I have turned on Enable live orders on your published site 
+
+and I have set up all the Production Keys for Braintree, I also selected a few photos for purchasing. </description>
+      <pubDate>Thu, 13 Jul 2017 00:49:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17078678</link>
+    </item>
+    <item>
+      <title>Can't reinstall "Password Protect" plugin</title>
+      <description>Hi,
+
+I bought the plugin called "Password Protect" and installed it on one of my Koken's gallery, but the wrong one. I want to install it on the right one. How can I do it ? When I try, the installation crashes.
+
+Thanks in advance for your help.
+---
+Sylvain</description>
+      <pubDate>Tue, 06 Jun 2017 15:40:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073558</link>
+    </item>
+    <item>
+      <title>lightroom json error</title>
+      <description>hey, looked on the website and saw a few people were getting the same lightroom error. tried changing from chrome to safari as well as turning off my firewall and neither worked. I have the latest version of Koken and I'm working on Lightroom 5.7.1. If anyone has suggestions for what I can do it would be greatly appreciated!
+
+error message: [string "JSON.lua"]:197: nil passed to JSON:decode()</description>
+      <pubDate>Tue, 06 Jun 2017 12:53:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073162</link>
+    </item>
+    <item>
+      <title>Import content with Instagram plugin is not possible</title>
+      <description>Hi,
+
+it´s not possible, i wait now more than 2 hours, to import content from 
+Instagram to my Koken site.
+It show´s my only this
+"Hang on, fetching Instagram content..."
+Koken is connected with Instagram and also authorised.
+
+Please help me.
+Thank you 
+Selda</description>
+      <pubDate>Sun, 04 Jun 2017 15:22:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17071712</link>
+    </item>
+    <item>
+      <title>Where report bugs on plugins</title>
+      <description>Hi,
+
+where can i report bugs, or aks questions zu plugins. In my case there are some things with the instagram import plugin.
+
+Best regards.
+
+Tino</description>
+      <pubDate>Fri, 02 Jun 2017 10:51:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17070914</link>
+    </item>
+    <item>
+      <title>Password Protect plugin</title>
+      <description>Hi,
+
+My password protected albums, due to their visibility set as "private" do not appear on the Albums page, they are only accessible with a direct link... I was wondering if there is a way to present them on the Albums page (showing their assigned cover) and redirecting to the password page when the user clicks on them ?
+
+Regards,
+Matt.
+</description>
+      <pubDate>Fri, 02 Jun 2017 13:45:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17070875</link>
+    </item>
+    <item>
+      <title>Cart stripe support</title>
+      <description>Does the stripe implementation in de car plugin support the new payment methodes that where added?
+Like the ideal https://stripe.com/docs/sources/ideal
+
+more info in the new payment methodes can be found at: https://stripe.com/blog/european-payment-methods</description>
+      <pubDate>Thu, 01 Jun 2017 16:35:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17070151</link>
+    </item>
+    <item>
+      <title>CART Icon not visible - Plugin</title>
+      <description>Hello,
+i've a problem with the plugin Cart (with Braintree), I've install the last update and completed my account with braintree but after I installed it and I did all setups right, I still don't have the Icon on my Pictures! (The Icon you can click on to purchase and to see the price)
+
+Link to a Screenshot of my Admin-Cart Settings
+http://www.football-eu.com/kart.jpg
+
+I hope someone can help me ! 
+</description>
+      <pubDate>Tue, 30 May 2017 17:09:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17064597</link>
+    </item>
+    <item>
+      <title>I can't get to the plug in store</title>
+      <description>I'm working on my gallery/website and when I try and go to the Koken Store, I keep getting sent back to the content page. 
+
+How do I break out of the loop?</description>
+      <pubDate>Tue, 23 May 2017 12:15:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17052538</link>
+    </item>
+    <item>
+      <title>Image Protector reinstall</title>
+      <description>Hi, reinstalling the paid Image Protector Plugin on my site doesn't work.</description>
+      <pubDate>Sat, 20 May 2017 15:27:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17040651</link>
+    </item>
+    <item>
+      <title>Cart Plugin</title>
+      <description>I have installed the cart plugin and set up Stripe. I have selected the images I wish to make purchasable and clicked the links to make them purchasable. However, when I head to my website to test it, there is no link to add to cart. Even when I hover over an image. </description>
+      <pubDate>Fri, 19 May 2017 14:38:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17039477</link>
+    </item>
+    <item>
+      <title>Image Protector</title>
+      <description>Hello
+
+I had to reinstall my webserver and im now updating my new koken installation, but the Image protector plugin ,that i had already bought, doesnt install properly. It's just working and working but nothing happens.
+
+Thanks for your reply and baaaaabeeeyy</description>
+      <pubDate>Tue, 16 May 2017 19:16:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17037520</link>
+    </item>
+    <item>
+      <title>Email plugin modded to solve a problem.</title>
+      <description>Today I faced a problem with the email plugin because I misunderstood how it is supposed to work. Maybe someone else has the same problem.
+The email plugins when used in smtp mode setup the sender and the destination email to the same address. The problem is when you setup an account for sending email to another account you look everyday.
+I've edited the plugin adding an SMTP sender address used in the send process and now it works flawlessly.
+
+in plugin.php change from:
+-&gt;setFrom(array($toEmail))
+to:
+-&gt;setFrom(array($this-&gt;data-&gt;smtp_from_email))
+
+and in plugin.json add:
+,
+		"smtp_from_email": {
+			"type": "string",
+			"header": "Sender address",
+			"info": "Set the sender address",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [
+					{
+						"option": "provider",
+						"equals": "smtp"
+					}
+				]
+			}
+		}
+
+That's all!
+Regards!</description>
+      <pubDate>Mon, 05 Jun 2017 14:10:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17035612</link>
+    </item>
+    <item>
+      <title>Image Protector</title>
+      <description>Hi there,
+
+I bought that plugin and activated the features in it ...
+
+Now I noticed that my postings at Facebook (I did post some albums) where without a photo. May the Plugin be the reason for?
+
+Can I change anyhing to be able to post at Facebook without deactivating the plugin?
+
+Thank you
+
+Sven Berger</description>
+      <pubDate>Wed, 10 May 2017 15:36:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17032887</link>
+    </item>
+    <item>
+      <title>Paid for plugin won't install (Watermarks)</title>
+      <description>I'm re-installing Koken and the plugin I bought some time ago won't install. In the store in my Koken install I need to buy it again. In the Koken store on the website when clicking 'Reinstall' it hangs at "Installing plugin
+
+Please wait." 
+
+Please advise or fix. :)</description>
+      <pubDate>Sat, 06 May 2017 18:30:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17030208</link>
+    </item>
+    <item>
+      <title>Vimeo thumbnails</title>
+      <description>Hi guys,
+
+Firstly thanks for this sweet platform!
+
+I have just added a video via the Vimeo plugin &amp; the thumbnail is not the custom thumbnail I added in Vimeo. Can you help please?</description>
+      <pubDate>Thu, 04 May 2017 22:21:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17026812</link>
+    </item>
+    <item>
+      <title>[cart plugin] Purchasable custom options should be 'per item' selectable</title>
+      <description>Hi ! 
+
+With the cart plugin installed, It would be a very nice feature if custom prices options would be 'per item' selectable. I personally have gift cards, prints, and digital download to sell and gift card is for example not appropriate on a print order to appear. Would it be possible to have a look for future versions ?
+
+Best Regards,
+Stéphane
+http://hide-in-light.com
+
+</description>
+      <pubDate>Tue, 02 May 2017 16:49:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17024838</link>
+    </item>
+    <item>
+      <title>PayPal</title>
+      <description>Hi, I would like to start selling Fotos in koken (Madison) using Paypal as payment method. What is currently the best method to do this?
+Regards
+Jürgen</description>
+      <pubDate>Mon, 01 May 2017 14:02:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17021749</link>
+    </item>
+    <item>
+      <title>Tutorial on how to integrate Piwik into Koken</title>
+      <description>Hi,
+I would like to share a small tutorial on how to integrate Piwik into Koken (or if you already use it about how to improve it).
+You can find it here: https://cielitolindo.de/essays/2017/01/koken-and-piwik-tips-on-how-to-improve-your-setup/</description>
+      <pubDate>Wed, 26 Apr 2017 19:09:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17020922</link>
+    </item>
+    <item>
+      <title>Email Endpoints with Amazon SES</title>
+      <description>Hello,
+
+I want make working email send from my Amazon EC2 instance with Amazon SES service.
+
+I have correctly enter informations, serveur : email-smtp.eu-west-1.amazonaws.com, port : 465 and my credentials but not email are sended.
+
+Amazon SES work only in TLS mode perhaps problem come from that.
+
+Any solutions ?</description>
+      <pubDate>Wed, 26 Apr 2017 19:07:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17020253</link>
+    </item>
+    <item>
+      <title>Password Protected Downloadable Images</title>
+      <description>I am using the Axis2 theme and the Password Protect Plugin, but since the plugin only protects private images, I am unable to allow my authenticated users to download images. They can view them once authenticated, but in the library, under "site", I have no download option. 
+
+Is it possible to allow private, password protected albums and images to be downloaded?</description>
+      <pubDate>Wed, 26 Apr 2017 13:22:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17019899</link>
+    </item>
+    <item>
+      <title>LR Plugin</title>
+      <description>Dear Koken Team,
+I have a question concerning the LR-Plugin: Is it possible to assign the LR-Plugin with more than one LR Catalogue? In my case I have 2 LR catalogues, from which I would like to import pictures into my Koken library. Is this possible and if so, how does it work? Especially if I would like to sync the pics from both LR Catalogues into the same folders/collections in Koken… 
+Thanks in advance, kind regards,
+Michael
+</description>
+      <pubDate>Wed, 19 Apr 2017 15:47:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17018041</link>
+    </item>
+    <item>
+      <title>Cart Plugin - Stripe test mode delivery?</title>
+      <description>I've setup and installed the cart plugin to use stripe.
+I'm currently using test api keys and the suggested strip cards for testing.
+https://stripe.com/docs/testing#cards
+
+My question is, I don't get a file delivery/download action to follow the test purchase.
+Is this because of test mode? Also is there is a way to check out at one time with several
+images or is it one at a time.
+
+okiave,media
+</description>
+      <pubDate>Tue, 18 Apr 2017 19:55:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17017517</link>
+    </item>
+    <item>
+      <title>Vimeo reinstall</title>
+      <description>Hi guys,
+
+I had to reinstall my server OS and I'm trying to reinstall my purchased VIMEO plugin. But it's keeps saying "Installing", but never finishes.
+
+Could you please help?
+
+Thanks.</description>
+      <pubDate>Sun, 16 Apr 2017 16:53:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17016279</link>
+    </item>
+    <item>
+      <title>Instagram Plugin Crop</title>
+      <description>Hey ya'll, 
+
+I'm thrilled to have found Koken and the Instagram plugin. The issue I'm having is that the plugin is automatically cropping square. I don't see a way to change that, am I missing something? The images I'm looking to include in my Koken site are of all aspect ratios. Thanks so much. </description>
+      <pubDate>Sat, 08 Apr 2017 14:46:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16990188</link>
+    </item>
+    <item>
+      <title>Instagram Import</title>
+      <description>Hello,
+I just buy the plugin Instagram Import and I have 2 questions about it:
+When I import the photos, resolution is only 640x640.
+And also, all the imported photos are in a square format. 
+But on Instagram, resolution is more than 640x640 and there is photos in a non-square format.
+Is it something that will be fix soon ?
+
+Thanks for your answer,
+And congrats for this product, finally I will be able to have a nice portfolio!
+Quentin</description>
+      <pubDate>Fri, 07 Apr 2017 19:16:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16989852</link>
+    </item>
+    <item>
+      <title>Vimeo videos</title>
+      <description>In Axis theme, I display thumbnails of videos imported with the Vimeo plugin.  Selecting the thumbnail plays the video.  What settings do I use to have the video return to the thumbnails page after it is done playing?</description>
+      <pubDate>Thu, 13 Apr 2017 13:51:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16988311</link>
+    </item>
+    <item>
+      <title>Does not reinstall the plugin</title>
+      <description>I can not reinstall Password Protect plugin.
+Hangs during installation.
+Reinstalled web server.</description>
+      <pubDate>Mon, 03 Apr 2017 12:48:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16983978</link>
+    </item>
+    <item>
+      <title>Test mode for plugin card</title>
+      <description>I configured cart plugin with my Stripe accounts keys (test and live) but using credit card test number while purchasing an item does not work. 
+Error message : your request was in live mode
+
+How to enable test mode in koken in order to user testing cards ?</description>
+      <pubDate>Tue, 18 Apr 2017 12:34:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16983343</link>
+    </item>
+    <item>
+      <title>Transfer</title>
+      <description>Hello,
+
+I need to change my web hosting : moving from a starter plan to a VPS from another provider.
+How does migration impact my Koken purchases ? (I purchased the Password Protect plugin). I guess I have to keep the same domain name since it appears as an "Installation" in my account. Am I right ? Is there any other point I should be aware of before proceding ?
+
+Regards,
+Matt.</description>
+      <pubDate>Sat, 01 Apr 2017 15:17:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16983039</link>
+    </item>
+    <item>
+      <title>custom text next to rating?</title>
+      <description>I just bought the rating plugin, it works as expected, however I would like to add/modify the way the rating looks next to the photo. For now it's just a heart which doesn't really scream "click me to rate" so I'm trying to add some text like "Rate: " or something that guides the viewer to click it. Unfortunately, I cannot do this using CSS ::before or ::after tags since the plugin uses those and I cannot modify the theme since it's purchased. I'm wondering if you have any suggestions on how I can customize the way this plugin looks. 
+
+Thanks!
+Kevin</description>
+      <pubDate>Thu, 23 Mar 2017 18:25:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16960897</link>
+    </item>
+    <item>
+      <title>Zoom</title>
+      <description>I'm currently working on a project which demands to show the images in detail. Is there any zoom solution available?
+Thanks</description>
+      <pubDate>Fri, 17 Mar 2017 13:32:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16957161</link>
+    </item>
+    <item>
+      <title>Bug in Password Protect Plugin: Album sorting not possible</title>
+      <description>Hi,
+
+the albums labeled as 'private' are still not sortable as they are in the 'public' section. Is there a way to change / fix this?
+
+Thx lot, Thilo</description>
+      <pubDate>Tue, 07 Mar 2017 14:01:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16863913</link>
+    </item>
+    <item>
+      <title>Photograph not showing as Content?</title>
+      <description>I've just added a photograph  to my Koken site and, while the image is appearing in its assigned album (Photography), it isn't showing up as content  this a result of an upper limit to the number of images allowable to be displayed as 'content', or some other issue?
+http://blog.advids.co/20-video-marketing-examples-from-it-service-desk-management-software-solutions/</description>
+      <pubDate>Wed, 01 Mar 2017 16:54:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16832806</link>
+    </item>
+    <item>
+      <title>Rating plugin with Regale 2 theme does not work</title>
+      <description>Hi,
+
+I use Koken 22.18 version with Regale 2 theme and I just added Rating plugin. In Library view when I select any of photos I can see Rating section on the setting section on the right. But there is only "Times rated" in this section. There is no "Show ratings" option as shown in koken plugin page at https://store.koken.me/plugins/rating. My web site is www.ercanuc.com.
+
+In my site, I can only see heart symbol when I select an album, then select an individual photo and then click it again for lightbox view. So visitors can not see heart symbol to click when they see thumbnails on any albums.
+
+Could you please let me know how I can see "Show ratings" option in settings; how I can show times rated under/on each photos.
+
+Thanks and regards,
+Ercan</description>
+      <pubDate>Tue, 28 Feb 2017 21:18:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16823697</link>
+    </item>
+    <item>
+      <title>Google Analytics</title>
+      <description>For Google Analytics to work smoothly with my website what do I need to setup?
+Tracking ID? What is this ID?</description>
+      <pubDate>Fri, 17 Feb 2017 17:11:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16822524</link>
+    </item>
+    <item>
+      <title>Rate-Plungin -  how to reset the counter for one or all images</title>
+      <description>I just bought the rate Plugin. Now I'm wondering how to reset the count for one individual image and how to rest it for all images? Thank you for your support. 
+Kind Regards, Holger </description>
+      <pubDate>Fri, 17 Feb 2017 16:16:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16822490</link>
+    </item>
+    <item>
+      <title>Why is the Image Protector Plugin so limited in it's functions?</title>
+      <description>Hi
+
+Considering to buy more plugins to enhance site for more interaction. However, there is one matter that bothers me a lot of its restrictions. Actually, I have asked this questions already over a year ago, and not much has happened since then. As well I noticed of other koken users pinpointing to the same matter. For example, other photography cms solution e.g. Photoshelter, ProPhoto etc - make this option possible ... 
+
+Why is it not possible to exclude watermarks of specific images for promotion purposes on SoMe? It would be great to exclude the generation of image watermarks on specific images, e.g. splash images. This could be based on tags or on a new property for image file ("Do not watermark").
+
+Looking forward for feedback. Thanks
+
+ </description>
+      <pubDate>Fri, 17 Feb 2017 14:42:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16822360</link>
+    </item>
+    <item>
+      <title>Instagram plug-in not working</title>
+      <description>Hi - Just purchased the Instagram plug-in and installed and set it up.  But just hangs when I try to import images from my account.  
+
+Another odd thing is under Settings/Plug-Ins/Instagram Set-up I see that (after I connected to my Instagram act) there is no Disconnect button.  Nothing in the space where, I believe, it should be.
+
+Checked my Instagram act on their site and it does list Koken as an authorized application.  
+
+Also I have a SSL site.  Could that be causing the problem?</description>
+      <pubDate>Wed, 15 Feb 2017 23:55:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16820198</link>
+    </item>
+    <item>
+      <title>image-protector: partial access</title>
+      <description>Hello there,
+
+Recently, I bought the image-protector plugin.
+Is it possible to set it such that when a photo is shared to twitter (for example like https://twitter.com/chitlesh/status/828727984353845248) or facebook, a small version of the photo is shared instead of only the link without image? 
+I still wish to that the right-click protection together with the protection for large files.
+
+regards,
+Chitlesh</description>
+      <pubDate>Tue, 14 Feb 2017 14:42:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16819741</link>
+    </item>
+    <item>
+      <title>Text Option for Slideshows?</title>
+      <description>Hello,
+
+thank you for Koken!
+
+Is there an option in Axis (or any theme) to show an image caption or free text in the slideshows on the starting page?
+
+Thank you!</description>
+      <pubDate>Mon, 13 Feb 2017 14:25:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16817592</link>
+    </item>
+    <item>
+      <title>Add to Cart Plugin</title>
+      <description>Hello Guys,
+
+Wanted to ask if I can use Cart Plug to sell not only prints and photos, but also video products or lets say I create a Christmas Promotion Deal/Offer. I attach a photo with a text explaining my offering. Is it possible with this Card Plugin to sell things/products/photography services online? Or alternatively people to book me for a photo shoot and pay a 30% deposit in advance?
+
+I attached a photo to better illustrate my point. 
+Download link:
+https://we.tl/2EKkuyeT4v
+
+Best,
+Plamen
+</description>
+      <pubDate>Wed, 08 Feb 2017 16:41:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812276</link>
+    </item>
+    <item>
+      <title>LR-Plugin - Create Album &amp; Sets in Private or Unlisted possible?</title>
+      <description>Is it possible with the LR plugin next to the public folder to upload albums and sets in Unlisted and private?</description>
+      <pubDate>Sat, 11 Feb 2017 18:13:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812061</link>
+    </item>
+    <item>
+      <title>Trouble with VIMEO-Playback</title>
+      <description>Hi,
+
+I have some trouble with my Koken-built-website playing videos. I am using the VIMEO-plugin and MADISON 2 theme. Some videos have an "audio echo" and pressing the "pause" button in the player window makes the video stop, but the audio ist playing on. It seems there are playing two audio tracks with delay but there is only one in the video.
+
+I am using:
+
+MAC OS 10.11.6
+SAFARI 10.0.3
+
+Autoplay - ON
+Show Title ON - does not work also...
+
+Can you help me, please?
+
+Video-URL is: http://jostfink.de/newsite/beta/albums/film-video/content/fill-in-and-drink-out-1/
+
+Thanks...
+
+</description>
+      <pubDate>Mon, 06 Mar 2017 17:04:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812048</link>
+    </item>
+    <item>
+      <title>Password protect plugin is broken</title>
+      <description>Hello,
+
+Ever since I used the Lightroom plugin to update a password protected album, all password protected albums won't open. Even though I use the correct password, the login page tells me it's incorrect. I tried changing it in the admin panel to no avail.</description>
+      <pubDate>Mon, 20 Feb 2017 14:54:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16809424</link>
+    </item>
+    <item>
+      <title>Cart / multiple items</title>
+      <description>I've just installed Cart, set up Stripe, made a few custom items to order and seem to have it working ok.  What I can't see is how people add multiple images to the cart before paying.  I have an event page with 300 images, some people will want to select 4 or 5 images then check out.  It looks to me like they have to go through the purchase procedure for each item - am I missing something?</description>
+      <pubDate>Fri, 03 Feb 2017 15:08:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16807297</link>
+    </item>
+    <item>
+      <title> Lightroom Sync-Error</title>
+      <description>Hello,
+
+I'm using Koken since 2 years. Now I want creat a new Album on my homepage, after a new install of my computer. During upload i get a Error-Message like:
+"Ein interner Fehler ist aufgetreten:
+AgExportSession:recodRemoteCollectionId: remote ID must be a number or string"
+
+I know this problem has other user befor.  You answer is that i should make all from Lightroom. But you say not how i fix this problem. Should i delete my hole homepage an make new? Or is there a other way?
+
+Kind regards
+Dirk Schatz</description>
+      <pubDate>Wed, 01 Feb 2017 15:31:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16806546</link>
+    </item>
+    <item>
+      <title>How does api filter works?</title>
+      <description>I want to build a plugin that would alter koken:img output and add data-id="{{ content.id }} to it. But there are no examples available in your documentation, and search results return endless API CONNECTION errors topics... 
+
+How would I do that? Could you at least point me in the right direction?</description>
+      <pubDate>Mon, 30 Jan 2017 18:17:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16803892</link>
+    </item>
+    <item>
+      <title>Chart instant download dosen't work</title>
+      <description>Hey 
+Been having issues with chart plugin, it dosen't send the image to be instantly downloaded in browser? It worked fine until last update. Tried to reinstall the plugin without success, any ideas or help would be appreciated. 
+</description>
+      <pubDate>Sun, 29 Jan 2017 16:19:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16803367</link>
+    </item>
+    <item>
+      <title>Cart Plugin</title>
+      <description>Hello Guys,
+
+Wanted to ask if I can use Cart Plug to sell not only prints and photos, but also video products or lets say I create a Christmas Promotion Deal/Offer. I attach a photo with a text explaining my offering. Is it possible with this Card Plugin to sell things/products/photography services online? Or alternatively people to book me for a photo shoot and pay a 30% deposit in advance?
+
+I attached a photo to better illustrate my point. 
+Download link
+https://we.tl/uj3Qha6jVA
+
+Best,
+Plamen</description>
+      <pubDate>Mon, 30 Jan 2017 16:52:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16802919</link>
+    </item>
+    <item>
+      <title>Lightroom implementation</title>
+      <description>Hy there, sorry to bother you again. 
+Sadly there's another question i would like to ask...
+i got erveral albums i did within lightroom to be synchronized with koken. Now i set up some smartalbums for special interests. Putting in pictures from existin albums and such wich have not been published before, i synchronised it ant thought that the pictures allready in other albums would just be linked in but unfortunately i find several different versions in my library right now. wich means when i alter the picture i have two different looking versions in koken.... is that ment to be like this or did i do something wrong? </description>
+      <pubDate>Tue, 24 Jan 2017 19:27:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16799106</link>
+    </item>
+    <item>
+      <title>Can't install new plagins</title>
+      <description>Help. I can't log in to my account koken store in my admin panel of the website.
+
+I see the message:
+"Unauthorized access. Your request has been sent. You will be notified via email if accepted."
+
+But I have confirmed my email!
+
+My email for the site and Koken Store : Georg6504-kast@yandex.ru
+My website : kazka.site
+
+Help please, I want to get a chance to buy and install themes and plugins plugins. Thank you</description>
+      <pubDate>Tue, 17 Jan 2017 15:37:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16793274</link>
+    </item>
+    <item>
+      <title>Koken Rating and Image Protector don't work together</title>
+      <description>Hi, i have purchased the rating plugin and it works fine.
+After that i have purchased the image protector plugin, the protection of images works fine, but image protector overlay protects also the rating plugin heart.
+So its impossible to rate a photo because users can't click the little heart.
+
+Need help!
+
+Thanks in advanced &amp; regards</description>
+      <pubDate>Thu, 12 Jan 2017 21:34:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16789280</link>
+    </item>
+  </channel>
+</rss>

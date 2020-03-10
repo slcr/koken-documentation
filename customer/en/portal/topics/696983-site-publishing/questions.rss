@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Site publishing</title>
+    <link>http://help.koken.me/customer/en/portal/topics/696983-site-publishing</link>
+    <description>Site publishing articles</description>
+    <item>
+      <title>The website is extremely low</title>
+      <description>Hello,
+
+I seem to have problem with my website (eliottklein.com) which is extremely slow, i use mediatemple as host but it is now very buggy and my photos won't load up quickly.
+
+I need it to show my work, 
+Can you help me ?
+
+Thank you,
+Eliott Klein</description>
+      <pubDate>Tue, 18 Jul 2017 15:00:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17107437</link>
+    </item>
+    <item>
+      <title>line breaks in album description</title>
+      <description>As far as I can see now, inserting a line break in the album description is not possible. However, that would greatly improve readability so, I wonder, how can this be achieved.
+
+Thx</description>
+      <pubDate>Fri, 14 Jul 2017 12:05:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17105663</link>
+    </item>
+    <item>
+      <title>Keywords not as tags created </title>
+      <description>Hi, I am using Axis 2 theme for my website and I have the following problem: I stored all my pictures taged in Lightroom with keywords. If I export the pictures as JPEG's from LR to Koken it sometimes imports the keywords as tags and sometimes not - tagging seems to be randomly-chosen. If I download the pictures from Koken to my Computer the keywords are in the EXIF's of all pictures. Anybody with the same problem here and any solutions? 
+
+Greetings Stephen 
+</description>
+      <pubDate>Tue, 04 Jul 2017 14:32:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17098141</link>
+    </item>
+    <item>
+      <title>Homepage</title>
+      <description>How do I change my Homepgae?
+I.e. I want to remove the photos currently on my homepage and replace them with one other photo.</description>
+      <pubDate>Wed, 12 Jul 2017 03:40:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17097232</link>
+    </item>
+    <item>
+      <title>exif data</title>
+      <description>Hi Guys,
+
+ So in an album if I click a photo it takes me to the lightbox. the url becomes 
+
+http://[server-name-here]/albums/[album-name-here]/content/[photo-name-here]/lightbox/
+
+If I remove the word lightbox from the url I get to the image and the camera info and image info.
+
+Is there any way of either editing that info or setting the theme to not display it (preference on editing).
+
+Thanks in advance</description>
+      <pubDate>Fri, 30 Jun 2017 23:06:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17096556</link>
+    </item>
+    <item>
+      <title>Add new download image link</title>
+      <description>Is it possible to add a new  download image link. I mean, by default Koken provides you some links.
+But i would like to add a new size. 
+For example. Download a image with 3000px of width.
+Is this possible ?
+
+Thanks for your help.</description>
+      <pubDate>Fri, 30 Jun 2017 14:48:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17096466</link>
+    </item>
+    <item>
+      <title>Wrong URL</title>
+      <description>I am trying to setup the URL in the site publishing page.  For some reason, it only allows me to have http://mochaearth.com/
+
+I'd like to have it as www.mochaearth.com, as it is the URL printed on my business card.
+
+Can you let me know why it is the case?
+
+Thank you</description>
+      <pubDate>Thu, 29 Jun 2017 12:36:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17095503</link>
+    </item>
+    <item>
+      <title>move Koken site</title>
+      <description>wondering about the possibility of moving a koken installation...
+
+i'm developing a site at a temporary URL while my old website still functions at my permanent URL. when the design is done, i'd like to move the entire site to the permanent URL. can i just copy the entire koken directory structure over to the appropriate root directory on my server, and refresh the Koken cache?
+
+...or is there a better way to do this?
+
+(this installation will also involve a purchased Koken theme.)</description>
+      <pubDate>Wed, 28 Jun 2017 16:36:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17095011</link>
+    </item>
+    <item>
+      <title>Max number of items per album?</title>
+      <description>I'm using the axis 2 theme and have published the following structure of collection sets, collections and albums using the Lightroom Plugin: Years - Events - Disciplines (https://fpfotografie.ch)
+
+This has worked out quite well, but I have two albums consistently showing nothing after having published and I suspect that it may be due to the hight number of items they contain (1467 &amp; 1387, respectively) . Is there some kind of limit set somewhere to the max number of items an album can contain. I have one album with 1142 items and it loads just fine when published, so there seems to be a limit somewhere between 1142 and 1387)
+
+This album contains 1476 items and does not load:
+https://fpfotografie.ch/albums/springen-br90-p7/
+
+This album contains 1387 items and does not load either:
+https://fpfotografie.ch/albums/springen-br90-p8-2ph/
+
+This album contains 1142 items and loads just fine:
+https://fpfotografie.ch/albums/springen-fm2-p5-2ph-1/
+
+Please advise on any limits set in koken, the axis 2 theme or hosting
+
+Thanks a lot in advance.</description>
+      <pubDate>Wed, 12 Jul 2017 13:01:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17094987</link>
+    </item>
+    <item>
+      <title>Google</title>
+      <description>Hello! :D
+So I just realized that google listed this url from my site: http://www.evelynpritt.com/content/ and the url displays all of my uploaded images. Is there any way to disable this "content" url or to Google from displaying this URL? 
+Thank you. </description>
+      <pubDate>Thu, 29 Jun 2017 17:00:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17094818</link>
+    </item>
+    <item>
+      <title>Deactivated published content are still visible on website</title>
+      <description>I have deactivated a published content, but it is still visible on the website. Did an user or a search engine saved this url, it is possible for them to access this page further.
+
+The page itself is also no longer stored in my koken system. I have deleted it and I cleared also the system cache as like as the image cache. But the content is still available if you knows the URL.
+
+I know about to deactivate crawled content from search engines, but if the content is for search engines accessible it will be listed again.
+
+In my case the page: www.frankscholz-photo.de/new/ is affected. Normally the error page should displayed with code 404, but it didn't. This page was a test page for an album and it is not linked on my homepage.
+If you enter on google the search text: frank scholz photo you will get this page as result.
+
+Do you have an idea how I can deactivate this content finally? </description>
+      <pubDate>Thu, 29 Jun 2017 13:35:23 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17093542</link>
+    </item>
+    <item>
+      <title>Koken is slow</title>
+      <description>Hi,
+my Webpage (www.matthai.de) is slow. I reduced the image size to 1200x900 an the Lightroom quality setup to 40%. The image size of 1 picture is between 100 - 450 K nothing changed. Your example page http://catalinhotnog.ro is the same. Customers  don´t want to wait to see the pictures. Can you help me ? The used theme is Chastain. Maybe the theme is the problem?
+
+Thanks for help.
+
+Matthias
+</description>
+      <pubDate>Mon, 26 Jun 2017 13:19:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17092853</link>
+    </item>
+    <item>
+      <title>URL/domain issues</title>
+      <description>Hello, I have my koken site setup running in a docker container on a domain (folio.dljh.uk) that is not the FQDN of the server.  The domain is proxied via Bytesized Connect proxy.  The proxy configuration is shown below (32331 is the docker host port being passed through to 8080 on the docker container);
+
+{"source":"folio.dljh.uk","target":"http://x.x.x.x:32331/"}
+
+I was able to access the base URL to set username, email and password but when trying to access the admin console via the domain above, I get an error message about too many redirects.  Everything seems to work using the FQDN of the server.  Any thoughts on what the cause might be?
+</description>
+      <pubDate>Sun, 25 Jun 2017 20:19:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17092495</link>
+    </item>
+    <item>
+      <title>Domain name switch</title>
+      <description>I presently have Koken for my site www.newrobertbaring.com, but I'm about to switch it to my other domain name I own, robertbaring.com.
+
+Since I log into Koken at www.newrobertbaring.com/admin, once I make the switch, I'm assuming that my login url will be robertbaring.com/admin, correct?   And do I need to change any of the internal Koken settings which refer to the other url before the switch?
+
+Thanks,
+Robert</description>
+      <pubDate>Mon, 26 Jun 2017 13:37:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17089009</link>
+    </item>
+    <item>
+      <title>Covers/ Thumbnails</title>
+      <description>Hello! I am having a lot of difficulty assigning covers to albums in a tiered filesystem. I have read the referenced articles on how to do this, but it is not at all intuitive or cooperating with what I want. I use Chastain and cannot seem to get the pictures I want at the forefront of a collection or album. 
+
+Additionally, when I share a link to my site (i.e. on facebook) the thumbnail looks AWFUL. I have no idea how or why this happens, or even how to try switching it to a different photo. I wish I could attach a picture... but basically the photo is horribly pixelated and discolored. 
+
+Try it for yourself by trying to share http://maybealexandra.com/
+Please help! This reflects very poorly on my work.</description>
+      <pubDate>Fri, 16 Jun 2017 21:33:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17084183</link>
+    </item>
+    <item>
+      <title>og:url does not reflect proper URL</title>
+      <description>Looking at the source of one of my clients sites, the og:url and other metatags seem to have clipped the ".au" off the end of the URL's. Is there a fix?</description>
+      <pubDate>Thu, 15 Jun 2017 13:41:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17082901</link>
+    </item>
+    <item>
+      <title>Page layout variability ?</title>
+      <description>The title says it all..
+What is "variability" ? If I change the value (percentage) I do not notice any changes, so I wonder what it is supposed to do ?
+
+Thx
+Johny</description>
+      <pubDate>Thu, 15 Jun 2017 19:40:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17082135</link>
+    </item>
+    <item>
+      <title>CSS Edit for Centering **ALL** Embed?</title>
+      <description>I was wondering, if someone might tell me what CSS edit within the theme I should add to make *all* embeds into Essays centered? For example, when I use the Instagram-given embed code from the site, the embed is left justify? How can I make the Instagram and **ALL** embeds centered?
+
+Thank you for your time,
+
+Ronald N. Tan</description>
+      <pubDate>Tue, 13 Jun 2017 20:02:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17080767</link>
+    </item>
+    <item>
+      <title>SSL (https)</title>
+      <description>Hi, how to change the site to run SSL? i have tried to alter the htacces file, but though the site gets the https, the padlock is not showing, and also i cant acces the admin area ;(
+
+Why is there no "switch" inside the admin to turn on SSL 
+
+My host (one.com) has turned on the certificate for the domain.
+
+Hope it can be fixed
+
+The site is: bryllupsfotograf.biz</description>
+      <pubDate>Fri, 09 Jun 2017 15:57:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17079243</link>
+    </item>
+    <item>
+      <title>Site URL</title>
+      <description>Now, that I could implement the right domain URL to my Webspace, I want to Change the (temporary) URL to the wanted one. Instead of http://offeneart.de it should be https://offene.art
+Can you arrange this for me?
+Thank you very much.
+Kind regards 
+Gerd Sutter</description>
+      <pubDate>Thu, 08 Jun 2017 17:38:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17074365</link>
+    </item>
+    <item>
+      <title>Editing HTML Code - How?</title>
+      <description>Hello, as I'am new with koken, i wonder, how to edit the html code on the mainpage / FrontPage?
+Also, what can I do, if the slideshow as cube, does'nt work with the IE Browser. It works and looks totally different as it shoud. Therefore it works fine with Chrome!
+Gerd</description>
+      <pubDate>Thu, 08 Jun 2017 17:38:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17074333</link>
+    </item>
+    <item>
+      <title>How to publish photos in a private album with the Lightroom plugin?</title>
+      <description>Hi,
+
+The "Lightroom" plugin is very useful, but I can't find how to use it to publish photos into a private album.
+
+How can I do that?
+
+Thanks in advance for your help.
+---
+Sylvain</description>
+      <pubDate>Thu, 08 Jun 2017 17:42:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073609</link>
+    </item>
+    <item>
+      <title>Feature Request - Unpublished Album Simple URLs</title>
+      <description>I would like to request a feature that would allow for unpublished albums to have the option for simple and editable URL's instead of the obfuscated URL's.
+
+Currently I have been creating private albums and using the password protection plugin distributing the (pretty) URL and password the the clients, models, layout artists, etc. It would be much easier to not require the password, and just have a (pretty/simple) URL that relates to the project (as I can do with public and private albums and sets) but that is not part of the public galleries.
+
+To give an example; instead of this unlisted URL:
+
+https://www.silvernitratephotography.com/sets/c1b903c1d94cd86087662e2f44ed1a1f/
+
+give them this as an unlisted URL:
+
+https://www.silvernitratephotography.com/sets/chamberposters/
+
+Thanks for your consideration.</description>
+      <pubDate>Tue, 06 Jun 2017 14:52:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073540</link>
+    </item>
+    <item>
+      <title>/storage/cache/images/</title>
+      <description>Hi there,
+I have had a request to remove some images from my site, and have done so, but copies are being saved in the directory /storage/cache/images/
+
+How can I remove these copies? I have already gone into the console under "Image publishing" and clicked "clear image cache". 
+
+Thank you, 
+Sarah</description>
+      <pubDate>Tue, 06 Jun 2017 15:02:51 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073127</link>
+    </item>
+    <item>
+      <title>if i want to change my site title (image), it makes a lightbox of it.</title>
+      <description>Hi there, 
+
+I have a new logo and i want to change my old one with the new one. 
+But if i upload a jpg or png it automatically makes a "lightbox" of it. 
+Link looks like this: http://lauraknipsael.com/koken/index.php?/content/tekengebied-3/lightbox/
+How can I change that? Because it doesn't work when it's a lightbox. 
+
+Thanks in advance. </description>
+      <pubDate>Mon, 05 Jun 2017 18:23:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17072707</link>
+    </item>
+    <item>
+      <title>Make Timeline show Pictures sorted by "date captured"</title>
+      <description>I'd like the Timeline to show the pictures sorted by "date captured/published".
+It currently shows in uploaded order.
+
+Maybe there is a plugin, changing "date uploaded" to "date captured"?
+This would work as a workarround.
+
+Thanks</description>
+      <pubDate>Wed, 31 May 2017 11:32:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17065089</link>
+    </item>
+    <item>
+      <title>IDXXX</title>
+      <description>I am using Madison - is it possible to publish for each foto more Metadata i.e. the model of the used camera?
+2nd: can I publish the unique id assigned to a foto during upload in an album for a foto, too?</description>
+      <pubDate>Tue, 30 May 2017 14:14:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17064675</link>
+    </item>
+    <item>
+      <title>Front Page Image Size - Madison Theme</title>
+      <description>I have uploaded an image which is 5064 x 3724 (landscape) to use as a Front Page image.
+
+Can I adjust the size that it appears on my Front Page?
+
+It's too small on it at the moment.
+
+Thanks.
+
+D.</description>
+      <pubDate>Sat, 27 May 2017 17:56:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17063197</link>
+    </item>
+    <item>
+      <title>Site looks fine in draft mode but doesn't work in live</title>
+      <description>I´m using the boulevard 2 Theme and everything looks fine in draft mode, I published alle the changes and it did publish only some parts of the site.  
+I can access www.christiansmutny.at/albums just fine, thats how the final page is suppose to look! 
+but the front page www.christiansmutny.at looks like something is missing. It looks the same when I switch to live mode. It does not show any pictures or Background or proper text. How can I fix that? </description>
+      <pubDate>Wed, 24 May 2017 18:25:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17041322</link>
+    </item>
+    <item>
+      <title>FB remarketing pixel installed on koken pages?</title>
+      <description>Can't seem to find instructions for placing the FaceBook remarketing pixel (i have one already) on my koken landing pages. Can you point us to those instructions? 
+</description>
+      <pubDate>Tue, 23 May 2017 12:28:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17041036</link>
+    </item>
+    <item>
+      <title>Change the link of an album (or simply embed a youtube player in an album or essay)</title>
+      <description>Hy guys, 
+
+is there a way to so a link the the cover directly to a another link (youtube) than any album on my site? I wanted to embed a youtube player on my site to show some videos i made, but i see no way to get it work. 
+
+Now i thought... hey let's just set a link directly to youtube. But that doesn't seem possible as well. 
+
+Can you help me please?</description>
+      <pubDate>Wed, 17 May 2017 18:58:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17038312</link>
+    </item>
+    <item>
+      <title>content.url shows http instead of https on share</title>
+      <description>Hey
+I have recently configured my site with ssl and switched from http to https. 
+Now when content ar eshared the {{ content.url }} still only comes up with http:// and not the desired https://
+
+Anybody got an idea how to fix?</description>
+      <pubDate>Tue, 09 May 2017 12:56:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17031311</link>
+    </item>
+    <item>
+      <title>"essays" published without image</title>
+      <description>Hello, I have a problem displaying image in my tab "news" on my site. 
+The text appears, but the images are no longer displayed, it happens in the "essays". I recently unlisted series and the problem appeared at the same time. Could you tell me what is happening and how to fix this problem to have the images corresponding to my texts please?
+thanks a lot,
+Valentine</description>
+      <pubDate>Tue, 18 Apr 2017 12:34:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17017103</link>
+    </item>
+    <item>
+      <title>Photo Supreme</title>
+      <description>Dear Koken-Team,
+
+I use Photo Supreme as my main DAM solution. It would be very convenient when I could export/sync my web site running koken from/within Photo Supreme (like Lightroom). Any plans on your side to support this application?
+Thank you.
+
+Best Regards,
+Adam
+</description>
+      <pubDate>Sat, 15 Apr 2017 14:13:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17015961</link>
+    </item>
+    <item>
+      <title>GIF</title>
+      <description>Hi Kokenteam,
+I'd love to be able to use gif's on my side. Apparently that didnt worked the last years?
+Is there any solution yet? I'd be very very happy to hear from you.
+
+my system data:
+PHP -Version 5.6.30
+MySQL - Version 5.5.53-MariaDB-1~wheezy
+Server operating system - Linux
+Webserver software - Apache
+Image processing - GD bundled (2.1.0 compatible)
+FFmpeg - Not installed
+Memory limit - 512MB
+Upload file size limit - 96MB
+EXIF/IPTC parsing - Supported
+
+all the best
+sofie</description>
+      <pubDate>Fri, 14 Apr 2017 13:17:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17015354</link>
+    </item>
+    <item>
+      <title>hide EXIF</title>
+      <description>Hi, I'd like to hide EXIF information on the front side. How do I do it ?
+thanks
+Cédric
+</description>
+      <pubDate>Wed, 12 Apr 2017 20:49:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17014121</link>
+    </item>
+    <item>
+      <title>Custom CSS --- Correct preview in Draft but not live in browser</title>
+      <description>Hey Koken team, 
+
+I added a custom CSS part to my theme, it's correctly previewed as a draft but it's not adapted to my actual live website. What is wrong? 
+
+Could you please help? Thanks a lot!
+
+Matthias</description>
+      <pubDate>Wed, 12 Apr 2017 13:54:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17000303</link>
+    </item>
+    <item>
+      <title>Featured content not saving</title>
+      <description>Hi there,
+
+I've just been trying to add albums and images to the Featured collection with no success. My albums are all listed in Public with no sets, I click on an album in the Public view and use the edit menu to apply to Featured. Have tried a similar process for individual images. The album/image becomes starred and I get a confirmation that it has been added. If I then navigate to Featured it is not there, and when I navigate back, the album/image has lost its star.
+
+I'm using Madison 2 theme, Koken version 0.22.20 
+
+I have tried refreshing both the system and image cache multiple times, any help would be appreciated!</description>
+      <pubDate>Mon, 10 Apr 2017 13:17:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16990349</link>
+    </item>
+    <item>
+      <title>Changes made in Site/Draft not happening.</title>
+      <description>Windows 10 Pro / Madison Theme
+
+In Site/Draft I want to remove Timeline, Content and Essays from the front page of the site. I can't. 
+
+Under Primary, all the links to my various folios are listed. But, not one of those links is on my Home Page.
+
+Instead, on my Home Page I see Home (with a tiny image, even though I upload a full size one), Timeline, Content and Essays - none of these is listed in my Primary menu, because I removed them.
+
+So, why are they still on my Home Page, and why are none of my image folios listed on my Home Page?
+
+A total nightmare.
+
+I've tried resetting links and deleting Timeline, Content and Essays and adding my image folios - all to no avail.
+
+I've also tried clearing Cache. Again to no avail.
+
+Help, please.
+
+Thanks.
+
+D.</description>
+      <pubDate>Thu, 06 Apr 2017 16:41:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16988044</link>
+    </item>
+    <item>
+      <title>Video preview loop on album page</title>
+      <description>Is it possible to have a short video loop as a preview on the album pages?</description>
+      <pubDate>Wed, 05 Apr 2017 13:56:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16986943</link>
+    </item>
+    <item>
+      <title>Draft vs. Live - How to make them the same...?</title>
+      <description>1. The page that is currently listed as Front Page in Site/Primary, does not have a Delete option. Must I assign another page as the Front Page before I can delete the existing one?
+
+2. What I see in Site/Draft and what I see in Site/Live are different. How can I make Live look the same as Draft?
+
+3. In Library/Collections/Featured Albums/Public, Front Page is not listed, only sub-folders on the site. Is this normal?
+
+Thanks.
+
+Denis</description>
+      <pubDate>Wed, 05 Apr 2017 14:08:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16985655</link>
+    </item>
+    <item>
+      <title>slug or url containing numbers only</title>
+      <description>Hi,
+My site shows pictures of places I go to but sometimes I've been in one place more than just one time.
+Say, I've been to Sydney in 2009 and 2015 and so I'd like the url to look like: *domain.com/2009/sydney* and *domain.com/2015/sydney*.
+
+Changing the link format wont work because it uses the year (and month) the album was created, not the year the pictures within the album were taken.
+
+I just want to edit the url manually but I get the following message: *Slug edit error. Must contain at least one lowercase letter.*
+
+Am I missing something? Is this something that could be introduced in the coming releases?
+
+Thank you,
+Xabi</description>
+      <pubDate>Wed, 29 Mar 2017 18:20:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16970450</link>
+    </item>
+    <item>
+      <title>my website : annerosemansholt.nl</title>
+      <description>Someone built this website for me but i want to get it of the air, so I can built my own.  I dont know how to proceed? Where or how can i do this? thanks for helping me out
+best regards
+Anne Rose</description>
+      <pubDate>Wed, 29 Mar 2017 13:40:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16970067</link>
+    </item>
+    <item>
+      <title>Custom Link</title>
+      <description>I want to create a custom link on my navigation bar.
+When I add the link I find only one field: link label. The custom link by default points to a standard lorem ipsum page
+There is no field for adding the hyperlink (in this case to my instagram page)
+I have tried adding an  link but it shows up some php code.
+I can type the link in the edit label field but that of course shows the underlying link.
+How can I create a navigation bar link which simply says "Instagram" and links to my Instagram page?
+
+Thanks
+
+Tom</description>
+      <pubDate>Tue, 28 Mar 2017 16:19:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16969039</link>
+    </item>
+    <item>
+      <title>Koken - Adding Buttons under the Header</title>
+      <description>Hey Guys!
+
+I've got a Koken site running Madison 2 and I'd like to get an AddThis Follow button under the Logo and Tagline (but above the Menu Links).
+
+The code in question looks like this:
+ 
+
+
+How would I go about doing this? I know how to create a child theme but I'm a bit at lost with the .lens files.
+
+Here's what the side nav looks like right now (red box where I want to add the social AddThis code): http://imgur.com/a/b5QIv
+
+Thank you!
+Clovis</description>
+      <pubDate>Sun, 26 Mar 2017 13:12:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16967095</link>
+    </item>
+    <item>
+      <title>Full custom URL and slugs: how to?</title>
+      <description>Hi.
+I'm trying to figure out how to migrate an old website I have into your CMS. At the moment, the huge drawback seems to be the only partial control over slugs.
+Exactly, why do I have to write "pages/", "albums/", "essays/" and so on, before my content, and cannot leave that empty and write the content slug directly?
+Thank you.</description>
+      <pubDate>Mon, 13 Mar 2017 15:36:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16950812</link>
+    </item>
+    <item>
+      <title>Show Album download link just when there is something to download</title>
+      <description>Hello,
+
+I am using Koken 0.22.19 with the Regale2-Theme.
+The ability to download whole albums is great, but if I activate "show Download-Link" it shows the link on all albums every time. Even if the album doesn't contains any downloadable images.
+A click on the link gives a zip-file with 0kb or a clear site.
+Is there any setting to show the link just, if there is something to download?
+
+
+</description>
+      <pubDate>Wed, 01 Mar 2017 14:38:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16832917</link>
+    </item>
+    <item>
+      <title>Slash on the Site Page name</title>
+      <description>hi,
+
+there is a "/" added on the Site Page name, for the Boulevard 2 Theme I am using, on www.chervine.com
+I made sure in the Library that the folder name does not contain a "/", however, for some reason it is added on the site.
+Thanks for your assistance.
+
+</description>
+      <pubDate>Tue, 28 Feb 2017 17:23:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16830240</link>
+    </item>
+    <item>
+      <title>In Ensemble on my Content page, how can I make Lightbox pop up when clicking on a photo? </title>
+      <description>In the Ensemble theme on the Content page, what code can I use to make Lightbox pop-up when I click on a photo? Instead of it going directly to the photo page? 
+I also wanted to do this for an Album page but can never figure it out. 
+What code do I need to change, and where? Any help would be appreciated, I am a novice. 
+
+http://fotolina.me/content/
+http://fotolina.me/albums/cloudy-organs-2/</description>
+      <pubDate>Sun, 26 Feb 2017 18:17:09 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16829974</link>
+    </item>
+    <item>
+      <title>is image caching new galleries possible, or even needed?</title>
+      <description>Hi there,
+
+I've just gone through the process of creating the image cache for all of the images on my site.  I was wondering if there is a way to cache only a new incoming gallery when I upload it, without having to rebuild the whole thing? Or does the system check for new images when it caches and only create the new ones?
+
+Thanks!
+Jean-Marc
+</description>
+      <pubDate>Fri, 24 Feb 2017 23:29:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16829402</link>
+    </item>
+    <item>
+      <title>Startup screen</title>
+      <description>Hi! Is there a way to make one featured image permanently the start image of the slide show of the site? (Site name is menschfotograf..com)</description>
+      <pubDate>Thu, 23 Feb 2017 19:34:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16828334</link>
+    </item>
+    <item>
+      <title>Social Media disabling/removing from elemantary theme or in general</title>
+      <description>Hey Dude, very good CMS-System, excactly what I'm looking for !!!
+
+But is it possible to completly deaktivate the social media stuff in all possible navigations?
+
+Cheers,
+Björn</description>
+      <pubDate>Tue, 21 Feb 2017 15:37:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16825577</link>
+    </item>
+    <item>
+      <title>Change from http to https</title>
+      <description>we changed our domain from http to https. All works fine, but i can't upload or synchronise via the lightroom plugin. I tried to change the url in "site publishing" but this didn`t help. I created new acces tokens with no success. I also tried to install a second new connection to the site but also failed.
+What can I do? I don`t want to rebuild my complete site (www.dieschreiner.net)
+
+During my tests i got different errors:
+Plug-in error log for plug-in at: D:\Dokumente\Lightroom Plugins\koken-publish-service\koken.lrplugin
+
+**** Error 1
+
+Beim Aktualisieren der Einstellungen für diese Sammlung ist ein Fehler aufgetreten.
+KokenAPI.lua:245: attempt to concatenate field 'content' (a nil value)
+
+**** Error 2
+
+Die Nachbearbeitungsaufgabe dieses Zusatzmoduls konnte nicht erfolgreich abgeschlossen werden.
+AgExportSession:recordRemoteCollectionId: remote ID must be a number or string
+
+**** Error 3
+
+Die Nachbearbeitungsaufgabe dieses Zusatzmoduls konnte nicht erfolgreich abgeschlossen werden.
+KokenExportServiceProvider.lua:609: attempt to concatenate field 'id' (a nil value)
+ What can I do?</description>
+      <pubDate>Sun, 19 Feb 2017 18:05:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16823652</link>
+    </item>
+    <item>
+      <title>Icons for Instagram and Facebook</title>
+      <description>I plan to incorporate icons for Instagram and Facebook like this:
+
+http://axis.koken.me/photos/carkeek-park/
+
+I have Madison, if it is possible, how is it done? 
+
+Thanks! Etta</description>
+      <pubDate>Wed, 15 Feb 2017 16:51:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16820403</link>
+    </item>
+    <item>
+      <title>Prevent "all content" from appearing on site</title>
+      <description>Hi -  Is it possible to prevent all content page from appearing?
+
+I do not mean unlisted images, but rather public images.  I just want to limit the organization of images viewed on the site to just the albums that I have created.  To do this I have no "content" link available in the navigation.  But it seems if you just drop the right URL into the URL bar, you can still see all images.
+
+I would like to control this, if not disallowing in full, at least being able to control what data is appearing beneath the image.
+
+How can I do this if I have no link to a "content" page set-up?
+
+</description>
+      <pubDate>Thu, 16 Feb 2017 21:04:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16820289</link>
+    </item>
+    <item>
+      <title>pb with contact form</title>
+      <description>Hi,
+I have a issue with the Koken contact form.
+I have created a new page and used it as a new link into the site primary space. The pb is that the contact form doesn't appear in this new page. When I save or update the page (with the contact form inside) I've got this message : undefined has been published and when I don't use the contact form in the page I've this one :  "name of the page" has been published. 
+
+When I reopen the page with is supposed to contain the contact form I can't it.
+Could you helps me.
+
+PS : I use the Madison 2 theme and the Koken version.
+
+Thx.</description>
+      <pubDate>Mon, 13 Feb 2017 19:28:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16818684</link>
+    </item>
+    <item>
+      <title>Lightroom publishing</title>
+      <description>Hi community,
+
+I´m right now testing lightroom and koken; I´m an absolute newbie.
+I did import several pictures in lightroom and organized them in different albums. Then I connected to my koken test website and now want to publish exactly the album structure i set up "above". 
+How is this possible? I cannot drag and drop the structure. do i need to manually rebuild the structure I already set up in the library? Thanks a lot for your help!</description>
+      <pubDate>Wed, 08 Feb 2017 18:28:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812273</link>
+    </item>
+    <item>
+      <title>photo size</title>
+      <description>Hello,
+
+the portrait size on my website means it is impossible to see the full image - landscapes are fine. Is there a way to fix this? I have seen it to be true on a couple of the themes and I would like to stick with elementary.
+
+I did apply custom css - img {
+    width: 50%;
+    height: auto;
+}
+
+which helped but it applied to all pages which means all portraits were fixed and all other landscapes and slideshows were the wrong size . Perhaps it is possible to apply CSS to only some pages and not across the whole theme?
+
+I am not an expert in this at all so any advice appreciated!
+
+Amber</description>
+      <pubDate>Wed, 08 Feb 2017 15:39:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812195</link>
+    </item>
+    <item>
+      <title>Problem with adjust category</title>
+      <description>Hi Guys,
+after new update I have problem with adjust category. Please check the photo.
+https://postimg.org/image/c5ndhxxaf/
+
+How I can fix it? Thx 4 help.</description>
+      <pubDate>Tue, 31 Jan 2017 20:27:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16805486</link>
+    </item>
+    <item>
+      <title>Menue structure published</title>
+      <description>I didn't found out yet, how to create a left-column menue structure of sets and albums on the main page published. I wish to show a menue structure on the published page similar to the content structure in admin view "library". At least, visitor should find the sets in the left column. Is this a question of the theme used - or what can i do to create this ? Any tricks ?
+Thanx for any help!
+
+--&gt; www.nightphotos.de</description>
+      <pubDate>Sat, 28 Jan 2017 01:10:07 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801922</link>
+    </item>
+    <item>
+      <title>how to enable users to mark certain photos?</title>
+      <description>hi. i need some help with the site publishing.
+is is possible to enable my users to mark certain photos in the site so that they can be used for editing by me.
+
+thank you :)</description>
+      <pubDate>Fri, 27 Jan 2017 15:48:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16801916</link>
+    </item>
+    <item>
+      <title>Remove "Built with Koken" - Boulevard theme</title>
+      <description>Hi, 
+
+I just updated my Koken profile (Boulevard) and now the sign "built with koken" displays on every page. How can I remove this?
+
+I already red this article: 
+
+http://help.koken.me/customer/portal/questions/16120913--update-21-1-how-to-remove-built-with-koken-
+
+...but I couldn't change any theme settings. 
+
+Thanks for your help. </description>
+      <pubDate>Mon, 23 Jan 2017 14:45:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16797247</link>
+    </item>
+    <item>
+      <title>Moved site...</title>
+      <description>Hello!
+
+I have made a temp url on my upcomming webhotel, but I cant get it to show my images (works on the frontpage) but not in my collections.
+
+Works: https://kristianwind.dk/sets/bryllupper/
+Doesn't: http://temp.kristianwind.dk/sets/bryllupper/
+
+Have FTP'ed all files, uploaded database, updated the storage/configuration/database.php file. Finally, deleted the storage/cache/api and storage/cache/site folders.
+
+I have tried with imagemagick, graphicsmagick and GD with no luck.
+
+Server: Ubuntu 16.04...
+
+Hope you can help.
+
+Thanks! 
+/Kristian</description>
+      <pubDate>Fri, 20 Jan 2017 15:57:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16796343</link>
+    </item>
+    <item>
+      <title>Changing Koken directory</title>
+      <description>Hi 
+
+I followed the instructions to change the directory from /koken/ to something else - in my case /photos/
+
+The instructions suggest that that's all you have to do and the site is automatically moved. This hasn't happened. I've made small changes and republished the site, but it still is only accessible via /koken/
+
+Thank you for your time
+
+Cheers
+Yorick</description>
+      <pubDate>Fri, 13 Jan 2017 19:14:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16790621</link>
+    </item>
+    <item>
+      <title>collections not publishing</title>
+      <description>Hi, I just recently switched my theme from Boulevard to Madison and am having trouble with the links on my website working. The Home link only responds to featured photos in my Library and not to the corresponding Home folder in my collections. In addition, the Projects link on my website appears to be a dead link. I added the link and thought it would respond to the collections folder labeled Projects, but it's not working. Can I not have multiple links for collections using Madison (ex.. Home, Projects, Places, Things , etc.)? Does this theme not work that way? Or am I doing it wrong? Thanks for your time. </description>
+      <pubDate>Fri, 13 Jan 2017 14:25:58 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16789877</link>
+    </item>
+    <item>
+      <title>another User uploads</title>
+      <description>hello,
+how is it possible, to allowed another user an upload in a specific folder?
+
+best regards 
+Uwe</description>
+      <pubDate>Fri, 06 Jan 2017 22:21:22 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16782103</link>
+    </item>
+    <item>
+      <title>LinkedIn integration</title>
+      <description>Hello,
+
+I need to add the LinkedIn 'InShare' button to my site, which I'd like alongside my other social buttons on the default Madison 2 theme. Can you tell me how to do this?
+
+Info: https://www.linkedin.com/help/linkedin/answer/5011/getting-content-featured-in-pulse?lang=en
+
+Thanks,
+David</description>
+      <pubDate>Fri, 06 Jan 2017 15:23:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16781617</link>
+    </item>
+    <item>
+      <title>Multilungual plugin or functionality</title>
+      <description>Hi evevrybody and Happy new Year! 
+I would like to know if there are any news about a multilingual plugin for Koken, it would be very appreciated (and I would buy it immediatly!)
+In the meantime, any suggestions to create a double version of the site?
+thank you
+roberto</description>
+      <pubDate>Wed, 04 Jan 2017 18:27:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16778801</link>
+    </item>
+    <item>
+      <title>theme change</title>
+      <description>Good morning, 
+
+I would like to change may free theme for another (paid one).
+
+I wonder how to keep my site alive (with old theme) while i will be changing for new theme? Is it possible? 
+
+thank you 
+
+regards from Poland
+
+Artur</description>
+      <pubDate>Wed, 28 Dec 2016 15:48:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16774375</link>
+    </item>
+    <item>
+      <title>Why can't I edit site links?</title>
+      <description>I have incorrectly named some albums and sets and want to change links so that the URLs are correct. How can I do this?
+
+Thanks</description>
+      <pubDate>Tue, 20 Dec 2016 17:10:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16770054</link>
+    </item>
+    <item>
+      <title>download size</title>
+      <description>hallo!
+there ist no effect, if I change the download status for my unlisted pictures.
+eg. the inspector shows at „site“ „download“ „none“ - but on the website the download ist possible with large size. if I edit the „download“ to „Original“ the download size from website is also the same size (large)
+I cannot find the cause of this fact.
+thank you for answering!</description>
+      <pubDate>Sun, 18 Dec 2016 14:17:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16768629</link>
+    </item>
+    <item>
+      <title>error uploading, http error</title>
+      <description>Dear Support,
+Since 0.22.12 update, I cannot add pictures, I obtain : error uploading, http error.
+http://www.lespittet.com/ &amp; http://www.lespittet.com/admin/
+Can you help me, please?
+Thank you.
+Christian</description>
+      <pubDate>Sat, 17 Dec 2016 14:17:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16767409</link>
+    </item>
+    <item>
+      <title>Can't update this collection</title>
+      <description>Upload to Koken failed. The server did not return an error message. Contact Koken support for more help. I get this error all the time and it makes using the program frustrating. I'll have 12-20 shots in a folder and it will upload a portion and then fail. At some point it in a day or so it will work. I use GoDaddy as my web server. What is the nature of this problem so I can move on from this issue? </description>
+      <pubDate>Fri, 30 Dec 2016 21:10:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16762815</link>
+    </item>
+    <item>
+      <title>Images loading very slowly</title>
+      <description>Hi,
+First, thank you for Koken. I absolutely love it and it's the amongst the best out there.
+
+I'm having an issue with images loading very slowly. I've rebuilt the cache, changed the graphic processor to Imagick but no luck. 
+
+The site is on: studiobenegal.com and also on http://devbenegal.com/koken/
+
+I'd appreciate any suggestions.
+
+Thank You
+
+- dev</description>
+      <pubDate>Fri, 09 Dec 2016 14:10:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16762264</link>
+    </item>
+    <item>
+      <title>Koken page loading very slowly</title>
+      <description>Hi,
+
+I have approximately 40 images on my home screen (all able to be enlarged in a grid-like pattern), but they are taking far too long to load. I've tried accessing the website from different wireless internet ports, but it's the same thing. Is there a limit to how many images can be on one page?
+
+Thanks and let me know!
+
+Peter
+www.petergdesign.com</description>
+      <pubDate>Thu, 08 Dec 2016 18:34:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16760494</link>
+    </item>
+    <item>
+      <title>How can I keep my albums, but make them invisible?</title>
+      <description>Dear Madam/sir, 
+
+I have some albums on my website that I would like to keep, but I don't want to see them when I open my website. I would like to make them invisible, so if I would like to publish that same album ever again, I could just hit one button and it is published. How can I make this work?
+
+Thank you!
+
+Best regards, Emma Westers</description>
+      <pubDate>Mon, 05 Dec 2016 14:13:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16758783</link>
+    </item>
+    <item>
+      <title>german language</title>
+      <description>Hello Koken Team,
+you make a good job.
+It is planned to create the software in German
+
+best regards
+Uwe</description>
+      <pubDate>Sun, 04 Dec 2016 15:17:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16758255</link>
+    </item>
+    <item>
+      <title>Problem vieing unlisted album</title>
+      <description>Hi,
+
+i have created an unlisted album in an already unlisted set, added images to this album, had Koken make them unlisted too.
+The images are in the album and the album has the usual link.
+
+Unfortunately the links leads to an empty page and clicking view opens the same empty section on my website.
+
+I am sure this was working before because i have a bunch of unlisted albums for model images but even those do not work anymore. The only way to make images visible is by making them public which will show theem in my timeline and content.
+
+Did i miss a setting, did i forget something important or is unlisted broken?</description>
+      <pubDate>Tue, 22 Nov 2016 14:35:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16748857</link>
+    </item>
+    <item>
+      <title>Adjusting the Timeline for Capture date</title>
+      <description>I'd like to have the timeline show the capture dates rather than the publish dates.  I've edited my content to use the capture date as published date, but the timeline still shows the publish date. 
+
+In reading the other questions I've also cleared the system cache, but no luck. 
+
+Any ideas on what I need to do to get this to work?  My site is at http;//edmull.in
+
+Thanks!</description>
+      <pubDate>Fri, 11 Nov 2016 15:41:50 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16733817</link>
+    </item>
+    <item>
+      <title>IPTC field</title>
+      <description>Hi, 
+I seem to have a problem with the display of the IPTC field of my images.
+When navigating on my website normally, they don't appear, witch is good. But if someone were to find my website using a search engine then, all of the IPTC appear beside my images. 
+How can I manage for them not to show? 
+Thanks.</description>
+      <pubDate>Thu, 10 Nov 2016 15:57:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16733751</link>
+    </item>
+    <item>
+      <title>type of code</title>
+      <description>Hello,
+my question is how can I change a type of code polish html, I know that is ISO-8859-2 but how can I use it?
+Best regards
+Robert</description>
+      <pubDate>Mon, 07 Nov 2016 20:33:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16731305</link>
+    </item>
+    <item>
+      <title>Database with prefix</title>
+      <description>Hi,
+I created my Koken site on localhost and now I want to publish it online.
+
+So first I exported my database from my localhost and imported it on my online host. My host add inevitably a prefix before the name of the database, so in the database.php file I rename the database with prefix_[nameofmydatabase]. And I created the user(the same as the old one).
+Then I uploaded my web site online and now I get a error 500.
+
+Any ideas?
+</description>
+      <pubDate>Tue, 08 Nov 2016 12:27:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16730732</link>
+    </item>
+    <item>
+      <title>How to Download images from Koken albums</title>
+      <description>I've read the link below and have done what it suggests: 
+http://help.koken.me/customer/portal/articles/1575585-publish-image-download-links
+
+So now how do I download the images to a hard drive?
+
+Kind regards,
+Heather Elton
+
+</description>
+      <pubDate>Mon, 31 Oct 2016 13:28:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16724978</link>
+    </item>
+    <item>
+      <title>Content page</title>
+      <description>Hi,
+even if I remove the link to the /content -page, it is still accessible by public. As the /content page is the first hit in search engines, I would like to redirect to my set homepage only. Can I remove the /content page from being listed / accessible in any way and have only the access to my library files?
+Many Thanks,
+Ingbert</description>
+      <pubDate>Fri, 28 Oct 2016 15:06:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16722495</link>
+    </item>
+    <item>
+      <title>Assign date captured to date published setting does not work</title>
+      <description>Checking the checkbox labeled "Assign date captured to date published" in Settings &gt;&gt; Importing does not work.
+
+My imported images retain the current date/time no matter if the checkbox is checked or unchecked. This feature is fairly necessary for anyone who is trying to move a pre-existing library of photos from a different CMS to Koken.
+
+I saw a similar thread where developers said they could not reproduce the error. In that case the installation was using ImageMagic. In my case, my installation is using GD bundled (2.1.0 compatible).
+
+</description>
+      <pubDate>Mon, 24 Oct 2016 16:51:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16718057</link>
+    </item>
+    <item>
+      <title>Hacked Website</title>
+      <description>Hello. I am the owner of www.andybehrle.com. I have been working with Google to resolve a hack of my website, and need some assistance. I have removed 2 of the 3 hacked items from my site via the Koken portal. In those two cases, I simply deleted the item from my library- which deleted the webpage that had been compromised. 
+
+The third item, which I have yet to remove, is a menu page: http://www.andybehrle.com/index.php?/sets/digital-light/  The googlebot sees this page with malicious content, although visitors to the site do not see that content. In Koken, I changed the address of the link address to http://www.andybehrle.com/index.php?/sets/digital-light2/. This effectively moved all the links and content from the original menu page to a safe location. However, I do not know how to remove the original link: http://www.andybehrle.com/index.php?/sets/digital-light/ entirely from my website.
+
+Can you help me remove http://www.andybehrle.com/index.php?/sets/digital-light/ from my website?
+
+I appreciate any help you can offer.
+
+Thank you,
+
+Andy Behrle</description>
+      <pubDate>Wed, 19 Oct 2016 13:03:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16714761</link>
+    </item>
+    <item>
+      <title>visibility - prevention of downloading</title>
+      <description>Hi
+
+I would like to prevent any option for downloading my photos. I therefore have set "download" to "none". Still however my browser (Google Chrome) offers the possibility to download by the option "save image as ...". Is there anything I do wrong or forgot ?
+
+Thank you very much
+</description>
+      <pubDate>Fri, 14 Oct 2016 13:02:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16711343</link>
+    </item>
+    <item>
+      <title>Change of site domain</title>
+      <description>Hello, further to previous thread: http://help.koken.me/customer/portal/questions/16700731-transfer-of-site-to-another-domain
+
+I attempted to follow your instructions but it would not work. Perhaps If I explain in more detail:
+
+1. I have installed and developed my Koken site under the domain www.fitzmaurice.works
+2. I now want to know how to transfer this Koken site to replace my current live website www.robertfitzmaurice.co.uk
+nb: both sites are hosted by the same hosting provider under htdocs.
+
+Regards, Robert</description>
+      <pubDate>Sat, 08 Oct 2016 20:18:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16706585</link>
+    </item>
+    <item>
+      <title>Slideshows and routing</title>
+      <description>First : I don't get how can I present some albums in one page and some others in another.
+I'm using the repertoire theme. I manage to put the featured items (essays, albums etc...) that wil appear on home (front) page but then I want to get a "selected works" page and a "exhibition" page so I created different albums but I don't manage to configure these album to this page and the others to the other one.
+
+Please help
+
+Second Problem : If I set up a square slide show in the home page for the first featured album then it has to be the same square size on every other page. Could I change that???
+
+thank you</description>
+      <pubDate>Wed, 05 Oct 2016 15:39:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16703825</link>
+    </item>
+    <item>
+      <title>Transfer of site to another domain</title>
+      <description>Hello
+
+Really pleased with Koken. Have been busy creating a new website under one domain that is password protected. My current website is hosted by the same provider but a different domain. My Koken site url is the root of my site (htdocs). I would like to transfer my Koken site to my current live domain. Am I right to assume I can just copy the Koken folder to the root of my live site or are there other steps to consider, e.g. the current site's index.html and sub directories coded in Bootstrap? 
+
+Regards, RF</description>
+      <pubDate>Mon, 03 Oct 2016 15:00:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16700731</link>
+    </item>
+    <item>
+      <title>Koken install ignores captured date</title>
+      <description>I have recently moved my photography to Koken (again) and when I import my images, Koken uses the same date for all which is the publication date. This while I have turned on the 'Publishes images to the timeline and other date-based pages using the date an image was captured instead of the date it was published by Koken.' option and my images all have different capture dates in the EXIF.
+
+Why is this and what to change it? </description>
+      <pubDate>Thu, 06 Oct 2016 17:29:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16700213</link>
+    </item>
+    <item>
+      <title>Navigation using categories</title>
+      <description>Hi,
+I'm trying to set up a navigation system based on categories. I want to be able to have a link to an album containing all images that have been set with category "X". Yet I need those images to be dynamically culled from all existing albums. There's no point in tagging individual images with categories if I can't get them together from different albums.
+
+Any idea? I have been through the docs to no avail. It seems to only work with categorized albums, which is silly and defeats the whole categories concept. I'm currently using Chastain and can't see if this is supported in other themes.
+
+Thanks!</description>
+      <pubDate>Thu, 29 Sep 2016 12:39:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16698359</link>
+    </item>
+    <item>
+      <title>Can't update collection in Lightroom</title>
+      <description>I'm another person having this issue:
+
+"Can't update this collection. Upload to Koken failed. The server did not return an error message. Contact Koken support for more help."
+
+Windows 10
+Lightroom 5.7
+Koken 0.22.7  
+
+</description>
+      <pubDate>Sat, 24 Sep 2016 13:35:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16694029</link>
+    </item>
+    <item>
+      <title>site settings panel won't open</title>
+      <description>I've been using koken now for over three years, and up until recently haven't had any issues. In the last few months though the settings panel simply will not open when i go to the 'site' tab when trying to edit my website. When i click the little cog icon on the right hand side, the customiseable options are supposed to appear, but they don't, the icon simply becomes black or reverts to normal. i have tried to change themes and in doing so had no luck but also lost my draft that my website was previously running on, so can no longer edit my theme to how i want it to look.
+
+koken advised me to check with my host who report no issues on my server nor any restrictions etc. i've tried reverting back to php 5.3, clearing all cache's both via koken and manually via my ftp login. i keep hoping for an update that might fix the issue for me or atleast refresh my installation if there's an issue. can't seem to find a topic on here where the issue has been solved. please, any help would be hugely appreciated! thanks</description>
+      <pubDate>Thu, 22 Sep 2016 17:12:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16692203</link>
+    </item>
+    <item>
+      <title>Photos doesn't load</title>
+      <description>Hello,
+
+I've got problem with my site. Photos doesn't show on albums - for example: http://michalmarciniak.pl/albums/portrety/
+Albums aren't empty: http://i.imgur.com/w7zQ6lK.png
+
+I built image cache, also I cleaned image and system cache. What I should do now?
+
+Thank you in advance,
+Michal Marciniak</description>
+      <pubDate>Wed, 21 Sep 2016 13:02:48 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16690431</link>
+    </item>
+    <item>
+      <title>/koken</title>
+      <description>Hi,
+
+i tried to delete "/koken" after my domain.
+Unfortunatly it didn't worked.
+
+Can you help?
+
+Best,
+Nadine</description>
+      <pubDate>Thu, 15 Sep 2016 13:23:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16685079</link>
+    </item>
+    <item>
+      <title>Share multiple unlisted photos</title>
+      <description>I would like to have normal url for album with all published pictures. Also I would like to have "secret" url for same album with unlisted photos. Is it possible to do it?
+
+Example: I was on trip and take pictures = one album with all pictures. Some pictures are good to publish, some pictures I want share just with friends = unlisted. How can I do that? Flickr can generate urls with different content visibility.
+
+Thanks.</description>
+      <pubDate>Tue, 13 Sep 2016 15:45:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16681887</link>
+    </item>
+    <item>
+      <title>Published PRIMARY is not updated when on "Home" but is updated on other pages</title>
+      <description>I have changed the order of the links on my website, in the primary part.
+However, after updating, the primary part has not changed if I watch it when being on the "Home" page, while it has been updated if I watch it from another pages of my site.
+
+Please check it here: 
+not up to date = joel-klinger.photography/
+up to date (for example) = joel-klinger.photography/timeline/
+
+Thanks in advance for your help</description>
+      <pubDate>Thu, 08 Sep 2016 12:37:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16678423</link>
+    </item>
+    <item>
+      <title>creating a website and not making it visible while I'm working on it</title>
+      <description>hi
+
+i have just signed in for Koken, connected it to 1und1.de web hosting, installed my plugin to connect LR5 with it and realize that instantly my website is going public. I won't like to make all steps publicly visible. What do I have to do. 
+
+Secondly I would like to know which is the best file size for uploading picture to galleries that I like to exhibit on my website without having too much delay in uploading content but still a very good quality for showing my pictures. 
+
+thx in advance for replying
+Barbara</description>
+      <pubDate>Mon, 05 Sep 2016 15:32:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16675222</link>
+    </item>
+    <item>
+      <title>Server Test Hanging</title>
+      <description>Hi there,
+I'm trying to view my website on live but when I click view site, it just hangs on server test. "Testing your server for compatibility. Please wait..."
+
+Not sure what to do from here. Any help would be great!
+
+Thanks,
+
+Allan</description>
+      <pubDate>Thu, 01 Sep 2016 13:34:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16672688</link>
+    </item>
+  </channel>
+</rss>

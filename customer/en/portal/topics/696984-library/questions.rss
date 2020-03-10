@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Library</title>
+    <link>http://help.koken.me/customer/en/portal/topics/696984-library</link>
+    <description>Library articles</description>
+    <item>
+      <title>Map of Photos</title>
+      <description>Hi,
+
+Does Koken support adding photos to a map? per album?
+
+Or are there any plugins that will do this?</description>
+      <pubDate>Mon, 17 Jul 2017 13:29:35 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17106794</link>
+    </item>
+    <item>
+      <title>Importing directory structure</title>
+      <description>Hello! I would like to use Koken on two websites I maintain. I already have thousands of photos in a directory structure on my PC ready to go, in folders like this:
+\2010\2010-10-20-fall-foliage
+\2010\2010-12-01-first-snowfall
+\2012\2012-07-15-vacation
+Is there any way to get all of them into Koken in one shot, and maintain that directory structure for visitors, so they get nice clean URL's? eg. sitename.com/album/2010/2010-10-20-fall-foliage
+I wouldn't mind paying for a plugin at all - the time savings would be well worth it.
+Thanks,
+-- Tom</description>
+      <pubDate>Sun, 09 Jul 2017 13:09:57 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17101797</link>
+    </item>
+    <item>
+      <title>adding read more link</title>
+      <description>How can I add read more link not to the text/essay page but to my collection page/page with the images?</description>
+      <pubDate>Wed, 05 Jul 2017 19:12:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17099379</link>
+    </item>
+    <item>
+      <title>lightbox mode</title>
+      <description>Is there a way the date can be shown in the lightbox mode?
+Is there a way to get rid of 'Show caption' link, so the title, caption and date will be automatically shown in lightbox mode?</description>
+      <pubDate>Wed, 05 Jul 2017 18:55:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17099357</link>
+    </item>
+    <item>
+      <title>What is the best way to access to Koken-Database directly?</title>
+      <description>Hello,
+for some reason URLs to newly uploaded images in albums consist of an non-editable alpha-numeric string like in this example:
+http://swiss-mountains.com/albums/807814af9684b2d74d563bb0ecb579f2/content/img-20170315-102655-hdr/
+
+As opposed to other URLs of images in albums displaying the URL of an album followed by the image name like in this example:
+http://swiss-mountains.com/albums/corvatsch-free-rider/content/nk065089/
+
+Both examples are in the same Koken database.
+What might be the cause of this behavior?
+
+Possibly editing the Koken database directly might reveal some more insight.
+What is the best way to connect to the Koken database?
+What are your recommendations, maybe even a cookbook?
+
+Site is using SSL encryption but "https" is not reflected in Koken Admin/Library/Site/Link.
+How can this be corrected?
+
+Feedback is highly appreciated.
+Thanks.
+
+
+
+
+</description>
+      <pubDate>Tue, 04 Jul 2017 17:00:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17098589</link>
+    </item>
+    <item>
+      <title>Koken stoped working on Firefox</title>
+      <description>Suddenly my admin Library has stoped working on Firefox.
+
+I log in but admin shows me a blank page only with top menus (Library, Text, Site, Settings ans Store).
+
+Site, Settings and Store menu works just fine.
+
+I'm using version 0.22.23 with Mozila Firefox 54.0
+
+When I try to open on Chrome it works fine.
+
+Is there anything I can do to back using Koken admin on Firefox, which is my default browser?
+
+Thanks</description>
+      <pubDate>Sat, 01 Jul 2017 18:57:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17096854</link>
+    </item>
+    <item>
+      <title>Force Image Publishing and Processing</title>
+      <description>Hello,
+
+I recently moved a site installation to a new server. My old site was on a managed host with GoDaddy and my new site is on a dedicated VPS with GoDaddy.
+
+OLD INSTALL:  http://23.229.157.167/~alexwesterman/wedding/gallery/
+NEW INSTALL:  https://wedding.alexwesterman.com/
+
+I followed your tips on migrating to a new server/host but as you can see none of the images are rendering on the frontend in the new installation. All the content exists on the new server. I tried clearing the caches. Tried a different image processor. Is there a way to force Koken to rebuild the images and thumbnails? I have over 1800 images and would prefer not to have to manually recreate the directories.
+
+Thanks!
+
+Alex</description>
+      <pubDate>Thu, 29 Jun 2017 12:32:01 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17094505</link>
+    </item>
+    <item>
+      <title>Images not showing a Thumbnail</title>
+      <description>Here is an example of what is happening: https://aalbc.com/pics/content/ I get a series of scrolling dots that give the impression that some this is loading but it never complete.
+
+The image fails to show the thumbnail in any of the previews.  If I browse directly to the image https://aalbc.com/pics/content/aalbc-1/ and click download the image os on the server it is one the server
+
+I'm running version 0.22.23.  The is a fresh install. A previous install on the same server worked wonderfully (great software). I deleted that installation because I incorrectly update a these and I wanted to start correct from scratch, but every installation has failed.  
+
+These are my server settings:
+
+PHP:Version 5.6.30
+MySQL:Version 5.6.35-cll-lve
+Server operating system:Linux
+Webserver software: Apache/2.4.23
+Image processing: GD bundled (2.1.0 compatible)
+FFmpeg: Not installed
+Memory limit: 256MB
+Upload file size limit: 16MB
+EXIF/IPTC parsing: Supported
+
+Any help would be appreciated I do also plan to buy the plugin for the watermark and shopping cart.
+
+Thanks!</description>
+      <pubDate>Tue, 27 Jun 2017 17:20:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17093261</link>
+    </item>
+    <item>
+      <title>New albums not showing up in Library after creaton ???</title>
+      <description>Hello folks
+
+This thing makes me nuts...
+When I create a new album, to my surprise, it is not showing up under library, making it impossible to add images. I asked the folks at Koken, but no reaction so far ???
+Can you help me solve this please
+thx 
+Johny
+</description>
+      <pubDate>Fri, 23 Jun 2017 15:47:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17091897</link>
+    </item>
+    <item>
+      <title>How to manage an album with public and private photos</title>
+      <description>Hi,
+
+I have an album that contains both public and private photos. I can't find how to manage it easily and properly.
+
+In my mind, the album could have the visibility status on "Public" and some photos in it could have the visibility status on "Private". So that way I could put a password on those pictures in order to share them with friends/family.
+
+Thanks in advance for your help.
+---
+Sylvain
+</description>
+      <pubDate>Tue, 06 Jun 2017 15:48:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17073611</link>
+    </item>
+    <item>
+      <title>Remove photo</title>
+      <description>What should seem incredibly intuitive is very not on Koken.
+How do you remove a photo from a particular album?  Not from the site altogether, just from one album.</description>
+      <pubDate>Thu, 18 May 2017 16:15:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17039112</link>
+    </item>
+    <item>
+      <title>Albums and sets do not appear. Impossible to drag and drop albums to sets</title>
+      <description>The left column in the library ist totally confused. Albums and sets I create do not appear there. Its not possible to drag and drop albums to sets or images to albums. When I click on "public" under "collections" it shows earlier created albums in the middle bar but not in the left column of the library.</description>
+      <pubDate>Thu, 11 May 2017 19:32:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17032432</link>
+    </item>
+    <item>
+      <title>Select Featured Content in Lightroom</title>
+      <description>One of the things that sets Koken apart from many other CMS is the ability to manage updating and editing content directly from Lightroom. 
+
+If setup correctly a photographer can go an extremely long time without ever logging into the admin control panel and still upload new photo content daily via the Lightroom plugin.
+
+Most themes are built with the idea that Featured Content will play a prominent role in the design. 
+
+How can we mark photos as "Featured Content" from within Lightroom so that they land in the Featured Content collection of Koken?
+
+Can we specify a certain tag that when present will automatically place the photo into the Featured Content collection?</description>
+      <pubDate>Fri, 05 May 2017 19:32:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/17029883</link>
+    </item>
+    <item>
+      <title>Move image from one album to another</title>
+      <description>When I drag an image from one album to another, it appears in the new album, but is still in the old one as well.  If I delete it in the old album, it is no longer in the new one.  I just want it in the new one, but not the old one.  How do I do this?</description>
+      <pubDate>Tue, 11 Apr 2017 00:39:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16990610</link>
+    </item>
+    <item>
+      <title>Changing Album  ID Number</title>
+      <description>Where and how can I change the ID number for the albums  (1 should 8)
+Arthur</description>
+      <pubDate>Fri, 07 Apr 2017 13:46:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16989448</link>
+    </item>
+    <item>
+      <title>Import API</title>
+      <description>Hello,
+
+is there an API to automatically import images from the local filesystem where Koken handles the import process?
+
+Greetings,
+Nils</description>
+      <pubDate>Wed, 05 Apr 2017 14:08:30 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16986706</link>
+    </item>
+    <item>
+      <title>thumbnails for video</title>
+      <description>I understand I have to enable FFmpegs on my server in order to have a thumbnail showing on my site. My package doesn't allow that according to my domain server company and I am wondering if there is any way to get around this. It seems so bad to have paid for a website and a template and still have this glitch. Please provide me with any ideas or tips that you might have as this is a super annoying glitch that I would like to get around without changing my server package and the rest.
+Many thanks,
+Anna</description>
+      <pubDate>Fri, 24 Mar 2017 13:56:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16965002</link>
+    </item>
+    <item>
+      <title>Filter/search for photo metadata</title>
+      <description>Is it possible to search for pictures containing a certain keyword in the metadata (exif)?
+Thanks, Marcel</description>
+      <pubDate>Thu, 09 Mar 2017 14:02:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16934801</link>
+    </item>
+    <item>
+      <title>API access</title>
+      <description>Hi, 
+
+I know prior to NetOjbects the guys behind Koken were preparing an API for developers but had yet to release it officially. Are we any closer now? I simply want to extract a list of Koken albums via an API call.
+
+Thanks
+Matt</description>
+      <pubDate>Fri, 24 Feb 2017 20:35:25 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16829345</link>
+    </item>
+    <item>
+      <title>Full Album Download Axis 2</title>
+      <description>Alright i have scoured the threads and found where to turn this on and off but can't find the actual download link. From what I read it appears to have this functionality but for the life of me I can't find it. 
+
+pathayes.net/koken
+
+Thanks
+
+</description>
+      <pubDate>Mon, 20 Feb 2017 20:18:14 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16824892</link>
+    </item>
+    <item>
+      <title>Return to Manual Sort in Library/Content</title>
+      <description>I am trying to return my sort order to Manual in the Content pane of the Library.  But it does not seem to be an option.
+
+Current options are:  Aspect Ratio, Date Categories (4 of them), Dimension and Filename (plus ascending and descending at bottom)
+
+How can I get back to a Manual Sort?  It does allow Manual in Featured and Favorites, and in all Collections, plus it allows sorting by Title.
+
+I am using Madison 2.</description>
+      <pubDate>Fri, 17 Feb 2017 20:22:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16822647</link>
+    </item>
+    <item>
+      <title>Problem with deleting pictures</title>
+      <description>Unable to delete uploaded pictures.
+Application responds saying image deleted but trash empty and image stays in content.
+Everything else works fine.
+Did 3 completely Fresh Server installs. Same problem.
+Installs run fine.
+Same server config runs fine on other Ubuntu LAMP 16.04 With PHP 7.0
+
+Website that works fine www.kristelbruynseels.be/koken
+Website that doesn't work is www.rafvalcke.be
+Please help</description>
+      <pubDate>Fri, 17 Feb 2017 17:42:17 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16820159</link>
+    </item>
+    <item>
+      <title>Repertoire home gallery order</title>
+      <description>how to change the order of the homepage gallery slide show in theme Repertoire?</description>
+      <pubDate>Mon, 13 Feb 2017 14:30:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16817879</link>
+    </item>
+    <item>
+      <title>Tags</title>
+      <description>Can I copy/paste those Tags? I want to copy them from 1 image and then paste the same tags to 10-20 other images. How can I do that?
+
+Attached Photo Download link:
+https://we.tl/9kfxHdZGW0</description>
+      <pubDate>Wed, 08 Feb 2017 16:02:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16812050</link>
+    </item>
+    <item>
+      <title>Covers of sets</title>
+      <description>Hello, tell me, pleace, how can I change a cover of a set with albums?  Thank you.</description>
+      <pubDate>Wed, 08 Feb 2017 15:02:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16811807</link>
+    </item>
+    <item>
+      <title>Make library images available in essays/pages but not (!) appearing in sites "content"-section?</title>
+      <description>Is it possible to make an uploaded library image (or video) available for using them only in essays or pages (and NOT (!) to be appearing in the "content" section)?
+
+Background: I have some images, that I want to use only in texts, pages or essays like a photo of the author or a photo of an event (and which has no artistic value). To make these images useable in the essay-/page-editor, they have to be public in the library. But if they are public, they will also appear in the "content" section of the site. I don't want that! What can I do? If I switch these images to "unlisted" they disappear from content but also from the essays, pages.
+
+Maybe there should be a new "visibility"-type i.e.: "no-content" or "semi-public"
+
+Thanks. Johannes</description>
+      <pubDate>Thu, 26 Jan 2017 13:09:45 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16798957</link>
+    </item>
+    <item>
+      <title>Inserting youtube video</title>
+      <description>Hi,
+
+I cannot insert any video from youtube in my albums.
+I found in options Vimeo and Instagram as alternative.
+How can i insert video links from youtube in my Albums?
+
+Thanks a lot.</description>
+      <pubDate>Thu, 26 Jan 2017 13:18:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16797560</link>
+    </item>
+    <item>
+      <title>FTP Photo uploading</title>
+      <description>Is it possible to FTP upload to libraries created... as I have 1000's to upload... and the import method is slow and stalls..... I'm currently loading 530 images by import and the loading bar says 19hrs 35min .... it started at 28hrs.. and its 60 images in .... </description>
+      <pubDate>Tue, 17 Jan 2017 15:58:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16793371</link>
+    </item>
+    <item>
+      <title>Specific images won't upload</title>
+      <description>Hello,
+I've ran into a scenario where specific images error out. I have 50 images successfully uploaded and I can upload the same images no problem. However, the other images give me the http error. All of the images are from the same source, etc. I'm a bit baffled.
+
+Jpegs from the same camera, usb, etc. No errors within the files that I can find either. I also attempted to re-save the file within photoshop and still no dice.
+
+Any help?
+
+Chris</description>
+      <pubDate>Mon, 16 Jan 2017 14:12:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16791315</link>
+    </item>
+    <item>
+      <title>Clouds</title>
+      <description>Hello,
+
+is it planned that we can import Photos from the Cloud ? (Onedrive etc.)
+
+Regards
+Markus</description>
+      <pubDate>Mon, 09 Jan 2017 19:56:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16782699</link>
+    </item>
+    <item>
+      <title>limiting image display size.</title>
+      <description>I wish to limit the display size of my images to 1600px  (regardless of the screen res. looking at the photo).. 
+
+1) I simply don't want my images "out there" larger than that.
+2) I'm running out of server space, so by not publishing "huge" images (2048) I'm hoping to free up space
+I already have retina turned off.
+
+However I can find nowhere in Koken to control or limit image display sizes.</description>
+      <pubDate>Sat, 07 Jan 2017 17:19:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16782363</link>
+    </item>
+    <item>
+      <title>Slow library loading thumbnails (every refresh)</title>
+      <description>When I'm in library and browsing my albums, all image thumbnails are loaded over and over after every click on next album. Even when I'm on album A, load all thumbnails, go to album B and then go back again to album A, I have to again wait for new thumbnail generation. Is it normal? Thanks.</description>
+      <pubDate>Thu, 29 Dec 2016 15:56:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16774691</link>
+    </item>
+    <item>
+      <title>Cover of category</title>
+      <description>Hello All,
+
+I have this problem :
+i don't know if it's possible to change the photo cover of each category. 
+For the moment, when i upload à new photo, this photo is the cover for all the different category i made. 
+But i would change the cover of each category.
+
+Someone can tell me if it's possible and haw i can do ?
+
+I have the oxygen template
+
+Thx </description>
+      <pubDate>Wed, 28 Dec 2016 14:37:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16774325</link>
+    </item>
+    <item>
+      <title>Inserting a blank line between albums</title>
+      <description>Hello, is it possible to insert a blank line between album titles (I'm using Madison 2 theme, with the list of albums and sets on the left) ? I can use the 3 provided groups (Primary, second and third), but I'd like more groups (or at least a way to isolate some albums from others).
+Thx for your help,
+Laurent</description>
+      <pubDate>Fri, 30 Dec 2016 21:07:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16766130</link>
+    </item>
+    <item>
+      <title>Uploading forever</title>
+      <description>Hello guys,
+
+I just installed everything and Koken is running on my website. I installed the plugin for Lightroom and tried to publish some photos but it is taking forever. I am now waiting for more than 15 minutes for just 5 pictures and they haven´t even appeared yet.
+Is that normal or is there something I can do about it? Because it seems like it´s loading forever.
+
+thank you
+
+Kind regards</description>
+      <pubDate>Wed, 14 Dec 2016 13:28:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16765662</link>
+    </item>
+    <item>
+      <title>Import local files</title>
+      <description>I've store my images in an different path on the server in the local filesystem - not in the web-root of the web server. How can i import these images into the library?</description>
+      <pubDate>Fri, 30 Dec 2016 21:08:32 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16764175</link>
+    </item>
+    <item>
+      <title>Tags on albums?  What for? Automatically apply to images?</title>
+      <description>I see that Albums can have tags. What is an example use for this?
+
+And secondly, is there a way that I would be able to apply tags to images when imported into an album that has tags? For example, I have an album "Landscapes" with a tag "landscape" - when I add images into that album, the "landscape" tag is automatically applied to the image? It would make tagging easier for me in some instances. This should probably be an option-checkbox on an album so its not always active.</description>
+      <pubDate>Fri, 09 Dec 2016 14:10:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16762372</link>
+    </item>
+    <item>
+      <title>Share (embed)</title>
+      <description>Dear Sir,
+
+Is there a way I can alter the generated HTML code for share/embed to include an "alt" attribute, and feed the image caption from Koken?
+
+Also, I am using a CDN, so I wish to alter the URL to reference the CDN zone in the generated HTML, for instance (www.spiderfinancial.com/* --&gt; cdn.spiderfinancial.com/*). Is this possible?
+
+If this a file I can edit on the server or a table, this should be no problem
+
+I am trying to use koken to serve as my images repository server to my external website (company, support, social media, etc.)</description>
+      <pubDate>Wed, 07 Dec 2016 16:00:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16761143</link>
+    </item>
+    <item>
+      <title>Setting approximate "captured" dates on photos</title>
+      <description>Hi - I'm migrating all my photos from Flickr to Koken, and just got into my albums of really old family photos where I don't know the exact date/time the photo was taken. Flickr has an option to say a photo was taken "sometime in" a year, or "circa" 1941, etc. Is that an option in Koken somewhere? If I modify the captured date for a photo and only enter, say, 1977, it assigns the date as 1/1/1977 12:00am, which isn't ideal.
+
+Any help would be great. Thanks!</description>
+      <pubDate>Sat, 03 Dec 2016 14:59:33 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16757731</link>
+    </item>
+    <item>
+      <title>Following up on quality of generated medium size images</title>
+      <description>Beginning of this October I had requested about an improvement to reduce the file size of the generated medium 1600px images. You have elegantly solved that in release 0.22.9 by assigning the same quality setting as the original image to the generated one. Many thanks for that, but...
+
+Somehow this is not working for me. At my provider's server ImageMagick is available (Koken is set up for that) and when manually performing "identify -format '%Q' " I do get an according quality value returned (90 in my case). However, when uploading images, the 1600px versions still get a large file size: quality still gets assigned the default of 100.
+
+Doing a little bit of debugging on your code, it seems that the getQuality method always returns 0 for me. Searching further, I find the code of this method somewhat suspicious:
+
+app/koken/Darkroom/DarkroomImageMagick.php:
+
+    public function getQuality()
+    {
+        ...
+        if ($this-&gt;isGmagick) {
+            $cmd = "identify -format '%Q' ";
+        }
+        else {
+            $cmd = "gm identify -format '%[JPEG-Quality]' ";
+        }
+      ...
+    }
+
+Shouldn't the code in the "if" and "else" branches be exchanged? When I make that change, all is working as it should on my side.
+
+Thanks in advance for taking a look into this.
+
+Best regards,
+Peter</description>
+      <pubDate>Sat, 05 Nov 2016 13:47:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16722294</link>
+    </item>
+    <item>
+      <title>can Koken Library contain images stored/hosted elsewhere?</title>
+      <description>I have my photos already stored as plain JPG image files elsewhere on my Hosting Provider's web-visible file storage space.
+
+Can KOKEN utilize those image files WITHOUT COPYING THE IMAGE FILES to its own 'database' or its own portion of the file system?
+
+-at an application level, Can I create KOKEN library "entries" that are mere *references* to original images stored elsewhere (but accessible to the KOKEN code)?
+
+-at a technical level, Can the HTML KOKEN generates contain IMG tags pointing to my SOLE originals rather than copies managed by KOKEN?
+
+(I understand that for thumbnails and mid-sized "preview" images, and for all text and configuration data, KOKEN will of course have to create its own files for those and store them somewhere.)
+
+I don't want to incur TWICE the storage cost at my Hosting Provider of all my huge images.  I WILL NOT MOVE them permanently ONLY into KOKEN, that's too risky, in case my needs change or it turns out to not work well.</description>
+      <pubDate>Sat, 22 Oct 2016 19:18:03 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16717325</link>
+    </item>
+    <item>
+      <title>Saving content from Library to external hard drive</title>
+      <description>Is it possible to export content from Library onto an external hard drive? And if so, can you explain how to do it?
+
+Thank you,
+Heidi</description>
+      <pubDate>Mon, 31 Oct 2016 13:20:40 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16709770</link>
+    </item>
+    <item>
+      <title>Keep Folder-Structure from Lightroom</title>
+      <description>Hi everybody,
+
+I'm new with koken and I have a question: I have all my pictures organized in Lightroom and now created a publicing service to koken. Now i'm wondering if it is possible to keep my special structure with sub and sub-sub-.. folders of my fotos in koken? I even can ftp-upload my structure to the koken homesite if neccessary. But how do i display them in koken? I could manually divide them in albums, but this would be too much work (15.000 fotos). Do I need a special Plugin or theme?
+
+Thanks for any help!
+
+T</description>
+      <pubDate>Fri, 07 Oct 2016 12:27:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16705467</link>
+    </item>
+    <item>
+      <title>Requesting customizable size and quality of generated medium size images</title>
+      <description>A while back I have read about image quality here and that Koken likes to give the best possible (or similar to that). I have following problem: I'm uploading photos with a max. size of 2048px and with a for me acceptable JPEG compression of 90%. What I have noticed (after seeing that I was running out of space at my web provider) is that upon uploading Koken creates a medium sized version of the photos with a size of 1600px and 100% JPEG compression. These files have a size larger than the original ones!
+
+These mechanisms are hard coded within the file app/application/models/content.php within the Koken installation:
+
+ function _before()
+  {
+    ...
+          $d-&gt;read($path, $this-&gt;width, $this-&gt;height)
+            -&gt;resize(1600)
+            -&gt;quality(100)
+            -&gt;render($midsize);
+    ...
+  }
+
+So far I'm ok with the resizing, but I'm always modifying the quality parameter to 90.
+
+Would it be possible to make these parameters customizable, e.g. at the "Settings/Image publishing" page? That would allow for some more flexibility for different users.
+
+Thanks and best regards,
+Peter</description>
+      <pubDate>Sun, 16 Oct 2016 21:37:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16701278</link>
+    </item>
+    <item>
+      <title>Requesting to support both IPTC:ObjectName (Title) and IPTC:Headline</title>
+      <description>A longer while ago there has been a discussion here about the IPTC property that Koken is using to fill out the title of images. Today this is done through the IPTC:ObjectName (= Title) property. Unfortunately there is different software around that is not using this, but the IPTC:Headline property instead. I don't want to start again a discussion here about what is correct or not. I'm using such software and because of that I'm always adapting the app/application/models/content.php file of the Koken installation to support both properties (with priority):
+
+        if (isset($iptc['2#005'])) 
+        {
+          if (is_array($iptc['2#005']))
+          {
+            $iptc['2#005'] = $iptc['2#005'][0];
+          }
+          $this-&gt;title = $this-&gt;_force_utf($iptc['2#005']);
+        } else if (isset($iptc['2#105'])) 
+        {
+          if (is_array($iptc['2#105']))
+          {
+            $iptc['2#105'] = $iptc['2#105'][0];
+          }
+          $this-&gt;title = $this-&gt;_force_utf($iptc['2#105']);
+        }
+
+(I hope the above code remains readable. Adding the part with "2#105".)
+
+I'm asking again if it would be possible to get the above change into the official release of Koken.
+
+Thanks and best regards,
+Peter</description>
+      <pubDate>Sun, 16 Oct 2016 21:14:06 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16701243</link>
+    </item>
+    <item>
+      <title>Embeded mp3</title>
+      <description>Hi there, I just tried to embed a mp3 file to a picture. I created a link via Soundcloud but can't find where to put it in. Can you help?</description>
+      <pubDate>Fri, 30 Sep 2016 13:26:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16699386</link>
+    </item>
+    <item>
+      <title>Export photos of the library on the computer</title>
+      <description>Hello,
+I would like to know if it is possible to export all the photos I took in library on my computer. And if it is, how I can do that ?
+Thank you !</description>
+      <pubDate>Tue, 27 Sep 2016 18:56:55 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16696215</link>
+    </item>
+    <item>
+      <title>Can I FTP a bunch of images and import those?</title>
+      <description>I'd like to FTP a huge archive of photos, grouped into folders (albums) and then have koken import those.  It'll take a very long time if I have to upload these folder by folder...
+
+Is that possible?</description>
+      <pubDate>Fri, 23 Sep 2016 00:09:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16692552</link>
+    </item>
+    <item>
+      <title>multiple image selection</title>
+      <description>I imported a large number of images prior to creating an album or set. when trying to do multiple image select to drag to an album only one image appears to move? is it possible to select and move multiple images at a time? I would really rather not reimport them all into an album. 
+
+Thanks 
+
+Ian</description>
+      <pubDate>Tue, 20 Sep 2016 14:32:12 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16689237</link>
+    </item>
+    <item>
+      <title>Favorite not showing in library</title>
+      <description>Hello,
+I have 19 favorites in my library, but when i add a new favorite, it does not appear in under the favorite tab in the library.
+
+Thanks,
+David </description>
+      <pubDate>Fri, 09 Sep 2016 12:24:10 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16679392</link>
+    </item>
+    <item>
+      <title>How to refresh thumbnails for videos</title>
+      <description>I had no thumbnails, but I figured out that I need to install ffmpeg, so I did. 
+
+To refresh the thumbnail, I tried to load the video from both the library and the viewer. I tried to click on "Build image cache" which took a very long time. After that I still did not have my thumbnails on my videos (It is a video from an iPhone).  Eventually I tried to "replace the original" and re-upload my video and it worked. 
+
+Is there another way to refresh the thumbnail of all the videos without re-uploading all of them or rebuilding the whole cache?</description>
+      <pubDate>Fri, 12 Aug 2016 20:31:15 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16645738</link>
+    </item>
+    <item>
+      <title>Number of pictures</title>
+      <description>Is there a limit of the number of pictures that can be uploaded?
+</description>
+      <pubDate>Fri, 12 Aug 2016 15:07:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16645372</link>
+    </item>
+    <item>
+      <title>image title under image</title>
+      <description>Hi, I can`t find where I can deactivate the image title under the image as you have wrote in a other help question.
+br Rainer</description>
+      <pubDate>Tue, 09 Aug 2016 10:37:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16604589</link>
+    </item>
+    <item>
+      <title>Where is Koken library located on Drobo 5N?</title>
+      <description>Hello,
+I have just set up a Drobo 5N and installed the Koken plug-in. I added one photo that I can see in the Koken dashboard, but I am wondering where Koken stores photos on my Drobo? I have looked though the few Share drives I have set up and I don't see any sign of the image file or anything relating to Koken.
+Thanks,
+-Neil</description>
+      <pubDate>Sun, 17 Jul 2016 20:36:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16360708</link>
+    </item>
+    <item>
+      <title>Reorganising public collections</title>
+      <description>When I add a new collection my homepage adds the new gallery to the bottom of the page and not the top where I would like it to be so I have the newest at the top of the page.
+
+I dont appear to be able to drag and drop them around so how do I do this?</description>
+      <pubDate>Tue, 19 Jul 2016 18:22:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16360048</link>
+    </item>
+    <item>
+      <title>album download Regale 2</title>
+      <description>Hello,
+I can't find the album download function?
+www.loft506.de
+
+Thanks,
+Erik</description>
+      <pubDate>Sun, 17 Jul 2016 17:49:39 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16346633</link>
+    </item>
+    <item>
+      <title>Custom Image Properties</title>
+      <description>I see that custom properties have been asked for in the past couple of years. Any recent plans to add this?</description>
+      <pubDate>Sat, 02 Jul 2016 20:09:44 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16343289</link>
+    </item>
+    <item>
+      <title>Deleting photos</title>
+      <description>Hi,
+I need to delete a large number of pictures from my library.
+Is there a way to just select images that are not included in Albums?
+
+Thanks
+
+Jonathon
+</description>
+      <pubDate>Mon, 27 Jun 2016 12:41:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16337747</link>
+    </item>
+    <item>
+      <title>Embedding cropped images?</title>
+      <description>Hello Koken users,
+
+I use Koken in conjunction with a Ghost blog, and use the "embed" feature to get URLs to my images.
+
+However, is it possible to have Koken give me a link to an image that is both cropped and scaled? How do I specify that?
+
+Many thanks,
+
+Doug</description>
+      <pubDate>Fri, 24 Jun 2016 15:52:56 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16336004</link>
+    </item>
+    <item>
+      <title>Album disappear while reordering</title>
+      <description>Hello everyone,
+How can I restore correct albums order?
+I tried to reorder some albums in the library and there was something wrong with koken and now my album is not in the albums list, so it's disappear. May be there was a bug in koken...
+However, I still can see my album in the "koken_albums" table with strange "left_id" and "right_id" values: these fields have negative (with non exists id) values...
+So, I guess,  "left_id" and "right_id" fields are responsible for the correct publish order. Am I right? If yes, what should be the value of "left_id" and "right_id" fields.</description>
+      <pubDate>Tue, 28 Jun 2016 20:03:05 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16334851</link>
+    </item>
+    <item>
+      <title>Assigning content</title>
+      <description>Hello,
+I have a simple question that probably hasn't been answered anywhere. How can I assign content (images) from a library to particular group of buttons, for example Gallery 1, Gallery 2 etc. located on the home page.
+Thank you</description>
+      <pubDate>Wed, 22 Jun 2016 14:18:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16331969</link>
+    </item>
+    <item>
+      <title>youtube embed code in album description</title>
+      <description>Daniel in May 31, 2013 wrote in this forum about youtube embeds in albums: 
+"you can sort of embed vimeo etc by pasting the embed code somewhere in the description of the album. i always paste it at the end of the description inside a div and it looks like any added image/video."
+
+can someone explain how. 
+
+while Link in the album description works fine - I see the Link
+
+a youtube embed code such as
+
+
+
+seems to be ignored,  
+same for   
+
+again any suggestions appreciated.
+
+-steve</description>
+      <pubDate>Sun, 19 Jun 2016 14:38:29 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16329746</link>
+    </item>
+    <item>
+      <title>Import a zip with images</title>
+      <description>Hello, is it possible to import one zip file including many images? Thanks.</description>
+      <pubDate>Fri, 10 Jun 2016 15:26:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16322423</link>
+    </item>
+    <item>
+      <title>delete originals</title>
+      <description>Hi,
+
+is it possible to delete original uploaded big files ? I have two files :
+
+Gewitter-13062015-3.jpg --&gt; 5,4 MB
+Gewitter-13062015-3.1600.jpg --&gt; 1,85 MB
+
+Can I delete the bigger file ?
+
+Tobias</description>
+      <pubDate>Sat, 04 Jun 2016 18:38:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16316331</link>
+    </item>
+    <item>
+      <title>picture loaded into folder in "collections" but not visible. But shows on site ! ! !</title>
+      <description>I have loaded two JPGs into collections in a folder that is in use since long. Those last two ones do not show but on the site. Therefore I connot move them inside the folder or name them. - I have emptied all caches twice and also restarted the computer. Please help ! Cheers IVO</description>
+      <pubDate>Fri, 27 May 2016 15:47:02 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16309407</link>
+    </item>
+    <item>
+      <title>Feature request -  Create new album with selected images</title>
+      <description>Hi 
+I have a feature request that may help a few people.
+
+After importing many images that need organising into seperate albums it woud be great to have an option to select a group of Images and create a new Album with those images.
+
+this would save a lot of time for me :)
+
+many thanks
+Alex</description>
+      <pubDate>Thu, 26 May 2016 20:39:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16308088</link>
+    </item>
+    <item>
+      <title>Download limit</title>
+      <description>I need clients to be able to download about a maximum of 1500 original size pictures in an album at once.  Is it possible to raise the download limit?  I know owncloud will just combine the files into a zip without any compression almost instantly but I was hoping I could do it with this.</description>
+      <pubDate>Sun, 22 May 2016 19:15:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16303830</link>
+    </item>
+    <item>
+      <title>Arangement of albums on the site</title>
+      <description>Is there a way to arange the albums on the site. For example in a specific order. </description>
+      <pubDate>Fri, 13 May 2016 12:24:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16289245</link>
+    </item>
+    <item>
+      <title>Splitting Albums into two pages</title>
+      <description>I'd like to split my albums into two pages on my site, i.e. I want one page containing albums with photos that I arrange based on place and year taken and another page containing albums arranged as some particular photo projects. How is it possible to do that? I can see that I can create the second albums page but how would I assign some albums to one page and others to the second one?
+
+Thanks, Dmitry</description>
+      <pubDate>Thu, 12 May 2016 14:42:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16288779</link>
+    </item>
+    <item>
+      <title>Creating new collections</title>
+      <description>Hi!
+
+From some time now i'm not been able to create new collections of any kind
+
+When I create a new collection it displays the mensage Creating... for a longer than usual time, after that i receive the mensage album created but nothing shows on Library. 
+I can rename teh albuns i already have and move content in and out. I just can´t create new collections.
+
+What can i do?</description>
+      <pubDate>Tue, 10 May 2016 08:58:47 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16283531</link>
+    </item>
+    <item>
+      <title>EXIF lost after rotation in Library</title>
+      <description>As already mentioned by Claire in http://help.koken.me/customer/portal/questions/9530631-losing-exif-data-after-rotating-image (but not answered), when I rotate an image inside an album in the Library, the EXIF information is lost.
+
+Will this issue be fixed soon?
+If not, I have to do rotation in the OS, rather than in Koken.
+
+Examples:
+Horizontal with EXIF: http://fotografeer.nl/index.php?/albums/idris-beacon/content/dsc-8680/
+Rotated image lost EXIF: http://fotografeer.nl/index.php?/albums/idris-beacon/content/dsc-8676/
+</description>
+      <pubDate>Wed, 11 May 2016 12:51:27 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16280692</link>
+    </item>
+    <item>
+      <title>Some albums do not load in the Library admin web</title>
+      <description>When I select some albums in my library administration web they load forever without showing its content. 
+Other albums load the thumbails properly.
+
+Greetings,
+
+Carlos Vega</description>
+      <pubDate>Wed, 18 May 2016 13:45:43 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16269350</link>
+    </item>
+    <item>
+      <title>Private access</title>
+      <description>Hello,
+
+i would like to create on my website a links directly to private albums.
+
+How can i do that ?
+
+Thanks,
+
+Adrien</description>
+      <pubDate>Mon, 11 Apr 2016 19:37:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16249167</link>
+    </item>
+    <item>
+      <title>jumping albums</title>
+      <description>dear support team,
+
+I am having a strange phemomenon here when organizing my albums: (www.innsblick.at)
+
+Ich have different Sets on my website:
+People / Events / Communications / Image / Creative / World Travel / Contact
+
+When I publish a summary out if Lightroom to a set (e.g. Events) another album located in the events set jumps to another set (e.g. people). Whe I see this, I move the album back to its original set but then another album jumps out instead... So everytime when I publish a new album to a set - another album jumps automatically out of that set to another "neighboured set".
+
+Do you know how I can fix this?
+Thank you very much for help.
+
+Bset,
+Vanessa
+</description>
+      <pubDate>Thu, 07 Apr 2016 20:56:00 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16246539</link>
+    </item>
+    <item>
+      <title>Library Sets Out of Sync</title>
+      <description>Hi,
+
+In my Library view, I have some "top level" private sets with libraries as their content. The left column view does not match the actual layout of the sets, but when I select a set, the library thumbnails are what I would expect.
+
+I've cleared the system cache, but that did not make a difference. I also tried this across browsers, in case there was a cache issue on my end, but that also did not make a difference.
+
+Finally, I did not that the same library appeared in two sets, which was not what I would expect.
+
+Thanks in advance,
+
+Larry</description>
+      <pubDate>Wed, 06 Apr 2016 16:38:11 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16244790</link>
+    </item>
+    <item>
+      <title>Sorting Images</title>
+      <description>I would like to know if it is possible to filter images in my libraries by images that have not yet been sorted into an album or set and if so how. 
+
+Additionally would it be possible for me to search an album or set for duplicate or identical images this is a big issue for me as I move a lot of images between devices often and sometimes end up with copies.</description>
+      <pubDate>Tue, 05 Apr 2016 08:06:08 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16243040</link>
+    </item>
+    <item>
+      <title>How can I use drag-and-drop for sorting my pictures?</title>
+      <description>Hello. I have a site on Koken and I want to change my photoes not with sort filters. I want to move my photoes to the left or to the right hand, up and down. How can I do it? Thanks</description>
+      <pubDate>Tue, 05 Apr 2016 14:33:59 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16242861</link>
+    </item>
+    <item>
+      <title>Images don't don't appear on public site from within the albums section</title>
+      <description>Hi Team,
+
+I've recently moved from a squarespace hosted site to your product as I liked the web interface and public website integration. 
+
+I was impressed with the installation/setup however have come across an issue that I'm unable to resolve. 
+
+I first installed the platform on my Synology NAS and everything worked perfectly. I then moved to Dreamhost as per your installation advice and I already have my domain with them. 
+
+My installation www.tgcowell.com is working ok, however when you click on the album there is nothing showing up. Even though in the Library there are images within the album and the album itself appears with the images on the website prior to clicking on the album itself.
+
+Details of my setup
+
+Information about the server hosting this installation.
+
+PHP
+Version 5.6.19
+
+MySQL
+Version 5.6.25-log
+
+Server operating system
+Linux
+
+Webserver software
+Apache
+
+Image processing
+Imagick 6.6.9-7
+
+FFmpeg
+Installed (Version 0.8.16)
+
+Memory limit
+90MB
+
+Upload file size limit
+64MB
+
+EXIF/IPTC parsing
+Supported
+
+Any advice or assistance would be great, I've tried several browsers deleted my cache in browser/Koken etc. I've created multiple albums/sets with the same result. 
+
+I can only assume it's a setup issue...</description>
+      <pubDate>Sat, 09 Apr 2016 15:35:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16240507</link>
+    </item>
+    <item>
+      <title>Albums download option</title>
+      <description>Hello, Im trying to find where is the option to cancel albums downloads. My theme is Axis 2.
+Thanks</description>
+      <pubDate>Tue, 29 Mar 2016 13:06:20 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16232502</link>
+    </item>
+    <item>
+      <title>pictures not displaying in album</title>
+      <description>http://www.enjoybvba.be/foto/
+
+- installation OK
+- creation of album OK
+- uploading pictures OK
+- assigning pictures to album OK
+
+error : 
+-- when I click on the album , the album opens but there are no pictures displaying 
+-- when I click on the album in the admin section , the load icon keeps turning ... </description>
+      <pubDate>Tue, 29 Mar 2016 17:37:34 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16231098</link>
+    </item>
+    <item>
+      <title>Images not loading</title>
+      <description>Images loading and loading and never stop... Either from lightroom publish or import content button...
+</description>
+      <pubDate>Wed, 23 Mar 2016 19:05:13 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16229392</link>
+    </item>
+    <item>
+      <title>The site does not display pictures</title>
+      <description>Please help me! The site does not display photos. Images are loaded, and a control panel are not visible thumbnails. Images are "published" status.</description>
+      <pubDate>Mon, 21 Mar 2016 21:16:46 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16226260</link>
+    </item>
+    <item>
+      <title>Images do not import</title>
+      <description>Images do not import into the library.  Please help</description>
+      <pubDate>Fri, 18 Mar 2016 13:01:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16222671</link>
+    </item>
+    <item>
+      <title>want to speed up my slide show on my main page?</title>
+      <description>Anyone know how to speed up my slide show on my main page?
+www.seanfboggs.com</description>
+      <pubDate>Thu, 17 Mar 2016 17:43:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16221819</link>
+    </item>
+    <item>
+      <title>Publishing sets and albums fail</title>
+      <description>Hi,
+when I try to publish images to my side by the Lightroom-plugin I god the error
+
+Upload to Koken failed. The server did not return an error message. Contact Koken support for more help.
+
+Any ideas?
+
+Thanks Michael</description>
+      <pubDate>Wed, 16 Mar 2016 19:44:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16220708</link>
+    </item>
+    <item>
+      <title>Cannot set primary album cover</title>
+      <description>Hello,
+
+How can I set the primary album cover? Koken chooses three images but I'd like to set a primary cover.
+The edit menu does not show the set option as described here: http://help.koken.me/customer/portal/articles/947768-assign-and-remove-album-covers</description>
+      <pubDate>Thu, 10 Mar 2016 18:08:37 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16213148</link>
+    </item>
+    <item>
+      <title>Share</title>
+      <description>Hello,
+
+what should I do to show (link) some of my Pictures in my Albums
+in othwer Websites?
+
+Greetings Rolf</description>
+      <pubDate>Fri, 11 Mar 2016 16:00:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16201663</link>
+    </item>
+    <item>
+      <title>lightroom</title>
+      <description>Is there a way to sync token with it's publish service? If I move images around in koken they loose sync with lightroom.
+
+
+Thanks.</description>
+      <pubDate>Tue, 23 Feb 2016 17:16:52 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16182872</link>
+    </item>
+    <item>
+      <title>Custom (Manual) Thumbnail Assign for Videos</title>
+      <description>Will someone at Team NetObjects comment on the status of manually assigning thumbnails to videos uploaded for hosts WITHOUT FFMPEG? I joined InMotion Hosting for the next two years because it was listed as a recommended hosting provider w/o FFMPEG. I enjoy their services. So far so good.
+
+HOWEVER....
+
+The ability for manual assigning video thumbnails is making my Koken look "visual disfigurement." Take this link from my website as an example: http://ronaldnztan.com/albums/collodion-reimagined-featuring-ryan-w/.
+
+On the right side, I was able to finally upload the video and because I can't manually assign a video thumbnail, my progression retouching video has the generic "NO THUMBNAIL" message over it.
+
+Thank you kindly,
+
+Ronald N. Tan | Photographer
+http://ronaldnztan.com
+http://blog.ronaldnztan.com
+https://instagram.com/ronaldnztan</description>
+      <pubDate>Mon, 22 Feb 2016 20:49:31 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16181504</link>
+    </item>
+    <item>
+      <title>Custom (Manual) Thumbnail Assign for Videos</title>
+      <description>Will someone at Team NetObjects comment on the status of manually assigning thumbnails to videos uploaded for hosts WITHOUT FFMPEG? I joined InMotion Hosting for the next two years because it was listed as a recommended hosting provider w/o FFMPEG. I enjoy their services. So far so good.
+
+HOWEVER....
+
+The ability for manual assigning video thumbnails is making my Koken look "visual disfigurement." Take this link from my website as an example: http://ronaldnztan.com/albums/collodion-reimagined-featuring-ryan-w/.
+
+On the right side, I was able to finally upload the video and because I can't manually assign a video thumbnail, my progression retouching video has the generic "NO THUMBNAIL" message over it.
+
+Thank you kindly,
+
+Ronald N. Tan | Photographer
+http://ronaldnztan.com
+http://blog.ronaldnztan.com
+https://instagram.com/ronaldnztan</description>
+      <pubDate>Mon, 22 Feb 2016 20:23:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16181502</link>
+    </item>
+    <item>
+      <title>main page</title>
+      <description>Hello! Install cms to the subdomain, use Chastain theme. I upload a photo in the content. I create multiple sets, each with 1-2 albumes. The task: show only 1 album on the main page (or category) and the other to show how links in the menu. This option is shown in the preview Chastain theme.  Please help me!
+
+http://mywindfoto.ru/photo/
+
+Thank you!</description>
+      <pubDate>Sat, 20 Feb 2016 15:21:54 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16178394</link>
+    </item>
+    <item>
+      <title>Best method for backing up site content</title>
+      <description>What is the best way to backup library content (images with captions)? Is there a way to access the content on FTP for backing up? Maybe a plugin for this in the future would be good. I would purchase one if there was an easy way to create backups straight from Koken. Thanks!</description>
+      <pubDate>Wed, 17 Feb 2016 15:42:49 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16160259</link>
+    </item>
+    <item>
+      <title>KOKEN 0.21.13 URL Peculiarities</title>
+      <description>This post is intended towards the KOKEN USERS, as Team NetObjects informed me what I have to express was working normally. I have been a Koken user since day one and perhaps I became oblivious and didn't realize the "oddity," until I changed hosting and that I had to rebuild my Koken Madison 2 from the grounds up.
+
+If you're a photographer like me, chances are—YOU have YOUR way of organization and structure in your studio and website presentation. Currently, I have my organization of presentation of portfolio like this:
+
+Single "—" represents a branch, while "——" represent branch out of a branch.
+
+PORTFOLIO (Set)
+—Beauty (Album)
+—People (Album)
+—Etc. (Album)
+
+PERSONAL WORKS (Set)
+—DEFIANCE (Set)
+——Album1 (Album)
+——Album2 (Album)
+——Etc. (Album)
+—MR. BOLLYWOOD (Album)
+
+Using the DEFAULT Koken nomenclature for an arbitrary http://yoursite.com:
+
+"People" should be http://yoursite.com/sets/portfolio/people
+
+It's not the case. Rather, in Koken 0.21.13:
+
+http://yoursite.com/albums/people/
+
+Do you see the irregular behavior?
+
+Do you agree or disagree?
+
+Will you consider writing to Team NetObjects to include in an option for Koken to acknowledge the organization hierarchy in the site URL? Koken is ignoring the set-album or set-set-album organization.
+
+Thank you kindly,
+
+Ronald N. Tan | Photographer
+http://ronaldnztan.com</description>
+      <pubDate>Sun, 21 Feb 2016 00:04:24 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16158609</link>
+    </item>
+    <item>
+      <title>Library Searching</title>
+      <description>Why is match_all_tags set to false in multiple models? Is there a config I can change to globally set it to on?</description>
+      <pubDate>Tue, 16 Feb 2016 15:49:26 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16158539</link>
+    </item>
+    <item>
+      <title>InMotion Hosting (IMH) and HD (H.264) Video Uploads Hanging</title>
+      <description>Dear Koken Community and Team NetObjects,
+
+I have been using Koken CMS, since literally day one during the private beta trials. I went from 1&amp;1 to Site5 to DreamHost, and now InMotion Hosting for 2016-2018 two year period.
+
+I'm trying out InMotion Hosting (IMH), because it appeared on the list of the Koken recommended hosts. Although I'm aware that it doesn't have FFMPEG on their shared hosting—which I'm using to host my Koken photography portfolio—I don't mind my post-production reel not having a thumbnail.
+
+Now that I'm building my Koken CMS from scratch, I'm experience the video upload hanging at the "Remaining 0.00" status with the orange bar in animation. I'm familiar with using php.ini to increase the upload limit and at this point, my max upload size is 4.8828125 GB with memory limit of 1 GB.
+
+The image upload was fine, as I was able to successfully upload an image sized to 2880 pixels longest edge for HDPI displays.
+
+Has anyone else using IMH experiencing the oddity? I went over to IMH from DH on February 9, 2016. All my DNS entries are pointing to the IMH nameservers. In that regards, my emails for domain and others like MySQL are working well.
+
+
+*** IMH System Stats ***
+
+PHP: 7.0.2
+MySQL: 5.6.28
+Server OS: Linux
+Webserver Software: Apache
+Image Processing: ImageMagick 6.7.2
+FFMPEG: Not Installed
+Memory Limit: 1024 MB
+Upload File Size LImit: ~4.88 GB
+EXIF/IPTC Parsing: Supported
+
+Is the video upload handing, because of the lack of FFMPEG? Alternatively, I know—I could use either YouTube or Vimeo as the video host and use their embedding code to showcase my retouching timelapse video. Ideally, I'd like to host the video at my website.
+
+Thank you kindly,
+
+Ronald N. Tan | Photographer
+http://ronaldnztan.com</description>
+      <pubDate>Thu, 11 Feb 2016 17:45:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16152902</link>
+    </item>
+    <item>
+      <title>Edit Album links</title>
+      <description>I found an old question regarding this same issue from 2013 (http://help.koken.me/customer/portal/questions/1259330-edit-album-links) and curious to see that it still hasn't been implemented that we can edit the url for our albums if we decide to rename an album. It would be a much easier thing, from a user standpoint, to be able to rename the URL slug than to re-create albums just to have a new URL. 
+
+Please consider adding this in to future releases! </description>
+      <pubDate>Tue, 16 Feb 2016 23:05:38 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16146714</link>
+    </item>
+    <item>
+      <title>Library Editing Losing Captions</title>
+      <description>Hi, while editing captions in the Library, sometimes the caption is saved, sometime its lost and sometimes it disappears after being edited.
+
+We are using the most recent version of Koken 0.21.12, and have discovered this issue today while updating a site. Before sending this email, we did a System -&gt; Clear Cache and it did not seem to affect the lost captions.
+
+Please advise if there is something we need to specifically do to edit and save captions or some other issue that needs to be addressed.
+
+Thank you in advance,
+
+Larry</description>
+      <pubDate>Wed, 03 Feb 2016 14:59:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16140070</link>
+    </item>
+    <item>
+      <title>Album not work, get 500 error code when GET api.php?/albums/5/content</title>
+      <description>"PHP Fatal error:  Uncaught Error: Call to a member function result() on boolean in ~WWW/studio/app/application/libraries/datamapper.php:6662"
+"Stack trace:"
+"#0 ~WWW/studio/app/application/libraries/datamapper.php(1424): DM_DatasetIterator-&gt;__construct(Object(Content), false)"
+"#1 ~WWW/studio/app/application/models/content.php(1882): DataMapper-&gt;get_iterated()"
+"#2 ~WWW/studio/app/application/controllers/albums.php(960): Content-&gt;listing(Array)"
+"#3 ~WWW/studio/app/core/CodeIgniter.php(359): Albums-&gt;content('5', '')"
+"#4 ~WWW/studio/api.php(251): require_once('~WWW/studi...')"
+"#5 {main}"
+"  thrown in ~WWW/studio/app/application/libraries/datamapper.php on line 6662"
+
+
+
+
+Information about the server hosting this installation.
+
+PHP Version 7.0.2
+MySQL Version 5.7.9-log
+Server operating system CentOS 6 x64
+Webserver software nginx/1.9.9
+Image processing GD bundled (2.1.0 compatible)
+FFmpeg Not installed
+Memory limit 384MB
+Upload file size 100MB
+EXIF/IPTC parsing Supported
+
+
+
+
+Album cannot work now. How can I fix it?
+
+Thank you.
+
+</description>
+      <pubDate>Thu, 11 Feb 2016 21:31:19 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16127664</link>
+    </item>
+    <item>
+      <title>Categories / Tags Views in the Admin Library</title>
+      <description>Hi there! 
+
+Would be reallllllly nice to be able to view contents filtered by categories/tags in the library. Without that, it's hard to really control the content.</description>
+      <pubDate>Sat, 23 Jan 2016 18:02:16 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16112197</link>
+    </item>
+    <item>
+      <title>wrong assignment between albums and sets</title>
+      <description>Since i updated to koken 0.21.9 all my albums are mixed inside the sets. I move an album to a set but it shows up in the wrong set. Generally, all the sorting inside the sets are broken.
+
+Furthermore, inside my sets huge negative numbers are shown as number of images inside this set, eg. -219257. Is there a known bug or problem with the current version of koken?
+
+PHP Version 5.5.30-pl0-gentoo
+MySQL Version 5.5.5-10.0.22-MariaDB-log
+Server operating system Linux
+Webserver software nginx/1.8.0
+Image processing GD bundled (2.1.0 compatible)
+FFmpeg Installed (Version 2.6.3)
+Memory limit 128MB
+Upload file size limit 1.953125GB
+EXIF/IPTC parsing Supported
+
+Sincerely yours,
+David</description>
+      <pubDate>Tue, 09 Feb 2016 20:27:04 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/questions/16091132</link>
+    </item>
+  </channel>
+</rss>

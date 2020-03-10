@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>help.koken.me :: Pulse</title>
+    <link>http://help.koken.me/customer/en/portal/topics/377729-pulse</link>
+    <description>Pulse articles</description>
+    <item>
+      <title>Pulse overview</title>
+      <description>Pulse is Koken's built-in site slideshow player. It's pure Javascript, works in all browsers and mobile device...</description>
+      <pubDate>Fri, 21 Feb 2014 19:37:28 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/835067</link>
+    </item>
+    <item>
+      <title>Attributes</title>
+      <description>The &amp;lt;koken:pulse /&amp;gt; template tag may be customized using attributes. Attributes are assigned using name/...</description>
+      <pubDate>Tue, 06 Jun 2017 18:23:21 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/835078</link>
+    </item>
+    <item>
+      <title>Events</title>
+      <description>Pulse broadcasts events to announce things happening in the player. Javascript developers may bind their own J...</description>
+      <pubDate>Tue, 15 Jul 2014 18:35:41 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/835082</link>
+    </item>
+    <item>
+      <title>Methods</title>
+      <description>Methods may be called on the Pulse instance to perform a variety of functions. You have access to all of the m...</description>
+      <pubDate>Tue, 09 Dec 2014 21:01:53 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/909205</link>
+    </item>
+    <item>
+      <title>Adding Pulse to templates</title>
+      <description>If you are building your own site theme you may use Pulse to display slideshows of content. This walkthrough w...</description>
+      <pubDate>Tue, 20 May 2014 18:25:42 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/872142</link>
+    </item>
+    <item>
+      <title>Adding external controls</title>
+      <description>You can control Pulse's slideshow playback and behavior with your own external links. This walkthrough will sh...</description>
+      <pubDate>Tue, 09 Dec 2014 21:02:18 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/835090</link>
+    </item>
+    <item>
+      <title>Full screen slideshows with Pulse</title>
+      <description>Koken's Pulse slideshow player may be sized to the browser viewport for presenting images full screen. To do s...</description>
+      <pubDate>Thu, 04 Apr 2013 18:47:36 +0000</pubDate>
+      <link>http://help.koken.me/customer/en/portal/articles/1078362</link>
+    </item>
+  </channel>
+</rss>

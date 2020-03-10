@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=8; IE=9" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bceadb921a","applicationID":"3974850,3970295","transactionName":"JlpeF0ENCggEExtXTRZBXw5WEEkUDhNAVVRKRF4CQE0VDA4W","queueTime":0,"applicationTime":181,"agent":"js-agent.newrelic.com/nr-632.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcFVlRACwoHUFlXBw=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:9,3:7,4:11,5:3,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:9,3:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){t[0]=o(t[0],"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+  <meta pod-id="" />
+	  <link href="http://assets3.desk.com/assets/portal_jqueryui_only-ceeb07c81cef8c81cd0cdecfb39482b1.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="http://assets3.desk.com/assets/vendor-c0a3f0c532dd6db2d09875a0ea69a8b0.js" type="text/javascript"></script>
+		<script src="http://assets2.desk.com/assets/customer_widget-044efc6df9c5a6cdfe09ae38cde0fa38.js" type="text/javascript"></script>
+		<script src="http://assets0.desk.com/assets/portal-91f2c05bc750c60d8436b97ba49ac1d7.js" type="text/javascript"></script>
+
+
+		
+		<script src="http://www.google.com/jsapi?key=ABQIAAAAQO2RPu5r12mVC40HMDIFHRQqrBpdv_jP_dFl8Cw_MxS37sDB3xTXnsXso23z1ROPVCqEVVv6cqz_cA" type="text/javascript"></script>
+	<script src="http://assets1.desk.com/assets/tracking-fa783f3c0c6abfbb760eb8ead6cb554e.js" type="text/javascript"></script>
+
+    <script src="http://deskwww.s3.amazonaws.com/new/javascripts/deskanalytics.js" type="text/javascript"></script>
+
+
+<script src="http://assets2.desk.com/assets/tracking/settings/production-158454f93db4467614c0b03dd247b5b0.js" type="text/javascript"></script>
+
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="Fg6GGBFN2UFM8wEnQYvPJsmZk/R7sqfCe1li4DnqF1k=" name="csrf-token" />
+
+		
+
+
+<link rel='SHORTCUT ICON' type='image/ico' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+<link rel='icon' type='image/png' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+
+
+<link href="http://assets.koken.me/help/prettify/prettify.css" type="text/css" rel="stylesheet" />
+<link href="http://assets.koken.me/help/prettify/koken.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="http://assets.koken.me/help/prettify/prettify.js"></script>
+
+<title>
+  Koken |
+  
+    draft works, live site doesn't
+  
+</title>
+
+
+
+
+
+<style type="text/css">
+  
+  
+  /* Reset */
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+  address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+  tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-size: 100%; font-family: inherit; vertical-align: baseline; outline: none; }
+  html { font-size: 13px; height: 100%; }
+  body { margin: 0; padding: 0; border: 0; font-family: 'Helvetica Neue', 'Helvetica', sans-serif; background: #F8F8F8; }
+  h1, h2, h3, h4, h5, h6, p, address { color: #272727;}
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 14px; color: #414141; }
+  a img { border: 0; }
+  p { line-height: 18px; color: #535353; margin: 0 0 20px; }
+  a { color: #254689; text-decoration: none; }
+  a:link { color: #254689; }
+  a:visited { color: #254689; }
+  a:hover, a:focus { color: #254689; text-decoration: underline; }
+  a:active { color: #254689; }
+
+  /* Flash Messages */
+
+  #flash {
+    font-size: 20px;
+    text-align: center;
+    display:none;
+  }
+
+  .flash_html {
+    display: inline;
+  }
+
+  .flash_ajax{
+    display:block;
+    margin:0 auto 0 -200px;
+    position:fixed;
+    top:0px;
+    left:50%;
+    width:400px;
+    z-index:1003;
+    color:#222;
+  }
+
+  .flash_html div, .flash_ajax div {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px auto;
+    width: 400px;
+    padding: 5px 40px;
+    background-color: #FFFDD7;
+    border-bottom: 3px solid #FDFBA8;
+    border-left: 3px solid #FDFBA8;
+    border-right: 3px solid #FDFBA8;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .flash_ajax div.flash_error,
+  .flash_html div.flash_error,
+  .flash_ajax div.flash_critical,
+  .flash_html div.flash_critical {
+    border-color: #FF0000;
+    background-color: #FFBABA;
+  }
+
+  /* Portal Wrappers */
+
+  .wrapper {
+    margin: 0 auto;
+    width: 950px;
+  }
+
+  #company-support-portal {
+    padding: 0 0 30px;
+    overflow: hidden;
+  }
+
+  /* Breadcrumbs */
+
+  #breadcrumbs {
+    color: #666;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+
+  /* Portal Company Header */
+
+  #company-header {
+    background: #000;
+    padding: 12px 0;
+  }
+
+  #company-header h1 {
+    background: url('http://assets0.desk.com/images/portal/portal-icon.png') 0 center no-repeat;
+    color: #FFF;
+    font-size: 25px;
+    padding: 0 0 0 35px;
+    float: left;
+  }
+
+  #company-header a {
+    color: #FFF;
+  }
+
+  #company-header a:hover {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #customer-account {
+    float: right;
+    color: #FFF;
+    margin: 3px 0 0;
+  }
+
+  #customer-account span {
+    float: left;
+    padding: 4px 9px;
+    font-weight: bold;
+  }
+
+  #customer-account a {
+    float: left;
+    display: inline-block;
+    padding: 4px 9px;
+    background: #2B2B2B;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #customer-account a:hover {
+    background: #3B3B3B;
+    color: #FFF;
+  }
+
+  /* Portal Support Header */
+
+  #support-header {
+    background: #E5E5E5;
+    border-bottom: 1px solid #ACACAC;
+    margin: 0 0 30px;
+    padding: 20px 0;
+  }
+
+  #support-header .wrapper {
+    position: relative;
+  }
+
+  #support-header h2 {
+    font-size: 32px;
+    text-shadow: 0 1px 0 #FFF;
+  }
+
+  /* Support Side Column */
+
+  #support-side {
+    float: left;
+    margin: 0 0 0 20px;
+    width: 230px;
+  }
+
+  #support-side .content {
+    margin: 0 0 40px;
+  }
+
+  #support-side h3 {
+    border-bottom: 1px solid #ccc;
+    margin: 21px 0 30px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-side ul {
+    list-style: none;
+  }
+
+  #support-side li {
+    margin: 0 0 5px;
+  }
+
+  /* Support Side Column Twitter */
+
+  #tweets .tweet_avatar {
+    display: none;
+  }
+
+  #tweets .tweet_time a {
+    color: #999;
+    display: block;
+  }
+
+  #tweets li {
+    margin: 0 0 20px;
+    line-height: 18px;
+  }
+
+  /* Support Main Column */
+
+  #support-main {
+    float: left;
+    width: 700px;
+  }
+
+  #support-main .support-body {
+    background: #FFF;
+    border: 1px solid #CCC;
+    -moz-box-shadow: 0 3px 4px #CCC;
+    -webkit-box-shadow: 0 3px 4px #CCC;
+  }
+
+  #support-main .content {
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  /* Support Main Column Headers */
+
+  #support-main h3 {
+    border-bottom: 1px solid #DDD;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+  }
+
+  #support-main h4 {
+    margin: 0 0 30px;
+  }
+
+  #support-main h5 {
+    margin: 0 0 9px;
+  }
+
+  #support-main h5 a {
+    background: #EEE;
+    color: #666;
+    font-size: 11px;
+    padding: 3px 7px;
+    margin: -2px 0 0 9px;
+    position: absolute;
+    text-decoration: none;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  /* Dashboard */
+
+  #support-main .dashboard h5 a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #support-main .dashboard td {
+    border-bottom: 1px solid #CCC;
+    padding: 20px 0 10px;
+  }
+
+  #support-main .dashboard .row1 td {
+    padding: 0 0 10px;
+  }
+
+  #support-main .dashboard .last td {
+    border-bottom: none;
+  }
+
+  #support-main .dashboard .topic {
+    margin: 0;
+  }
+
+  #support-main .dashboard .topic ul {
+    color: #254689;
+    margin: 0 15px 20px 0;
+    list-style: none;
+  }
+
+  #support-main .dashboard .topic li {
+    background: url('http://assets0.desk.com/images/portal/featured-bullet.png') -2px 5px no-repeat;
+    margin: 0 0 5px;
+    padding: 0 0 0 15px;
+  }
+
+  #support-main .dashboard .topic li.featured a {
+    background: #FAFBCA;
+    font-weight: bold;
+  }
+
+  #support-main .dashboard h5 {
+    background: url('http://assets0.desk.com/images/portal/icon-types-small.png') 0 0 no-repeat;
+    height: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+  }
+
+  #support-main .dashboard h5.questions {
+    background-position: 0 -109px;
+  }
+
+  /* Article Lists */
+
+  #support-main .articles ul {
+    list-style: none;
+  }
+
+  #support-main .articles h4 {
+    margin: 0 0 5px;
+    font-weight: normal;
+  }
+
+  #support-main .articles li {
+    margin: 0 0 30px;
+  }
+
+  #support-main .articles li.question {
+    background: url('http://assets0.desk.com/images/portal/icon-types.png') 0 3px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.article {
+    background: url('http://assets0.desk.com/images/portal/icon-types.png') 0 -276px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.question.featured {
+    background-position: 0 -138px;
+  }
+
+  #support-main .articles li.article.featured {
+    background-position: 0 -415px;
+  }
+
+  #support-main .articles li.featured h4 a {
+    font-weight: bold;
+    background: #FAFBCA;
+  }
+
+  #support-main .articles li p {
+    margin: 0 0 5px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed {
+    background: #FFFDF4;
+    border: 1px solid #E3DEBF;
+    margin: 0 0 30px;
+    padding: 20px 20px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .articles .condensed li {
+    margin: 0;
+    padding: 0;
+  }
+
+  #support-main .articles .condensed h4 {
+    font-size: 15px;
+  }
+
+  #support-main .articles .condensed p {
+    margin: 0 0 20px 30px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed a {
+    margin: 0 0 20px 30px;
+  }
+
+  /* Article List Metas */
+
+  #support-main #search-results .meta,
+  #support-main .articles .meta {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+
+  #support-main .articles .meta .answered {
+    background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+    border-right: 1px solid #DDD;
+    color: #549b07;
+    padding: 0 5px 0 14px;
+    margin: 0 5px 0 0;
+  }
+
+  #support-main .articles .meta .count,
+  #support-main .articles .meta .date,
+  #support-main .question-details .meta .name {
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+    border-right: 1px solid #DDD;
+  }
+
+  /* Article List Toggles */
+
+  #toggle div {
+    float: right;
+    margin: -62px 0 0 0;
+  }
+
+  #toggle a {
+    background: #FFF;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  #toggle a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #toggle .active, #toggle a.active:hover {
+    background: #DDD;
+    color: #000;
+  }
+
+  /* Page Title */
+
+  #support-main .title {
+    border-bottom: 1px solid #CCC;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .title h3 {
+    margin: 0 0 3px;
+    padding: 0;
+    border: 0;
+  }
+
+  #support-main .title .meta {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* Article View & Question View */
+
+  #support-main .article-content h1,
+  #support-main .article-content h2,
+  #support-main .article-content h3,
+  #support-main .article-content h4,
+  #support-main .article-content h5,
+  #support-main .answer-details h1,
+  #support-main .answer-details h2,
+  #support-main .answer-details h3,
+  #support-main .answer-details h4,
+  #support-main .answer-details h5, {
+    margin: 0 0 20px;
+  }
+
+  #support-main .article-content h1, #support-main .answer-details h1 {
+    font-size: 22px;
+  }
+
+  #support-main .article-content h2, #support-main .answer-details h2 {
+    font-size: 20px;
+  }
+
+  #support-main .article-content h3, #support-main .answer-details h3 {
+    font-size: 18px;
+  }
+
+  #support-main .article-content h4, #support-main .answer-details h4 {
+    font-size: 16px;
+  }
+
+  #support-main .article-content h5, #support-main .answer-details h5 {
+    font-size: 15px;
+  }
+
+  #support-main .article-content ul, ol, #support-main .answer-details ul, #support-main .answer-details ol {
+    margin-left:15px;
+    list-style-position:inside;
+  }
+  #support-main .article-content p {
+    margin:0;
+  }
+  #support-main .article-content blockquote, #support-main .article-content q,
+  #support-main .answer-details blockquote, #support-main .answer-details q {
+    margin: 0.80em 0 0.80em 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    quotes: "" "";
+  }
+  #support-main .article-content blockquote p, #support-main .article-content q p,
+  #support-main .answer-details blockquote p, #support-main .answer-details q p {
+    margin: 0;
+    padding: 0.80em;
+    color: #666;
+    background: inherit;
+  }
+
+  /* Article View Attachments */
+
+  #attachments {
+    border-bottom: 1px solid #CCC;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+  }
+
+  #attachments strong {
+    background: url('http://assets0.desk.com/images/attachment.png') -1px 0 no-repeat;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 0 0 16px;
+  }
+
+  #attachments ul {
+    list-style: none;
+  }
+
+  /* Article View Rating */
+
+  #rate_article_container {
+    margin: 20px 0 0 0;
+  }
+
+  #rate_article div {
+    color: #265007;
+    float: left;
+    width: 100%;
+    margin: 0 0 6px;
+    font-style: italic;
+    height: 1%;
+  }
+
+  #rate_article_container a {
+    background: url('http://assets0.desk.com/images/portal/rating-arrows.gif') center 4px no-repeat;
+    overflow: hidden;
+    float: left;
+    width: 20px;
+    height: 16px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-indent: -999px;
+    margin: -2px 5px 0 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #rate_article_container .rate-link-down {
+    color: #9b0909;
+  }
+
+  #rate_article_container .rate-link-down a {
+    background-position: center -28px;
+  }
+
+  #rate_article_container span {
+    float: left;
+  }
+
+  /* Question View */
+
+  #support-main .question {
+    padding: 0;
+  }
+
+  #support-main .question .question-body {
+    background: #FFFDF4;
+    border-bottom: 1px solid #E3DEBF;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+  }
+
+  #support-main .question .gravatar-wrapper {
+    float: left;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .question .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }
+
+  #support-main .question .question-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .question-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+  }
+
+  #support-main .question .question-details .meta {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #support-main .question .meta {
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+
+  /* Question Answers */
+
+  #support-main .question .replies {
+    padding: 0 20px;
+    margin: 0 0 20px;
+  }
+
+  #support-main .question .replies h4 {
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .replies.agents h4 {
+    background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+    padding: 10px 0 10px 20px;
+  }
+
+  #support-main .question .replies.agents .reply {
+    background: #FFF;
+    padding: 20px 0 0;
+  }
+
+  #support-main .question .reply {
+    margin: 0;
+    overflow: hidden;
+    height: 1%;
+    padding: 20px 0 0 70px;
+    position: relative;
+  }
+
+  #support-main .question .answer-details,
+  #support-main .myportal .interaction-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .answer-details .meta {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  #support-main .question .answer-details .meta span {
+    display: block;
+  }
+
+  #support-main .question .answer-details .meta span.date {
+    float: none;
+    display: block;
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .meta span.date-short {
+    float: none;
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .answer-body,
+  #support-main .interactions .interaction-details .interaction-body {
+    margin-bottom: 20px;
+  }
+
+  /* Question View Rating */
+
+  #support-main .question .answer-rating {
+    font-size: 20px;
+    height: 53px;
+    line-height: 20px;
+    position: absolute;
+    margin: 0 0 0 -70px;
+    *margin: 0 0 0 -120px;
+    text-align: center;
+    width: 54px;
+  }
+
+  #support-main .question .answer-rating div {
+    border: 1px solid #CCC;
+    padding: 4px;
+    height: 48px;
+    overflow: hidden;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .answer-rating a {
+    background: url('http://assets0.desk.com/images/portal/rating-arrows.gif') center top no-repeat;
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-indent: -900px;
+    overflow: hidden;
+  }
+
+  #support-main .question .answer-rating .decrement {
+    background-position: center -25px;
+  }
+
+  #support-main .question .dialog {
+    display: none;
+  }
+
+  #support-main .question .rating-true .score {
+    display: inline-block;
+    margin: 5px 0 0 0;
+  }
+
+  #support-main .question .rating-true .dialog {
+    display: inline-block;
+    color: #999;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .score-positive {
+    color: #396905;
+  }
+
+  #support-main .question .score-negative {
+    color: #69050c;
+  }
+
+  /* Question View and Private Portal Reply Form */
+
+  #support-main .question #form,
+  #support-main .myportal #form {
+    background: #f8f8f8;
+    border: 1px solid #CCC;
+    margin: 20px;
+    padding: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .form-notice,
+  #support-main .myportal .form-notice {
+    border-top: 1px solid #DDD;
+    margin: 0 20px 20px;
+    padding: 15px 0 0 0;
+  }
+
+  #support-main .question #form h4,
+  #support-main .myportal #form h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+
+  #support-main .question #form .input-block input[type=text],
+  #support-main .question #form .input-block textarea,
+  #support-main .myportal #form .input-block textarea {
+    width: 610px;
+  }
+
+  /* Pre Create Headers */
+
+  #support-main .pre-create h4 {
+    margin: 0 0 30px 0;
+  }
+
+  #support-main .pre-create ul h4 {
+    margin: 0;
+  }
+
+  /* Support Forms */
+
+  #form .label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+
+  #form .label span {
+    color: #999;
+  }
+
+  #form .input-block input[type=text],
+  #form .input-block textarea {
+    /*display: block;*/
+    font-size: 13px;
+    margin: 0 0 20px;
+    width: 650px;
+  }
+
+  #form .input-block textarea {
+    height: 200px;
+  }
+
+  #form .input-block select {
+    margin: 0 0 20px;
+  }
+
+  #form .input-button input {
+    background: url('http://assets0.desk.com/images/portal/button.gif') 0 0 repeat-x;
+    border: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 6px;
+    height: 32px;
+    text-transform: uppercase;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #form .input-button .disabled {
+    background-position: 0 -38px;
+  }
+
+  #form .input-button img {
+    display: none;
+    margin: 7px 0 0 5px;
+    position: absolute;
+  }
+
+  #form label.invalid {
+    color: red;
+    display: inline-block;
+    margin: -20px 0 20px 0;
+  }
+
+  /* Pagination */
+
+  #paginate_block {
+    margin: 0;
+    position: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #paginate_block .pagination {
+    background-color: #FFF;
+    height: auto;
+    margin: 0;
+    padding-top: 0;
+    position: auto;
+    width: auto;
+  }
+
+  #paginate_block .current {
+    background-color: #DDD;
+    border: 1px solid #CCC;
+    padding: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+ 
+
+  /* Footer */
+
+  #footer {
+    display: block;
+    clear: both;
+    color: #999;
+    padding: 20px 0 30px;
+  }
+
+  #footer a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #question-mask {
+    color: #AAA;
+    position: absolute;
+    width: 90%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    text-overflow: ellipsis;
+  }
+
+  .question-big {
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
+  }
+
+  .question-small {
+    font-size: 13px;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  .search-bg {
+    display: none;
+  }
+
+  .highlight{
+    background-color: #FFFAE1;
+  }
+
+  /* Modals */
+
+  #modal-screen {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+  }
+
+  #modal .inner {
+    background: rgba(0,0,0,0.4);
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    margin: -230px 0 0 -350px;
+    position: absolute;
+    padding: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+  }
+
+  #modal .inner h1 {
+    text-align: center;
+    font-size: 27px;
+    padding: 25px 0 0;
+  }
+
+  #modal .inner p.subheader {
+    font-size: 18px !important;
+    color: #767676 !important;
+    text-align: center;
+    margin: 4px 0 30px 0;
+  }
+
+  #modal .inner .input-button {
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #modal .inner .input-button input {
+    margin: 0 0 0 10px;
+  }
+
+  #modal .inner .note {
+    text-align: center;
+    color: #616161;
+    margin: 0 0 20px 0 !important;
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  #modal .main {
+    background: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #modal .close {
+    float: right;
+    margin: -16px -16px 0 0;
+  }
+
+  /* Auto Completion */
+
+  .ui-autocomplete {
+    background: #FFF;
+    border: 1px solid #C0C0C0;
+    width: 100px;
+    list-style: none;
+    margin: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  }
+
+  .ui-autocomplete a {
+    padding: 9px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .ui-autocomplete a:hover,
+  .ui-autocomplete a.ui-state-hover {
+    background: #FFFAE1;
+    text-decoration: none;
+  }
+
+  .ui-autocomplete li:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+  }
+
+  .ui-autocomplete li:last-child a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .ui-autocomplete .KbArticle,
+  .ui-autocomplete .QnaThread {
+    background: url('http://assets0.desk.com/images/portal/icon-types-small.png') 0 4px no-repeat;
+    display: block;
+    padding: 0 0 0 25px;
+    overflow: hidden;
+  }
+
+  .ui-autocomplete .QnaThread {
+    background-position: 0 -106px;
+  }
+
+  .ui-autocomplete .article-autocomplete-subject {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .ui-autocomplete .article-autocomplete-body {
+    display: block;
+    font-size: 13px;
+    color: #666;
+  }
+
+  /* Get Satisfaction Styles */
+  .gs-idea {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/idea_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-question {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/question_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-praise {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/praise_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-update {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/update_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-problem {
+    background: url('http://assets0.desk.com/images/portal/getsatisfaction/problem_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs_search_result {
+    width:100% !important;
+  }
+
+  #gs_Sidebar_Results .tweet_time, .gs-search-result {
+    padding-left: 20px;
+  }
+
+  #gs_search_title h5 {
+    font-size:20px;
+    border-bottom:1px solid #DDDDDD;
+    margin:0 0 20px;
+    padding:0 0 20px;
+  }
+
+  #question-best-answer {
+  border: 1px solid #ddd;
+  background: #FFF;
+  border-radius: 5px;
+  margin: 0 0 25px 70px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px 20px 0;
+  }
+
+ #support-main .agent-answer-label {
+  margin: 0 0 10px;
+ }
+
+ #support-main #question-best-answer .reply {
+  height: 1%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+ }
+
+#support-main .best-answer-green {
+  position: absolute;
+  right: 0;
+  background: url('http://assets0.desk.com/images/portal/check.png') 0 center no-repeat;
+  padding: 0 0 0 15px;
+  color: #6db400;
+  font-weight: bold;
+}
+
+#support-main .best-answer-green a {
+  color: #6db400;
+}
+
+#support-main .best-answer-green a:hover {
+  text-decoration: none;
+}
+
+#support-main #question-best-answer-heading {
+  margin: 30px 0 10px 0;
+}
+
+#social-share {
+  float: left;
+  width: 80px;
+  margin-left: -90px;
+}
+
+#social-share .share-btn {
+  margin: 0 auto 15px auto;
+  width: 60px;
+  text-align: center;
+}
+
+#social-share .share-btn .fb-like {
+  margin-left: 6px;
+}
+
+  /* Private Portal */
+
+  #support-main .myportal {
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .myportal .content {
+    background: #FFF;
+  }
+
+  .myportal-label {
+    margin: 0 0 8px 0;
+    padding-left: 22px;
+    background: url('../images/mail.png') 0 0 no-repeat;
+  }
+
+  .myportal .mycases-filters {
+    padding: 20px 0 0 0;
+    height: 50px;
+  }
+
+  .myportal .a-selectbox {
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #FFF;
+    -webkit-border-image: none;
+    display: block;
+    float: left;
+    padding: 4px;
+    text-decoration: none;
+    zoom: 1;  
+  }
+
+  .myportal .a-selectbox select {
+    background: url("/images/arrow_down.png") right 0px no-repeat;
+    border: none;
+    box-sizing: border-box;
+    white-space: pre;
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    padding: 2px 3px;
+    font-size: 12px;
+    width: 190px;
+  }
+
+  .myportal .a-checkbox {
+    float: left;
+    margin: 5px;
+    color: #333;
+    font-size: 11px;
+  }
+
+  .myportal-button, .myportal-button:visited {
+    float: right;
+    padding: 8px 6px;
+    border: 0;
+    background: url(/images/portal/button.gif) 0 0 repeat-x;
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff !important;
+    text-transform: uppercase;
+  }
+
+  .myportal-button:hover {
+    text-decoration: none;
+  }
+
+  .myportal .mycases {
+    background:##E5E5E5;
+    width: 100%;
+    border-collapse:collapse;
+    font:normal 12px verdana, arial, helvetica, sans-serif;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .myportal .mycases caption {
+    border:1px solid #5C443A;
+    color:#5C443A;
+    font-weight:bold;
+    letter-spacing:20px;
+    padding:6px 4px 8px 0px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases td, th {
+    color:#363636;
+    padding: 11px 5px;
+  }
+
+  .myportal .mycases tr {
+    background: #FFF;
+    border: 1px solid #ccc;
+  }
+  
+  .myportal .mycases tbody tr:hover {
+    cursor: pointer;
+  }
+
+  .myportal .mycases thead th, tfoot th {
+    background: #E8E8E8;
+    font-size: 10px;
+    font-weight: bold;
+    color:#666;
+    padding: 6px 5px;
+    text-align:left;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases a {
+    text-decoration:none;
+  }
+
+  .myportal .mycases a:hover {
+    text-decoration: underline;
+  }
+
+  .myportal .mycases tbody th, tbody td {
+    text-align:left;
+    vertical-align:middle;
+  }
+
+  .myportal .mycases tfoot td {
+    background:#5C443A;
+    color:#FFFFFF;
+    padding-top:3px;
+  }
+  
+  .myportal .mycases .a-casechannel {
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    padding: 11px 0 11px 11px;
+  }
+
+  .myportal .case-block{
+    float: left;
+    margin-right: 60px;
+  }
+
+  .myportal .a-caseid {
+    padding-left: 15px;
+  }
+
+  .myportal .a-caseid, .myportal .a-casestatus {
+    width: 70px;
+  }
+
+  .myportal .a-casecreated {
+    width: 60px;
+  }
+
+  #support-main .case {
+    padding: 0;
+  }
+
+  #support-main .myportal .case-details, #support-main .myportal .interaction {
+    padding: 20px;
+  }
+
+  #support-main .myportal .case-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 510px;
+    font-size: 18px;
+    vertical-align: top;
+    float: left;
+  }
+  
+  #support-main .myportal .case-details img {
+    margin-right: 5px;
+    float:left;
+  }
+
+  #support-main .myportal .status {
+    float: right;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .status .a-New,
+  #support-main .myportal .status .a-Open,
+  #support-main .myportal .status .a-Pending,
+  #support-main .myportal .status .a-Resolved,
+  #support-main .myportal .status .a-Closed {
+    color: #fff;
+    padding: 2px 8px;
+    font-weight:bold;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .myportal .status .a-New {
+    background-color: #5B75AF;
+    border: #465A86 1px solid;
+  }
+
+  #support-main .myportal .status .a-Open {
+    background-color: #61A00F;
+    border: #4A7B0B 1px solid;
+  }
+
+  #support-main .myportal .status .a-Pending {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .status .a-Resolved {
+    background-color: #A5A5A5;
+    border: #7E7E7E 1px solid;
+  }
+
+  #support-main .myportal .status .a-Closed {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .meta {
+    clear: both;
+    padding: 8px 0;
+    color: #888;
+    line-height: 16px;
+  }
+
+  #support-main .myportal .meta strong {
+    color: #000;
+  }
+
+  .myportal #paginate_block .pagination {
+    background-color: transparent;
+  }
+
+/* Private Portal - Case Detail */
+
+  #support-main .myportal .case-details .meta span.date,
+  #support-main .myportal .interaction-details span.date {
+    margin: 0;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .interaction-details span.date {
+    float: right;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .case-data {
+    width: 50%;
+    float: left;
+    position: relative;
+  }
+
+  #support-main .myportal .meta .case-dates {
+    width: 50%;
+    float: right;
+    position: relative;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .name {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #support-main .myportal .interactions {
+    border-top: 1px solid #E3DEBF;
+  }
+  
+  #customer-account a {
+    margin-left: 9px;
+  }
+
+  #support-main .myportal .gravatar-wrapper {
+    position: absolute;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .myportal .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }  
+
+  #support-main .myportal .interaction-details .meta {
+    width: 100%;
+    margin: 0;
+  }
+
+/* Private Portal - My Account */
+
+  .myaccount-form {
+    padding-top: 20px;
+  }
+
+  .myaccount-form .new_customer_contact_email {
+    padding: 30px 0;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] form div {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+  }
+
+  .myaccount-form div[id^="email_"]:hover {
+    background-color:#f9f9f9;
+  }
+
+  .myaccount-form div[id^="email_"] .verified {
+    display: block;
+    float: right;
+    padding-right: 10px;
+    color: #5FA400;
+    font-weight: bold;
+  }
+
+  .myaccount-form div[id^="email_"] form input[type="submit"] {
+    height: 25px;
+  }
+
+  .myaccount-form input[type="text"] {
+    font-size: 12px;
+    border: 1px solid #C0C0C0;
+    float: left;
+    margin: 0 5px 8px 0;
+    width: 195px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .myaccount-form button {
+    height: 32px;
+    padding: 0 6px;
+    border: 1px solid #C0C0C0;
+    background: url('/images/portal/button.gif') 0 0 repeat-x;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .myaccount-form label.invalid {
+    font-weight: normal ;
+    display: block !important;
+    clear: both;
+    margin: 10px 0 20px 0;
+  }
+
+/* Private Portal - Login and Registration */
+
+  .login-form, .registration-form, .forgotpw-form, .alternatelogins {
+    padding: 20px 0;
+  }
+
+  .alternatelogins {
+    float: right;
+    padding: 20px 0;
+  }
+
+  .login-form .field label, .registration-form .field label, .forgotpw-form .field label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+  }
+
+  .login-form .field input, .registration-form .field input, .forgotpw-form .field input {
+    font-size: 14px;
+    border: 1px solid #999;
+    display: block;
+    margin: 4px 0 15px 0;
+    width: 250px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .login-form .actions input {
+    width: 80px;
+    margin-bottom: 40px;
+  }
+
+  .login-form .newaccount, .login-form .forgotpw {
+    font-weight: bold;
+    float: left;
+  }
+
+  .login-form .forgotpw {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #999;
+  }
+
+  .registration-form label.invalid,
+  .forgotpw-form label.invalid {
+    font-weight: normal;
+    display: block;
+    margin: -10px 0 20px 0;
+  }
+  .login-form form {
+    float: left;
+    width: 330px;
+  }
+  .alternatelogins {
+    border-left: 1px solid #ccc;
+    float: left;
+    height: 200px;
+    padding-left: 25px;
+  }
+  .alternatelogins div {
+    margin: 0 0 20px 0;
+  }
+  .alternatelogins a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    padding: 0 1em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #222;
+    background: #fff;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: none; 
+    *overflow: visible;
+    *display: inline;
+    *zoom: 1;
+  }
+  .alternatelogins a:hover,
+  .alternatelogins a:focus,
+  .alternatelogins a:active {
+    color: #222;
+    text-decoration: none;
+  }
+  .alternatelogins a:before {
+    content: "";
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url(/images/portal/auth-icons.png) no-repeat 99px 99px;
+  }
+  .alternatelogins #twitter {
+    border-color: #a6cde6;
+    color: #327695;
+    background: #cfe4f0;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -o-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+  }
+  .alternatelogins #twitter:hover,
+  .alternatelogins #twitter:focus,
+  .alternatelogins #twitter:active {
+    color: #327695;    
+    border-color: #8dc2e4;
+    background-color: #cadde9;
+  }
+  .alternatelogins #twitter:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7;
+  }
+  .alternatelogins #twitter:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -36px -22px;
+  }
+  .alternatelogins #facebook {
+    border-color: #29447e;
+    border-bottom-color: #1a356e;
+    color: #fff;
+    background-color: #5872a7;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -webkit-linear-gradient(#637bad, #5872a7);
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -ms-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    -webkit-box-shadow: inset 0 1px 0 #879ac0;
+    box-shadow: inset 0 1px 0 #879ac0;
+  }
+  .alternatelogins #facebook:hover,
+  .alternatelogins #facebook:focus {
+    color: #fff;
+    background-color: #3b5998;
+  }
+  .alternatelogins #facebook:active {
+    color: #fff;
+    background: #4f6aa3;
+    -webkit-box-shadow: inset 0 1px 0 #45619d;
+    box-shadow: inset 0 1px 0 #45619d;
+  }
+  .alternatelogins #facebook:before {
+    border-right: 1px solid #465f94;
+    margin: 0 1em 0 -1em;
+    background-position: 0 -22px;
+  }
+  .answer-body img { max-width: 100% }
+  
+</style>
+
+<link href="http://assets.koken.me/help/css/pe-icon-7-stroke.css" type="text/css" rel="stylesheet">
+<link href="http://assets.koken.me/help/css/desk201408.css" rel="stylesheet" type="text/css" />
+
+
+
+	</head>
+	<body>
+			<div id="flash" class="flash_html"><div class="agent_notifier_msg a-flash flash_notice">
+  
+  
+</div>
+</div>
+		
+
+
+<main>
+
+<a name="top"></a>
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<div id='company-support-portal'>
+  <div id='company-header'>
+    <div class='wrapper'>
+      <h1><a href='/'></a></h1>
+<div class="extra">
+  <h2><a href='/' title="Koken Help Center">Help Center</a></h2>
+<ul>
+  <li>
+    <a href="/" title="Koken Help Center">Topics</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/questions/new" title="Ask a question">Ask a question</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/emails/new?t=484231" title="Contact Koken support directly">Email us</a>
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us</a>
+          </li>
+
+    <li>
+    <a href="http://blog.koken.me" title="Koken Blog" onclick="return !window.open(this.href);">Blog</a>
+  </li>
+    <li>
+    <a href="http://store.koken.me/" title="Koken Store - Free and premium themes and plugins" onclick="return !window.open(this.href);">Store</a>
+  </li>
+</ul>
+</div>
+      
+      <form action='/customer/portal/articles/search' method='get' id='support-search' class='support-search-small'>
+          <div>
+            <input id='q' maxlength='100' name='q' type='text' value='' />
+            
+            <input id='support-search-submit' type='submit' value='Search' />
+            <span class="search_glass pe-7s-search"></span>
+          </div>
+        </form>
+      <div style="float:right"></div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  <div id='support-header'>
+    <div class='wrapper'>
+      <h2>Support Center</h2>
+      
+        
+      
+    </div>
+  </div> <!-- /#support-header -->
+  
+  <div class='wrapper'>
+    
+    <div id='support-side'>
+
+      <div class='content'>
+   
+        <!-- if a topic or article page -->        
+        
+
+        
+        <section>
+          <h2>Recent questions</h2>
+        <ul>
+    
+      <li>
+        <a href="/customer/portal/questions/12844153-private-w-password-gallery-navigation">Private w/password Gallery Navigation</a>
+          <span class="date">Jun 18, 2015 05:04PM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12844147-when-i-empty-the-trash-bin-my-server-disk-space-stays-full">When I empty the trash bin my server disk space stays full</a>
+          <span class="date">Jun 18, 2015 05:02PM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12837451-photos-do-not-appear-in-pages">Photos do not appear in pages</a>
+          <span class="date">Jun 17, 2015 08:38AM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12837024--htaccess-passwords-don-t-work-anymore-and-need-backup-retrieve-images-from-database">.htaccess passwords don&#x27;t work anymore - and need backup/retrieve images from database</a>
+          <span class="date">Jun 17, 2015 06:31AM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12833298-change-url-cannot-connect-to-api">Change URL = Cannot Connect to API</a>
+          <span class="date">Jun 16, 2015 12:34PM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12833288-change-url-cannot-connect-to-api">Change URL = Cannot Connect to API</a>
+          <span class="date">Jun 16, 2015 12:33PM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12829503-problems-with-administrator-page-displaying-nothing-problems-with-webpage-not-showing-some-content">Problems with administrator page displaying nothing / Problems with webpage not showing some content</a>
+          <span class="date">Jun 15, 2015 01:07PM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12827573-wrong-username-password-after-install-">Wrong username/password after install </a>
+          <span class="date">Jun 15, 2015 03:39AM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12824490-admin-panel-showing-up-as-plain-text">Admin panel showing up as plain-text</a>
+          <span class="date">Jun 14, 2015 11:14AM</span>
+          </li>
+    
+      <li>
+        <a href="/customer/portal/questions/12819579-content-do-not-load">content do not Load</a>
+          <span class="date">Jun 13, 2015 07:37AM</span>
+          </li>
+    
+  </ul>
+        </section>
+
+
+
+        <section>
+          <h2>About Koken</h2>
+          <p>
+          This Help Center provides support for <a href="http://koken.me" title="Koken">Koken</a>, a free content management system designed for photographers, artists and designers.
+          </p>
+        </section>
+
+      <section>
+          <a href="https://twitter.com/koken" class="twitter-follow-button" data-show-count="false">Follow @koken</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </section>
+
+      <section>
+      <div class="fb-like" data-href="http://facebook.com/kokencms" data-send="false" data-layout="button_count" data-width="190" data-show-faces="true" data-font="arial"></div>
+      </section>
+      
+      
+      
+    </div>
+  </div>
+    
+        <!--begin:portal_body-->
+
+<!--begin:question_show-->
+<div id="desk-external-variables-question_show" class="desk-external-variables">
+  <div id="system-snippets-just_moderated"></div>
+  <div id="system-snippets-name_required">Name is required.</div>
+  <div id="system-snippets-email_required">Email address is required.</div>
+  <div id="system-snippets-invalid_email">Invalid email address</div>
+  <div id="system-snippets-answer_required">Answer is required.</div>
+  <div id="system-snippets-exceeding_max_chars">Exceeding max length of 5KB</div>
+</div>
+
+
+
+
+
+
+<div id='support-main'>
+  
+  <div class='support-body'>
+    <div id='breadcrumbs'>
+  <a href='/'>Home</a> &rsaquo; <a href='/customer/portal/topics/696986-errors-and-usage-problems/questions'>Errors and usage problems</a> &rsaquo; draft works, live site doesn&#x27;t
+      <a class='bttn-small' href='/customer/portal/questions/new' title='Ask a question'>Ask a question</a>
+</div>
+    <div class='title'>
+        <h1>
+          <span class="h_icon pe-7s-chat"></span>
+          draft works, live site doesn&#x27;t
+        </h1>
+    </div>
+    <div class='content question'>
+
+      <div class='question-body'>
+        <span class='gravatar-wrapper'>
+            <img class="gravatar" alt="" width="50" height="50" src="http://www.gravatar.com/avatar/3a82aeec2d8db3e296c9be9822aa8052?rating=PG&amp;size=50&amp;default=http%3A%2F%2Fassets0.desk.com%2Fassets%2Funknown_user_50-8ad5644bbe6b1bd7454f2ea465f782bd.png" />
+        </span>
+        <div class='question-details'>
+          <div class='meta'>
+            <h3>
+              Cyrill
+            </h3>
+            <span>
+              Feb 28, 2015 05:07PM EST
+            </span>
+          </div>
+          <p>Hi,<br/><br/>I was using Koken with boulevard theme since a long time and I&#39;ve decided to update to chastain theme.<br/>The draft of chastain theme works fine : all photos load in album page but when I publish the draft, photos don&#39;t load.<br/>I try to delete all possible cache throught the admin interface and in storage/cache folder, to change image processing... but no way to resolve the problem.<br/><br/>ex <br/>http://cpixel.fr and an album page :<br/>live site doesn&#39;work : http://cpixel.fr/albums/brasserie-du-pecheur/<br/>draft works : http://cpixel.fr/preview.php?/albums/brasserie-du-pecheur/<br/>old site http://cpixel.fr:8080<br/><br/>What can I do to solve that annoying little problem ?<br/><br/>Thanks,<br/><br/>Cyrill</p>
+          
+        </div>
+        
+      </div>
+      
+        <div class='replies'>
+          
+            <div class='reply'>
+               
+                <div class='answer-rating rating-false'>
+                  <div>
+                    <a id='increment-12763594' class='rate increment' data-remote='true' data-method='post' rel='nofollow' href='/customer/portal/questions/12763594/rate?rating=1'>Up</a>
+                    <span class='score ' id='score-12763594'>0</span>
+                    <span class='dialog'>rated</span>
+                    <a id='decrement-12763594' class='rate decrement' data-remote='true' data-method='post' rel='nofollow' href='/customer/portal/questions/12763594/rate?rating=0'>Down</a>
+                  </div>
+                </div>
+              
+              <span class='gravatar-wrapper'>
+                <img class="gravatar" alt="" width="50" height="50" src="http://www.gravatar.com/avatar/38c8bac46c89fed3f4f85e9567f2a053?rating=PG&amp;size=50&amp;default=http%3A%2F%2Fassets0.desk.com%2Fassets%2Funknown_user_50-8ad5644bbe6b1bd7454f2ea465f782bd.png" />
+              </span>
+              <div class='answer-details'>
+                <div class='meta'>
+                  <h3>
+                    rew
+                    
+                  </h3>
+                  
+                    <span class='date'>
+                      Jun 01, 2015 08:43PM EDT
+                    </span>
+                </div>
+                <div class="answer-body">http://www.bottega.us/<br/>http://www.nikemercurial.net/<br/>http://www.celinebags.org/<br/>http://www.rosheruns.us/<br/>http://www.nikerosherun.us/<br/>http://www.vansshoes.us/<br/>http://www.timberland-shoes.com/<br/>http://www.iphone-cases.us/<br/>http://www.softball-bats.us/<br/>http://www.babyliss-pro.net/<br/>http://www.louisvuitton-outlets.us/<br/>http://www.burberry-outlet.jp.net/<br/>http://www.louboutin.jp.net/<br/>http://www.christianlouboutinshoes.jp.net/<br/>http://www.louisvuitton.jp.net/<br/>http://www.official-pradaoutlet.com/<br/>http://www.michaelkorsclance.com/<br/>http://www.official-michaelkorsonline.com/<br/>http://www.tommyhilfiger.net.co/<br/>http://www.mcmworldwide.ca/<br/>http://www.mmoncler-outlet.com/<br/>khttp://www.kate-spades.com/<br/>http://www.barbour-factory.com/<br/>http://www.salvatoreferragamo.in.net/<br/>http://www.canada-gooser.com/<br/>http://www.louisvuittonas.com/<br/>http://www.burberryoutlet.org.uk/<br/>http://www.fashion-clothing.us.com/<br/>http://www.thenorthface.so/<br/>http://www.barbour-jacketsoutlet.com/<br/>http://www.monsterbeatsbydres.net/<br/>http://www.louis-vuittonblackfriday.com/<br/>http://www.lv-guccishoesfactory.com/<br/>http://www.longchampsoutlet.com/<br/>http://www.moncler-clearance.com/<br/>http://www.ralphlaurentshirts.com/<br/>http://www.usahanbags.com/<br/>http://www.beatsbydreoutlet.net/<br/>http://www.coach-blackfriday2014.com/<br/>http://www.coachccoachoutlet.com/<br/>http://www.coach-clearance.com/<br/>http://www.michaelkorsbags.us.org/<br/>http://www.coach-factories.net/<br/>http://www.oakley.so/<br/>http://www.hermes-outletonline.com/<br/>http://www.nike-jordanshoes.com/<br/>http://www.woolrich-clearance.com/<br/>http://www.coachoutlet.so/<br/>http://www.coachoutletrusa.com/<br/>http://www.guccishoes-uk.com/<br/>http://www.uptocoachoutlet.com/<br/>http://www.michaelkors.so/<br/>http://www.guccifactorys.com/<br/>http://www.the-northface.in.net/<br/>http://www.cheapuggboots.eu.com/<br/>http://www.tory-burchoutlet.us.com/<br/>http://www.tommy-hilfigeroutlet.com/<br/>http://www.uggboots.so/<br/>http://www.louisvuitton.so/<br/>http://www.calvin-kleins.com/<br/>http://www.cheap-christianlouboutinshoes.com/<br/>http://www.airjordanshoes2015.com/<br/>http://www.burberry2015.net/<br/>http://www.abercrombiee.com/<br/>http://www.cheapoakley.us.org/<br/>http://www.oakleyoutlet.us.org/<br/>http://www.oakleysunglassesoutlet.com.co/<br/>http://www.swarovskijewelry.com.co/<br/>http://www.replicahandbags.com.co/<br/>http://www.cheapshoes.com.co/<br/>http://www.basketballshoes.com.co/<br/>http://www.coco-chanelbags.com.co/<br/>http://www.truereligion-outlet.com.co/<br/>http://www.abercrombieand-fitch.com.co/<br/>http://www.hermesbirkin.com.co/<br/>http://www.yogapants.com.co/<br/>http://www.guccishoes.us.org/<br/>http://www.raybansunglassesoutlet.net.co/<br/>http://www.omegawatches.us.com/<br/>http://www.eyeglassframes.us.com/<br/>http://www.eyeglassesonline.us.com/<br/>http://www.cheapmichaelkors.co.com/<br/>http://www.cheaprayban.co.com/<br/>http://www.raybans.co.com/<br/>http://www.raybanwayfarer.in.net/<br/>http://www.cheapbaseballbats.net/<br/>http://burberry.outletnow.net/<br/>http://christian.louboutin-outlet.net/<br/>http://toryburch.salesandals.net/<br/>http://www.soccer-shoes.org/<br/>http://www.timberlandboots-outlet.net/<br/>http://www.retro-jordans.com/<br/>http://www.tomshoesoutlet.com/</div>
+              </div>
+            </div>
+          
+        </div>
+      
+      
+        <div id='form'>
+          <h4>Answer this question</h4>
+          <div id='qna-reply-form'>
+            <form action="/customer/portal/questions" class="new_answer" id="new_answer" method="post">
+	<input id="authenticity_token" name="authenticity_token" type="hidden" value="Fg6GGBFN2UFM8wEnQYvPJsmZk/R7sqfCe1li4DnqF1k=" />
+	<input id="orig_ticket_id" name="orig_ticket_id" type="hidden" value="390561201" />
+	<input id="qna_thread_id" name="qna_thread_id" type="hidden" value="6021376" />
+	<input id="qna_kb_topic_id" name="qna[kb_topic_id]" type="hidden" value="696986" />
+	<input id="qna_subject" name="qna[subject]" type="hidden" value="draft works, live site doesn&#x27;t" />
+	<input id="org_qna_id" name="org_qna_id" type="hidden" value="11469877" />
+
+              
+                <div class='input-block'>
+                  <label>
+                    Your name <span>(required)</span>
+                  </label>
+                  <div>
+                    <input id='interaction_name' maxlength='100' name='interaction[name]' value='' type='text' />
+                  </div>
+                </div>
+                <div class='input-block'>
+                  <label>
+                    Your email address <span>(required)</span> 
+                  </label>
+                  <div>
+                    <input id='interaction_email' value='' maxlength='100' name='interaction[email]' size='100' type='text' />
+                  </div>
+                </div>
+              
+              <div class='input-block'>
+                <label>
+                  Answer <span>(required)</span>
+                </label>
+                <div>
+                  <textarea cols='40' id='qna_body' name='qna[body]' rows='20'></textarea>
+                </div>
+              </div>
+              <div class='input-button'>
+                <input id='answer_submit' name='commit' type='submit' value='Post answer' />
+              </div>
+            <div>
+
+<script type="text/javascript">
+var RecaptchaOptions = { theme : "white", tabindex : 10};
+</script>
+
+      <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfAPscSAAAAAFgATIGBuRpj-z2OFJq2AeqQ_6Q1"> </script>
+      <noscript>
+      <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfAPscSAAAAAFgATIGBuRpj-z2OFJq2AeqQ_6Q1"
+      height="300" width="500" frameborder="0"></iframe><br>
+      <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+      </textarea>
+      <input type="hidden" name="recaptcha_response_field" 
+      value="manual_challenge">
+      </noscript>
+      
+
+</div>
+
+<!-- Move captcha above submit button : if neccessary -->
+<script type="text/javascript">
+  //<![CDATA[
+	var $captcha = $("#recaptcha_widget_div");
+	$captcha.parents("form").find(".input-button").css("margin-top", "12px").insertAfter($captcha);
+	
+  //]]>
+</script>
+
+</form>
+
+          </div>
+        </div>
+      
+    </div>
+  </div>
+  <!--
+  ***************
+  The following attribution needs to remain as is in terms of wording with the appropriate link back to desk.com as per our terms of service: http://www.desk.com/terms
+  If you would like, you may change the location or the styling to better match your site, but the content and the link must remain in the template and visible to end users.
+  ****************
+  -->
+  <div id='footer'>
+    <ul class="footer_nav">
+  <li>
+    <a href="http://koken.me">Koken.me home</a> 
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us @Koken</a>
+          </li>
+<li>
+            <a href="http://facebook.com/kokencms" title="Follow us on Facebook" onclick="window.open(this.href); return false;">Facebook</a>
+          </li>
+  <li>
+    <a href="https://plus.google.com/+KokenMe" onclick="window.open(this.href); return false;">Google+</a>
+  </li>
+  <li>
+    <a href="http://blog.koken.me">Blog</a>
+  </li>
+</ul>
+
+&copy; 2013-4 Koken. All Rights Reserved.
+    <br/>
+    <a href='http://www.Desk.com'>Customer service software</a> powered by Desk.com
+  </div>
+</div>
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.body.question_show.js"></script>
+<!--end:question_show-->
+
+<!--end:portal_body-->
+
+    
+  </div>
+</div>
+
+<!-- Facebook Like Button -->
+<div id="fb-root"></div>
+
+<!-- External Variables for Portal Header -->
+<div id="desk-external-variables-header" class="desk-external-variables">
+   <div id="read_only"></div>
+    <div id="site-default_mailbox">support@koken.me</div>
+  <div id="desk_javascript_host">http://assets1.desk.com/</div>
+  <div id="twitter_enabled">false</div>
+  <div id="twitter_username">koken</div>
+  <div id="system-snippets-loading">Loading</div>
+  <div id="system-snippets-seconds_ago">seconds ago</div>
+  <div id="system-snippets-a_minute_ago">a minute ago</div>
+  <div id="system-snippets-minutes_ago">minutes ago</div>
+  <div id="system-snippets-an_hour_ago">an hour ago</div>
+  <div id="system-snippets-hours_ago">hours ago</div>
+  <div id="system-snippets-a_day_ago">a day ago</div>
+  <div id="system-snippets-days_ago">days ago</div>
+  <div id="system-snippets-about">about</div>
+  <div id="enable_gs">false</div>
+  <div id="system-snippets-invalid_characters_found">Invalid characters found</div>
+  <div id="site-search_autocomplete_articles_url">/customer/en/portal/articles/autocomplete</div>
+  <div id="search-term"></div>
+  
+</div>
+
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.shared.js"></script>
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.header.js"></script>
+<script type="text/javascript" src="http://assets1.desk.com/portal/desk.portal.body.layout_footer.js"></script>
+
+<script>
+  $(function() {
+     prettyPrint();
+  
+     var pathname = (window.location.pathname);
+     if (pathname!="/") { 
+        $('#support-side ul li a').each(function() {
+          if ($(this).attr('href').indexOf(pathname) != -1)
+          {
+             $(this).addClass('current');
+          }
+        });
+     }
+
+     if($("#page_home").length > 0) {
+        $('main').addClass('page_home');
+      }
+  });
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36460516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</main>
+
+
+	</body>
+</html>

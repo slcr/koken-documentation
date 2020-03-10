@@ -1,0 +1,3053 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bceadb921a","applicationID":"48637645,27456590","transactionName":"JlpeF0ENCggEExtXTRZBXw5WEEkUDhNAVVRKXlI8UhASDQINUUcXFl1fFA==","queueTime":0,"applicationTime":201,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta pod-id="" />
+	  <link href="http://assets2.desk.com/assets/portal_jqueryui_only-ae2078f5d9247e97c310caf0c453b7d9.css" media="screen" rel="stylesheet" type="text/css" />
+		<script src="http://assets1.desk.com/assets/vendor-c0a3f0c532dd6db2d09875a0ea69a8b0.js" type="text/javascript"></script>
+		<script src="http://assets3.desk.com/assets/customer_widget-044efc6df9c5a6cdfe09ae38cde0fa38.js" type="text/javascript"></script>
+		<script src="http://assets2.desk.com/assets/portal-6cf8baf2170daed9feb9f26bb3d2e9d5.js" type="text/javascript"></script>
+      <script src="http://assets2.desk.com/assets/portal/desk.public_event_logger-b261b5d6041d73051bbb6db8fe304281.js" type="text/javascript"></script>
+
+
+		
+		<script src="http://www.google.com/jsapi?key=ABQIAAAAQO2RPu5r12mVC40HMDIFHRQqrBpdv_jP_dFl8Cw_MxS37sDB3xTXnsXso23z1ROPVCqEVVv6cqz_cA" type="text/javascript"></script>
+	<script src="http://assets2.desk.com/assets/tracking-cb4e8c412440f717ed31041fd947ad26.js" type="text/javascript"></script>
+
+  <script src="//webassets.desk.com/assets/js/analytics/deskanalytics.js" type="text/javascript"></script>
+
+
+<script src="http://assets0.desk.com/assets/tracking/settings/production-ad67a2d478c351fef5c8e17a224aafa1.js" type="text/javascript"></script>
+
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="2Vu0w5C+F+Ps9NuEGGHcbJ1ozLHTpZfnUJ/G3YKkJCE=" name="csrf-token" />
+	<meta name="site_id" content="75530" />
+	<meta name="env" content="production" />
+	<meta name="public_events_server" content="events.deskapi.com" />
+	<meta name="portal_errors_attachment_file_size_too_big" content="The attached file is too big to upload" />
+
+		
+
+
+<link rel='SHORTCUT ICON' type='image/ico' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+<link rel='icon' type='image/png' href='https://koken.desk.com/customer/portal/theme_attachments/21965?cb=1409243493500' />
+
+
+<link href="http://assets.koken.me/help/prettify/prettify.css" type="text/css" rel="stylesheet" />
+<link href="http://assets.koken.me/help/prettify/koken.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="http://assets.koken.me/help/prettify/prettify.js"></script>
+
+<title>
+  Koken |
+  
+    Lens variables
+  
+</title>
+
+
+  <meta property="og:title" content="Lens variables"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:site_name" content="Koken"/>
+  <meta property="og:description"
+        content="Variables display simple string data, like an album title. Some variables are global and may be used anywhere while othe..."/>
+
+
+
+
+<style type="text/css">
+  
+  
+  /* Reset */
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+  address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+  tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-size: 100%; font-family: inherit; vertical-align: baseline; outline: none; }
+  html { font-size: 13px; height: 100%; }
+  body { margin: 0; padding: 0; border: 0; font-family: 'Helvetica Neue', 'Helvetica', sans-serif; background: #F8F8F8; }
+  h1, h2, h3, h4, h5, h6, p, address { color: #272727;}
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+  h5 { font-size: 14px; color: #414141; }
+  a img { border: 0; }
+  p { line-height: 18px; color: #535353; margin: 0 0 20px; }
+  a { color: #254689; text-decoration: none; }
+  a:link { color: #254689; }
+  a:visited { color: #254689; }
+  a:hover, a:focus { color: #254689; text-decoration: underline; }
+  a:active { color: #254689; }
+
+  /* Flash Messages */
+
+  #flash {
+    font-size: 20px;
+    text-align: center;
+    display:none;
+  }
+
+  .flash_html {
+    display: inline;
+  }
+
+  .flash_ajax{
+    display:block;
+    margin:0 auto 0 -200px;
+    position:fixed;
+    top:0px;
+    left:50%;
+    width:400px;
+    z-index:1003;
+    color:#222;
+  }
+
+  .flash_html div, .flash_ajax div {
+    text-align: center;
+    font-size: 14px;
+    margin: 0px auto;
+    width: 400px;
+    padding: 5px 40px;
+    background-color: #FFFDD7;
+    border-bottom: 3px solid #FDFBA8;
+    border-left: 3px solid #FDFBA8;
+    border-right: 3px solid #FDFBA8;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .flash_ajax div.flash_error,
+  .flash_html div.flash_error,
+  .flash_ajax div.flash_critical,
+  .flash_html div.flash_critical {
+    border-color: #FF0000;
+    background-color: #FFBABA;
+  }
+
+  /* Portal Wrappers */
+
+  .wrapper {
+    margin: 0 auto;
+    width: 950px;
+  }
+
+  #company-support-portal {
+    padding: 0 0 30px;
+    overflow: hidden;
+  }
+
+  /* Breadcrumbs */
+
+  #breadcrumbs {
+    color: #666;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+
+  /* Portal Company Header */
+
+  #company-header {
+    background: #000;
+    padding: 12px 0;
+  }
+
+  #company-header h1 {
+    background: url('http://assets1.desk.com/images/portal/portal-icon.png') 0 center no-repeat;
+    color: #FFF;
+    font-size: 25px;
+    padding: 0 0 0 35px;
+    float: left;
+  }
+
+  #company-header a {
+    color: #FFF;
+  }
+
+  #company-header a:hover {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #customer-account {
+    float: right;
+    color: #FFF;
+    margin: 3px 0 0;
+  }
+
+  #customer-account span {
+    float: left;
+    padding: 4px 9px;
+    font-weight: bold;
+  }
+
+  #customer-account a {
+    float: left;
+    display: inline-block;
+    padding: 4px 9px;
+    background: #2B2B2B;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #customer-account a:hover {
+    background: #3B3B3B;
+    color: #FFF;
+  }
+
+  /* Portal Support Header */
+
+  #support-header {
+    background: #E5E5E5;
+    border-bottom: 1px solid #ACACAC;
+    margin: 0 0 30px;
+    padding: 20px 0;
+  }
+
+  #support-header .wrapper {
+    position: relative;
+  }
+
+  #support-header h2 {
+    font-size: 32px;
+    text-shadow: 0 1px 0 #FFF;
+  }
+
+  /* Support Side Column */
+
+  #support-side {
+    float: left;
+    margin: 0 0 0 20px;
+    width: 230px;
+  }
+
+  #support-side .content {
+    margin: 0 0 40px;
+  }
+
+  #support-side h3 {
+    border-bottom: 1px solid #ccc;
+    margin: 21px 0 30px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-side ul {
+    list-style: none;
+  }
+
+  #support-side li {
+    margin: 0 0 5px;
+  }
+
+  /* Support Side Column Twitter */
+
+  #tweets .tweet_avatar {
+    display: none;
+  }
+
+  #tweets .tweet_time a {
+    color: #999;
+    display: block;
+  }
+
+  #tweets li {
+    margin: 0 0 20px;
+    line-height: 18px;
+  }
+
+  /* Support Main Column */
+
+  #support-main {
+    float: left;
+    width: 700px;
+  }
+
+  #support-main .support-body {
+    background: #FFF;
+    border: 1px solid #CCC;
+    -moz-box-shadow: 0 3px 4px #CCC;
+    -webkit-box-shadow: 0 3px 4px #CCC;
+  }
+
+  #support-main .content {
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  /* Support Main Column Headers */
+
+  #support-main h3 {
+    border-bottom: 1px solid #DDD;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+  }
+
+  #support-main h4 {
+    margin: 0 0 30px;
+  }
+
+  #support-main h5 {
+    margin: 0 0 9px;
+  }
+
+  #support-main h5 a {
+    background: #EEE;
+    color: #666;
+    font-size: 11px;
+    padding: 3px 7px;
+    margin: -2px 0 0 9px;
+    position: absolute;
+    text-decoration: none;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  /* Dashboard */
+
+  #support-main .dashboard h5 a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #support-main .dashboard td {
+    border-bottom: 1px solid #CCC;
+    padding: 20px 0 10px;
+  }
+
+  #support-main .dashboard .row1 td {
+    padding: 0 0 10px;
+  }
+
+  #support-main .dashboard .last td {
+    border-bottom: none;
+  }
+
+  #support-main .dashboard .topic {
+    margin: 0;
+  }
+
+  #support-main .dashboard .topic ul {
+    color: #254689;
+    margin: 0 15px 20px 0;
+    list-style: none;
+  }
+
+  #support-main .dashboard .topic li {
+    background: url('http://assets1.desk.com/images/portal/featured-bullet.png') -2px 5px no-repeat;
+    margin: 0 0 5px;
+    padding: 0 0 0 15px;
+  }
+
+  #support-main .dashboard .topic li.featured a {
+    background: #FAFBCA;
+    font-weight: bold;
+  }
+
+  #support-main .dashboard h5 {
+    background: url('http://assets1.desk.com/images/portal/icon-types-small.png') 0 0 no-repeat;
+    height: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0 0 0 20px;
+  }
+
+  #support-main .dashboard h5.questions {
+    background-position: 0 -109px;
+  }
+
+  /* Article Lists */
+
+  #support-main .articles ul {
+    list-style: none;
+  }
+
+  #support-main .articles h4 {
+    margin: 0 0 5px;
+    font-weight: normal;
+  }
+
+  #support-main .articles li {
+    margin: 0 0 30px;
+  }
+
+  #support-main .articles li.question {
+    background: url('http://assets1.desk.com/images/portal/icon-types.png') 0 3px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.article {
+    background: url('http://assets1.desk.com/images/portal/icon-types.png') 0 -276px no-repeat;
+    padding: 0 0 0 40px;
+  }
+
+  #support-main .articles li.question.featured {
+    background-position: 0 -138px;
+  }
+
+  #support-main .articles li.article.featured {
+    background-position: 0 -415px;
+  }
+
+  #support-main .articles li.featured h4 a {
+    font-weight: bold;
+    background: #FAFBCA;
+  }
+
+  #support-main .articles li p {
+    margin: 0 0 5px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed {
+    background: #FFFDF4;
+    border: 1px solid #E3DEBF;
+    margin: 0 0 30px;
+    padding: 20px 20px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .articles .condensed li {
+    margin: 0;
+    padding: 0;
+  }
+
+  #support-main .articles .condensed h4 {
+    font-size: 15px;
+  }
+
+  #support-main .articles .condensed p {
+    margin: 0 0 20px 30px;
+    color: #777;
+  }
+
+  #support-main .articles .condensed a {
+    margin: 0 0 20px 30px;
+  }
+
+  /* Article List Metas */
+
+  #support-main #search-results .meta,
+  #support-main .articles .meta {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+    margin: 5px 0;
+  }
+
+  #support-main .articles .meta .answered {
+    background: url('http://assets1.desk.com/images/portal/check.png') 0 center no-repeat;
+    border-right: 1px solid #DDD;
+    color: #549b07;
+    padding: 0 5px 0 14px;
+    margin: 0 5px 0 0;
+  }
+
+  #support-main .articles .meta .count,
+  #support-main .articles .meta .date,
+  #support-main .question-details .meta .name {
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+    border-right: 1px solid #DDD;
+  }
+
+  /* Article List Toggles */
+
+  #toggle div {
+    float: right;
+    margin: -62px 0 0 0;
+  }
+
+  #toggle a {
+    background: #FFF;
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+  }
+
+  #toggle a:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #254689;
+  }
+
+  #toggle .active, #toggle a.active:hover {
+    background: #DDD;
+    color: #000;
+  }
+
+  /* Page Title */
+
+  #support-main .title {
+    border-bottom: 1px solid #CCC;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .title h3 {
+    margin: 0 0 3px;
+    padding: 0;
+    border: 0;
+  }
+
+  #support-main .title .meta {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  /* Article View & Question View */
+
+  #support-main .article-content h1,
+  #support-main .article-content h2,
+  #support-main .article-content h3,
+  #support-main .article-content h4,
+  #support-main .article-content h5,
+  #support-main .answer-details h1,
+  #support-main .answer-details h2,
+  #support-main .answer-details h3,
+  #support-main .answer-details h4,
+  #support-main .answer-details h5, {
+    margin: 0 0 20px;
+  }
+
+  #support-main .article-content h1, #support-main .answer-details h1 {
+    font-size: 22px;
+  }
+
+  #support-main .article-content h2, #support-main .answer-details h2 {
+    font-size: 20px;
+  }
+
+  #support-main .article-content h3, #support-main .answer-details h3 {
+    font-size: 18px;
+  }
+
+  #support-main .article-content h4, #support-main .answer-details h4 {
+    font-size: 16px;
+  }
+
+  #support-main .article-content h5, #support-main .answer-details h5 {
+    font-size: 15px;
+  }
+
+  #support-main .article-content ul, ol, #support-main .answer-details ul, #support-main .answer-details ol {
+    margin-left:15px;
+    list-style-position:inside;
+  }
+  #support-main .article-content p {
+    margin:0;
+  }
+  #support-main .article-content blockquote, #support-main .article-content q,
+  #support-main .answer-details blockquote, #support-main .answer-details q {
+    margin: 0.80em 0 0.80em 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    quotes: "" "";
+  }
+  #support-main .article-content blockquote p, #support-main .article-content q p,
+  #support-main .answer-details blockquote p, #support-main .answer-details q p {
+    margin: 0;
+    padding: 0.80em;
+    color: #666;
+    background: inherit;
+  }
+
+  /* Article View Attachments */
+
+  #attachments {
+    border-bottom: 1px solid #CCC;
+    padding: 0 0 20px;
+    margin: 20px 0 0;
+  }
+
+  #attachments strong {
+    background: url('http://assets1.desk.com/images/attachment.png') -1px 0 no-repeat;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 0 0 16px;
+  }
+
+  #attachments ul {
+    list-style: none;
+  }
+
+  /* Article View Rating */
+
+  #rate_article_container {
+    margin: 20px 0 0 0;
+  }
+
+  #rate_article div {
+    color: #265007;
+    float: left;
+    width: 100%;
+    margin: 0 0 6px;
+    font-style: italic;
+    height: 1%;
+  }
+
+  #rate_article_container a {
+    background: url('http://assets1.desk.com/images/portal/rating-arrows.gif') center 4px no-repeat;
+    overflow: hidden;
+    float: left;
+    width: 20px;
+    height: 16px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-indent: -999px;
+    margin: -2px 5px 0 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #rate_article_container .rate-link-down {
+    color: #9b0909;
+  }
+
+  #rate_article_container .rate-link-down a {
+    background-position: center -28px;
+  }
+
+  #rate_article_container span {
+    float: left;
+  }
+
+  /* Question View */
+
+  #support-main .question {
+    padding: 0;
+  }
+
+  #support-main .question .question-body {
+    background: #FFFDF4;
+    border-bottom: 1px solid #E3DEBF;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+  }
+
+  #support-main .question .gravatar-wrapper {
+    float: left;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .question .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }
+
+  #support-main .question .question-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .question-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+  }
+
+  #support-main .question .question-details .meta {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #support-main .question .meta {
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+
+  /* Question Answers */
+
+  #support-main .question .replies {
+    padding: 0 20px;
+    margin: 0 0 20px;
+  }
+
+  #support-main .question .replies h4 {
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .replies.agents h4 {
+    background: url('http://assets1.desk.com/images/portal/check.png') 0 center no-repeat;
+    padding: 10px 0 10px 20px;
+  }
+
+  #support-main .question .replies.agents .reply {
+    background: #FFF;
+    padding: 20px 0 0;
+  }
+
+  #support-main .question .reply {
+    margin: 0;
+    overflow: hidden;
+    height: 1%;
+    padding: 20px 0 0 70px;
+    position: relative;
+  }
+
+  #support-main .question .answer-details,
+  #support-main .myportal .interaction-details {
+    padding: 0 0 0 70px;
+  }
+
+  #support-main .question .answer-details .meta {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  #support-main .question .answer-details .meta span {
+    display: block;
+  }
+
+  #support-main .question .answer-details .meta span.date {
+    float: none;
+    display: block;
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .meta span.date-short {
+    float: none;
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .answer-details .answer-body,
+  #support-main .interactions .interaction-details .interaction-body {
+    margin-bottom: 20px;
+  }
+
+  /* Question View Rating */
+
+  #support-main .question .answer-rating {
+    font-size: 20px;
+    height: 53px;
+    line-height: 20px;
+    position: absolute;
+    margin: 0 0 0 -70px;
+    *margin: 0 0 0 -120px;
+    text-align: center;
+    width: 54px;
+  }
+
+  #support-main .question .answer-rating div {
+    border: 1px solid #CCC;
+    padding: 4px;
+    height: 48px;
+    overflow: hidden;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .answer-rating a {
+    background: url('http://assets1.desk.com/images/portal/rating-arrows.gif') center top no-repeat;
+    display: block;
+    height: 14px;
+    text-align: center;
+    text-indent: -900px;
+    overflow: hidden;
+  }
+
+  #support-main .question .answer-rating .decrement {
+    background-position: center -25px;
+  }
+
+  #support-main .question .dialog {
+    display: none;
+  }
+
+  #support-main .question .rating-true .score {
+    display: inline-block;
+    margin: 5px 0 0 0;
+  }
+
+  #support-main .question .rating-true .dialog {
+    display: inline-block;
+    color: #999;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  #support-main .question .score-positive {
+    color: #396905;
+  }
+
+  #support-main .question .score-negative {
+    color: #69050c;
+  }
+
+  /* Question View and Private Portal Reply Form */
+
+  #support-main .question #form,
+  #support-main .myportal #form {
+    background: #f8f8f8;
+    border: 1px solid #CCC;
+    margin: 20px;
+    padding: 20px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .question .form-notice,
+  #support-main .myportal .form-notice {
+    border-top: 1px solid #DDD;
+    margin: 0 20px 20px;
+    padding: 15px 0 0 0;
+  }
+
+  #support-main .question #form h4,
+  #support-main .myportal #form h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+
+  #support-main .question #form .input-block input[type=text],
+  #support-main .question #form .input-block textarea,
+  #support-main .myportal #form .input-block textarea {
+    width: 610px;
+  }
+
+  /* Pre Create Headers */
+
+  #support-main .pre-create h4 {
+    margin: 0 0 30px 0;
+  }
+
+  #support-main .pre-create ul h4 {
+    margin: 0;
+  }
+
+  /* Support Forms */
+
+  #form .label {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+
+  #form .label span {
+    color: #999;
+  }
+
+  #form .input-block input[type=text],
+  #form .input-block textarea {
+    /*display: block;*/
+    font-size: 13px;
+    margin: 0 0 20px;
+    width: 650px;
+  }
+
+  #form .input-block textarea {
+    height: 200px;
+  }
+
+  #form .input-block select {
+    margin: 0 0 20px;
+  }
+
+  #form .input-button input {
+    background: url('http://assets1.desk.com/images/portal/button.gif') 0 0 repeat-x;
+    border: 0;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 6px;
+    height: 32px;
+    text-transform: uppercase;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #form .input-button .disabled {
+    background-position: 0 -38px;
+  }
+
+  #form .input-button img {
+    display: none;
+    margin: 7px 0 0 5px;
+    position: absolute;
+  }
+
+  #form label.invalid {
+    color: red;
+    display: inline-block;
+    margin: -20px 0 20px 0;
+  }
+
+  /* Pagination */
+
+  #paginate_block {
+    margin: 0;
+    position: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #paginate_block .pagination {
+    background-color: #FFF;
+    height: auto;
+    margin: 0;
+    padding-top: 0;
+    position: auto;
+    width: auto;
+  }
+
+  #paginate_block .current {
+    background-color: #DDD;
+    border: 1px solid #CCC;
+    padding: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+ 
+
+  /* Footer */
+
+  #footer {
+    display: block;
+    clear: both;
+    color: #999;
+    padding: 20px 0 30px;
+  }
+
+  #footer a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  #question-mask {
+    color: #AAA;
+    position: absolute;
+    width: 90%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    text-overflow: ellipsis;
+  }
+
+  .question-big {
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
+  }
+
+  .question-small {
+    font-size: 13px;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    font-weight: bold;
+  }
+
+  .search-bg {
+    display: none;
+  }
+
+  .highlight{
+    background-color: #FFFAE1;
+  }
+
+  /* Modals */
+
+  #modal-screen {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+  }
+
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300;
+  }
+
+  #modal .inner {
+    background: rgba(0,0,0,0.4);
+    width: 700px;
+    left: 50%;
+    top: 50%;
+    margin: -230px 0 0 -350px;
+    position: absolute;
+    padding: 5px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+  }
+
+  #modal .inner h1 {
+    text-align: center;
+    font-size: 27px;
+    padding: 25px 0 0;
+  }
+
+  #modal .inner p.subheader {
+    font-size: 18px !important;
+    color: #767676 !important;
+    text-align: center;
+    margin: 4px 0 30px 0;
+  }
+
+  #modal .inner .input-button {
+    text-align: center;
+    padding: 0 0 30px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #modal .inner .input-button input {
+    margin: 0 0 0 10px;
+  }
+
+  #modal .inner .note {
+    text-align: center;
+    color: #616161;
+    margin: 0 0 20px 0 !important;
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  #modal .main {
+    background: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
+
+  #modal .close {
+    float: right;
+    margin: -16px -16px 0 0;
+  }
+
+  /* Auto Completion */
+
+  .ui-autocomplete {
+    background: #FFF;
+    border: 1px solid #C0C0C0;
+    width: 100px;
+    list-style: none;
+    margin: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  }
+
+  .ui-autocomplete a {
+    padding: 9px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .ui-autocomplete a:hover,
+  .ui-autocomplete a.ui-state-hover {
+    background: #FFFAE1;
+    text-decoration: none;
+  }
+
+  .ui-autocomplete li:first-child a {
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+  }
+
+  .ui-autocomplete li:last-child a {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+  }
+
+  .ui-autocomplete .KbArticle,
+  .ui-autocomplete .QnaThread {
+    background: url('http://assets1.desk.com/images/portal/icon-types-small.png') 0 4px no-repeat;
+    display: block;
+    padding: 0 0 0 25px;
+    overflow: hidden;
+  }
+
+  .ui-autocomplete .QnaThread {
+    background-position: 0 -106px;
+  }
+
+  .ui-autocomplete .article-autocomplete-subject {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .ui-autocomplete .article-autocomplete-body {
+    display: block;
+    font-size: 13px;
+    color: #666;
+  }
+
+  /* Get Satisfaction Styles */
+  .gs-idea {
+    background: url('http://assets1.desk.com/images/portal/getsatisfaction/idea_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-question {
+    background: url('http://assets1.desk.com/images/portal/getsatisfaction/question_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-praise {
+    background: url('http://assets1.desk.com/images/portal/getsatisfaction/praise_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-update {
+    background: url('http://assets1.desk.com/images/portal/getsatisfaction/update_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs-problem {
+    background: url('http://assets1.desk.com/images/portal/getsatisfaction/problem_mini.png') 0 0 no-repeat !important;
+    background-position: 0px 1px;
+  }
+
+  .gs_search_result {
+    width:100% !important;
+  }
+
+  #gs_Sidebar_Results .tweet_time, .gs-search-result {
+    padding-left: 20px;
+  }
+
+  #gs_search_title h5 {
+    font-size:20px;
+    border-bottom:1px solid #DDDDDD;
+    margin:0 0 20px;
+    padding:0 0 20px;
+  }
+
+  #question-best-answer {
+  border: 1px solid #ddd;
+  background: #FFF;
+  border-radius: 5px;
+  margin: 0 0 25px 70px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 20px 20px 0;
+  }
+
+ #support-main .agent-answer-label {
+  margin: 0 0 10px;
+ }
+
+ #support-main #question-best-answer .reply {
+  height: 1%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+ }
+
+#support-main .best-answer-green {
+  position: absolute;
+  right: 0;
+  background: url('http://assets1.desk.com/images/portal/check.png') 0 center no-repeat;
+  padding: 0 0 0 15px;
+  color: #6db400;
+  font-weight: bold;
+}
+
+#support-main .best-answer-green a {
+  color: #6db400;
+}
+
+#support-main .best-answer-green a:hover {
+  text-decoration: none;
+}
+
+#support-main #question-best-answer-heading {
+  margin: 30px 0 10px 0;
+}
+
+#social-share {
+  float: left;
+  width: 80px;
+  margin-left: -90px;
+}
+
+#social-share .share-btn {
+  margin: 0 auto 15px auto;
+  width: 60px;
+  text-align: center;
+}
+
+#social-share .share-btn .fb-like {
+  margin-left: 6px;
+}
+
+  /* Private Portal */
+
+  #support-main .myportal {
+    padding: 0 0 20px 0;
+  }
+
+  #support-main .myportal .content {
+    background: #FFF;
+  }
+
+  .myportal-label {
+    margin: 0 0 8px 0;
+    padding-left: 22px;
+    background: url('../images/mail.png') 0 0 no-repeat;
+  }
+
+  .myportal .mycases-filters {
+    padding: 20px 0 0 0;
+    height: 50px;
+  }
+
+  .myportal .a-selectbox {
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #FFF;
+    -webkit-border-image: none;
+    display: block;
+    float: left;
+    padding: 4px;
+    text-decoration: none;
+    zoom: 1;  
+  }
+
+  .myportal .a-selectbox select {
+    background: url("/images/arrow_down.png") right 0px no-repeat;
+    border: none;
+    box-sizing: border-box;
+    white-space: pre;
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    padding: 2px 3px;
+    font-size: 12px;
+    width: 190px;
+  }
+
+  .myportal .a-checkbox {
+    float: left;
+    margin: 5px;
+    color: #333;
+    font-size: 11px;
+  }
+
+  .myportal-button, .myportal-button:visited {
+    float: right;
+    padding: 8px 6px;
+    border: 0;
+    background: url(/images/portal/button.gif) 0 0 repeat-x;
+    font-weight: bold;
+    font-size: 11px;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #fff !important;
+    text-transform: uppercase;
+  }
+
+  .myportal-button:hover {
+    text-decoration: none;
+  }
+
+  .myportal .mycases {
+    background:##E5E5E5;
+    width: 100%;
+    border-collapse:collapse;
+    font:normal 12px verdana, arial, helvetica, sans-serif;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .myportal .mycases caption {
+    border:1px solid #5C443A;
+    color:#5C443A;
+    font-weight:bold;
+    letter-spacing:20px;
+    padding:6px 4px 8px 0px;
+    text-align:center;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases td, th {
+    color:#363636;
+    padding: 11px 5px;
+  }
+
+  .myportal .mycases tr {
+    background: #FFF;
+    border: 1px solid #ccc;
+  }
+  
+  .myportal .mycases tbody tr:hover {
+    cursor: pointer;
+  }
+
+  .myportal .mycases thead th, tfoot th {
+    background: #E8E8E8;
+    font-size: 10px;
+    font-weight: bold;
+    color:#666;
+    padding: 6px 5px;
+    text-align:left;
+    text-transform:uppercase;
+  }
+
+  .myportal .mycases a {
+    text-decoration:none;
+  }
+
+  .myportal .mycases a:hover {
+    text-decoration: underline;
+  }
+
+  .myportal .mycases tbody th, tbody td {
+    text-align:left;
+    vertical-align:middle;
+  }
+
+  .myportal .mycases tfoot td {
+    background:#5C443A;
+    color:#FFFFFF;
+    padding-top:3px;
+  }
+  
+  .myportal .mycases .a-casechannel {
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    padding: 11px 0 11px 11px;
+  }
+
+  .myportal .case-block{
+    float: left;
+    margin-right: 60px;
+  }
+
+  .myportal .a-caseid {
+    padding-left: 15px;
+  }
+
+  .myportal .a-caseid, .myportal .a-casestatus {
+    width: 70px;
+  }
+
+  .myportal .a-casecreated {
+    width: 60px;
+  }
+
+  #support-main .case {
+    padding: 0;
+  }
+
+  #support-main .myportal .case-details, #support-main .myportal .interaction {
+    padding: 20px;
+  }
+
+  #support-main .myportal .case-details h3 {
+    border: 0;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 510px;
+    font-size: 18px;
+    vertical-align: top;
+    float: left;
+  }
+  
+  #support-main .myportal .case-details img {
+    margin-right: 5px;
+    float:left;
+  }
+
+  #support-main .myportal .status {
+    float: right;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .status .a-New,
+  #support-main .myportal .status .a-Open,
+  #support-main .myportal .status .a-Pending,
+  #support-main .myportal .status .a-Resolved,
+  #support-main .myportal .status .a-Closed {
+    color: #fff;
+    padding: 2px 8px;
+    font-weight:bold;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+  }
+
+  #support-main .myportal .status .a-New {
+    background-color: #5B75AF;
+    border: #465A86 1px solid;
+  }
+
+  #support-main .myportal .status .a-Open {
+    background-color: #61A00F;
+    border: #4A7B0B 1px solid;
+  }
+
+  #support-main .myportal .status .a-Pending {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .status .a-Resolved {
+    background-color: #A5A5A5;
+    border: #7E7E7E 1px solid;
+  }
+
+  #support-main .myportal .status .a-Closed {
+    background-color: #DE901B;
+    border: #AA6E14 1px solid;
+  }
+
+  #support-main .myportal .meta {
+    clear: both;
+    padding: 8px 0;
+    color: #888;
+    line-height: 16px;
+  }
+
+  #support-main .myportal .meta strong {
+    color: #000;
+  }
+
+  .myportal #paginate_block .pagination {
+    background-color: transparent;
+  }
+
+/* Private Portal - Case Detail */
+
+  #support-main .myportal .case-details .meta span.date,
+  #support-main .myportal .interaction-details span.date {
+    margin: 0;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  #support-main .myportal .interaction-details span.date {
+    float: right;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .case-data {
+    width: 50%;
+    float: left;
+    position: relative;
+  }
+
+  #support-main .myportal .meta .case-dates {
+    width: 50%;
+    float: right;
+    position: relative;
+    text-align: right;
+  }
+
+  #support-main .myportal .meta .name {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #support-main .myportal .interactions {
+    border-top: 1px solid #E3DEBF;
+  }
+  
+  #customer-account a {
+    margin-left: 9px;
+  }
+
+  #support-main .myportal .gravatar-wrapper {
+    position: absolute;
+    border: 1px solid #CCC;
+    width: 56px;
+    height: 56px;
+  }
+
+  #support-main .myportal .gravatar {
+    float: left;
+    border: 3px solid #FFF;
+  }  
+
+  #support-main .myportal .interaction-details .meta {
+    width: 100%;
+    margin: 0;
+  }
+
+/* Private Portal - My Account */
+
+  .myaccount-form {
+    padding-top: 20px;
+  }
+
+  .myaccount-form .new_customer_contact_email {
+    padding: 30px 0;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    border-top: 1px solid #DDD;
+  }
+
+  .myaccount-form div[id^="email_"] form div {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+  }
+
+  .myaccount-form div[id^="email_"]:hover {
+    background-color:#f9f9f9;
+  }
+
+  .myaccount-form div[id^="email_"] .verified {
+    display: block;
+    float: right;
+    padding-right: 10px;
+    color: #5FA400;
+    font-weight: bold;
+  }
+
+  .myaccount-form div[id^="email_"] form input[type="submit"] {
+    height: 25px;
+  }
+
+  .myaccount-form input[type="text"] {
+    font-size: 12px;
+    border: 1px solid #C0C0C0;
+    float: left;
+    margin: 0 5px 8px 0;
+    width: 195px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .myaccount-form button {
+    height: 32px;
+    padding: 0 6px;
+    border: 1px solid #C0C0C0;
+    background: url('/images/portal/button.gif') 0 0 repeat-x;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .myaccount-form label.invalid {
+    font-weight: normal ;
+    display: block !important;
+    clear: both;
+    margin: 10px 0 20px 0;
+  }
+
+/* Private Portal - Login and Registration */
+
+  .login-form, .registration-form, .forgotpw-form, .alternatelogins {
+    padding: 20px 0;
+  }
+
+  .alternatelogins {
+    float: right;
+    padding: 20px 0;
+  }
+
+  .login-form .field label, .registration-form .field label, .forgotpw-form .field label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+  }
+
+  .login-form .field input, .registration-form .field input, .forgotpw-form .field input {
+    font-size: 14px;
+    border: 1px solid #999;
+    display: block;
+    margin: 4px 0 15px 0;
+    width: 250px;
+    padding: 8px 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+
+  .login-form .actions input {
+    width: 80px;
+    margin-bottom: 40px;
+  }
+
+  .login-form .newaccount, .login-form .forgotpw {
+    font-weight: bold;
+    float: left;
+  }
+
+  .login-form .forgotpw {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #999;
+  }
+
+  .registration-form label.invalid,
+  .forgotpw-form label.invalid {
+    font-weight: normal;
+    display: block;
+    margin: -10px 0 20px 0;
+  }
+  .login-form form {
+    float: left;
+    width: 330px;
+  }
+  .alternatelogins {
+    border-left: 1px solid #ccc;
+    float: left;
+    height: 200px;
+    padding-left: 25px;
+  }
+  .alternatelogins div {
+    margin: 0 0 20px 0;
+  }
+  .alternatelogins a {
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    padding: 0 1em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #222;
+    background: #fff;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: none; 
+    *overflow: visible;
+    *display: inline;
+    *zoom: 1;
+  }
+  .alternatelogins a:hover,
+  .alternatelogins a:focus,
+  .alternatelogins a:active {
+    color: #222;
+    text-decoration: none;
+  }
+  .alternatelogins a:before {
+    content: "";
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url(/images/portal/auth-icons.png) no-repeat 99px 99px;
+  }
+  .alternatelogins #twitter {
+    border-color: #a6cde6;
+    color: #327695;
+    background: #cfe4f0;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f5f7), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: -o-linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    background-image: linear-gradient(#f1f5f7, rgba(255,255,255,0));
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+  }
+  .alternatelogins #twitter:hover,
+  .alternatelogins #twitter:focus,
+  .alternatelogins #twitter:active {
+    color: #327695;    
+    border-color: #8dc2e4;
+    background-color: #cadde9;
+  }
+  .alternatelogins #twitter:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7;
+  }
+  .alternatelogins #twitter:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -36px -22px;
+  }
+  .alternatelogins #facebook {
+    border-color: #29447e;
+    border-bottom-color: #1a356e;
+    color: #fff;
+    background-color: #5872a7;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -webkit-linear-gradient(#637bad, #5872a7);
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -ms-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    -webkit-box-shadow: inset 0 1px 0 #879ac0;
+    box-shadow: inset 0 1px 0 #879ac0;
+  }
+  .alternatelogins #facebook:hover,
+  .alternatelogins #facebook:focus {
+    color: #fff;
+    background-color: #3b5998;
+  }
+  .alternatelogins #facebook:active {
+    color: #fff;
+    background: #4f6aa3;
+    -webkit-box-shadow: inset 0 1px 0 #45619d;
+    box-shadow: inset 0 1px 0 #45619d;
+  }
+  .alternatelogins #facebook:before {
+    border-right: 1px solid #465f94;
+    margin: 0 1em 0 -1em;
+    background-position: 0 -22px;
+  }
+  .answer-body img { max-width: 100% }
+  
+</style>
+
+<link href="http://assets.koken.me/help/css/pe-icon-7-stroke.css" type="text/css" rel="stylesheet">
+<link href="http://assets.koken.me/help/css/desk201408.css" rel="stylesheet" type="text/css" />
+
+
+
+	</head>
+	<body>
+			<div id="flash" class="flash_html"><div class="agent_notifier_msg a-flash flash_notice">
+  
+  
+</div>
+</div>
+		
+
+<main>
+
+<a name="top"></a>
+
+<div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<div id='company-support-portal'>
+  <div id='company-header'>
+    <div class='wrapper'>
+      <h1><a href='/'></a></h1>
+<div class="extra">
+  <h2><a href='/' title="Koken Help Center">Help Center</a></h2>
+<ul>
+  <li>
+    <a href="/" title="Koken Help Center">Topics</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/questions/new" title="Ask a question">Ask a question</a>
+  </li>
+  <li>
+    <a href="http://help.koken.me/customer/portal/emails/new?t=484231" title="Contact Koken support directly">Email us</a>
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us</a>
+          </li>
+
+    <li>
+    <a href="http://blog.koken.me" title="Koken Blog" onclick="return !window.open(this.href);">Blog</a>
+  </li>
+    <li>
+    <a href="http://store.koken.me/" title="Koken Store - Free and premium themes and plugins" onclick="return !window.open(this.href);">Store</a>
+  </li>
+</ul>
+</div>
+      
+      <form action='/customer/portal/articles/search' method='get' id='support-search' class='support-search-small'>
+          <div>
+            <input id='q' maxlength='100' name='q' type='text' value='' />
+            
+            <input id='support-search-submit' type='submit' value='Search' />
+            <span class="search_glass pe-7s-search"></span>
+          </div>
+        </form>
+      <div style="float:right"></div>
+      <div style="clear:both"></div>
+    </div>
+  </div>
+  <div id='support-header'>
+    <div class='wrapper'>
+      <h2>Support Center</h2>
+      
+        
+      
+    </div>
+  </div> <!-- /#support-header -->
+  
+  <div class='wrapper'>
+    
+    <div id='support-side'>
+
+      <div class='content'>
+   
+        <!-- if a topic or article page -->        
+        
+        <section>
+        <ul>
+          <li>
+            <a href='/customer/en/portal/topics/375567-lens/articles'><h2>Lens articles</h2></a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/1140184-what-s-new-in-lens'>What&#x27;s new in Lens</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828688-lens-templates'>Lens templates</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/982033-lens-variables'>Lens variables</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828690-lens-tags'>Lens tags</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/929836-lens-events'>Lens events</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828695-helper-classes'>Helper classes</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828692-settings'>Settings</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828693-setting-types'>Setting types</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/888149-styles'>Styles</a>
+          </li>
+          
+          <li>
+            <a href='/customer/en/portal/articles/828694-navigation-groups'>Navigation groups</a>
+          </li>
+          
+        </ul>
+        </section>
+        
+
+        
+
+
+        <section>
+          <h2>About Koken</h2>
+          <p>
+          This Help Center provides support for <a href="http://koken.me" title="Koken">Koken</a>, a free content management system designed for photographers, artists and designers.
+          </p>
+        </section>
+
+      <section>
+          <a href="https://twitter.com/koken" class="twitter-follow-button" data-show-count="false">Follow @koken</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </section>
+
+      <section>
+      <div class="fb-like" data-href="http://facebook.com/kokencms" data-send="false" data-layout="button_count" data-width="190" data-show-faces="true" data-font="arial"></div>
+      </section>
+      
+      
+      
+    </div>
+  </div>
+    
+        <!--begin:portal_body-->
+
+<!--begin:page_article--><div id="jump_head">
+  <div class="wrapper">
+    <div class="lcol">
+      Lens variables
+    </div>
+    <div class="rcol">
+      <a href="#top" title="Back to top">Back to top</a><div id="jumpto_scroll"></div></div>
+    </div>
+   </div>
+</div>
+
+<div id='support-main'>
+
+  <div class='support-body'>
+    
+<div id='breadcrumbs'>
+  <a href='/'>Home</a>
+  
+  &rsaquo; <a href='/customer/en/portal/topics/375567-lens/articles'>Lens</a> &rsaquo; Lens variables
+  
+        <a class='bttn-small' href='/customer/portal/questions/new' title='Ask a question'>Ask a question</a>
+
+</div>
+    
+    <div id='social-share'>
+      <div class='share-btn'>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical"></a>
+      </div>
+      <div class='share-btn'>
+        <div class="fb-like" data-send="false" data-layout="box_count" data-width="100" data-show-faces="false"></div>
+      </div>
+      <div class='share-btn'>
+        <g:plusone size="tall"></g:plusone>
+      </div>
+    </div>
+
+    <div class='content article'>
+    
+      <div class='title'>
+        <h1>Lens variables</h1>
+        <div class='meta'>Last Updated: Nov 17, 2015 02:25PM EST</div>
+      </div>
+
+      <div class='article-content'>
+        <p>Variables display simple string data, like an album title. Some variables are global and may be used anywhere while others are used with specific <a href="http://help.koken.me/customer/portal/articles/828688-lens-templates">data sources</a>. Variables are wrapped with double curly braces and may used independently or inside traditional HTML tags.</p>
+
+<p>Here&#39;s an example of a variable used independently to print the site title.</p>
+
+<pre class="prettyprint">
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;koken:load&gt;
+      &lt;h1&gt;
+       {{&nbsp;site.title&nbsp;}}
+     &lt;/h1&gt;
+    &lt;/koken:load&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>In this example we use the global <code>{{&nbsp;site.keywords&nbsp;}}</code> variable inside a <code>meta</code> tag:</p>
+
+<pre class="prettyprint">
+&lt;meta name=&quot;keywords&quot; content=&quot;{{&nbsp;site.keywords&nbsp;}}&quot; /&gt;
+</pre>
+
+<h2>Global variables <span class="labels"> </span></h2>
+
+<p>These variables may be inserted into any template to display their value.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>{{&nbsp;count&nbsp;}}</td>
+			<td>Number of items in a data source. Insert before <code>&lt;koken:loop&gt;</code> in any loaded data source.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.album.plural&nbsp;}}</td>
+			<td>Plural version of the album label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.album.singular&nbsp;}}</td>
+			<td>Singular version of the album label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.archive.plural&nbsp;}}</td>
+			<td>Plural version of the archive label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.archive.singular&nbsp;}}</td>
+			<td>Singular version of the archive label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.category.plural&nbsp;}}</td>
+			<td>Plural version of the category label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.category.singular&nbsp;}}</td>
+			<td>Singular version of the category label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.content.plural&nbsp;}}</td>
+			<td>Plural version of the content label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.content.singular&nbsp;}}</td>
+			<td>Singular version of the content label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.essay.plural&nbsp;}}</td>
+			<td>Plural version of the essay label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.essay.singular&nbsp;}}</td>
+			<td>Singular version of the essay label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.favorite.plural&nbsp;}}</td>
+			<td>Plural version of the favorite label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.favorite.singular&nbsp;}}</td>
+			<td>Singular version of the favorite label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.page.plural&nbsp;}}</td>
+			<td>Plural version of the page label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.page.singular&nbsp;}}</td>
+			<td>Singular version of the page label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.set.plural&nbsp;}}</td>
+			<td>Plural version of the set label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.set.singular&nbsp;}}</td>
+			<td>Singular version of the set label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.tag.plural&nbsp;}}</td>
+			<td>Plural version of the tag label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.tag.singular&nbsp;}}</td>
+			<td>Singular version of the tag label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.timeline.plural&nbsp;}}</td>
+			<td>Plural version of the timeline label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;labels.timeline.singular&nbsp;}}</td>
+			<td>Singular version of the timeline label.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.here&nbsp;}}</td>
+			<td>Current URL, relative to the site path. e.g., &quot;/&quot; for front page, &#39;/albums/name&#39; for an album page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.host&nbsp;}}</td>
+			<td>Protocol plus host domain. e.g., &quot;http://koken.me&quot;</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.hostname&nbsp;}}</td>
+			<td>Just the host domain. e.g., &quot;koken.me&quot;</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.parameters.page&nbsp;}}</td>
+			<td>Page number of the current page. Used with pagination.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.root_folder&nbsp;}}</td>
+			<td>Relative path to the subfolder the site is publishing to, if applicable.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.site_url&nbsp;}}</td>
+			<td>Full URL to the published site. Same as &quot;URL&quot; in Settings &gt; Site Publishing.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.template&nbsp;}}</td>
+			<td>Name of the template being viewed. e.g., if added to contents.lens then &quot;contents&quot; would be published.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;location.theme_path&nbsp;}}</td>
+			<td>Relative path to the theme&#39;s folder.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;now&nbsp;}}</td>
+			<td>Output the current time as a unix timestamp.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.name&nbsp;}}</td>
+			<td>The publisher&#39;s display name.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.first&nbsp;}}</td>
+			<td>The publisher&#39;s first name.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.last&nbsp;}}</td>
+			<td>The publisher&#39;s last name.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.email&nbsp;}}</td>
+			<td>The publisher&#39;s email address.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.google_plus&nbsp;}}</td>
+			<td>The publisher&#39;s Google+ profile url.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.twitter&nbsp;}}</td>
+			<td>The publisher&#39;s twitter username.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;profile.facebook&nbsp;}}</td>
+			<td>The publisher&#39;s facebook page URL.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;rss.contents&nbsp;}}</td>
+			<td>URL to the public content RSS feed.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;rss.essays&nbsp;}}</td>
+			<td>URL to the published essays RSS feed.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;rss.timeline&nbsp;}}</td>
+			<td>URL to the Timeline&#39;s RSS feed.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;site.title&nbsp;}}</td>
+			<td>The site&#39;s title.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;site.copyright&nbsp;}}</td>
+			<td>The site&#39;s copyright.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;site.description&nbsp;}}</td>
+			<td>The site&#39;s description. Used for meta tag / SEO purposes.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;site.keywords&nbsp;}}</td>
+			<td>The site&#39;s keywords. Use for meta tag / SEO purposes.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;site.tagline&nbsp;}}</td>
+			<td>The site&#39;s tagline.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;year&nbsp;}}</td>
+			<td>Output the current year.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><a id="language_variable" name="language_variable"></a></p>
+
+<h2>Language variable</h2>
+
+<p>This global variable may be inserted into any template to display language specific content when paired with a theme&#39;s language setting.</p>
+
+<pre class="prettyprint">
+&lt;koken:link title=&quot;{{ language.read_title collate=&#39;essay.title&#39; }}&quot;&gt;{{ language.read_more }}&lt;/koken:link&gt;</pre>
+
+<p>The default language variables can be found in the language region of <code>/koken/app/site/defaults.json</code>. Additional translations can be added to custom themes with a language region in the theme&#39;s info.json.&nbsp;</p>
+
+<pre class="prettyprint">
+&quot;language&quot;: {
+  &quot;en&quot;: { &quot;read_more&quot;: &quot;Read more&quot; },
+  &quot;fr&quot;: { &quot;read_more&quot;: &quot;En savoir plus&quot; },
+  &quot;de&quot;: { &quot;read_more&quot;: &quot;Mehr lesen&quot; }
+}</pre>
+
+<p>Published sites will display the language selected from the language theme <a href="http://help.koken.me/customer/en/portal/articles/828692-settings">setting</a>.</p>
+
+<pre class="prettyprint">
+&quot;Language&quot;: {
+  &quot;icon&quot;: &quot;info&quot;,
+  &quot;settings&quot;: {
+    &quot;language&quot;: {
+      &quot;label&quot;: &quot;Language&quot;,
+      &quot;type&quot;: &quot;select&quot;,
+      &quot;options&quot;: [
+        { &quot;label&quot;: &quot;English&quot;, &quot;value&quot;: &quot;en&quot; },
+        { &quot;label&quot;: &quot;French&quot;, &quot;value&quot;: &quot;fr&quot; },
+        { &quot;label&quot;: &quot;German&quot;, &quot;value&quot;: &quot;de&quot; }
+      ],
+      &quot;value&quot;: &quot;en&quot;
+    }
+  }
+}</pre>
+
+<p>By using a <code>%s</code> placeholder and the collate <a href="#variable_transformations">variable transformer</a> you can merge a language variable with another variable&#39;s value.<br />
+<br />
+info.json</p>
+
+<pre class="prettyprint">
+&quot;read_title&quot;: &quot;read %s&quot;</pre>
+
+<p>template.lens</p>
+
+<pre class="prettyprint">&lt;h3&gt;{{ language.read_title collate=&quot;essay.title&quot; }}&lt;/h3&gt;</pre>
+
+<h2>Data variables</h2>
+
+<p>Data variables are used to render data loaded from a particular source (images, albums, essays, etc). See <a href="http://help.koken.me/customer/portal/articles/828688-lens-templates">templates</a> for an overview of which templates load each of the following data sources.</p>
+
+<h3>album <span class="labels"> </span></h3>
+
+<p>A single album or set.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;album.album_type&nbsp;}}</td>
+			<td>The album type. Values include &quot;standard&quot; and &quot;set&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.context.total&nbsp;}}</td>
+			<td>Total albums in the parent collection this album belongs to.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.context.position&nbsp;}}</td>
+			<td>Numerical index of album in relation to its parent collection.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.counts.total&nbsp;}}</td>
+			<td>Total number of items the album contains.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.counts.videos&nbsp;}}</td>
+			<td>Total number of videos the album contains.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.counts.images&nbsp;}}</td>
+			<td>Total number of images the album contains.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.tiny.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the tiny preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the small preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.medium.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the medium preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.medium_large.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the medium large preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.large.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the large preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.extra_large.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the extra large preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.covers.first.presets.huge.url&nbsp;}}</td>
+			<td>Absolute URL to an album&#39;s primary cover using the huge preset size.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.created_on&nbsp;}}</td>
+			<td>Date the album was created. <a href="#exampledate">Formatted example</a>.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.created_on.datetime&nbsp;}}</td>
+			<td>Date the album was created in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.created_on.timestamp&nbsp;}}</td>
+			<td>Date the album was created in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.description&nbsp;}}</td>
+			<td>The album&#39;s description.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.id&nbsp;}}</td>
+			<td>The album&#39;s internal ID.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.modified_on&nbsp;}}</td>
+			<td>Date the album was last modified. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.modified_on.datetime&nbsp;}}</td>
+			<td>Date the album was last modified in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.modified_on.timestamp&nbsp;}}</td>
+			<td>Date the album was last modified in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.published_on&nbsp;}}</td>
+			<td>Date the album was published. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.published_on.datetime&nbsp;}}</td>
+			<td>Date the album was published in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.published_on.timestamp&nbsp;}}</td>
+			<td>Date the album was published in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.public&nbsp;}}</td>
+			<td>Boolean for the album&#39;s visibility. Returns true if public, false if unlisted.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.rss&nbsp;}}</td>
+			<td>URL to the current album&#39;s RSS feed.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.summary&nbsp;}}</td>
+			<td>The album&#39;s summary.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.tags field=&quot;&quot; separator=&quot;&quot;&nbsp;}}</td>
+			<td>Outputs a list of all assigned tags. <code>field</code> (optional) is to use a tag property other than its title. <code>separator</code> (optional) inserts a character in-between each tag.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.title&nbsp;}}</td>
+			<td>The album&#39;s title.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;album.url&nbsp;}}</td>
+			<td>Absolute site url for the album.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>archives</h3>
+
+<p>List of all categories, tags and dates plus previews of all assigned content.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;archive.title&nbsp;}}</td>
+			<td>Title of the archive&#39;s criteria. E.g., &quot;Portrait&quot; when viewing items in the Portrait category.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;archive.type&nbsp;}}</td>
+			<td>Type of archive data loaded. E.g., &quot;tag&quot;, &quot;category&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;archive.type.plural&nbsp;}}</td>
+			<td>Type of archive data loaded in plural form. E.g., &quot;Tags&quot;.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;archive.type.singular&nbsp;}}</td>
+			<td>Type of archive data loaded in singular form. E.g, &quot;Tag&quot;.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>content <span class="labels"> </span></h3>
+
+<p>A single public or unlisted image/video.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;content.aspect_ratio&nbsp;}}</td>
+			<td>Returns the aspect ratio (width/height) of the original uploaded item (not always available for videos, depending on the server configuration).</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.caption&nbsp;}}</td>
+			<td>The content&#39;s caption.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.captured_on&nbsp;}}</td>
+			<td>Date the image was captured. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.captured_on.datetime&nbsp;}}</td>
+			<td>Date the image was captured in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.captured_on.timestamp&nbsp;}}</td>
+			<td>Captured on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.context.total&nbsp;}}</td>
+			<td>Total items in the content&#39;s parent collection.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.context.position&nbsp;}}</td>
+			<td>Numerical index of content in its parent collection.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.duration&nbsp;}}</td>
+			<td>Length of a video (e.g, &quot;4:20&quot;)</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.id&nbsp;}}</td>
+			<td>Content&#39;s internal ID.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.is_cover&nbsp;}}</td>
+			<td>Boolean for whether an image is assigned as a collection&#39;s cover. Returns value in context of collections only.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.is_cover_primary&nbsp;}}</td>
+			<td>Boolean for whether an image is assigned as a collection&#39;s primary (first) cover. Returns value in context of collections only.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.favorite&nbsp;}}</td>
+			<td>Boolean for whether the content is marked as a favorite.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.featured&nbsp;}}</td>
+			<td>Boolean for whether the content is marked as featured.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.filename&nbsp;}}</td>
+			<td>Content&#39;s original filename.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.filename.clean&nbsp;}}</td>
+			<td>Content&#39;s original filename stripped of its file suffix and hyphens/underscores replaced with spaces.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.filesize&nbsp;}}</td>
+			<td>Content&#39;s original file size (in bytes).</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.file_type&nbsp;}}</td>
+			<td>Returns the content&#39;s type (&quot;image&quot;, &quot;video&quot;).</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.geolocation.latitude&nbsp;}}</td>
+			<td>Returns latitude data from an image&#39;s geolocation.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.geolocation.longitude&nbsp;}}</td>
+			<td>Returns longitude data from an image&#39;s geolocation.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.height&nbsp;}}</td>
+			<td>Returns the height of the original uploaded item (not always available for videos, depending on the server configuration).</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.license.clean&nbsp;}}</td>
+			<td>Ready to print string representation of the license (All rights reserved, Creative Commons, etc).</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.license.raw&nbsp;}}</td>
+			<td>Shorthand notation for content&#39;s license (all, y,n, y,s, etc).</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.modified_on&nbsp;}}</td>
+			<td>Date the content was last modified. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.modified_on.datetime&nbsp;}}</td>
+			<td>Modified on date in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.modified_on.timestamp&nbsp;}}</td>
+			<td>Modified on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.published_on&nbsp;}}</td>
+			<td>Date the content was published. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.published_on.datetime&nbsp;}}</td>
+			<td>Date the content was published in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.published_on.timestamp&nbsp;}}</td>
+			<td>Date the content was published in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.extra_large.url&nbsp;}}</td>
+			<td>Absolute URL to the extra large preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.huge.url&nbsp;}}</td>
+			<td>Absolute URL to the huge preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.large.url&nbsp;}}</td>
+			<td>Absolute URL to the large preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.medium.url&nbsp;}}</td>
+			<td>Absolute URL to the medium preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.medium_large.url&nbsp;}}</td>
+			<td>Absolute URL to the medium large preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.small.url&nbsp;}}</td>
+			<td>Absolute URL to the small preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.presets.tiny.url&nbsp;}}</td>
+			<td>Absolute URL to the tiny preset image.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.public&nbsp;}}</td>
+			<td>Boolean for the content&#39;s visibility. Returns true if public, false if unlisted.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.source.title&nbsp;}}</td>
+			<td>Displays the third party service name if content was imported. E.g., &quot;Instagram&quot;, &quot;Vimeo&quot;, etc. Nothing is returned if content was uploaded directly.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.source.url&nbsp;}}</td>
+			<td>Displays the third party service url if content was imported. E.g., &quot;http://instagram.com/p/1234&quot;. Nothing is returned if content was uploaded directly.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.tags field=&quot;&quot; separator=&quot;&quot;&nbsp;}}</td>
+			<td>Outputs a list of all assigned tags. <code>field</code> (optional) is to use a tag property other than its title. <code>separator</code> (optional) inserts a character in-between each tag.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.title&nbsp;}}</td>
+			<td>The content&#39;s title.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.uploaded_on&nbsp;}}</td>
+			<td>Date the content was uploaded. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.uploaded_on.datetime&nbsp;}}</td>
+			<td>Uploaded on date in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.uploaded_on.timestamp&nbsp;}}</td>
+			<td>Uploaded on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.url&nbsp;}}</td>
+			<td>Absolute site url for the content.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;content.width&nbsp;}}</td>
+			<td>Returns the width of the original uploaded item (not always available for videos, depending on the server configuration).</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>essay <span class="labels"> </span></h3>
+
+<p>A single essay.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;essay.content&nbsp;}}</td>
+			<td>Body of the essay.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.created_on&nbsp;}}</td>
+			<td>Date the essay was created. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.created_on.datetime&nbsp;}}</td>
+			<td>Created on date in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.created_on.timestamp&nbsp;}}</td>
+			<td>Created on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.excerpt&nbsp;}}</td>
+			<td>Returns first 255 characters after all HTML removed.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.featured&nbsp;}}</td>
+			<td>Boolean for whether the essay is marked as featured.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.id&nbsp;}}</td>
+			<td>The internal ID of the essay.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.modified_on&nbsp;}}</td>
+			<td>Date the essay was last modified. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.modified_on.datetime&nbsp;}}</td>
+			<td>Modified on date in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.modified_on.timestamp&nbsp;}}</td>
+			<td>Modified on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.published_on&nbsp;}}</td>
+			<td>Date the essay was published. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.published_on.datetime&nbsp;}}</td>
+			<td>Date the essay was published in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.published_on.timestamp&nbsp;}}</td>
+			<td>Date the essay was published in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.tags field=&quot;&quot; separator=&quot;&quot;&nbsp;}}</td>
+			<td>Outputs a list of all assigned tags. <code>field</code> (optional) is to use a tag property other than its title. <code>separator</code> (optional) inserts a character in-between each tag.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.title&nbsp;}}</td>
+			<td>Title of the essay.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;essay.url&nbsp;}}</td>
+			<td>Absolute site url for the essay.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>event <span class="labels"> </span></h3>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;event.title&nbsp;}}</td>
+			<td>Used in calendar archive templates to display the type of archive being viewed (date, tag, category).</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>page</h3>
+
+<p>A single custom page.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Variable</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{&nbsp;page.content&nbsp;}}</td>
+			<td>Body of the page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.created_on&nbsp;}}</td>
+			<td>Date the page was created. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.created_on.datetime&nbsp;}}</td>
+			<td>Created on date in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.created_on.timestamp&nbsp;}}</td>
+			<td>Created on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.id&nbsp;}}</td>
+			<td>The internal ID of the page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.modified_on&nbsp;}}</td>
+			<td>Date the page was last modified. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.modified_on.datetime&nbsp;}}</td>
+			<td>Modified on date in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.modified_on.timestamp&nbsp;}}</td>
+			<td>Modified on date in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.published_on&nbsp;}}</td>
+			<td>Date the page was published. <a href="#exampledate">Formatted example</a></td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.published_on.datetime&nbsp;}}</td>
+			<td>Date the page was published in YYYY/MM/DD HH:MM:SS format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.published_on.timestamp&nbsp;}}</td>
+			<td>Date the page was published in UNIX timestamp format.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.title&nbsp;}}</td>
+			<td>Title of the page.</td>
+		</tr>
+		<tr>
+			<td>{{&nbsp;page.url&nbsp;}}</td>
+			<td>Absolute site url for the page.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Tag variables</h2>
+
+<p>Some template tags include their own variables. Those variables are formatted the same, but are only used with their parent tags so they&#39;re documented separately in <a href="http://help.koken.me/customer/portal/articles/828690-lens-tags">template tags</a>.</p>
+
+<p><a id="variable_transformations" name="variable_transformations"></a></p>
+
+<h2>Variable transformations</h2>
+
+<p>Variable output can be customized by adding the following attributes.</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Attribute</th>
+			<th>Type</th>
+			<th>Description</th>
+			<th>Default</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>autolink</td>
+			<td>Boolean</td>
+			<td>Converts any occurrence of &quot;http://&quot; found in a string to a hyperlink. Is automatically set to <code>true</code> when <code>paragraphs</code> (see below) is set to <code>true</code>.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>case</td>
+			<td>String</td>
+			<td>Modifies the string&rsquo;s character case. Options include &quot;upper&quot;, &quot;lower&quot;, &quot;title&quot; and &quot;sentence&quot;.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>collate</td>
+			<td>String</td>
+			<td>Merges one or more comma separated variables into a language <span style="line-height: 20.8px;">variable</span>. E.g., <code>&nbsp;{{ language.read_title collate=&#39;essay.title&#39; }}</code></td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>date_only</td>
+			<td>Boolean</td>
+			<td>Used when printing dates. When set to &ldquo;true&rdquo; the date is printed without the time stamp.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>date_format</td>
+			<td>String</td>
+			<td>Used when printing dates. Applies custom formatting to the date that&rsquo;s printed. Options replicate the <a href="http://us.php.net/manual/en/function.date.php">PHP date function</a>.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>html_encode</td>
+			<td>Boolean</td>
+			<td>Encodes any ampersands, double quotes, and/or carets found in the string to their HTML entity equivalent. For example, <code>&amp;</code> would be published as <code>&amp;</code>.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>if_true</td>
+			<td>String</td>
+			<td>Used with boolean variables. If the variable returns true, the value of <code>if_true</code> is printed. E.g., <code>&lt;article class=&quot;{{ essay.featured if_true=&quot;featured&quot;}}&quot;&gt;&lt;/article&gt;</code></td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>paragraphs</td>
+			<td>Boolean</td>
+			<td>Formats text as paragraphs when set to &ldquo;true&rdquo;. Line breaks create new paragraphs.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>strip_html</td>
+			<td>Boolean</td>
+			<td>Strips HTML elements from the string. Useful when publishing text in a place where HTML can&#39;t be included. When true the <code>html_encode</code> property is enabled.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>time_only</td>
+			<td>Boolean</td>
+			<td>Used when printing dates. When set to &ldquo;true&rdquo; the time stamp is printed without the date.</td>
+			<td>false</td>
+		</tr>
+		<tr>
+			<td>truncate</td>
+			<td>Number</td>
+			<td>Limits the returned string to a number of characters.</td>
+			<td>empty</td>
+		</tr>
+		<tr>
+			<td>url_encode</td>
+			<td>Boolean</td>
+			<td>Encodes the string for url compatibility.</td>
+			<td>false</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Examples</strong></p>
+
+<p>In this example we truncate an album&#39;s description to a maximum of 100 characters.</p>
+
+<pre class="prettyprint">
+{{&nbsp;album.description truncate=&quot;100&quot;&nbsp;}}
+</pre>
+<a id="exampledate" name="exampledate"></a>
+
+<p>Here&#39;s an example that formats a date using the <code>date_format</code> attribute to display only the year. See <a href="http://us.php.net/manual/en/function.date.php" target="_blank">this PHP date function document</a> for other characters.</p>
+
+<pre class="prettyprint">
+{{&nbsp;content.modified_on date_format=&quot;Y&quot;&nbsp;}}
+</pre>
+
+<h2>Output a variable to JSON</h2>
+
+<p>For situations where you want to use Lens data in JavaScript, the <code>to_json</code> helper can be used to output arrays and objects to a JSON string.</p>
+
+<pre class="prettyprint">
+&lt;koken:load source=&quot;contents&quot; limit=&quot;10&quot; order_by=&quot;uploaded_on&quot;&gt;
+  &lt;script&gt;
+    var latest = {{ content.to_json }};
+  &lt;/script&gt;
+&lt;/koken:load&gt;
+</pre>
+
+<p>If you only need certain fields, you can specify those fields to speed things up and also keep your JavaScript objects smaller.</p>
+
+<pre class="prettyprint">
+&lt;koken:load source=&quot;contents&quot; limit=&quot;10&quot; order_by=&quot;uploaded_on&quot;&gt;
+  &lt;script&gt;
+    var latest = {{ content.to_json fields=&quot;title,caption,presets&quot; }};
+  &lt;/script&gt;
+&lt;/koken:load&gt;
+</pre>
+
+<h2>Fallback variables</h2>
+
+<p>If the value of a variable is empty you may designate a fallback variable to use instead. To do so you include both variables separated by a <code>|</code> character. The example below demonstrates how <code>{{ content.title }}</code> may fallback to <code>{{ content.filename }}</code> if <code>{{ content.title }}</code> is empty.</p>
+
+<pre class="prettyprint">
+{{ content.title | content.filename }}
+</pre>
+
+<h2>Adding, subtracting, multiplying and dividing variables</h2>
+
+<p>If you need to output a numerical value from two or more variables, you can do that by separating each variable with <code>*</code> (multiply), <code>/</code> (divide), <code>+</code> (add) or <code>-</code> (subtract). Example:</p>
+
+<pre class="prettyprint">
+&lt;koken:covers minimum=&quot;{{ settings.cols * settings.rows }}&quot;&gt;
+  &lt;koken:loop&gt;
+    &lt;koken:img /&gt;
+  &lt;koken:loop&gt;
+&lt;koken:load&gt;<font face="sans-serif, Arial, Verdana, Trebuchet MS"><span style="white-space: normal;">
+</span></font></pre>
+
+      </div>
+      
+      
+      <div id="rate_article_container" style="display:none;">
+	<div id="rate_article">
+		<div>
+			<a href="http://help.koken.me/customer/en/portal/articles/982033/rate?rating=1" class="rate_link" data-method="post" data-remote="true" rel="nofollow"> Yes </a>
+			<span>
+        I found this article helpful
+			</span>
+		</div>
+		<div class="rate-link-down">
+			<a href="http://help.koken.me/customer/en/portal/articles/982033/rate?rating=0" class="rate_link" data-method="post" data-remote="true" rel="nofollow"> No</a>
+			<span>
+        I did not find this article helpful
+			</span>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$.get('/customer/en/portal/articles/982033/is_rateable.json', function(json) {
+			if (json.is_rateable) {
+				$("#rate_article_container").show();
+			}
+		});
+	});
+</script>
+
+    
+    </div>
+  </div>
+  <!--
+  ***************
+  The following attribution needs to remain as is in terms of wording with the appropriate link back to desk.com as per our terms of service: http://www.desk.com/terms
+  If you would like, you may change the location or the styling to better match your site, but the content and the link must remain in the template and visible to end users.
+  ****************
+  -->
+  <div id='footer'>
+    <ul class="footer_nav">
+  <li>
+    <a href="http://koken.me">Koken.me home</a> 
+  </li>
+  <li>
+            <a href="https://twitter.com/intent/tweet?screen_name=koken" title="Koken on Twitter" onclick="window.open(this.href); return false;">Tweet us @Koken</a>
+          </li>
+<li>
+            <a href="http://facebook.com/kokencms" title="Follow us on Facebook" onclick="window.open(this.href); return false;">Facebook</a>
+          </li>
+  <li>
+    <a href="https://plus.google.com/+KokenMe" onclick="window.open(this.href); return false;">Google+</a>
+  </li>
+  <li>
+    <a href="http://blog.koken.me">Blog</a>
+  </li>
+</ul>
+
+&copy; 2013-4 Koken. All Rights Reserved.
+    <br/>
+    <a href='http://www.Desk.com'>Customer service software</a> powered by Desk.com
+  </div>
+</div>
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop()>319) {
+        $('#jump_head:hidden').stop(true, true).fadeIn();
+    } else {
+        $('#jump_head').stop(true, true).fadeOut();
+    }
+});
+</script><!--end:page_article-->
+
+<!--end:portal_body-->
+
+    
+  </div>
+</div>
+
+<!-- Facebook Like Button -->
+<div id="fb-root"></div>
+
+<!-- External Variables for Portal Header -->
+<div id="desk-external-variables-header" class="desk-external-variables">
+   <div id="read_only"></div>
+    <div id="site-default_mailbox">support@koken.me</div>
+  <div id="desk_javascript_host">http://assets0.desk.com/</div>
+  <div id="twitter_enabled">false</div>
+  <div id="twitter_username">koken</div>
+  <div id="system-snippets-loading">Loading</div>
+  <div id="system-snippets-seconds_ago">seconds ago</div>
+  <div id="system-snippets-a_minute_ago">a minute ago</div>
+  <div id="system-snippets-minutes_ago">minutes ago</div>
+  <div id="system-snippets-an_hour_ago">an hour ago</div>
+  <div id="system-snippets-hours_ago">hours ago</div>
+  <div id="system-snippets-a_day_ago">a day ago</div>
+  <div id="system-snippets-days_ago">days ago</div>
+  <div id="system-snippets-about">about</div>
+  <div id="enable_gs">false</div>
+  <div id="system-snippets-invalid_characters_found">Invalid characters found</div>
+  <div id="site-search_autocomplete_articles_url">/customer/en/portal/articles/autocomplete</div>
+  <div id="search-term"></div>
+  
+</div>
+
+<script type="text/javascript" src="http://assets0.desk.com/portal/desk.portal.shared.js"></script>
+<script type="text/javascript" src="http://assets0.desk.com/portal/desk.portal.header.js"></script>
+<script type="text/javascript" src="http://assets0.desk.com/portal/desk.portal.body.layout_footer.js"></script>
+
+<script>
+  $(function() {
+     prettyPrint();
+  
+     var pathname = (window.location.pathname);
+     if (pathname!="/") { 
+        $('#support-side ul li a').each(function() {
+          if ($(this).attr('href').indexOf(pathname) != -1)
+          {
+             $(this).addClass('current');
+          }
+        });
+     }
+
+     if($("#page_home").length > 0) {
+        $('main').addClass('page_home');
+      }
+  });
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36460516-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</main>
+
+
+	</body>
+</html>
